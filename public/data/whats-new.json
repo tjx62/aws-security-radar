@@ -1,7 +1,187 @@
 {
-  "lastUpdated": "2026-08-10T08:35:38.369Z",
+  "lastUpdated": "2026-08-11T08:23:39.206Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "5284955cf7497c11",
+      "title": "FLUX.2-small-decoder and gemma-4-12B-it models now available on Amazon SageMaker JumpStart",
+      "description": "Black Forest Labs' FLUX.2-small-decoder and Google's gemma-4-12B-it models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning efficient image generation decoding and unified multimodal understanding, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. FLUX.2-small-decoder is optimized for faster image decoding with lower VRAM usage in FLUX.2 image generation pipelines. It is a distilled VAE decoder that serves as a drop-in repla",
+      "descriptionHtml": "&lt;p&gt;Black Forest Labs' FLUX.2-small-decoder and Google's gemma-4-12B-it models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning efficient image generation decoding and unified multimodal understanding, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.&lt;/p&gt; \n&lt;p&gt;FLUX.2-small-decoder is optimized for faster image decoding with lower VRAM usage in FLUX.2 image generation pipelines. It is a distilled VAE decoder that serves as a drop-in replacement for the standard FLUX.2 decoder, delivering approximately 1.4× faster decoding speed at 1.4× lower VRAM consumption with minimal to zero quality loss. Benefits increase at higher resolutions where the decoder processes more pixels, making it ideal for production-grade image generation workloads at scale.&lt;/p&gt; \n&lt;p&gt;gemma-4-12B-it excels in unified multimodal understanding across text, image, and audio inputs with native support for function calling and agentic workflows. It features an encoder-free architecture where all modalities flow directly into a single decoder-only transformer, delivering performance nearing Google's larger 26B MoE model at less than half the memory footprint. Compact enough to run on 16GB of RAM, it enables powerful multimodal and agentic experiences for enterprise deployments.&lt;/p&gt; \n&lt;p&gt;With SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.&lt;/p&gt; \n&lt;p&gt;To get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/flux.2-small-decoder-gemma-4-12B-it-on-sagemaker-jumpstart/",
+      "publishedAt": "2026-08-10T23:08:00.000Z",
+      "updatedAt": "2026-08-10T23:08:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Aiml",
+        "Amazon Sagemaker Jumpstart"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "aiml",
+        "amazon sagemaker jumpstart",
+        "sagemaker"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "64a83f0fd59cd2aa",
+      "title": "langcache-embed-v3-small, Mellum2-12B-A2.5B-Thinking, and LightOnOCR-2-1B models now available on Amazon SageMaker JumpStart",
+      "description": "Redis's langcache-embed-v3-small, JetBrains' Mellum2-12B-A2.5B-Thinking, and LightOn's LightOnOCR-2-1B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning semantic caching optimization, code-focused reasoning, and end-to-end document OCR, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. langcache-embed-v3-small is optimized for semantic caching in LLM applications. It maps sentences and paragraphs into a dense vector ",
+      "descriptionHtml": "&lt;p&gt;Redis's langcache-embed-v3-small, JetBrains' Mellum2-12B-A2.5B-Thinking, and LightOn's LightOnOCR-2-1B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning semantic caching optimization, code-focused reasoning, and end-to-end document OCR, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.&lt;/p&gt; \n&lt;p&gt;langcache-embed-v3-small is optimized for semantic caching in LLM applications. It maps sentences and paragraphs into a dense vector space purpose-built for identifying semantically equivalent queries regardless of phrasing, enabling intelligent cache hits that reduce redundant LLM calls and accelerate response times in high-volume inference workloads.&lt;/p&gt; \n&lt;p&gt;Mellum2-12B-A2.5B-Thinking excels in code generation, debugging, multi-step reasoning, and agentic coding workflows. It uses a Mixture-of-Experts architecture (64 experts, 8 activated per token), activating only 2.5B of its 12B total parameters per forward pass with a 131,072-token context length. It emits explicit chain-of-thought reasoning traces before final answers, delivering high-throughput, low-latency inference ideal for routing, RAG, sub-agents, and private deployments.&lt;/p&gt; \n&lt;p&gt;LightOnOCR-2-1B provides end-to-end multilingual document-to-text conversion for PDFs, scans, and images without brittle OCR pipelines. This 1B-parameter vision-language model directly transduces page images into clean, naturally ordered text, achieving state-of-the-art performance on OlmOCR-Bench while being ~9× smaller and significantly faster than competing approaches.&lt;/p&gt; \n&lt;p&gt;With SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.&lt;br&gt; &lt;br&gt; To get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/langcache-embed-v3-small-mellum2-12B-A2.5B-thinking-lightOnOCR-2-1B-on-sagemaker-jumpstart/",
+      "publishedAt": "2026-08-10T23:05:00.000Z",
+      "updatedAt": "2026-08-10T23:05:00.000Z",
+      "categories": [
+        "Aiml",
+        "Amazon Sagemaker Jumpstart",
+        "Artificial Intelligence"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "aiml",
+        "amazon sagemaker jumpstart",
+        "artificial intelligence",
+        "sagemaker"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "cce3e2d7c746e205",
+      "title": "Amazon EC2 High Memory U7i instances now available in AWS South America (São Paulo) region",
+      "description": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS South America (São Paulo) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids). U7in-24TB instances offer 24 TiB of DDR5 memory, enabling customers to scale transaction processing throughput in a fast-growing data environment. U7in-24TB instances deliver 896 vCPUs and support up to 100 Gbps of Amazon EBS bandwidth for faster data loading and backups, 200 Gbps of network bandwidth, and ENA Express. U7i instance",
+      "descriptionHtml": "&lt;p&gt;Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS South America (São Paulo) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids). U7in-24TB instances offer 24 TiB of DDR5 memory, enabling customers to scale transaction processing throughput in a fast-growing data environment.&lt;/p&gt; \n&lt;p&gt;U7in-24TB instances deliver 896 vCPUs and support up to 100 Gbps of Amazon EBS bandwidth for faster data loading and backups, 200 Gbps of network bandwidth, and ENA Express. U7i instances are ideal for customers running mission-critical in-memory databases like SAP HANA, Oracle, and SQL Server.&lt;/p&gt; \n&lt;p&gt;To learn more about U7i instances, visit the &lt;a href=\"https://aws.amazon.com/ec2/instance-types/u7i/\"&gt;High Memory instances page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-south-america",
+      "publishedAt": "2026-08-10T23:02:00.000Z",
+      "updatedAt": "2026-08-10T23:02:00.000Z",
+      "categories": [
+        "Compute",
+        "Amazon Ec2"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "compute",
+        "amazon ec2",
+        "ec2"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "95e81a4a3bbc1bab",
+      "title": "GLM-5.2 FP8, NVIDIA-Nemotron-Nano-12B-v2 and GLM-OCR models now available on Amazon SageMaker JumpStart",
+      "description": "Z.ai's GLM-5.2 FP8, NVIDIA's Nemotron-Nano-12B-v2, and Z.ai's GLM-OCR models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning long-horizon agentic engineering, efficient hybrid reasoning, and advanced document understanding, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. GLM-5.2 FP8 is optimized for long-horizon tasks and agentic engineering workflows such as full-cycle software development from requirements to deployme",
+      "descriptionHtml": "&lt;p&gt;Z.ai's GLM-5.2 FP8, NVIDIA's Nemotron-Nano-12B-v2, and Z.ai's GLM-OCR models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning long-horizon agentic engineering, efficient hybrid reasoning, and advanced document understanding, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.&lt;/p&gt; \n&lt;p&gt;GLM-5.2 FP8 is optimized for long-horizon tasks and agentic engineering workflows such as full-cycle software development from requirements to deployment. It delivers a substantial leap in long-horizon task capability over its predecessor GLM-5.1 and, for the first time, provides a truly usable 1M-token context window, enabling it to handle project-level engineering context, execute long-running tasks reliably, follow engineering standards consistently, and complete full development workflows in a single task.&lt;/p&gt; \n&lt;p&gt;NVIDIA-Nemotron-Nano-12B-v2 excels in unified reasoning and non-reasoning tasks with high inference throughput, making it ideal for enterprise applications requiring both accuracy and efficiency. It uses a hybrid Mamba-2 and Transformer architecture with a 128K context length, generating reasoning traces before concluding with final responses. Its compact 12B parameter design achieves comparable or better accuracy than leading open models while delivering up to 6x higher inference throughput.&lt;/p&gt; \n&lt;p&gt;GLM-OCR provides accurate, fast, and comprehensive document understanding for complex real-world materials including scanned PDFs, handwritten notes, dense academic papers with formulas, multi-column tables, code documentation, and multilingual text. This 0.9B-parameter multimodal model reconstructs structure, tables, and formulas into clean Markdown, JSON, or LaTeX, with latency low enough for real-time services and edge devices—ideal for large-scale document processing and invoice extraction workflows.&lt;/p&gt; \n&lt;p&gt;With SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.&lt;/p&gt; \n&lt;p&gt;To get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/glm-5.2-fp8-nemotron-nano-12b-v2-glm-ocr-on-sagemaker-jumpstart/",
+      "publishedAt": "2026-08-10T23:02:00.000Z",
+      "updatedAt": "2026-08-10T23:02:00.000Z",
+      "categories": [
+        "Aiml",
+        "Amazon Sagemaker Jumpstart",
+        "Artificial Intelligence"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "aiml",
+        "amazon sagemaker jumpstart",
+        "artificial intelligence",
+        "sagemaker"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "ccd5971706d845ce",
+      "title": "Amazon GameLift Streams Now Offers Service-managed Shader Caching",
+      "description": "Amazon GameLift Streams now manages shader cache capture and distribution for your applications. You capture a shader cache from a stream session, and the service automatically makes it available for future sessions across your streaming locations. No application changes are required. Capturing shader caches can help reduce loading times and visual stuttering, during the session. With service-managed shader caching, you designate a stream session for capture and run your application to generate the cache. Amazon GameLift Streams then replicates the cache to compatible stream groups and locatio",
+      "descriptionHtml": "&lt;p&gt;Amazon GameLift Streams now manages shader cache capture and distribution for your applications. You capture a shader cache from a stream session, and the service automatically makes it available for future sessions across your streaming locations. No application changes are required.&lt;br&gt; &lt;br&gt; Capturing shader caches can help reduce loading times and visual stuttering, during the session. With service-managed shader caching, you designate a stream session for capture and run your application to generate the cache. Amazon GameLift Streams then replicates the cache to compatible stream groups and locations, and loads it automatically in future sessions.&lt;br&gt; &lt;br&gt; You can monitor shader cache status and storage size using the &lt;a href=\"https://docs.aws.amazon.com/gameliftstreams/latest/apireference/API_ListApplicationShaderCaches.html\"&gt;ListApplicationShaderCaches API&lt;/a&gt; or the Amazon GameLift Streams console. The feature supports Linux (Ubuntu 22.04), Proton, and Windows Server 2022 runtimes.&lt;br&gt; &lt;br&gt; You are charged for storage of the latest version of each shader cache. For pricing details, visit the &lt;a href=\"https://aws.amazon.com/gamelift/streams/pricing/\"&gt;Amazon GameLift Streams pricing page&lt;/a&gt;. For supported Regions, see the &lt;a href=\"https://docs.aws.amazon.com/gameliftstreams/latest/developerguide/regions-quotas-rande.html\"&gt;AWS Region table&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/Amazon-GameLift-Streams-Shader-Caching/",
+      "publishedAt": "2026-08-10T21:15:00.000Z",
+      "updatedAt": "2026-08-10T21:15:00.000Z",
+      "categories": [
+        "Game Development",
+        "Amazon Gamelift",
+        "Gaming"
+      ],
+      "services": [],
+      "tags": [
+        "game development",
+        "amazon gamelift",
+        "gaming"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "d79ba74f5c4fb426",
+      "title": "Amazon EC2 introduces application status checks",
+      "description": "Amazon EC2 introduces application status checks, a new status check that helps customers detect and respond to application-level issues on their EC2 instances. With application status checks, EC2 monitors applications to detect issues such as a web server that has stopped accepting requests, a Docker daemon that is not running, an incorrect networking configuration, or a network interface that is no longer passing traffic. Customers rely on EC2 status checks today to receive alerts when an instance or the underlying system is unreachable. However, to monitor application issues, customers had t",
+      "descriptionHtml": "&lt;p&gt;Amazon EC2 introduces application status checks, a new status check that helps customers detect and respond to application-level issues on their EC2 instances. With application status checks, EC2 monitors applications to detect issues such as a web server that has stopped accepting requests, a Docker daemon that is not running, an incorrect networking configuration, or a network interface that is no longer passing traffic.&lt;/p&gt; \n&lt;p&gt;Customers rely on EC2 status checks today to receive alerts when an instance or the underlying system is unreachable. However, to monitor application issues, customers had to build and maintain their own monitoring solution. Now, with application status checks customers can monitor the status of their applications running on EC2 instances alongside existing EC2 instance and system status checks. Customers create a check by specifying the protocol, port, and path to monitor, along with the response codes that indicate a healthy application. After customers associate the check with their instances by instance ID or tag, Amazon EC2 sends HTTP or HTTPS requests to that port and path and reports on the application’s status every 60 seconds. Auto Scaling groups act on application status, initiating recovery by replacing instances when their applications report unhealthy.&lt;/p&gt; \n&lt;p&gt;Application status checks are available in all commercial AWS Regions and AWS GovCloud (US) Regions.&lt;/p&gt; \n&lt;p&gt;To get started with application status checks and review pricing, see the &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/application-status-checks.html\"&gt;Amazon EC2 User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-application-status-checks",
+      "publishedAt": "2026-08-10T17:47:00.000Z",
+      "updatedAt": "2026-08-10T17:47:00.000Z",
+      "categories": [
+        "Amazon Ec2",
+        "Compute"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "amazon ec2",
+        "compute",
+        "ec2"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "5a895e12b3367bbc",
+      "title": "Amazon OpenSearch Serverless now supports up to 10,000 collections per collection group",
+      "description": "The next generation of Amazon OpenSearch Serverless now supports up to 10,000 collections within a single collection group, increased from the previous limit of 1,500. Collection groups organize multiple collections and enable them to share OpenSearch Compute Units (OCUs), even when the collections are encrypted with different AWS KMS keys. With this higher limit, you can consolidate significantly more collections into a single collection group and manage them under a shared set of capacity limits. Customers use collection groups to reduce costs by sharing compute across many collections rathe",
+      "descriptionHtml": "&lt;p&gt;The next generation of Amazon OpenSearch Serverless now supports up to 10,000 collections within a single collection group, increased from the previous limit of 1,500. Collection groups organize multiple collections and enable them to share OpenSearch Compute Units (OCUs), even when the collections are encrypted with different AWS KMS keys. With this higher limit, you can consolidate significantly more collections into a single collection group and manage them under a shared set of capacity limits.&lt;/p&gt; \n&lt;p&gt;Customers use collection groups to reduce costs by sharing compute across many collections rather than provisioning separate OCUs for each KMS key, while still maintaining collection-level security and access controls. As customer workloads have grown, particularly for multi-tenant applications that provision a collection per tenant, the previous limit of 1,500 collections per group constrained how many tenants could benefit from a shared compute pool. Raising the limit to 10,000 collections on the next generation of Amazon OpenSearch Serverless lets you scale these workloads further, improve compute utilization, and lower per-collection cost, without creating and operating additional collection groups. The higher limit applies automatically to new and existing nextgen collection groups.&lt;/p&gt; \n&lt;p&gt;The increased limit is available on the next generation of Amazon OpenSearch Serverless in all AWS Regions where it is &lt;a href=\"https://docs.aws.amazon.com/general/latest/gr/opensearch-service.html\"&gt;available&lt;/a&gt;. To learn more, see Amazon OpenSearch Serverless&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-create.html#serverless-create-nextgen-easy\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;technical documentation&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/general/latest/gr/opensearch-service.html#opensearch-limits-serverless\"&gt;quotas&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/",
+      "publishedAt": "2026-08-10T15:51:00.000Z",
+      "updatedAt": "2026-08-10T15:51:00.000Z",
+      "categories": [
+        "Analytics",
+        "Serverless",
+        "Amazon Opensearch Service"
+      ],
+      "services": [
+        "OpenSearch"
+      ],
+      "tags": [
+        "analytics",
+        "serverless",
+        "amazon opensearch service",
+        "opensearch"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "92e2674f3a7660ae",
+      "title": "AWS Elastic Disaster Recovery now preserves UEFI boot mode for Linux servers",
+      "description": "AWS Elastic Disaster Recovery (AWS DRS) now preserves UEFI boot mode when recovering Linux source servers that boot with UEFI firmware. Previously, DRS launched these Linux servers in legacy BIOS mode, which could require extra configuration after recovery. Now your recovered Linux instances launch with the same UEFI boot mode as your source servers. This means your recovery instances more closely match your source environment, so applications that depend on UEFI boot behavior come back exactly as you expect — with no additional post-recovery steps. Boot mode preservation is automatic, with no",
+      "descriptionHtml": "&lt;p&gt;AWS Elastic Disaster Recovery (AWS DRS) now preserves UEFI boot mode when recovering Linux source servers that boot with UEFI firmware. Previously, DRS launched these Linux servers in legacy BIOS mode, which could require extra configuration after recovery. Now your recovered Linux instances launch with the same UEFI boot mode as your source servers. This means your recovery instances more closely match your source environment, so applications that depend on UEFI boot behavior come back exactly as you expect — with no additional post-recovery steps. Boot mode preservation is automatic, with nothing to configure.&lt;/p&gt; \n&lt;p&gt;This capability is available in all AWS Regions where AWS DRS is offered, at no additional cost. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/drs/latest/userguide/what-is-drs.html\"&gt;AWS Elastic Disaster Recovery User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-drs-linux-uefi",
+      "publishedAt": "2026-08-10T13:00:00.000Z",
+      "updatedAt": "2026-08-10T13:00:00.000Z",
+      "categories": [
+        "AWS Elastic Disaster Recovery",
+        "Storage"
+      ],
+      "services": [],
+      "tags": [
+        "aws elastic disaster recovery",
+        "storage"
+      ],
+      "isNew": true
+    },
     {
       "id": "6b6506655b63801a",
       "title": "Amazon EC2 R8i and R8i-Flex instances are now available in Europe (Milan) region",
@@ -1119,7 +1299,7 @@
         "databases",
         "rds"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b50c37ce89a26a61",
@@ -1141,7 +1321,7 @@
         "databases",
         "rds"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bc20f9e57e92629a",
@@ -1165,7 +1345,7 @@
         "rds",
         "cloudwatch"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "83b518091fc30b87",
@@ -1188,7 +1368,7 @@
         "application services",
         "migration"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "687de87a94457ad5",
@@ -1210,7 +1390,7 @@
         "amazon bedrock",
         "bedrock"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3316cdfca8305350",
@@ -1223,7 +1403,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "47256a9da8463c45",
@@ -1247,7 +1427,7 @@
         "amazon sagemaker studio",
         "sagemaker"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5e4a96fa671e4063",
@@ -1264,7 +1444,7 @@
       "tags": [
         "artificial intelligence"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "23f7d30855f0c2e7",
@@ -1286,7 +1466,7 @@
         "management and governance",
         "resilience hub"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "40937c2a54766eb3",
@@ -1306,7 +1486,7 @@
         "management and governance",
         "organizations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d55d7dfcd98446ec",
@@ -1325,7 +1505,7 @@
         "lambda",
         "sqs"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8ec9fed2831da72b",
@@ -1349,7 +1529,7 @@
         "compute",
         "ec2"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "baf06f04b6c9eafb",
@@ -1371,7 +1551,7 @@
         "amazon sagemaker",
         "sagemaker"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f0fef1c898b69006",
@@ -1401,7 +1581,7 @@
         "artificial intelligence",
         "aurora"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a7c00efc2bcb869e",
@@ -1423,7 +1603,7 @@
         "security identity and compliance",
         "waf"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bc7cfe2d6e87cdf9",
@@ -1447,7 +1627,7 @@
         "containers",
         "ecr"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3ef0e43484f81715",
@@ -1469,7 +1649,7 @@
         "management and governance",
         "config"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "84d8c372fdacdc40",
@@ -10928,195 +11108,6 @@
         "amazon ec2",
         "ec2",
         "ebs"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "0459eeaf507c6314",
-      "title": "AWS announces Claude Fable 5, the first generally available Mythos-class model",
-      "description": "Updated on June, 12, 2026 - Claude Fable 5 and Claude Mythos 5 on Amazon Bedrock access unavailable. To support compliance with the US Government export control directive, Anthropic has asked AWS to revoke access to Claude Fable 5 and Claude Mythos 5 for all users. All other models, including Opus4.8, are not affected and you can continue using them in full confidence. Please view the Anthropic statement for further details. --------------------------------------------------------------------------------------------------------------------------------- Claude Fable 5 is generally available on ",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Updated on June, 12, 2026&lt;/b&gt; - Claude Fable 5 and Claude Mythos 5 on Amazon Bedrock access unavailable.&lt;br&gt; To support compliance with the US Government export control directive, Anthropic has asked AWS to revoke access to Claude Fable 5 and Claude Mythos 5 for all users. All other models, including Opus4.8, are not affected and you can continue using them in full confidence. Please view the &lt;a href=\"https://www.anthropic.com/news/fable-mythos-access\"&gt;Anthropic statement&lt;/a&gt; for further details.&lt;/p&gt; \n&lt;p&gt;---------------------------------------------------------------------------------------------------------------------------------&lt;/p&gt; \n&lt;p&gt;Claude Fable 5 is generally available on AWS and makes Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use. Fable 5 is state-of-the-art on nearly all tested benchmarks and delivers a step-change in autonomous knowledge work and coding for developers and enterprises building production AI applications. Claude Mythos 5, the same model without those safety classifiers, is available to a small group of customers who currently have access to Claude Mythos Preview.&lt;/p&gt; \n&lt;p&gt;Claude Fable 5 can run for extended periods on complex knowledge work and coding tasks without intervention, representing a fundamental shift in the types of problems customers can solve with AI. It is built for professional tasks in finance, legal, marketing, sales, data, and engineering — proactively self-updating skills based on learnings, developing its own evaluation harnesses, and verifying its work before delivery.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Customers have two ways to access Claude Fable 5: Amazon Bedrock and Claude Platform on AWS. Amazon Bedrock keeps your data within AWS infrastructure and provides access to Claude Fable 5 through a unified service with AWS-managed features like Guardrails, Knowledge Bases, and regional data residency. To learn more, see Amazon Bedrock &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html#model-regions-anthropic\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;regional availability&lt;/a&gt;.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Claude Platform on AWS, operated by Anthropic, gives you direct access to Anthropic's native Claude platform experience with unified AWS billing and authentication. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/claude-platform/latest/userguide/welcome.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Claude Platform on AWS&lt;/a&gt; documentation.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-fable-5-aws/",
-      "publishedAt": "2026-06-09T14:15:00.000Z",
-      "updatedAt": "2026-06-09T14:15:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Amazon Bedrock"
-      ],
-      "services": [
-        "Bedrock",
-        "Claude"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "amazon bedrock",
-        "bedrock",
-        "claude"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "6f0e64510239d74e",
-      "title": "AWS Backup support for Amazon EKS is now available in the AWS European Sovereign Cloud (Germany) Region",
-      "description": "AWS Backup support for Amazon Elastic Kubernetes Service (EKS) is now available in the AWS European Sovereign Cloud (Germany) Region. This expansion brings fully-managed, policy-based data protection and recovery to your Amazon EKS clusters in this newly supported Region — including automated scheduling, retention management, immutable vaults, and cross-Region and cross-account copies. You can use AWS Backup for Amazon EKS to protect entire EKS clusters, specific namespaces, or individual persistent volumes using a centralized, agent-free solution that replaces custom scripts or third-party to",
-      "descriptionHtml": "&lt;p&gt;AWS Backup support for Amazon Elastic Kubernetes Service (EKS) is now available in the AWS European Sovereign Cloud (Germany) Region. This expansion brings fully-managed, policy-based data protection and recovery to your Amazon EKS clusters in this newly supported Region — including automated scheduling, retention management, immutable vaults, and cross-Region and cross-account copies.&lt;/p&gt; \n&lt;p&gt;You can use AWS Backup for Amazon EKS to protect entire EKS clusters, specific namespaces, or individual persistent volumes using a centralized, agent-free solution that replaces custom scripts or third-party tools. Use AWS Backup to protect your clusters for disaster recovery, compliance requirements, or before EKS cluster upgrades.&lt;/p&gt; \n&lt;p&gt;To get started, visit the &lt;a href=\"https://console.aws.amazon.com/backup\"&gt;AWS Backup console&lt;/a&gt;, refer to the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html\"&gt;AWS Backup documentation&lt;/a&gt;, or read the &lt;a href=\"https://aws.amazon.com/blogs/aws/secure-eks-clusters-with-the-new-support-for-amazon-eks-in-aws-backup/\"&gt;AWS News Blog&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-eks-aws-european-sovereign-cloud/",
-      "publishedAt": "2026-06-09T10:00:00.000Z",
-      "updatedAt": "2026-06-09T10:00:00.000Z",
-      "categories": [
-        "AWS Backup",
-        "Storage"
-      ],
-      "services": [
-        "EKS",
-        "Backup"
-      ],
-      "tags": [
-        "aws backup",
-        "storage",
-        "eks",
-        "backup"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "472b3f405a02517f",
-      "title": "Run Interactive Workloads on Amazon EMR Serverless with Spark Connect",
-      "description": "Amazon EMR Serverless now supports interactive sessions with Spark Connect, enabling you to develop and run Apache Spark applications from managed notebooks in Amazon SageMaker Unified Studio, as well as your favorite notebook environments and IDEs such as Jupyter and Visual Studio Code. You can also monitor and debug active and completed sessions in the EMR console, and get granular cost and usage visibility for individual sessions. An interactive session provides a persistent Spark context that seamlessly spans across cells and scripts, enabling you to blend local Python code execution with ",
-      "descriptionHtml": "&lt;p&gt;Amazon EMR Serverless now supports interactive sessions with Spark Connect, enabling you to develop and run Apache Spark applications from managed notebooks in Amazon SageMaker Unified Studio, as well as your favorite notebook environments and IDEs such as Jupyter and Visual Studio Code. You can also monitor and debug active and completed sessions in the EMR console, and get granular cost and usage visibility for individual sessions.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;An interactive session provides a persistent Spark context that seamlessly spans across cells and scripts, enabling you to blend local Python code execution with remote Spark operations within a unified environment. This is enabled by Spark Connect's client-server architecture, which decouples your application client from the Spark driver and allows you to maintain your preferred development environment and tooling while Spark infrastructure runs independently on EMR Serverless. This architecture unlocks workflows including ad hoc data exploration, iterative step-by-step debugging, and incremental PySpark job development before deploying to production.&amp;nbsp;&amp;nbsp;For observability, you get real-time session monitoring via the Spark UI, history tracking through the Spark History Server, and session management from the EMR console or API/CLI/SDK.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Spark Connect on Amazon EMR Serverless is available with EMR release 7.13 in all AWS Regions where Amazon EMR Serverless is available. The SageMaker Unified Studio experience is available in &lt;a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/supported-regions.html\" title=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/supported-regions.html\"&gt;supported regions&lt;/a&gt;. To get started, visit the &lt;a href=\"https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/spark-connect.html\"&gt;EMR Serverless Interactive Sessions User Guide&lt;/a&gt; or the &lt;a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/what-is-sagemaker-unified-studio.html\"&gt;Amazon SageMaker Unified Studio Getting Started guide.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-spark-connect",
-      "publishedAt": "2026-06-09T07:00:00.000Z",
-      "updatedAt": "2026-06-09T07:00:00.000Z",
-      "categories": [
-        "Analytics",
-        "Amazon Emr"
-      ],
-      "services": [
-        "EMR",
-        "Connect"
-      ],
-      "tags": [
-        "analytics",
-        "amazon emr",
-        "emr",
-        "connect"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "1cab8fd48e78311c",
-      "title": "AWS Cost Explorer launches intelligent cost explanations powered by Amazon Q",
-      "description": "AWS Cost Explorer now supports 'Analyze with Amazon Q', a new capability that delivers comprehensive cost explanations for any report you configure in Cost Explorer. With a single button click you now can receive detailed analysis from Amazon Q Developer covering your cost trends, top cost drivers, and anomalies. All analysis uses your exact filters and time-period and provides guidance to discover optimization opportunities through follow-up questions. Previously, cost analysis required manual investigation across multiple filters and data points. With 'Analyze with Amazon Q', you simply conf",
-      "descriptionHtml": "&lt;p&gt;AWS Cost Explorer now supports 'Analyze with Amazon Q', a new capability that delivers comprehensive cost explanations for any report you configure in Cost Explorer. With a single button click you now can receive detailed analysis from Amazon Q Developer covering your cost trends, top cost drivers, and anomalies. All analysis uses your exact filters and time-period and provides guidance to discover optimization opportunities through follow-up questions.&lt;/p&gt; \n&lt;p&gt;Previously, cost analysis required manual investigation across multiple filters and data points. With 'Analyze with Amazon Q', you simply configure your Cost Explorer view and click a single button. Amazon Q analyzes your current context and delivers explanations directly in its chat panel, adapting to what you're viewing: historical explanations for past dates, forecast explanations for future dates, or both for mixed periods. You can then ask follow-up questions to explore any insights related to your cost data in greater detail as Amazon Q maintains full conversation context throughout.&lt;/p&gt; \n&lt;p&gt;'Analyze with Amazon Q' is available in all commercial AWS Regions at no additional charge. To get started, visit the &lt;a href=\"https://console.aws.amazon.com/cost-management/home\"&gt;AWS Cost Explorer&lt;/a&gt; console, or view the &lt;a href=\"https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html\"&gt;user guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations",
-      "publishedAt": "2026-06-09T03:00:00.000Z",
-      "updatedAt": "2026-06-09T03:00:00.000Z",
-      "categories": [
-        "AWS Cost Explorer",
-        "Cost Management",
-        "Cloud Financial Management",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "Q",
-        "Cost Explorer"
-      ],
-      "tags": [
-        "aws cost explorer",
-        "cost management",
-        "cloud financial management",
-        "artificial intelligence",
-        "q",
-        "cost explorer"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "f8f6ade9bb392f40",
-      "title": "AWS Compute Optimizer now supports idle recommendations for six additional resource types",
-      "description": "AWS Compute Optimizer now identifies idle resources for Amazon DynamoDB provisioned tables, Amazon ElastiCache (Redis and Valkey), Amazon MemoryDB, Amazon DocumentDB (provisioned and serverless), Amazon WorkSpaces, and Amazon SageMaker endpoints. This expansion enables you to detect unused resources across more of your AWS environment and identify potential cost savings. Compute Optimizer analyzes utilization metrics to determine whether a resource is idle. Customers can set this lookback period based on the nature of their workloads. For each resource type, Compute Optimizer evaluates service",
-      "descriptionHtml": "&lt;p&gt;AWS Compute Optimizer now identifies idle resources for Amazon DynamoDB provisioned tables, Amazon ElastiCache (Redis and Valkey), Amazon MemoryDB, Amazon DocumentDB (provisioned and serverless), Amazon WorkSpaces, and Amazon SageMaker endpoints. This expansion enables you to detect unused resources across more of your AWS environment and identify potential cost savings.&lt;/p&gt; \n&lt;p&gt;Compute Optimizer analyzes utilization metrics to determine whether a resource is idle. Customers can set this lookback period based on the nature of their workloads. For each resource type, Compute Optimizer evaluates service-specific signals such as consumed capacity, cache hits, active connections, and CPU utilization. When Compute Optimizer identifies potential idle resources, it surfaces these recommendations, along with detailed utilization metrics and estimated savings in the console, enabling you to evaluate recommendations before acting. You can also view idle resource recommendations across all AWS accounts in your organization through the Cost Optimization Hub, with de-duplicated estimated savings with other recommendations on the same resources.&lt;/p&gt; \n&lt;p&gt;For more information about the AWS Regions where Compute Optimizer is available, see the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Region table&lt;/a&gt;. For more information about AWS Compute Optimizer, visit our &lt;a href=\"https://aws.amazon.com/compute-optimizer/\"&gt;product page&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-ec2-recommendations.html\"&gt;documentation&lt;/a&gt;. You can start using AWS Compute Optimizer through the AWS Management Console, AWS CLI, and AWS SDK.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-six-new-idle",
-      "publishedAt": "2026-06-08T21:00:00.000Z",
-      "updatedAt": "2026-06-08T21:00:00.000Z",
-      "categories": [
-        "Cost Management",
-        "AWS Compute Optimizer"
-      ],
-      "services": [],
-      "tags": [
-        "cost management",
-        "aws compute optimizer"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "ee82c8585761804c",
-      "title": "Amazon MSK Express Brokers now support automatic topic creation with Kafka Streams",
-      "description": "Effective today, Amazon MSK Express Brokers support automatic topic creation with Kafka Streams. Customers can now deploy their Kafka Streams applications on Express Brokers without needing to manually pre-create or manage topics for stateful operations. MSK Express Brokers are designed to deliver up to three times more throughput per broker, scale up to 20 times faster, and reduce recovery time by 90 percent. Kafka Streams uses topics to store state and repartition data for stateful operations. Previously, customers running Kafka Streams with Express Brokers had to manually name and pre-creat",
-      "descriptionHtml": "&lt;p&gt;Effective today, Amazon MSK Express Brokers support automatic topic creation with Kafka Streams. Customers can now deploy their Kafka Streams applications on Express Brokers without needing to manually pre-create&lt;b&gt; &lt;/b&gt;or manage topics for stateful operations.&lt;br&gt; &lt;br&gt; MSK Express Brokers are designed to deliver up to three times more throughput per broker, scale up to 20 times faster, and reduce recovery time by 90 percent. Kafka Streams uses topics to store state and repartition data for stateful operations. Previously, customers running Kafka Streams with Express Brokers had to manually name and pre-create these topics before deploying their application. With this launch, these topics are created automatically when the application starts, simplifying deployment and reducing operational setup for Kafka Streams applications on Express Brokers.&lt;br&gt; &lt;br&gt; This capability is available today in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS regions&lt;/a&gt; where MSK Express Brokers are available. No additional configuration or setup is required to get started. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/msk/latest/developerguide/getting-started.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon MSK Developer Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-msk-express-topic-support-kstreams/",
-      "publishedAt": "2026-06-08T19:36:00.000Z",
-      "updatedAt": "2026-06-08T19:36:00.000Z",
-      "categories": [
-        "Analytics",
-        "Amazon Msk"
-      ],
-      "services": [
-        "MSK",
-        "Kafka"
-      ],
-      "tags": [
-        "analytics",
-        "amazon msk",
-        "msk",
-        "kafka"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "cb3b9522f38231c8",
-      "title": "Amazon DocumentDB now supports engine minor version starting with 5.0.1",
-      "description": "Amazon DocumentDB (with MongoDB compatibility) now supports engine minor versions, starting with 5.0.1. This release delivers enhanced aggregation capabilities with new operators ($rand, $pow, $dateToParts, $dateFromParts), the active connections metric to monitor instances, and granular command-level performance metrics in CloudWatch (find, insert, findAndModify, update, etc.). For a full list of what's included, see release notes . Minor versions provide new features and bug fixes within the same major version, giving you more control over when and how you upgrade your clusters. We recommend",
-      "descriptionHtml": "&lt;p&gt;Amazon DocumentDB (with MongoDB compatibility) now supports engine minor versions, starting with 5.0.1. This release delivers enhanced aggregation capabilities with new operators ($rand, $pow, $dateToParts, $dateFromParts), the active connections metric to monitor instances, and granular command-level performance metrics in CloudWatch (find, insert, findAndModify, update, etc.). For a full list of what's included, see &lt;a href=\"https://docs.aws.amazon.com/documentdb/latest/developerguide/release-notes.html\"&gt;release notes&lt;/a&gt;. Minor versions provide new features and bug fixes within the same major version, giving you more control over when and how you upgrade your clusters. We recommend upgrading to the latest minor version to benefit from these performance enhancements, bug fixes, and new capabilities.&lt;br&gt; &lt;br&gt; You can specify minor version 5.0.1 when creating a new cluster, or manually upgrade an existing 5.0.0 cluster to 5.0.1 using the AWS Management Console or AWS CLI (via the modify-db-cluster command with --engine-version 5.0.1). Once you upgrade to a newer minor version, you cannot downgrade back to a previous minor version. Upgrading from 5.0.0 (LTS) to 5.0.1 gives you access to the latest features and fixes, but you will no longer be on the LTS track. If minimizing upgrades is your priority, you should remain on LTS. For more information, see &lt;a href=\"https://docs.aws.amazon.com/documentdb/latest/devguide/docdb-lts-release.html\"&gt;Using a long-term support (LTS) release&lt;/a&gt;.&lt;br&gt; &lt;br&gt; Amazon DocumentDB engine minor version 5.0.1 is available in all AWS Regions where Amazon DocumentDB 5.0 is available. Learn more about minor version upgrades and version support dates in the &lt;a href=\"https://docs.aws.amazon.com/documentdb/latest/developerguide/docdb-version-support-dates.html\"&gt;Amazon DocumentDB Developer Guide&lt;/a&gt;. Create or update a fully managed Amazon DocumentDB cluster in the &lt;a href=\"https://console.aws.amazon.com/docdb/\"&gt;Amazon DocumentDB Management Console&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-documentdb-engine-minor-version-5-0-1/",
-      "publishedAt": "2026-06-08T18:59:00.000Z",
-      "updatedAt": "2026-06-08T18:59:00.000Z",
-      "categories": [
-        "Amazon Documentdb",
-        "Databases"
-      ],
-      "services": [
-        "DocumentDB"
-      ],
-      "tags": [
-        "amazon documentdb",
-        "databases",
-        "documentdb"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "eee50801a6c92cbb",
-      "title": "Amazon CloudWatch Logs Insights adds 23 new query commands and functions",
-      "description": "Amazon CloudWatch Logs Insights query language now supports 23 new commands and functions that give you new ways to query, parse, transform, and analyze your logs. Customers analyzing logs in CloudWatch Logs Insights often need to do conditional processing, string conversions, process IP addresses, parse different file formats, and execute complex stats commands. With this launch, CloudWatch Logs Insights provides new hash functions (md5, sha256), string functions (strcontains supporting case-insensitive search, split), conditional logic (if statement), and conversion functions (toNumber, toIn",
-      "descriptionHtml": "&lt;p&gt;Amazon CloudWatch Logs Insights query language now supports 23 new commands and functions that give you new ways to query, parse, transform, and analyze your logs. Customers analyzing logs in CloudWatch Logs Insights often need to do conditional processing, string conversions, process IP addresses, parse different file formats, and execute complex stats commands.&lt;br&gt; &lt;br&gt; With this launch, CloudWatch Logs Insights provides new hash functions (md5, sha256), string functions (strcontains supporting case-insensitive search, split), conditional logic (if statement), and conversion functions (toNumber, toInt, toLong, toDouble). It also adds IP functions (ipv4ToNumber, isPrivateIP, isPublicIP, isReservedIP), analytics functions (rate, count_over_time, sum_over_time, offset, histogram), and parse functions (parse CSV, parse XML, parse multi, values, addtotals). Additionally, queries now support “limit any N” to fetch the first N results, and can use up to 10 stats commands.&lt;br&gt; &lt;br&gt; These commands and functions are available today in all commercial AWS Regions. To learn more, see the Amazon CloudWatch Logs &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_AnalyzeLogData_LogsInsights.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights-new/",
-      "publishedAt": "2026-06-08T17:50:00.000Z",
-      "updatedAt": "2026-06-08T17:50:00.000Z",
-      "categories": [
-        "Amazon Cloudwatch Logs",
-        "Amazon Cloudwatch",
-        "Management And Governance"
-      ],
-      "services": [
-        "CloudWatch"
-      ],
-      "tags": [
-        "amazon cloudwatch logs",
-        "amazon cloudwatch",
-        "management and governance",
-        "cloudwatch"
       ],
       "isNew": false
     }
