@@ -1,7 +1,147 @@
 {
-  "lastUpdated": "2026-08-12T08:32:13.878Z",
+  "lastUpdated": "2026-08-13T08:33:39.673Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "ad44211b89765116",
+      "title": "AWS Global View now offers an interactive map view for AWS Regions and AWS Local Zones",
+      "description": "Today, AWS announces the addition of an interactive map view to AWS Global View in the AWS Management Console, providing a visual way to explore AWS Global Infrastructure. Previously, customers had to scan through a list of AWS locations in AWS Global View. With this new capability, customers can toggle between the interactive map view and the existing list view, making it easier to visualize their global AWS infrastructure footprint. When customers select the map view, they will see all AWS Regions and AWS Local Zones plotted on an interactive map. This capability helps customers make informe",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces the addition of an interactive map view to AWS Global View in the AWS Management Console, providing a visual way to explore AWS Global Infrastructure.&lt;/p&gt; \n&lt;p&gt;Previously, customers had to scan through a list of AWS locations in AWS Global View. With this new capability, customers can toggle between the interactive map view and the existing list view, making it easier to visualize their global AWS infrastructure footprint.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;When customers select the map view, they will see all AWS Regions and AWS Local Zones plotted on an interactive map. This capability helps customers make informed infrastructure planning decisions by visualizing already enabled AWS locations and the full range of AWS locations available to them, all in a single glance.&lt;/p&gt; \n&lt;p&gt;This capability is available across all public AWS Regions. To get started, navigate to the Regions and Zones page in &lt;a href=\"https://us-east-1.console.aws.amazon.com/ec2globalview/home#RegionsAndZones\"&gt;AWS Global View&lt;/a&gt; console. For more information, see the &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/global-view.html\"&gt;AWS Global View&lt;/a&gt; documentation.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-global-view-map-view/",
+      "publishedAt": "2026-08-12T22:00:00.000Z",
+      "updatedAt": "2026-08-12T22:00:00.000Z",
+      "categories": [
+        "AWS Local Zones",
+        "Compute",
+        "Global Infrastructure",
+        "AWS Management Console"
+      ],
+      "services": [
+        "Local Zones"
+      ],
+      "tags": [
+        "aws local zones",
+        "compute",
+        "global infrastructure",
+        "aws management console",
+        "local zones"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "896ba0afeaa46f93",
+      "title": "AWS IAM now provides role manager to set up IAM roles automatically",
+      "description": "Today, AWS announces the general availability of role manager, a capability in AWS Identity and Access Management (IAM) that automatically sets up the IAM roles your AWS services need. When you set up a supported service in the console, role manager creates a default role on your behalf, or reuses one that already exists in your account if it already matches the required permissions. You can enable or disable role manager at any time, as well as inspect the AWS-managed templates that role manager deploys on your behalf. Role manager supports 6 AWS service consoles at launch, including AWS Lamb",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces the general availability of role manager, a capability in AWS Identity and Access Management (IAM) that automatically sets up the IAM roles your AWS services need. When you set up a supported service in the console, role manager creates a default role on your behalf, or reuses one that already exists in your account if it already matches the required permissions. You can enable or disable role manager at any time, as well as inspect the AWS-managed templates that role manager deploys on your behalf.&lt;/p&gt; \n&lt;p&gt;Role manager supports 6 AWS service consoles at launch, including AWS Lambda and Amazon EventBridge. For example, when you create an AWS Lambda function, role manager applies the AWS-managed template for that workflow. Roles created via role manager appear in the IAM console as standard IAM roles that you fully control, and you can identify the ones role manager created. When you are ready to tighten permissions, you can disable role manager and use IAM Access Analyzer to refine each role to only the permissions it needs.&lt;/p&gt; \n&lt;p&gt;Role manager is available in all AWS Regions, except the AWS GovCloud (US) Regions and the China Regions.&lt;/p&gt; \n&lt;p&gt;To learn more, see &lt;a href=\"https://aws.amazon.com/blogs/security/how-aws-iam-role-manager-rethinks-the-starting-point-for-iam-roles/\"&gt;How AWS IAM role manager rethinks the starting point for IAM roles&lt;/a&gt; on the AWS Security Blog, or &lt;a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_role-manager.html\"&gt;Create roles automatically with role manager&lt;/a&gt; in the IAM User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-role-manager",
+      "publishedAt": "2026-08-12T18:00:00.000Z",
+      "updatedAt": "2026-08-12T18:00:00.000Z",
+      "categories": [],
+      "services": [
+        "IAM"
+      ],
+      "tags": [
+        "iam"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "cdb919911f629731",
+      "title": "Amazon EKS now supports advanced Kubernetes control plane configuration parameters",
+      "description": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports configuring parameters for Kubernetes control plane components including the scheduler, controller manager, and API server. You can tune pod placement strategies to improve resource utilization, adjust how quickly horizontal pod autoscaling responds to changes in demand, set resource lifecycle parameters such as event retention duration, and more. Cluster administrators now have more control over Kubernetes control plane parameters beyond the defaults. For example, you can set the scheduler's node resource fit strategy parameter to Mo",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/pm/eks/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Elastic Kubernetes Service (Amazon EKS)&lt;/a&gt; now supports configuring parameters for Kubernetes control plane components including the scheduler, controller manager, and API server. You can tune pod placement strategies to improve resource utilization, adjust how quickly horizontal pod autoscaling responds to changes in demand, set resource lifecycle parameters such as event retention duration, and more.&lt;br&gt; &lt;br&gt; Cluster administrators now have more control over Kubernetes control plane parameters beyond the defaults. For example, you can set the scheduler's node resource fit strategy parameter to &lt;i&gt;MostAllocated&lt;/i&gt;, which packs pods onto nodes that are already well utilized and helps you run the same workloads on fewer nodes. The default &lt;i&gt;LeastAllocated&lt;/i&gt; strategy spreads pods across nodes, and you can keep it where headroom matters more than density.&lt;br&gt; &lt;br&gt; You can configure Kubernetes control plane parameters in any AWS Region where Amazon EKS is available. For the full list of configurable parameters and to learn more, see Control plane configuration in the &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/control-plane-configuration.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon EKS User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-control-plane-configuration-parameters",
+      "publishedAt": "2026-08-12T18:00:00.000Z",
+      "updatedAt": "2026-08-12T18:00:00.000Z",
+      "categories": [
+        "Containers",
+        "AWS Govcloud Us",
+        "Amazon Eks"
+      ],
+      "services": [
+        "EKS"
+      ],
+      "tags": [
+        "containers",
+        "aws govcloud us",
+        "amazon eks",
+        "eks"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "cf60343c482a71ba",
+      "title": "Amazon Quick adds deny by default for custom permissions",
+      "description": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users. Previously, new AI capabilities were available to all users on release, requiring administrators to react after the fact. With deny by default, administrators restrict the AI capability category in a custom permissions profile and assign it to users, roles, or the entire account. Quick then denies any new AI capability at launch for those users. Restricting a category also restricts existing capabilities in it. Administrators explicitly all",
+      "descriptionHtml": "&lt;p&gt;Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users.&lt;br&gt; &lt;br&gt; Previously, new AI capabilities were available to all users on release, requiring administrators to react after the fact. With deny by default, administrators restrict the AI capability category in a custom permissions profile and assign it to users, roles, or the entire account. Quick then denies any new AI capability at launch for those users. Restricting a category also restricts existing capabilities in it. Administrators explicitly allow each capability when ready. The restriction applies only to the profile you configure.&lt;br&gt; &lt;br&gt; Configure deny by default in Manage account in Amazon Quick or through the AWS CLI. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/custom-permissions-governance.html\"&gt;Custom permissions deny by default&lt;/a&gt;. Deny by default is available in all AWS Regions where &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html\"&gt;Amazon Quick is available&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-deny-by-default-permissions/",
+      "publishedAt": "2026-08-12T17:15:00.000Z",
+      "updatedAt": "2026-08-12T17:15:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Business Productivity"
+      ],
+      "services": [],
+      "tags": [
+        "artificial intelligence",
+        "business productivity"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "27a9c0160a22ce04",
+      "title": "Amazon Connect Customer supports manual assignment of queued agent-first callbacks",
+      "description": "Amazon Connect Customer now lets agents view and self-assign queued agent-first callbacks alongside emails, tasks, and chats. This gives agents the option to prioritize work that needs immediate follow-up or for which they already have relevant context. For example, an agent familiar with a customer’s issue can assign the callback to themselves, avoiding another handoff and helping resolve the issue faster. This feature is available in all AWS Regions where Amazon Connect Customer is available. To learn more about how to use queued callbacks, refer to our documentation Access the Worklist app ",
+      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now lets agents view and self-assign queued agent-first callbacks alongside emails, tasks, and chats. This gives agents the option to prioritize work that needs immediate follow-up or for which they already have relevant context. For example, an agent familiar with a customer’s issue can assign the callback to themselves, avoiding another handoff and helping resolve the issue faster.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where Amazon Connect Customer is available. To learn more about how to use queued callbacks, refer to our documentation &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/worklist-app.html\"&gt;Access the Worklist app&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/setup-queued-cb.html\"&gt;Set up queued callbacks&lt;/a&gt;. For more information about Amazon Connect Customer, visit our &lt;a href=\"https://aws.amazon.com/connect/\"&gt;product page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-agent-callbacks/",
+      "publishedAt": "2026-08-12T17:15:00.000Z",
+      "updatedAt": "2026-08-12T17:15:00.000Z",
+      "categories": [
+        "Amazon Connect"
+      ],
+      "services": [
+        "Connect"
+      ],
+      "tags": [
+        "amazon connect",
+        "connect"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "58bb881535c93228",
+      "title": "Amazon Quick now supports data loss prevention with Microsoft Purview",
+      "description": "Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared outside approved channels. With this integration, IT administrators and security teams can apply their existing Purview sensitivity labels to automatically control how files are handled in Quick capabilities such as chat, spaces, and knowledge bases. Administrators can configure enforcement actions (block, warn, or allow) for each sensitivity label, giving organizations granular control over sensitive fi",
+      "descriptionHtml": "&lt;p&gt;Amazon Quick now integrates with Microsoft Purview to enforce data loss prevention (DLP) policies across your Quick environment. Organizations need to ensure that sensitive files aren't shared outside approved channels. With this integration, IT administrators and security teams can apply their existing Purview sensitivity labels to automatically control how files are handled in Quick capabilities such as chat, spaces, and knowledge bases.&lt;/p&gt; \n&lt;p&gt;Administrators can configure enforcement actions (block, warn, or allow) for each sensitivity label, giving organizations granular control over sensitive file sharing across Quick. For example, a financial services company can block files labeled \"Highly Confidential\" from being uploaded to shared spaces while allowing \"Internal\" files with a warning notification. With this integration, customers can extend their existing Microsoft Purview governance policies into Quick without additional tools.&lt;/p&gt; \n&lt;p&gt;This feature is available in &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html\"&gt;all AWS Regions where Amazon Quick agentic capabilities are supported&lt;/a&gt;. For more information, see the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Region table&lt;/a&gt;. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/data-loss-prevention.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Data loss prevention&lt;/a&gt; in the &lt;i&gt;Amazon Quick User Guide&lt;/i&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-dlp-purview/",
+      "publishedAt": "2026-08-12T17:09:00.000Z",
+      "updatedAt": "2026-08-12T17:09:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Business Productivity",
+        "Aiml"
+      ],
+      "services": [],
+      "tags": [
+        "artificial intelligence",
+        "business productivity",
+        "aiml"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "2e7d8b82caaa1171",
+      "title": "Amazon Quick agentic AI capabilities are now available in AWS GovCloud (US-West)",
+      "description": "Today, AWS announces that Amazon Quick's agentic AI capabilities are now available in AWS GovCloud (US-West), bringing an agentic AI teammate to government and regulated-industry teams within an isolated, FedRAMP Class D (formerly High) authorized environment. Building on the analytics and business intelligence capabilities already available to customers in AWS GovCloud (US), Quick now turns questions into actions, helping teams drive mission-critical decisions faster without switching applications. With this launch, teams can build custom chat agents tailored to mission-specific workflows — i",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces that Amazon Quick's agentic AI capabilities are now available in AWS GovCloud (US-West), bringing an agentic AI teammate to government and regulated-industry teams within an isolated, FedRAMP Class D (formerly High) authorized environment. Building on the analytics and business intelligence capabilities already available to customers in AWS GovCloud (US), Quick now turns questions into actions, helping teams drive mission-critical decisions faster without switching applications.&lt;/p&gt; \n&lt;p&gt;With this launch, teams can build custom chat agents tailored to mission-specific workflows — including procurement, ATO compliance, and grants management — while keeping data hosted and processed entirely within the AWS GovCloud (US-West) Region. Spaces enforce least-privilege access by scoping information to the appropriate program office or mission area, ensuring analysts only access mission-relevant data. Quick also integrates with tools teams already rely on, including Microsoft 365, SharePoint, and OneDrive via GCC High connectors, as well as browser extensions.&lt;/p&gt; \n&lt;p&gt;AWS GovCloud (US) Regions are isolated AWS Regions operated by U.S. citizens on U.S. soil, purpose-built to host sensitive data and regulated workloads. Customers can address the most stringent U.S. government security and compliance requirements, including the FedRAMP Class D (formerly High) baseline, Department of Defense Cloud Computing Security Requirements Guide (DoD SRG) Impact Levels 4 and 5, International Traffic in Arms Regulations (ITAR), Criminal Justice Information Services (CJIS), and Federal Information Processing Standard (FIPS) 140-3. Inference on authorized foundation models is processed within the AWS GovCloud (US-West) Region, and enterprise governance features are available at launch.&lt;/p&gt; \n&lt;p&gt;With this launch, Amazon Quick's agentic AI capabilities are available in 8 AWS Regions: US East (N. Virginia), US West (Oregon), Europe (Frankfurt, Ireland, London), Asia Pacific (Sydney, Tokyo), and AWS GovCloud (US-West).&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;To learn more, visit the &lt;a href=\"https://aws.amazon.com/quick/\"&gt;Amazon Quick product page&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/\"&gt;AWS GovCloud (US) documentation&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-aws-govcloud-us-west/",
+      "publishedAt": "2026-08-11T23:00:00.000Z",
+      "updatedAt": "2026-08-11T23:00:00.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true
+    },
     {
       "id": "9b3512c78139f0f6",
       "title": "Amazon EC2 R8a instances are now available in Canada (Central) region",
@@ -316,6 +456,19 @@
         "amazon gamelift",
         "gaming"
       ],
+      "isNew": true
+    },
+    {
+      "id": "3a88d419df2a4a99",
+      "title": "AWS Marketplace now supports category-based notification subscriptions and multi-channel delivery for buyers",
+      "description": "AWS Marketplace buyers can now configure category-based notifications and multi-channel delivery through AWS User Notifications. Previously, buyer email notifications were limited to the AWS account root email with no way to choose which categories you received or route them to different teams. This meant teams responsible for procurement, renewals, or cost management either missed critical notifications or had to rely on email forwarding. With this launch, buyers can choose which notification categories they receive and how they're delivered. Four notification categories are available. Produc",
+      "descriptionHtml": "&lt;p&gt;AWS Marketplace buyers can now configure category-based notifications and multi-channel delivery through AWS User Notifications. Previously, buyer email notifications were limited to the AWS account root email with no way to choose which categories you received or route them to different teams. This meant teams responsible for procurement, renewals, or cost management either missed critical notifications or had to rely on email forwarding. With this launch, buyers can choose which notification categories they receive and how they're delivered.&lt;/p&gt; \n&lt;p&gt;Four notification categories are available. Products and Solutions notifications cover product version updates, instance type changes, and availability restrictions. Agreements and Subscriptions notifications cover agreement lifecycle events including starts, cancellations, renewals, and payment failures. Private Offers notifications cover new private offers and acceptance confirmations. Pricing Changes notifications cover hourly, monthly, and usage-based price increases for products you subscribe to. By default, all categories are enabled and delivered via email to the account's root address. You can add more recipients, through additional email addresses, distribution lists, the AWS Console Mobile Application, or team channels in Slack and Microsoft Teams, and tailor each to receive only the notification categories relevant to their role. In January 2027, AWS Marketplace will automatically enable these category and delivery controls for all customers. Your existing notifications will continue unchanged. Opt in now to start customizing sooner.&lt;/p&gt; \n&lt;p&gt;To learn more, see &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-notifications.html\"&gt;AWS Marketplace buyer notifications&amp;nbsp;&lt;/a&gt; in the AWS Marketplace Buyer Guide. To enable managed notifications, visit the &amp;nbsp;&lt;a href=\"https://us-east-1.console.aws.amazon.com/notifications/home#/managed-notifications\"&gt;AWS User Notifications console&amp;nbsp;&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;AWS Marketplace managed buyer notifications are available in all AWS Commercial Regions where AWS Marketplace is available.&lt;/p&gt; \n&lt;h2&gt;&amp;nbsp;&lt;/h2&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-managed-buyer-notifications/",
+      "publishedAt": "2026-08-10T21:00:12.000Z",
+      "updatedAt": "2026-08-10T21:00:12.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
       "isNew": true
     },
     {
@@ -1084,7 +1237,7 @@
         "backup",
         "neptune"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d637626e1b757fe8",
@@ -1097,7 +1250,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "30a9d1304887c0dd",
@@ -1119,7 +1272,7 @@
         "amazon bedrock",
         "bedrock"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a0435dbae7c904b8",
@@ -1139,7 +1292,7 @@
         "compute",
         "ec2"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f35dd44b08e3f7aa",
@@ -1163,7 +1316,7 @@
         "lambda",
         "vpc"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "29c090ffa55d8e5a",
@@ -1185,7 +1338,7 @@
         "databases",
         "keyspaces"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d69c7caae5cd68b7",
@@ -1207,7 +1360,7 @@
         "analytics",
         "glue"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8731df1fdd246513",
@@ -1226,7 +1379,7 @@
         "aws marketplace",
         "aws marketplace and partners"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0cb796ddcf8d1b9a",
@@ -1243,7 +1396,7 @@
       "tags": [
         "dynamodb"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ab4d4401fb352d8f",
@@ -1267,7 +1420,7 @@
         "s3",
         "glue"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "540096ccd66fa6b3",
@@ -1291,7 +1444,7 @@
         "iam",
         "iam identity center"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ca08221922cc8a2a",
@@ -1313,7 +1466,7 @@
         "databases",
         "aurora"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e8a842faa93c576a",
@@ -10946,172 +11099,6 @@
         "aws govcloud us",
         "amazon aurora",
         "aurora"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "b1b4a5aa413f76f5",
-      "title": "AWS Elastic Beanstalk console now integrates CloudWatch Logs in the Logs tab",
-      "description": "AWS Elastic Beanstalk now provides a CloudWatch Logs integration directly in the environment Logs tab of the Elastic Beanstalk console. Previously, customers had to navigate to the CloudWatch console to find the relevant log groups and log streams for their environments. With this launch, customers can view CloudWatch log events without leaving the Elastic Beanstalk console. The Logs tab displays log groups that an environment streams logs to, as well as log groups matching the aws/elasticbeanstalk/ /* prefix. Customers can select a log group to view its log streams, with the most recently act",
-      "descriptionHtml": "&lt;p&gt;AWS Elastic Beanstalk now provides a CloudWatch Logs integration directly in the environment Logs tab of the Elastic Beanstalk console. Previously, customers had to navigate to the CloudWatch console to find the relevant log groups and log streams for their environments. With this launch, customers can view CloudWatch log events without leaving the Elastic Beanstalk console.&amp;nbsp;&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;The Logs tab displays log groups that an environment streams logs to, as well as log groups matching the &lt;i&gt;aws/elasticbeanstalk/&amp;lt;env-name&amp;gt;/*&lt;/i&gt; prefix. Customers can select a log group to view its log streams, with the most recently active stream selected by default. A log stream dropdown allows switching between streams and filtering results. For deeper analysis, a View in CloudWatch dropdown provides direct links to the log group, log stream, or CloudWatch Logs Insights in the CloudWatch console.&lt;/p&gt; \n&lt;p&gt;This feature is available across all Elastic Beanstalk platform branches in all AWS Commercial Regions and AWS GovCloud (US) Regions where Elastic Beanstalk is available. For a complete list of supported Regions, see &lt;a title=\"AWS Regions where Elastic Beanstalk is generally available\" href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;For more information about using Elastic Beanstalk with Amazon CloudWatch, see the &lt;a title=\"Guide on setting up CloudWatch with Elastic Beanstalk\" href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/AWSHowTo.cloudwatchlogs.html\"&gt;AWS Elastic Beanstalk developer guide&lt;/a&gt;. To learn more, visit the &lt;a title=\"AWS Elastic Beanstalk Product Page\" href=\"https://aws.amazon.com/elasticbeanstalk/\"&gt;AWS Elastic Beanstalk product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/elastic-beanstalk-cloudwatch-logs/",
-      "publishedAt": "2026-06-11T17:00:00.000Z",
-      "updatedAt": "2026-06-11T17:00:00.000Z",
-      "categories": [
-        "Management Tools",
-        "AWS Elastic Beanstalk"
-      ],
-      "services": [
-        "Elastic Beanstalk",
-        "CloudWatch"
-      ],
-      "tags": [
-        "management tools",
-        "aws elastic beanstalk",
-        "elastic beanstalk",
-        "cloudwatch"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "ec330b622c7d3a0b",
-      "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
-      "description": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless now supports workflow and task state change events to Amazon EventBridge , enabling data engineering and platform teams to build event-driven automation for their Apache Airflow workflows. Previously, monitoring workflow execution required custom polling logic or manual observation. With this launch, MWAA Serverless can emit events when workflows transition between states, including started, running, succeeded, or failed, and when individual tasks change state, such as scheduled, succeeded, failed, or up for retry. With this feature",
-      "descriptionHtml": "&lt;p&gt;Amazon Managed Workflows for Apache Airflow (MWAA) Serverless now supports workflow and task state change events to &lt;a href=\"https://aws.amazon.com/eventbridge/\"&gt;Amazon EventBridge&lt;/a&gt;, enabling data engineering and platform teams to build event-driven automation for their Apache Airflow workflows.&lt;/p&gt; \n&lt;p&gt;Previously, monitoring workflow execution required custom polling logic or manual observation. With this launch, MWAA Serverless can emit events when workflows transition between states, including started, running, succeeded, or failed, and when individual tasks change state, such as scheduled, succeeded, failed, or up for retry. With this feature, you can further automate your existing workflows - for example, using EventBridge notifications to trigger alerts when a production workflow fails, automatically restart dependent pipelines when an upstream workflow succeeds, or log state transitions to Amazon S3 for compliance and auditing.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where &lt;a href=\"https://aws.amazon.com/managed-workflows-for-apache-airflow/\"&gt;Amazon MWAA Serverless&lt;/a&gt; is available. For the complete list of supported Regions, see &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/what-is-mwaa-serverless.html#mwaa-serverless-regions\"&gt;Regions&lt;/a&gt; in the Amazon MWAA Serverless User Guide. For pricing details, see &lt;a href=\"https://aws.amazon.com/eventbridge/pricing/\"&gt;Amazon EventBridge pricing&lt;/a&gt;. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/monitoring.html\"&gt;Monitoring Amazon MWAA Serverless&lt;/a&gt; in the Amazon MWAA Serverless User Guide and &lt;a href=\"https://docs.aws.amazon.com/eventbridge/latest/ref/events-ref-airflow-serverless.html\"&gt;Amazon MWAA Serverless events&lt;/a&gt; in the Amazon EventBridge Events Reference.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/",
-      "publishedAt": "2026-06-11T17:00:00.000Z",
-      "updatedAt": "2026-06-11T17:00:00.000Z",
-      "categories": [
-        "Serverless",
-        "Amazon Mwaa",
-        "Analytics"
-      ],
-      "services": [
-        "EventBridge",
-        "MWAA"
-      ],
-      "tags": [
-        "serverless",
-        "amazon mwaa",
-        "analytics",
-        "eventbridge",
-        "mwaa"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "bf2963b78e150e7e",
-      "title": "AWS Lake Formation extends table permissions to access underlying data in Amazon S3",
-      "description": "AWS Lake Formation now enables you to read and write the underlying data files in Amazon S3 for tables registered in the AWS Glue Data Catalog. This provides you with a single set of permissions for both SQL queries and direct file access using your existing Lake Formation table grants. With this launch, Lake Formation provides temporary, scoped credentials for registered S3 locations based on your table permissions. SELECT permissions grant read access, and SUPER permissions grant read and write access to the data at that location. This capability comes built-in with Amazon EMR 7.13 or later.",
-      "descriptionHtml": "&lt;p&gt;AWS Lake Formation now enables you to read and write the underlying data files in Amazon S3 for tables registered in the AWS Glue Data Catalog. This provides you with a single set of permissions for both SQL queries and direct file access using your existing Lake Formation table grants.&lt;br&gt; &lt;br&gt; With this launch, Lake Formation provides temporary, scoped credentials for registered S3 locations based on your table permissions. SELECT permissions grant read access, and SUPER permissions grant read and write access to the data at that location. This capability comes built-in with Amazon EMR 7.13 or later. As a result, you can access data files directly from your Spark jobs for tasks that require file level access such as model training, feature engineering, or debugging data quality issues.&lt;br&gt; &lt;br&gt; You can also integrate your Apache Spark or Trino applications using APIs or through an open source plugin provided by AWS. Additionally, all access is logged in AWS CloudTrail to provide a unified audit trail across SQL and file-based operations on your tables.&lt;br&gt; &lt;br&gt; This feature is available at no additional charge in all AWS Regions where AWS Lake Formation is available. To learn more, see Lake Formation&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/lake-formation/latest/dg/accessing-s3-locations.html\"&gt;documentation&lt;/a&gt;, EMR &lt;a href=\"https://docs.aws.amazon.com/emr/latest/ManagementGuide/lake-formation-path-based-credential-vending.html\"&gt;documentation&lt;/a&gt;, API &lt;a href=\"https://docs.aws.amazon.com/boto3/latest/reference/services/lakeformation/client/get_temporary_data_location_credentials.html\"&gt;reference&lt;/a&gt;, and open source &lt;a href=\"https://github.com/aws/aws-lakeformation-accessgrants-plugin-java-v2\"&gt;plug-in&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lake-formation-access-data-amazon-s3",
-      "publishedAt": "2026-06-11T16:00:00.000Z",
-      "updatedAt": "2026-06-11T16:00:00.000Z",
-      "categories": [
-        "Analytics",
-        "AWS Lake Formation"
-      ],
-      "services": [
-        "S3",
-        "Lake Formation"
-      ],
-      "tags": [
-        "analytics",
-        "aws lake formation",
-        "s3",
-        "lake formation"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "e3536e2f1a65b568",
-      "title": "Amazon Managed Service for Prometheus now supports Native Histograms",
-      "description": "Amazon Managed Service for Prometheus now supports ingestion, storage, and querying of Prometheus native histograms, enabling customers to capture high-resolution metric distributions with greater precision and lower cardinality than classic histograms. DevOps engineers, site reliability engineers, and platform teams monitoring latency, request durations, and other distributions can now get more accurate percentile calculations without pre-defining bucket boundaries or managing high-cardinality time series. Native histograms use exponential bucketing to automatically adapt resolution to your d",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/prometheus/\"&gt;Amazon Managed Service for Prometheus&lt;/a&gt; now supports ingestion, storage, and querying of Prometheus native histograms, enabling customers to capture high-resolution metric distributions with greater precision and lower cardinality than classic histograms. DevOps engineers, site reliability engineers, and platform teams monitoring latency, request durations, and other distributions can now get more accurate percentile calculations without pre-defining bucket boundaries or managing high-cardinality time series.&lt;/p&gt; \n&lt;p&gt;Native histograms use exponential bucketing to automatically adapt resolution to your data, storing an entire distribution in a single time series rather than requiring one series per bucket boundary. This reduces active series count, as a classic histogram with 20 buckets that previously required 22 time series now requires only one, while delivering more precise tail-latency insights from functions like histogram_quantile(). You can adopt native histograms incrementally alongside existing classic histograms, migrating workloads at your own pace without disrupting current monitoring. Amazon Managed Service for Prometheus meters and charges native histograms based only on populated buckets that contain actual observations, so you don't pay for empty buckets in sparse distributions.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;This capability is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where Amazon Managed Service for Prometheus is offered. To get started, see Amazon Managed Service for Prometheus &lt;a href=\"https://docs.aws.amazon.com/prometheus/latest/userguide/what-is-Amazon-Managed-Service-Prometheus.html\"&gt;documentation&lt;/a&gt;.&amp;nbsp;To learn about Native Histograms pricing, visit the Amazon Managed Service for Prometheus &lt;a href=\"https://aws.amazon.com/prometheus/pricing/\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-native-histograms/",
-      "publishedAt": "2026-06-11T13:00:00.000Z",
-      "updatedAt": "2026-06-11T13:00:00.000Z",
-      "categories": [
-        "Management And Governance"
-      ],
-      "services": [],
-      "tags": [
-        "management and governance"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "a70bf19ed11a8bd2",
-      "title": "Amazon Managed Service for Prometheus now supports out of order sample ingestion",
-      "description": "Amazon Managed Service for Prometheus now supports out-of-order sample ingestion and a workspace-level rule query offset. All workspaces have a default out-of-order time window of 1 minute, allowing the workspace to accept metric samples arriving outside strict chronological order. You can adjust this window to match your ingestion patterns or set it to 0 to disable the feature and discard out-of-order samples. You can also configure a global rule query offset that introduces a delay before rule evaluation queries run, giving late-arriving samples time to be ingested before rules execute. Toge",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/prometheus/\"&gt;Amazon Managed Service for Prometheus&lt;/a&gt; now supports out-of-order sample ingestion and a workspace-level rule query offset. All workspaces have a default out-of-order time window of 1 minute, allowing the workspace to accept metric samples arriving outside strict chronological order. You can adjust this window to match your ingestion patterns or set it to 0 to disable the feature and discard out-of-order samples. You can also configure a global rule query offset that introduces a delay before rule evaluation queries run, giving late-arriving samples time to be ingested before rules execute.&lt;/p&gt; \n&lt;p&gt;Together, these features reduce data loss and improve alerting accuracy for workloads with distributed collectors, batched exports, or variable network latency. Out-of-order sample support ensures late-arriving data points are ingested rather than discarded, preserving metric completeness. The rule query offset compensates for the expected ingestion delay. Without it, rules evaluate instantly and may miss samples that haven't landed yet, producing results that differ from the same expression evaluated after all metrics arrive. Two new CloudWatch vended metrics, OutOfOrderIngestionRate and OutOfOrderSampleAge give you visibility into ingestion patterns, helping you tune both settings for your workload.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Out-of-order sample ingestion and rule query offset are available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS regions&lt;/a&gt; where Amazon Managed Service for Prometheus is generally available. To get started, configure the out-of-order time window and ruler query offset in your workspace settings via AWS console, API or CLI. For more information, see Amazon Managed Service for Prometheus &lt;a href=\"https://docs.aws.amazon.com/prometheus/latest/userguide/AMP-workspace-configuration.html\"&gt;user documentation.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-outoforder-ingestion/",
-      "publishedAt": "2026-06-11T13:00:00.000Z",
-      "updatedAt": "2026-06-11T13:00:00.000Z",
-      "categories": [
-        "Management And Governance"
-      ],
-      "services": [],
-      "tags": [
-        "management and governance"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "dae704b571f268f6",
-      "title": "AWS announces AWS Workload Credentials Provider",
-      "description": "AWS announces AWS Workload Credentials Provider, a lightweight client-side provider that automates deployment of exported certificates from AWS Certificate Manager (ACM) and local caching of secrets from AWS Secrets Manager across AWS and non-AWS workloads. Previously, customers exporting public or private certificates from ACM had to build custom automation using Amazon EventBridge to detect renewals and deploy the updated certificates. With public certificate lifetimes decreasing per the the Certification Authority Browser Forum (CA/B) mandate, this custom automation can become difficult to ",
-      "descriptionHtml": "&lt;p&gt;AWS announces AWS Workload Credentials Provider, a lightweight client-side provider that automates deployment of exported certificates from AWS Certificate Manager (ACM) and local caching of secrets from AWS Secrets Manager across AWS and non-AWS workloads.&lt;br&gt; &lt;br&gt; Previously, customers exporting public or private certificates from ACM had to build custom automation using Amazon EventBridge to detect renewals and deploy the updated certificates. With public certificate lifetimes decreasing per the the Certification Authority Browser Forum (CA/B) mandate, this custom automation can become difficult to maintain at scale. AWS Workload Credentials Provider eliminates this complexity by providing a single provider that helps distribute and automate both secrets and certificates to your workloads. You configure it with your certificate ARN and specify options such as file paths and server reload behavior — the provider then handles certificate export and deployment automatically to prevent expiry related failures. It runs on Windows and Linux and supports Apache and NGINX web servers.&lt;br&gt; &lt;br&gt; For secrets caching, the provider maintains full backwards compatibility with the AWS Secrets Manager Agent, enabling you to securely cache application secrets locally across AWS and non-AWS workloads through the same unified provider.&lt;br&gt; &lt;br&gt; AWS Workload Credentials Provider is open source and available on &lt;a href=\"https://github.com/aws/aws-workload-credentials-provider\"&gt;GitHub&lt;/a&gt;. You can use it with exportable ACM certificates and Secrets Manager in all AWS Regions. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/acm/latest/userguide/acm-certificate-automation.html\"&gt;AWS Certificate Manager documentation&lt;/a&gt; or the &lt;a href=\"https://docs.aws.amazon.com/secretsmanager/\"&gt;AWS Secrets Manager documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-workload-credentials-provider/",
-      "publishedAt": "2026-06-11T07:00:00.000Z",
-      "updatedAt": "2026-06-11T07:00:00.000Z",
-      "categories": [
-        "Security Identity And Compliance",
-        "Compute"
-      ],
-      "services": [],
-      "tags": [
-        "security identity and compliance",
-        "compute"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "fe1a30ddd453d918",
-      "title": "OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
-      "description": "Today, AWS announces the expanded availability of OpenAI's GPT-5.4 and GPT-5.5 models, which are now available in the US East (N. Virginia) Region on Amazon Bedrock. With GPT-5.4 and GPT-5.5, you can build generative AI applications across reasoning, coding, computer use, document workflows, and long-running agentic tasks. GPT-5.5 is OpenAI's most capable model, designed for advanced coding, research, analysis, software operation, document workflows, and long-running agentic tasks. It can understand open-ended goals, use tools, reason across longer workflows, navigate ambiguity, and carry comp",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announces the expanded availability of OpenAI's GPT-5.4 and GPT-5.5 models, which are now available in the US East (N. Virginia) Region on Amazon Bedrock. With GPT-5.4 and GPT-5.5, you can build generative AI applications across reasoning, coding, computer use, document workflows, and long-running agentic tasks.&lt;br&gt; &lt;br&gt; GPT-5.5 is OpenAI's most capable model, designed for advanced coding, research, analysis, software operation, document workflows, and long-running agentic tasks. It can understand open-ended goals, use tools, reason across longer workflows, navigate ambiguity, and carry complex tasks through to completion with less orchestration. GPT-5.4 brings frontier reasoning, coding, computer use, long-context workflows, and tool use to production applications that interpret context, interact with tools, operate software environments, and verify outputs across multiple steps. Both models support a 272K-token context window, accept text and image input, and are available through the Responses API with support for server-side and client-side tool calling, projects, and response streaming.&lt;br&gt; &lt;br&gt; With this launch, GPT-5.4 and GPT-5.5 are now available in additional AWS Regions. To get started, visit the GPT-5.5 and GPT-5.4 model cards in our &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/",
-      "publishedAt": "2026-06-11T00:12:00.000Z",
-      "updatedAt": "2026-06-11T00:12:00.000Z",
-      "categories": [],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "bedrock"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "aab766b1c988f319",
-      "title": "Amazon OpenSearch Service launches MCP Apps for agentic observability",
-      "description": "Amazon OpenSearch Service now supports MCP Apps, bringing observability workflows directly into compatible agentic IDEs such as Claude Desktop and VS Code. With this capability, your AI agent in local environment can investigate incidents using logs, traces, metrics, and alerts stored in OpenSearch domains, collections and Amazon Managed Service for Prometheus. You can easily review and verify the results in interactive MCP App visualizations without leaving your local environment. Each MCP App tool call returns a dual response, a concise text summary for your agent to reason over and an inter",
-      "descriptionHtml": "&lt;p&gt;Amazon OpenSearch Service now supports MCP Apps, bringing observability workflows directly into compatible agentic IDEs such as Claude Desktop and VS Code. With this capability, your AI agent in local environment can investigate incidents using logs, traces, metrics, and alerts stored in OpenSearch domains, collections and Amazon Managed Service for Prometheus. You can easily review and verify the results in interactive MCP App visualizations without leaving your local environment.&lt;br&gt; &lt;br&gt; Each MCP App tool call returns a dual response, a concise text summary for your agent to reason over and an interactive visualization rendered in the same conversation thread for you to review. You can work alongside your observability agent from firing an alert, perform root cause analysis, exploring distributed traces, service maps, PromQL metric charts, and cross-signal correlations all within a single conversation. Available MCP App tools cover log, metrics and trace investigation, service performance, topology, dynamic visualizations, agent health, cluster health, and instrumentation scoring.&lt;/p&gt; \n&lt;p&gt;&lt;br&gt; The OpenSearch MCP app experience is available is available in all AWS Regions where &lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/application.html\"&gt;Amazon OpenSearch UI&lt;/a&gt; is offered. To get started, follow the instructions in &lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/opensearch-observability-mcp-app.html\"&gt;OpenSearch Agentic observability with MCP Apps&lt;/a&gt;. To learn more about OpenSearch, visit &lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html\"&gt;Amazon OpenSearch Service Developer Guid&lt;/a&gt;&lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html\"&gt;e&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-agentic-observability-mcp-app",
-      "publishedAt": "2026-06-10T22:58:00.000Z",
-      "updatedAt": "2026-06-10T22:58:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Amazon Opensearch Service"
-      ],
-      "services": [
-        "OpenSearch"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "amazon opensearch service",
-        "opensearch"
       ],
       "isNew": false
     }
