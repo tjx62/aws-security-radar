@@ -1,7 +1,242 @@
 {
-  "lastUpdated": "2026-08-13T08:33:39.673Z",
+  "lastUpdated": "2026-08-14T08:30:50.224Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "14d768550469015d",
+      "title": "AWS Billing and Cost Management introduces Managed Dashboards",
+      "description": "AWS Billing and Cost Management (BCM) Dashboards now include Managed Dashboards. These are a collection of preconfigured and read-only dashboards located in your dashboard list. They deliver actionable cost insights with your account data pre-populated without setup. There are five curated dashboards. Cost Overview &amp; Trends tracks your spending patterns across services, accounts, and regions over 12 months with forward-looking forecasts. Compute and Database dashboards show your spend pattern within each service category, pairing cost breakdowns with relevant commitment coverage and utiliz",
+      "descriptionHtml": "&lt;p&gt;AWS Billing and Cost Management (BCM) Dashboards now include Managed Dashboards. These are a collection of preconfigured and read-only dashboards located in your dashboard list. They deliver actionable cost insights with your account data pre-populated without setup.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;There are five curated dashboards. &lt;b&gt;Cost Overview &amp;amp; Trends&lt;/b&gt; tracks your spending patterns across services, accounts, and regions over 12 months with forward-looking forecasts. &lt;b&gt;Compute and Database&lt;/b&gt;&amp;nbsp;dashboards show your spend pattern within each service category, pairing cost breakdowns with relevant commitment coverage and utilization metrics in a single view. &lt;b&gt;Reservations and Savings Plans&lt;/b&gt; dashboards show how well your purchased commitments are performing across all eligible services, quantifying gaps and underutilization in monetary terms.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;All managed dashboards are read-only and maintained by AWS. You can duplicate any dashboard to create a fully editable custom copy, add individual widgets to your existing dashboards, and export via PDF or CSV. Whether you are starting your FinOps journey or looking for a standardized baseline across accounts, Managed Dashboards give you cost visibility without setup so you can focus on analysis and action rather than configuration.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;AWS Managed Dashboards are available in all commercial AWS Regions at no additional cost. To get started, navigate to Dashboards&amp;nbsp;in the &lt;a href=\"https://console.aws.amazon.com/costmanagement/\"&gt;AWS Billing and Cost Management console&lt;/a&gt;&amp;nbsp;or view the &lt;a href=\"https://docs.aws.amazon.com/cost-management/latest/userguide/dashboards.html\"&gt;user guide&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-billing-and-cost-management-managed-dashboards/",
+      "publishedAt": "2026-08-14T02:00:00.000Z",
+      "updatedAt": "2026-08-14T02:00:00.000Z",
+      "categories": [
+        "AWS Management Console",
+        "Cloud Financial Management",
+        "Business Productivity",
+        "Cost Management"
+      ],
+      "services": [],
+      "tags": [
+        "aws management console",
+        "cloud financial management",
+        "business productivity",
+        "cost management"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "9bfab19e3d608125",
+      "title": "AWS Client VPN now supports CLI, administration controls, and faster connections",
+      "description": "AWS Client VPN introduces a rebuilt AWS VPN Client v6.0.x which offers new features like command-line interface (CLI) support, enterprise administrative controls, and faster connection establishment time, making it easier you to automate VPN connectivity and centralize device management across your organization. The AWS VPN Client CLI provides full feature parity with the GUI. You can now script VPN connections into your automation workflows and infrastructure-as-code deployments. Previously, integrating VPN connectivity into automated environments required third-party tooling or manual interv",
+      "descriptionHtml": "&lt;p&gt;AWS Client VPN introduces a rebuilt AWS VPN Client v6.0.x which offers new features like command-line interface (CLI) support, enterprise administrative controls, and faster connection establishment time, making it easier you to automate VPN connectivity and centralize device management across your organization.&lt;br&gt; &lt;br&gt; The AWS VPN Client CLI provides full feature parity with the GUI. You can now script VPN connections into your automation workflows and infrastructure-as-code deployments. Previously, integrating VPN connectivity into automated environments required third-party tooling or manual intervention. This feature eliminates that by supporting background CLI operations. Previously, you had to distribute VPN profiles among all users in your organization, which could be managed by any user without permissions. Now, with administration controls on AWS client, you can centralize VPN policy enforcement by scoping profiles to specific users, manage global profiles available to all users on a device, and enforce approved VPN configurations across your organization.&lt;br&gt; &lt;br&gt; The client is rebuilt with OpenVPN3, delivering faster connection establishment across all supported operating systems. You can use both the GUI and CLI together as both run concurrently and VPN connections persist independently of either interface. The rebuilt client v6.0 onwards maintains full backward compatibility with existing AWS Client VPN endpoints, so no endpoint changes are required. The updated AWS VPN Client is available today for Windows (x64/ARM), macOS (x64/ARM), and Linux (x64). There are no additional charges beyond standard pricing of AWS Client VPN.&amp;nbsp;Download the latest client version 6.0.x for &lt;a href=\"https://docs.aws.amazon.com/vpn/latest/clientvpn-user/client-vpn-connect-macos-release-notes.html\"&gt;macOS&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/vpn/latest/clientvpn-user/client-vpn-connect-windows-release-notes.html\"&gt;Windows&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/vpn/latest/clientvpn-user/client-vpn-connect-linux-release-notes.html\"&gt;Linux&lt;/a&gt; to start using it.&amp;nbsp;&lt;br&gt; &lt;br&gt; To learn more about Client VPN, visit the AWS Client VPN product page or read the &lt;a href=\"https://docs.aws.amazon.com/vpn/latest/clientvpn-user/connect-aws-client-vpn-connect.html#cli-commands\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-client-vpn-cli/",
+      "publishedAt": "2026-08-13T20:49:00.000Z",
+      "updatedAt": "2026-08-13T20:49:00.000Z",
+      "categories": [
+        "Networking And Content Delivery",
+        "AWS Client Vpn"
+      ],
+      "services": [],
+      "tags": [
+        "networking and content delivery",
+        "aws client vpn"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "e3399a0d28123afa",
+      "title": "Claude Opus 5 is now available in AWS GovCloud (US)",
+      "description": "AWS GovCloud (US) now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to teams building at the highest level. Claude Opus 5 is available via the bedrock-runtime endpoint in both AWS GovCloud (US) regions, and available via the bedrock-mantle endpoint in AWS GovCloud (US-West) Claude Opus 5 delivers advances in coding, understanding and navigating codebases like an experienced engineer and writing production-quality code while adapting its strategy as it ",
+      "descriptionHtml": "&lt;p&gt;AWS GovCloud (US) now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to teams building at the highest level.&amp;nbsp;Claude Opus 5 is available via the bedrock-runtime endpoint in both AWS GovCloud (US) regions, and available via the&amp;nbsp;bedrock-mantle&amp;nbsp;endpoint in AWS GovCloud (US-West)&lt;/p&gt; \n&lt;p&gt;Claude Opus 5 delivers advances in coding, understanding and navigating codebases like an experienced engineer and writing production-quality code while adapting its strategy as it works. It powers dependable agents that run for hours and even overnight, finding paths around obstacles, recovering from errors, and reaching their objectives. And it brings deeper reasoning to long documents and higher accuracy to complex analysis, with the largest gains on document-heavy enterprise work.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Amazon Bedrock offers Claude Opus 5 with zero data retention (ZDR) enabled by default, giving you Opus' top-tier intelligence while meeting your data governance requirements. It keeps your data within AWS infrastructure with regional data residency and provides access through a unified service with AWS-managed features like Guardrails and Knowledge Bases. To learn more, see the Amazon Bedrock &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5.html\"&gt;documentation&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html#model-regions-anthropic\"&gt;regional availability.&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws-govcloud/",
+      "publishedAt": "2026-08-13T18:23:00.000Z",
+      "updatedAt": "2026-08-13T18:23:00.000Z",
+      "categories": [
+        "Amazon Bedrock",
+        "AWS Govcloud Us"
+      ],
+      "services": [
+        "Bedrock",
+        "Claude"
+      ],
+      "tags": [
+        "amazon bedrock",
+        "aws govcloud us",
+        "bedrock",
+        "claude"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "940bc3f5e5cfc951",
+      "title": "Amazon Quick Microsoft 365 extensions are now generally available",
+      "description": "Today, Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365 environments, using AI to handle complex local tasks such as redlining documents, building financial models, creating presentation-ready decks, and managing Outlook inboxes. The Excel extension helps with complex spreadsheet analysis, creating pivot tables and charts, and importing and cleaning data. The PowerPoint extension helps you create and refine presentations from Quick data using organizat",
+      "descriptionHtml": "&lt;p&gt;Today, Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365 environments, using AI to handle complex local tasks such as redlining documents, building financial models, creating presentation-ready decks, and managing Outlook inboxes.&lt;/p&gt; \n&lt;p&gt;The Excel extension helps with complex spreadsheet analysis, creating pivot tables and charts, and importing and cleaning data. The PowerPoint extension helps you create and refine presentations from Quick data using organization-defined templates. The Word extension generates formatted documents with Word primitives, makes sweeping edits with track changes enabled, and participates as a reviewer in comments. The Outlook extension performs inbox and calendaring tasks such as prioritizing emails, organizing your inbox, scheduling meetings, and drafting replies using your Quick data and entire inbox context.&lt;/p&gt; \n&lt;p&gt;These extensions transform daily work across teams. Finance teams can build complex models by describing what they need. Sales teams can draft proposals that automatically pull from CRM data. Marketing teams can create branded presentations without manual formatting. Legal teams can streamline contract reviews. Operations teams can manage email workflows and schedule meetings intelligently, and IT teams can automate routine data analysis that previously required manual effort.&lt;/p&gt; \n&lt;p&gt;Amazon Quick Microsoft 365 extensions are available in US East (N. Virginia), US West (Oregon), Asia Pacific (Sydney), Europe (Ireland), Asia Pacific (Tokyo), and Europe (Frankfurt). To learn more, see &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/amazon-quick-for-microsoft-365-agentic-ai-where-you-work/\"&gt;Amazon Quick for Microsoft 365: Agentic AI where you work&lt;/a&gt;, and download extensions on the &lt;a href=\"https://aws.amazon.com/quick/download/\"&gt;Quick download page.&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/amazon-quick-microsoft-365-extensions-generally-available",
+      "publishedAt": "2026-08-13T18:00:00.000Z",
+      "updatedAt": "2026-08-13T18:00:00.000Z",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "services": [],
+      "tags": [
+        "artificial intelligence"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "94d0ebfdfeaac418",
+      "title": "Spot Placement Score now includes Local Zones",
+      "description": "Today, AWS announces support for AWS Local Zones in Spot placement score, helping you identify locations where your Spot capacity request is most likely to succeed. Spot placement score evaluates your target capacity and compute requirements and returns scores for AWS Regions or Availability Zones. Previously, Spot placement scores excluded local zone capacity information when reporting zonal and regional scores. Now, you can optionally request local zones to be included in the zonal and regional score responses giving you a broader view of your Spot capacity options. You can use Spot placemen",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces support for AWS Local Zones in Spot placement score, helping you identify locations where your Spot capacity request is most likely to succeed. Spot placement score evaluates your target capacity and compute requirements and returns scores for AWS Regions or Availability Zones.&lt;/p&gt; \n&lt;p&gt;Previously, Spot placement scores excluded local zone capacity information when reporting zonal and regional scores. Now, you can optionally request local zones to be included in the zonal and regional score responses giving you a broader view of your Spot capacity options.&lt;/p&gt; \n&lt;p&gt;You can use Spot placement score through EC2 Spot Console, AWS CLI, or SDK. To learn more about Spot placement score see &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-placement-score.html\"&gt;&lt;u&gt;Spot placement score documentation&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/spot-placement-score-local-zones/",
+      "publishedAt": "2026-08-13T17:13:00.000Z",
+      "updatedAt": "2026-08-13T17:13:00.000Z",
+      "categories": [
+        "Amazon Ec2"
+      ],
+      "services": [
+        "EC2",
+        "Local Zones"
+      ],
+      "tags": [
+        "amazon ec2",
+        "ec2",
+        "local zones"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "a4b669441d73a6a2",
+      "title": "Daybreak Red and Daybreak Blue from OpenAI are now available to eligible customers on Amazon Bedrock",
+      "description": "Security teams can now access Daybreak Red and Daybreak Blue from OpenAI on Amazon Bedrock. Both are part of Daybreak, the cyber defense initiative from OpenAI that gives defenders governed access to frontier AI for cybersecurity work. Daybreak Blue is the starting point for most security teams across defensive workflows including vulnerability discovery, detection engineering, and incident response. Daybreak Red is designed for advanced, authorized tasks such as vulnerability research, exploit reproduction, and mitigation development. For these tasks, a lower refusal threshold matched by stro",
+      "descriptionHtml": "&lt;p&gt;Security teams can now access Daybreak Red and Daybreak Blue from OpenAI on Amazon Bedrock. Both are part of Daybreak, the cyber defense initiative from OpenAI that gives defenders governed access to frontier AI for cybersecurity work.&lt;/p&gt; \n&lt;p&gt;Daybreak Blue is the starting point for most security teams across defensive workflows including vulnerability discovery, detection engineering, and incident response. Daybreak Red is designed for advanced, authorized tasks such as vulnerability research, exploit reproduction, and mitigation development. For these tasks, a lower refusal threshold matched by stronger identity verification, monitoring, and access controls improves the speed and depth of an investigation. Both models run on Bedrock's next-generation inference engine with zero-operator access (ZOA) enforced at the chip. Your inference data is not used for model training, and neither model requires you to opt into sharing your data with OpenAI.&lt;/p&gt; \n&lt;p&gt;Daybreak Red: GPT-5.6 Cyber and Daybreak Blue: GPT-5.6 Sol are now available to eligible customers on Amazon Bedrock in the following &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html\"&gt;AWS Region&lt;/a&gt;: US East (N. Virginia). Access to the models requires enrollment in &lt;a href=\"https://openai.com/form/enterprise-trusted-access-for-cyber/\"&gt;Daybreak access&lt;/a&gt; from OpenAI. To enroll, contact OpenAI or reach out to your AWS account team for guidance on eligibility. Once approved, work with your account team to request access on AWS. To learn more, read the &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock/\"&gt;blog.&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock/",
+      "publishedAt": "2026-08-13T16:12:00.000Z",
+      "updatedAt": "2026-08-13T16:12:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Amazon Bedrock"
+      ],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "amazon bedrock",
+        "bedrock"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "b958a032a43745bc",
+      "title": "AWS Certificate Manager supports switching from e-mail to DNS validation",
+      "description": "AWS Certificate Manager (ACM) now enables you to change the domain validation method on your existing ACM issued public TLS certificates from e-mail to DNS, without reissuing the certificate or changing its existing Amazon Resource Name (ARN). Due to the Certification Authority/Browser (CA/B) Forum's mandated deprecation of email-based domain validation for publicly trusted certificates, effective March 15, 2028, ACM will phase out its support for email validation throughout 2027. ACM will no longer issue email-validated certificates starting March 31 2027, and stop renewing email-validated ce",
+      "descriptionHtml": "&lt;p&gt;AWS Certificate Manager (ACM) now enables you to change the domain validation method on your existing ACM issued public TLS certificates from e-mail to DNS, without reissuing the certificate or changing its existing Amazon Resource Name (ARN).&amp;nbsp;Due to the&amp;nbsp;&lt;a href=\"https://cabforum.org/\"&gt;Certification Authority/Browser (CA/B) Forum's&lt;/a&gt; mandated deprecation of email-based domain validation for publicly trusted certificates, effective March 15, 2028, ACM will phase out its support for email validation throughout 2027. ACM will no longer issue email-validated certificates starting March 31 2027, and stop renewing email-validated certificates on September 30 2027. More details on ACM's deprecation of email validation can be found on the &lt;a href=\"https://aws.amazon.com/blogs/security/aws-certificate-manager-will-discontinue-email-validation-to-prove-domain-validation-for-certificates\"&gt;AWS Security Blog&lt;/a&gt;. By switching to DNS validation now, you can transition ahead of that deadline and enable fully automated renewals through DNS validated certificates.&lt;/p&gt; \n&lt;p&gt;Your certificate ARN remains unchanged after switching from e-mail to DNS validation, so existing ARN references in your CI/CD pipelines, load balancer configurations, and other AWS service integrations continue to work without modification. To switch the validation method, use the ACM console or the&amp;nbsp;&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/acm/latest/APIReference/API_UpdateCertificateOptions.html\"&gt;UpdateCertificateOptions&lt;/a&gt;&amp;nbsp;API. ACM provides a CNAME record for each domain in the certificate (the same mechanism used when provisioning new certificates with DNS validation) and you have up to 72 hours to add the records to your DNS configuration. You can monitor the validation status of each domain via the console or the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/acm/latest/APIReference/API_ListCertificateDomainValidations.html\"&gt;ListCertificateDomainValidations&lt;/a&gt;&amp;nbsp;API. We recommend DNS validation for new certificates, and&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/acm/latest/userguide/http-validation.html\"&gt;HTTP validation&lt;/a&gt;&amp;nbsp;for Amazon CloudFront distributions..&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where ACM certificates are available. To get started, refer to &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/acm/latest/userguide/email-to-dns-migration.html\"&gt;Migrating from email to DNS validation&lt;/a&gt;&amp;nbsp;in the &lt;i&gt;AWS Certificate Manager User Guide.&lt;/i&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/AWS-Certificate-Manager-Email-DNS-Switch",
+      "publishedAt": "2026-08-13T15:00:00.000Z",
+      "updatedAt": "2026-08-13T15:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "Networking And Content Delivery",
+        "AWS Certificate Manager"
+      ],
+      "services": [
+        "Certificate Manager"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "networking and content delivery",
+        "aws certificate manager",
+        "certificate manager"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "3696e48d3513b32d",
+      "title": "Amazon S3 adds additional policy details to access denied error messages",
+      "description": "Amazon S3 now includes the specific AWS Identity and Access Management (IAM) and AWS Organizations policy Amazon Resource Name (ARN) in HTTP 403 Access Denied error messages for same-account and same-organization requests. This helps you quickly identify the exact policy responsible for a denied request and remediate the issue directly. Previously, S3 access denied error messages included the policy type and reason for denial, but when multiple policies of the same type existed, you still had to manually inspect each one to pinpoint the root cause. Now the error message includes the specific p",
+      "descriptionHtml": "&lt;p&gt;Amazon S3 now includes the specific AWS Identity and Access Management (IAM) and AWS Organizations policy Amazon Resource Name (ARN) in HTTP 403 Access Denied error messages for same-account and same-organization requests. This helps you quickly identify the exact policy responsible for a denied request and remediate the issue directly.&lt;/p&gt; \n&lt;p&gt;Previously, S3 access denied error messages included the policy type and reason for denial, but when multiple policies of the same type existed, you still had to manually inspect each one to pinpoint the root cause. Now the error message includes the specific policy ARN for explicit deny cases, covering Service Control Policies (SCPs), Resource Control Policies (RCPs), identity-based policies, session policies, and permission boundaries.&lt;/p&gt; \n&lt;p&gt;This capability is available in all AWS Regions, including the AWS GovCloud (US) Regions and the AWS China Regions. To learn more about how to troubleshoot access denied errors in Amazon S3, visit the &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/troubleshoot-403-errors.html\"&gt;S3 User Guide&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/troubleshoot_access-denied.html\"&gt;IAM troubleshooting documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/",
+      "publishedAt": "2026-08-13T13:00:00.000Z",
+      "updatedAt": "2026-08-13T13:00:00.000Z",
+      "categories": [
+        "Storage",
+        "Amazon S3"
+      ],
+      "services": [
+        "S3"
+      ],
+      "tags": [
+        "storage",
+        "amazon s3",
+        "s3"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "67b2cb63311a06b3",
+      "title": "AWS Clean Rooms supports minimum aggregation thresholds in custom analysis rules",
+      "description": "AWS Clean Rooms now supports minimum aggregation thresholds for the Custom analysis rule type . Minimum aggregation helps protect the privacy of individual data subjects by preventing queries from returning results about individuals or small groups. With this launch, organizations can enforce minimum aggregation on custom SQL queries, ensuring that every row a query outputs represents at least the specified number of distinct values (e.g., user IDs). Data providers in a collaboration can specify their identity column and a minimum identity count to enforce on a query’s output, with the option ",
+      "descriptionHtml": "&lt;p&gt;AWS Clean Rooms now supports &lt;a href=\"https://docs.aws.amazon.com/clean-rooms/latest/userguide/analysis-rules-custom.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;minimum aggregation thresholds for the Custom analysis rule type&lt;/a&gt;. Minimum aggregation helps protect the privacy of individual data subjects by preventing queries from returning results about individuals or small groups. With this launch, organizations can enforce minimum aggregation on custom SQL queries, ensuring that every row a query outputs represents at least the specified number of distinct values (e.g., user IDs). Data providers in a collaboration can specify their identity column and a minimum identity count to enforce on a query’s output, with the option to set a higher threshold for specific columns.&lt;/p&gt; \n&lt;p&gt;Previously, enforcing minimum aggregation thresholds on custom SQL required data providers to rely on pre-approved analysis templates and manual code reviews before queries could run. Now, data providers can configure the minimum aggregation threshold for custom SQL using the Custom analysis rule type, without using pre-structured queries or manual approval processes. Additionally, data providers can specify which columns can be filtered or joined across datasets. For example, a publisher collaborating with an advertiser for media planning use cases can enable ad-hoc queries to run on their data—and small, rural zip codes with fewer than 1,000 common users can be automatically filtered out from the result to help protect user privacy.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;AWS Clean Rooms helps companies and their partners easily analyze and collaborate on their collective datasets without revealing or copying one another’s underlying data. For more information about the AWS Regions where AWS Clean Rooms is available, see the &lt;a href=\"https://docs.aws.amazon.com/general/latest/gr/clean-rooms.html#clean-rooms_region\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions&lt;/a&gt; table. To learn more about collaborating with AWS Clean Rooms, visit &lt;a href=\"https://aws.amazon.com/clean-rooms/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Clean Rooms&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-clean-rooms-minimum-aggregation-custom-analysis-rules",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "updatedAt": "2026-08-13T12:00:00.000Z",
+      "categories": [
+        "AWS Clean Rooms",
+        "Analytics"
+      ],
+      "services": [
+        "Clean Rooms"
+      ],
+      "tags": [
+        "aws clean rooms",
+        "analytics",
+        "clean rooms"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "bcc4652a40b27cb1",
+      "title": "Amazon Quick now supports approval policies for sharing",
+      "description": "Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require designated approvers to review and approve share requests before access is granted, helping organizations ensure that sharing of sensitive assets is deliberate, compliant, and auditable. Administrators can create approval policies scoped to specific asset types, including knowledge bases, spaces, and custom chat agents. When a user submits a share request for an asset covered by a policy, it is routed to th",
+      "descriptionHtml": "&lt;p&gt;Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require designated approvers to review and approve share requests before access is granted, helping organizations ensure that sharing of sensitive assets is deliberate, compliant, and auditable.&lt;/p&gt; \n&lt;p&gt;Administrators can create approval policies scoped to specific asset types, including knowledge bases, spaces, and custom chat agents. When a user submits a share request for an asset covered by a policy, it is routed to the assigned approver group for review. Approvers can evaluate the asset directly before approving or denying the request, and all workflow events are captured in AWS CloudTrail for full auditability. For custom chat agents, approvers can review and act on the entire dependency package in a single request.&lt;/p&gt; \n&lt;p&gt;This feature is available for Professional and Enterprise plans, in all AWS Regions where Amazon Quick agentic capabilities are supported. For more information, see the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Region table&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Learn more about Amazon Quick by visiting the &lt;a href=\"https://aws.amazon.com/quick\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Quick website&lt;/a&gt;. To learn more about approval policies, see Approval policies in the &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/data-loss-prevention.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Quick User Guide&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-approval-policies-sharing/",
+      "publishedAt": "2026-08-12T22:22:00.000Z",
+      "updatedAt": "2026-08-12T22:22:00.000Z",
+      "categories": [
+        "Aiml",
+        "Artificial Intelligence",
+        "Business Productivity"
+      ],
+      "services": [],
+      "tags": [
+        "aiml",
+        "artificial intelligence",
+        "business productivity"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "3946d3a2248776ae",
+      "title": "Amazon Quick now supports per-user resource limits",
+      "description": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create limit profiles that cap per-user consumption, helping prevent unexpected overage charges and ensuring subscription entitlements are used efficiently across their organization. For example, an organization deploying Quick enterprise-wide to thousands of users can set account-level limit profiles to establish cost-predictable baselines, then assign higher limits to specific roles that require more ag",
+      "descriptionHtml": "&lt;p&gt;Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create limit profiles that cap per-user consumption, helping prevent unexpected overage charges and ensuring subscription entitlements are used efficiently across their organization.&lt;/p&gt; \n&lt;p&gt;For example, an organization deploying Quick enterprise-wide to thousands of users can set account-level limit profiles to establish cost-predictable baselines, then assign higher limits to specific roles that require more agent hours. Administrators can create and assign limit profiles at the user, role, or account level, with a priority hierarchy that ensures the right users get the right capacity. When a user reaches their limit, new consumption is blocked while existing content is preserved.&lt;/p&gt; \n&lt;p&gt;This feature is available for Professional and Enterprise plans, in all AWS Regions where Amazon Quick agentic capabilities are supported. For more information, see the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Region table&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Learn more about Amazon Quick by visiting the &lt;a href=\"https://aws.amazon.com/quick\"&gt;Quick website&lt;/a&gt;. To learn more about limit profiles, see Limits management in the &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/limit-profiles.html\" target=\"_blank\"&gt;Amazon Quick User Guide&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-per-user-resource-limits/",
+      "publishedAt": "2026-08-12T22:17:00.000Z",
+      "updatedAt": "2026-08-12T22:17:00.000Z",
+      "categories": [
+        "Business Productivity",
+        "Artificial Intelligence"
+      ],
+      "services": [],
+      "tags": [
+        "business productivity",
+        "artificial intelligence"
+      ],
+      "isNew": true
+    },
     {
       "id": "ad44211b89765116",
       "title": "AWS Global View now offers an interactive map view for AWS Regions and AWS Local Zones",
@@ -126,6 +361,30 @@
         "artificial intelligence",
         "business productivity",
         "aiml"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "0799d0b5d90182e5",
+      "title": "Amazon Nova Multimodal Embeddings is now available in AWS GovCloud (US-West)",
+      "description": "We are excited to announce the general availability of Amazon Nova Multimodal Embeddings, a state-of-the-art embedding model for agentic RAG and semantic search, in AWS GovCloud (US-West). It is the first unified embedding model that supports text, documents, images, video, and audio through a single model, to enable cross-modal retrieval with leading accuracy. Managing and searching across different content types traditionally required multiple specialized embedding models, leading to complexity, higher costs, and data silos. Amazon Nova Multimodal Embeddings maps diverse content types into a",
+      "descriptionHtml": "&lt;p&gt;We are excited to announce the general availability of Amazon Nova Multimodal Embeddings, a state-of-the-art embedding model for agentic RAG and semantic search, in AWS GovCloud (US-West). It is the first unified embedding model that supports text, documents, images, video, and audio through a single model, to enable cross-modal retrieval with leading accuracy.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Managing and searching across different content types traditionally required multiple specialized embedding models, leading to complexity, higher costs, and data silos. Amazon Nova Multimodal Embeddings maps diverse content types into a unified space with leading accuracy, helping break down these silos. Developers can build cross-modal applications that search video archives using complex queries, find relevant product images based on customer questions, or search financial documentation that contain both infographics and text explanations, all using a single embedding model.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;The model supports inputs of up to 8K tokens in length and video/audio segments up to 30 seconds, with the capability to segment larger files. Multiple output embedding dimensions allow organizations to balance accuracy and performance with storage and computation costs. Organizations can choose between synchronous API for near real-time applications and asynchronous API for efficient processing of larger files, enabling them to optimize for both latency-sensitive and high-volume workloads.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;To learn more, see the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html\"&gt;user guide&lt;/a&gt;. To get started with Nova Multimodal Embeddings in Amazon Bedrock, visit the &lt;a href=\"https://console.amazonaws-us-gov.com/bedrock/\"&gt;Amazon Bedrock console&lt;/a&gt; in AWS GovCloud (US-West).&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-nova-mme-govcloud/",
+      "publishedAt": "2026-08-12T14:34:00.000Z",
+      "updatedAt": "2026-08-12T14:34:00.000Z",
+      "categories": [
+        "Amazon Bedrock",
+        "AWS Govcloud Us"
+      ],
+      "services": [
+        "Bedrock",
+        "Nova"
+      ],
+      "tags": [
+        "amazon bedrock",
+        "aws govcloud us",
+        "bedrock",
+        "nova"
       ],
       "isNew": true
     },
@@ -713,7 +972,7 @@
         "amazon gamelift",
         "ec2"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "de7b7438598c1bf5",
@@ -735,7 +994,7 @@
         "amazon cloudwatch",
         "cloudwatch"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "02091a27cfd5eaf6",
@@ -757,7 +1016,7 @@
         "applications",
         "ses"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d6eb5a6af8b8dfcf",
@@ -781,7 +1040,7 @@
         "amazon opensearch service",
         "opensearch"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "480564d071bafb46",
@@ -798,7 +1057,7 @@
       "tags": [
         "compute"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "941155940761f125",
@@ -824,7 +1083,7 @@
         "aws govcloud us",
         "connect"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5f9a055be95e73b0",
@@ -850,7 +1109,7 @@
         "ec2",
         "ecs"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f71fc66fe9b747cc",
@@ -874,7 +1133,7 @@
         "serverless",
         "lambda"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "14d215749ae6efca",
@@ -896,7 +1155,7 @@
         "aws waf",
         "waf"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3d08fd3f034380f5",
@@ -920,7 +1179,7 @@
         "compute",
         "ec2"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1f9de93e731036e7",
@@ -940,7 +1199,7 @@
         "amazon bedrock",
         "bedrock"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b13a7f11c5f31a10",
@@ -960,7 +1219,7 @@
         "amazon elasticache",
         "elasticache"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "44da19c85d2e9382",
@@ -986,7 +1245,7 @@
         "glue",
         "msk"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "02c202947dbb6565",
@@ -1008,7 +1267,7 @@
         "analytics",
         "opensearch"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d5ef659f32ede609",
@@ -1025,7 +1284,7 @@
       "tags": [
         "migration"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bb7e0bcc901338e1",
@@ -1051,7 +1310,7 @@
         "aws govcloud us",
         "connect"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "173cfec947c0f867",
@@ -1064,7 +1323,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "864575aeb0708809",
@@ -1086,7 +1345,7 @@
         "amazon rds",
         "rds"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "17fdd089c934caa7",
@@ -1112,7 +1371,7 @@
         "workspaces",
         "appstream"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "feb54ec9dced7ed2",
@@ -1136,7 +1395,7 @@
         "desktop and app streaming",
         "workspaces"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3611a5e9f783a929",
@@ -1159,7 +1418,7 @@
         "cost management",
         "partner network"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "976b9e49b5a9873b",
@@ -1185,7 +1444,7 @@
         "msk",
         "kafka"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c122c33cdb9b5db6",
@@ -1211,7 +1470,7 @@
         "s3",
         "backup"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "05a4ae6c4bf5bdaa",
@@ -10838,267 +11097,6 @@
       "tags": [
         "amazon gamelift",
         "game development"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "2e63cd611a229c54",
-      "title": "Amazon RDS for MariaDB supports Long-Term Support version 12.3 in Amazon RDS Database Preview Environment",
-      "description": "Amazon RDS for MariaDB now supports MariaDB 12.3 in the Amazon RDS Database Preview Environment , allowing you to evaluate the latest Long-Term Support Release on Amazon RDS for MariaDB. This preview environment provides a sandbox where you can test applications and explore new MariaDB 12.3 capabilities before they become generally available. MariaDB 12.3 includes Oracle TO_DATE() function compatibility, a SQL Standard IS JSON predicate for native JSON validation, and a basic XML data type. It adds support for cursors on prepared statements and allows UPDATE/DELETE operations to read from Comm",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/mariadb/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for MariaDB&lt;/a&gt;&amp;nbsp;now supports MariaDB 12.3 in the&amp;nbsp;&lt;a href=\"https://aws.amazon.com/rds/databasepreview/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS Database Preview Environment&lt;/a&gt;, allowing you to evaluate the latest Long-Term Support Release on Amazon RDS for MariaDB. This preview environment provides a sandbox where you can test applications and explore new MariaDB 12.3 capabilities before they become generally available.&lt;br&gt; &lt;br&gt; MariaDB 12.3 includes Oracle TO_DATE() function compatibility, a SQL Standard IS JSON predicate for native JSON validation, and a basic XML data type. It adds support for cursors on prepared statements and allows UPDATE/DELETE operations to read from Common Table Expressions. The query optimizer now handles reorderable LEFT JOIN statements and ordered scans over RANGE partitions more efficiently. Please refer to the&amp;nbsp;&lt;a href=\"https://mariadb.com/docs/release-notes/community-server/12.3/12.3.1\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;MariaDB 12.3 release notes&lt;/a&gt;&amp;nbsp;for more details.&lt;br&gt; &lt;br&gt; Amazon RDS Database Preview Environment database instances are retained for a maximum period of 60 days and are automatically deleted after the retention period. Amazon RDS database snapshots created in the preview environment can only be used to create or restore database instances within the preview environment. For pricing information, see&amp;nbsp;&lt;a href=\"https://aws.amazon.com/rds/mariadb/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for MariaDB pricing&lt;/a&gt;. For further information, see&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Previewenvironment.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Working with the Database Preview Environment&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-maria-db-innovation-release-12-3-rds-database-preview-environment/",
-      "publishedAt": "2026-06-15T07:00:00.000Z",
-      "updatedAt": "2026-06-15T07:00:00.000Z",
-      "categories": [
-        "Amazon Rds",
-        "Databases"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "amazon rds",
-        "databases",
-        "rds"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "f3335dfac4506aee",
-      "title": "Amazon RDS for MySQL announces Extended Support minor version 5.7.44-RDS.20260521",
-      "description": "Amazon Relational Database Service (Amazon RDS) for MySQL now supports new Amazon RDS Extended Support minor version 5.7.44-RDS.20260521. We recommend that you upgrade to this version to fix known security vulnerabilities and bugs in prior versions of MySQL. Learn more about upgrading your database instances, including minor and major version upgrades, in the Amazon RDS User Guide . Amazon RDS Extended Support provides you more time, up to three years, to upgrade to a new major version to help you meet your business requirements. During Extended Support, Amazon RDS will provide critical securi",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/mysql/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Relational Database Service (Amazon RDS) for MySQL&lt;/a&gt;&amp;nbsp;now supports new Amazon RDS Extended Support minor version 5.7.44-RDS.20260521. We recommend that you upgrade to this version to fix known security vulnerabilities and bugs in prior versions of MySQL. Learn more about upgrading your database instances, including minor and major version upgrades, in the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.MySQL.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS User Guide&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Amazon RDS Extended Support provides you more time, up to three years, to upgrade to a new major version to help you meet your business requirements. During Extended Support, Amazon RDS will provide critical security and bug fixes for your MySQL databases on Aurora and RDS after the community ends support for a major version. You can run your MySQL databases on Amazon RDS with Extended Support for up to three years beyond a major version’s end of standard support date. Learn more about Extended Support in the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS User Guide&lt;/a&gt;&amp;nbsp;and the&amp;nbsp;&lt;a href=\"https://aws.amazon.com/rds/mysql/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Pricing FAQs&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Amazon RDS for MySQL makes it simple to set up, operate, and scale MySQL deployments in the cloud. See&amp;nbsp;&lt;a href=\"https://aws.amazon.com/rds/mysql/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for MySQL Pricing&lt;/a&gt;&amp;nbsp;for pricing details and regional availability. Create or update a fully managed Amazon RDS database in the&amp;nbsp;&lt;a href=\"https://console.aws.amazon.com/rds/home\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS Management Console&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-mysql-extended-support-minor-5744-rds/",
-      "publishedAt": "2026-06-15T07:00:00.000Z",
-      "updatedAt": "2026-06-15T07:00:00.000Z",
-      "categories": [
-        "Databases",
-        "Amazon Rds For Mysql"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "databases",
-        "amazon rds for mysql",
-        "rds"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "8e1386dddbf53804",
-      "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.27, 10.11.18, 11.4.12, and 11.8.8",
-      "description": "Amazon Relational Database Service (Amazon RDS) for MariaDB now supports community MariaDB minor versions 10.6.27, 10.11.18, 11.4.12, and 11.8.8. We recommend that you upgrade to the latest minor versions to fix known security vulnerabilities in prior versions of MariaDB, and to benefit from the bug fixes, performance improvements, and new functionality added by the MariaDB community. You can leverage automatic minor version upgrades to automatically upgrade your databases to more recent minor versions during scheduled maintenance windows. You can also leverage Amazon RDS Managed Blue/Green de",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/mariadb/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Relational Database Service (Amazon RDS) for MariaDB&lt;/a&gt;&amp;nbsp;now supports community MariaDB minor versions 10.6.27, 10.11.18, 11.4.12, and 11.8.8. We recommend that you upgrade to the latest minor versions to fix known security vulnerabilities in prior versions of MariaDB, and to benefit from the bug fixes, performance improvements, and new functionality added by the MariaDB community.&lt;br&gt; &lt;br&gt; You can leverage automatic minor version upgrades to automatically upgrade your databases to more recent minor versions during scheduled maintenance windows. You can also leverage&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS Managed Blue/Green deployments&lt;/a&gt;&amp;nbsp;for safer, simpler, and faster updates to your MariaDB instances. Learn more about upgrading your database instances, including automatic minor version upgrades and Blue/Green Deployments, in the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.MariaDB.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS User Guide.&lt;/a&gt;&lt;br&gt; &lt;br&gt; Amazon RDS for MariaDB makes it straightforward to set up, operate, and scale MariaDB deployments in the cloud. Learn more about pricing details and regional availability at&amp;nbsp;&lt;a href=\"https://aws.amazon.com/rds/mariadb/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for MariaDB&lt;/a&gt;. Create or update a fully managed Amazon RDS database in the&amp;nbsp;&lt;a href=\"https://console.aws.amazon.com/rds/home\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS Management Console&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-mariadb-community-versions/",
-      "publishedAt": "2026-06-15T07:00:00.000Z",
-      "updatedAt": "2026-06-15T07:00:00.000Z",
-      "categories": [
-        "Databases",
-        "Amazon Rds"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "databases",
-        "amazon rds",
-        "rds"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "cff3ee85da180054",
-      "title": "Amazon Lightsail is now available in three additional AWS Regions",
-      "description": "Starting today, Amazon Lightsail is available in three additional AWS Regions: Asia Pacific (Hong Kong), South America (São Paulo), and Europe (Spain). This expansion brings the power and simplicity of Lightsail to customers across new geographies in Asia, South America, and Europe. With this launch, customers in these geographical regions can now enjoy lower latency and better performance for their applications while meeting local data residency requirements. The new Regions provide access to Lightsail's full range of features including instances that meet your compute needs, from general pur",
-      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Lightsail is available in three additional AWS Regions: Asia Pacific (Hong Kong), South America (São Paulo), and Europe (Spain). This expansion brings the power and simplicity of Lightsail to customers across new geographies in Asia, South America, and Europe.&lt;br&gt; &lt;br&gt; With this launch, customers in these geographical regions can now enjoy lower latency and better performance for their applications while meeting local data residency requirements. The new Regions provide access to Lightsail's full range of features including instances that meet your compute needs, from general purpose to compute-optimized and memory-optimized bundles, as well as managed databases, container services, load balancers, &lt;a href=\"https://docs.aws.amazon.com/lightsail/latest/userguide/what-is-amazon-lightsail.html\"&gt;and more&lt;/a&gt;, all with the same simple, predictable pricing that Lightsail customers love. Startups, small businesses, and developers in these regions can now run their applications closer to their end users with low latency.&lt;br&gt; &lt;br&gt; Lightsail is available in these AWS Regions: US East (Ohio, N. Virginia), US West (Oregon), Canada (Central), Europe (Frankfurt, Ireland, London, Paris, Spain, Stockholm), Asia Pacific (Hong Kong, Jakarta, Malaysia, Mumbai, Seoul, Singapore, Sydney, Tokyo), South America (São Paulo). To learn more about Regions and Availability Zones for Lightsail, please refer to the &lt;a href=\"https://docs.aws.amazon.com/lightsail/latest/userguide/understanding-regions-and-availability-zones-in-amazon-lightsail.html\"&gt;documentation&lt;/a&gt;.&lt;br&gt; &lt;br&gt; You can create Lightsail resources in these AWS Regions through the &lt;a href=\"https://lightsail.aws.amazon.com/\"&gt;Lightsail Console&lt;/a&gt;, &lt;a href=\"https://aws.amazon.com/cli/\"&gt;AWS Command Line Interface (CLI)&lt;/a&gt;, and &lt;a href=\"https://aws.amazon.com/tools/\"&gt;AWS SDKs&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-lightsail-aws-regions/",
-      "publishedAt": "2026-06-12T20:43:00.000Z",
-      "updatedAt": "2026-06-12T20:43:00.000Z",
-      "categories": [
-        "Compute",
-        "Amazon Lightsail"
-      ],
-      "services": [
-        "Lightsail"
-      ],
-      "tags": [
-        "compute",
-        "amazon lightsail",
-        "lightsail"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "902cf1419c815f5b",
-      "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
-      "description": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3 Nano model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This is a popular open-weight model from NVIDIA with 30B total parameters. In addition to deploying this model on SageMaker AI, you can now adapt it to your specific domains and workflows. Model customization enables you to tailor foundation models with your proprietary data, whether that's improving accuracy on domain-specific tasks, aligning outputs with your organization's tone, or enhancing performance on new tasks using yo",
-      "descriptionHtml": "&lt;p&gt;Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3 Nano model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This is a popular open-weight model from NVIDIA with 30B total parameters. In addition to deploying this model on SageMaker AI, you can now adapt it to your specific domains and workflows.&lt;/p&gt; \n&lt;p&gt;Model customization enables you to tailor foundation models with your proprietary data, whether that's improving accuracy on domain-specific tasks, aligning outputs with your organization's tone, or enhancing performance on new tasks using your labeled data. With serverless customization, SageMaker AI handles all infrastructure provisioning and training orchestration, so you can focus on your data and evaluation rather than cluster management, and only pay for what you use.&lt;br&gt; &lt;br&gt; Serverless model customization for NVIDIA Nemotron 3 Nano on SageMaker AI is available in US East (N. Virginia), US West (Oregon), Asia Pacific (Tokyo), and Europe (Ireland). To get started, navigate to the Models page in Amazon SageMaker Studio to launch a customization job, or use the &lt;a href=\"https://sagemaker.readthedocs.io/en/stable/model_customization/index.html\"&gt;SageMaker Python SDK&lt;/a&gt; for programmatic access. To learn more, see the Amazon SageMaker AI &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/customize-model.html\"&gt;model customization documentation.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/",
-      "publishedAt": "2026-06-12T17:00:00.000Z",
-      "updatedAt": "2026-06-12T17:00:00.000Z",
-      "categories": [
-        "Amazon Sagemaker",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "amazon sagemaker",
-        "artificial intelligence",
-        "sagemaker"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "f2a3917da994c310",
-      "title": "Amazon EC2 I7i instances now available in AWS Europe (Paris) Region",
-      "description": "AWS is announcing the availability of high performance Storage optimized Amazon EC2 I7i instances in AWS Europe (Paris) region. Powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of 3.2 GHz, these new instances deliver up to 23% better compute performance and more than 10% better price performance over previous generation I4i instances. Powered by 3rd generation AWS Nitro SSDs, I7i instances offer up to 45TB of NVMe storage with up to 50% better real-time storage performance, up to 50% lower storage I/O latency, and up to 60% lower storage I/O latency variability compare",
-      "descriptionHtml": "&lt;p&gt;AWS is announcing the availability of high performance Storage optimized Amazon EC2 I7i instances in AWS Europe (Paris) region. Powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of 3.2 GHz, these new instances deliver up to 23% better compute performance and more than 10% better price performance over previous generation I4i instances. Powered by 3rd generation AWS Nitro SSDs, I7i instances offer up to 45TB of NVMe storage with up to 50% better real-time storage performance, up to 50% lower storage I/O latency, and up to 60% lower storage I/O latency variability compared to I4i instances.&lt;br&gt; &lt;br&gt; I7i instances offer compute and storage performance for x86-based storage optimized instances in Amazon EC2 ideal for I/O intensive and latency-sensitive workloads that demand very high random IOPS performance with real-time latency to access the small to medium size datasets. Additionally, torn write prevention feature support up to 16KB block sizes, enabling customers to eliminate database performance bottlenecks.&lt;br&gt; &lt;br&gt; I7i instances are available in eleven sizes - nine virtual sizes up to 48xlarge and two bare metal sizes - delivering up to 100Gbps of network bandwidth and 60Gbps of Amazon Elastic Block Store (EBS) bandwidth. To learn more, visit the I7i instances &lt;a href=\"https://aws.amazon.com/ec2/instance-types/i7i/\"&gt;page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-i7i-instances-europe-paris-region/",
-      "publishedAt": "2026-06-12T16:00:00.000Z",
-      "updatedAt": "2026-06-12T16:00:00.000Z",
-      "categories": [
-        "Compute",
-        "Storage"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "compute",
-        "storage",
-        "ec2"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "9aacd059abfcb5d6",
-      "title": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US) Regions",
-      "description": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US-West) and AWS GovCloud (US-East), enabling government and regulated-industry customers to reserve GPU capacity for machine learning workloads. EC2 Capacity Blocks for ML allows you to reserve GPU instances in advance for a defined duration, giving you assured access to accelerated compute for short-duration pre-training, fine-tuning, rapid prototyping, and inference demand surges. Capacity Blocks deliver low-latency, high-throughput connectivity through colocation in Amazon EC2 UltraClusters. You can reserve capacity up to ",
-      "descriptionHtml": "&lt;p&gt;Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US-West) and AWS GovCloud (US-East), enabling government and regulated-industry customers to reserve GPU capacity for machine learning workloads.&lt;/p&gt; \n&lt;p&gt;EC2 Capacity Blocks for ML allows you to reserve GPU instances in advance for a defined duration, giving you assured access to accelerated compute for short-duration pre-training, fine-tuning, rapid prototyping, and inference demand surges. Capacity Blocks deliver low-latency, high-throughput connectivity through colocation in Amazon EC2 UltraClusters.&lt;/p&gt; \n&lt;p&gt;You can reserve capacity up to eight weeks in advance for durations up to 6 months, in cluster sizes of one to 64 instances. Capacity Blocks can also be shared across multiple accounts using AWS Resource Access Manager (RAM), helping organizations coordinate ML infrastructure investments and keep reserved capacity in continuous use across workloads.&lt;/p&gt; \n&lt;p&gt;In AWS GovCloud (US), EC2 Capacity Blocks for ML is available on P6-B200 instances in AWS GovCloud (US-West), and P6-B200 and P6-B300 instances in AWS GovCloud (US-East). To get started, visit the &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-blocks.html\"&gt;EC2 Capacity Blocks documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-capacity-blocks-ml-govcloud/",
-      "publishedAt": "2026-06-12T14:00:00.000Z",
-      "updatedAt": "2026-06-12T14:00:00.000Z",
-      "categories": [
-        "Amazon Ec2",
-        "AWS Govcloud Us"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "amazon ec2",
-        "aws govcloud us",
-        "ec2"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "d0ddd026193be8d6",
-      "title": "Amazon EC2 High Memory U7i-8TB instances now available in AWS Europe (Paris) region",
-      "description": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids). U7i-8TB instances offer 8 TiB of DDR5 memory, enabling customers to scale transaction processing throughput in a fast-growing data environment. U7i instances offer up to 45% better price performance over existing U-1 instances. U7i-8TB instances deliver 448 vCPUs and support up to 100 Gbps of Amazon EBS bandwidth for faster data loading and backu",
-      "descriptionHtml": "&lt;p&gt;Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids). U7i-8TB instances offer 8 TiB of DDR5 memory, enabling customers to scale transaction processing throughput in a fast-growing data environment.&amp;nbsp;U7i instances offer up to 45% better price performance over existing U-1 instances.&lt;/p&gt; \n&lt;p&gt;U7i-8TB instances deliver 448 vCPUs and support up to 100 Gbps of Amazon EBS bandwidth for faster data loading and backups, 100 Gbps of network bandwidth, and ENA Express. U7i instances are ideal for customers running mission-critical in-memory databases like SAP HANA, Oracle, and SQL Server.&lt;/p&gt; \n&lt;p&gt;To learn more about U7i instances, visit the &lt;a href=\"https://aws.amazon.com/ec2/instance-types/u7i/\"&gt;High Memory instances page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7i-8tb-europe-paris/",
-      "publishedAt": "2026-06-11T23:00:00.000Z",
-      "updatedAt": "2026-06-11T23:00:00.000Z",
-      "categories": [
-        "Amazon Ec2",
-        "Compute"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "amazon ec2",
-        "compute",
-        "ec2"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "e908cfe7b97b20af",
-      "title": "Amazon Quick now integrates with Snowflake Cortex AI",
-      "description": "Amazon Quick now integrates with Snowflake Cortex AI through the Model Context Protocol (MCP), enabling teams to query their Snowflake data and documents using natural language, and automate multi-step workflows directly within their Quick workspace. After setting up the connection using Snowflake's managed MCP server with OAuth authentication, you can ask questions across structured data through Cortex Analyst and retrieve insights from unstructured documents through Cortex Search. With this integration, you can build Flows in Quick that orchestrate Snowflake Cortex Agents to execute repeatab",
-      "descriptionHtml": "&lt;p&gt;Amazon Quick now integrates with Snowflake Cortex AI through the Model Context Protocol (MCP), enabling teams to query their Snowflake data and documents using natural language, and automate multi-step workflows directly within their Quick workspace. After setting up the connection using Snowflake's managed MCP server with OAuth authentication, you can ask questions across structured data through Cortex Analyst and retrieve insights from unstructured documents through Cortex Search.&lt;/p&gt; \n&lt;p&gt;With this integration, you can build Flows in Quick that orchestrate Snowflake Cortex Agents to execute repeatable, governed workflows with consistent structured output. This is ideal for any multi-step process that spans structured data and unstructured documents. The same MCP connection is also accessible from Quick Chat and other Quick features. For example, users can ask ad-hoc follow-up questions or explore their Snowflake data conversationally alongside their automated flows. Quick intelligently routes relevant prompts to Snowflake Cortex AI and returns contextualized answers alongside enterprise knowledge stored in Quick Spaces, giving teams both the rigor of a structured process and the flexibility of a conversational interface.&lt;/p&gt; \n&lt;p&gt;The Snowflake Cortex AI integration with Amazon Quick is available in all &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html\" target=\"_blank\"&gt;AWS Regions&lt;/a&gt; where Amazon Quick is available.&lt;/p&gt; \n&lt;p&gt;Visit the Amazon Quick website to learn more and &lt;a href=\"https://aws.amazon.com/quick/\" target=\"_blank\"&gt;start your Quick free trial&lt;/a&gt;. To learn more about the Snowflake Cortex AI integration, read the &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/automate-aml-alert-triage-with-amazon-quick-and-snowflake-cortex-ai/\" target=\"_blank\"&gt;blog&lt;/a&gt;. To learn more about Quick integrations, visit the &lt;a href=\"https://aws.amazon.com/quick/integrations/\" target=\"_blank\"&gt;integrations page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-snowflake-cortex-ai/",
-      "publishedAt": "2026-06-11T22:02:00.000Z",
-      "updatedAt": "2026-06-11T22:02:00.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false
-    },
-    {
-      "id": "822606cdf3da7144",
-      "title": "Amazon EKS now supports local clusters on AWS Outposts with Amazon EC2 instance store",
-      "description": "Today, AWS is expanding support for Amazon Elastic Kubernetes Service (EKS) local clusters on AWS Outposts to first-generation and second-generation AWS Outposts racks running Amazon EC2 instances that boot from Amazon EC2 instance store. AWS Outposts offers static stability for Amazon EC2 instances backed by EC2 instance store , and AWS is now extending that benefit to Amazon EKS local clusters customers. With local clusters, the entire Kubernetes control plane runs on AWS Outposts, supporting advanced data residency requirements and mitigating the risk of impact from temporary network discon",
-      "descriptionHtml": "&lt;p&gt;Today, AWS is expanding support for Amazon Elastic Kubernetes Service (EKS) local clusters on AWS Outposts to first-generation and second-generation AWS Outposts racks running Amazon EC2 instances that boot from Amazon EC2 instance store. AWS Outposts &lt;a href=\"https://aws.amazon.com/about-aws/whats-new/2024/11/static-stability-amazon-ec2-instances-store-aws-outposts/\"&gt;offers static stability for Amazon EC2 instances backed by EC2 instance store&lt;/a&gt;, and AWS is now extending that benefit to Amazon EKS local clusters customers. With local clusters, the entire Kubernetes control plane runs on AWS Outposts, supporting advanced data residency requirements and mitigating the risk of impact from temporary network disconnects to the cloud.&lt;br&gt; &lt;br&gt; Amazon EKS local clusters on AWS Outposts backed by Amazon EC2 instance store use an updated architecture that brings greater operational and feature-level parity with Amazon EKS clusters in the cloud. The Kubernetes control plane on your Outpost&amp;nbsp;is managed by Amazon EKS in a service-owned account, so you don’t need to manage etcd backups or logging agents on control plane instances. New Kubernetes versions and Amazon EKS platform versions are made available for local clusters as they’re released for Amazon EKS in the cloud. Local clusters deployed with the updated architecture support Amazon EKS add-ons, &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html\"&gt;IAM Roles for Service Accounts&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html\"&gt;EKS Pod Identity&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/authenticate-oidc-identity-provider.html\"&gt;OIDC authentication&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/access-entries.html\"&gt;access entries&lt;/a&gt;, and &lt;a href=\"https://aws.amazon.com/bottlerocket/\"&gt;Bottlerocket&lt;/a&gt; worker nodes (in addition to Amazon Linux 2023).&lt;br&gt; &lt;br&gt; The updated architecture and new capabilities are generally available on AWS Outposts racks backed by Amazon EC2 instance store in all commercial AWS Regions that support AWS Outposts racks. AWS Outposts that boot Amazon EC2 instances from Amazon EBS will continue to use the original local clusters architecture. For more information, see local clusters in the &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/eks-outposts-local-cluster-overview.html\"&gt;Amazon EKS user guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-aws-outposts-ec2-instance-store/",
-      "publishedAt": "2026-06-11T20:52:00.000Z",
-      "updatedAt": "2026-06-11T20:52:00.000Z",
-      "categories": [
-        "Containers",
-        "Amazon Eks"
-      ],
-      "services": [
-        "EC2",
-        "Outposts",
-        "EKS"
-      ],
-      "tags": [
-        "containers",
-        "amazon eks",
-        "ec2",
-        "outposts",
-        "eks"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "47979e3433294ccc",
-      "title": "Amazon CloudWatch Application Signals now supports infrastructure, logs, and traces context for faster troubleshooting",
-      "description": "Amazon CloudWatch Application Signals introduces service health ranking on the application map and new infrastructure, logs, and traces tabs on the service overview page. These capabilities let operators triage unhealthy services and inspect the underlying compute environment, log snippets, and trace details in one place, making it easier to find root causes without switching tools. Customers use Application Signals to monitor the health of distributed applications, but identifying why a service was unhealthy often required leaving CloudWatch to correlate infrastructure data across separate to",
-      "descriptionHtml": "&lt;p&gt;Amazon CloudWatch Application Signals introduces service health ranking on the application map and new infrastructure, logs, and traces tabs on the service overview page. These capabilities let operators triage unhealthy services and inspect the underlying compute environment, log snippets, and trace details in one place, making it easier to find root causes without switching tools.&lt;br&gt; Customers use Application Signals to monitor the health of distributed applications, but identifying why a service was unhealthy often required leaving CloudWatch to correlate infrastructure data across separate tools. The application map now ranks services by health and shows runtime indicators on service nodes for Amazon EKS, Amazon ECS, AWS Lambda, and Amazon EC2, along with a new infrastructure tab that surfaces the compute and runtime environment, its components, and curated default metrics with deep links to the relevant monitoring tools. In addition, the service overview page provides the infrastructure, logs, and traces tab, helping operators spot issues in context of their application. With health-ranked services on the application map and new infrastructure, logs, and traces tabs, operators can instantly identify their most degraded services and drill into the compute environment, error-producing log snippets, and slow or failing transactions — all without leaving Application Signals. These capabilities span workloads running on Amazon EKS, Amazon ECS, AWS Lambda, and Amazon EC2, giving teams a single pane to move from symptom to root cause in minutes instead of hours.&lt;br&gt; &lt;br&gt; These capabilities are available in all AWS Regions where Amazon CloudWatch Application Signals is supported. To learn more about this feature, see the &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Application-Monitoring-Sections.html\"&gt;Amazon CloudWatch Application Signals documentation&lt;/a&gt; . For pricing details, see the &lt;a href=\"https://aws.amazon.com/cloudwatch/pricing/\"&gt;Amazon CloudWatch pricing page&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-application-signals-supports infrastructure-logs-traces-context-for-faster troubleshooting/",
-      "publishedAt": "2026-06-11T20:10:00.000Z",
-      "updatedAt": "2026-06-11T20:10:00.000Z",
-      "categories": [
-        "Amazon Cloudwatch",
-        "Management And Governance"
-      ],
-      "services": [
-        "CloudWatch"
-      ],
-      "tags": [
-        "amazon cloudwatch",
-        "management and governance",
-        "cloudwatch"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "6fcf3f8b489204e0",
-      "title": "Amazon Aurora now supports PostgreSQL major version 18",
-      "description": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL major version 18, starting with version 18.3. This release brings community improvements to query performance and database management, and introduces support for pg_roaringbitmap, a new extension that performs fast, memory-efficient set operations on large collections of integers. This enables use cases such as audience segmentation, tag-based filtering, and permission checks directly in the database without application-layer processing. PostgreSQL 18 introduces B-tree skip scans, which improve query performance, and reduce in",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/aurora/\"&gt;Amazon Aurora PostgreSQL-Compatible Edition&lt;/a&gt; now supports PostgreSQL major version 18, starting with version 18.3. This release brings community improvements to query performance and database management, and introduces support for pg_roaringbitmap, a new extension that performs fast, memory-efficient set operations on large collections of integers. This enables use cases such as audience segmentation, tag-based filtering, and permission checks directly in the database without application-layer processing.&lt;br&gt; &lt;br&gt; PostgreSQL 18 introduces B-tree skip scans, which improve query performance, and reduce index storage and maintenance overhead. Major version upgrades now retain optimizer statistics, ensuring consistent query performance immediately after upgrading without waiting for statistics to be regenerated. Logical replication can now stream large transactions in parallel, reducing replication lag and keeping downstream systems more current. Please refer to the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/AuroraPostgreSQL.Updates.html\"&gt;Amazon Aurora PostgreSQL release notes&lt;/a&gt; for details.&lt;br&gt; &lt;br&gt; You can upgrade your database using several options including &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments-overview.html\"&gt;RDS Blue/Green deployments&lt;/a&gt;, upgrade in-place, or restoring a snapshot. Learn more about upgrading your database instances in the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.VersionPolicy.Upgrading.html\"&gt;Amazon Aurora User Guide&lt;/a&gt;. Aurora PostgreSQL 18.3 is available in all commercial AWS Regions and AWS GovCloud (US) Regions.&lt;br&gt; &lt;br&gt; Amazon Aurora is designed for unparalleled high performance and availability at global scale with full PostgreSQL and MySQL compatibility. It provides built-in security, continuous backups, serverless compute, up to 15 read replicas, automated multi-Region replication, and integrations with other AWS services. To get started with Amazon Aurora, take a look at our &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_GettingStartedAurora.html\"&gt;getting started page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-postgresql-major-version-18/",
-      "publishedAt": "2026-06-11T18:59:00.000Z",
-      "updatedAt": "2026-06-11T18:59:00.000Z",
-      "categories": [
-        "Databases",
-        "AWS Govcloud Us",
-        "Amazon Aurora"
-      ],
-      "services": [
-        "Aurora"
-      ],
-      "tags": [
-        "databases",
-        "aws govcloud us",
-        "amazon aurora",
-        "aurora"
       ],
       "isNew": false
     }
