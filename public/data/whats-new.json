@@ -1,7 +1,51 @@
 {
-  "lastUpdated": "2026-08-14T08:30:50.224Z",
+  "lastUpdated": "2026-08-15T08:07:09.634Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "b780f0d358229449",
+      "title": "Amazon RDS for Oracle now supports Oracle Application Express (APEX) version 26.1",
+      "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle Application Express (APEX) version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set up, operate, and scale Oracle Database deployments in the cloud. Oracle APEX is a low-code development platform that enables developers to build scalable, secure enterprise applications with modern user interfaces. To learn more about the latest features of Oracle APEX 26.1, see Oracle’s APEX Release 26.1 documentation . For more details on supported Oracle APEX versions and how to add or modify O",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/oracle/\"&gt;Amazon Relational Database Service (Amazon RDS) for Oracle&lt;/a&gt; now supports Oracle Application Express (APEX) version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set up, operate, and scale Oracle Database deployments in the cloud. Oracle APEX is a low-code development platform that enables developers to build scalable, secure enterprise applications with modern user interfaces. To learn more about the latest features of Oracle APEX 26.1, see &lt;a href=\"https://docs.oracle.com/en/database/oracle/apex/26.1/index.html\"&gt;Oracle’s APEX Release 26.1 documentation&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;For more details on supported Oracle APEX versions and how to add or modify Oracle APEX options for your RDS for Oracle database, visit the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Appendix.Oracle.Options.APEX.html\"&gt;Amazon RDS for Oracle APEX Documentation.&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;Oracle APEX version 26.1 is available in all AWS regions where Amazon RDS for Oracle is available. See &lt;a href=\"https://aws.amazon.com/rds/oracle/pricing/\"&gt;Amazon RDS for Oracle Pricing&lt;/a&gt; for regional availability.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-apex-26-1/",
+      "publishedAt": "2026-08-14T15:00:00.000Z",
+      "updatedAt": "2026-08-14T15:00:00.000Z",
+      "categories": [
+        "Databases",
+        "Amazon Rds For Oracle"
+      ],
+      "services": [
+        "RDS"
+      ],
+      "tags": [
+        "databases",
+        "amazon rds for oracle",
+        "rds"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "ad27226fdf45d7cb",
+      "title": "Amazon SES click tracking now supports custom URL paths for mobile app deep linking",
+      "description": "Amazon Simple Email Service (SES) now makes it easier to support mobile deep linking with the new ses:custom-path HTML attribute. When you add this attribute to an tag, SES carries your path segment through to the tracking URL, so mobile operating systems can match it to your app's Universal Links (iOS) or App Links (Android) configuration. This enables you to use mobile deep linking without disabling engagement tracking. This feature is available in all AWS Regions where Amazon SES is available. To use this feature, you need a custom redirect domain for click tracking with an Apple App Site A",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/ses/\"&gt;Amazon Simple Email Service (SES)&lt;/a&gt;&amp;nbsp;now makes it easier to support mobile deep linking with the new ses:custom-path HTML attribute. When you add this attribute to an &amp;lt;a&amp;gt; tag, SES carries your path segment through to the tracking URL, so mobile operating systems can match it to your app's Universal Links (iOS) or App Links (Android) configuration. This enables you to use mobile deep linking without disabling engagement tracking.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where Amazon SES is available. To use this feature, you need a custom redirect domain for click tracking with an Apple App Site Association (AASA) or Digital Asset Links verification file hosted on that domain. Then, add the ses:custom-path attribute to links in your HTML emails.&lt;/p&gt; \n&lt;p&gt;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/ses/latest/dg/configure-custom-open-click-domains.html\"&gt;Configuring custom domains to handle open and click tracking&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/ses/latest/dg/faqs-metrics.html\"&gt;Amazon SES email sending metrics FAQs&lt;/a&gt; in the Amazon SES Developer Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-supports-customurl-deeplinking",
+      "publishedAt": "2026-08-14T07:00:00.000Z",
+      "updatedAt": "2026-08-14T07:00:00.000Z",
+      "categories": [
+        "Business Productivity",
+        "Amazon Simple Email Service"
+      ],
+      "services": [
+        "SES"
+      ],
+      "tags": [
+        "business productivity",
+        "amazon simple email service",
+        "ses"
+      ],
+      "isNew": true
+    },
     {
       "id": "14d768550469015d",
       "title": "AWS Billing and Cost Management introduces Managed Dashboards",
@@ -41,6 +85,28 @@
       "tags": [
         "networking and content delivery",
         "aws client vpn"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "404d1fb7a2bd589b",
+      "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes in AWS GovCloud (US) Regions",
+      "description": "Amazon Redshift now offers rg.large and rg.12xlarge instance sizes for RG instances in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous generation RA3 instances, at 30% lower price per vCPU. RG instances include Redshift's custom-built vectorized data lake query engine that processes Apache Iceberg and Parquet data on your cluster nodes, enabling you to run SQL analytics across your data warehouse and data lake using a single engine. rg.large and rg.12xlarge inst",
+      "descriptionHtml": "&lt;p&gt;Amazon Redshift now offers rg.large and rg.12xlarge instance sizes for RG instances in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous generation RA3 instances, at 30% lower price per vCPU. RG instances include Redshift's custom-built vectorized data lake query engine that processes Apache Iceberg and Parquet data on your cluster nodes, enabling you to run SQL analytics across your data warehouse and data lake using a single engine.&lt;/p&gt; \n&lt;p&gt;rg.large and rg.12xlarge instance sizes are available on patch version P202 and later. Customers can resize existing RG or RA3 clusters to these new instance sizes using Elastic Resize or Classic Resize. Customers with existing RA3 clusters can also upgrade to RG using Snapshot &amp;amp; Restore.&lt;/p&gt; \n&lt;p&gt;RG instances are available in four instance sizes: rg.large, rg.xlarge, rg.4xlarge, and rg.12xlarge. RG instances are available with flexible pricing options, including On-Demand, and 1-year and 3-year Reserved Instances with All Upfront, Partial Upfront, and No Upfront payment options. For pricing details, visit the &amp;nbsp;&lt;a href=\"https://aws.amazon.com/redshift/pricing/\"&gt;Amazon Redshift pricing page&amp;nbsp;&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;To get started, refer to the following resources:&lt;/p&gt; \n&lt;ul&gt; \n &lt;li&gt;&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-clusters.html#rs-rg-nodes-table\"&gt;Amazon Redshift RG Instance Documentation&lt;/a&gt;&lt;/li&gt; \n&lt;/ul&gt; \n&lt;ul&gt; \n &lt;li&gt;&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/redshift/latest/mgmt/managing-cluster-considerations.html#rs-upgrading-to-ra3\"&gt;RA3 to RG Upgrade Guide&lt;/a&gt;&lt;/li&gt; \n&lt;/ul&gt; \n&lt;ul&gt; \n &lt;li&gt;&amp;nbsp;&lt;a href=\"https://aws.amazon.com/redshift/pricing/\"&gt;Amazon Redshift Pricing&lt;/a&gt;&lt;/li&gt; \n&lt;/ul&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-adds-rg-large-12xlarge-aws-govcloud-regions/",
+      "publishedAt": "2026-08-13T19:34:00.000Z",
+      "updatedAt": "2026-08-13T19:34:00.000Z",
+      "categories": [
+        "Analytics",
+        "Amazon Redshift"
+      ],
+      "services": [
+        "Redshift"
+      ],
+      "tags": [
+        "analytics",
+        "amazon redshift",
+        "redshift"
       ],
       "isNew": true
     },
@@ -832,7 +898,7 @@
         "amazon ec2",
         "ec2"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a3426752e3240328",
@@ -856,7 +922,7 @@
         "backup",
         "timestream"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8806ae202c99503d",
@@ -882,7 +948,7 @@
         "security identity and compliance",
         "cognito"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d3bb530d488782a3",
@@ -906,7 +972,7 @@
         "iam",
         "iam identity center"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "532fa11d8ea9c463",
@@ -928,7 +994,7 @@
         "amazon vpc",
         "vpc"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9520278531ee11ec",
@@ -950,7 +1016,7 @@
         "amazon bedrock",
         "bedrock"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0332d20685a8b75e",
@@ -11034,69 +11100,6 @@
         "aws waf",
         "cloudfront",
         "waf"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "80a687f7eaf7396c",
-      "title": "Amazon CloudWatch now supports cross-account metrics centralization",
-      "description": "Today, Amazon Web Services announces the general availability of Amazon CloudWatch Metrics Centralization, which enables you to replicate CloudWatch metrics cross-account and cross-region into a single destination account. Enterprise teams with complex multi-account, multi-region deployments often need a unified view of their operational health across their entire infrastructure. CloudWatch metrics centralization solves this by letting you define centralization rules through AWS Organizations that automatically replicate metrics from source accounts and regions into a centralized destination a",
-      "descriptionHtml": "&lt;p&gt;Today, Amazon Web Services announces the general availability of Amazon CloudWatch Metrics Centralization, which enables you to replicate CloudWatch metrics cross-account and cross-region into a single destination account.&lt;br&gt; &lt;br&gt; Enterprise teams with complex multi-account, multi-region deployments often need a unified view of their operational health across their entire infrastructure. CloudWatch metrics centralization solves this by letting you define centralization rules through AWS Organizations that automatically replicate metrics from source accounts and regions into a centralized destination account. Central teams gain full ownership of the data for querying, alarming, compliance, and governance. Centralized metrics work with both CloudWatch and OpenTelemetry metrics, and are fully compatible with Metrics Insights, dashboards, alarms, Metric Math, anomaly detection, Metric Streams, and PromQL.&lt;br&gt; &lt;br&gt; CloudWatch Metrics Centralization is available in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (N. California), US West (Oregon), Asia Pacific (Mumbai), Asia Pacific (Osaka), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Canada (Central), Europe (Frankfurt), Europe (Ireland), Europe (London), Europe (Paris), Europe (Stockholm), and South America (São Paulo).&lt;br&gt; &lt;br&gt; To learn more, see &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Cross-Account-Methods.html\"&gt;CloudWatch Metrics Centralization&lt;/a&gt; in the &lt;i&gt;Amazon CloudWatch User Guide&lt;/i&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cross-account-metrics-centralization",
-      "publishedAt": "2026-06-15T10:00:00.000Z",
-      "updatedAt": "2026-06-15T10:00:00.000Z",
-      "categories": [
-        "Amazon Cloudwatch",
-        "Management And Governance"
-      ],
-      "services": [
-        "CloudWatch"
-      ],
-      "tags": [
-        "amazon cloudwatch",
-        "management and governance",
-        "cloudwatch"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "fb790c703792e300",
-      "title": "Amazon CloudWatch Query Studio is now generally available",
-      "description": "Today, Amazon Web Services announces the general availability of Amazon CloudWatch Query Studio, a unified querying and visualization experience that enables you to explore metrics from a single interface within the CloudWatch console. With Query Studio, a team operating services across multiple AWS accounts and regions can use PromQL or Metrics Insights to query OpenTelemetry and AWS vended metrics from a single workspace. Per-query cross-account and cross-region selectors make it easy to correlate latency and error rates across their entire fleet. They can build queries visually with guided ",
-      "descriptionHtml": "&lt;p&gt;Today, Amazon Web Services announces the general availability of Amazon CloudWatch Query Studio, a unified querying and visualization experience that enables you to explore metrics from a single interface within the CloudWatch console.&lt;br&gt; &lt;br&gt; With Query Studio, a team operating services across multiple AWS accounts and regions can use PromQL or Metrics Insights to query OpenTelemetry and AWS vended metrics from a single workspace. Per-query cross-account and cross-region selectors make it easy to correlate latency and error rates across their entire fleet. They can build queries visually with guided builders for PromQL and Metrics Insights (SQL), then choose from visualization types including line, bar, scatter plot, heatmap, histogram, pie, gauge, and number widgets with dual y-axis configuration and series overrides. Query Studio also integrates with CloudWatch dashboards, supports Grafana imports, and provides keyboard shortcuts for running queries.&lt;br&gt; &lt;br&gt; Query Studio is available in all commercial AWS regions, except Middle East (UAE), Middle East (Bahrain) and Israel (Tel Aviv). For more information about regional availability, see the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Region table&lt;/a&gt;. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-PromQL-QueryStudio.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Query Studio&lt;/a&gt; in the Amazon Cloudwatch User Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-query-studio-generally-available",
-      "publishedAt": "2026-06-15T10:00:00.000Z",
-      "updatedAt": "2026-06-15T10:00:00.000Z",
-      "categories": [
-        "Amazon Cloudwatch",
-        "Management And Governance"
-      ],
-      "services": [
-        "CloudWatch"
-      ],
-      "tags": [
-        "amazon cloudwatch",
-        "management and governance",
-        "cloudwatch"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "481b11a3e24ba61a",
-      "title": "Free Network Bandwidth Amazon GameLift Servers is Here!",
-      "description": "Starting today, Amazon GameLift Servers provides network bandwidth in and out of AWS at no additional charge for all instance types from generation 6 and later, including On-Demand and Spot, with no commitment required. You now pay only for your Amazon GameLift Servers instance hours; all network bandwidth is free. Multiplayer game servers generate continuous network traffic to connected players, making bandwidth one of the most unpredictable cost components for game studio customers. With free network bandwidth included, Amazon GameLift Servers eliminates this cost, giving you the simplicity ",
-      "descriptionHtml": "&lt;p&gt;Starting today, Amazon GameLift Servers provides network bandwidth in and out of AWS at no additional charge for all instance types from generation 6 and later, including On-Demand and Spot, with no commitment required. You now pay only for your Amazon GameLift Servers instance hours; all network bandwidth is free.&lt;/p&gt; \n&lt;p&gt;Multiplayer game servers generate continuous network traffic to connected players, making bandwidth one of the most unpredictable cost components for game studio customers. With free network bandwidth included, Amazon GameLift Servers eliminates this cost, giving you the simplicity of bare-metal hosting with the global reach of AWS.&lt;/p&gt; \n&lt;p&gt;Free network bandwidth applies with no enrollment, pricing agreement, or configuration change required. Existing customers on eligible fleets receive the benefit immediately. It is now available in all Amazon GameLift Servers supported regions,&amp;nbsp;except China.&lt;/p&gt; \n&lt;p&gt;To learn more, visit the Amazon GameLift Servers &lt;a href=\"https://docs.aws.amazon.com/gameliftservers/latest/developerguide/release-notes.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt;&amp;nbsp;or&amp;nbsp;&lt;a href=\"https://aws.amazon.com/gamelift/servers/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-gamelift-servers-free-network-bandwidth",
-      "publishedAt": "2026-06-15T08:00:00.000Z",
-      "updatedAt": "2026-06-15T08:00:00.000Z",
-      "categories": [
-        "Amazon Gamelift",
-        "Game Development"
-      ],
-      "services": [],
-      "tags": [
-        "amazon gamelift",
-        "game development"
       ],
       "isNew": false
     }
