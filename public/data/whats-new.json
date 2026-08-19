@@ -1,7 +1,270 @@
 {
-  "lastUpdated": "2026-08-18T08:11:36.739Z",
+  "lastUpdated": "2026-08-19T08:12:28.559Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "ea1f7e9733e75f6e",
+      "title": "Amazon Bedrock now supports SpaceXAI Grok 4.6",
+      "description": "Amazon Bedrock now supports SpaceXAI Grok 4.6, SpaceXAI's latest flagship model built for long-running agents and ambitious interactive and visual work. Grok 4.6 offers a 500K context window and configurable reasoning efforts (low, medium, high, xhigh). Grok 4.6 builds on previous generations of Grok with a particular focus on staying with complex tasks across many steps, whether researching a topic, analyzing information, working across a codebase, or turning an idea into a polished application. According to SpaceXAI, it achieves frontier intelligence across several agentic coding and knowled",
+      "descriptionHtml": "&lt;p&gt;Amazon Bedrock now supports&amp;nbsp;SpaceXAI Grok 4.6, SpaceXAI's latest flagship model built for long-running agents and ambitious interactive and visual work. Grok 4.6 offers a 500K context window and configurable reasoning&amp;nbsp; efforts (low, medium, high, xhigh).&amp;nbsp;&lt;br&gt; &lt;br&gt; Grok 4.6 builds on previous generations of Grok with a particular focus on staying with complex tasks across many steps, whether researching a topic, analyzing information, working across a codebase, or turning an idea into a polished application. According to SpaceXAI, it achieves frontier intelligence across several agentic coding and knowledge work benchmarks, matching other frontier models specialized for coding. With Bedrock, customers can access the model with enterprise-grade security and privacy,&amp;nbsp; comprehensive monitoring and logging, and the flexibility to scale across AWS Regions with cross-Region inference.&lt;br&gt; &lt;br&gt; &amp;nbsp;Grok 4.6 is available in all AWS Regions where Amazon Bedrock is offered. To get started, review the model card for Grok 4.6 in the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-6.html\"&gt;Amazon Bedrock User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/",
+      "publishedAt": "2026-08-19T05:18:00.000Z",
+      "updatedAt": "2026-08-19T05:18:00.000Z",
+      "categories": [],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "bedrock"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "3f1facc4131e23fd",
+      "title": "Amazon Bedrock now supports OpenAI models in India",
+      "description": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) in India, with India Geo cross-Region inference. Customers with regulatory requirements of in-country inferencing can now use OpenAI models at scale ensuring that inferencing is processed within India. Cross-Region inference automatically routes inference requests across multiple AWS Regions to give you higher throughput, without you needing to manage capacity across multiple Regions. The new India Geo inference profiles—in.openai.gpt-5.6-terra for Terra and in.openai.gpt-5.6-luna for Luna—route requests only within the Ind",
+      "descriptionHtml": "&lt;p&gt;Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) in India, with India Geo cross-Region inference. Customers with regulatory requirements of in-country inferencing can now use OpenAI models at scale ensuring that inferencing is processed within India.&lt;/p&gt; \n&lt;p&gt;Cross-Region inference automatically routes inference requests across multiple AWS Regions to give you higher throughput, without you needing to manage capacity across multiple Regions. The new India Geo inference profiles—in.openai.gpt-5.6-terra for Terra and in.openai.gpt-5.6-luna for Luna—route requests only within the India geography, across AWS Regions such as Asia Pacific (Mumbai) and Asia Pacific (Hyderabad), so you can scale to meet demand while keeping data processed within India to meet data residency requirements. The models run on the bedrock-runtime endpoint with support for the Responses, Chat Completions, and Converse APIs, and work with the same account-level controls you already use for other models on Bedrock, including model invocation logging (deliverable to Amazon S3 or Amazon CloudWatch Logs), Amazon CloudWatch metrics, and cost itemization in AWS Cost Explorer and the AWS Cost and Usage Report.&lt;/p&gt; \n&lt;p&gt;OpenAI models with India cross-Region inference are available in the Asia Pacific (Mumbai) and Asia Pacific (Hyderabad) Regions. To get started, review the model cards for GPT-5.6 (Terra and Luna) and the Cross-Region inference section in the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/getting-started.html\"&gt;Amazon Bedrock User Guide.&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/",
+      "publishedAt": "2026-08-18T23:30:00.000Z",
+      "updatedAt": "2026-08-18T23:30:00.000Z",
+      "categories": [],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "bedrock"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "d46a35ed8deb0e54",
+      "title": "AWS IAM identity federation to external services is now available in AWS European Sovereign Cloud Region",
+      "description": "AWS Identity and Access Management (IAM) now enables AWS workloads in the AWS European Sovereign Cloud (Germany) Region to securely authenticate with external services using short-lived JSON Web Tokens (JWTs). The AWS European Sovereign Cloud is an independent cloud for Europe entirely located within the European Union (EU), designed to help customers meet their evolving sovereignty requirements. With outbound identity federation, AWS workloads can securely authenticate with third-party cloud providers, SaaS providers, and self-hosted applications without using long-term credentials or impleme",
+      "descriptionHtml": "&lt;p&gt;AWS Identity and Access Management (IAM) now enables AWS workloads in the AWS European Sovereign Cloud (Germany) Region to securely authenticate with external services using short-lived JSON Web Tokens (JWTs). The AWS European Sovereign Cloud is an independent cloud for Europe entirely located within the European Union (EU), designed to help customers meet their evolving sovereignty requirements.&lt;/p&gt; \n&lt;p&gt;&lt;br&gt; With outbound identity federation, AWS workloads can securely authenticate with third-party cloud providers, SaaS providers, and self-hosted applications without using long-term credentials or implementing complex workarounds. Customers can exchange their AWS IAM credentials for cryptographically signed, short-lived JWTs, providing a simple and secure mechanism to access external services. These tokens contain rich context about the AWS workloads, enabling external services to implement fine-grained access control. Administrators can control access to token generation and enforce token properties (such as lifetime, audience, and signing algorithms) using IAM policies and audit token usage using CloudTrail logs, allowing them to meet their organization's security and compliance requirements.&lt;/p&gt; \n&lt;p&gt;&lt;br&gt; To learn more, visit the &lt;a href=\"https://aws.amazon.com/identity/federation/outbound-federation/\"&gt;outbound identity federation product page&lt;/a&gt;, see the &lt;a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_outbound.html\"&gt;IAM user guide&lt;/a&gt;, or read the &lt;a href=\"https://aws.amazon.com/blogs/aws/simplify-access-to-external-services-using-aws-iam-outbound-identity-federation/\"&gt;AWS News Blog Post&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-european-sovereign-cloud/",
+      "publishedAt": "2026-08-18T22:30:00.000Z",
+      "updatedAt": "2026-08-18T22:30:00.000Z",
+      "categories": [
+        "AWS Iam",
+        "AWS Security Token Service",
+        "AWS Identity And Access Management",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "IAM"
+      ],
+      "tags": [
+        "aws iam",
+        "aws security token service",
+        "aws identity and access management",
+        "security identity and compliance",
+        "iam"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "a0c971a08fc80b19",
+      "title": "Amazon Corretto August 2026 Critical Security Patch Updates",
+      "description": "On Aug 18, 2026, Amazon announced critical security patch update (CSPU) for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2.11.1, 25.0.4.8.1, 21.0.12.9.1, 17.0.20.10.1, 11.0.32.10.1, and 8u504 are now available for download . Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. Visit Corretto home page to download Corretto 26, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get the updates on your Linux system by configuring a Corretto Apt, Yum, or Apk repo . Feedback is wel",
+      "descriptionHtml": "&lt;p&gt;On Aug 18, 2026, Amazon announced critical security patch update (CSPU) for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2.11.1, 25.0.4.8.1, 21.0.12.9.1, 17.0.20.10.1, 11.0.32.10.1, and 8u504 are now available for &lt;a href=\"https://aws.amazon.com/corretto/\"&gt;download&lt;/a&gt;. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK.&lt;/p&gt; \n&lt;p&gt;Visit Corretto &lt;a href=\"https://aws.amazon.com/corretto\"&gt;home page&lt;/a&gt; to download Corretto 26, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get the updates on your Linux system by configuring a &lt;a href=\"https://docs.aws.amazon.com/corretto/latest/corretto-26-ug/generic-linux-install.html\"&gt;Corretto Apt, Yum, or Apk repo&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Feedback is &lt;a href=\"https://github.com/corretto\"&gt;welcomed&lt;/a&gt;!&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-corretto-august-2026-security-updates",
+      "publishedAt": "2026-08-18T21:48:00.000Z",
+      "updatedAt": "2026-08-18T21:48:00.000Z",
+      "categories": [
+        "Developer Tools",
+        "Amazon Corretto"
+      ],
+      "services": [],
+      "tags": [
+        "developer tools",
+        "amazon corretto"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "e939ba6fe8dbd2b1",
+      "title": "AgentCore payments is now generally available in Amazon Bedrock AgentCore",
+      "description": "Today, AWS announces the general availability of AgentCore payments, a capability within Amazon Bedrock AgentCore that enables AI agents to autonomously discover, access, and pay for paid APIs, MCPs, and content with just a few lines of code. AgentCore payments provides the security, guardrails, and observability enterprises need to deploy transacting agents in production at scale. AgentCore payments integrates with Coinbase and Stripe Privy wallets for microtransactions, provides payment orchestration across protocols, enforces configurable payment limits at the infrastructure layer, and deli",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces the general availability of AgentCore payments, a capability within Amazon Bedrock AgentCore that enables AI agents to autonomously discover, access, and pay for paid APIs, MCPs, and content with just a few lines of code. AgentCore payments provides the security, guardrails, and observability enterprises need to deploy transacting agents in production at scale.&lt;/p&gt; \n&lt;p&gt;AgentCore payments integrates with Coinbase and Stripe Privy wallets for microtransactions, provides payment orchestration across protocols, enforces configurable payment limits at the infrastructure layer, and delivers end-to-end observability through AgentCore Observability. At general availability, AgentCore payments includes Quick Create for Coinbase credential provisioning directly within the AgentCore console, a curated Coinbase Bazar MCP server of pay-per-use x402 endpoints via AgentCore gateway, support for the Machine Payment Protocol (MPP), and the \"upto\" scheme in the x402 protocol for pay-per-inference and dynamic pricing use cases.&lt;/p&gt; \n&lt;p&gt;Developers can get started using coding assistant skills such as Claude Code, Kiro, and Codex, AgentCore CLI, or AWS Management Console - follow this &lt;a href=\"https://github.com/awslabs/agentcore-samples/tree/main/01-features/08-agents-that-transact\"&gt;link&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;AgentCore payments is available in the regions listed &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-regions.html\"&gt;here&lt;/a&gt;. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/payments.html\"&gt;AgentCore payments documentation&lt;/a&gt; or the &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/\"&gt;AWS News Blog&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;To learn about pricing, visit &lt;a href=\"https://aws.amazon.com/bedrock/agentcore/pricing/\"&gt;AgentCore pricing&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/",
+      "publishedAt": "2026-08-18T19:15:00.000Z",
+      "updatedAt": "2026-08-18T19:15:00.000Z",
+      "categories": [
+        "Aiml",
+        "Artificial Intelligence",
+        "Amazon Bedrock"
+      ],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "aiml",
+        "artificial intelligence",
+        "amazon bedrock",
+        "bedrock"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "693c261ecdd11eed",
+      "title": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection",
+      "description": "Amazon SageMaker Unified Studio now supports data profiling and anomaly detection, powered by AWS Glue Data Quality. Data stewards, engineers and analysts can generate statistical profiles of their data to understand its shape and completeness, and track how these statistics change over time. Anomaly detection helps identify when data points drift from historical patterns without requiring predefined thresholds or custom rules. These capabilities are available for both data at rest in catalog tables and data in transit within Visual ETL jobs. With this launch, a dedicated Data profile tab on c",
+      "descriptionHtml": "&lt;p&gt;Amazon SageMaker Unified Studio now supports data profiling and anomaly detection, powered by AWS Glue Data Quality. Data stewards, engineers and analysts can generate statistical profiles of their data to understand its shape and completeness, and track how these statistics change over time. Anomaly detection helps identify when data points drift from historical patterns without requiring predefined thresholds or custom rules. These capabilities are available for both data at rest in catalog tables and data in transit within Visual ETL jobs.&lt;/p&gt; \n&lt;p&gt;With this launch, a dedicated Data profile tab on catalog tables provides on-demand and scheduled profiling that computes dataset-level and column-level statistics. As profile history accumulates, anomaly detection builds a baseline of expected behavior and flags data points that fall outside the predicted range. This is particularly useful when you may not be aware of specific thresholds, or when expected values change over time and fixed rules could become stale. For data in transit, the same profiling statistics and anomaly detection are available on the results page of any Visual ETL job with an Evaluate Data Quality transform.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where Amazon SageMaker Unified Studio is available. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/data-profiling-catalog.html\"&gt;Amazon SageMaker Unified Studio documentation.&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/smus-data-profiling",
+      "publishedAt": "2026-08-18T18:49:00.000Z",
+      "updatedAt": "2026-08-18T18:49:00.000Z",
+      "categories": [
+        "Analytics",
+        "Amazon Sagemaker"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "analytics",
+        "amazon sagemaker",
+        "sagemaker"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "0f599906d48c0156",
+      "title": "Amazon MWAA Serverless now supports PythonOperator and BashOperator",
+      "description": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports running custom Python functions and shell scripts directly in the serverless runtime using PythonOperator and BashOperator. With this launch, data engineering teams can execute the code patterns they rely on daily, including data transformations, format conversions, and data quality checks, without provisioning additional infrastructure. Package your Python modules or shell scripts as code packages, upload them to Amazon S3, and reference them when creating or updating a workflow. The service snapshots your code ",
+      "descriptionHtml": "&lt;p&gt;Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports running custom Python functions and shell scripts directly in the serverless runtime using PythonOperator and BashOperator. With this launch, data engineering teams can execute the code patterns they rely on daily, including data transformations, format conversions, and data quality checks, without provisioning additional infrastructure.&lt;/p&gt; \n&lt;p&gt;Package your Python modules or shell scripts as code packages, upload them to Amazon S3, and reference them when creating or updating a workflow. The service snapshots your code at workflow creation time and uses that snapshot for all subsequent runs, ensuring consistency across executions.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where Amazon MWAA Serverless is available. To learn more, visit &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/operators-python-bash-detail.html\"&gt;Using Python and Bash operators&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/",
+      "publishedAt": "2026-08-18T18:00:00.000Z",
+      "updatedAt": "2026-08-18T18:00:00.000Z",
+      "categories": [
+        "Analytics",
+        "General:Products",
+        "Amazon Mwaa"
+      ],
+      "services": [
+        "MWAA"
+      ],
+      "tags": [
+        "analytics",
+        "general:products",
+        "amazon mwaa",
+        "mwaa"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "fa00d3dc96b5fcc5",
+      "title": "Amazon EC2 R8i instances are now available in Israel (Tel Aviv) region",
+      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i instances are available in the Israel (Tel Aviv) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The R8i instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver 20% higher performance than R7i instances, with even higher gains for specific workloads. They are up to 30% faster for Post",
+      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i instances are available in the Israel (Tel Aviv) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The R8i instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver 20% higher performance than R7i instances, with even higher gains for specific workloads. They are up to 30% faster for PostgreSQL databases, up to 60% faster for NGINX web applications, and up to 40% faster for AI deep learning recommendation models compared to R7i.&amp;nbsp;&amp;nbsp;&lt;br&gt; &lt;br&gt; R8i instances are a great choice for all memory-intensive workloads, especially for workloads that need the largest instance sizes or continuous high CPU usage. R8i instances offer 13 sizes including 2 bare metal sizes and the new 96xlarge size for the largest applications.&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/sap/latest/general/sap-hana-aws-ec2.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;R8i instances are SAP-certified&amp;nbsp;&lt;/a&gt;and deliver 142,100 aSAPS, the highest among all comparable machines in on-premises and cloud environments, delivering exceptional performance for mission-critical SAP workloads.&amp;nbsp;&amp;nbsp;&lt;br&gt; &lt;br&gt; To get started, sign in to the &lt;a href=\"https://aws.amazon.com/console/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Management Console&lt;/a&gt;. Customers can purchase these instances via Savings Plans, On-Demand instances, and Spot instances. For more information about the new &lt;a href=\"https://aws.amazon.com/ec2/instance-types/r8i\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;R8i &lt;/a&gt;instances visit the AWS News &lt;a href=\"https://aws.amazon.com/blogs/aws/best-performance-and-fastest-memory-with-the-new-amazon-ec2-r8i-and-r8i-flex-instances/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;blog&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8i-israel-tel-aviv/",
+      "publishedAt": "2026-08-18T17:24:00.000Z",
+      "updatedAt": "2026-08-18T17:24:00.000Z",
+      "categories": [
+        "Compute",
+        "Amazon Ec2"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "compute",
+        "amazon ec2",
+        "ec2"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "e1ebca3ffa23a72f",
+      "title": "IAM Policy Autopilot now supports Terraform plan files",
+      "description": "IAM Policy Autopilot can now generate baseline IAM policies directly from a Terraform plan file. IAM Policy Autopilot is an open source tool, launched at re:Invent 2025, that analyzes your code to deterministically create scoped-down IAM policies you can refine as your application evolves, reducing the time you spend writing IAM policies and troubleshooting access issues. Until now the tool analyzed application source code, but it was not possible to generate policies for deploying AWS infrastructure defined via Infrastructure as Code. Now you can pass a Terraform plan file as input, and IAM P",
+      "descriptionHtml": "&lt;p&gt;IAM Policy Autopilot can now generate baseline IAM policies directly from a Terraform plan file. IAM Policy Autopilot is an open source tool, launched at re:Invent 2025, that analyzes your code to deterministically create scoped-down IAM policies you can refine as your application evolves, reducing the time you spend writing IAM policies and troubleshooting access issues. Until now the tool analyzed application source code, but it was not possible to generate policies for deploying AWS infrastructure defined via Infrastructure as Code.&lt;/p&gt; \n&lt;p&gt;Now you can pass a Terraform plan file as input, and IAM Policy Autopilot applies a deterministic analysis to produce a policy scoped to the CRUD functions of the resources in that plan. The generated policies reference specific resource ARNs rather than wildcards, when possible. Supporting policy generation for deploying AWS infrastructure defined via Terraform has been the most requested capability since IAM Policy Autopilot launched, and it complements the existing Terraform-aware analysis, which cross-references Terraform resource definitions with SDK calls in your application code to resolve ARNs.&lt;/p&gt; \n&lt;p&gt;IAM Policy Autopilot is available at no additional cost and runs on your own machine. To get started, visit the &lt;a href=\"https://github.com/awslabs/iam-policy-autopilot\"&gt;IAM Policy Autopilot GitHub repository&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-policy-autopilot-now-supports-terraform-plan-files",
+      "publishedAt": "2026-08-18T17:19:00.000Z",
+      "updatedAt": "2026-08-18T17:19:00.000Z",
+      "categories": [
+        "AWS Iam",
+        "Developer Tools"
+      ],
+      "services": [
+        "IAM",
+        "Terraform"
+      ],
+      "tags": [
+        "aws iam",
+        "developer tools",
+        "iam",
+        "terraform"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "5311fcaa2f83d7a5",
+      "title": "PostgreSQL 19 Beta 3 is now available in Amazon RDS Database Preview Environment",
+      "description": "Starting today, Amazon RDS for PostgreSQL 19 Beta 3 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. PostgreSQL 19 Beta 3 adds new capabilities for query performance and autovacuum management. The new pg_stat_autovacuum_scores view helps you monitor and tune autovacuum prioritization. Parallel autovacuum can now use multiple workers to speed up maintenance on large tables. The new pg_plan_advice module lets you lock in efficient query plans to avoid unexpected slowdowns. Eager aggregation impro",
+      "descriptionHtml": "&lt;p&gt;Starting today, &lt;a href=\"https://aws.amazon.com/rds/postgresql/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for PostgreSQL&lt;/a&gt; 19 Beta 3 is available in the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/create-db-instance-in-preview-environment.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS Database Preview Environment&lt;/a&gt;, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL.&lt;/p&gt; \n&lt;p&gt;PostgreSQL 19 Beta 3 adds new capabilities for query performance and autovacuum management. The new pg_stat_autovacuum_scores view helps you monitor and tune autovacuum prioritization. Parallel autovacuum can now use multiple workers to speed up maintenance on large tables. The new pg_plan_advice module lets you lock in efficient query plans to avoid unexpected slowdowns. Eager aggregation improves analytical queries by grouping data earlier, so queries process fewer rows and complete faster. Beta 3 also includes bug fixes and stability improvements from the Beta 2 testing period. Refer to the &lt;a href=\"https://www.postgresql.org/about/news/postgresql-186-1711-1615-1519-1424-and-19-beta-3-released-3365/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;PostgreSQL community announcement&lt;/a&gt; for more details.&lt;/p&gt; \n&lt;p&gt;Amazon RDS Database Preview Environment database instances are retained for a maximum period of 60 days and are automatically deleted after the retention period. Amazon RDS database snapshots that are created in the Preview Environment can only be used to create or restore database instances within the Preview Environment. You can use the PostgreSQL dump and load functionality to import or export your databases from the Preview Environment. Amazon RDS Database Preview Environment database instances are priced as per the &lt;a href=\"https://aws.amazon.com/rds/postgresql/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;pricing&lt;/a&gt; in the US East (Ohio) Region.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/postgresql-19-beta-3-amazon-rds-database-preview-environment/",
+      "publishedAt": "2026-08-18T16:00:00.000Z",
+      "updatedAt": "2026-08-18T16:00:00.000Z",
+      "categories": [
+        "Databases",
+        "Amazon Rds"
+      ],
+      "services": [
+        "RDS"
+      ],
+      "tags": [
+        "databases",
+        "amazon rds",
+        "rds"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "5dc78aca28231187",
+      "title": "Amazon WorkSpaces now supports Nested Virtualization",
+      "description": "Amazon WorkSpaces now supports nested virtualization for Amazon WorkSpaces Personal and Amazon WorkSpaces Core Managed Bundles. With nested virtualization enabled, developers can run Docker Desktop, Windows Subsystem for Linux (WSL2), and other hypervisor-dependent tools directly on their Windows WorkSpaces, and KVM-based workloads, Android emulators, and nested containers on their Linux WorkSpaces - without needing separate physical hardware or workaround environments. Nested virtualization is supported on license-included (public and custom) bundles, Bring Your Own License (BYOL) bundles, an",
+      "descriptionHtml": "&lt;p&gt;Amazon WorkSpaces now supports nested virtualization for Amazon WorkSpaces Personal and Amazon WorkSpaces Core Managed Bundles. With nested virtualization enabled, developers can run Docker Desktop, Windows Subsystem for Linux (WSL2), and other hypervisor-dependent tools directly on their Windows WorkSpaces, and KVM-based workloads, Android emulators, and nested containers on their Linux WorkSpaces - without needing separate physical hardware or workaround environments.&lt;/p&gt; \n&lt;p&gt;Nested virtualization is supported on license-included (public and custom) bundles, Bring Your Own License (BYOL) bundles, and&amp;nbsp;Bring Your Own Protocol (BYOP) bundles running Windows Server 2019, Windows Server 2022, Windows Server 2025, Windows 11, Ubuntu 22.04, Ubuntu 24.04, Red Hat Enterprise Linux 8, Red Hat Enterprise Linux 9, Rocky Linux 8, or Rocky Linux 9 with DCV protocol. Power (4 vCPU) or higher is recommended. Nested virtualization is not supported on GPU bundles, the PCoIP protocol, or Amazon WorkSpaces based on Windows Server 2016 and Windows 10. Administrators can enable or disable nested virtualization at the individual workspace level through the console, API, or CLI.&lt;/p&gt; \n&lt;p&gt;You can get started by enabling nested virtualization on your WorkSpaces through the console or CLI. For more information, visit the Amazon WorkSpaces documentation on &lt;a href=\"https://docs.aws.amazon.com/workspaces/latest/adminguide/nested-virtualization.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Nested Virtualization&lt;/a&gt;. Nested virtualization is available in all AWS Regions where Amazon WorkSpaces is available, excluding China (Ningxia) Region and Israel (Tel Aviv) Region. For pricing information, visit Amazon WorkSpaces &lt;a href=\"https://aws.amazon.com/workspaces/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;pricing page&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/nested-virtualization-workspaces/",
+      "publishedAt": "2026-08-18T08:00:00.000Z",
+      "updatedAt": "2026-08-18T08:00:00.000Z",
+      "categories": [
+        "Marketing:Marchitecture",
+        "Amazon Workspaces",
+        "Business Productivity"
+      ],
+      "services": [
+        "WorkSpaces"
+      ],
+      "tags": [
+        "marketing:marchitecture",
+        "amazon workspaces",
+        "business productivity",
+        "workspaces"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "e76d4aa7cc5708bf",
+      "title": "Amazon S3 Metadata and annotations are now available in AWS GovCloud (US) Regions",
+      "description": "Amazon S3 Metadata and annotations are now available in AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions, giving you the easiest and fastest way to discover, understand, and enrich your S3 data. S3 Metadata automatically captures system-defined details like object size and source, and stores them in Amazon S3 Tables, optimized for near real-time tabular queries that simplify business analytics and real-time inference applications. Annotations extend S3 Metadata so you can attach rich business context directly to your objects in JSON, XML, or YAML, with up to 1 GB per object. This give",
+      "descriptionHtml": "&lt;p&gt;Amazon S3 Metadata and annotations are now available in AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions, giving you the easiest and fastest way to discover, understand, and enrich your S3 data. S3 Metadata automatically captures system-defined details like object size and source, and stores them in Amazon S3 Tables, optimized for near real-time tabular queries that simplify business analytics and real-time inference applications.&lt;br&gt; &lt;br&gt; Annotations extend S3 Metadata so you can attach rich business context directly to your objects in JSON, XML, or YAML, with up to 1 GB per object. This gives your AI agents and analytics tools the context they need to find and use the right data without building or maintaining separate metadata systems. Annotations share the same durability and consistency properties as the object, move with the object during copy and replication operations, and are removed when the object is deleted. This makes it easy to keep context current as your data evolves.&lt;br&gt; &lt;/p&gt; \n&lt;p&gt;Annotations are available in all AWS Regions and AWS GovCloud (US) Regions. For a full list of AWS Regions where Amazon S3 Metadata is available, including the annotation table, see the &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/metadata-tables-restrictions.html#metadata-tables-regions\" target=\"_blank\"&gt;S3 Metadata&amp;nbsp;AWS Regions&lt;/a&gt;. To learn more, visit the &lt;a href=\"https://aws.amazon.com/s3/features/metadata/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;product page&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/metadata-tables-overview.html\" target=\"_blank\"&gt;documentation&lt;/a&gt;, and the &lt;a href=\"https://aws.amazon.com/s3/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon S3 pricing page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-metadata-annotations-govcloud-regions",
+      "publishedAt": "2026-08-18T04:00:00.000Z",
+      "updatedAt": "2026-08-18T04:00:00.000Z",
+      "categories": [
+        "Storage",
+        "Amazon S3"
+      ],
+      "services": [
+        "S3"
+      ],
+      "tags": [
+        "storage",
+        "amazon s3",
+        "s3"
+      ],
+      "isNew": true
+    },
     {
       "id": "7ae6aa4420abddfd",
       "title": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
@@ -199,6 +462,28 @@
         "amazon opensearch service",
         "opensearch",
         "vpc"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "633ac9cee6dd133d",
+      "title": "AWS Console-to-Code adds 26 services and cross-region recording​",
+      "description": "AWS Console-to-Code now supports 26 additional AWS services and introduces cross-region and cross-browser-tab action recording. This expansion grows total service coverage from 6 to 32 supported services, helping developers, DevOps engineers, and cloud architects more easily convert manual console workflows into repeatable, production-ready infrastructure as code (IaC). ​Console-to-Code also introduces cross-region and cross-browser-tab action recording. Previously, switching regions or working across browser tabs would reset or fragment recorded action lists. Actions are now consolidated into",
+      "descriptionHtml": "&lt;p&gt;AWS Console-to-Code now supports 26 additional AWS services and introduces cross-region and cross-browser-tab action recording. This expansion grows total service coverage from 6 to 32 supported services, helping developers, DevOps engineers, and cloud architects more easily convert manual console workflows into repeatable, production-ready infrastructure as code (IaC).&lt;/p&gt; \n&lt;p&gt;​Console-to-Code also introduces cross-region and cross-browser-tab action recording. Previously, switching regions or working across browser tabs would reset or fragment recorded action lists. Actions are now consolidated into a single unified list, enabling customers to capture and automate complex, multi-region infrastructure deployments without losing context.&lt;/p&gt; \n&lt;p&gt;​​​Starting today, customers in all commercial AWS Regions can use Console-to-Code with all 32 supported services and the new cross-region recording capability.​&lt;/p&gt; \n&lt;p&gt;To learn more about getting started with AWS Console-to-Code, and review the list of services supported, visit the &lt;a href=\"https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/console-to-code.html\"&gt;Amazon Q Developer Console-to-Code documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/console-to-code-adds-26-services",
+      "publishedAt": "2026-08-17T15:00:00.000Z",
+      "updatedAt": "2026-08-17T15:00:00.000Z",
+      "categories": [
+        "Amazon Ec2",
+        "Compute"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "amazon ec2",
+        "compute",
+        "ec2"
       ],
       "isNew": true
     },
@@ -788,7 +1073,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9b3512c78139f0f6",
@@ -810,7 +1095,7 @@
         "compute",
         "ec2"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5e17e2add020bb5f",
@@ -834,7 +1119,7 @@
         "iam",
         "bedrock"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9487836d8e576ec4",
@@ -858,7 +1143,7 @@
         "aiml",
         "sagemaker"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bf93fadff04381cf",
@@ -875,7 +1160,7 @@
       "tags": [
         "sagemaker"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3432a3231e1807ee",
@@ -899,7 +1184,7 @@
         "sagemaker",
         "glue"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7c604cafb1a99904",
@@ -919,7 +1204,7 @@
         "aws secrets manager",
         "secrets manager"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2b84f96e4469ef44",
@@ -945,7 +1230,7 @@
         "amazon connect",
         "connect"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6a1e5228c81430a5",
@@ -967,7 +1252,7 @@
         "aws clean rooms",
         "clean rooms"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a80184b34c0a84fb",
@@ -989,7 +1274,7 @@
         "amazon rds",
         "rds"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5284955cf7497c11",
@@ -10825,286 +11110,6 @@
         "aws marketplace and partners",
         "aws marketplace",
         "business productivity"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "89837e74c0cffff0",
-      "title": "AWS Partner Central now validates Foundational Technical Review in minutes",
-      "description": "AWS Partner Central now accepts SOC 2 Type II audit reports or AWS Well-Architected Framework Reviews (WAFR) reports to complete Foundational Technical Review (FTR) in minutes. This streamlined process with AI-powered validation provides AWS partners with immediate feedback on their solution’s validation against AWS Partner Network (APN) requirements. Partners now receive approval or actionable feedback within minutes to accelerate validation of their solutions and unlock the qualified software badge, APN program eligibility, and access to co-selling and funding benefits. The streamlined FTR a",
-      "descriptionHtml": "&lt;p&gt;AWS Partner Central now accepts SOC 2 Type II audit reports or AWS Well-Architected Framework Reviews (WAFR) reports to complete Foundational Technical Review (FTR) in minutes. This streamlined process with AI-powered validation provides AWS partners with immediate feedback on their solution’s validation against AWS Partner Network (APN) requirements. Partners now receive approval or actionable feedback within minutes to accelerate validation of their solutions and unlock the qualified software badge, APN program eligibility, and access to co-selling and funding benefits.&lt;br&gt; &lt;br&gt; The streamlined FTR aligns AWS partner validation with industry compliance standards that enterprise customers already recognize and often require. Partners with SOC 2 certifications can satisfy FTR requirements by submitting third party reports&amp;nbsp;in AWS Partner Central, while partners without SOC 2 can submit WAFR reports generated in the &lt;a href=\"https://aws.amazon.com/well-architected-tool/\"&gt;AWS Well-Architected Tool&lt;/a&gt; as an alternate validation pathway. When issues are identified, partners receive specific AI-generated feedback with remediation steps for each failing control, enabling immediate iteration and re-submission.&amp;nbsp;&lt;br&gt; &lt;br&gt; FTR is available to all partners, and can be attained on software solutions deployed on AWS and &lt;a href=\"https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/what-is-service.html\"&gt;AWS Partner Revenue Measurement&lt;/a&gt; enabled. To learn more about the streamlined Foundational Technical Review process and submission requirements, visit the AWS Partner Central &lt;a href=\"https://docs.aws.amazon.com/partner-central/latest/builder-guide/requesting-ftr.html\"&gt;Builder Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central-foundational-technical-review/",
-      "publishedAt": "2026-06-16T07:00:00.000Z",
-      "updatedAt": "2026-06-16T07:00:00.000Z",
-      "categories": [
-        "AWS Marketplace",
-        "Partner Network",
-        "AWS Marketplace And Partners"
-      ],
-      "services": [],
-      "tags": [
-        "aws marketplace",
-        "partner network",
-        "aws marketplace and partners"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "3a45dbd7adbc0f14",
-      "title": "AWS Partner Central launches new funding benefits for Business Value Realization",
-      "description": "AWS Partner Central now supports the Business Value Realization (BVR) motion, a new experience and funding motion for partners who drive customer adoption and business outcomes after deploying strategic AWS services. BVR helps partners drive business outcomes for their customers by structuring the AWS service adoption journey across defined stages, with funding tied to proven demonstrated value realization. Partners can now enroll in BVR through a self-service registration flow in AWS Partner Central, nominate customer opportunities, and track customer progress towards value realization. The n",
-      "descriptionHtml": "&lt;p&gt;AWS Partner Central now supports the Business Value Realization (BVR) motion, a new experience and funding motion for partners who drive customer adoption and business outcomes after deploying strategic AWS services. BVR helps partners drive business outcomes for their customers by structuring the AWS service adoption journey across defined stages, with funding tied to proven demonstrated value realization.&lt;br&gt; &lt;br&gt; Partners can now enroll in BVR through a self-service registration flow in AWS Partner Central, nominate customer opportunities, and track customer progress towards value realization. The new experience enables partners to track customer progression across structured adoption stages, with guided activities to help customers achieve desired outcomes. As partners drive customer adoption, AI agents in AWS Partner Central generate weekly adoption reports that surface highlights, risks, and recommendations, helping partners identify where customer users drop off and how tooling adoption is accelerating. When partners complete stages, funding is automatically disbursed through the AWS Partner Funding Portal without requiring separate requests.&lt;br&gt; &lt;br&gt; BVR is available in AWS Partner Central for consulting, system integrator, and managed services partners with advance or premier tier status and a qualifying domain competency. Learn more in the &lt;a href=\"http://aws.amazon.com/blogs/apn/accelerate-customer-outcomes-with-the-aws-business-value-realization-motion/\"&gt;APN blog &lt;/a&gt;or visit AWS Partner Central guide for &lt;a href=\"http://docs.aws.amazon.com/partner-central/latest/getting-started/bvr-overview.html\"&gt;Business Value Realization.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-business-value-realization/",
-      "publishedAt": "2026-06-16T07:00:00.000Z",
-      "updatedAt": "2026-06-16T07:00:00.000Z",
-      "categories": [
-        "AWS Marketplace"
-      ],
-      "services": [],
-      "tags": [
-        "aws marketplace"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "f1d6da885733e500",
-      "title": "Amazon RDS for SQL Server now supports X2m instances",
-      "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server launches memory-optimized X2m database instances. Based on the Amazon EC2 X2iedn instance, X2m database instances provide the Amazon RDS Optimize CPU feature, which allows customers to reduce SQL Server software licensing costs by 50% or more compared to Amazon RDS x2iedn database instances for memory-intensive database workloads. X2m instances offer up to 64 vCPUs, up to 4 TB memory, up to 256K IOPS, and up to 32:1 memory to vCPU ratio. To use the X2m instances, you can modify your existing RDS database instance or create a new RD",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/sqlserver/\" target=\"_blank\"&gt;Amazon Relational Database Service (Amazon RDS) for SQL Server&lt;/a&gt; launches memory-optimized X2m database instances. Based on the Amazon EC2 X2iedn instance, X2m database instances provide the &lt;a href=\"https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-rds-sql-server-optimized-cpu-lower-prices/\" target=\"_blank\"&gt;Amazon RDS Optimize CPU&lt;/a&gt; feature, which allows customers to reduce SQL Server software licensing costs by 50% or more compared to Amazon RDS x2iedn database instances for memory-intensive database workloads. X2m instances offer up to 64 vCPUs, up to 4 TB memory, up to 256K IOPS, and up to 32:1 memory to vCPU ratio. &lt;br&gt; &lt;br&gt; To use the X2m instances, you can modify your existing RDS database instance or create a new RDS database instance from the RDS Management Console, or using the AWS SDK or CLI. X2m instances can be purchased using On-Demand pricing, and qualify for &lt;a href=\"https://aws.amazon.com/savingsplans/database-pricing/\" target=\"_blank\"&gt;AWS Database Savings Plan&lt;/a&gt;. See &lt;a href=\"https://aws.amazon.com/rds/sqlserver/pricing/\" target=\"_blank\"&gt;Amazon RDS for SQL Server Pricing&lt;/a&gt; for up-to-date pricing of instances, storage, data transfer and regional availability.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-x2m/",
-      "publishedAt": "2026-06-16T07:00:00.000Z",
-      "updatedAt": "2026-06-16T07:00:00.000Z",
-      "categories": [
-        "Amazon Rds For Sql Server",
-        "AWS Govcloud Us",
-        "Databases"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "amazon rds for sql server",
-        "aws govcloud us",
-        "databases",
-        "rds"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "d1f24100078a35aa",
-      "title": "Amazon S3 Vectors reduces query charges by up to 80% for large vector indexes",
-      "description": "Amazon S3 Vectors has reduced data processed charges for queries on vector indexes with over 10 million vectors by up to 80%. This reduction lowers costs for customers running similarity search across large-scale AI, RAG, and semantic search workloads. The new pricing applies automatically with no application changes required. While this change reduces costs for large indexes, we continue to recommend distributing vectors across multiple indexes for improved query performance. S3 Vectors query pricing reductions are effective today in all AWS Regions where S3 Vectors is available. For updated ",
-      "descriptionHtml": "&lt;p&gt;Amazon S3 Vectors has reduced data processed charges for queries on vector indexes with over 10 million vectors by up to 80%. This reduction lowers costs for customers running similarity search across large-scale AI, RAG, and semantic search workloads. The new pricing applies automatically with no application changes required.&amp;nbsp;While this change reduces costs for large indexes, we continue to recommend distributing vectors across multiple indexes for improved query performance.&lt;/p&gt; \n&lt;p&gt;S3 Vectors query pricing reductions are effective today in all &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-regions-quotas.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions&lt;/a&gt; where S3 Vectors is available. For updated pricing information, visit the &lt;a href=\"https://aws.amazon.com/s3/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;S3 pricing page.&lt;/a&gt; To learn more about S3 Vectors, visit the &lt;a href=\"https://aws.amazon.com/s3/features/vectors/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;product page&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;S3 User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-reduces-query-charges-80-percent-large-indexes/",
-      "publishedAt": "2026-06-16T07:00:00.000Z",
-      "updatedAt": "2026-06-16T07:00:00.000Z",
-      "categories": [
-        "Amazon Simple Storage Service",
-        "Storage",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "S3"
-      ],
-      "tags": [
-        "amazon simple storage service",
-        "storage",
-        "artificial intelligence",
-        "s3"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "456b8de3f60fb097",
-      "title": "AWS Marketplace reduces listing fee for professional services to 0.5%",
-      "description": "AWS Marketplace now offers a 0.5% listing fee for professional services private offers, reduced from 2.5%. This makes it more cost-effective for consulting partners, systems integrators, managed services providers and independent software vendors to transact their services through AWS Marketplace, while retaining the procurement and billing benefits that come with it. Professional services is an established and growing category on AWS Marketplace, with hundreds of partners actively transacting. The reduced fee complements capabilities purpose-built for the discovery and purchase of services th",
-      "descriptionHtml": "&lt;p&gt;AWS Marketplace now offers a 0.5% listing fee for professional services private offers, reduced from 2.5%. This makes it more cost-effective for consulting partners, systems integrators, managed services providers and independent software vendors to transact their services through AWS Marketplace, while retaining the procurement and billing benefits that come with it.&lt;/p&gt; \n&lt;p&gt;Professional services is an established and growing category on AWS Marketplace, with hundreds of partners actively transacting. The reduced fee complements capabilities purpose-built for the discovery and purchase of services through AWS Marketplace. Customers can find the right Partner through AI-powered discovery in Agent Mode, procure complete solutions through multi-product solutions that combine software and services in a single transaction, and pay through variable billing models like time-and-materials — all through AWS Marketplace. For Partners, these improvements make it simpler and more economical to transact professional services through AWS Marketplace.&lt;/p&gt; \n&lt;p&gt;Partners with existing professional services listings benefit automatically, with the reduced fee applying to all new private offers going forward while existing offers and subscriptions continue at their original terms. The fee applies in all &lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/buyerguide/supported-regions.html\"&gt;AWS Regions&lt;/a&gt; where AWS Marketplace operates, across all pricing models and currencies.&lt;br&gt; &lt;br&gt; To get started, Partners can review the &lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/userguide/listing-fees.html#regional-offer-listing-fees\"&gt;seller documentation&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/userguide/proserv-getting-started.html\"&gt;list professional services&lt;/a&gt; through &lt;a href=\"https://us-east-1.console.aws.amazon.com/partnercentral/solutions?region=us-east-1\"&gt;AWS Partner Central&lt;/a&gt;. Customers can explore professional services directly in &lt;a href=\"https://aws.amazon.com/marketplace/search/results?ref_=header_nav_dm_professional_services&amp;amp;FULFILLMENT_OPTION_TYPE=PROFESSIONAL_SERVICES&amp;amp;filters=FULFILLMENT_OPTION_TYPE\"&gt;AWS Marketplace.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/reduce-listing-fee-professional-services-aws-marketplace",
-      "publishedAt": "2026-06-16T05:00:00.000Z",
-      "updatedAt": "2026-06-16T05:00:00.000Z",
-      "categories": [
-        "AWS Marketplace",
-        "Partner Network"
-      ],
-      "services": [],
-      "tags": [
-        "aws marketplace",
-        "partner network"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "22a486c719c6e8ad",
-      "title": "AWS Partners can now accelerate co-sell deals with express private offers",
-      "description": "AWS Partners co-selling with AWS can now use express private offers to automate pricing within co-sell workflows. Partners configure their pricing rules, discount boundaries, and eligible products once, and when AWS sales representatives identify their solution as a fit for a customer's needs, the deal can move from opportunity to private offer in minutes rather than weeks of manual negotiation. As AWS sellers identify relevant Partner solutions through co-sell tools, they can see which Partners have express private offers enabled and directly invite customers to receive personalized pricing. ",
-      "descriptionHtml": "&lt;p&gt;AWS Partners co-selling with AWS can now use express private offers to automate pricing within co-sell workflows. Partners configure their pricing rules, discount boundaries, and eligible products once, and when AWS sales representatives identify their solution as a fit for a customer's needs, the deal can move from opportunity to private offer in minutes rather than weeks of manual negotiation.&lt;/p&gt; \n&lt;p&gt;As AWS sellers identify relevant Partner solutions through co-sell tools, they can see which Partners have express private offers enabled and directly invite customers to receive personalized pricing. Customers specify their purchase requirements, contract duration, and configuration needs, and receive a tailored private offer based on the Partner's pre-configured pricing rules. Partners receive the customer's contact details and can follow up at any time to assist with offer acceptance or provide additional context. This gives Partners increased visibility in AWS-led sales motions, faster deal conversion, and the ability to engage with customers who have expressed purchase intent, while giving AWS sellers confidence that matched Partners can deliver customized pricing without delays.&lt;/p&gt; \n&lt;p&gt;To get started, Partners can onboard their products to express private offers by following the &lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/userguide/express-private-offers.html\"&gt;AWS Marketplace Seller Guide&lt;/a&gt;. For best practices on co-selling with AWS, review this&amp;nbsp;guide on &lt;a href=\"https://aws.amazon.com/blogs/awsmarketplace/improving-your-visibility-to-aws-sales-a-practical-guide-for-partners/\"&gt;improving your visibility to AWS Sales&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partners-express-private-offers",
-      "publishedAt": "2026-06-16T05:00:00.000Z",
-      "updatedAt": "2026-06-16T05:00:00.000Z",
-      "categories": [
-        "AWS Marketplace And Partners",
-        "Partner Network",
-        "AWS Marketplace"
-      ],
-      "services": [],
-      "tags": [
-        "aws marketplace and partners",
-        "partner network",
-        "aws marketplace"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "b67a8f4a5be42ae5",
-      "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
-      "description": "Today, AWS announced the public preview of a new storage migration capability for AWS Transform that enables customers to migrate block storage workloads from any on-premises or cloud source to Amazon FSx for NetApp ONTAP (FSx for ONTAP), in addition to Amazon EBS. AWS Transform for migrations is an agentic AI service that automates the discovery, planning, and migration of workloads, accelerating infrastructure modernization with increased speed and confidence. FSx for ONTAP is a fully managed shared storage service built on NetApp's ONTAP file system, allowing you to migrate on-premises appl",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announced the public preview of a new storage migration capability for AWS Transform that enables customers to migrate block storage workloads from any on-premises or cloud source to Amazon FSx for NetApp ONTAP (FSx for ONTAP), in addition to Amazon EBS. AWS Transform for migrations is an agentic AI service that automates the discovery, planning, and migration of workloads, accelerating infrastructure modernization with increased speed and confidence. FSx for ONTAP is a fully managed shared storage service built on NetApp's ONTAP file system, allowing you to migrate on-premises applications that rely on NetApp ONTAP or other storage appliances to AWS without having to change how you manage your data.&amp;nbsp;AWS Transform has supported migration of block storage from any source vendor, including NetApp, Dell, Pure Storage, and VMware environments, to Amazon EBS as part of compute rehosting. Now, customers can also choose Amazon FSx for NetApp ONTAP as the migration target, for workloads that require ONTAP capabilities after migration.&lt;br&gt; &lt;br&gt; Customers migrating to AWS have traditionally managed storage migration separately, using additional tools and workflows. With this new capability, AWS Transform replicates block storage data directly to FSx for ONTAP volumes as part of the same migration wave that handles compute and network, eliminating the need for intermediate storage platforms, separate migration tools, and the additional cost and risk they introduce. Whether migrating from NetApp ONTAP or any other storage platform, including block storage or NFS datastores in VMware environments, customers access a fully managed service that combines ONTAP's enterprise capabilities with the scalability and resiliency of AWS service.&lt;/p&gt; \n&lt;p&gt;To get started, visit &lt;a href=\"https://aws.amazon.com/transform/migrations/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Transform for migrations&lt;/a&gt;. To learn more about the storage destination service, see the &lt;a href=\"https://aws.amazon.com/fsx/netapp-ontap/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon FSx for NetApp ONTAP&lt;/a&gt; product page.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "updatedAt": "2026-06-16T04:00:00.000Z",
-      "categories": [
-        "Amazon Fsx Netapp Ontap",
-        "Storage",
-        "Migration"
-      ],
-      "services": [
-        "FSx"
-      ],
-      "tags": [
-        "amazon fsx netapp ontap",
-        "storage",
-        "migration",
-        "fsx"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "f534079d1a41337c",
-      "title": "AWS announces Amazon Connect Customer Services Competency",
-      "description": "AWS announces the Amazon Connect Customer Competency, a new AWS Specialization that helps customers identify Services Partners with proven expertise in transforming enterprise-wide customer experience on Amazon Connect Customer. Today's customers expect seamless, personalized experiences at every touchpoint, but legacy contact centers fall short — relying on queues, manual routing, and handle-time metrics, with AI added as a separate layer rather than built in from the start. The Amazon Connect Customer Competency recognizes Services Partners across two categories: Contact Center Transformatio",
-      "descriptionHtml": "&lt;p&gt;AWS announces the Amazon Connect Customer Competency, a new AWS Specialization that helps customers identify Services Partners with proven expertise in transforming enterprise-wide customer experience on Amazon Connect Customer.&lt;/p&gt; \n&lt;p&gt;Today's customers expect seamless, personalized experiences at every touchpoint, but legacy contact centers fall short — relying on queues, manual routing, and handle-time metrics, with AI added as a separate layer rather than built in from the start.&lt;/p&gt; \n&lt;p&gt;The Amazon Connect Customer Competency recognizes Services Partners across two categories: &lt;b&gt;Contact Center Transformation&lt;/b&gt; and &lt;b&gt;AI-Powered Customer Experience&lt;/b&gt;. Partners validated in this Competency have demonstrated technical depth and proven success in migrating legacy contact centers and operationalizing AI at scale on Amazon Connect. Customers gain confidence working with validated Partners who can deliver AI-native transformations spanning voice, chat, email, SMS, and social channels.&lt;/p&gt; \n&lt;p&gt;This is the first AWS Competency directly aligned to an AWS service, replacing the Amazon Connect Service Delivery Program designation, which will be deprecated on June 1, 2027.&lt;/p&gt; \n&lt;p&gt;AWS Partners on the Services Path who are validated or differentiated members and have demonstrated customer success with Amazon Connect are encouraged to apply. To learn more and discover validated Partners, visit the &lt;a href=\"https://aws.amazon.com/products/connect/customer/partners/\"&gt;Amazon Connect Customer Competency page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-announces-amazon-connect-customer-services-competency",
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "updatedAt": "2026-06-16T04:00:00.000Z",
-      "categories": [
-        "Amazon Connect"
-      ],
-      "services": [
-        "Connect"
-      ],
-      "tags": [
-        "amazon connect",
-        "connect"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "2e3190b712460db6",
-      "title": "AWS Marketplace Storefront is now generally available",
-      "description": "AWS Marketplace Storefront is now generally available, enabling AWS Partners to create and deploy their own branded catalog of solutions and services on their website or application in hours. Channel Partners and Independent Software Vendors can now simplify how they manage their cloud marketplace business and make it easier for customers to discover and purchase their solutions from AWS Marketplace. With AWS Marketplace Storefront, Partners can configure a fully branded storefront with no code required, importing listings from AWS Marketplace and going live the same day. Transactions flow thr",
-      "descriptionHtml": "&lt;p&gt;AWS Marketplace Storefront is now generally available, enabling AWS Partners to create and deploy their own branded catalog of solutions and services on their website or application in hours. Channel Partners and Independent Software Vendors can now simplify how they manage their cloud marketplace business and make it easier for customers to discover and purchase their solutions from AWS Marketplace.&lt;br&gt; &lt;br&gt; With AWS Marketplace Storefront, Partners can configure a fully branded storefront with no code required, importing listings from AWS Marketplace and going live the same day. Transactions flow through AWS Marketplace billing infrastructure and appear automatically on customers' AWS invoices, eliminating the need to build or maintain separate payment systems. Partners can automate deal workflows with private offer templates, approval automation, and native CRM connectivity to tools like Salesforce and HubSpot. The storefront supports a curated catalog on the Partner's own domain, helping them maintain and strengthen customer relationships. For Channel Partners who resell multiple vendors' solutions, this means presenting each customer a tailored catalog of approved products and expanding it as their channel business grows, with listing automation and catalog management tools.&lt;br&gt; &lt;br&gt; This new capability is available in all &lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/buyerguide/supported-regions.html\"&gt;AWS Regions&lt;/a&gt; where AWS Marketplace operates.&lt;br&gt; &lt;br&gt; To learn more, visit the &lt;a href=\"http://aws.amazon.com/marketplace/partners/storefront\"&gt;AWS Marketplace Storefront product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-marketplace-storefront/",
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "updatedAt": "2026-06-16T04:00:00.000Z",
-      "categories": [
-        "AWS Marketplace"
-      ],
-      "services": [],
-      "tags": [
-        "aws marketplace"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "0efe419bdbb61d7b",
-      "title": "AWS Partner Central agents now guide new partners from registration to ready-to-sell",
-      "description": "Today, AWS announces the general availability of onboarding capabilities for AWS Partner Central agents. The agent acts as an always-available advisor that guides new partners through every step required to be ready to sell with AWS, from profile setup to guidance to complete compliance requirements like verifications, tax, and payment setup, all the way to being ready to create listings on Marketplace. Partners can engage with the onboarding agent directly in the AWS Partner Central console or programmatically through Model Context Protocol (MCP). The agent builds complete partner profiles au",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announces the general availability of onboarding capabilities for AWS Partner Central agents. The agent acts as an always-available advisor that guides new partners through every step required to be ready to sell with AWS, from profile setup to guidance to complete compliance requirements like verifications, tax, and payment setup, all the way to being ready to create listings on Marketplace. Partners can engage with the onboarding agent directly in the AWS Partner Central console or programmatically through Model Context Protocol (MCP).&lt;/p&gt; \n&lt;p&gt;The agent builds complete partner profiles automatically, pulling facts from your company website to populate industries served, solutions offered, and key capabilities. The agent identifies what each partner needs to do next to be ready to sell with AWS and why, and provides step-by-step guidance through tax, banking, and compliance requirements. Partners who previously had to research across several documents to understand the quickest path to start selling with AWS now get a personalized roadmap on demand.&lt;/p&gt; \n&lt;p&gt;These agentic onboarding capabilities are available today in all commercial AWS Regions. To get started, log in to &lt;a href=\"https://partnercentral.awspartner.com\"&gt;AWS Partner Central&lt;/a&gt; in the AWS Management Console and access agents by clicking on any of the default prompts available on the dashboard, or review the &lt;a href=\"https://docs.aws.amazon.com/partner-central/latest/getting-started/partner-onboarding-agent.html\"&gt;agents guide&lt;/a&gt;. To integrate into your own CRM or partner management tools, visit the &lt;a href=\"https://docs.aws.amazon.com/partner-central/latest/APIReference/partner-central-mcp-server.html\"&gt;Partner Central agents MCP server guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central/",
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "updatedAt": "2026-06-16T04:00:00.000Z",
-      "categories": [
-        "Partner Network",
-        "AWS Marketplace",
-        "AWS Marketplace And Partners",
-        "Artificial Intelligence"
-      ],
-      "services": [],
-      "tags": [
-        "partner network",
-        "aws marketplace",
-        "aws marketplace and partners",
-        "artificial intelligence"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "830d885ef1d6559c",
-      "title": "Amazon S3 adds annotations to provide AI agents and analytics tools with context for data discovery",
-      "description": "Amazon S3 adds annotations, so you can attach custom metadata to your S3 objects at massive scale, giving AI agents and analytics tools the context they need to find and use the right data. Annotations are a new metadata capability purpose-built for attaching business context directly in JSON, XML, or YAML to your objects, with up to 1GB per object. Annotations can be modified or deleted at any time, making it easier to keep context current as your data evolves. This lets applications and AI agents discover and understand your data without building or maintaining separate metadata systems. S3 ",
-      "descriptionHtml": "&lt;p&gt;Amazon S3 adds annotations, so you can attach custom metadata to your S3 objects at massive scale, giving AI agents and analytics tools the context they need to find and use the right data. Annotations are a new metadata capability purpose-built for attaching business context directly in JSON, XML, or YAML to your objects, with up to 1GB per object. Annotations can be modified or deleted at any time, making it easier to keep context current as your data evolves. This lets applications and AI agents discover and understand your data without building or maintaining separate metadata systems.&lt;br&gt; &lt;br&gt; S3 already supports several ways to describe your objects: system-defined metadata captures properties like size and storage class, object tags support operational tasks like access control and lifecycle management, and user-defined metadata lets you add small amounts of custom information at upload time. Annotations complement these existing capabilities at a fundamentally different scale and flexibility. Annotations share the same durability and consistency properties as the object, move with the object during copy and replication operations, and are removed when the object is deleted. You can attach and retrieve annotations on any existing or new object. To query annotations at scale, you can optionally surface them in S3 Metadata, the easiest and fastest way to discover and understand your S3 data. S3 Metadata automatically captures object metadata and stores it in read-only, fully managed Apache Iceberg tables that you can query with Amazon Athena and other Iceberg-compatible tools. You can also use natural language to search objects by their annotations using agents in Amazon SageMaker Unified Studio, or any IDE with the S3 Tables MCP server.&lt;br&gt; &lt;br&gt; Annotations are available in all AWS Regions, including the AWS China Regions. Annotation tables are available in all AWS Regions where S3 Metadata is available. Get started using the AWS CLI, S3 APIs, or AWS SDKs. For pricing information, visit the &lt;a href=\"https://aws.amazon.com/s3/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;S3 pricing page&lt;/a&gt;. To learn more, read the &lt;a href=\"https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS News Blog&lt;/a&gt;,&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/annotations-overview.html\"&gt;documentation&lt;/a&gt;, and&amp;nbsp;&lt;a href=\"https://aws.amazon.com/s3/features/metadata/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;S3 Metadata overview page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-annotations-business-context",
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "updatedAt": "2026-06-16T04:00:00.000Z",
-      "categories": [
-        "Storage",
-        "Amazon S3"
-      ],
-      "services": [
-        "S3"
-      ],
-      "tags": [
-        "storage",
-        "amazon s3",
-        "s3"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "ab54fbf238e54936",
-      "title": "Amazon EC2 P6-B200 instances are now available in the Asia Pacific (Mumbai) Region",
-      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in Asia Pacific (Mumbai) Region. These instances offer up to 2x performance compared to P5en instances for AI training and inference. P6-B200 instances feature 8 Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and a 60% increase in GPU memory bandwidth compared to P5en, 5th Generation Intel Xeon processors (Emerald Rapids), and up to 3.2 terabits per second of Elastic Fabric Adapter (EFAv4) networking. P6-B200 instances are powered by the AWS Nitro System, so ",
-      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in Asia Pacific (Mumbai) Region. These instances offer up to 2x performance compared to P5en instances for AI training and inference.&lt;br&gt; &lt;br&gt; P6-B200 instances feature 8 Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and a 60% increase in GPU memory bandwidth compared to P5en, 5th Generation Intel Xeon processors (Emerald Rapids), and up to 3.2 terabits per second of Elastic Fabric Adapter (EFAv4) networking. P6-B200 instances are powered by the AWS Nitro System, so you can reliably and securely scale AI workloads within Amazon EC2 UltraClusters to tens of thousands of GPUs.&lt;br&gt; &lt;br&gt; P6-B200 instances are now available in p6-b200.48xlarge size in the following AWS Regions: US West (Oregon), US East (N. Virginia, Ohio), AWS GovCloud (US-West, US-East) and Asia Pacific (Mumbai) Region. To learn more about P6-B200 instances, visit &lt;a href=\"https://aws.amazon.com/ec2/instance-types/p6/\"&gt;Amazon EC2 P6 instances.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-mumbai/",
-      "publishedAt": "2026-06-16T03:08:00.000Z",
-      "updatedAt": "2026-06-16T03:08:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Compute",
-        "Amazon Ec2"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "compute",
-        "amazon ec2",
-        "ec2"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "c411e49ea53ec8de",
-      "title": "AWS Management Console Private Access now ensures all console traffic flows through VPC endpoints",
-      "description": "AWS Management Console Private Access now enables customers to access the AWS Console from VPCs, allowing enterprises to manage their AWS infrastructure through the console while maintaining strict network security controls. Previously, AWS Management Console Private Access allowed customers to restrict console access to authorized AWS accounts and corporate networks but still required internet connectivity. With this launch, AWS Console traffic can flow through VPC endpoints for the supported service consoles, eliminating the need for any internet access. This capability is particularly valua",
-      "descriptionHtml": "&lt;p&gt;AWS Management Console Private Access now enables customers to access the AWS Console from VPCs, allowing enterprises to manage their AWS infrastructure through the console while maintaining strict network security controls.&lt;br&gt; &lt;br&gt; Previously, AWS Management Console Private Access allowed customers to restrict console access to authorized AWS accounts and corporate networks but still required internet connectivity. With this launch, AWS Console traffic can flow through VPC endpoints for the supported service consoles, eliminating the need for any internet access. This capability is particularly valuable for customers in regulated industries—financial services, government and defense, healthcare—and enterprises with strict security requirements who need to access sensitive data only from controlled environments and use the console in classified or isolated networks.&lt;/p&gt; \n&lt;p&gt;&lt;br&gt; AWS Management Console Private Access uses AWS PrivateLink to establish secure network paths between customer VPCs and the console. Customers can apply VPC endpoint policies to restrict access to specific AWS accounts and organizations, and use IAM, Service Control, and Resource Control policies to require that employees access resources only from authorized networks.&lt;/p&gt; \n&lt;p&gt;This capability is available in all AWS commercial regions. You pay only for the underlying AWS PrivateLink VPC endpoint usage and data processing. To get started and learn about the supported services, visit the &lt;a href=\"https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/console-private-access.html\"&gt;Management Console Private Access documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
-      "publishedAt": "2026-06-15T23:00:00.000Z",
-      "updatedAt": "2026-06-15T23:00:00.000Z",
-      "categories": [
-        "Security Identity And Compliance",
-        "Management And Governance",
-        "AWS Management Console"
-      ],
-      "services": [
-        "VPC"
-      ],
-      "tags": [
-        "security identity and compliance",
-        "management and governance",
-        "aws management console",
-        "vpc"
       ],
       "isNew": false
     }
