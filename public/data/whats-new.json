@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-08-21T08:15:09.105Z",
+  "lastUpdated": "2026-08-22T08:07:59.421Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "999b03a1cddbc682",
+      "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
+      "description": "Today, OpenAI announced that they are lowering API prices for GPT-5.6 Sol. Following the recent Terra and Luna price reductions, Sol now costs $4 per million input tokens and $20 per million output tokens—20% lower input pricing and 33.3% lower output pricing. This promotional pricing is available at least through November 21, 2026. Whether you're building autonomous coding agents, running complex multi-step analyses, or performing advanced research workflows, the reduced pricing gives you more room to experiment and scale what's already working. GPT-5.6 Sol delivers state-of-the-art results o",
+      "descriptionHtml": "&lt;p&gt;Today, OpenAI announced that they are lowering API prices for GPT-5.6 Sol. Following the recent Terra and Luna price reductions, Sol now costs $4 per million input tokens and $20 per million output tokens—20% lower input pricing and 33.3% lower output pricing. This promotional pricing is available at least through November 21, 2026.&lt;/p&gt; \n&lt;p&gt;&lt;br&gt; Whether you're building autonomous coding agents, running complex multi-step analyses, or performing advanced research workflows, the reduced pricing gives you more room to experiment and scale what's already working. GPT-5.6 Sol delivers state-of-the-art results on agentic coding benchmarks, and the lower price point makes it more accessible for sustained, high-volume workloads.&lt;/p&gt; \n&lt;p&gt;&lt;br&gt; For latest Regional availability of GPT-5.6 Sol, check the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html\"&gt;AWS Regions&lt;/a&gt; page. To learn more and view the pricing visit the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-sol.html\"&gt;Amazon Bedrock documentation&lt;/a&gt; on GPT-5.6 Sol.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/",
+      "publishedAt": "2026-08-21T20:11:00.000Z",
+      "updatedAt": "2026-08-21T20:11:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Amazon Bedrock"
+      ],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "amazon bedrock",
+        "bedrock"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "4061b6317b28b78b",
+      "title": "Amazon Connect Customer now lets managers chat with their data",
+      "description": "Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds. Managers have always had the data. What they haven’t had is the time to dig through dashboards, find what’s driving performance, and decide what to do next. Now Amazon Connect Customer does that work for them. It searches across more than 150 metrics spanning self-service, agent performance, and queue performance to find what matters, explain why, and recommend the best next step. Managers can start broad and go deep in the same conversation",
+      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds. Managers have always had the data. What they haven’t had is the time to dig through dashboards, find what’s driving performance, and decide what to do next. Now Amazon Connect Customer does that work for them. It searches across more than 150 metrics spanning self-service, agent performance, and queue performance to find what matters, explain why, and recommend the best next step.&amp;nbsp;&lt;br&gt; &amp;nbsp;&lt;br&gt; Managers can start broad and go deep in the same conversation. For example, a manager can ask which queues are the best candidates for automation, and Amazon Connect Customer reviews where handle time and after-contact work run highest, then returns a prioritized list with confidence scores and projected impact. What once required analysts, dashboards, and weeks of investigation now becomes a prioritized action plan in seconds.&amp;nbsp;&lt;br&gt; &amp;nbsp;&lt;br&gt; This feature is available in all AWS Regions where &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#amazonconnect_region\"&gt;Amazon Connect Customer&lt;/a&gt; AI Agents are supported. To learn more, visit our &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/manager-assistant.html\"&gt;product documentation&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-ai-data-analytics",
+      "publishedAt": "2026-08-21T20:00:00.000Z",
+      "updatedAt": "2026-08-21T20:00:00.000Z",
+      "categories": [
+        "AWS Govcloud Us"
+      ],
+      "services": [
+        "Connect"
+      ],
+      "tags": [
+        "aws govcloud us",
+        "connect"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "10785b3ac73b2dd4",
+      "title": "AWS Deadline Cloud now tracks automatic download status in the Deadline Cloud Monitor",
+      "description": "The AWS Deadline Cloud monitor now shows the progress, status, and health of your automatic file downlaods from jobs running in the cloud. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming. The Deadline Cloud Monitor (DCM) desktop app provides customers with visibility into their render environments, jobs, resources, and costs. Now, customers can also use the monitor to confirm that automatically configured job outputs successfully downloaded to their destination drive. W",
+      "descriptionHtml": "&lt;p&gt;The AWS Deadline Cloud monitor now shows the progress, status, and health of your automatic file downlaods from jobs running in the cloud. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming. The Deadline Cloud Monitor (DCM) desktop app provides customers with visibility into their render environments, jobs, resources, and costs. Now, customers can also use the monitor to confirm that automatically configured job outputs successfully downloaded to their destination drive.&lt;/p&gt; \n&lt;p&gt;With this update, the monitor app introduces a new Download status column at both the job and task level, showing download progress and confirming when all output files are available on your drive. An indicator displays how current that status is. If files are unavailable for any reason, the app surfaces clear guidance on next steps. This eliminates manual drive verification and helps teams confidently confirm output availability before downstream tasks begin, particularly valuable in large-scale render pipelines where manual file checking is impractical.&lt;/p&gt; \n&lt;p&gt;To learn more about AWS Deadline Cloud and the new automatic download status feature in the Deadline Cloud Monitor desktop app, visit https://aws.amazon.com/deadline-cloud/.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-auto-download-status-tracking/",
+      "publishedAt": "2026-08-21T18:00:00.000Z",
+      "updatedAt": "2026-08-21T18:00:00.000Z",
+      "categories": [
+        "AWS Deadline Cloud"
+      ],
+      "services": [],
+      "tags": [
+        "aws deadline cloud"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "88902d3891cc4174",
+      "title": "Amazon EKS Capability for Argo CD now supports custom configuration",
+      "description": "The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports custom configuration through a standard argocd-cm ConfigMap in your cluster. This capability gives you a fully managed GitOps continuous delivery experience, and you can now tune it to fit how your teams work. You can define custom health checks for your Custom Resources, customize the Argo CD UI banner content, adjust how the capability watches and compares the resources it manages, and more. You configure these settings the same way you do in upstream Argo CD, and AWS applies them to your managed capabilit",
+      "descriptionHtml": "&lt;p&gt;The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports custom configuration through a standard argocd-cm ConfigMap in your cluster. This capability gives you a fully managed GitOps continuous delivery experience, and you can now tune it to fit how your teams work. You can define custom health checks for your Custom Resources, customize the Argo CD UI banner content, adjust how the capability watches and compares the resources it manages, and more. You configure these settings the same way you do in upstream Argo CD, and AWS applies them to your managed capability.&lt;/p&gt; \n&lt;p&gt;With this launch, cluster administrators now have more control over how Argo CD reports application health. By default, Argo CD has no built-in health logic for Custom Resources, so an Application can report as healthy while its resources are still provisioning, and sync waves can advance before those resources are ready. With a custom health check, you define this logic yourself. For example, a health check for a database resource can hold an Application at progressing until the database is ready. The capability also includes built-in health checks for AWS Controllers for Kubernetes (ACK) and kro (Kube Resource Orchestrator) resources, so these report accurate health with no additional configuration.&lt;/p&gt; \n&lt;p&gt;You can configure the EKS Capability for Argo CD in all AWS Regions where the capability is available. To learn more, see &lt;a href=\"https://aws.amazon.com/eks/\"&gt;Amazon EKS&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/argocd-configure-settings.html\"&gt;Configure Argo CD settings&lt;/a&gt; in the Amazon EKS User Guide.&lt;/p&gt; \n&lt;h4&gt;&amp;nbsp;&lt;/h4&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration",
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "updatedAt": "2026-08-21T17:00:00.000Z",
+      "categories": [
+        "Amazon Eks",
+        "Containers"
+      ],
+      "services": [
+        "EKS"
+      ],
+      "tags": [
+        "amazon eks",
+        "containers",
+        "eks"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "be9fdeeb2830dafa",
+      "title": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
+      "description": "AWS Glue 6.0 is now generally available, delivering a 30% price reduction and introducing full support for Apache Iceberg v3, newer versions of Apache Hudi and Delta Lake, and new capabilities to improve developer productivity. AWS Glue 6.0 also upgrades runtime to Apache Spark 4.1, Python 3.13, and Scala 2.13. With Apache Iceberg v3, AWS Glue 6.0 adds the VARIANT data type with automatic shredding for faster reads on semi-structured data, deletion vectors for high-performance row-level updates, geometry and geography data types for spatial processing, and flexible schema evolution through UNK",
+      "descriptionHtml": "&lt;p&gt;AWS Glue 6.0 is now generally available, delivering a 30% price reduction and introducing full support for Apache Iceberg v3, newer versions of Apache Hudi and Delta Lake, and new capabilities to improve developer productivity. AWS Glue 6.0 also upgrades runtime to Apache Spark 4.1, Python 3.13, and Scala 2.13.&lt;/p&gt; \n&lt;p&gt;With Apache Iceberg v3, AWS Glue 6.0 adds the VARIANT data type with automatic shredding for faster reads on semi-structured data, deletion vectors for high-performance row-level updates, geometry and geography data types for spatial processing, and flexible schema evolution through UNKNOWN data type and DEFAULT column values. Glue 6.0 also introduces features that boost developer productivity and performance, such as Spark Declarative Pipelines that eliminate repetitive orchestration code, Real-Time Mode streaming for sub-second latencies, and Arrow-native Python UDFs for improved PySpark performance. These capabilities help you implement large-scale ETL, recurring batch workloads, streaming analytics, and AI application development using AWS Glue.&lt;/p&gt; \n&lt;p&gt;AWS Glue 6.0 is available in all AWS Commercial, AWS GovCloud (US), and AWS China regions.&lt;/p&gt; \n&lt;p&gt;To get started, select Glue 6.0 from the version dropdown in the AWS Glue console or SageMaker Unified Studio when creating a new job, or migrate existing jobs using the &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/upgrade-analysis.html\"&gt;Spark Upgrade Agent&lt;/a&gt;. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/migrating-version-60.html\"&gt;AWS Glue documentation&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/glue/pricing/\"&gt;AWS Glue pricing&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3",
+      "publishedAt": "2026-08-21T16:42:00.000Z",
+      "updatedAt": "2026-08-21T16:42:00.000Z",
+      "categories": [
+        "Analytics",
+        "AWS Glue",
+        "Lower Cost"
+      ],
+      "services": [
+        "Glue"
+      ],
+      "tags": [
+        "analytics",
+        "aws glue",
+        "lower cost",
+        "glue"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "2fef4fbde8d42cec",
+      "title": "Amazon SES now supports open and click tracking override parameters",
+      "description": "Amazon Simple Email Service (SES) now supports open and click tracking override parameters in the SendEmail and SendBulkEmail APIs. Senders can enable or disable open tracking and click tracking on an individual API call, rather than managing tracking preferences through separate configuration sets. Previously, controlling tracking behavior required maintaining a distinct configuration set for each combination of open- and click-tracking settings. With this new capability, you specify the tracking preference directly in the send request, reducing configuration overhead and simplifying how you ",
+      "descriptionHtml": "&lt;p&gt;Amazon Simple Email Service (SES) now supports open and click tracking override parameters in the SendEmail and SendBulkEmail APIs. Senders can enable or disable open tracking and click tracking on an individual API call, rather than managing tracking preferences through separate configuration sets.&lt;br&gt; &lt;br&gt; Previously, controlling tracking behavior required maintaining a distinct configuration set for each combination of open- and click-tracking settings. With this new capability, you specify the tracking preference directly in the send request, reducing configuration overhead and simplifying how you honor recipient-level tracking consent. This is useful for senders that must respect per-recipient consent choices to meet data protection requirements such as GDPR and CNIL guidance.&lt;br&gt; &lt;br&gt; The tracking overrides apply per request and take precedence over the tracking behavior defined in the associated configuration set, giving you fine-grained control without changing your existing configuration set structure. There is no additional cost to use this feature.&lt;br&gt; &lt;br&gt; This capability is available in all AWS Regions where Amazon SES is available.&lt;/p&gt; \n&lt;p&gt;To learn more, see the documentation on open and click tracking in the &lt;a href=\"https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_SendEmail.html\"&gt;&lt;i&gt;Amazon SES Developer Guide&lt;/i&gt;.&amp;nbsp;&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-adds-open-click-tracking-override/",
+      "publishedAt": "2026-08-21T07:00:00.000Z",
+      "updatedAt": "2026-08-21T07:00:00.000Z",
+      "categories": [
+        "Applications",
+        "Amazon Simple Email Service"
+      ],
+      "services": [
+        "SES"
+      ],
+      "tags": [
+        "applications",
+        "amazon simple email service",
+        "ses"
+      ],
+      "isNew": true
+    },
     {
       "id": "b680bdb0112abc1e",
       "title": "AWS announces the general availability of a new AWS Local Zone in Las Vegas, Nevada",
@@ -42,6 +169,28 @@
         "databases",
         "amazon timestream",
         "timestream"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "6bdc15a13b537e09",
+      "title": "Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
+      "description": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now available in Asia Pacific (Singapore), M8gd instances are available in Mexico (Central) and Asia Pacific (Melbourne), and R8gd instances are available in Europe (Zurich). These instances are powered by AWS Graviton4 processors, delivering up to 30% better performance over Graviton3-based instances. They have up to 40% higher performance for I/O intensive database workloads, and up to 20% faster qu",
+      "descriptionHtml": "&lt;p&gt;Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now available in Asia Pacific (Singapore), M8gd instances are available in Mexico (Central) and Asia Pacific (Melbourne), and R8gd instances are available in Europe (Zurich). These instances are powered by AWS Graviton4 processors, delivering up to 30% better performance over Graviton3-based instances. They have up to 40% higher performance for I/O intensive database workloads, and up to 20% faster query results for I/O intensive real-time data analytics than comparable AWS Graviton3-based instances. These instances are built on the AWS Nitro System and are a great fit for applications that need access to high-speed, low latency local storage.&lt;br&gt; &lt;br&gt; Each instance is available in 12 different sizes. They provide up to 50 Gbps of network bandwidth and up to 40 Gbps of bandwidth to the Amazon Elastic Block Store (Amazon EBS). Additionally, customers can now adjust the network and Amazon EBS bandwidth on these instances by 25% using EC2 instance bandwidth weighting conﬁguration, providing greater ﬂexibility with the allocation of bandwidth resources to better optimize workloads. These instances offer Elastic Fabric Adapter (EFA) networking on 24xlarge, 48xlarge, metal-24xl, and metal-48xl sizes.&lt;/p&gt; \n&lt;p&gt;C8gd instances are ideal for compute-intensive workloads such as high-performance web servers, batch processing, distributed analytics, ad serving, video encoding, and gaming servers. M8gd instances are well-suited for balanced workloads including application servers, microservices, enterprise applications, and small to medium databases. R8gd instances are ideal for memory-intensive workloads such as in-memory databases, real-time big data analytics, large in-memory caches, and scientific computing applications.&lt;/p&gt; \n&lt;p&gt;To learn more, see &lt;a href=\"https://aws.amazon.com/ec2/instance-types/c8g/\"&gt;Amazon C8gd Instances&lt;/a&gt;, &lt;a href=\"https://aws.amazon.com/ec2/instance-types/m8g/\"&gt;Amazon M8gd Instances&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/ec2/instance-types/r8g/\"&gt;Amazon R8gd Instances&lt;/a&gt;. To explore how to migrate your workloads to Graviton-based instances, see &lt;a href=\"https://aws.amazon.com/ec2/graviton/fast-start/\"&gt;AWS Graviton Fast Start program&lt;/a&gt; and &lt;a href=\"https://github.com/aws/porting-advisor-for-graviton\"&gt;Porting Advisor for Graviton&lt;/a&gt;. To get started, see the &lt;a href=\"https://console.aws.amazon.com/\"&gt;AWS Management Console&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
+      "publishedAt": "2026-08-20T20:00:00.000Z",
+      "updatedAt": "2026-08-20T20:00:00.000Z",
+      "categories": [
+        "Compute",
+        "Amazon Ec2"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "compute",
+        "amazon ec2",
+        "ec2"
       ],
       "isNew": true
     },
@@ -185,6 +334,25 @@
         "amazon sagemaker",
         "amazon sagemaker studio",
         "sagemaker"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "fe3ef12f76246c78",
+      "title": "Amazon Aurora DSQL now supports Amazon CloudWatch Database Insights",
+      "description": "Amazon Aurora DSQL now features a new Amazon CloudWatch Database Insights metric that delivers per-statement, cluster-level performance monitoring details. Aurora DSQL database insights captures sampled wait states and normalized SQL statements for all active cluster sessions. You can use it to diagnose performance issues with your clusters, and identify the queries consuming the most resources. Aurora DSQL database insights metrics can be used to analyze your cluster performance using Amazon CloudWatch Database Insights, Amazon CloudWatch PromQL, and Aurora DSQL system diagnostics AI skill. T",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/aurora/dsql/\"&gt;Amazon Aurora DSQL&lt;/a&gt; now features a new Amazon CloudWatch Database Insights metric that delivers per-statement, cluster-level performance monitoring details. Aurora DSQL database insights captures sampled wait states and normalized SQL statements for all active cluster sessions. You can use it to diagnose performance issues with your clusters, and identify the queries consuming the most resources.&lt;/p&gt; \n&lt;p&gt;Aurora DSQL database insights metrics can be used to analyze your cluster performance using Amazon CloudWatch Database Insights, Amazon CloudWatch PromQL, and Aurora DSQL system diagnostics AI skill. The metric, captured at 1-minute interval, is available by default at no additional cost.&lt;/p&gt; \n&lt;p&gt;This feature is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where Aurora DSQL is available. To learn more about Aurora DSQL database insights, read &lt;a href=\"https://aws.amazon.com/blogs/database/amazon-aurora-dsql-observability-concepts-and-usage-with-amazon-cloudwatch/\"&gt;the blog&lt;/a&gt; and see &lt;a href=\"https://docs.aws.amazon.com/aurora-dsql/latest/userguide/dsql-db-insights.html\"&gt;getting started&lt;/a&gt;. To learn more about CloudWatch Database Insights, see &lt;a href=\"https://aws.amazon.com/cloudwatch/pricing/\"&gt;pricing&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Database-Insights.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights/",
+      "publishedAt": "2026-08-20T16:00:00.000Z",
+      "updatedAt": "2026-08-20T16:00:00.000Z",
+      "categories": [],
+      "services": [
+        "Aurora",
+        "CloudWatch"
+      ],
+      "tags": [
+        "aurora",
+        "cloudwatch"
       ],
       "isNew": true
     },
@@ -1227,7 +1395,7 @@
         "artificial intelligence",
         "business productivity"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6d3796a24cb26094",
@@ -1246,7 +1414,7 @@
         "artificial intelligence",
         "business productivity"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "da7bdd0433d3f919",
@@ -1265,7 +1433,7 @@
         "artificial intelligence",
         "business productivity"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b780f0d358229449",
@@ -1287,7 +1455,7 @@
         "amazon rds for oracle",
         "rds"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a6567c5b0b459c45",
@@ -1309,7 +1477,7 @@
         "artificial intelligence",
         "quicksight"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ad27226fdf45d7cb",
@@ -10955,200 +11123,6 @@
       "services": [],
       "tags": [
         "compute"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "666e3ec78965748b",
-      "title": "Nested virtualization is now available on additional Intel platforms and AWS GovCloud (US) regions",
-      "description": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C8id,R8id, M8id, C7i-flex, M7i-flex, I7i, C8i-flex,R8i-flex, M8i-flex,and X8i, in addition to already available support on C8i, M8i and R8i instances. This capability is also now available in AWSGovCloud (US-East) and AWS GovCloud (US-West), in addition to existing support in all commercial regions. With nested virtualization capabilities, customers can create nested environments by running KVM or Hyper-V on virtual EC2 instances. ",
-      "descriptionHtml": "&lt;p&gt;Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C8id,R8id, M8id, C7i-flex, M7i-flex, I7i, C8i-flex,R8i-flex, M8i-flex,and X8i, in addition to already available support on C8i, M8i and R8i instances. This capability is also now available in AWSGovCloud (US-East) and AWS GovCloud (US-West), in addition to existing support in all commercial regions.&lt;br&gt; With nested virtualization capabilities, customers can create nested environments by running KVM or Hyper-V on virtual EC2 instances. Customers can leverage this capability for use cases such as running emulators for mobile applications, simulating in-vehicle hardware for automobiles, and running Windows Subsystem for Linux on Windows workstations. To learn more see &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-ec2-nested-virtualization.html\"&gt;documentation&lt;/a&gt; .&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/nested-virtualization-intel-us-gov-cloud/",
-      "publishedAt": "2026-06-18T18:47:00.000Z",
-      "updatedAt": "2026-06-18T18:47:00.000Z",
-      "categories": [
-        "Amazon Ec2",
-        "Compute",
-        "AWS Govcloud Us"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "amazon ec2",
-        "compute",
-        "aws govcloud us",
-        "ec2"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "8fe08aa76fa52d21",
-      "title": "Amazon Connect Customer launches the ability to interrupt an agent with an urgent contact",
-      "description": "Amazon Connect Customer now supports the ability to interrupt an agent with a contact, overriding their usual routing configuration in case of urgent or time-sensitive work. For example, an agent may be waiting for a time-sensitive callback on their personal extension, while taking customer service calls in the meantime. When that urgent call comes in, it can now ring the agent even if the agent is currently already on another call, so the agent can decide whether to put the first caller on hold to pick up the callback as well. You can also use this feature to directly assign certain contacts ",
-      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now supports the ability to interrupt an agent with a contact, overriding their usual routing configuration in case of urgent or time-sensitive work. For example, an agent may be waiting for a time-sensitive callback on their personal extension, while taking customer service calls in the meantime. When that urgent call comes in, it can now ring the agent even if the agent is currently already on another call, so the agent can decide whether to put the first caller on hold to pick up the callback as well.&lt;br&gt; &lt;br&gt; You can also use this feature to directly assign certain contacts to a specific agent even though that agent has set themselves to a custom status where they normally could not be offered queued contacts. For example, you may want to ensure that a specific agent cannot take customer service calls while in “Back Office Work” but still allow calls to their personal extension to ring through, improving efficiency for urgent contacts.&lt;br&gt; &lt;br&gt; This feature is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS regions&lt;/a&gt; where Amazon Connect Customer is offered. To learn more about this feature, see the &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/interrupt-agent.html\"&gt;&lt;u&gt;Amazon Connect Customer Administrator Guide&lt;/u&gt;&lt;/a&gt;. To learn more about Amazon Connect Customer, the AWS cloud-based contact center, please visit the&lt;a href=\"https://aws.amazon.com/connect/\"&gt; &lt;/a&gt;&lt;a href=\"https://aws.amazon.com/connect/\"&gt;&lt;u&gt;Amazon Connect Customer website&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-interrupt-agent-with-urgent-contact/",
-      "publishedAt": "2026-06-18T18:35:00.000Z",
-      "updatedAt": "2026-06-18T18:35:00.000Z",
-      "categories": [
-        "Amazon Connect",
-        "AWS Govcloud Us",
-        "Applications"
-      ],
-      "services": [
-        "Connect"
-      ],
-      "tags": [
-        "amazon connect",
-        "aws govcloud us",
-        "applications",
-        "connect"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "27b3dd4ac0ad2c35",
-      "title": "all-MiniLM-L12-v2 for semantic search and sentence similarity is now available in Amazon SageMaker JumpStart",
-      "description": "Today, AWS announced the availability of all-MiniLM-L12-v2 in Amazon SageMaker JumpStart, expanding the portfolio of models available to AWS customers. This model from Sentence Transformers maps sentences and paragraphs to a 384-dimensional dense vector space, enabling customers to build high-quality semantic search, text clustering, and sentence similarity applications on AWS infrastructure. all-MiniLM-L12-v2 excels at encoding sentences and short paragraphs into dense vector representations that capture semantic meaning, making it ideal for information retrieval, semantic search systems, doc",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announced the availability of all-MiniLM-L12-v2 in Amazon SageMaker JumpStart, expanding the portfolio of models available to AWS customers. This model from Sentence Transformers maps sentences and paragraphs to a 384-dimensional dense vector space, enabling customers to build high-quality semantic search, text clustering, and sentence similarity applications on AWS infrastructure.&lt;/p&gt; \n&lt;p&gt;all-MiniLM-L12-v2 excels at encoding sentences and short paragraphs into dense vector representations that capture semantic meaning, making it ideal for information retrieval, semantic search systems, document clustering, duplicate detection, and paraphrase identification. Its compact architecture delivers fast inference while maintaining strong embedding quality, well suited for production workloads that require efficient text representations at scale.&lt;/p&gt; \n&lt;p&gt;With SageMaker JumpStart, customers can deploy this model with just a few clicks to address their specific AI use cases. To get started with this model, navigate to the Models section of SageMaker Studio or use the SageMaker Python SDK to deploy the model to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/all-minilm-l12-v2-on-sagemaker-jumpstart/",
-      "publishedAt": "2026-06-18T18:30:00.000Z",
-      "updatedAt": "2026-06-18T18:30:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Aiml",
-        "Amazon Sagemaker",
-        "Amazon Sagemaker Jumpstart"
-      ],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "aiml",
-        "amazon sagemaker",
-        "amazon sagemaker jumpstart",
-        "sagemaker"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "147718acacf008f0",
-      "title": "AWS Compute Optimizer enhances EBS volume recommendations with additional performance metrics",
-      "description": "AWS Compute Optimizer now includes improved visibility into IOPS and throughput spikes when deliverings Amazon EBS volume rightsizing recommendations. Compute Optimizer analyzes two additional Amazon CloudWatch metrics, VolumeIOPSExceededCheck and VolumeThroughputExceededCheck, which report whether your workload consistently attempted to drive IOPS or throughput beyond your volume's provisioned performance in any given minute. By factoring in these signals, Compute Optimizer helps you make rightsizing decisions to balance cost with performance for workloads that experience bursts of high IOPS ",
-      "descriptionHtml": "&lt;p&gt;AWS Compute Optimizer now includes improved visibility into IOPS and throughput spikes when deliverings Amazon EBS volume rightsizing recommendations. Compute Optimizer analyzes two additional Amazon CloudWatch metrics, VolumeIOPSExceededCheck and VolumeThroughputExceededCheck, which report whether your workload consistently attempted to drive IOPS or throughput beyond your volume's provisioned performance in any given minute. By factoring in these signals, Compute Optimizer helps you make rightsizing decisions to balance cost with performance for workloads that experience bursts of high IOPS or throughput.&lt;/p&gt; \n&lt;p&gt;This enhancement is available in all AWS Regions where AWS Compute Optimizer is available, except the AWS GovCloud (US) Regions, and the China Regions. The underlying CloudWatch metrics are available at no additional charge for all EBS volumes attached to Nitro-based EC2 instances, excluding standard and Multi-Attach enabled volumes. To get started, go to AWS Compute Optimizer in the AWS Management Console. To learn more, visit the AWS Compute Optimizer &lt;a href=\"https://docs.aws.amazon.com/compute-optimizer/latest/ug/view-ebs-recommendations.html\"&gt;User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-enhances-ebs-recommendations/",
-      "publishedAt": "2026-06-18T18:30:00.000Z",
-      "updatedAt": "2026-06-18T18:30:00.000Z",
-      "categories": [
-        "AWS Compute Optimizer",
-        "Cost Management"
-      ],
-      "services": [
-        "EBS"
-      ],
-      "tags": [
-        "aws compute optimizer",
-        "cost management",
-        "ebs"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "f7935166cea8010e",
-      "title": "Ministral-3-14B-Instruct for multimodal reasoning and agentic AI is now available in Amazon SageMaker JumpStart",
-      "description": "Today, AWS announced the availability of Ministral-3-14B-Instruct-2512 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI delivers frontier-class multimodal capabilities in a compact 14B-parameter architecture optimized for edge deployment, enabling customers to build advanced AI assistants, agentic systems, and vision-enabled applications on AWS infrastructure. Ministral-3-14B-Instruct excels at analyzing images and providing insights based on visual content in addition to text, agentic capabilities with native fu",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announced the availability of Ministral-3-14B-Instruct-2512 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI delivers frontier-class multimodal capabilities in a compact 14B-parameter architecture optimized for edge deployment, enabling customers to build advanced AI assistants, agentic systems, and vision-enabled applications on AWS infrastructure.&lt;/p&gt; \n&lt;p&gt;Ministral-3-14B-Instruct excels at analyzing images and providing insights based on visual content in addition to text, agentic capabilities with native function calling and JSON output, and multilingual understanding across dozens of languages including English, French, Spanish, German, Chinese, Japanese, Korean, and Arabic.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;With SageMaker JumpStart, customers can deploy this model with just a few clicks to address their specific AI use cases. To get started with this model, navigate to the Models section of SageMaker Studio or use the SageMaker Python SDK to deploy the model to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ministral-3-14b-on-sagemaker-jumpstart/",
-      "publishedAt": "2026-06-18T18:30:00.000Z",
-      "updatedAt": "2026-06-18T18:30:00.000Z",
-      "categories": [
-        "Amazon Sagemaker",
-        "Aiml",
-        "Amazon Sagemaker Jumpstart",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "amazon sagemaker",
-        "aiml",
-        "amazon sagemaker jumpstart",
-        "artificial intelligence",
-        "sagemaker"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "ba805aab889fa102",
-      "title": "Amazon EKS now supports customer-routed control plane egress",
-      "description": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) introduces customer-routed control plane egress, a capability that lets you route outbound Kubernetes API server traffic through your own Amazon VPC. This includes admission webhook callbacks, OpenID Connect (OIDC) provider lookups, and aggregate API server requests. With customer-routed control plane egress, this traffic flows through your VPC, where you control the routing, security groups, and egress path. Organizations with data perimeter requirements, compliance mandates, or private network infrastructure can use customer-routed contro",
-      "descriptionHtml": "&lt;p&gt;Today, &lt;a href=\"https://aws.amazon.com/eks/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Elastic Kubernetes Service&lt;/a&gt; (Amazon EKS) introduces customer-routed control plane egress, a capability that lets you route outbound Kubernetes API server traffic through your own Amazon VPC. This includes admission webhook callbacks, OpenID Connect (OIDC) provider lookups, and aggregate API server requests. With customer-routed control plane egress, this traffic flows through your VPC, where you control the routing, security groups, and egress path.&lt;br&gt; &lt;br&gt; Organizations with data perimeter requirements, compliance mandates, or private network infrastructure can use customer-routed control plane egress to reach private OIDC providers and webhook servers that are accessible only within their VPC, and control how that traffic routes through their network. To get started, set controlPlaneEgressMode to CUSTOMER_ROUTED when creating a new cluster or updating an existing cluster. To enforce this configuration organization-wide, use the eks:controlPlaneEgressMode IAM condition key with AWS Organizations Service Control Policies.&lt;br&gt; &lt;br&gt; Customer-routed control plane egress is available at no additional cost in all AWS Regions where Amazon EKS is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/control-plane-egress.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Configure control plane egress routing&lt;/a&gt; in the &lt;i&gt;Amazon EKS User Guide&lt;/i&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-customer-routed-control-plane-egress",
-      "publishedAt": "2026-06-18T17:00:00.000Z",
-      "updatedAt": "2026-06-18T17:00:00.000Z",
-      "categories": [
-        "Amazon Eks",
-        "Containers",
-        "AWS Govcloud Us"
-      ],
-      "services": [
-        "EKS"
-      ],
-      "tags": [
-        "amazon eks",
-        "containers",
-        "aws govcloud us",
-        "eks"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "487bf53477d6d72b",
-      "title": "Amazon SageMaker AI Announces New observability capability For Inference Endpoints",
-      "description": "Amazon SageMaker AI's new observability capability allows customers to operate production generative AI inference workloads with confidence by providing comprehensive visibility into token performance, GPU health, inference component placement, and autoscaling behavior. It takes away the manual work of searching CloudWatch for per-endpoint metrics, correlating latency spikes with GPU saturation or KV cache exhaustion and diagnosing why scaling operations are slow. This capability tracks inference performance metrics in real-time, including Time to First Token, inter-token latency, queue depth,",
-      "descriptionHtml": "&lt;p&gt;Amazon SageMaker AI's new observability capability allows customers to operate production generative AI inference workloads with confidence by providing comprehensive visibility into token performance, GPU health, inference component placement, and autoscaling behavior. It takes away the manual work of searching CloudWatch for per-endpoint metrics, correlating latency spikes with GPU saturation or KV cache exhaustion and diagnosing why scaling operations are slow. This capability tracks inference performance metrics in real-time, including Time to First Token, inter-token latency, queue depth, and tokens per second, and surfaces them alongside infrastructure health so customers can identify and resolve issues in minutes rather than hours.&lt;/p&gt; \n&lt;p&gt;SageMaker AI detailed observability transforms how customers monitor and optimize their inference fleet. The new pre-built SageMaker AI Insights dashboard in Amazon CloudWatch gives customers token latency, GPU utilization, inference component copy counts, scaling events, and cold start breakdowns in a single view with OpenTelemetry native metrics published automatically, no instrumentation required. This allows teams to quickly diagnose TTFT degradation, verify availability zone compliance, and tune autoscaling policies. Customers who have standardized on observability tools like Grafana can connect directly using the regional PromQL endpoint and import a pre-configured dashboard template. This capability helps customers self-serve operational issues and maximize the performance of their AI investments.&lt;/p&gt; \n&lt;p&gt;SageMaker AI Inference observability is available in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), US West (N. California), Canada (Central), South America (São Paulo), Europe (Ireland), Europe (Frankfurt), Europe (London), Europe (Stockholm), Europe (Zurich), Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Asia Pacific (Seoul), and Asia Pacific (Jakarta). To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/monitoring-cloudwatch-detailed-observability.html\"&gt;Documentation&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/sagemaker/ai/?trk=df5b8c0e-2f56-49fa-a37d-691eba3e8954&amp;amp;sc_channel=ps&amp;amp;trk=c5e59169-d233-4eef-b6e2-e3e751bfb3f2&amp;amp;ef_id=:G:s&amp;amp;s_kwcid=AL!4422!3!!e!!o!!amazon%20sagemaker%20ai!487441853!1151190521794397&amp;amp;msclkid=9745f631dad319a20f8e9c02eb1bda85\"&gt;Amazon SageMaker AI&lt;/a&gt; webpage.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-ai-inference/",
-      "publishedAt": "2026-06-18T15:13:00.000Z",
-      "updatedAt": "2026-06-18T15:13:00.000Z",
-      "categories": [
-        "Containers And Deployment",
-        "Artificial Intelligence",
-        "Business Productivity",
-        "Amazon Sagemaker"
-      ],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "containers and deployment",
-        "artificial intelligence",
-        "business productivity",
-        "amazon sagemaker",
-        "sagemaker"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "62266e56c6debb4d",
-      "title": "Amazon SNS now supports sending SMS in the Asia Pacific (Seoul) Region",
-      "description": "Customers that use Amazon Simple Notification Service (Amazon SNS) in the Asia Pacific (Seoul) Region can now send text messages (SMS) to subscribers in more than 200 countries and territories. Amazon SNS is a fully managed pub/sub messaging service that enables message delivery to multiple endpoints including AWS Lambda, Amazon SQS, Amazon Data Firehose, mobile devices, and email. With this launch, customers using SNS in the Asia Pacific (Seoul) Region can subscribe phone numbers to SNS topics and broadcast SMS messages via AWS End User Messaging . To learn more about sending SMS messages wit",
-      "descriptionHtml": "&lt;p&gt;Customers that use &lt;a href=\"https://aws.amazon.com/sns/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Simple Notification Service (Amazon SNS)&lt;/a&gt; in the Asia Pacific (Seoul) Region can now send text messages (SMS) to subscribers in more than 200 countries and territories.&lt;/p&gt; \n&lt;p&gt;Amazon SNS is a fully managed pub/sub messaging service that enables message delivery to multiple endpoints including AWS Lambda, Amazon SQS, Amazon Data Firehose, mobile devices, and email. With this launch, customers using SNS in the&amp;nbsp;Asia Pacific (Seoul) Region can subscribe phone numbers to SNS topics and broadcast SMS messages via &lt;a href=\"https://aws.amazon.com/end-user-messaging/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS End User Messaging&lt;/a&gt;.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;To learn more about sending SMS messages with SNS, visit &lt;a href=\"https://docs.aws.amazon.com/sns/latest/dg/sns-mobile-phone-number-as-subscriber.html\"&gt;Mobile text messaging with Amazon SNS&lt;/a&gt;.&amp;nbsp;For the list of supported countries and regions, visit &lt;a href=\"https://docs.aws.amazon.com/sns/latest/dg/sns-supported-regions-countries.html\"&gt;Supported countries and regions&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sns-supports-sending-sms-seoul-region/",
-      "publishedAt": "2026-06-18T15:00:00.000Z",
-      "updatedAt": "2026-06-18T15:00:00.000Z",
-      "categories": [
-        "Serverless",
-        "Amazon Simple Notification Service"
-      ],
-      "services": [
-        "SNS"
-      ],
-      "tags": [
-        "serverless",
-        "amazon simple notification service",
-        "sns"
       ],
       "isNew": false
     }
