@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T08:08:29.333Z",
+  "lastUpdated": "2026-08-24T08:18:03.915Z",
   "itemCount": 500,
   "items": [
     {
@@ -87,22 +87,22 @@
       "id": "be9fdeeb2830dafa",
       "title": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
       "description": "AWS Glue 6.0 is now generally available, delivering a 30% price reduction and introducing full support for Apache Iceberg v3, newer versions of Apache Hudi and Delta Lake, and new capabilities to improve developer productivity. AWS Glue 6.0 also upgrades runtime to Apache Spark 4.1, Python 3.13, and Scala 2.13. With Apache Iceberg v3, AWS Glue 6.0 adds the VARIANT data type with automatic shredding for faster reads on semi-structured data, deletion vectors for high-performance row-level updates, geometry and geography data types for spatial processing, and flexible schema evolution through UNK",
-      "descriptionHtml": "&lt;p&gt;AWS Glue 6.0 is now generally available, delivering a 30% price reduction and introducing full support for Apache Iceberg v3, newer versions of Apache Hudi and Delta Lake, and new capabilities to improve developer productivity. AWS Glue 6.0 also upgrades runtime to Apache Spark 4.1, Python 3.13, and Scala 2.13.&lt;/p&gt; \n&lt;p&gt;With Apache Iceberg v3, AWS Glue 6.0 adds the VARIANT data type with automatic shredding for faster reads on semi-structured data, deletion vectors for high-performance row-level updates, geometry and geography data types for spatial processing, and flexible schema evolution through UNKNOWN data type and DEFAULT column values. Glue 6.0 also introduces features that boost developer productivity and performance, such as Spark Declarative Pipelines that eliminate repetitive orchestration code, Real-Time Mode streaming for sub-second latencies, and Arrow-native Python UDFs for improved PySpark performance. These capabilities help you implement large-scale ETL, recurring batch workloads, streaming analytics, and AI application development using AWS Glue.&lt;/p&gt; \n&lt;p&gt;AWS Glue 6.0 is available in all AWS Commercial, AWS GovCloud (US), and AWS China regions.&lt;/p&gt; \n&lt;p&gt;To get started, select Glue 6.0 from the version dropdown in the AWS Glue console or SageMaker Unified Studio when creating a new job, or migrate existing jobs using the &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/upgrade-analysis.html\"&gt;Spark Upgrade Agent&lt;/a&gt;. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/migrating-version-60.html\"&gt;AWS Glue documentation&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/glue/pricing/\"&gt;AWS Glue pricing&lt;/a&gt;.&lt;/p&gt;",
+      "descriptionHtml": "&lt;p&gt;AWS Glue 6.0 is now generally available, delivering a 30% price reduction and introducing full support for Apache Iceberg v3, newer versions of Apache Hudi and Delta Lake, and new capabilities to improve developer productivity. AWS Glue 6.0 also upgrades runtime to Apache Spark 4.1, Python 3.13, and Scala 2.13.&lt;/p&gt; \n&lt;p&gt;With Apache Iceberg v3, AWS Glue 6.0 adds the VARIANT data type with automatic shredding for faster reads on semi-structured data, deletion vectors for high-performance row-level updates, geometry and geography data types for spatial processing, and flexible schema evolution through UNKNOWN data type and DEFAULT column values. Glue 6.0 also introduces features that boost developer productivity and performance, such as Spark Declarative Pipelines that eliminate repetitive orchestration code, Real-Time Mode streaming for sub-second latencies, and Arrow-native Python UDFs for improved PySpark performance. These capabilities help you implement large-scale ETL, recurring batch workloads, streaming analytics, and AI application development using AWS Glue.&lt;/p&gt; \n&lt;p&gt;AWS Glue 6.0 is available in all AWS Commercial, AWS GovCloud (US), and AWS China regions.&lt;/p&gt; \n&lt;p&gt;To get started, select Glue 6.0 from the version dropdown in the AWS Glue console or SageMaker Unified Studio when creating a new job, or migrate existing jobs using the &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/upgrade-analysis.html\"&gt;Generative AI Upgrade Agent for Apache Spark in AWS Glue&lt;/a&gt;. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/migrating-version-60.html\"&gt;AWS Glue documentation&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/glue/pricing/\"&gt;AWS Glue pricing&lt;/a&gt;.&lt;/p&gt;",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3",
       "publishedAt": "2026-08-21T16:42:00.000Z",
       "updatedAt": "2026-08-21T16:42:00.000Z",
       "categories": [
-        "Analytics",
+        "Lower Cost",
         "AWS Glue",
-        "Lower Cost"
+        "Analytics"
       ],
       "services": [
         "Glue"
       ],
       "tags": [
-        "analytics",
-        "aws glue",
         "lower cost",
+        "aws glue",
+        "analytics",
         "glue"
       ],
       "isNew": true
