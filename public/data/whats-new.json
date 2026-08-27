@@ -1,7 +1,197 @@
 {
-  "lastUpdated": "2026-08-26T08:16:50.278Z",
+  "lastUpdated": "2026-08-27T11:27:18.446Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "073ede86abbfffd5",
+      "title": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
+      "description": "Amazon Cognito now provides a new admin API operation to reset a user's time-based one-time Password (TOTP) multi-factor authentication (MFA) configuration. When users lose access to their TOTP device, administrators can remove the device association, allowing the user to enroll a new device on their next sign-in. This removes the need to recreate accounts to recover locked-out users if they lose access to their TOTP device. Customers can maintain MFA enforcement while providing a recovery path. This new capability is available in all AWS Regions where Amazon Cognito is available. To get start",
+      "descriptionHtml": "&lt;p&gt;Amazon Cognito now provides a new admin API operation to reset a user's time-based one-time Password (TOTP) multi-factor authentication (MFA) configuration. When users lose access to their TOTP device, administrators can remove the device association, allowing the user to enroll a new device on their next sign-in.&lt;/p&gt; \n&lt;p&gt;This removes the need to recreate accounts to recover locked-out users if they lose access to their TOTP device. Customers can maintain MFA enforcement while providing a recovery path.&lt;/p&gt; \n&lt;p&gt;This new capability is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where Amazon Cognito is available. To get started, access the &lt;a href=\"https://docs.aws.amazon.com/cognito-user-identity-pools/latest/APIReference/API_AdminDeleteSoftwareToken.html\"&gt;AdminDeleteSoftwareToken&lt;/a&gt; API using the AWS CLI, SDKs, or APIs. See the &lt;a href=\"https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-mfa-totp.html#user-pool-settings-mfa-totp-remove\"&gt;developer guide&lt;/a&gt; for instructions.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/",
+      "publishedAt": "2026-08-26T22:00:00.000Z",
+      "updatedAt": "2026-08-26T22:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "Amazon Cognito"
+      ],
+      "services": [
+        "Cognito"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "amazon cognito",
+        "cognito"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "74f2d38ed5f6695a",
+      "title": "Amazon Connect Customer now supports unplanned shrinkage in agent schedules",
+      "description": "Amazon Connect Customer now enables managers to input unplanned shrinkage in agent schedules, providing a more accurate picture of staffing due to unscheduled agent absences such as late logins or unplanned sick leave. Managers can upload unplanned shrinkage assumptions directly into agent schedules and immediately see updated scheduling metrics such as scheduled headcount, net staffing, and projected service level — each adjusted for unplanned shrinkage. For example, if 10% of the agents scheduled to work at 8 AM next Monday are expected to be unavailable due to late logins, then projected se",
+      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now enables managers to input unplanned shrinkage in agent schedules, providing a more accurate picture of staffing due to unscheduled agent absences such as late logins or unplanned sick leave. Managers can upload unplanned shrinkage assumptions directly into agent schedules and immediately see updated scheduling metrics such as scheduled headcount, net staffing, and projected service level — each adjusted for unplanned shrinkage. For example, if 10% of the agents scheduled to work at 8 AM next Monday are expected to be unavailable due to late logins, then projected service level falls from 90% to 85% with unplanned shrinkage. This enables workforce managers to proactively address gaps in staffing that may arise due to unplanned agent unavailability, thus improving scheduling accuracy and their ability to maintain target service levels.&lt;/p&gt; \n&lt;p&gt; &lt;/p&gt; \n&lt;p&gt;This feature is available in all &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#optimization_region\"&gt;AWS Regions&amp;nbsp;&lt;/a&gt; where Amazon Connect Customer agent scheduling is available. To learn more about Amazon Connect Customer agent scheduling, click &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/forecasting-capacity-planning-scheduling.html\"&gt;here&amp;nbsp;&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-unplanned-shrinkage/",
+      "publishedAt": "2026-08-26T20:16:00.000Z",
+      "updatedAt": "2026-08-26T20:16:00.000Z",
+      "categories": [
+        "Amazon Connect",
+        "Contact Center",
+        "Business Productivity"
+      ],
+      "services": [
+        "Connect"
+      ],
+      "tags": [
+        "amazon connect",
+        "contact center",
+        "business productivity",
+        "connect"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "cd672fcb48aca000",
+      "title": "Mountpoint for Amazon S3 adds memory usage controls",
+      "description": "Mountpoint for Amazon S3 can now limit memory usage, either automatically based on the environment it runs in or with a limit that you define. This lets you run Mountpoint alongside memory-intensive applications, for example, in machine learning training or analytics workloads where applications share a memory budget. Previously, Mountpoint’s memory usage could expand over time based on usage patterns, potentially causing performance or stability issues when competing with other memory-intensive applications. With this launch, you can define a memory target for Mountpoint to reserve memory for",
+      "descriptionHtml": "&lt;p&gt;Mountpoint for Amazon S3 can now limit memory usage, either automatically based on the environment it runs in or with a limit that you define. This lets you run Mountpoint alongside memory-intensive applications, for example, in machine learning training or analytics workloads where applications share a memory budget.&lt;/p&gt; \n&lt;p&gt;Previously, Mountpoint’s memory usage could expand over time based on usage patterns, potentially causing performance or stability issues when competing with other memory-intensive applications. With this launch, you can define a memory target for Mountpoint to reserve memory for your applications. Alternatively, Mountpoint can automatically determine a safe default based on the environment it runs in. For example, when running in Amazon EKS, Mountpoint can automatically detect a container's assigned memory budget. Under memory pressure, Mountpoint slows down operations to stay within this budget, enabling you to run Mountpoint in containers with strict memory allocations. &amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Mountpoint is available in all AWS Regions. To upgrade to the latest version, visit the &lt;a href=\"https://aws.amazon.com/s3/features/mountpoint/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Mountpoint GitHub repository&lt;/a&gt;. To learn more about Mountpoint, see the &lt;a href=\"https://github.com/awslabs/mountpoint-s3/blob/main/doc/CONFIGURATION.md\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;overview page&lt;/a&gt; and the &lt;a href=\"https://github.com/awslabs/mountpoint-s3/blob/main/doc/CONFIGURATION.md\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;configuration guide&lt;/a&gt; in the Mountpoint GitHub repository.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls",
+      "publishedAt": "2026-08-26T18:00:00.000Z",
+      "updatedAt": "2026-08-26T18:00:00.000Z",
+      "categories": [
+        "Storage",
+        "Amazon Simple Storage Service"
+      ],
+      "services": [
+        "S3"
+      ],
+      "tags": [
+        "storage",
+        "amazon simple storage service",
+        "s3"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "a9a7b910917e2f63",
+      "title": "Amazon Connect Customer now supports points-based scoring in performance evaluations",
+      "description": "Amazon Connect Customer now supports points-based scoring to evaluate human and AI agent performance, giving managers more flexibility in configuring evaluation scores. With points-based scoring, managers assign points to each criterion based on its importance to the business, and the score is the sum of the points earned. In contrast, with the existing percentage-based scoring, each question is assigned weights that need to add up to 100%. For example, a points-based evaluation might award 40 points for resolving the customer's problem, 20 for meeting compliance requirements, and 10 for a pro",
+      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now supports points-based scoring to evaluate human and AI agent performance, giving managers more flexibility in configuring evaluation scores. With points-based scoring, managers assign points to each criterion based on its importance to the business, and the score is the sum of the points earned. In contrast, with the existing percentage-based scoring, each question is assigned weights that need to add up to 100%. For example, a points-based evaluation might award 40 points for resolving the customer's problem, 20 for meeting compliance requirements, and 10 for a proper greeting – without the need for scores to add up to 100. Managers control how points are awarded: combining several compliance criteria into one multiple-choice question to shorten the form, excluding the call reason from scoring, or awarding bonus points for strong customer rapport. Managers decide what counts, how much it counts, and what earns extra credit, so the score reflects what the business values most.&lt;/p&gt; \n&lt;p&gt;This feature is available in all regions where Amazon Connect Customer is offered. To learn more, please visit our &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/about-pointbased-scoring.html\"&gt;documentation&lt;/a&gt; and our &lt;a href=\"https://aws.amazon.com/products/connect/customer/conversational-analytics/\"&gt;webpage&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-points-based-scoring-evaluations/",
+      "publishedAt": "2026-08-26T17:00:00.000Z",
+      "updatedAt": "2026-08-26T17:00:00.000Z",
+      "categories": [
+        "Applications",
+        "Contact Center",
+        "Amazon Connect"
+      ],
+      "services": [
+        "Connect"
+      ],
+      "tags": [
+        "applications",
+        "contact center",
+        "amazon connect",
+        "connect"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "1fffa38d2d430b06",
+      "title": "AWS Glue 5.1 is now available in AWS European Sovereign Cloud Region",
+      "description": "AWS Glue 5.1 is now available in the AWS European Sovereign Cloud Region. AWS Glue is a serverless, scalable data integration service that simplifies discovering, preparing, moving, and integrating data from multiple sources. AWS Glue 5.1 upgrades core engines to Apache Spark 3.5.6, Python 3.11, and Scala 2.12.18, bringing performance and security enhancements. This release also updates support for open table format libraries, including Apache Hudi 1.0.2, Apache Iceberg 1.10.0, and Delta Lake 3.3.2. Additionally, AWS Glue 5.1 introduces support for Apache Iceberg format version 3.0, adding def",
+      "descriptionHtml": "&lt;p&gt;AWS Glue 5.1 is now available in the AWS European Sovereign Cloud Region.&lt;br&gt; &lt;br&gt; &lt;a href=\"https://aws.amazon.com/glue/\"&gt;AWS Glue&lt;/a&gt; is a serverless, scalable data integration service that simplifies discovering, preparing, moving, and integrating data from multiple sources. AWS Glue 5.1 upgrades core engines to Apache Spark 3.5.6, Python 3.11, and Scala 2.12.18, bringing performance and security enhancements. This release also updates support for open table format libraries, including Apache Hudi 1.0.2, Apache Iceberg 1.10.0, and Delta Lake 3.3.2. Additionally, AWS Glue 5.1 introduces support for Apache Iceberg format version 3.0, adding default column values, deletion vectors for merge-on-read tables, multi-argument transforms, and row lineage tracking. This release extends &lt;a href=\"https://aws.amazon.com/lake-formation/\"&gt;AWS Lake Formation&lt;/a&gt; fine-grained access control to write operations - both DML and DDL - for Spark DataFrames and Spark SQL. Previously, this capability was limited to read operations only. AWS Glue 5.1 also adds full-table access control in Apache Spark for Apache Hudi and Delta Lake tables, providing more comprehensive security options for your data.&lt;br&gt; &lt;br&gt; With this expansion, AWS Glue 5.1 is now available all AWS commercial and AWS GovCloud (US) Regions.&lt;br&gt; &lt;br&gt; You can get started with AWS Glue 5.1 using AWS APIs, AWS CLI, AWS SDK, or AWS Glue Studio. To learn more, visit the AWS Glue &lt;a href=\"https://aws.amazon.com/glue/\"&gt;product page&lt;/a&gt; and our &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/release-notes.html\"&gt;documentation&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-5-1-european-sovereign-cloud",
+      "publishedAt": "2026-08-26T16:26:00.000Z",
+      "updatedAt": "2026-08-26T16:26:00.000Z",
+      "categories": [
+        "Analytics",
+        "AWS Glue"
+      ],
+      "services": [
+        "Glue"
+      ],
+      "tags": [
+        "analytics",
+        "aws glue",
+        "glue"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "4d7d10be5a7962fe",
+      "title": "AWS Backup adds cross-Region backup copy and logically air-gapped vault support for Amazon DocumentDB in nine additional AWS Regions",
+      "description": "AWS Backup now supports copying Amazon DocumentDB backups across AWS Regions and storing them in logically air-gapped vaults in nine additional AWS Regions: Asia Pacific (Hong Kong, Jakarta, Melbourne, Osaka), Europe (Spain, Stockholm, Zurich), Africa (Cape Town), and Israel (Tel Aviv). With cross-Region copy now available in these Regions, you can copy DocumentDB backups into and out of them using backup plans or on-demand copy jobs. This helps you meet disaster recovery, business continuity, and compliance requirements. You can also copy DocumentDB backups to a logically air-gapped vault in ",
+      "descriptionHtml": "&lt;p&gt;AWS Backup now supports copying Amazon DocumentDB backups across AWS Regions and storing them in logically air-gapped vaults in nine additional AWS Regions: Asia Pacific (Hong Kong, Jakarta, Melbourne, Osaka), Europe (Spain, Stockholm, Zurich), Africa (Cape Town), and Israel (Tel Aviv).&lt;/p&gt; \n&lt;p&gt;With cross-Region copy now available in these Regions, you can copy DocumentDB backups into and out of them using backup plans or on-demand copy jobs. This helps you meet disaster recovery, business continuity, and compliance requirements. You can also copy DocumentDB backups to a logically air-gapped vault in these Regions to store immutable, isolated backups that are locked by default and encrypted using AWS owned or customer-managed keys. Share vaults for recovery using AWS Resource Access Manager (RAM) and protect vault access during account compromise with Multi-party approval, reducing recovery time from a data loss event.&lt;/p&gt; \n&lt;p&gt;To get started, visit the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. For a complete list of supported Regions and features, visit the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#features-by-region\"&gt;AWS Backup documentation&lt;/a&gt;. To learn more about logically air-gapped vaults, visit the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html\"&gt;product page&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/backup/pricing/\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-cross-region-air-gapped-docdb/",
+      "publishedAt": "2026-08-26T10:00:00.000Z",
+      "updatedAt": "2026-08-26T10:00:00.000Z",
+      "categories": [
+        "Storage",
+        "Databases",
+        "Disaster Recovery",
+        "Amazon Documentdb",
+        "Backup And Storage",
+        "AWS Backup"
+      ],
+      "services": [
+        "Backup",
+        "DocumentDB"
+      ],
+      "tags": [
+        "storage",
+        "databases",
+        "disaster recovery",
+        "amazon documentdb",
+        "backup and storage",
+        "aws backup",
+        "backup",
+        "documentdb"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "7a0966bd1a7ad585",
+      "title": "Amazon EC2 R8id instances are now available in additional AWS Regions",
+      "description": "Amazon Elastic Compute Cloud (Amazon EC2) R8id instances are now available in additional regions. R8id instances are now available in Asia Pacific (Mumbai, Malaysia, Sydney), Canada (Central), and Europe (Ireland, Stockholm). R8id instances feature up to 22.8TB of NVMe SSD local instance storage, 3x more than R6id, and provide up to 3.3x higher memory bandwidth, delivering up to 43% higher performance compared to R6id instances. They are ideal for memory-intensive workloads that benefit from high-performance local storage, including in-memory databases, real-time big data analytics, large in-m",
+      "descriptionHtml": "&lt;p&gt;Amazon Elastic Compute Cloud (Amazon EC2) R8id instances are now available in additional regions. R8id instances are now available in Asia Pacific (Mumbai, Malaysia, Sydney), Canada (Central), and Europe (Ireland, Stockholm).&lt;/p&gt; \n&lt;p&gt;R8id instances feature up to 22.8TB of NVMe SSD local instance storage, 3x more than R6id, and provide up to 3.3x higher memory bandwidth, delivering up to 43% higher performance compared to R6id instances. They are ideal for memory-intensive workloads that benefit from high-performance local storage, including in-memory databases, real-time big data analytics, large in-memory caches, and data processing applications.&lt;br&gt; &lt;br&gt; Additionally, customers can now adjust the network and Amazon EBS bandwidth on these instances by 25% using EC2 instance bandwidth weighting conﬁguration, providing greater ﬂexibility with the allocation of bandwidth resources to better optimize workloads. These instances offer Elastic Fabric Adapter (EFA) networking on 24xlarge, 48xlarge, metal-24xl, and metal-48xl sizes.&lt;/p&gt; \n&lt;p&gt;Customers can purchase these instances via Savings Plans, On-Demand instances, and Spot instances. For more information visit the &lt;a href=\"https://aws.amazon.com/ec2/instance-types/r8i/\"&gt;Amazon EC2 R8id page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8id/",
+      "publishedAt": "2026-08-25T20:00:00.000Z",
+      "updatedAt": "2026-08-25T20:00:00.000Z",
+      "categories": [
+        "Compute",
+        "Amazon Ec2"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "compute",
+        "amazon ec2",
+        "ec2"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "51ad78a469f34a5f",
+      "title": "Amazon EC2 C8id and M8id instances are now available in additional AWS Regions",
+      "description": "Amazon Elastic Compute Cloud (Amazon EC2) C8id and M8id instances with up to 22.8 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8id instances are now available in Asia Pacific (Sydney) and Canada (Central) and M8id instances are available in Asia Pacific (Mumbai) and Canada (Central). Amazon EC2 C8id and M8id instances offer 3 times more vCPUs, memory and local storage compared to previous sixth-generation instances. These instances deliver up to 43% higher compute performance and 3.3 times more memory bandwidth compared to previous sixth-generation C",
+      "descriptionHtml": "&lt;p&gt;Amazon Elastic Compute Cloud (Amazon EC2) C8id and M8id instances with up to 22.8 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8id instances are now available in Asia Pacific (Sydney) and Canada (Central) and M8id instances are available in Asia Pacific (Mumbai) and Canada (Central).&lt;/p&gt; \n&lt;p&gt;Amazon EC2 C8id and M8id instances offer 3 times more vCPUs, memory and local storage compared to previous sixth-generation instances. These instances deliver up to 43% higher compute performance and 3.3 times more memory bandwidth compared to previous sixth-generation C6id and M6id instances. They also deliver up to 46% higher performance for I/O intensive database workloads, and up to 30% faster query results for I/O intensive real-time data analytics compared to previous sixth generation instances.&lt;br&gt; &lt;/p&gt; \n&lt;ul&gt; \n &lt;li&gt;&lt;p&gt;&lt;b&gt;C8id instances&lt;/b&gt; are ideal for compute-intensive workloads, including those that need access to high-speed, low-latency local storage like video encoding, image manipulation, and other forms of media processing.&lt;/p&gt; &lt;/li&gt; \n &lt;li&gt;&lt;p&gt;&lt;b&gt;M8id instances&lt;/b&gt; are best for workloads that require a balance of compute and memory resources along with high-speed, low-latency local block storage, including data logging, media processing, and medium-sized data stores.&lt;/p&gt; &lt;/li&gt; \n&lt;/ul&gt; \n&lt;p&gt;Additionally, customers can now adjust the network and Amazon EBS bandwidth on these instances by 25% using EC2 instance bandwidth weighting conﬁguration, providing greater ﬂexibility with the allocation of bandwidth resources to better optimize workloads. These instances offer Elastic Fabric Adapter (EFA) networking on 24xlarge, 48xlarge, metal-24xl, and metal-48xl sizes.&lt;/p&gt; \n&lt;p&gt;Customers can purchase these instances via Savings Plans, On-Demand instances, and Spot instances. For more information visit the &lt;a href=\"https://aws.amazon.com/ec2/instance-types/c8i/\"&gt;Amazon EC2 C8id&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/ec2/instance-types/m8i/\"&gt;Amazon EC2 M8id&lt;/a&gt; pages.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8id-m8id-aws-regions/",
+      "publishedAt": "2026-08-25T20:00:00.000Z",
+      "updatedAt": "2026-08-25T20:00:00.000Z",
+      "categories": [
+        "Amazon Ec2",
+        "Compute"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "amazon ec2",
+        "compute",
+        "ec2"
+      ],
+      "isNew": true
+    },
     {
       "id": "f946e000618e8d96",
       "title": "AWS IoT Core now supports native InfluxDB routing for time-series data",
@@ -355,6 +545,32 @@
         "amazon ecs",
         "containers",
         "ecs"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "5ecb999c9235f0b1",
+      "title": "AWS Glue now supports catalog federation for remote Apache Iceberg catalogs in AWS GovCloud (US) regions",
+      "description": "AWS Glue now supports catalog federation for remote Iceberg REST catalogs in AWS GovCloud (US) Regions. This capability provides direct and secure access to Iceberg tables, stored in Amazon S3 and cataloged in remote catalogs, using AWS analytics engines. With catalog federation, you can federate to Iceberg tables in remote catalogs using your preferred AWS analytics engines, without moving or copying tables. It synchronizes metadata real-time between AWS Glue Data Catalog and the remote catalog when data teams query Iceberg tables, which means that query results are always up-to-date with lat",
+      "descriptionHtml": "&lt;p&gt;AWS Glue now supports catalog federation for remote Iceberg REST catalogs in AWS GovCloud (US) Regions. This capability provides direct and secure access to Iceberg tables, stored in Amazon S3 and cataloged in remote catalogs, using AWS analytics engines.&lt;/p&gt; \n&lt;p&gt;With catalog federation, you can federate to Iceberg tables in remote catalogs using your preferred AWS analytics engines, without moving or copying tables. It synchronizes metadata real-time between AWS Glue Data Catalog and the remote catalog when data teams query Iceberg tables, which means that query results are always up-to-date with latest metadata. You can now choose the best price-performance for your workloads when analyzing remote Iceberg tables using your preferred AWS analytics engines, while maintaining consistent security controls when discovering or querying data. Catalog federation is supported by a wide variety of analytics engines, including Amazon Redshift, Amazon EMR, Amazon Athena, AWS Glue, and third-party engines like Apache Spark.&lt;/p&gt; \n&lt;p&gt;Catalog federation uses AWS Lake Formation for access controls, allowing you to use fine-grained access controls, cross-account sharing, and trusted identity propagation when sharing remote catalog tables with other data consumers. Catalog federation integrates with catalog implementations that support the Iceberg REST specifications.&lt;/p&gt; \n&lt;p&gt;Catalog federation is available in Lake Formation console and using AWS Glue and Lake Formation SDKs and APIs. This feature is generally available AWS GovCloud (US-East) and AWS GovCloud (US-West) regions. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/lake-formation/latest/dg/catalog-federation.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-catalog-federation-iceberg-govcloud/",
+      "publishedAt": "2026-08-24T20:50:00.000Z",
+      "updatedAt": "2026-08-24T20:50:00.000Z",
+      "categories": [
+        "AWS Govcloud Us",
+        "Analytics",
+        "AWS Glue",
+        "AWS Lake Formation"
+      ],
+      "services": [
+        "Glue"
+      ],
+      "tags": [
+        "aws govcloud us",
+        "analytics",
+        "aws glue",
+        "aws lake formation",
+        "glue"
       ],
       "isNew": true
     },
@@ -1047,7 +1263,7 @@
         "aws marketplace",
         "management and governance"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d7257dae22ba5d52",
@@ -1064,7 +1280,7 @@
       "tags": [
         "bedrock"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0db41eed0e504d64",
@@ -1084,7 +1300,7 @@
         "amazon bedrock",
         "bedrock"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d2f66c5184d2cd69",
@@ -1110,7 +1326,7 @@
         "ec2",
         "outposts"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a68ac6fe1607beea",
@@ -1132,7 +1348,7 @@
         "management and governance",
         "cloudwatch"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5bdcde417c01b8b1",
@@ -1152,7 +1368,7 @@
         "amazon dynamodb",
         "dynamodb"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b0c3c3a215d5a4c0",
@@ -1174,7 +1390,7 @@
         "amazon sagemaker",
         "sagemaker"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f401b91a21270283",
@@ -1198,7 +1414,7 @@
         "rds",
         "cloudwatch"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c3571f1ff4a7a86a",
@@ -1211,7 +1427,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "691131ca5e76c62e",
@@ -1228,7 +1444,7 @@
       "tags": [
         "elemental"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d47b1ce1b6bd4111",
@@ -1250,7 +1466,7 @@
         "cost management",
         "bedrock"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "57ad8625a0ec71a2",
@@ -1272,7 +1488,7 @@
         "analytics",
         "opensearch"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "794353e434e50de8",
@@ -1294,7 +1510,7 @@
         "compute",
         "lightsail"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b3cc88d58cdad7f3",
@@ -1307,7 +1523,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "990754265f237729",
@@ -1333,7 +1549,7 @@
         "compute",
         "lambda"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "daf0c96d93817e6a",
@@ -1352,7 +1568,7 @@
         "artificial intelligence",
         "business productivity"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c1d0b874fdbc7da7",
@@ -1378,7 +1594,7 @@
         "workspaces",
         "appstream"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b1508cbab9351e07",
@@ -1400,7 +1616,7 @@
         "aws iam",
         "iam"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c7692b6b3a6e482c",
@@ -1428,7 +1644,7 @@
         "storage gateway",
         "privatelink"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c89e4bd0007cef45",
@@ -10942,202 +11158,6 @@
         "amazon opensearch service",
         "analytics",
         "opensearch"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "e911c87e77ef0ca9",
-      "title": "Amazon EC2 announces AMI Watermarks for improved AMI governance",
-      "description": "Amazon EC2 introduces AMI watermarks, letting you embed custom identifiers in your private AMIs. Once applied, a watermark automatically carries forward to every AMI derived from the original, whether you copy it across regions or create a new AMI from a running instance. Watermarks also remain visible when you share an AMI with other accounts. This helps you identify trusted AMIs, track provenance, and enforce governance policies across your organization. Each watermark includes metadata such as the AMI ID, owner ID, region, and creation timestamps, providing reliable provenance that persists",
-      "descriptionHtml": "&lt;p&gt;Amazon EC2 introduces AMI watermarks, letting you embed custom identifiers in your private AMIs. Once applied, a watermark automatically carries forward to every AMI derived from the original, whether you copy it across regions or create a new AMI from a running instance. Watermarks also remain visible when you share an AMI with other accounts. This helps you identify trusted AMIs, track provenance, and enforce governance policies across your organization.&lt;br&gt; &lt;br&gt; Each watermark includes metadata such as the AMI ID, owner ID, region, and creation timestamps, providing reliable provenance that persists regardless of how many times an AMI is copied or new AMIs are created from it. AMI Watermarks improve AMI tracking by enabling you to filter and find related AMIs across your accounts. For governance, you can combine watermarks with &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-allowed-amis.html\"&gt;Allowed AMIs&lt;/a&gt;&amp;nbsp;to restrict instance launches to only AMIs carrying approved watermarks and enforce the setting at scale across your organization through Declarative Policies.&lt;br&gt; &lt;br&gt; You can start adding AMI watermarks to your private AMIs by using the AWS Management Console, AWS CLI, or SDKs. To learn more, please visit the &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ami-watermark.html\"&gt;documentation&lt;/a&gt;.&amp;nbsp;You can also attach watermarks through &lt;a href=\"https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html\"&gt;EC2 Image Builder,&lt;/a&gt; a service used to create and manage AMIs, as part of your AMI build pipeline.&lt;br&gt; &lt;br&gt; AMI watermarks are available to all customers at no additional cost in all AWS regions including AWS China (Beijing) Region, operated by Sinnet, and AWS China (Ningxia) Region, operated by NWCD, and AWS GovCloud (US) Regions.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-image-watermarks-allowed-images",
-      "publishedAt": "2026-06-24T20:00:00.000Z",
-      "updatedAt": "2026-06-24T20:00:00.000Z",
-      "categories": [
-        "AWS Govcloud Us",
-        "Compute",
-        "Amazon Ec2"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "aws govcloud us",
-        "compute",
-        "amazon ec2",
-        "ec2"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "567204cb9ec8c510",
-      "title": "Amazon EMR Serverless now supports live configuration updates without application restarts",
-      "description": "Amazon EMR Serverless now supports updates to key application configurations such as maximum capacity, and custom image settings — without stopping and restarting the application. New workloads submitted after the update automatically use the new settings, while existing workloads continue uninterrupted with their original configuration. Previously, modifying these settings required stopping your EMR Serverless application, making the change, and restarting it — forcing you to coordinate maintenance windows and temporarily block job submissions. Now you can adjust scaling boundaries or deploy ",
-      "descriptionHtml": "&lt;p&gt;Amazon EMR Serverless now supports updates to key application configurations such as maximum capacity, and custom image settings — without stopping and restarting the application. New workloads submitted after the update automatically use the new settings, while existing workloads continue uninterrupted with their original configuration.&lt;/p&gt; \n&lt;p&gt;Previously, modifying these settings required stopping your EMR Serverless application, making the change, and restarting it — forcing you to coordinate maintenance windows and temporarily block job submissions. Now you can adjust scaling boundaries or deploy updated custom images at any time without disrupting running jobs. This reduces operational overhead and lets you respond to changing workload demands or deploy image updates immediately.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;This feature is available on all Amazon EMR releases and in all AWS Regions where Amazon EMR Serverless is available. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/updating-running-applications.html\"&gt;EMR Serverless User Guide.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-emr-serverless/",
-      "publishedAt": "2026-06-24T19:21:00.000Z",
-      "updatedAt": "2026-06-24T19:21:00.000Z",
-      "categories": [
-        "Analytics",
-        "Amazon Emr"
-      ],
-      "services": [
-        "EMR"
-      ],
-      "tags": [
-        "analytics",
-        "amazon emr",
-        "emr"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "c993b66805605578",
-      "title": "AWS IoT Device SDK for Swift is now generally available",
-      "description": "The AWS IoT Device SDK for Swift is now generally available, enabling Swift developers to build secure, scalable IoT applications natively on Apple platforms including macOS, iOS, and tvOS, as well as Linux. This SDK addresses the previous lack of native Swift support for AWS IoT services, providing stable, production-ready APIs specifically designed for teams managing IoT device fleets and building cross-platform IoT solutions across the Apple ecosystem. The SDK delivers comprehensive capabilities for real-time device management and secure communication. With integrated service clients for AW",
-      "descriptionHtml": "&lt;p&gt;The AWS IoT Device SDK for Swift is now generally available, enabling Swift developers to build secure, scalable IoT applications natively on Apple platforms including macOS, iOS, and tvOS, as well as Linux. This SDK addresses the previous lack of native Swift support for AWS IoT services, providing stable, production-ready APIs specifically designed for teams managing IoT device fleets and building cross-platform IoT solutions across the Apple ecosystem.&lt;/p&gt; \n&lt;p&gt;The SDK delivers comprehensive capabilities for real-time device management and secure communication. With integrated service clients for AWS IoT Device Shadow, Jobs, and Fleet Provisioning, developers can synchronize device states between applications and AWS IoT Core, manage remote operations on connected devices at scale, and automate certificate and policy creation for secure device onboarding. The SDK also provides built-in TLS 1.3 support on Apple iOS and tvOS platforms, ensuring IoT applications use the latest industry-standard security practices for protecting data in transit.&lt;/p&gt; \n&lt;p&gt;To learn more, visit the &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/iot/latest/developerguide/iot-sdks.html\"&gt;AWS IoT Device SDK documentation&amp;nbsp;&lt;/a&gt; and explore &amp;nbsp;&lt;a href=\"https://github.com/aws/aws-iot-device-sdk-swift/tree/main/Samples/ServiceClientSamples\"&gt;code samples on GitHub&amp;nbsp;&lt;/a&gt;. Get started by installing the SDK via Swift Package Manager.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-device-sdk-swift/",
-      "publishedAt": "2026-06-24T18:48:00.000Z",
-      "updatedAt": "2026-06-24T18:48:00.000Z",
-      "categories": [
-        "AWS Iot",
-        "AWS Sdk For Swift",
-        "Developer Tools"
-      ],
-      "services": [],
-      "tags": [
-        "aws iot",
-        "aws sdk for swift",
-        "developer tools"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "bc15224bda130495",
-      "title": "Amazon Route 53 Global Resolver now supports sharing DNS Views between AWS Accounts",
-      "description": "Amazon Route 53 Global Resolver now enables you to share DNS views with other AWS accounts using AWS Resource Access Manager (AWS RAM). Consumer accounts can associate their own Route 53 private hosted zones with a shared DNS view, making their records resolvable through the owner's global resolver in every AWS Region where it runs—without transferring ownership of the hosted zone or the DNS view. With DNS view sharing, teams can continue to own and manage their private hosted zones while making them resolvable through a centralized global resolver. You can control access using predefined AWS ",
-      "descriptionHtml": "&lt;p&gt;Amazon Route 53 Global Resolver now enables you to share DNS views with other AWS accounts using AWS Resource Access Manager (AWS RAM). Consumer accounts can associate their own Route 53 private hosted zones with a shared DNS view, making their records resolvable through the owner's global resolver in every AWS Region where it runs—without transferring ownership of the hosted zone or the DNS view.&lt;br&gt; &lt;br&gt; With DNS view sharing, teams can continue to own and manage their private hosted zones while making them resolvable through a centralized global resolver. You can control access using predefined AWS RAM managed permissions — default association-only, lifecycle management, or full access—or create custom permissions to grant specific actions to the consumer. Private hosted zone associations created by the consumer belong to the consumer's account, while remaining visible to and removable by the owner.&lt;br&gt; &lt;br&gt; This capability is available at no additional cost in all AWS Regions where Route 53 Global Resolver is supported. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/gr-sharing-dns-views.html\" target=\"_blank\"&gt;Route 53 Global Resolver documentation&lt;/a&gt;. For regional availability, see the &lt;a href=\"https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/gr-what-is-global-resolver.html#regions\" target=\"_blank\"&gt;Route 53 Global Resolver Region list&lt;/a&gt;. For pricing, see &lt;a href=\"https://aws.amazon.com/route53/pricing/\" target=\"_blank\"&gt;Amazon Route 53 pricing&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-global-resolver/",
-      "publishedAt": "2026-06-24T16:09:00.000Z",
-      "updatedAt": "2026-06-24T16:09:00.000Z",
-      "categories": [
-        "Amazon Route 53",
-        "Networking And Content Delivery",
-        "Security Identity And Compliance"
-      ],
-      "services": [
-        "Route 53"
-      ],
-      "tags": [
-        "amazon route 53",
-        "networking and content delivery",
-        "security identity and compliance",
-        "route 53"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "d0a599a65cdcda4b",
-      "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
-      "description": "Amazon Neptune now supports AWS CloudFormation for provisioning and managing Neptune global databases. Using the new AWS::Neptune::GlobalCluster resource type, you can define your multi-region graph database topology as code — automating deployment, storing configurations in source control, and integrating with CI/CD pipelines. Neptune global databases provide a primary cluster with read-write capability and up to five read-only secondary clusters in different AWS Regions, connected through low-latency replication via the Neptune storage subsystem. Common use cases include low-latency read acc",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/neptune/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Neptune&lt;/a&gt;&amp;nbsp;now supports AWS CloudFormation for provisioning and managing Neptune global databases. Using the new AWS::Neptune::GlobalCluster resource type, you can define your multi-region graph database topology as code — automating deployment, storing configurations in source control, and&amp;nbsp;integrating with CI/CD pipelines.&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/neptune/latest/userguide/neptune-global-database.html\" target=\"_blank\"&gt;Neptune global databases&lt;/a&gt; provide a primary cluster with read-write capability and up to five read-only secondary clusters in different AWS Regions, connected through low-latency replication via the Neptune storage subsystem. Common use cases include low-latency read access across regions, disaster recovery, data residency compliance, and high-availability graph deployments&amp;nbsp;with centralized writes and distributed reads.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where Neptune global databases are supported.&amp;nbsp; To get started, see the Neptune global databases &lt;a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-neptune-globalcluster.html\" target=\"_blank\"&gt;CloudFormation documentation&lt;/a&gt;.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/",
-      "publishedAt": "2026-06-24T13:00:00.000Z",
-      "updatedAt": "2026-06-24T13:00:00.000Z",
-      "categories": [
-        "Database And Data Warehouse"
-      ],
-      "services": [
-        "Neptune",
-        "CloudFormation"
-      ],
-      "tags": [
-        "database and data warehouse",
-        "neptune",
-        "cloudformation"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "bfed057cd810dee1",
-      "title": "Amazon CloudWatch now supports tags on dashboards",
-      "description": "A mazon CloudWatch now supports tagging for CloudWatch dashboards, enabling you to organize, categorize, and control access to your dashboards using tags. Tags are key-value pairs that help you identify and manage AWS resources across your environment. With this launch, the PutDashboard API now accepts an optional Tags parameter, allowing you to assign up to 50 tags when creating a new dashboard. The TagResource, UntagResource, and ListTagsForResource APIs now support dashboard ARNs, enabling you to add, remove, and list tags on existing dashboards. You can also manage dashboard tags using AWS",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/cloudwatch\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;A&lt;i&gt;&lt;b&gt;&lt;/b&gt;&lt;/i&gt;mazon CloudWatch&lt;/a&gt; now supports tagging for CloudWatch dashboards, enabling you to organize, categorize, and control access to your dashboards using tags. Tags are key-value pairs that help you identify and manage AWS resources across your environment.&lt;br&gt; &lt;br&gt; With this launch, the &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_PutDashboard.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;PutDashboard&lt;/a&gt; API now accepts an optional Tags parameter, allowing you to assign up to 50 tags when creating a new dashboard. The TagResource, UntagResource, and ListTagsForResource APIs now support dashboard ARNs, enabling you to add, remove, and list tags on existing dashboards. You can also manage dashboard tags using AWS CloudFormation. This new capability allows you to group dashboards by team by team, project, or environment, implement attribute-based access control by scoping IAM permissions to dashboards with specific tag values, and filter dashboards by tag in AWS Resource Explorer.&lt;br&gt; &lt;br&gt; CloudWatch Dashboard tagging support is available at no additional cost in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\"&gt;AWS Regions&lt;/a&gt; where Amazon CloudWatch is available.&lt;br&gt; &lt;br&gt; To learn more, see &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_TagResource.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;TagResource&lt;/a&gt; in the Amazon CloudWatch API Reference. To get started with CloudWatch dashboards, see &lt;a href=\"https://aws.amazon.com/cloudwatch/features/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon CloudWatch features&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
-      "publishedAt": "2026-06-24T08:00:00.000Z",
-      "updatedAt": "2026-06-24T08:00:00.000Z",
-      "categories": [
-        "Amazon Cloudwatch",
-        "Management And Governance",
-        "AWS Govcloud Us"
-      ],
-      "services": [
-        "CloudWatch"
-      ],
-      "tags": [
-        "amazon cloudwatch",
-        "management and governance",
-        "aws govcloud us",
-        "cloudwatch"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "7108650d7444bbab",
-      "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Asia Pacific (Seoul) region",
-      "description": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Asia Pacific (Seoul) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids). U7in-24TB instances offer 24 TiB of DDR5 memory, enabling customers to scale transaction processing throughput in a fast-growing data environment. U7i instances offer up to 45% better price performance over existing U-1 instances. U7in-24TB instances deliver 896 vCPUs and support up to 100 Gbps of Amazon EBS bandwidth for faster data lo",
-      "descriptionHtml": "&lt;p&gt;Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Asia Pacific (Seoul) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids). U7in-24TB instances offer 24 TiB of DDR5 memory, enabling customers to scale transaction processing throughput in a fast-growing data environment. U7i instances offer up to 45% better price performance over existing U-1 instances.&lt;/p&gt; \n&lt;p&gt;U7in-24TB instances deliver 896 vCPUs and support up to 100 Gbps of Amazon EBS bandwidth for faster data loading and backups, 200 Gbps of network bandwidth, and ENA Express. U7i instances are ideal for customers running mission-critical in-memory databases like SAP HANA, Oracle, and SQL Server.&lt;/p&gt; \n&lt;p&gt;To learn more about U7i instances, visit the &lt;a href=\"https://aws.amazon.com/ec2/instance-types/u7i/\"&gt;High Memory instances page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7in-24tb-aws-seoul/",
-      "publishedAt": "2026-06-24T01:00:00.000Z",
-      "updatedAt": "2026-06-24T01:00:00.000Z",
-      "categories": [
-        "Compute",
-        "Amazon Ec2"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "compute",
-        "amazon ec2",
-        "ec2"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "0967bae1d6cd5621",
-      "title": "Amazon CloudWatch Logs supports managed syslog ingestion",
-      "description": "Amazon CloudWatch Logs supports managed syslog ingestion, enabling customers to send syslog messages from firewalls, routers, switches, and Linux servers directly into CloudWatch Logs. With today's launch, customers can configure their network devices and servers to send syslog messages over TCP, TCP+TLS, or UDP to a VPC endpoint in their account - without installing or managing any agents. Amazon CloudWatch Logs supports RFC 5424, RFC 3164, and Cisco FTD/ASA syslog formats, making it compatible with a wide range of infrastructure. Amazon CloudWatch Logs automatically parses incoming syslog me",
-      "descriptionHtml": "&lt;p&gt;Amazon CloudWatch Logs supports managed syslog ingestion, enabling customers to send syslog messages from firewalls, routers, switches, and Linux servers directly into CloudWatch Logs.&lt;br&gt; &lt;br&gt; With today's launch, customers can configure their network devices and servers to send syslog messages over TCP, TCP+TLS, or UDP to a VPC endpoint in their account - without installing or managing any agents. Amazon CloudWatch Logs supports RFC 5424, RFC 3164, and Cisco FTD/ASA syslog formats, making it compatible with a wide range of infrastructure. Amazon CloudWatch Logs automatically parses incoming syslog messages and extracts structured fields such as facility, severity, hostname, and application name, thereby eliminating the need for custom parsing pipelines. For example, customers can ingest syslog from their network firewalls and immediately query by severity or hostname using Logs Analytics to investigate security events or troubleshoot connectivity issues. This feature helps teams centralize infrastructure log visibility, simplify operational workflows, and reduce the overhead of deploying and maintaining log collection agents across distributed environments.&lt;br&gt; &lt;br&gt; Available in all commercial AWS Regions except Middle East (UAE), Middle East (Bahrain), and Israel (Tel Aviv). To get started, see the Amazon CloudWatch Logs &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_Syslog.html\"&gt;documentation.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-syslog-ingestion/",
-      "publishedAt": "2026-06-23T20:30:00.000Z",
-      "updatedAt": "2026-06-23T20:30:00.000Z",
-      "categories": [],
-      "services": [
-        "CloudWatch"
-      ],
-      "tags": [
-        "cloudwatch"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "7c792e71b6fba86f",
-      "title": "Amazon GuardDuty AI-powered investigations accelerate threat response (Preview)",
-      "description": "AWS announces the preview of AI-powered investigations in Amazon GuardDuty, a new capability that automatically analyzes GuardDuty findings and accounts to help you quickly distinguish true threats from benign findings. This feature addresses the time-intensive manual investigation process that contributes to alert fatigue and slows incident response for security operations centers and cloud security analysts. AI-powered investigations examine finding context, related activity from the last 90 days, affected resources, and threat indicators using knowledge graphs and threat intelligence, in mi",
-      "descriptionHtml": "&lt;p&gt;AWS announces the preview of AI-powered investigations in Amazon GuardDuty, a new capability that automatically analyzes GuardDuty findings and accounts to help you quickly distinguish true threats from benign findings. This feature addresses the time-intensive manual investigation process that contributes to alert fatigue and slows incident response for security operations centers and cloud security analysts.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;AI-powered investigations examine finding context, related activity from the last 90 days, affected resources, and threat indicators using knowledge graphs and threat intelligence, in minutes. Each investigation provides a disposition assessment with confidence scoring, MITRE ATT&amp;amp;CK® technique classification, supporting evidence, and actionable recommendations for suppression, containment, or remediation. This automation enables security teams to focus on genuine threats across individual AWS accounts or entire AWS Organizations and accelerate mean time to resolution.&lt;/p&gt; \n&lt;p&gt;This feature is available in preview in 10 AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), Canada (Central), Europe (Ireland), Europe (London), Europe (Frankfurt), Europe (Paris), Europe (Stockholm), Asia Pacific (Tokyo). To get started, access AI-powered investigations through the Amazon GuardDuty console, CLI, API, or AWS' MCP Server.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/guardduty/\"&gt;Amazon GuardDuty User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-guardduty/",
-      "publishedAt": "2026-06-23T19:49:00.000Z",
-      "updatedAt": "2026-06-23T19:49:00.000Z",
-      "categories": [
-        "Amazon Guardduty"
-      ],
-      "services": [
-        "GuardDuty"
-      ],
-      "tags": [
-        "amazon guardduty",
-        "guardduty"
       ],
       "isNew": false
     }
