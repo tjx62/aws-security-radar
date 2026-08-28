@@ -1,7 +1,303 @@
 {
-  "lastUpdated": "2026-08-27T11:27:18.446Z",
+  "lastUpdated": "2026-08-28T11:55:50.226Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "fff1f3f28b4284d7",
+      "title": "Cosmos3-Edge, Cosmos3-Nano, and Cosmos3-Super models now available on Amazon SageMaker JumpStart",
+      "description": "NVIDIA's Cosmos3-Edge, Cosmos3-Nano, and Cosmos3-Super models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models form the Cosmos 3 family of open, frontier omnimodal world models for physical AI, enabling customers to build robots, autonomous vehicles, and vision AI that perceive, reason, plan, and act in the physical world. These models address different physical AI challenges with specialized capabilities: Cosmos3-Edge is engineered for on-device robot control and real-time visual reasoning on edge hard",
+      "descriptionHtml": "&lt;p&gt;NVIDIA's Cosmos3-Edge, Cosmos3-Nano, and Cosmos3-Super models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models form the Cosmos 3 family of open, frontier omnimodal world models for physical AI, enabling customers to build robots, autonomous vehicles, and vision AI that perceive, reason, plan, and act in the physical world.&lt;/p&gt; \n&lt;p&gt;These models address different physical AI challenges with specialized capabilities:&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Cosmos3-Edge&lt;/b&gt; is engineered for &lt;b&gt;on-device robot control and real-time visual reasoning&lt;/b&gt; on edge hardware. This 4B-parameter omni-model (with a 2B Nemotron-based reasoner) operates at robot-control resolution (640×360), delivering real-time reasoning and generating 32 actions per inference at 15 Hz on NVIDIA Jetson Thor. It supports 256p and 480p video at 12–30 FPS, bringing frontier physical AI capabilities directly to embedded systems.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Cosmos3-Nano&lt;/b&gt; excels in &lt;b&gt;physics-aware world generation and physical reasoning&lt;/b&gt; as a compact 16B-parameter omnimodal model. It processes combinations of text, image, video, audio, and action trajectories to produce corresponding outputs, enabling robots and vision AI agents to reason using prior knowledge, physics understanding, and common sense. It supports chain-of-thought reasoning over text, images, and video with resolutions up to 720p.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Cosmos3-Super&lt;/b&gt; provides the &lt;b&gt;highest-fidelity world generation and simulation&lt;/b&gt; in the Cosmos 3 family at 64B parameters. It jointly processes and generates language, images, video, audio, and action sequences within a unified Mixture-of-Transformers architecture, supporting resolutions up to 720p across multiple aspect ratios. Ideal for large-scale simulation, synthetic data generation, and policy learning workflows.&lt;/p&gt; \n&lt;p&gt;With SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.&lt;/p&gt; \n&lt;p&gt;To get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/cosmos3-edge-cosmos3-nano-cosmos3-super-on-sagemaker-jumpstart/",
+      "publishedAt": "2026-08-27T22:41:00.000Z",
+      "updatedAt": "2026-08-27T22:41:00.000Z",
+      "categories": [
+        "Aiml",
+        "Amazon Sagemaker Jumpstart",
+        "Artificial Intelligence"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "aiml",
+        "amazon sagemaker jumpstart",
+        "artificial intelligence",
+        "sagemaker"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "c399acde7e8dd2cb",
+      "title": "Muse-Glimmer-30B and Qwen 3.8-27B models now available on Amazon SageMaker JumpStart",
+      "description": "Meta's Muse-Glimmer-30B and Alibaba's Qwen 3.8-27B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning autonomous local agentic workflows and multimodal long-horizon reasoning, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI challenges with specialized capabilities: Muse-Glimmer-30B is engineered for autonomous agentic tasks with multi-step reasoning, tool use, and failure r",
+      "descriptionHtml": "&lt;p&gt;Meta's Muse-Glimmer-30B and Alibaba's Qwen 3.8-27B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning autonomous local agentic workflows and multimodal long-horizon reasoning, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.&lt;/p&gt; \n&lt;p&gt;These models address different enterprise AI challenges with specialized capabilities:&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Muse-Glimmer-30B&lt;/b&gt; is engineered for &lt;b&gt;autonomous agentic tasks with multi-step reasoning, tool use, and failure recovery&lt;/b&gt;. This 30B-parameter dense model from Meta Superintelligence Lab combines a dedicated ~1.8B ViT-G/14 perception encoder with interleaved text and image inputs, a 131K+ context window, and selectable reasoning strength (low through extra-high). Released under Apache 2.0, it handles sequential tool calls, recovers from failures, and operates entirely without cloud infrastructure which is ideal for always-on enterprise agents.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Qwen 3.8-27B&lt;/b&gt; excels in &lt;b&gt;coding, multi-step agentic tasks, and multimodal understanding across text, images, and video&lt;/b&gt;. A dense 27B-parameter native vision-language model with a 262K context window (extendable to ~1M via YaRN scaling), it delivers substantial gains over its predecessor with adjustable reasoning effort levels. Scoring 61.7 on SWE-bench Pro and running at ~17GB quantized, it carries complex multi-step tasks through to completion with greater reliability.&lt;/p&gt; \n&lt;p&gt;With SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.&lt;/p&gt; \n&lt;p&gt;To get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-glimmer-30b-qwen-3.8-27b-on-sagemaker-jumpstart/",
+      "publishedAt": "2026-08-27T22:39:00.000Z",
+      "updatedAt": "2026-08-27T22:39:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Aiml",
+        "Amazon Sagemaker Jumpstart"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "aiml",
+        "amazon sagemaker jumpstart",
+        "sagemaker"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "3158445e526611bd",
+      "title": "Amazon Redshift streaming can now ingest 10MiB records from Amazon Kinesis Data Streams",
+      "description": "Amazon Redshift now supports Amazon Kinesis Data Streams (KDS) record sizes up to 10 MiB—a 10x increase from the previous 1 MiB limit—fully matching the expanded maximum record size in Amazon KDS. This means you can stream significantly larger payloads directly into Amazon Redshift without splitting records, simplifying your ingestion pipelines and unlocking new use cases for high-volume, large-record workloads. Amazon Redshift support for 10MiB record size in Amazon KDS streams is now available in all commercial AWS regions where Amazon Redshift is available. For more information on direct st",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/redshift/\"&gt;Amazon Redshift &lt;/a&gt;&amp;nbsp;now supports Amazon Kinesis Data Streams (KDS) record sizes up to 10 MiB—a 10x increase from the previous 1 MiB limit—fully matching the expanded maximum record size in Amazon KDS. This means you can stream significantly larger payloads directly into Amazon Redshift without splitting records, simplifying your ingestion pipelines and unlocking new use cases for high-volume, large-record workloads.&lt;/p&gt; \n&lt;p&gt;Amazon Redshift support for 10MiB record size in Amazon KDS streams is now available in all commercial AWS regions where Amazon Redshift is available. For more information on direct streaming ingestion into Amazon Redshift, see the &lt;a href=\"https://docs.aws.amazon.com/redshift/latest/dg/materialized-view-streaming-ingestion.html\"&gt;Amazon Redshift streaming documentation&lt;/a&gt;. For more information on 10MiB record support in Amazon KDS, see the &lt;a href=\"https://docs.aws.amazon.com/streams/latest/dev/large-records.html\"&gt;Amazon KDS documentation&lt;/a&gt;. &amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-streaming-supports-kds-10mib-records",
+      "publishedAt": "2026-08-27T21:41:00.000Z",
+      "updatedAt": "2026-08-27T21:41:00.000Z",
+      "categories": [
+        "Amazon Redshift",
+        "Analytics"
+      ],
+      "services": [
+        "Redshift",
+        "Kinesis"
+      ],
+      "tags": [
+        "amazon redshift",
+        "analytics",
+        "redshift",
+        "kinesis"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "10a85bf78052a714",
+      "title": "Amazon Redshift integrates with Agent Toolkit for AWS for AI-assisted data warehouse management",
+      "description": "Amazon Redshift now integrates with the Agent Toolkit for AWS , enabling you to build, query, troubleshoot, and migrate to Amazon Redshift data warehouses and date lakes directly from AI agents such as Claude Code, Kiro, and Cursor. The integration pairs the AWS MCP (Model Context Protocol) server , which provides authenticated AWS API execution on your behalf — with Redshift skills : curated packages of tested procedures and reference material that help AI agents complete Redshift tasks more effectively. The Redshift skills cover SQL syntax references to reduce query generation errors, metada",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/redshift/\"&gt;Amazon Redshift&lt;/a&gt; now integrates with the &lt;a href=\"https://aws.amazon.com/products/developer-tools/agent-toolkit-for-aws/\"&gt;Agent Toolkit for AWS&lt;/a&gt;, enabling you to build, query, troubleshoot, and migrate to Amazon Redshift data warehouses and date lakes directly from AI agents such as Claude Code, Kiro, and Cursor. The integration pairs the &lt;a href=\"https://docs.aws.amazon.com/agent-toolkit/latest/userguide/mcp-server.html\"&gt;AWS MCP (Model Context Protocol) server&lt;/a&gt;, which provides authenticated AWS API execution on your behalf — with &lt;a href=\"https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/redshift-guide\"&gt;Redshift skills&lt;/a&gt;: curated packages of tested procedures and reference material that help AI agents complete Redshift tasks more effectively.&lt;/p&gt; \n&lt;p&gt;The &lt;a href=\"https://github.com/aws/agent-toolkit-for-aws/tree/1799aae50f30a8e97bab4faf38f2eadbd665028b/skills/specialized-skills/analytics-skills/redshift-guide\"&gt;Redshift skills&lt;/a&gt; cover SQL syntax references to reduce query generation errors, metadata discovery to explore schemas and data without writing SQL by hand, data loading patterns, materialized view best practices, function and data type guidance, and extensions such as Qualify, Pivot, and Super. It also guides end-to-end data warehouse migrations to Amazon Redshift, including discovery, schema and SQL conversion, data movement, validation, and performance comparison. We will continue to expand these skills with additional capabilities over time.&lt;/p&gt; \n&lt;p&gt;The skills work with provisioned clusters and &lt;a href=\"https://aws.amazon.com/redshift/redshift-serverless/\"&gt;Serverless&lt;/a&gt; workgroups, require no changes to existing infrastructure, and are available at no additional charge in all AWS Regions where Amazon Redshift and the AWS MCP Server are offered.&lt;/p&gt; \n&lt;p&gt;To get started, install the &lt;a href=\"https://github.com/aws/agent-toolkit-for-aws/tree/1799aae50f30a8e97bab4faf38f2eadbd665028b/plugins/aws-data-analytics\"&gt;aws-data-analytics plugin&lt;/a&gt; in your agent, which bundles the MCP Server configuration and Redshift skills in a single step. Agents with MCP Server access can also discover and load skills at runtime without pre-installation. For setup instructions, see the &lt;a href=\"https://docs.aws.amazon.com/agent-toolkit/latest/userguide/quick-start.html\"&gt;Agent Toolkit documentation&lt;/a&gt; or the &lt;a href=\"https://docs.aws.amazon.com/redshift/latest/mgmt/agent-skills.html\"&gt;Amazon Redshift skills documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-agenttoolkit-for-ai-assisted-datawarehouse-mgmt",
+      "publishedAt": "2026-08-27T20:07:00.000Z",
+      "updatedAt": "2026-08-27T20:07:00.000Z",
+      "categories": [
+        "Amazon Redshift",
+        "Analytics"
+      ],
+      "services": [
+        "Redshift"
+      ],
+      "tags": [
+        "amazon redshift",
+        "analytics",
+        "redshift"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "aef702962f4cf2b7",
+      "title": "Amazon EC2 X8i instances are now available in additional regions",
+      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Europe (Milan) and Europe (Spain) regions. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and deliver the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. They deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to previous generation X2i instances. X8i instances are designed for memory-intensive workloads like SAP HANA, l",
+      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Europe (Milan) and Europe (Spain) regions. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and deliver the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. They deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to previous generation X2i instances.&amp;nbsp;&lt;br&gt; &amp;nbsp;&lt;br&gt; X8i instances are designed for memory-intensive workloads like SAP HANA, large databases, data analytics, and Electronic Design Automation (EDA). Compared to X2i instances, X8i instances offer up to 50% higher SAPS performance, up to 47% faster PostgreSQL performance, 88% faster Memcached performance, and 46% faster AI inference performance. X8i instances come in 14 sizes, from large to 96xlarge, including two bare metal options.&amp;nbsp;&lt;br&gt; &amp;nbsp;&lt;br&gt; To get started, visit the &lt;a href=\"https://aws.amazon.com/console/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Management Console&lt;/a&gt;. X8i instances can be purchased via Savings Plans, On-Demand instances, and Spot instances. For more information visit &lt;a href=\"https://aws.amazon.com/ec2/instance-types/x8i/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;X8i instances page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-x8i-europe-milan-spain/",
+      "publishedAt": "2026-08-27T18:40:00.000Z",
+      "updatedAt": "2026-08-27T18:40:00.000Z",
+      "categories": [
+        "Compute",
+        "Amazon Ec2"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "compute",
+        "amazon ec2",
+        "ec2"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "463ea43f10b2c8cb",
+      "title": "AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery",
+      "description": "AWS Elastic Disaster Recovery (AWS DRS) now offers Recovery Plans, a capability that automates the sequential launch of multi-server applications during recovery and drills. Instead of launching servers one at a time and tracking dependencies manually, you define the recovery sequence once and run it with a single action when you need it. This addresses a common challenge for customers running applications made up of databases, application tiers, and supporting services that must come up in a specific order. Recovery Plans let you group servers into sequential steps with configurable wait time",
+      "descriptionHtml": "&lt;p&gt;AWS Elastic Disaster Recovery (AWS DRS) now offers Recovery Plans, a capability that automates the sequential launch of multi-server applications during recovery and drills. Instead of launching servers one at a time and tracking dependencies manually, you define the recovery sequence once and run it with a single action when you need it. This addresses a common challenge for customers running applications made up of databases, application tiers, and supporting services that must come up in a specific order.&lt;/p&gt; \n&lt;p&gt;Recovery Plans let you group servers into sequential steps with configurable wait times between them, so your application recovers predictably and consistently every time. You can run plans in a non-disruptive drill mode to validate your procedures, add approval steps where you want a person in the loop, and monitor progress in real time. This automation reduces recovery time and eliminates common errors that occur when coordinating server launch order during high-stress disaster scenarios.&lt;/p&gt; \n&lt;p&gt;Recovery Plans are available in all AWS Regions where AWS DRS is offered, at no additional cost beyond standard DRS usage. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/drs/latest/userguide/recovery-plans.html\"&gt;AWS Elastic Disaster Recovery User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/",
+      "publishedAt": "2026-08-27T18:00:00.000Z",
+      "updatedAt": "2026-08-27T18:00:00.000Z",
+      "categories": [
+        "Storage",
+        "Management And Governance",
+        "AWS Elastic Disaster Recovery",
+        "Disaster Recovery"
+      ],
+      "services": [],
+      "tags": [
+        "storage",
+        "management and governance",
+        "aws elastic disaster recovery",
+        "disaster recovery"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "0b61061de3bcc0c7",
+      "title": "Amazon Bedrock AgentCore expands to two new regions",
+      "description": "Amazon Bedrock AgentCore is now available in two additional AWS Regions: US West (N. California) and Asia Pacific (Hyderabad). Amazon Bedrock AgentCore is the platform to build, connect, and optimize agents. It helps engineers ship agents fast with any framework and any model, connect them to enterprise systems and tools, and optimize them continuously, with security enforced at the infrastructure layer that agents can't bypass. With this expansion, customers in these regions can build and run agents closer to their end users with lower latency. AgentCore capabilities including agent runtime, ",
+      "descriptionHtml": "&lt;p&gt;Amazon Bedrock AgentCore is now available in two additional AWS Regions: US West (N. California) and Asia Pacific (Hyderabad). Amazon Bedrock AgentCore is the platform to build, connect, and optimize agents. It helps engineers ship agents fast with any framework and any model, connect them to enterprise systems and tools, and optimize them continuously, with security enforced at the infrastructure layer that agents can't bypass.&lt;/p&gt;\n&lt;p&gt;With this expansion, customers in these regions can build and run agents closer to their end users with lower latency. AgentCore capabilities including agent runtime, identity and access control, policy management, session persistence, tool connectivity, evaluations and observability are available in these regions at launch.&lt;/p&gt;\n&lt;p&gt;For more information on AgentCore, visit the &lt;a href=\"https://aws.amazon.com/bedrock/agentcore/\"&gt;AgentCore product page&lt;/a&gt; or the &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/\"&gt;AgentCore Developer Guide&lt;/a&gt;. To learn about pricing, visit &lt;a href=\"https://aws.amazon.com/bedrock/agentcore/pricing/\"&gt;AgentCore pricing&lt;/a&gt;. For region availability, visit &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-regions.html\"&gt;Supported AWS Regions&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-two-new-regions/",
+      "publishedAt": "2026-08-27T18:00:00.000Z",
+      "updatedAt": "2026-08-27T18:00:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Amazon Bedrock"
+      ],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "amazon bedrock",
+        "bedrock"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "a880d59a364f61dc",
+      "title": "Amazon Connect Customer expands conversational analytics capabilities in the Africa (Cape Town) Region",
+      "description": "Amazon Connect Customer now supports generative AI-powered summaries, real-time call analytics, and real-time rules in the Africa (Cape Town) Region. These capabilities extend the post-contact conversational analytics already available in the Region, giving companies access to AI-powered insights that help them improve customer experience, agent performance, and operational efficiency. With generative AI-powered summaries, supervisors and human-agents receive concise, AI-generated summaries of customer interactions immediately after a contact ends, eliminating the need for manual note-taking a",
+      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now supports generative AI-powered summaries, real-time call analytics, and real-time rules in the Africa (Cape Town) Region. These capabilities extend the post-contact conversational analytics already available in the Region, giving companies access to AI-powered insights that help them improve customer experience, agent performance, and operational efficiency.&lt;/p&gt; \n&lt;p&gt;With generative AI-powered summaries, supervisors and human-agents receive concise, AI-generated summaries of customer interactions immediately after a contact ends, eliminating the need for manual note-taking and reducing after-contact work. Real-time call analytics provide live transcription enabling supervisors to monitor interactions as they happen and intervene when needed to improve outcomes. Real-time rules automatically categorize contacts and alert supervisors based on keywords, sentiment, and other criteria detected during a live interaction, enabling immediate action such as sending notifications or generating tasks.&lt;/p&gt; \n&lt;p&gt;To learn more about Connect Customer conversational analytics capabilities, refer to the &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/analyze-conversations.html\"&gt;Amazon Connect Customer Administrator Guide&lt;/a&gt; or visit the &lt;a href=\"https://aws.amazon.com/connect/\"&gt;Amazon Connect Customer website&lt;/a&gt;. For a complete list of conversational analytics features available by Region, refer to &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#contactlens_region\"&gt;Availability of Connect Customer features by Region&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/connect-customer-analytics-cape-town/",
+      "publishedAt": "2026-08-27T18:00:00.000Z",
+      "updatedAt": "2026-08-27T18:00:00.000Z",
+      "categories": [
+        "Contact Center",
+        "Amazon Connect",
+        "Analytics",
+        "Artificial Intelligence"
+      ],
+      "services": [
+        "Connect"
+      ],
+      "tags": [
+        "contact center",
+        "amazon connect",
+        "analytics",
+        "artificial intelligence",
+        "connect"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "7f24d025d608652b",
+      "title": "Amazon Connect Customer now automatically refreshes scheduling metrics",
+      "description": "Amazon Connect Customer now automatically refreshes schedule metrics on the scheduling page, giving managers immediate visibility into the impact of schedule updates. For example, when a new team meeting is added for 10 agents from 10 AM – 11 AM, metrics such as net available headcount and projected service level are automatically updated. This gives workforce managers up-to-date visibility into how schedule changes affect staffing coverage, so they can make faster, more informed decisions throughout the day. This feature is available in all AWS Regions where Amazon Connect Customer agent sche",
+      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now automatically refreshes schedule metrics on the scheduling page, giving managers immediate visibility into the impact of schedule updates. For example, when a new team meeting is added for 10 agents from 10 AM – 11 AM, metrics such as net available headcount and projected service level are automatically updated. This gives workforce managers up-to-date visibility into how schedule changes affect staffing coverage, so they can make faster, more informed decisions throughout the day.&lt;/p&gt; \n&lt;p&gt; &lt;/p&gt; \n&lt;p&gt;This feature is available in all &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#optimization_region\"&gt;AWS Regions&amp;nbsp;&lt;/a&gt; where Amazon Connect Customer agent scheduling is available. To learn more about Amazon Connect Customer agent scheduling, click &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/forecasting-capacity-planning-scheduling.html\"&gt;here&amp;nbsp;&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-scheduling-metrics/",
+      "publishedAt": "2026-08-27T17:59:00.000Z",
+      "updatedAt": "2026-08-27T17:59:00.000Z",
+      "categories": [
+        "Business Productivity",
+        "Amazon Connect"
+      ],
+      "services": [
+        "Connect"
+      ],
+      "tags": [
+        "business productivity",
+        "amazon connect",
+        "connect"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "4521db14be447313",
+      "title": "Amazon FSx for NetApp ONTAP now supports copying backups across AWS Regions and accounts",
+      "description": "Amazon FSx for NetApp ONTAP, a fully managed shared storage service built on NetApp's popular ONTAP file system, now supports copying backups within and across AWS Regions, and across trusted accounts in your AWS organization. You can now provide an additional layer of protection for your data by storing secondary backup copies in a different Region or account than your primary copies, making it easier to meet your business continuity, data protection, and compliance requirements. Amazon FSx offers secure, highly durable, and incremental backups designed to support your data retention, archiva",
+      "descriptionHtml": "&lt;p&gt;Amazon FSx for NetApp ONTAP, a fully managed shared storage service built on NetApp's popular ONTAP file system, now supports copying backups within and across AWS Regions, and across trusted accounts in your AWS organization. You can now provide an additional layer of protection for your data by storing secondary backup copies in a different Region or account than your primary copies, making it easier to meet your business continuity, data protection, and compliance requirements.&lt;/p&gt; \n&lt;p&gt;Amazon FSx offers secure, highly durable, and incremental backups designed to support your data retention, archival, and compliance needs. Backups are point-in-time offline copies of your volumes, stored redundantly across multiple Availability Zones in the same Region as your file system. Previously, you could create and restore backups in the same Region and account as your file system.&amp;nbsp;Starting today, you can copy backup data to multiple Regions and accounts for enhanced resilience, data isolation, and operational flexibility.&lt;/p&gt; \n&lt;p&gt;You can copy new and existing backups in &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;all AWS Regions&lt;/a&gt; where Amazon FSx for NetApp ONTAP is available. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/getting-started.html\"&gt;FSx for NetApp ONTAP user guide&lt;/a&gt; and the &lt;a href=\"https://aws.amazon.com/fsx/netapp-ontap/\"&gt;Amazon FSx for NetApp ONTAP product page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/fsx-ontap-cross-region-backup-copy/",
+      "publishedAt": "2026-08-27T17:37:00.000Z",
+      "updatedAt": "2026-08-27T17:37:00.000Z",
+      "categories": [
+        "Amazon Fsx Netapp Ontap",
+        "Storage"
+      ],
+      "services": [
+        "FSx"
+      ],
+      "tags": [
+        "amazon fsx netapp ontap",
+        "storage",
+        "fsx"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "d06c75f42f2252cf",
+      "title": "AWS Backup adds cross-Region and cross-account backup support for Amazon FSx for NetApp ONTAP",
+      "description": "AWS Backup now supports copying Amazon FSx for NetApp ONTAP backups across AWS Regions and accounts. You can copy your FSx for NetApp ONTAP backups to another AWS Region, another AWS account, or both, using policy-based backup plans or on-demand copy jobs. Copying backups to a separate Region helps you meet cross-Region disaster recovery and business continuity goals, while copying to a separate account helps protect your backups from accidental deletion, operational error, or account compromise. AWS Backup manages these copies centrally, and you can automate them across your organization usin",
+      "descriptionHtml": "&lt;p&gt;AWS Backup now supports copying Amazon FSx for NetApp ONTAP backups across AWS Regions and accounts. You can copy your FSx for NetApp ONTAP backups to another AWS Region, another AWS account, or both, using policy-based backup plans or on-demand copy jobs.&lt;/p&gt; \n&lt;p&gt;Copying backups to a separate Region helps you meet cross-Region disaster recovery and business continuity goals, while copying to a separate account helps protect your backups from accidental deletion, operational error, or account compromise. AWS Backup manages these copies centrally, and you can automate them across your organization using AWS Organizations.&lt;/p&gt; \n&lt;p&gt;This capability is available in all commercial AWS Regions where both Amazon FSx for NetApp ONTAP and AWS Backup are available. To get started, visit the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. For a complete list of supported Regions and features, visit the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#supported-services-by-region\" target=\"_blank\"&gt;AWS Backup documentation&lt;/a&gt;. To learn more, visit the &lt;a href=\"https://aws.amazon.com/backup/\" target=\"_blank\"&gt;product page&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/backup/pricing/\" target=\"_blank\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-amazon-fsx-netapp-cross-account-region/",
+      "publishedAt": "2026-08-27T17:25:00.000Z",
+      "updatedAt": "2026-08-27T17:25:00.000Z",
+      "categories": [
+        "AWS Backup",
+        "Storage",
+        "Amazon Fsx Netapp Ontap"
+      ],
+      "services": [
+        "FSx",
+        "Backup"
+      ],
+      "tags": [
+        "aws backup",
+        "storage",
+        "amazon fsx netapp ontap",
+        "fsx",
+        "backup"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "0113808abb0f0e8c",
+      "title": "Amazon EVS now supports i7i.metal-48xl Amazon EC2 instance type",
+      "description": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) now supports the i7i.metal-48xl Amazon Elastic Cloud Compute (Amazon EC2) bare-metal instance type, offering a higher core-count option with a newer generation processor to help you realize cost-performance benefits for your VMware-based workloads on AWS. With this release, you now have more options for running your virtual machines (VMs) on Amazon EVS environments and growing your cloud presence at your own pace, as your business demands. Powered by 5th generation Intel Xeon Scalable processors, i7i instances offer the be",
+      "descriptionHtml": "&lt;p&gt;Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) now supports the i7i.metal-48xl Amazon Elastic Cloud Compute (Amazon EC2) bare-metal instance type, offering a higher core-count option with a newer generation processor to help you realize cost-performance benefits for your VMware-based workloads on AWS.&lt;/p&gt; \n&lt;p&gt;With this release, you now have more options for running your virtual machines (VMs) on Amazon EVS environments and growing your cloud presence at your own pace, as your business demands. Powered by 5th generation Intel Xeon Scalable processors, i7i instances offer the best compute and storage performance for x86-based storage optimized instances in Amazon EC2, delivering up to 23% better compute performance and more than 10% better price performance over i4i instances. The i7i.metal-48xl's larger&amp;nbsp;memory and storage footprint allows you to run more VMs to vertically scale your operation with less EVS hosts - and take further advantage of the latest VMware Cloud Foundation (VCF) 9.x features such as &lt;a href=\"https://aws.amazon.com/blogs/migration-and-modernization/increase-your-cluster-density-with-memory-tiering-in-amazon-elastic-vmware-service/\"&gt;memory tiering&lt;/a&gt;&amp;nbsp;and new automations such as the &lt;a href=\"https://github.com/aws/solutions-for-amazon-evs/tree/main/Deploy/EVS-Deployment-Orchestrator\"&gt;Amazon EVS Deployment Orchestrator&lt;/a&gt; to simplify onboarding.&lt;/p&gt; \n&lt;p&gt;This latest release is available in AWS Regions where Amazon EVS and Amazon EC2 i7i are both available. See &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;Amazon EVS regional availability&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/ec2/latest/instancetypes/ec2-instance-regions.html\"&gt;Amazon EC2 i7i regional availability&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Learn more about Amazon EVS by visiting the &lt;a href=\"https://aws.amazon.com/evs/\"&gt;product detail page&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/evs/latest/userguide/what-is-evs.html\"&gt;user guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-evs-i7i-48xl",
+      "publishedAt": "2026-08-27T16:35:00.000Z",
+      "updatedAt": "2026-08-27T16:35:00.000Z",
+      "categories": [
+        "Migration",
+        "Compute"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "migration",
+        "compute",
+        "ec2"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "7bee89ba352c1c25",
+      "title": "Amazon Aurora DSQL now supports foreign key constraints",
+      "description": "Amazon Aurora DSQL now lets you add foreign key constraints to new and existing tables. Aurora DSQL is a serverless, distributed SQL database with PostgreSQL compatibility and active-active multi-Region availability. You can now express your application's rules about how tables reference each other as FOREIGN KEY constraints in your Aurora DSQL cluster. Declare, for example, that a customer's primary address must reference an existing row in your address table. Aurora DSQL then refuses any write that would leave that customer pointing at an address that no longer exists. You choose what happen",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/aurora/dsql/\"&gt;Amazon Aurora DSQL&lt;/a&gt; now lets you add foreign key constraints to new and existing tables. Aurora DSQL is a serverless, distributed SQL database with PostgreSQL compatibility and active-active multi-Region availability.&lt;/p&gt; \n&lt;p&gt;You can now express your application's rules about how tables reference each other as FOREIGN KEY constraints in your Aurora DSQL cluster. Declare, for example, that a customer's primary address must reference an existing row in your address table. Aurora DSQL then refuses any write that would leave that customer pointing at an address that no longer exists.&amp;nbsp;You choose what happens when a referenced row is deleted or updated, with the options NO ACTION, RESTRICT, CASCADE, SET NULL, and SET DEFAULT.&lt;/p&gt; \n&lt;p&gt;This feature is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where Aurora DSQL is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/aurora-dsql/latest/userguide/working-with-foreign-key-constraints.html\"&gt;working with foreign key constraints&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/aurora-dsql/latest/userguide/create-table-syntax-support.html#create-table-foreign-keys\"&gt;CREATE TABLE foreign key syntax&lt;/a&gt; in the Aurora DSQL User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-foreign-key-constraints/",
+      "publishedAt": "2026-08-27T07:00:00.000Z",
+      "updatedAt": "2026-08-27T07:00:00.000Z",
+      "categories": [],
+      "services": [
+        "Aurora"
+      ],
+      "tags": [
+        "aurora"
+      ],
+      "isNew": true
+    },
     {
       "id": "073ede86abbfffd5",
       "title": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
@@ -98,7 +394,7 @@
       "id": "1fffa38d2d430b06",
       "title": "AWS Glue 5.1 is now available in AWS European Sovereign Cloud Region",
       "description": "AWS Glue 5.1 is now available in the AWS European Sovereign Cloud Region. AWS Glue is a serverless, scalable data integration service that simplifies discovering, preparing, moving, and integrating data from multiple sources. AWS Glue 5.1 upgrades core engines to Apache Spark 3.5.6, Python 3.11, and Scala 2.12.18, bringing performance and security enhancements. This release also updates support for open table format libraries, including Apache Hudi 1.0.2, Apache Iceberg 1.10.0, and Delta Lake 3.3.2. Additionally, AWS Glue 5.1 introduces support for Apache Iceberg format version 3.0, adding def",
-      "descriptionHtml": "&lt;p&gt;AWS Glue 5.1 is now available in the AWS European Sovereign Cloud Region.&lt;br&gt; &lt;br&gt; &lt;a href=\"https://aws.amazon.com/glue/\"&gt;AWS Glue&lt;/a&gt; is a serverless, scalable data integration service that simplifies discovering, preparing, moving, and integrating data from multiple sources. AWS Glue 5.1 upgrades core engines to Apache Spark 3.5.6, Python 3.11, and Scala 2.12.18, bringing performance and security enhancements. This release also updates support for open table format libraries, including Apache Hudi 1.0.2, Apache Iceberg 1.10.0, and Delta Lake 3.3.2. Additionally, AWS Glue 5.1 introduces support for Apache Iceberg format version 3.0, adding default column values, deletion vectors for merge-on-read tables, multi-argument transforms, and row lineage tracking. This release extends &lt;a href=\"https://aws.amazon.com/lake-formation/\"&gt;AWS Lake Formation&lt;/a&gt; fine-grained access control to write operations - both DML and DDL - for Spark DataFrames and Spark SQL. Previously, this capability was limited to read operations only. AWS Glue 5.1 also adds full-table access control in Apache Spark for Apache Hudi and Delta Lake tables, providing more comprehensive security options for your data.&lt;br&gt; &lt;br&gt; With this expansion, AWS Glue 5.1 is now available all AWS commercial and AWS GovCloud (US) Regions.&lt;br&gt; &lt;br&gt; You can get started with AWS Glue 5.1 using AWS APIs, AWS CLI, AWS SDK, or AWS Glue Studio. To learn more, visit the AWS Glue &lt;a href=\"https://aws.amazon.com/glue/\"&gt;product page&lt;/a&gt; and our &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/release-notes.html\"&gt;documentation&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "descriptionHtml": "&lt;p&gt;AWS Glue 5.1 is now available in the AWS European Sovereign Cloud Region.&lt;br&gt; &lt;br&gt; &lt;a href=\"https://aws.amazon.com/glue/\"&gt;AWS Glue&lt;/a&gt; is a serverless, scalable data integration service that simplifies discovering, preparing, moving, and integrating data from multiple sources. AWS Glue 5.1 upgrades core engines to Apache Spark 3.5.6, Python 3.11, and Scala 2.12.18, bringing performance and security enhancements. This release also updates support for open table format libraries, including Apache Hudi 1.0.2, Apache Iceberg 1.10.0, and Delta Lake 3.3.2. Additionally, AWS Glue 5.1 introduces support for Apache Iceberg format version 3.0, adding default column values, deletion vectors for merge-on-read tables, multi-argument transforms, and row lineage tracking. This release extends &lt;a href=\"https://aws.amazon.com/lake-formation/\"&gt;AWS Lake Formation&lt;/a&gt; fine-grained access control to write operations - both DML and DDL - for Spark DataFrames and Spark SQL. Previously, this capability was limited to read operations only. AWS Glue 5.1 also adds full-table access control in Apache Spark for Apache Hudi and Delta Lake tables, providing more comprehensive security options for your data.&lt;br&gt; &lt;br&gt; You can get started with AWS Glue 5.1 using AWS APIs, AWS CLI, AWS SDK, or AWS Glue Studio. To learn more, visit the AWS Glue &lt;a href=\"https://aws.amazon.com/glue/\"&gt;product page&lt;/a&gt; and our &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/release-notes.html\"&gt;documentation&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-5-1-european-sovereign-cloud",
       "publishedAt": "2026-08-26T16:26:00.000Z",
       "updatedAt": "2026-08-26T16:26:00.000Z",
@@ -917,7 +1213,7 @@
         "amazon simple email service",
         "ses"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b680bdb0112abc1e",
@@ -938,7 +1234,7 @@
         "aws local zones",
         "compute"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "80bab1a261e301f1",
@@ -960,7 +1256,7 @@
         "amazon timestream",
         "timestream"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6bdc15a13b537e09",
@@ -982,7 +1278,7 @@
         "amazon ec2",
         "ec2"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ff41c4200759c78d",
@@ -1006,7 +1302,7 @@
         "redshift",
         "kinesis"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "36b4691ed91b785a",
@@ -1026,7 +1322,7 @@
         "artificial intelligence",
         "bedrock"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e53dce5120f29fcd",
@@ -1048,7 +1344,7 @@
         "amazon ec2",
         "ec2"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5c83129eb472f89b",
@@ -1074,7 +1370,7 @@
         "security identity and compliance",
         "eks"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "18924155c64a408e",
@@ -1098,7 +1394,7 @@
         "s3",
         "cloudfront"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1013f9048548b95b",
@@ -1124,7 +1420,7 @@
         "security identity and compliance",
         "iam"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bf8f5c5296ed7416",
@@ -1141,7 +1437,7 @@
       "tags": [
         "rds"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b2a8063c44998666",
@@ -1169,7 +1465,7 @@
         "amazon sagemaker studio",
         "sagemaker"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fe3ef12f76246c78",
@@ -1188,7 +1484,7 @@
         "aurora",
         "cloudwatch"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "825fbea29963dc81",
@@ -1212,7 +1508,7 @@
         "direct connect",
         "connect"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f5172bd7a0bd95bd",
@@ -1242,7 +1538,7 @@
         "s3",
         "redshift"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "326577b0b17b4cf7",
@@ -10871,293 +11167,6 @@
         "amazon simple storage service",
         "s3",
         "cloudwatch"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "ebcd574eb831833b",
-      "title": "Amazon EC2 R8g instances now available in additional regions",
-      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in AWS Asia Pacific (Thailand, New Zealand), AWS Africa (Cape Town), AWS Europe (Milan), and AWS Canada West (Calgary) regions. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to AWS Graviton3-based instances. Amazon EC2 R8g instances are ideal for memory-intensive workloads such as databases, in-memory caches, and real-time big data analytics. These instances are built on the AWS Nitro System , which offloads CPU virtualization, storage, and networkin",
-      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in AWS Asia Pacific (Thailand, New Zealand), AWS Africa (Cape Town), AWS Europe (Milan), and AWS Canada West (Calgary) regions. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to AWS Graviton3-based instances. Amazon EC2 R8g instances are ideal for memory-intensive workloads such as databases, in-memory caches, and real-time big data analytics. These instances are built on the &lt;a href=\"https://aws.amazon.com/ec2/nitro/\"&gt;AWS Nitro System&lt;/a&gt;, which offloads CPU virtualization, storage, and networking functions to dedicated hardware and software to enhance the performance and security of your workloads.&lt;br&gt; &lt;br&gt; AWS Graviton4-based Amazon EC2 instances deliver the best performance and energy efficiency for a broad range of workloads running on Amazon EC2. AWS Graviton4-based R8g instances offer larger instance sizes with up to 3x more vCPU (up to 48xlarge) and memory (up to 1.5TB) than Graviton3-based R7g instances. These instances are up to 30% faster for web applications, 40% faster for databases, and 45% faster for large Java applications compared to AWS Graviton3-based R7g instances. R8g instances are available in 12 different instance sizes, including two bare metal sizes. They offer up to 50 Gbps enhanced networking bandwidth and up to 40 Gbps of bandwidth to the Amazon Elastic Block Store (Amazon EBS).&lt;br&gt; &lt;br&gt; To learn more, see &lt;a href=\"https://aws.amazon.com/ec2/instance-types/r8g/\"&gt;Amazon EC2 R8g Instances&lt;/a&gt;. To explore how to migrate your workloads to Graviton-based instances, see &lt;a href=\"https://aws.amazon.com/ec2/graviton/fast-start/\"&gt;AWS Graviton Fast Start program&lt;/a&gt; and &lt;a href=\"https://github.com/aws/porting-advisor-for-graviton\"&gt;Porting Advisor for Graviton&lt;/a&gt;. To get started, see the &lt;a href=\"https://console.aws.amazon.com/\"&gt;AWS Management Console&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-r8g-instances-additional-regions/",
-      "publishedAt": "2026-06-26T15:00:00.000Z",
-      "updatedAt": "2026-06-26T15:00:00.000Z",
-      "categories": [
-        "Compute",
-        "Amazon Ec2"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "compute",
-        "amazon ec2",
-        "ec2"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "0e06fcf971099ec1",
-      "title": "Amazon EC2 C7a instances are now available in the Asia Pacific (Singapore) Region",
-      "description": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS Asia Pacific (Singapore) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a maximum frequency of 3.7 GHz, deliver up to 50% higher performance compared to C6a instances. C7a instances offer new processor capabilities such as AVX-512, VNNI, and bfloat16. They feature Double Data Rate 5 (DDR5) memory to enable high-speed access to data in memory and 2.25x more memory bandwidth compared to C6a instances, making these instances ideal for even latency sensitive workloads. C7a",
-      "descriptionHtml": "&lt;p&gt;Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS Asia Pacific (Singapore) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a maximum frequency of 3.7 GHz, deliver up to 50% higher performance compared to C6a instances.&lt;br&gt; &lt;br&gt; C7a instances offer new processor capabilities such as AVX-512, VNNI, and bfloat16. They feature Double Data Rate 5 (DDR5) memory to enable high-speed access to data in memory and 2.25x more memory bandwidth compared to C6a instances, making these instances ideal for even latency sensitive workloads. C7a instances offer 12 sizes from medium to 48xlarge, including a bare-metal size. And with the launch of C7a instances, customers can attach up to 128 EBS volumes to an EC2 instance — by comparison, C6a instances allow up to 28 EBS volume attachments to an EC2 instance. These instances are built on the AWS Nitro System and ideal for high performance, compute-intensive workloads such as batch processing, distributed analytics, high performance computing (HPC), ad serving, highly-scalable multiplayer gaming, and video encoding.&lt;br&gt; &lt;br&gt; C7a instances are available through On-Demand, Spot Instances, and Savings Plans. To get started, visit the &lt;a href=\"https://console.aws.amazon.com/\" target=\"_blank\"&gt;AWS Management Console&lt;/a&gt;, &lt;a href=\"https://aws.amazon.com/cli/\" target=\"_blank\"&gt;AWS Command Line Interface (CLI)&lt;/a&gt;, and &lt;a href=\"https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html\" target=\"_blank\"&gt;AWS SDKs&lt;/a&gt;. To learn more, see &lt;a href=\"https://aws.amazon.com/ec2/instance-types/c7a/\" target=\"_blank\"&gt;C7a instances&lt;/a&gt;.&lt;br&gt; &lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7a-instances-asia-pacific-singapore-region/",
-      "publishedAt": "2026-06-25T22:24:00.000Z",
-      "updatedAt": "2026-06-25T22:24:00.000Z",
-      "categories": [
-        "Amazon Ec2",
-        "Compute"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "amazon ec2",
-        "compute",
-        "ec2"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "0d2e8dde11478881",
-      "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Mumbai) region",
-      "description": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Mumbai) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, and up to 19% better price-performance compared to M7a instances. M8a instances deliver 45% more memory bandwidth compared to M7a instances, making these instances ideal for even latency sensitive workloads. M8a instances deliver even higher performance gains for specific workloads. M8a instances are up to 60% faster for Groov",
-      "descriptionHtml": "&lt;p&gt;Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Mumbai) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, and up to 19% better price-performance compared to M7a instances.&lt;br&gt; &lt;br&gt; M8a instances deliver 45% more memory bandwidth compared to M7a instances, making these instances ideal for even latency sensitive workloads. M8a instances deliver even higher performance gains for specific workloads. M8a instances are up to 60% faster for GroovyJVM benchmark, and up to 39% faster for Cassandra benchmark compared to Amazon EC2 M7a instances. M8a instances are SAP-certified and offer 12 sizes including 2 bare metal sizes. This range of instance sizes allows customers to precisely match their workload requirements.&lt;br&gt; &lt;br&gt; M8a instances are built using the latest sixth generation &lt;a href=\"https://aws.amazon.com/ec2/nitro/\" target=\"_blank\"&gt;AWS Nitro Cards&lt;/a&gt; and ideal for applications that benefit from high performance and high throughput such as financial applications, gaming, rendering, application servers, simulation modeling, mid-size data stores, application development environments, and caching fleets.&lt;br&gt; &lt;br&gt; To get started, sign in to the AWS Management Console. Customers can purchase these instances via Savings Plans, On-Demand instances, and Spot instances. For more information visit the Amazon EC2 &lt;a href=\"https://aws.amazon.com/ec2/instance-types/m8a\" target=\"_blank\"&gt;M8a instance page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8a-instances-asia-pacific-mumbai-region/",
-      "publishedAt": "2026-06-25T22:15:00.000Z",
-      "updatedAt": "2026-06-25T22:15:00.000Z",
-      "categories": [
-        "Amazon Ec2",
-        "Compute"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "amazon ec2",
-        "compute",
-        "ec2"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "d4a3042f5e2912be",
-      "title": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models on Amazon Bedrock receive FedRAMP High and DoD IL-4/5 approval in AWS GovCloud (US)",
-      "description": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models are now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 approved within Amazon Bedrock in the AWS GovCloud (US) Regions. Federal agencies, public sector organizations, and other enterprises with FedRAMP High and DoD CC SRG IL-4/5 compliance requirements can now use these models on Amazon Bedrock to build and scale generative AI applications with confidence that they meet the security and compliance standards required for government workloads. These models are powered",
-      "descriptionHtml": "&lt;p&gt;OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models are now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 approved within Amazon Bedrock in the AWS GovCloud (US) Regions.&lt;/p&gt; \n&lt;p&gt;Federal agencies, public sector organizations, and other enterprises with FedRAMP High and DoD CC SRG IL-4/5 compliance requirements can now use these models on Amazon Bedrock to build and scale generative AI applications with confidence that they meet the security and compliance standards required for government workloads. These models are powered by Mantle, a next-generation distributed inference engine on Amazon Bedrock, which provides high-performance serverless inference with zero operator access, automated capacity management, and out-of-the-box compatibility with OpenAI API specifications.&lt;/p&gt; \n&lt;p&gt;To learn more, visit the &lt;a href=\"#https://aws.amazon.com/bedrock/?trk=7ecf60df-6136-414c-a7c3-6aa4d2d6019f&amp;amp;sc_channel=ps&amp;amp;ef_id=EAIaIQobChMI0-nJtciglQMVh3JHAR3wnSV-EAAYASAAEgIIGvD_BwE&amp;amp;gads_camp=23532472972&amp;amp;gads_ag=194311072004&amp;amp;gads_ad=795877020842&amp;amp;gads_kw=amazon%20bedrock&amp;amp;gads_matchtype=e&amp;amp;gads_network=g&amp;amp;gads_device=c&amp;amp;gads_geo=9007742&amp;amp;gad_campaignid=23532472972&amp;amp;gclid=EAIaIQobChMI0-nJtciglQMVh3JHAR3wnSV-EAAYASAAEgIIGvD_BwE\"&gt;Amazon Bedrock product page&lt;/a&gt;, &lt;a href=\"#https://docs.aws.amazon.com/bedrock/\"&gt;Amazon Bedrock documentation&lt;/a&gt;, and the &lt;a href=\"#https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-compliance.html\"&gt;AWS GovCloud (US) compliance page&lt;/a&gt;. To get started, visit the &lt;a href=\"#\"&gt;Amazon Bedrock console&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/addl-bedrock-model-fedramp-il-5-govcloud",
-      "publishedAt": "2026-06-25T21:00:00.000Z",
-      "updatedAt": "2026-06-25T21:00:00.000Z",
-      "categories": [
-        "AWS Govcloud Us",
-        "Amazon Bedrock"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "aws govcloud us",
-        "amazon bedrock",
-        "bedrock"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "1f0357ec51b3b1e7",
-      "title": "AWS Network Firewall now supports managed threat intelligence rules from VisionHeight",
-      "description": "AWS Network Firewall now supports two new managed rule groups from VisionHeight, available through AWS Marketplace: Zero-Day Threat Protection, and Noisy Scanners and Tor Protection. These rule groups expand the managed rules offerings for AWS Network Firewall, giving customers access to proprietary threat intelligence built on VisionHeight's Pulse telemetry. Zero-Day Threat Protection proactively blocks malicious IP infrastructure before it appears on public blocklists. This rule group helps organizations get ahead of emerging threats by weeks, strengthening defense for workloads facing targe",
-      "descriptionHtml": "&lt;p&gt;AWS Network Firewall now supports two new managed rule groups from VisionHeight, available through AWS Marketplace: Zero-Day Threat Protection, and Noisy Scanners and Tor Protection. These rule groups expand the managed rules offerings for AWS Network Firewall, giving customers access to proprietary threat intelligence built on VisionHeight's Pulse telemetry.&lt;br&gt; &lt;br&gt; Zero-Day Threat Protection proactively blocks malicious IP infrastructure before it appears on public blocklists. This rule group helps organizations get ahead of emerging threats by weeks, strengthening defense for workloads facing targeted attacks. Tor Protection reduces firewall log noise by blocking communication with active Tor exit nodes and filtering traffic from known high-volume scanning sources. With daily refresh cycles, this rule group suppresses noise at first packet —before events are generated—lowering SOC alert volume, reducing SIEM ingestion costs, and removing Tor as a path into or out of your environment.&lt;br&gt; &lt;br&gt; Managed rules for AWS Network Firewall are available from AWS Marketplace sellers including Check Point, Fortinet, Infoblox, Lumen, Rapid7, ThreatSTOP, Trend Micro, and VisionHeight. For a full list of supported regions, visit the AWS Regional Services page.&lt;br&gt; &lt;br&gt; To get started, visit the AWS Network Firewall console or browse available managed rules in &lt;a href=\"https://aws.amazon.com/marketplace\" target=\"_blank\"&gt;AWS Marketplace&lt;/a&gt;. For more information, see the AWS Network Firewall &lt;a href=\"https://aws.amazon.com/network-firewall/\" target=\"_blank\"&gt;product page&lt;/a&gt; and the service &lt;a href=\"https://docs.aws.amazon.com/network-firewall/latest/developerguide/what-is-aws-network-firewall.html\" target=\"_blank\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/network-firewall-visionheight-managed-rules",
-      "publishedAt": "2026-06-25T20:18:00.000Z",
-      "updatedAt": "2026-06-25T20:18:00.000Z",
-      "categories": [
-        "Networking And Content Delivery",
-        "AWS Network Firewall",
-        "Security Identity And Compliance"
-      ],
-      "services": [
-        "AWS Network Firewall"
-      ],
-      "tags": [
-        "networking and content delivery",
-        "aws network firewall",
-        "security identity and compliance"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "611a71b20c0b2e73",
-      "title": "Kiro achieves FedRAMP High and DoD IL-4/5 authorization in AWS GovCloud (US)",
-      "description": "Kiro is now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 authorized in the AWS GovCloud (US) Regions. Federal agencies, public sector organizations, and other enterprises with FedRAMP High and DoD CC SRG IL-4/5 compliance requirements can now use Kiro as their agentic engineering partner with confidence that it meets the security and compliance standards required for sensitive workloads. Kiro is an agentic AI with an integrated development environment (IDE) and command-line interface (CLI) that helps you build applica",
-      "descriptionHtml": "&lt;p&gt;Kiro is now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 authorized in the AWS GovCloud (US) Regions.&lt;br&gt; &lt;br&gt; Federal agencies, public sector organizations, and other enterprises with FedRAMP High and DoD CC SRG IL-4/5 compliance requirements can now use Kiro as their agentic engineering partner with confidence that it meets the security and compliance standards required for sensitive workloads.&lt;br&gt; &lt;br&gt; Kiro is an agentic AI with an integrated development environment (IDE) and command-line interface (CLI) that helps you build applications from prototype to production with spec-driven development. From simple to complex tasks, Kiro works alongside you to turn prompts into detailed specs, then into working code, docs, and tests — so what you build is exactly what you want and ready to share with your team. With native Model Context Protocol (MCP) support, Kiro connects to documentation, databases, APIs, and other enterprise resources, providing capability for mission-critical development workflows.&lt;br&gt; &lt;br&gt; For more details about Kiro in AWS GovCloud (US), visit the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-kiro.html\"&gt;GovCloud documentation&lt;/a&gt;&amp;nbsp;or contact your AWS account team for more information. To learn more about Kiro, visit the &lt;a href=\"https://kiro.dev/\"&gt;Kiro product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-fedramp-high-dod-il-4-5-govcloud-us/",
-      "publishedAt": "2026-06-25T17:00:00.000Z",
-      "updatedAt": "2026-06-25T17:00:00.000Z",
-      "categories": [
-        "Developer Tools",
-        "Artificial Intelligence",
-        "AWS Govcloud Us"
-      ],
-      "services": [],
-      "tags": [
-        "developer tools",
-        "artificial intelligence",
-        "aws govcloud us"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "b322f37428da78e5",
-      "title": "Amazon EC2 C8in instances are now available in additional regions",
-      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8in instances are available in the AWS US East (Ohio) and Europe (Ireland) regions. C8in instances are powered by custom, sixth generation Intel Xeon Scalable processors, available only on AWS. These instances feature the latest sixth generation AWS Nitro cards, delivering up to 43% higher performance compared to previous generation C6in instances. C8in instances deliver larger sizes and scale up to 384 vCPUs. C8in instances deliver 600 Gbps network bandwidth—the highest among enhanced networking EC2 instances—making them ideal for net",
-      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8in instances are available in the AWS US East (Ohio) and Europe (Ireland) regions. C8in instances are powered by custom, sixth generation Intel Xeon Scalable processors, available only on AWS. These instances feature the latest sixth generation AWS Nitro cards, delivering up to 43% higher performance compared to previous generation C6in instances.&lt;/p&gt; \n&lt;p&gt;C8in instances deliver larger sizes and scale up to 384 vCPUs. C8in instances deliver 600 Gbps network bandwidth—the highest among enhanced networking EC2 instances—making them ideal for network-intensive workloads like distributed compute and large-scale data analytics.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;C8in instances are available in US East (N. Virginia, Ohio), US West (Oregon), Asia Pacific (Tokyo, Sydney, Singapore, Malaysia), and Europe (Spain, Frankfurt, Ireland) regions. C8in instances are available via Savings Plans, On-Demand, and Spot instances. For more information, visit the &lt;a href=\"https://aws.amazon.com/ec2/instance-types/c8i/\"&gt;Amazon EC2 C8i instance page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8in-ireland-ohio/",
-      "publishedAt": "2026-06-25T17:00:00.000Z",
-      "updatedAt": "2026-06-25T17:00:00.000Z",
-      "categories": [
-        "Amazon Ec2",
-        "Compute"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "amazon ec2",
-        "compute",
-        "ec2"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "989d195ce08e4c0e",
-      "title": "Amazon Redshift adds Reserved Instance upfront pricing options for RG instances",
-      "description": "Amazon Redshift announces the availability of All Upfront and Partial Upfront payment options for 1-year and 3-year reserved instances for RG instances. Reserved instances allow customers to benefit from significant savings over on-demand rates. The new payment options join the previously available No Upfront option, giving customers greater flexibility to optimize compute costs based on their financial preferences. All Upfront delivers the maximum discount by paying for the full reservation term at the start, while Partial Upfront splits the cost between an initial payment and lower monthly i",
-      "descriptionHtml": "&lt;p&gt;Amazon Redshift announces the availability of All Upfront and Partial Upfront payment options for 1-year and 3-year reserved instances for RG instances. Reserved instances allow customers to benefit from significant savings over on-demand rates. The new payment options join the previously available No Upfront option, giving customers greater flexibility to optimize compute costs based on their financial preferences. All Upfront delivers the maximum discount by paying for the full reservation term at the start, while Partial Upfront splits the cost between an initial payment and lower monthly installments.&lt;/p&gt; \n&lt;p&gt;Amazon Redshift RG reserved instances with All Upfront and Partial Upfront payment options are now available in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), US West (N. California), Canada (Central), South America (São Paulo), Europe (Ireland), Europe (Frankfurt), Europe (London), Europe (Paris), Europe (Stockholm), Europe (Milan), Europe (Spain), Africa (Cape Town), Asia Pacific (Tokyo), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Mumbai), Asia Pacific (Jakarta), Asia Pacific (Hong Kong), Asia Pacific (Osaka), Asia Pacific (Malaysia), Asia Pacific (Hyderabad), Asia Pacific (Taiwan), Asia Pacific (Melbourne), Asia Pacific (Bangkok), and Mexico (Central).&lt;/p&gt; \n&lt;p&gt;For pricing details, visit the &lt;a href=\"https://aws.amazon.com/redshift/pricing/\"&gt;Amazon Redshift pricing page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-ri-upfront-pricing-rg-instances",
-      "publishedAt": "2026-06-25T16:39:00.000Z",
-      "updatedAt": "2026-06-25T16:39:00.000Z",
-      "categories": [
-        "Amazon Redshift",
-        "Analytics"
-      ],
-      "services": [
-        "Redshift"
-      ],
-      "tags": [
-        "amazon redshift",
-        "analytics",
-        "redshift"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "5f6753de9674aa79",
-      "title": "AWS GovCloud (US) now offers US-based, US citizen 24/7 technical support for all customers by default",
-      "description": "AWS GovCloud (US) customers now have their technical support cases routed to US-based, US-citizen cloud support engineers by default with no opt-in or special request required. This enhancement ensures that 24/7 technical support across both AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions is handled exclusively by full-time AWS employees who are US citizens on US soil, trained to maintain ITAR compliance and meet other applicable AWS GovCloud (US) requirements. With this update, AWS GovCloud (US) customers benefit from cloud support engineers with the permissions and tools to work di",
-      "descriptionHtml": "&lt;p&gt;AWS GovCloud (US) customers now have their technical support cases routed to US-based, US-citizen cloud support engineers by default with no opt-in or special request required. This enhancement ensures that 24/7 technical support across both AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions is handled exclusively by full-time AWS employees who are US citizens on US soil, trained to maintain ITAR compliance and meet other applicable AWS GovCloud (US) requirements.&lt;br&gt; &lt;br&gt; With this update, AWS GovCloud (US) customers benefit from cloud support engineers with the permissions and tools to work directly within their regulated environments, enabling faster diagnosis and resolution of technical issues. Support is available around the clock through the AWS GovCloud (US) Console, API access for automated workflows, click-to-call for urgent issues, and live chat for quick questions.&lt;br&gt; &lt;br&gt; To learn more about AWS GovCloud (US), visit the &lt;a href=\"https://aws.amazon.com/govcloud-us/\"&gt;product page&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-support.html\"&gt;user guide&lt;/a&gt;; to learn more about the AWS GovCloud (US). For a deeper dive into this launch, read the full &lt;a href=\"https://aws.amazon.com/blogs/publicsector/introducing-us-based-us-citizen-24-7-technical-support-for-aws-govcloud-us-customers-your-mission-never-sleeps-neither-do-we/\"&gt;blog post&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/default-govcloud-us-based-support/",
-      "publishedAt": "2026-06-25T12:00:00.000Z",
-      "updatedAt": "2026-06-25T12:00:00.000Z",
-      "categories": [
-        "AWS Support",
-        "AWS Govcloud Us"
-      ],
-      "services": [],
-      "tags": [
-        "aws support",
-        "aws govcloud us"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "f1ca6f9091ad3d96",
-      "title": "AWS Backup enhances Amazon S3 backup copy performance",
-      "description": "AWS Backup now executes S3 backup copy operations up to 8x faster for buckets with millions of objects and low change rates between backup copies through enhanced change tracking. This improvement reduces the time required to copy S3 backups across accounts and AWS Regions by eliminating the need to scan all objects in the destination account or Region. With this improvement, AWS Backup records object events as they occur, resulting in faster copy operations and reduced processing time. The enhancement automatically applies to all new S3 backup cross account and cross-Region copy jobs. This im",
-      "descriptionHtml": "&lt;p&gt;AWS Backup now executes S3 backup copy operations up to 8x faster for buckets with millions of objects and low change rates between backup copies through enhanced change tracking. This improvement reduces the time required to copy S3 backups across accounts and AWS Regions by eliminating the need to scan all objects in the destination account or Region.&lt;/p&gt; \n&lt;p&gt;With this improvement, AWS Backup records object events as they occur, resulting in faster copy operations and reduced processing time. The enhancement automatically applies to all new S3 backup cross account and cross-Region copy jobs.&lt;/p&gt; \n&lt;p&gt;This improvement is enabled at no additional cost in all AWS Regions where AWS Backup support Amazon S3 backup cross-account and cross-Region copying.&lt;/p&gt; \n&lt;p&gt;To learn more about AWS Backup for Amazon S3, visit the &lt;a href=\"https://aws.amazon.com/backup/faqs/\"&gt;product page&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/s3-backups.html\"&gt;technical documentation&lt;/a&gt;. To get started, visit the &lt;a href=\"https://console.aws.amazon.com/backup\"&gt;AWS Backup console&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-s3-copy-enhancement/",
-      "publishedAt": "2026-06-25T10:00:00.000Z",
-      "updatedAt": "2026-06-25T10:00:00.000Z",
-      "categories": [
-        "Storage",
-        "AWS Backup"
-      ],
-      "services": [
-        "S3",
-        "Backup"
-      ],
-      "tags": [
-        "storage",
-        "aws backup",
-        "s3",
-        "backup"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "796f875c97246637",
-      "title": "Amazon RDS Custom now supports the latest CU and GDR updates for Microsoft SQL Server",
-      "description": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for SQL Server 2019 CU32+GDR KB5090407 (RDS version 15.00.4470.1.v1) and SQL Server 2022 CU25 KB5081477 (RDS version 15.00.4255.1.v1). The GDR updates address vulnerabilities described in CVE-2026-40370. For additional information on the improvements and fixes included in these updates, see Microsoft documentation for KB5090407, KB5081477. You can upgrade your Amazon RDS Custo",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/custom/\" target=\"_blank\"&gt;Amazon Relational Database Service (Amazon RDS) Custom for SQL Server&lt;/a&gt; now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for SQL Server 2019 CU32+GDR &lt;a href=\"https://support.microsoft.com/help/5090407\" target=\"_blank\"&gt;KB5090407&lt;/a&gt; (RDS version 15.00.4470.1.v1) and SQL Server 2022 CU25 &lt;a href=\"https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate25\" target=\"_blank\"&gt;KB5081477&lt;/a&gt; (RDS version 15.00.4255.1.v1).&lt;br&gt; &lt;br&gt; The GDR updates address vulnerabilities described in CVE-2026-40370. For additional information on the improvements and fixes included in these updates, see Microsoft documentation for KB5090407, KB5081477. You can upgrade your Amazon RDS Custom for SQL Server instances to apply these recommended updates using Amazon RDS Management Console, or by using the AWS SDK or CLI. To learn more about upgrading your database instances, see &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/custom-upgrading-sqlserver.html\" target=\"_blank\"&gt;Amazon RDS Custom User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-custom-supports-latest-cu-gdr-updates-microsoft-sql-server",
-      "publishedAt": "2026-06-25T07:44:00.000Z",
-      "updatedAt": "2026-06-25T07:44:00.000Z",
-      "categories": [
-        "Databases",
-        "Amazon Rds For Sql Server"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "databases",
-        "amazon rds for sql server",
-        "rds"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "e20f2fae3fea0023",
-      "title": "Amazon RDS now supports the latest GDR updates for Microsoft SQL Server",
-      "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR KB5084821 (RDS version 13.00.6485.1.v1), SQL Server 2017 CU31+GDR KB5084818 (RDS version 14.00.3525.1.v1), SQL Server 2019 CU32+GDR KB5084816 (RDS version 15.00.4465.1.v1) and SQL Server 2022 CU24+GDR KB5083252 (RDS version 16.00.4250.1.v1). The GDR updates address vulnerabilities described in CVE-2026-32167 and CVE-2026-32176. For additional information on the improvements",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/sqlserver/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Relational Database Service (Amazon RDS) for SQL Server &lt;/a&gt;now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR &lt;a href=\"https://support.microsoft.com/help/5084821\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;KB5084821&lt;/a&gt; (RDS version 13.00.6485.1.v1), SQL Server 2017 CU31+GDR &lt;a href=\"https://support.microsoft.com/help/5084818\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;KB5084818&lt;/a&gt; (RDS version 14.00.3525.1.v1), SQL Server 2019 CU32+GDR &lt;a href=\"https://support.microsoft.com/help/5084816\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;KB5084816&lt;/a&gt; (RDS version 15.00.4465.1.v1) and SQL Server 2022 CU24+GDR &lt;a href=\"https://support.microsoft.com/help/5083252\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;KB5083252&lt;/a&gt; (RDS version 16.00.4250.1.v1).&lt;br&gt; &lt;br&gt; The GDR updates address vulnerabilities described in CVE-2026-32167 and CVE-2026-32176. For additional information on the improvements and fixes included in these updates, see Microsoft documentation for KB5084821, KB5084818, KB5084816, KB5083252. We recommend that you upgrade your Amazon RDS for SQL Server instances to apply these updates using Amazon RDS Management Console, or by using the AWS SDK or CLI. You can learn more about upgrading your database instance in the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.SQLServer.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS SQL Server User Guide for upgrading your RDS Microsoft SQL Server DB engine&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-supports-latest-gdr-updates-microsoft-sql-server",
-      "publishedAt": "2026-06-25T07:03:00.000Z",
-      "updatedAt": "2026-06-25T07:03:00.000Z",
-      "categories": [
-        "Amazon Rds For Sql Server",
-        "AWS Govcloud Us",
-        "Databases"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "amazon rds for sql server",
-        "aws govcloud us",
-        "databases",
-        "rds"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "e68f775e8ba216f7",
-      "title": "Amazon OpenSearch Ingestion now available in AWS Europe (Paris) Region",
-      "description": "Starting today, customers can use Amazon OpenSearch Ingestion in the Europe (Paris) Region (eu-west-3) for ingesting data into their Amazon OpenSearch Service managed clusters or serverless collections. Amazon OpenSearch Ingestion is a fully managed data ingestion tier that allows you to ingest and process data before indexing it in Amazon OpenSearch managed clusters or serverless collections. Amazon OpenSearch Ingestion provides a no-code experience to filter, transform, redact, and route data into Amazon OpenSearch Service. Amazon OpenSearch Ingestion automatically provisions and scales the ",
-      "descriptionHtml": "&lt;p&gt;Starting today, customers can use Amazon OpenSearch Ingestion in the Europe (Paris) Region (eu-west-3) for ingesting data into their Amazon OpenSearch Service managed clusters or serverless collections.&lt;br&gt; &lt;br&gt; Amazon OpenSearch Ingestion is a fully managed data ingestion tier that allows you to ingest and process data before indexing it in Amazon OpenSearch managed clusters or serverless collections. Amazon OpenSearch Ingestion provides a no-code experience to filter, transform, redact, and route data into Amazon OpenSearch Service. Amazon OpenSearch Ingestion automatically provisions and scales the underlying resources to meet the fluctuating demands of your workloads.&lt;br&gt; &lt;br&gt; With this launch, Amazon OpenSearch Ingestion is now generally available in 17 AWS regions: US East (Ohio), US East (N. Virginia), US West (Oregon), US West (N. California), Europe (Ireland), Europe (London), Europe (Frankfurt), Europe (Spain), Europe (Paris), Asia Pacific (Tokyo), Asia Pacific (Sydney), Asia Pacific (Singapore), Asia Pacific (Mumbai), Asia Pacific (Seoul), Canada (Central), South America (Sao Paulo), and Europe (Stockholm).&lt;br&gt; &lt;br&gt; To learn more, see the &lt;a href=\"https://aws.amazon.com/opensearch-service/features/ingestion/\"&gt;Amazon OpenSearch Ingestion&lt;/a&gt; webpage and the &lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/ingestion.html\"&gt;Amazon OpenSearch Ingestion Developer Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ingestion-europe-paris-region-availability",
-      "publishedAt": "2026-06-25T01:32:00.000Z",
-      "updatedAt": "2026-06-25T01:32:00.000Z",
-      "categories": [
-        "Amazon Opensearch Service",
-        "Analytics"
-      ],
-      "services": [
-        "OpenSearch"
-      ],
-      "tags": [
-        "amazon opensearch service",
-        "analytics",
-        "opensearch"
       ],
       "isNew": false
     }
