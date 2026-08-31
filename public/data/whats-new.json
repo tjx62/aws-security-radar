@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T03:17:50.661Z",
+  "lastUpdated": "2026-08-31T15:54:56.998Z",
   "itemCount": 211,
   "items": [
     {
@@ -2593,7 +2593,7 @@
         "msk",
         "kafka"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 35,
       "securityLevel": "high",
       "securityMatches": [
@@ -2937,7 +2937,7 @@
         "amazon rds",
         "rds"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [
@@ -3855,7 +3855,7 @@
         "amazon bedrock",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -5054,7 +5054,7 @@
         "artificial intelligence",
         "sagemaker"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -5080,7 +5080,7 @@
         "amazon connect",
         "connect"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -5101,7 +5101,7 @@
       "tags": [
         "compute"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
