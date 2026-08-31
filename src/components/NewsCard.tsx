@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ExternalLink, Calendar, Zap } from 'lucide-react'
+import { ExternalLink, Calendar, Zap, Shield, ShieldAlert, ShieldCheck, ShieldX } from 'lucide-react'
 import { TagBadge } from './TagBadge'
 import { relativeTime, fullDate } from '../utils/dateUtils'
 import { tagColor } from '../utils/colorUtils'
@@ -43,10 +43,44 @@ function djb2(str: string) {
   return Math.abs(h)
 }
 
+// Security level badge configuration
+const SECURITY_BADGES = {
+  critical: {
+    icon: ShieldX,
+    bg: 'rgba(248,113,113,0.15)',
+    border: 'rgba(248,113,113,0.4)',
+    text: '#fca5a5',
+    label: 'CRITICAL',
+  },
+  high: {
+    icon: ShieldAlert,
+    bg: 'rgba(251,146,60,0.15)',
+    border: 'rgba(251,146,60,0.4)',
+    text: '#fdba74',
+    label: 'HIGH',
+  },
+  medium: {
+    icon: ShieldCheck,
+    bg: 'rgba(251,191,36,0.12)',
+    border: 'rgba(251,191,36,0.35)',
+    text: '#fcd34d',
+    label: 'MEDIUM',
+  },
+  low: null,
+} as const
+
+// Source badge labels
+const SOURCE_LABELS: Record<string, string> = {
+  'whats-new': "What's New",
+  'security-blog': 'Security Blog',
+  'security-bulletin': 'Security Bulletin',
+}
+
 export function NewsCard({ item, index }: NewsCardProps) {
   const primaryService = item.services[0] ?? item.categories[0] ?? item.id
   const color = tagColor(primaryService)
   const gradient = CARD_GRADIENTS[djb2(primaryService) % CARD_GRADIENTS.length]
+  const secBadge = SECURITY_BADGES[item.securityLevel as keyof typeof SECURITY_BADGES]
 
   return (
     <motion.article
@@ -59,25 +93,31 @@ export function NewsCard({ item, index }: NewsCardProps) {
       className="group relative flex flex-col rounded-2xl overflow-hidden cursor-pointer"
       style={{
         background: 'rgba(15, 22, 36, 0.8)',
-        border: '1px solid rgba(255,255,255,0.06)',
+        border: secBadge
+          ? `1px solid ${secBadge.border}`
+          : '1px solid rgba(255,255,255,0.06)',
       }}
       onClick={() => window.open(item.url, '_blank', 'noopener,noreferrer')}
       whileHover={{
         y: -4,
         borderColor: color.border,
-        boxShadow: `0 0 0 1px ${color.border}, 0 8px 32px ${color.bg}`,
+        boxShadow: secBadge
+          ? `0 0 0 1px ${secBadge.border}, 0 8px 32px ${secBadge.bg}`
+          : `0 0 0 1px ${color.border}, 0 8px 32px ${color.bg}`,
         transition: { duration: 0.2 },
       }}
     >
       {/* Top gradient strip */}
       <div className={`absolute top-0 left-0 right-0 h-24 bg-gradient-to-b ${gradient} pointer-events-none`} />
 
-      {/* Top accent line */}
+      {/* Security accent line — colored by security level */}
       <div
         className="h-[2px] w-full shrink-0"
         style={{
-          background: `linear-gradient(90deg, transparent, ${color.text}, transparent)`,
-          opacity: 0.6,
+          background: secBadge
+            ? `linear-gradient(90deg, transparent, ${secBadge.text}, transparent)`
+            : `linear-gradient(90deg, transparent, ${color.text}, transparent)`,
+          opacity: secBadge ? 0.8 : 0.6,
         }}
       />
 
@@ -97,9 +137,32 @@ export function NewsCard({ item, index }: NewsCardProps) {
                 NEW
               </span>
             )}
-            {item.categories.slice(0, 2).map((cat) => (
-              <TagBadge key={cat} tag={cat} size="sm" />
-            ))}
+            {secBadge && (
+              <span
+                className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full font-bold text-xs shrink-0"
+                style={{
+                  background: secBadge.bg,
+                  border: `1px solid ${secBadge.border}`,
+                  color: secBadge.text,
+                }}
+                title={`Security relevance: ${item.securityScore}/100 — matched: ${item.securityMatches.join(', ')}`}
+              >
+                <secBadge.icon className="w-3 h-3" />
+                {secBadge.label}
+                <span className="opacity-60 ml-0.5">{item.securityScore}</span>
+              </span>
+            )}
+            {item.source !== 'whats-new' && SOURCE_LABELS[item.source] && (
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-wide"
+                style={{
+                  background: 'rgba(99,102,241,0.1)',
+                  border: '1px solid rgba(99,102,241,0.25)',
+                  color: '#a5b4fc',
+                }}>
+                <Shield className="w-2.5 h-2.5" />
+                {SOURCE_LABELS[item.source]}
+              </span>
+            )}
           </div>
           <div className="flex items-center gap-1.5 text-xs text-muted shrink-0 whitespace-nowrap mt-0.5">
             <Calendar className="w-3.5 h-3.5" />
@@ -120,6 +183,20 @@ export function NewsCard({ item, index }: NewsCardProps) {
         <p className="text-sm leading-relaxed line-clamp-4 flex-1" style={{ color: '#7a8aa8' }}>
           {item.description}
         </p>
+
+        {/* Security matches — show which keywords triggered the score */}
+        {item.securityMatches.length > 0 && (
+          <div className="flex items-center gap-1.5 flex-wrap">
+            {item.securityMatches.slice(0, 4).map((kw) => (
+              <span key={kw} className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-white/5 text-amber-400/70 border border-amber-500/10">
+                {kw}
+              </span>
+            ))}
+            {item.securityMatches.length > 4 && (
+              <span className="text-[10px] text-muted">+{item.securityMatches.length - 4}</span>
+            )}
+          </div>
+        )}
 
         {/* Service tags */}
         {item.services.length > 0 && (

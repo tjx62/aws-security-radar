@@ -1,10 +1,11 @@
 import { useState, useCallback, useMemo } from 'react'
 import type { WhatsNewItem } from '../types/news'
 
-export type FilterMode = 'category' | 'service'
+export type FilterMode = 'category' | 'service' | 'security'
 
 export function useFilters(items: WhatsNewItem[]) {
   const [activeFilters, setActiveFilters] = useState<Set<string>>(new Set())
+  const [securityOnly, setSecurityOnly] = useState(false)
 
   // Build available categories from current items
   const allCategories = useMemo(() => {
@@ -34,16 +35,33 @@ export function useFilters(items: WhatsNewItem[]) {
 
   const clearFilters = useCallback(() => {
     setActiveFilters(new Set())
+    setSecurityOnly(false)
   }, [])
 
   const filtered = useMemo(() => {
-    if (activeFilters.size === 0) return items
-    return items.filter((item) =>
-      [...activeFilters].every(
-        (f) => item.categories.includes(f) || item.services.includes(f) || item.tags.includes(f.toLowerCase())
-      )
-    )
-  }, [items, activeFilters])
+    let result = items
 
-  return { activeFilters, allCategories, toggleFilter, clearFilters, filtered }
+    // Security-only filter: show only medium+ security relevance
+    if (securityOnly) {
+      result = result.filter(
+        (item) => item.securityLevel !== 'low' && item.securityScore >= 15
+      )
+    }
+
+    // Category/service/tag filters
+    if (activeFilters.size > 0) {
+      result = result.filter((item) =>
+        [...activeFilters].every(
+          (f) =>
+            item.categories.includes(f) ||
+            item.services.includes(f) ||
+            item.tags.includes(f.toLowerCase())
+        )
+      )
+    }
+
+    return result
+  }, [items, activeFilters, securityOnly])
+
+  return { activeFilters, allCategories, toggleFilter, clearFilters, filtered, securityOnly, setSecurityOnly }
 }

@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion'
-import { SlidersHorizontal, X } from 'lucide-react'
+import { SlidersHorizontal, X, Shield, ShieldAlert } from 'lucide-react'
 import { tagColor } from '../utils/colorUtils'
 
 interface FilterBarProps {
@@ -9,6 +9,8 @@ interface FilterBarProps {
   onClear: () => void
   totalCount: number
   filteredCount: number
+  securityOnly: boolean
+  onToggleSecurityOnly: () => void
 }
 
 export function FilterBar({
@@ -18,11 +20,32 @@ export function FilterBar({
   onClear,
   totalCount,
   filteredCount,
+  securityOnly,
+  onToggleSecurityOnly,
 }: FilterBarProps) {
   return (
     <div className="border-b border-white/5" style={{ background: 'rgba(10,14,25,0.7)', backdropFilter: 'blur(12px)' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
         <div className="flex items-start gap-4">
+
+          {/* Security-only toggle */}
+          <button
+            onClick={onToggleSecurityOnly}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold border transition-all duration-200 select-none shrink-0"
+            style={securityOnly ? {
+              background: 'rgba(248,113,113,0.15)',
+              color: '#fca5a5',
+              borderColor: 'rgba(248,113,113,0.4)',
+              boxShadow: '0 0 12px rgba(248,113,113,0.15)',
+            } : {
+              background: 'rgba(255,255,255,0.03)',
+              color: '#4a5878',
+              borderColor: 'rgba(255,255,255,0.06)',
+            }}
+          >
+            {securityOnly ? <ShieldAlert className="w-3.5 h-3.5" /> : <Shield className="w-3.5 h-3.5" />}
+            Security Only
+          </button>
 
           {/* Label */}
           <div className="flex items-center gap-1.5 text-xs text-muted shrink-0 pt-1.5 font-medium">

@@ -1,5 +1,6 @@
 import crypto from 'crypto'
 import { AWS_SERVICES } from './aws-services.js'
+import { calculateSecurityScore } from './security-keywords.js'
 
 function extractTag(xml, tag) {
   const re = new RegExp(`<${tag}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${tag}>`, 'i')
@@ -123,6 +124,10 @@ export function parseRSS(xml) {
 
     const tags = [...new Set([...categories, ...services].map(t => t.toLowerCase()))]
 
+    // Security relevance scoring
+    const { score: securityScore, matchedKeywords: securityMatches, securityLevel } =
+      calculateSecurityScore(title, descPlain, categories, services)
+
     items.push({
       id,
       title,
@@ -135,6 +140,10 @@ export function parseRSS(xml) {
       services,
       tags,
       isNew,
+      securityScore,
+      securityLevel,
+      securityMatches,
+      source: 'whats-new',
     })
   }
 

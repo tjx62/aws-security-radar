@@ -10,6 +10,10 @@ export interface WhatsNewItem {
   services: string[]
   tags: string[]
   isNew: boolean
+  securityScore: number
+  securityLevel: 'critical' | 'high' | 'medium' | 'low'
+  securityMatches: string[]
+  source: string
 }
 
 export interface WhatsNewFeed {
