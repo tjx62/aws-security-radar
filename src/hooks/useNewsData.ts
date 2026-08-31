@@ -1,9 +1,7 @@
 import { useState, useEffect } from 'react'
 import type { WhatsNewFeed } from '../types/news'
 
-const DATA_URL = import.meta.env.VITE_BASE_URL
-  ? `${import.meta.env.VITE_BASE_URL}data/whats-new.json`
-  : '/data/whats-new.json'
+const DATA_URL = `${import.meta.env.BASE_URL}data/whats-new.json`
 
 export function useNewsData() {
   const [feed, setFeed] = useState<WhatsNewFeed | null>(null)
