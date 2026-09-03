@@ -1,7 +1,53 @@
 {
-  "lastUpdated": "2026-09-02T12:36:39.980Z",
-  "itemCount": 248,
+  "lastUpdated": "2026-09-03T12:39:44.968Z",
+  "itemCount": 264,
   "items": [
+    {
+      "id": "d80b2382abdcf7b8",
+      "title": "Managing identity source transition for AWS IAM Identity Center",
+      "description": "September 2, 2026: This post was republished to include Active Directory migration strategies and automation for permission sets. AWS IAM Identity Center manages user access to Amazon Web Services (AWS) resources, including both AWS accounts and applications. You can use IAM Identity Center to create and manage user identities within the Identity Center identity store […]",
+      "descriptionHtml": "September 2, 2026: This post was republished to include Active Directory migration strategies and automation for permission sets. AWS IAM Identity Center manages user access to Amazon Web Services (AWS) resources, including both AWS accounts and applications. You can use IAM Identity Center to create and manage user identities within the Identity Center identity store […]",
+      "url": "https://aws.amazon.com/blogs/security/managing-identity-source-transition-for-aws-iam-identity-center/",
+      "publishedAt": "2026-09-02T20:36:31.000Z",
+      "updatedAt": "2026-09-02T20:36:31.000Z",
+      "categories": [
+        "Advanced (300)",
+        "AWS IAM Identity Center",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Compliance",
+        "Security Blog"
+      ],
+      "services": [
+        "IAM",
+        "IAM Identity Center"
+      ],
+      "tags": [
+        "advanced (300)",
+        "aws iam identity center",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "compliance",
+        "security blog",
+        "iam",
+        "iam identity center"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "IAM Identity Center",
+        "permission",
+        "access",
+        "identity"
+      ],
+      "source": "security-blog"
+    },
     {
       "id": "a2d623b87d2a53b8",
       "title": "Amazon Redshift now supports AWS IAM Identity Center authentication with enhanced VPC routing",
@@ -177,7 +223,7 @@
         "cloudwatch",
         "cloudtrail"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -815,7 +861,7 @@
         "amazon cognito",
         "cognito"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 85,
       "securityLevel": "critical",
       "securityMatches": [
@@ -1198,6 +1244,42 @@
       "source": "whats-new"
     },
     {
+      "id": "0cc98e458f8cce1f",
+      "title": "Agentic security: Detection and response at machine speed",
+      "description": "After talking with enterprise security leaders over the past year, one thing has become clear: the rise of autonomous AI agents is the most significant shift in security posture since the move to cloud. Organizations across every industry are adopting AI agents that authenticate on behalf of users, execute multistep workflows, and make decisions across […]",
+      "descriptionHtml": "After talking with enterprise security leaders over the past year, one thing has become clear: the rise of autonomous AI agents is the most significant shift in security posture since the move to cloud. Organizations across every industry are adopting AI agents that authenticate on behalf of users, execute multistep workflows, and make decisions across […]",
+      "url": "https://aws.amazon.com/blogs/security/agentic-security-detection-and-response-at-machine-speed/",
+      "publishedAt": "2026-09-02T18:36:37.000Z",
+      "updatedAt": "2026-09-02T18:36:37.000Z",
+      "categories": [
+        "Announcements",
+        "Artificial Intelligence",
+        "Foundational (100)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "announcements",
+        "artificial intelligence",
+        "foundational (100)",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 70,
+      "securityLevel": "high",
+      "securityMatches": [
+        "security",
+        "Organizations"
+      ],
+      "source": "security-blog"
+    },
+    {
       "id": "79ab97da000c8572",
       "title": "CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF",
       "description": "Bulletin ID: 2026-048-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/29/2026 11:15 PM PDT Description: AWS WAF is a web application firewall that monitors the HTTP(S) requests that are forwarded to your protected web application resources. We identified CVE-2026-13762 and CVE-2026-13763, which are issues affecting HTTP/2 multi-frame request body inspection by AWS WAF. CVE-2026-13762 affects AWS WAF deployment with CloudFront. This issue was remediated server-side; no customer action is required. CVE-2026-13763 affects AWS WAF deployment with AWS Application Lo",
@@ -1487,7 +1569,7 @@
         "& compliance",
         "security blog"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 60,
       "securityLevel": "high",
       "securityMatches": [
@@ -3178,6 +3260,53 @@
       "source": "whats-new"
     },
     {
+      "id": "452b2893ed15a861",
+      "title": "CVE-2026-84851- Uncontrolled recursion in the Ion reader in Amazon Ion-C before 1.1.6",
+      "description": "Bulletin ID: 2026-094-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/02/2026 13:30 AM PDT Description: Amazon Ion-C (ion-c) is the C implementation of the Amazon Ion data serialization format. It is distributed as an open-source library (amazon-ion/ion-c) that applications embed to read and write Ion text and binary data. We identified CVE-2026-84851, an uncontrolled recursion issue in versions before 1.1.6 that might allow a remote unauthenticated actor to craft Ion data that exhausts the native call stack and crashes the application using the library, result",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-094-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 09/02/2026 13:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Amazon Ion-C (ion-c) is the C implementation of the Amazon Ion data serialization format. It is distributed as an open-source library (amazon-ion/ion-c) that applications embed to read and write Ion text and binary data. We identified CVE-2026-84851, an uncontrolled recursion issue in versions before 1.1.6 that might allow a remote unauthenticated actor to craft Ion data that exhausts the native call stack and crashes the application using the library, resulting in a denial of service.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt; 1.1.6&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-094-aws/",
+      "publishedAt": "2026-09-02T20:32:01.000Z",
+      "updatedAt": "2026-09-02T20:32:01.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "11d6a058e5c69feb",
+      "title": "AWS Config now supports 60 new resource types",
+      "description": "AWS Config now supports 60 additional AWS resource types across key services including Amazon Bedrock, Amazon EC2, Amazon SageMaker, and AWS Organizations. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources. With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators. You can now use AWS Config to monitor th",
+      "descriptionHtml": "&lt;p&gt;AWS Config now supports 60 additional AWS resource types across key services including Amazon Bedrock,&amp;nbsp; Amazon EC2, Amazon SageMaker, and AWS Organizations. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources.&lt;/p&gt; \n&lt;p&gt;With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators.&lt;/p&gt; \n&lt;p&gt;You can now use AWS Config to monitor the following newly supported resource types in all &lt;a href=\"https://docs.aws.amazon.com/config/latest/developerguide/what-is-resource-config-coverage.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions&lt;/a&gt; where the resources are available:&lt;/p&gt; \n&lt;p&gt;&lt;br&gt; Resource Types:&lt;/p&gt; \n&lt;table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"1045\"&gt; \n &lt;tbody&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\" width=\"355\"&gt;AWS::AppSync::ChannelNamespace&lt;/td&gt; \n   &lt;td width=\"345\"&gt;AWS::EC2::RouteServer&lt;/td&gt; \n   &lt;td width=\"345\"&gt;AWS::Organizations::Policy&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::AppSync::SourceApiAssociation&lt;/td&gt; \n   &lt;td&gt;AWS::EC2::RouteServerEndpoint&lt;/td&gt; \n   &lt;td&gt;AWS::Organizations::ResourcePolicy&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Bedrock::EnforcedGuardrailConfiguration&lt;/td&gt; \n   &lt;td&gt;AWS::EC2::RouteServerPeer&lt;/td&gt; \n   &lt;td&gt;AWS::QuickSight::RefreshSchedule&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Bedrock::Flow&lt;/td&gt; \n   &lt;td&gt;AWS::EKS::PodIdentityAssociation&lt;/td&gt; \n   &lt;td&gt;AWS::RDS::DBProxy&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Bedrock::FlowVersion&lt;/td&gt; \n   &lt;td&gt;AWS::ElasticLoadBalancingV2::ListenerRule&lt;/td&gt; \n   &lt;td&gt;AWS::S3Vectors::Index&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Bedrock::PromptVersion&lt;/td&gt; \n   &lt;td&gt;AWS::GameLiftStreams::Application&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::Action&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::OAuth2CredentialProvider&lt;/td&gt; \n   &lt;td&gt;AWS::GameLiftStreams::StreamGroup&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::Algorithm&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::PaymentManager&lt;/td&gt; \n   &lt;td&gt;AWS::IdentityStore::Group&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::App&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::Policy&lt;/td&gt; \n   &lt;td&gt;AWS::IoT::TopicRuleDestination&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::Context&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::PolicyEngine&lt;/td&gt; \n   &lt;td&gt;AWS::Lightsail::Container&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::Hub&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::TokenVault&lt;/td&gt; \n   &lt;td&gt;AWS::Lightsail::Database&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::MlflowApp&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Chime::AppInstance&lt;/td&gt; \n   &lt;td&gt;AWS::Lightsail::Distribution&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::ModelCard&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::CloudTrail::ResourcePolicy&lt;/td&gt; \n   &lt;td&gt;AWS::Lightsail::Domain&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::ModelPackage&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::CodePipeline::Webhook&lt;/td&gt; \n   &lt;td&gt;AWS::Lightsail::Instance&lt;/td&gt; \n   &lt;td&gt;AWS::SES::MailManagerArchive&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Config::OrganizationConformancePack&lt;/td&gt; \n   &lt;td&gt;AWS::Lightsail::LoadBalancer&lt;/td&gt; \n   &lt;td&gt;AWS::Transfer::WebApp&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Connect::AgentStatus&lt;/td&gt; \n   &lt;td&gt;AWS::Logs::ResourcePolicy&lt;/td&gt; \n   &lt;td&gt;AWS::WorkSpacesWeb::TrustStore&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Connect::EvaluationForm&lt;/td&gt; \n   &lt;td&gt;AWS::MediaConnect::Bridge&lt;/td&gt; \n   &lt;td&gt;AWS::WorkSpacesWeb::UserAccessLoggingSettings&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Connect::View&lt;/td&gt; \n   &lt;td&gt;AWS::NetworkManager::CoreNetwork&lt;/td&gt; \n   &lt;td&gt;AWS::XRay::Group&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Connect::ViewVersion&lt;/td&gt; \n   &lt;td&gt;AWS::Organizations::Account&lt;/td&gt; \n   &lt;td&gt;AWS::XRay::ResourcePolicy&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::EC2::NetworkPerformanceMetricSubscription&lt;/td&gt; \n   &lt;td&gt;AWS::Organizations::Organization&lt;/td&gt; \n   &lt;td&gt;AWS::XRay::SamplingRule&lt;/td&gt; \n  &lt;/tr&gt;\n &lt;/tbody&gt;\n&lt;/table&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types/",
+      "publishedAt": "2026-09-02T15:00:00.000Z",
+      "updatedAt": "2026-09-02T15:00:00.000Z",
+      "categories": [
+        "Management And Governance",
+        "AWS Config"
+      ],
+      "services": [
+        "Config"
+      ],
+      "tags": [
+        "management and governance",
+        "aws config",
+        "config"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Config",
+        "Organizations",
+        "audit"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "db2951b3eeac3d8a",
       "title": "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
       "description": "AWS Backup now supports backup and restore of more than 1,000 Amazon S3 buckets per account, matching the Amazon S3 bucket quota configured for your account. Previously, AWS Backup for Amazon S3 supported up to 1,000 buckets per account. With this launch, AWS Backup supports backing up all general purpose buckets in your account. Existing backup plans and configurations continue to work with no changes required if you are using default AWS Backup managed policies. For details on the required permissions for custom policies, see the AWS Backup documentation . This capability is available in all",
@@ -3968,7 +4097,7 @@
         "amazon connect",
         "connect"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 25,
       "securityLevel": "medium",
       "securityMatches": [
@@ -4005,6 +4134,73 @@
       "securityMatches": [
         "security",
         "patch"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "6d1f457c15a1d7b4",
+      "title": "Second-generation AWS Outposts racks now in the AWS GovCloud (US) Regions",
+      "description": "Second-generation AWS Outposts racks are now supported in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid experience. Organizations from startups to enterprises and the public sector can now order their Outposts racks connected to the new supported regions, optimizing for their latency and data residency needs. Outposts allows customers to run workloads that need low latency access to on-premises systems locally while ",
+      "descriptionHtml": "&lt;p&gt;Second-generation AWS Outposts racks are now supported in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid experience.&lt;br&gt; &lt;br&gt; Organizations from startups to enterprises and the public sector can now order their Outposts racks connected to the new supported regions, optimizing for their latency and data residency needs. Outposts allows customers to run workloads that need low latency access to on-premises systems locally while connecting back to their home Region for application management. Customers can also use Outposts and AWS services to manage and process data that needs to remain on-premises to meet data residency requirements. This regional expansion provides additional flexibility in the AWS Regions that customers’ Outposts can connect to.&lt;br&gt; &lt;br&gt; To learn more about second-generation Outposts racks, read &lt;a href=\"https://aws.amazon.com/blogs/aws/announcing-second-generation-aws-outposts-racks-with-breakthrough-performance-and-scalability-on-premises/\"&gt;&lt;u&gt;this blog post&lt;/u&gt;&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/outposts/latest/network-userguide/what-is-outposts.html\"&gt;&lt;u&gt;user guide&lt;/u&gt;&lt;/a&gt;. For the most updated list of countries and territories and the AWS Regions where second-generation Outposts racks are supported, check out the &lt;a href=\"https://aws.amazon.com/outposts/rack/faqs/\"&gt;&lt;u&gt;Outposts rack FAQs page&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/",
+      "publishedAt": "2026-09-02T16:00:00.000Z",
+      "updatedAt": "2026-09-02T16:00:00.000Z",
+      "categories": [
+        "AWS Govcloud Us",
+        "Compute",
+        "Storage",
+        "AWS Outposts"
+      ],
+      "services": [
+        "Outposts"
+      ],
+      "tags": [
+        "aws govcloud us",
+        "compute",
+        "storage",
+        "aws outposts",
+        "outposts"
+      ],
+      "isNew": true,
+      "securityScore": 20,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Organizations",
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "b309119f6e1e41b2",
+      "title": "Amazon SageMaker Unified Studio CI/CD adds notebook promotion and AI-assisted manifest generation",
+      "description": "Amazon SageMaker Unified Studio CI/CD expands its open-source deployment toolkit with two new capabilities: (1) an AI agent skill that automates manifest authoring, and (2) native notebook promotion across environments. Together, they help data teams go from project to production faster while maintaining best-practice defaults across stages. AI-assisted manifest generation. The new generate-bundle-manifest agent skill inspects a project's connections, storage, and workflows and produces a ready-to-use deployment manifest. It applies least-privilege IAM guidance, substitutes environment variabl",
+      "descriptionHtml": "&lt;p&gt;Amazon SageMaker Unified Studio CI/CD expands its open-source deployment toolkit with two new capabilities: (1) an AI agent skill that automates manifest authoring, and (2) native notebook promotion across environments. Together, they help data teams go from project to production faster while maintaining best-practice defaults across stages.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;AI-assisted manifest generation. &lt;/b&gt;The new generate-bundle-manifest agent skill inspects a project's connections, storage, and workflows and produces a ready-to-use deployment manifest. It applies least-privilege IAM guidance, substitutes environment variables in place of hardcoded resource identifiers, and sets safe defaults such as opt-in catalog handling. Teams can import the skill into their own agents to standardize how they package and promote SageMaker Unified Studio projects across development, test, and production accounts.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Native notebook promotion. &lt;/b&gt;The CI/CD toolkit now supports promoting native SMUS Notebooks alongside code, workflows, and catalog assets. Notebook promotion uses an in-place synchronization model that creates a notebook on first deployment and updates it on subsequent deployments, preserving run history across releases. Teams can promote every notebook in a project or select specific notebooks by ID, and a dry-run mode validates S3 connectivity, IAM permissions, and notebook counts before deployment. Notebook promotion integrates with the existing bundle, deploy, destroy, and dry-run commands and requires no changes to current pipeline structure.&lt;/p&gt; \n&lt;p&gt;Both capabilities are open source and available in all AWS Regions where Amazon SageMaker Unified Studio is offered.&lt;/p&gt; \n&lt;p&gt;To get started, visit the &lt;a href=\"https://github.com/aws/CICD-for-SageMakerUnifiedStudio\"&gt;CICD-for-SageMakerUnifiedStudio&lt;/a&gt; repository on GitHub. For more information, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/cicd.html\"&gt;CI/CD for Amazon SageMaker Unified Studio documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-cicd-notebook-ai-manifest/",
+      "publishedAt": "2026-09-02T08:00:00.000Z",
+      "updatedAt": "2026-09-02T08:00:00.000Z",
+      "categories": [
+        "Developer Tools",
+        "Amazon Sagemaker Studio",
+        "Analytics",
+        "Amazon Sagemaker",
+        "Artificial Intelligence"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "developer tools",
+        "amazon sagemaker studio",
+        "analytics",
+        "amazon sagemaker",
+        "artificial intelligence",
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 20,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "IAM"
       ],
       "source": "whats-new"
     },
@@ -4305,6 +4501,36 @@
       "source": "whats-new"
     },
     {
+      "id": "822f710df2bec56f",
+      "title": "Web Search on Amazon Bedrock is now available in AWS GovCloud (US-West)",
+      "description": "The Web Search built-in server-side tool on Amazon Bedrock is now available in AWS GovCloud (US-West), helping bring grounded web results to compliance-sensitive government and public-sector workloads. Web Search helps supported OpenAI GPT models ground responses with information from the web. Responses include citations to the sources the model used so users can trace each claim back to its web origin. This can be especially valuable whenever an answer depends on information that changes over time or is more recent than a model's training data, such as current events, recent releases or live ",
+      "descriptionHtml": "&lt;p&gt;The Web Search built-in server-side tool on Amazon Bedrock is now available in AWS GovCloud (US-West), helping bring grounded web results to compliance-sensitive government and public-sector workloads. Web Search helps supported OpenAI GPT models ground responses with information from the web. Responses include citations to the sources the model used so users can trace each claim back to its web origin. This can be especially valuable whenever an answer depends on information that changes over time or is more recent than a model's training data, such as current events, recent releases or live pricing. Because the tool runs inside Amazon Bedrock, you don't host a search index, manage crawlers, or write the tool-call loop yourself.&lt;/p&gt; \n&lt;p&gt;Web Search is designed to support the governance and data-handling standards AWS GovCloud (US) customers require. By default, it keeps your request data within the AWS boundary, serving results from a web index and cache maintained by Amazon. As an AWS-native capability governed by AWS Identity and Access Management (IAM), administrators can allow or deny it at the account or organization level and restrict it by Region, giving teams centralized control while keeping request data within the AWS boundary by default. To get started, add a tool of type web_search to the tools array in your OpenAI Responses API request using your existing OpenAI client library with an Amazon Bedrock API key. The model uses the tool only when it determines a request needs current information. At launch, Web Search in AWS GovCloud (US-West) supports GPT-5.4 , GPT-5.6 Terra and Luna models.&lt;/p&gt; \n&lt;p&gt;Web Search is available in AWS GovCloud (US-West), in addition to US East (N. Virginia), US East (Ohio), and US West (Oregon). To get started, see the Web Search &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-for-foundation-model-grounding/\"&gt;technical blog&lt;/a&gt;. For implementation guidance, see the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/web-search.html\"&gt;Web Search documentation&lt;/a&gt;. For pricing, see the Amazon Bedrock &lt;a href=\"https://aws.amazon.com/bedrock/pricing/\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
+      "publishedAt": "2026-09-02T17:52:00.000Z",
+      "updatedAt": "2026-09-02T17:52:00.000Z",
+      "categories": [
+        "AWS Govcloud Us",
+        "Amazon Bedrock",
+        "Containers"
+      ],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "aws govcloud us",
+        "amazon bedrock",
+        "containers",
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 15,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "compliance"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "2ced91b2c4a06d94",
       "title": "Claude Fable 5.1, Anthropic's new frontier model is now available on AWS",
       "description": "Claude Fable 5.1 is generally available on AWS and brings Anthropic's most capable frontier model to all customers. Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. A clear improvement over Claude Fable 5, Fable 5.1 is a step up in intelligence on the hardest reasoning tasks, providing better judgement on ambiguous work and fewer confident wrong answers. Claude Mythos 5.1, the same underlying model as Claude Fable 5.1 with its full cyber and bio capabilities retained for cybersecurity and biology research, is available w",
@@ -4313,18 +4539,18 @@
       "publishedAt": "2026-09-01T14:00:00.000Z",
       "updatedAt": "2026-09-01T14:00:00.000Z",
       "categories": [
-        "Amazon Bedrock",
+        "AWS Govcloud Us",
         "Artificial Intelligence",
-        "AWS Govcloud Us"
+        "Amazon Bedrock"
       ],
       "services": [
         "Bedrock",
         "Claude"
       ],
       "tags": [
-        "amazon bedrock",
-        "artificial intelligence",
         "aws govcloud us",
+        "artificial intelligence",
+        "amazon bedrock",
         "bedrock",
         "claude"
       ],
@@ -4413,7 +4639,7 @@
         "aws glue",
         "glue"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -4517,6 +4743,92 @@
       "securityLevel": "medium",
       "securityMatches": [
         "compliance"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "efe322ccf45b8f38",
+      "title": "Amazon Quick adds new tool settings and Model Context Protocol (MCP) sync support for connectors",
+      "description": "Amazon Quick connectors let users leverage tools and services such as Outlook, Slack, Salesforce, Jira, and homegrown MCP servers directly into their workflows across chat, agents, apps, flows, and deep research. Today, Amazon Quick introduces new tool settings and MCP sync support that give admins and connector owners more control over how connectors are deployed and kept up to date. Connector owners and admins can now selectively enable or disable individual tools within a connector to ensure only approved tools are available to end users. Additionally, new tool permission settings let conne",
+      "descriptionHtml": "&lt;p&gt;Amazon Quick connectors let users leverage tools and services such as Outlook, Slack, Salesforce, Jira, and homegrown MCP servers directly into their workflows across chat, agents, apps, flows, and deep research. Today, Amazon Quick introduces new tool settings and MCP sync support that give admins and connector owners more control over how connectors are deployed and kept up to date.&lt;/p&gt; \n&lt;p&gt;Connector owners and admins can now selectively enable or disable individual tools within a connector to ensure only approved tools are available to end users. Additionally, new tool permission settings let connector owners decide which tools require consent before proceeding or give end users the flexibility to decide for themselves. Lastly, MCP sync keeps connectors current as external MCP servers add new tools, update descriptions, and evolve their capabilities, ensuring users always have the latest information to get their work done.&lt;/p&gt; \n&lt;p&gt;These features are available in all AWS Regions where Amazon Quick is available. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/quicksight/latest/user/welcome.html\" target=\"_blank\"&gt;Amazon Quick User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/",
+      "publishedAt": "2026-09-02T16:54:00.000Z",
+      "updatedAt": "2026-09-02T16:54:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Business Productivity",
+        "Developer Tools",
+        "AWS Developer Tools"
+      ],
+      "services": [],
+      "tags": [
+        "artificial intelligence",
+        "business productivity",
+        "developer tools",
+        "aws developer tools"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "permission"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "9ad08f8e1d9d47a6",
+      "title": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions",
+      "description": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions. UXC enables account administrators to set a custom account color and control which services and Regions appear in the AWS Management Console. Previously, UXC was available only in US East (N. Virginia), requiring customers who manage these settings programmatically to direct API calls to that single Region. With today's expansion, customers can manage account customizations from any commercial AWS Region using the AWS CLI, AWS SDKs, or AWS CloudFormation — making it easier to configure the console experienc",
+      "descriptionHtml": "&lt;p&gt;AWS User Experience Customization (UXC) is now available in all commercial AWS Regions. UXC enables account administrators to set a custom account color and control which services and Regions appear in the AWS Management Console.&lt;/p&gt; \n&lt;p&gt;Previously, UXC was available only in US East (N. Virginia), requiring customers who manage these settings programmatically to direct API calls to that single Region. With today's expansion, customers can manage account customizations from any commercial AWS Region using the AWS CLI, AWS SDKs, or AWS CloudFormation — making it easier to configure the console experience alongside existing infrastructure automation.&lt;/p&gt; \n&lt;p&gt;UXC is available at no additional charge. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/uxc.html\"&gt;AWS User Experience Customization documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-uxc-aws-regions",
+      "publishedAt": "2026-09-02T13:00:00.000Z",
+      "updatedAt": "2026-09-02T13:00:00.000Z",
+      "categories": [
+        "Management And Administration",
+        "Management And Governance",
+        "Management Tools"
+      ],
+      "services": [],
+      "tags": [
+        "management and administration",
+        "management and governance",
+        "management tools"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "bff7205c755f6b5b",
+      "title": "Amazon RDS for SQL Server supports additional SQL trace flags",
+      "description": "Amazon RDS for SQL Server supports 18 additional SQL trace flags that you can enable through database parameter groups. Trace flags are configuration switches that modify SQL Server engine behavior — such as query optimizer cardinality estimation, lock escalation, statistics management, and memory handling — to allow database administrators to fine-tune performance and address workload-specific challenges. With this expansion, you have greater flexibility to optimize and stabilize your SQL Server workloads directly within your managed RDS environment. The newly supported trace flags include: 6",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/sqlserver/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for SQL Server&lt;/a&gt;&amp;nbsp;supports 18 additional SQL trace flags that you can enable through database parameter groups. Trace flags are configuration switches that modify SQL Server engine behavior — such as query optimizer cardinality estimation, lock escalation, statistics management, and memory handling — to allow database administrators to fine-tune performance and address workload-specific challenges. With this expansion, you have greater flexibility to optimize and stabilize your SQL Server workloads directly within your managed RDS environment.&lt;/p&gt; \n&lt;p&gt;The newly supported trace flags include: 647, 652, 1448, 3654, 4138, 4139, 7745, 8285, 8780, 9432, 9481, 9492, 9592, 11024, 11042, 12502, 12618, and 12656. These trace flags address scenarios such as query plan optimization, DDL performance improvements, availability group replication, Query Store behavior, automatic plan correction, and known engine bug mitigations. Because trace flags modify core SQL Server engine behavior, you should test them in a non-production environment before applying them to production instances. Some trace flags can impact system performance, increase memory usage, or change query execution plans in unexpected ways.&lt;/p&gt; \n&lt;p&gt;Trace flags are available in all AWS Regions where Amazon RDS for SQL Server is supported. To get started, update your RDS parameter group to enable the desired trace flags and apply it to your DB instance.&amp;nbsp;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SQLServer.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for SQL Server User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-sqlserver-supports-additional-trace-flags/",
+      "publishedAt": "2026-09-02T07:00:00.000Z",
+      "updatedAt": "2026-09-02T07:00:00.000Z",
+      "categories": [
+        "Amazon Rds For Sql Server",
+        "AWS Govcloud Us",
+        "Databases"
+      ],
+      "services": [
+        "RDS"
+      ],
+      "tags": [
+        "amazon rds for sql server",
+        "aws govcloud us",
+        "databases",
+        "rds"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
       ],
       "source": "whats-new"
     },
@@ -5201,7 +5513,7 @@
         "amazon simple storage service",
         "s3"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 5,
       "securityLevel": "low",
       "securityMatches": [
@@ -5235,6 +5547,84 @@
       "securityMatches": [
         "token"
       ],
+      "source": "whats-new"
+    },
+    {
+      "id": "13e650259e5fda18",
+      "title": "Amazon Connect Customer expands automated performance evaluations to Malay",
+      "description": "Amazon Connect Customer now automates evaluations of human and AI agents in Malay using generative AI. Managers define custom evaluation criteria in natural language and receive AI-generated evaluations with justifications in their preferred language. Performance evaluations also supports cross-language evaluation and can complete assessments in English, even when the conversation is in Malay. This enables multilingual contact centers to use a standardized evaluation framework across languages. This feature is supported in 8 AWS regions including US East (N. Virginia), US West (Oregon), Europe",
+      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now automates evaluations of human and AI agents in Malay using generative AI. Managers define custom evaluation criteria in natural language and receive AI-generated evaluations with justifications in their preferred language. Performance evaluations also supports cross-language evaluation and can complete assessments in English, even when the conversation is in Malay. This enables multilingual contact centers to use a standardized evaluation framework across languages.&lt;/p&gt; \n&lt;p&gt;This feature is supported in 8 &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regions_az/\"&gt;AWS regions&lt;/a&gt; including US East (N. Virginia), US West (Oregon), Europe (Frankfurt), Europe (London), Canada (Central), Asia Pacific (Sydney), Asia Pacific (Tokyo), and Asia Pacific (Singapore). For information about Amazon Connect pricing, please visit our &lt;a href=\"https://aws.amazon.com/connect/pricing/\"&gt;pricing page&lt;/a&gt;. To learn more, please visit our &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/generative-ai-performance-evaluations.html#set-up-generative-ai-evals-in-non-english-language\"&gt;documentation&lt;/a&gt; and our &lt;a href=\"https://aws.amazon.com/connect/contact-lens/\"&gt;webpage&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-automated-evaluations-malay/",
+      "publishedAt": "2026-09-02T17:00:00.000Z",
+      "updatedAt": "2026-09-02T17:00:00.000Z",
+      "categories": [
+        "Amazon Connect",
+        "Contact Center"
+      ],
+      "services": [
+        "Connect"
+      ],
+      "tags": [
+        "amazon connect",
+        "contact center",
+        "connect"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "aa4ce5a4cfc3d180",
+      "title": "Amazon Connect Customer announces general availability of agentic CX designer",
+      "description": "Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice and digital experiences that bring agentic and deterministic AI together to transform how you serve customers with the control and reliability enterprises demand. Your business teams users can go from designing conversations and integrating with the systems that run your business, to testing, to launching production-ready experiences in weeks, not months. Agentic CX designer gives you the clarity ",
+      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice and digital experiences that bring agentic and deterministic AI together to transform how you serve customers with the control and reliability enterprises demand. Your business teams users can go from designing conversations and integrating with the systems that run your business, to testing, to launching production-ready experiences in weeks, not months.&lt;/p&gt; \n&lt;p&gt;Agentic CX designer gives you the clarity of a flowchart with the power of a large language model. On a visual canvas you define the logic, guardrails, and integrations, and the model handles the natural conversation. For outcomes that have to be exact, such as eligibility, approvals, routing, or compliance, you define the workflow and the conversation follows it. You build, test, and deploy in the same place, so the team that designs an experience can validate it and put it into production without writing code or handing the work to engineering.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
+      "publishedAt": "2026-09-02T16:00:00.000Z",
+      "updatedAt": "2026-09-02T16:00:00.000Z",
+      "categories": [
+        "Contact Center"
+      ],
+      "services": [
+        "Connect"
+      ],
+      "tags": [
+        "contact center",
+        "connect"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "6bb3875a98d222de",
+      "title": "AWS Lambda now supports SnapStart for container image functions",
+      "description": "Starting today, AWS Lambda supports SnapStart for functions packaged as container images , reducing startup times from several seconds to as low as sub-second. Lambda SnapStart is an opt-in capability that makes it easier for you to build highly responsive and scalable applications without provisioning resources or implementing complex performance optimizations. Customers deploy Lambda functions with container images to align with their organization's container-based deployment standards, or to package larger dependencies up to 10 GB. However, larger container images can experience startup tim",
+      "descriptionHtml": "&lt;p&gt;Starting today, AWS Lambda supports SnapStart for functions packaged as &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/images-create.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;container images&lt;/a&gt;, reducing startup times from several seconds to as low as sub-second. Lambda SnapStart is an opt-in capability that makes it easier for you to build highly responsive and scalable applications without provisioning resources or implementing complex performance optimizations.&lt;/p&gt; \n&lt;p&gt;Customers deploy Lambda functions with container images to align with their organization's container-based deployment standards, or to package larger dependencies up to 10 GB. However, larger container images can experience startup times of several seconds as Lambda downloads image layers and initializes the runtime and application code. SnapStart addresses this by taking a snapshot of the initialized execution environment during function deployment, caching it, and resuming from it on invocation, instead of initializing from scratch. Previously, SnapStart was only supported for managed runtimes (Python, .NET, and Java). Starting today, customers can use SnapStart for container images to improve startup times for latency-sensitive workloads such as ML inference and interactive APIs.&lt;/p&gt; \n&lt;p&gt;Lambda SnapStart for container images is available in all commercial &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions&lt;/a&gt;, except Asia Pacific (New Zealand) and Asia Pacific (Taipei).&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;You can activate SnapStart for new or existing &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/images-create.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;container image&lt;/a&gt; functions using AWS Lambda API, AWS Console, AWS Command Line Interface (AWS CLI), AWS CloudFormation, AWS Serverless Application Model (AWS SAM), AWS SDK, and AWS Cloud Development Kit (AWS CDK). If you use an AWS base image for Lambda with Java (version 11+), Python (version 3.12+), or .NET (version 8+), the experience remains the same as with functions deployed as .zip file archives. For all other AWS base images for Lambda (for example, Node.js or Ruby) or custom base images, refer to the &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/snapstart-runtime-hooks-custom.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;developer guide.&lt;/a&gt; For more information about SnapStart, see Lambda &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation.&lt;/a&gt; To learn more about pricing for SnapStart for container image functions, visit &lt;a href=\"https://aws.amazon.com/lambda/pricing/#SnapStart_Pricing\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Lambda Pricing.&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/",
+      "publishedAt": "2026-09-02T09:00:00.000Z",
+      "updatedAt": "2026-09-02T09:00:00.000Z",
+      "categories": [
+        "Serverless",
+        "Developer Tools",
+        "Compute"
+      ],
+      "services": [
+        "Lambda"
+      ],
+      "tags": [
+        "serverless",
+        "developer tools",
+        "compute",
+        "lambda"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
       "source": "whats-new"
     },
     {
@@ -5314,6 +5704,31 @@
       "source": "whats-new"
     },
     {
+      "id": "2479d752fd3d6a2e",
+      "title": "AWS Marketplace reduces listing fee for professional services in multi-product solutions",
+      "description": "AWS Marketplace now offers a 0% listing fee for professional services purchased as part of a qualifying multi-product solution. This builds on the recent reduction of professional services listing fee to 0.5%. It further lowers the cost for any Partner that transacts services through AWS Marketplace, while retaining the billing benefits that come with it. Over the past year, AWS Marketplace has built a set of capabilities purpose-built for discovering and purchasing services. Customers can find the right Partner through AI-powered discovery in Agent Mode, combine software and services in a sin",
+      "descriptionHtml": "&lt;p&gt;AWS Marketplace now offers a 0% listing fee for professional services purchased as part of a qualifying multi-product solution. This builds on the recent reduction of professional services listing fee to 0.5%. It further lowers the cost for any Partner that transacts services through AWS Marketplace, while retaining the billing benefits that come with it.&lt;/p&gt; \n&lt;p&gt;Over the past year, AWS Marketplace has built a set of capabilities purpose-built for discovering and purchasing services. Customers can find the right Partner through AI-powered discovery in Agent Mode, combine software and services in a single transaction through multi-product solutions, and pay through variable payment models like time-and-materials. The 0% fee for professional services within a multi-product solution complements these capabilities and further reduces the cost for Partners to sell solutions through AWS Marketplace.&lt;/p&gt; \n&lt;p&gt;A multi-product solution qualifies for the 0% fee when its professional services are combined with at least one other valid, paid subscription. The fee applies to new subscriptions, while existing subscriptions continue at their original terms.&amp;nbsp;This applies to all commercial AWS Regions where AWS Marketplace operates.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;To get started, Partners can review&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/userguide/listing-fees.html\"&gt;seller documentation&lt;/a&gt;&amp;nbsp;and list multi-product solutions through&amp;nbsp;&lt;a href=\"https://console.aws.amazon.com/partnercentral/solutions\"&gt;AWS Partner Central&amp;nbsp;&lt;/a&gt;. Customers can explore&amp;nbsp;&lt;a href=\"https://aws.amazon.com/marketplace/search/results?ref_=header_nav_dm_saas&amp;amp;NUMBER_OF_PRODUCTS=MULTI_PRODUCT&amp;amp;filters=NUMBER_OF_PRODUCTS\"&gt;multi-product solutions&lt;/a&gt;&amp;nbsp;directly on AWS Marketplace.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-fee-professional-services/",
+      "publishedAt": "2026-09-01T18:00:00.000Z",
+      "updatedAt": "2026-09-01T18:00:00.000Z",
+      "categories": [
+        "AWS Marketplace",
+        "AWS Marketplace And Partners",
+        "Partner Network"
+      ],
+      "services": [],
+      "tags": [
+        "aws marketplace",
+        "aws marketplace and partners",
+        "partner network"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "f271da8d03425285",
       "title": "Amazon Connect Customer dashboards now support compact mode",
       "description": "Amazon Connect Customer now offers compact mode on the analytics dashboards, increasing data density so supervisors can see more of their operational data without scrolling. Compact mode reduces widget size, font, and minimizes filters to maximize screen space. For example, a supervisor on a 13-inch laptop toggles compact mode, which reduces row height, enabling them to view all team agents on the widget without scrolling and spot non-adherent agents faster. Compact mode on dashboards is available in all AWS regions where Amazon Connect Customer is offered. To learn more about Amazon Connect C",
@@ -5362,6 +5777,59 @@
         "analytics",
         "amazon mwaa",
         "mwaa"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "a74c1dcba912396e",
+      "title": "AWS Marketplace now supports auto-renewals for private offers",
+      "description": "AWS Marketplace now supports auto-renewals for private offers. This capability helps sellers and buyers maintain active software and service subscriptions without re-negotiation or re-purchasing at the end of the term. Negotiated pricing and contract terms carry forward automatically when buyers and sellers agree to renew. This helps reduce procurement overhead and prevent unintended lapses in subscriptions. When creating a private offer, sellers define the renewal terms and choose how pricing carries forward: renewal with no price change, renewal with a fixed price change, or a price change w",
+      "descriptionHtml": "&lt;p&gt;AWS Marketplace now supports auto-renewals for private offers. This capability helps sellers and buyers maintain active software and service subscriptions without re-negotiation or re-purchasing at the end of the term. Negotiated pricing and contract terms carry forward automatically when buyers and sellers agree to renew. This helps reduce procurement overhead and prevent unintended lapses in subscriptions.&lt;/p&gt; \n&lt;p&gt;When creating a private offer, sellers define the renewal terms and choose how pricing carries forward: renewal with no price change, renewal with a fixed price change, or a price change within a defined range. Buyers can opt in or out during initial offer acceptance, and can update their preferences later as their business needs change. Before automatically renewing the subscription, AWS Marketplace notifies both parties and provides a comparison of the current and upcoming terms, including any pricing changes. Either party can opt out of an upcoming renewal before the renewal decision deadline. Buyers can map a purchase order to any renewal to maintain procurement controls. Both parties are notified when a renewal completes successfully.&lt;/p&gt; \n&lt;p&gt;This capability is generally available in all commercial AWS Regions for sellers creating direct private offers with contract pricing. No additional setup or onboarding is required. To learn more, see the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/userguide/creating-private-offer.html#drafting-and-publishing-private-offer\"&gt;AWS Marketplace Seller Guide&lt;/a&gt;&amp;nbsp;and the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/buyerguide/how-auto-renewal-private-offers-works.html\"&gt;AWS Marketplace Buyer Guide&amp;nbsp;&lt;/a&gt;. Sellers can configure auto-renewing private offers in the&amp;nbsp;&lt;a href=\"https://aws.amazon.com/marketplace/management/\"&gt;AWS Marketplace Management Portal&amp;nbsp;&lt;/a&gt;. Buyers can manage subscriptions and renewals in the&amp;nbsp;&lt;a href=\"https://console.aws.amazon.com/marketplace/subscriptions\"&gt;AWS Marketplace Console&amp;nbsp;&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-auto-renewals-for-private-offers",
+      "publishedAt": "2026-09-01T15:00:00.000Z",
+      "updatedAt": "2026-09-01T15:00:00.000Z",
+      "categories": [
+        "Partner Network",
+        "AWS Marketplace And Partners",
+        "AWS Marketplace"
+      ],
+      "services": [],
+      "tags": [
+        "partner network",
+        "aws marketplace and partners",
+        "aws marketplace"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "4ba5ab6de0aea5dc",
+      "title": "Claude Fable 5.1, Anthropic's new frontier model is now available on AWS GovCloud (US)",
+      "description": "Claude Fable 5.1 is generally available on Amazon Bedrock in AWS GovCloud (US) and brings Anthropic's most capable frontier model to regulated industry customers. Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running, high-stakes work that runs for hours and spans many applications. It can own more of a software project on its own, handling features across an entire codebase, code review, and performance work over sessions that run for hours. If it gets stuck, it says so instead of r",
+      "descriptionHtml": "&lt;p&gt;Claude Fable 5.1 is generally available on Amazon Bedrock in AWS GovCloud (US) and brings Anthropic's most capable frontier model to regulated industry customers. Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. &amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Claude Fable 5.1 is built for&amp;nbsp;long-running, high-stakes work that runs for hours and spans many applications. It can own more of a software project on its own, handling features across an entire codebase, code review, and performance work over sessions that run for hours. If it gets stuck, it says so instead of reporting success, and it is less likely to take shortcuts like disabling a failing test. It takes analysis from the first question to the finished document, and it is Anthropic's strongest model yet for knowledge work.&lt;/p&gt; \n&lt;p&gt;Anthropic has designated Fable 5.1 a&lt;a href=\"https://support.claude.com/en/articles/15425695-covered-models\"&gt;&amp;nbsp;&lt;/a&gt;&lt;a href=\"https://support.claude.com/en/articles/15425695-covered-models\"&gt;Covered Model&lt;/a&gt;, a category of Claude models that carry additional data retention, safety review, and access policies wherever they're offered.&amp;nbsp;&lt;a href=\"https://www.anthropic.com/news/enterprise-frontier-safeguards\"&gt;Enterprise Frontier Safeguards&lt;/a&gt; (EFS) built in partnership between AWS and Anthropic, will let eligible customers use Covered Models while keeping their data in a cloud environment they control. Read the&amp;nbsp;&lt;a href=\"https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/\"&gt;launch blog&lt;/a&gt; to learn more.&lt;/p&gt; \n&lt;p&gt;To learn more, see the Amazon Bedrock&lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5-1.html\"&gt; documentation&lt;/a&gt;, and &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html#model-regions-anthropic\"&gt;regional availability&lt;/a&gt; pages.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws-govcloud/",
+      "publishedAt": "2026-09-01T14:00:00.000Z",
+      "updatedAt": "2026-09-01T14:00:00.000Z",
+      "categories": [
+        "Amazon Bedrock",
+        "AWS Govcloud Us"
+      ],
+      "services": [
+        "Bedrock",
+        "Claude"
+      ],
+      "tags": [
+        "amazon bedrock",
+        "aws govcloud us",
+        "bedrock",
+        "claude"
       ],
       "isNew": true,
       "securityScore": 0,
@@ -5841,7 +6309,7 @@
       "tags": [
         "aurora"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -5869,7 +6337,7 @@
         "business productivity",
         "connect"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
