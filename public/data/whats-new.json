@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T11:59:52.853Z",
+  "lastUpdated": "2026-09-07T14:02:43.316Z",
   "itemCount": 302,
   "items": [
     {
@@ -186,7 +186,7 @@
       "tags": [
         "security and compliance"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2219,7 +2219,7 @@
       "tags": [
         "aws secrets manager"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 50,
       "securityLevel": "critical",
       "securityMatches": [
@@ -4559,7 +4559,7 @@
         "aws elastic beanstalk",
         "elastic beanstalk"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 25,
       "securityLevel": "medium",
       "securityMatches": [
