@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-11T12:39:36.758Z",
-  "itemCount": 359,
+  "lastUpdated": "2026-09-12T12:00:30.643Z",
+  "itemCount": 371,
   "items": [
     {
       "id": "d22e203e433ef6ab",
@@ -1576,6 +1576,26 @@
       "source": "security-blog"
     },
     {
+      "id": "caa70077f6f98466",
+      "title": "CVE-2026-18061 - XML External Entity (XXE) in AWS Advanced JDBC Wrapper RemoteQueryCachePlugin",
+      "description": "Bulletin ID: 2026-109-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/11/2026 09:30 AM PDT Description: The AWS Advanced JDBC Wrapper is an open-source library that enhances existing JDBC drivers with AWS-specific capabilities such as Aurora failover, IAM authentication, and automated SQL query caching for applications connecting to Amazon Aurora, RDS MySQL, and RDS MariaDB. We identified CVE-2026-18061, an improper restriction of XML external entity (XXE) references in the optional RemoteQueryCachePlugin. When this plugin is enabled with a shared cache, an act",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-109-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 09/11/2026 09:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;The &lt;a href=\"https://github.com/aws/aws-advanced-jdbc-wrapper\" target=\"_blank\"&gt;AWS Advanced JDBC Wrapper&lt;/a&gt; is an open-source library that enhances existing JDBC drivers with AWS-specific capabilities such as Aurora failover, IAM authentication, and automated SQL query caching for applications connecting to Amazon Aurora, RDS MySQL, and RDS MariaDB.&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-18061, an improper restriction of XML external entity (XXE) references in the optional RemoteQueryCachePlugin. When this plugin is enabled with a shared cache, an actor with write access to that cache infrastructure might place crafted XML in a cached column value. When an application subsequently reads that cached result as XML, the wrapper's XML parsers resolve external entities, which might allow the actor to disclose sensitive files readable by the application process, including stored database and IAM role credentials.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;= 3.3.0 and &amp;lt;= 4.2.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-109-aws/",
+      "publishedAt": "2026-09-11T16:37:01.000Z",
+      "updatedAt": "2026-09-11T16:37:01.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 65,
+      "securityLevel": "high",
+      "securityMatches": [
+        "IAM",
+        "authentication"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "211a7ee82aaf4e9d",
       "title": "AWS Storage Gateway now supports FIPS-compliant private connectivity for Amazon S3 File Gateway",
       "description": "AWS Storage Gateway now supports FIPS 140-3 validated endpoints over AWS PrivateLink for Amazon S3 File Gateway. Previously, FIPS endpoints for File Gateway were available only over the public internet. Now you can keep FIPS-compliant traffic on the private AWS network, making it easier to use Storage Gateway for regulated workloads. With this launch, your File Gateway can reach the Storage Gateway service endpoints privately through a FIPS interface VPC endpoint in your VPC. You can also create NFS and SMB file shares that reach Amazon S3 through an S3 FIPS interface endpoint, enabling FIPS-c",
@@ -1688,7 +1708,7 @@
         "aws govcloud us",
         "guardduty"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 65,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2109,7 +2129,7 @@
         "& compliance",
         "security blog"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 55,
       "securityLevel": "medium",
       "securityMatches": [
@@ -2707,6 +2727,45 @@
       "source": "whats-new"
     },
     {
+      "id": "6a0d0961aea9da66",
+      "title": "CVE-2026-89090 - Denial of service in the event stream header decoder in AWS SDK for Go v2",
+      "description": "Bulletin ID: 2026-110-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/11/2026 10:00 AM PDT Description: An issue exists in the the EventStream header decoder in AWS SDK for Go v2 in versions predating 2026-03-23. An actor can send a malformed EventStream response frame containing a crafted header value type byte outside the valid range, which can cause the host process to terminate. Impacted versions: Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-110-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 09/11/2026 10:00 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;An issue exists in the the EventStream header decoder in AWS SDK for Go v2 in versions predating 2026-03-23. An actor can send a malformed EventStream response frame containing a crafted header value type byte outside the valid range, which can cause the host process to terminate.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt; 2026-03-23&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-110-aws/",
+      "publishedAt": "2026-09-11T17:09:09.000Z",
+      "updatedAt": "2026-09-11T17:09:09.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "security"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "620b291e0c95e62c",
+      "title": "CVE-2026-89065 and CVE-2026-89066: Issue with projen - Path traversal and OS command injection",
+      "description": "Bulletin ID: 2026-108-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/11/2026 09:00 AM PDT Description: projen is an open-source tool for defining and synthesizing software project configurations as code. AWS identified two issues in projen affecting the generated file manifest cleanup component and the task synthesis component. - CVE-2026-89065 — Relative path traversal in the generated file manifest cleanup component in projen before 0.101.37 might allow context-dependent attackers to recursively delete files and directories outside the project directory, via",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-108-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 09/11/2026 09:00 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;projen is an open-source tool for defining and synthesizing software project configurations as code. AWS identified two issues in projen affecting the generated file manifest cleanup component and the task synthesis component.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;- CVE-2026-89065 —&lt;/b&gt; Relative path traversal in the generated file manifest cleanup component in projen before 0.101.37 might allow context-dependent attackers to recursively delete files and directories outside the project directory, via crafted entries in the version-controlled generated file manifest (.projen/files.json) that is consumed during project synthesis. The corrected containment check is automatically applied by the projen runtime the next time it is run.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;- CVE-2026-89066 —&lt;/b&gt; Improper neutralization of special elements used in an OS command in the task synthesis component in projen before 0.103.0 might allow context-dependent attackers to execute arbitrary commands on a developer workstation or continuous integration runner via shell metacharacters in project configuration values and repository file names that are interpolated into generated task definitions in .projen/tasks.json.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;br&gt; - All projen versions before 0.101.37 (CVE-2026-89065)&lt;br&gt; - All projen versions before 0.103.0 (CVE-2026-89066)&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-108-aws/",
+      "publishedAt": "2026-09-11T16:10:27.000Z",
+      "updatedAt": "2026-09-11T16:10:27.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "attack"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "4be49af9477a3ad3",
       "title": "Amazon ECS expands IAM condition key support for RunTask and StartTask APIs",
       "description": "Amazon Elastic Container Service (Amazon ECS) now supports the IAM condition keys for CPU and memory resources on the RunTask and StartTask APIs. Administrators can use these keys to enforce consistent CPU and memory limits across all methods of launching ECS tasks. This helps organizations prevent unexpected cost overruns and keep workloads aligned with their resource policies. Previously, the ecs:task-cpu and ecs:task-memory condition keys were available only on the RegisterTaskDefinition, CreateService, and UpdateService APIs. These condition keys are now extended on the RunTask and StartTa",
@@ -3302,6 +3361,25 @@
       "source": "security-blog"
     },
     {
+      "id": "752046b142887c12",
+      "title": "CVE-2026-89332 - Kiro IDE Sensitive Workspace Data Exfiltration via Agent-Written Workspace Configuration",
+      "description": "Bulletin ID: 2026-111-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/11/2026 12:00 PM PDT Description: Kiro IDE is an agentic development environment that makes it easy for developers to ship real engineering work with the help of AI agents. We identified CVE-2026-89332, where the Kiro agent could modify a workspace's settings file in an untrusted workspace in Kiro IDE. A specially crafted repository could use this to point the Kiro Powers registry URL, which Kiro fetches when the Powers panel is opened, at an external endpoint, sending potentially sensitive w",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-111-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 09/11/2026 12:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Kiro IDE is an agentic development environment that makes it easy for developers to ship real engineering work with the help of AI agents.&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-89332, where the Kiro agent could modify a workspace's settings file in an untrusted workspace in Kiro IDE. A specially crafted repository could use this to point the Kiro Powers registry URL, which Kiro fetches when the Powers panel is opened, at an external endpoint, sending potentially sensitive workspace data to that endpoint. Kiro presented the edit to the user for approval, showing the inserted data and the URL, but the file was already written to disk, so opening the Powers panel before responding to the prompt made the request anyway.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; Kiro IDE &amp;lt; 0.8.135&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-111-aws/",
+      "publishedAt": "2026-09-11T19:08:25.000Z",
+      "updatedAt": "2026-09-11T19:08:25.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "41c7df7bffb3ef5a",
       "title": "CVE-2026-89049 - Server-side request forgery in the Session Manager port forwarding functionality in AWS Systems Manager Agent",
       "description": "Bulletin ID: 2026-107-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/10/2026 11:30 AM PDT Description: AWS Systems Manager Agent (SSM Agent) is software that runs on managed nodes (EC2 instances, on-premises servers, and other supported machines) and processes requests from the AWS Systems Manager service, enabling capabilities including Session Manager port forwarding to remote hosts. We identified CVE-2026-89049, a server-side request forgery issue in the remote-host port forwarding functionality. Due to improper validation of equivalent address representati",
@@ -3519,7 +3597,7 @@
         "developer tools",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -5254,6 +5332,33 @@
       "source": "whats-new"
     },
     {
+      "id": "047732db8527663f",
+      "title": "AWS Lambda now supports direct read configuration for Amazon S3 Files",
+      "description": "AWS Lambda now supports direct read configuration for Amazon S3 Files, letting you configure which storage your functions read from: S3 Files high-performance storage or your S3 bucket. With this launch, you can optimize the throughput and latency of file reads for your Lambda functions based on your application requirements. Customers use S3 Files with Lambda functions to build scalable data processing pipelines and stateful agentic workloads with the performance and simplicity of a file system, while benefiting from the scalability, durability, and cost-effectiveness of S3. S3 Files serves d",
+      "descriptionHtml": "&lt;p&gt;AWS Lambda now supports &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-files-performance.html#s3-files-performance-how\"&gt;direct read&lt;/a&gt;&amp;nbsp;configuration for Amazon S3 Files, letting you configure which storage your functions read from: S3 Files high-performance storage or your S3 bucket. With this launch, you can optimize the throughput and latency of file reads for your Lambda functions based on your application requirements.&lt;/p&gt; \n&lt;p&gt;Customers use S3 Files with Lambda functions to build scalable data processing pipelines and stateful agentic workloads with the performance and simplicity of a file system, while benefiting from the scalability, durability, and cost-effectiveness of S3. S3 Files serves data from high-performance storage for low latency or directly from your S3 bucket for high throughput on large reads, automatically routing each operation to the storage best suited for it.&amp;nbsp;By default, Lambda supports direct reads from your S3&amp;nbsp;bucket only for functions configured with 512 MB of memory or higher. However, without control over the direct read configuration, you cannot optimize read performance for your specific application requirements. With this launch, you can explicitly enable or disable direct read for S3 Files on your Lambda functions, independent of function memory size. When you enable direct read, your function reads files 1 MB or larger directly from your S3 bucket for maximum throughput, and smaller files&amp;nbsp;are&amp;nbsp;served through the high-performance storage. When you disable it, all reads are served through the high-performance storage for the lowest latency.&lt;/p&gt; \n&lt;p&gt;This capability is available in all AWS commercial Regions, AWS GovCloud (US-East), and AWS GovCloud (US-West) Regions, except Asia Pacific (New Zealand), Middle East (Bahrain), and Middle East (UAE).&amp;nbsp;You can configure direct read for S3 Files using the AWS Management Console, AWS CLI, AWS SDKs, and AWS CloudFormation. There is no additional charge beyond standard Lambda and S3 Files pricing. To learn more about how to use S3 Files with your Lambda function, visit the AWS Lambda &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/configuration-filesystem-s3files.html\"&gt;developer guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/",
+      "publishedAt": "2026-09-11T17:00:00.000Z",
+      "updatedAt": "2026-09-11T17:00:00.000Z",
+      "categories": [],
+      "services": [
+        "Lambda",
+        "S3"
+      ],
+      "tags": [
+        "lambda",
+        "s3"
+      ],
+      "isNew": true,
+      "securityScore": 20,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "S3",
+        "Bucket"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "f8666b813f39318d",
       "title": "Amazon API Gateway now supports 1 MB execution logs with configurable delivery destinations",
       "description": "Amazon API Gateway now supports configurable delivery destinations and larger log events for REST API execution logs. Previously, execution logs were delivered to a single API Gateway-managed CloudWatch Logs log group with log events truncated at 1 KB, limiting visibility into request and response data. You can now route execution logs up to 1 MB to your own Amazon CloudWatch Logs log groups, Amazon S3 buckets, or Amazon Data Firehose streams, and deliver to multiple destinations simultaneously. For example, you can route execution logs to Amazon S3 in Apache Parquet format for cost-efficient ",
@@ -5760,6 +5865,32 @@
       "source": "whats-new"
     },
     {
+      "id": "8968fabf53354b5b",
+      "title": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch",
+      "description": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch, giving you visibility into workflow resource utilization as runs execute. The 14 new run metrics span CPU and GPU usage, memory usage, file system usage and I/O metrics, network throughput, and ephemeral storage usage. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. Real-time run metrics can help you identify CPU or GPU bottlenecks, detect memory or storage exhaustion before a task fails",
+      "descriptionHtml": "&lt;p&gt;AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch, giving you visibility into workflow resource utilization as runs execute. The 14 new run metrics span CPU and GPU usage, memory usage, file system usage and I/O metrics, network throughput, and ephemeral storage usage. &lt;a href=\"https://aws.amazon.com/healthomics/\"&gt;AWS HealthOmics&lt;/a&gt; is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows.&lt;/p&gt; \n&lt;p&gt;Real-time run metrics can help you identify CPU or GPU bottlenecks, detect memory or storage exhaustion before a task fails, and track file system throughput, all without opening a support case. By comparing actual usage against allocated resources, you can right-size the compute and storage configurations for your workflows. These metrics are emitted using the Amazon CloudWatch OpenTelemetry standard, so you can integrate them with third-party observability tools in addition to native CloudWatch dashboards and alarms.&lt;/p&gt; \n&lt;p&gt;Real-time run metrics are now available in the following AWS HealthOmics Regions: US East (N. Virginia, Ohio), US West (Oregon), Europe (Frankfurt, Ireland, London), and Asia Pacific (Singapore, Seoul, Tokyo). To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/omics/latest/dev/monitoring-run-metrics.html\"&gt;Monitoring run metrics with CloudWatch&lt;/a&gt; documentation. Amazon CloudWatch charges for these run metrics based on the volume of metric data ingested. For more information on pricing, visit &lt;a href=\"https://aws.amazon.com/cloudwatch/pricing/\"&gt;Amazon CloudWatch pricing&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/",
+      "publishedAt": "2026-09-11T15:00:00.000Z",
+      "updatedAt": "2026-09-11T15:00:00.000Z",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "services": [
+        "CloudWatch"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "cloudwatch"
+      ],
+      "isNew": true,
+      "securityScore": 15,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "HIPAA"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "52d10ed7b11a286d",
       "title": "AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud",
       "description": "AWS Lambda recursive loop detection is now supported for functions running in Europe Sovereign Cloud. Recursive loop detection automatically detects and stops recursive invocations between Lambda functions and other supported services, preventing unexpected billing caused by unintended recursive loops. Customers use event sources such as Amazon S3, Amazon SQS, and Amazon SNS to build event driven applications that trigger Lambda functions. Misconfiguration or code defect can cause events to be sent back to the same source that triggered the Lambda function, causing recursive loops and unintend",
@@ -6148,6 +6279,36 @@
       "source": "whats-new"
     },
     {
+      "id": "e4a3d71b8d69cae2",
+      "title": "Amazon RDS for Oracle now supports Supplemental Patch Bundle for July 2026 Release Update",
+      "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Supplemental Patch Bundle (SPB) for the July 2026 Release Update (RU) for Oracle Database version 19c and 26ai. Starting with April 2026 releases, the Oracle Spatial Patch Bundle has been renamed to Supplemental Patch Bundle (SPB). The SPB includes additional database patches recommended by Oracle for specific use cases, such as Oracle Spatial, Oracle Data Pump, and Oracle GoldenGate. For details, see Release Updates (RUs) and Supplemental Patch Bundles (SPBs). You can apply the Supplemental Patch Bundle update for new",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/oracle/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Relational Database Service (Amazon RDS) for Oracle&lt;/a&gt; now supports the Supplemental Patch Bundle (SPB) for the July 2026 Release Update (RU) for Oracle Database version 19c and 26ai.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Starting with April 2026 releases, the Oracle Spatial Patch Bundle has been renamed to Supplemental Patch Bundle (SPB). The SPB includes additional database patches recommended by Oracle for specific use cases, such as Oracle Spatial, Oracle Data Pump, and Oracle GoldenGate. For details, see &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Oracle.Minor.html#RUs-and-SPBs\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Release Updates (RUs) and Supplemental Patch Bundles (SPBs).&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;You can apply the Supplemental Patch Bundle update for new database instances, or upgrade existing instances to engine version 19.0.0.0.ru-2026-07.spb-1.r1 or 26.0.0.0.ru-2026-07.spb-1.r1 by selecting the \"Supplemental Patch Bundle Engine Versions\" checkbox in the AWS Console.&amp;nbsp;To learn more about Oracle SPBs supported on Amazon RDS for each engine version, see the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/OracleReleaseNotes/Welcome.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for Oracle Release notes&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;You can also use AWS Organizations upgrade rollout policy to stagger automatic minor version upgrades for your Amazon RDS database instances. This feature allows you to automatically apply updates to non-production environments, validate the updates, and then automatically apply the same update to production environments. For additional details about using AWS Organizations upgrade rollout policy for automatic minor version upgrades, refer to &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Oracle.Minor.html#oracle-minor-version-upgrade-rollout\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for Oracle documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-oracle-supports-spatial-patch-bundle-jul-2026-ru/",
+      "publishedAt": "2026-09-11T07:12:00.000Z",
+      "updatedAt": "2026-09-11T07:12:00.000Z",
+      "categories": [
+        "Databases",
+        "Amazon Rds",
+        "AWS Govcloud Us"
+      ],
+      "services": [
+        "RDS"
+      ],
+      "tags": [
+        "databases",
+        "amazon rds",
+        "aws govcloud us",
+        "rds"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "patch"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "3aa5b7dac8bc0881",
       "title": "Amazon CloudWatch now supports network health indicator for TGW inter-Region peering using synthetic monitors",
       "description": "With synthetic monitors in Amazon CloudWatch Network Monitoring, you can now determine whether a network performance issue on a path that crosses an AWS Transit Gateway inter-Region peering connection is caused by the AWS network. This helps network operators and application developers cut the time spent isolating the source of degradation on these paths. Previously, for synthetic monitors, the network health indicator (NHI) covered only paths that connect through AWS Direct Connect. With this release, synthetic monitors extend it to paths that reach a destination in a peered Region over Trans",
@@ -6404,7 +6565,7 @@
         "aiml",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -6440,7 +6601,7 @@
         "ecs",
         "fargate"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -6468,7 +6629,7 @@
         "aws developer tools",
         "lambda"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -7261,6 +7422,63 @@
       "source": "whats-new"
     },
     {
+      "id": "08ed980cb734f647",
+      "title": "Amazon Bedrock Managed Knowledge Base now supports multimodal embeddings for video, audio, and image content with TwelveLabs Marengo 3.0",
+      "description": "AWS announces the availability of TwelveLabs Marengo 3.0 as an embedding model in Amazon Bedrock Managed Knowledge Base, enabling customers to create multimodal embeddings for video, audio, and image content. Amazon Bedrock Managed Knowledge Base already supports media search by transcribing audio and video to text and generating text-based embeddings—Marengo 3.0 goes further by encoding visual scenes, speech, and video cues directly into multimodal embeddings, capturing meaning that transcription alone cannot. Simply upload your media assets from data sources such as Amazon S3, sync, and sear",
+      "descriptionHtml": "&lt;p&gt;AWS announces the availability of TwelveLabs Marengo 3.0 as an embedding model in Amazon Bedrock Managed Knowledge Base, enabling customers to create multimodal embeddings for video, audio, and image content. Amazon Bedrock Managed Knowledge Base already supports media search by transcribing audio and video to text and generating text-based embeddings—Marengo 3.0 goes further by encoding visual scenes, speech, and video cues directly into multimodal embeddings, capturing meaning that transcription alone cannot. Simply upload your media assets from data sources such as Amazon S3, sync, and search using natural language—with no infrastructure to manage.&lt;br&gt; Marengo 3.0 produces compact 512-dimensional vectors, delivering state-of-the-art retrieval accuracy. Results include segment start and end times, enabling applications to jump directly to the relevant moment in a video. This unlocks use cases across sports analytics, media and entertainment, security, education, and retail—from finding specific plays across seasons of game footage to locating lecture segments by concept rather than keywords. The model offers configurable segmentation options to match your content structure.&lt;br&gt; To learn more, see &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/kb-managed-native-multimodal.html\" target=\"_blank\"&gt;TwelveLabs Marengo 3.0 embedding model integration&lt;/a&gt; in the Amazon Bedrock Knowledge Base User Guide. For more information, visit the &lt;a href=\"https://aws.amazon.com/bedrock/knowledge-bases/\" target=\"_blank\"&gt;Amazon Bedrock Knowledge Bases product page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo/",
+      "publishedAt": "2026-09-11T15:13:00.000Z",
+      "updatedAt": "2026-09-11T15:13:00.000Z",
+      "categories": [
+        "Amazon Quicksight",
+        "Artificial Intelligence",
+        "Aiml",
+        "Business Productivity"
+      ],
+      "services": [
+        "Bedrock",
+        "QuickSight"
+      ],
+      "tags": [
+        "amazon quicksight",
+        "artificial intelligence",
+        "aiml",
+        "business productivity",
+        "bedrock",
+        "quicksight"
+      ],
+      "isNew": true,
+      "securityScore": 5,
+      "securityLevel": "low",
+      "securityMatches": [
+        "S3"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "d9ce23f99b14455a",
+      "title": "AWS DevOps Agent adds support for bidirectional Slack communication",
+      "description": "AWS DevOps Agent now enables engineers to manage production operations across AWS, multicloud, and on-premises environments with the complete investigation lifecycle directly within Slack. Previously, on-call engineers and DevOps teams faced fragmented workflows during high-severity incidents, having to context-switch between communication and investigation platforms. This update consolidates both surfaces into a single, unified location where incident response already happens. Engineering teams can now initiate and steer investigations by simply @mentioning AWS DevOps Agent in any connected S",
+      "descriptionHtml": "&lt;p&gt;AWS DevOps Agent now enables engineers to manage&amp;nbsp;production operations&amp;nbsp;across AWS, multicloud, and on-premises environments with the complete investigation lifecycle directly within Slack. Previously, on-call engineers and DevOps teams faced fragmented workflows during high-severity incidents, having to context-switch between communication and investigation platforms. This update consolidates both surfaces into a single, unified location where incident response already happens.&lt;/p&gt; \n&lt;p&gt;Engineering teams can now initiate and steer investigations by simply @mentioning AWS DevOps Agent in any connected Slack private channel. All investigation activity, including team-contributed context, agent findings, and recommended actions, is captured within a single thread. Ask questions about AWS resources, system metrics, alarm status, deployment history, and incident patterns, reducing cognitive load during critical moments and making production operations significantly more efficient.&lt;/p&gt; \n&lt;p&gt;This capability is available in all commercial AWS Regions where AWS DevOps Agent is &lt;a href=\"https://docs.aws.amazon.com/devopsagent/latest/userguide/about-aws-devops-agent-supported-regions.html\"&gt;currently supported&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;To get started, read the &lt;a href=\"https://docs.aws.amazon.com/devopsagent/latest/userguide/connecting-to-ticketing-and-chat-connecting-slack.html#setting-up-bidirectional-communication-in-slack\"&gt;user guide&lt;/a&gt;. See all the latest AWS DevOps Agent features on the &lt;a href=\"https://docs.aws.amazon.com/devopsagent/latest/userguide/whats-new.html\"&gt;release history&lt;/a&gt;&amp;nbsp;page.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-devops-agent-bidirectional-slack-communication",
+      "publishedAt": "2026-09-11T15:00:00.000Z",
+      "updatedAt": "2026-09-11T15:00:00.000Z",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "services": [],
+      "tags": [
+        "artificial intelligence"
+      ],
+      "isNew": true,
+      "securityScore": 5,
+      "securityLevel": "low",
+      "securityMatches": [
+        "incident"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "42d846ca2ebcd8cb",
       "title": "AWS Elemental MediaLive adds support for A/B forensic watermarking",
       "description": "AWS Elemental MediaLive now supports A/B forensic watermarking, enabling content owners to trace the source of unauthorized redistribution of live video content. A single MediaLive channel produces two synchronized output variants, each carrying a distinct visually transparent watermark that persists through re-encoding and screen capture. Downstream packaging and CDN infrastructure assembles these variants into unique per-session sequences that identify the origin of leaked content. Forensic watermarking follows the DASH Industry Forum (DASH-IF) specification for A/B watermarking (European Te",
@@ -7343,7 +7561,7 @@
         "aiml",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 5,
       "securityLevel": "low",
       "securityMatches": [
@@ -7468,6 +7686,58 @@
       "securityMatches": [
         "token"
       ],
+      "source": "whats-new"
+    },
+    {
+      "id": "a60364c6fd05dba8",
+      "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
+      "description": "Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable Processors and built with AWS Nitro System, are designed for memory-intensive workloads and deliver improvements in performance compared to previous generation X1 instances. These instances are SAP-certified for running Business Suite on HANA, SAP S/4HANA, Data Mart Solutions on HANA, Business Warehouse on HANA, SAP BW/4HANA, and SAP NetWeaver workloads on any database.",
+      "descriptionHtml": "&lt;p&gt;Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable Processors and built with AWS Nitro System, are designed for memory-intensive workloads and deliver improvements in performance compared to previous generation X1 instances. These instances are SAP-certified for running Business Suite on HANA, SAP S/4HANA, Data Mart Solutions on HANA, Business Warehouse on HANA, SAP BW/4HANA, and SAP NetWeaver workloads on any database.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
+      "publishedAt": "2026-09-11T18:35:00.000Z",
+      "updatedAt": "2026-09-11T18:35:00.000Z",
+      "categories": [
+        "Amazon Ec2",
+        "Compute"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "amazon ec2",
+        "compute",
+        "ec2"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "da4cc670b70a2f5c",
+      "title": "Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts",
+      "description": "Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes. When running LLM inference at scale for workloads like chat assistants, agentic pipelines, RAG, and document analysis, cold start is a real bottleneck. Deployments and scale-out events spend most of their time downloading container images and model weights. As model size increases, this gets worse, with large models taking tens of minutes before they can serve traffic. Model caching solves this with two",
+      "descriptionHtml": "&lt;p&gt;Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes.&lt;/p&gt; \n&lt;p&gt;When running LLM inference at scale for workloads like chat assistants, agentic pipelines, RAG, and document analysis, cold start is a real bottleneck. Deployments and scale-out events spend most of their time downloading container images and model weights. As model size increases, this gets worse, with large models taking tens of minutes before they can serve traffic.&lt;/p&gt; \n&lt;p&gt;Model caching solves this with two independent capabilities. The weights cache stores model weights on local NVMe so pods read from fast local storage instead of pulling from S3 or FSx over the network. The image cache pre-pulls the container image so pods skip the ECR download entirely. If a pod lands on a node without a warm cache, it falls back to pulling from the original source automatically, so there is no risk of pods getting stuck or failing.&lt;/p&gt; \n&lt;p&gt;Benchmarks across models from 57 GB to 145 GB show around 60% faster scale-out, and the image cache cuts over two minutes of image-pull time (97% reduction). The benefit grows with model size while retaining the reliability of the original source path.&lt;/p&gt; \n&lt;p&gt;Customers enable model caching through the HyperPod Inference Operator by adding a modelCacheConfig section to their InferenceEndpointConfig or JumpStartModel resource. The operator handles the full lifecycle with no manual setup or cleanup.&lt;/p&gt; \n&lt;p&gt;Model caching is now generally available in all regions where SageMaker HyperPod is available. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-model-deployment-model-caching.html\"&gt;SageMaker HyperPod documentation&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
+      "publishedAt": "2026-09-11T18:25:00.000Z",
+      "updatedAt": "2026-09-11T18:25:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Amazon Sagemaker"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "amazon sagemaker",
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
       "source": "whats-new"
     },
     {
@@ -7722,7 +7992,7 @@
       "id": "b6e22eb6d9e7536d",
       "title": "AWS Elemental introduces Dynamic Multiview for live video",
       "description": "AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-game, and personalized viewing experiences as standard HLS (HTTP Live Streaming) and DASH (Dynamic Adaptive Streaming over HTTP) streams playable on most modern consumer devices, televisions, and set top boxes without custom player development. Dynamic Multiview operates entirely in the compressed domain, combining individually encoded sources without re-encoding or compositing.",
-      "descriptionHtml": "&lt;p&gt;AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-game, and personalized viewing experiences as standard HLS (HTTP Live Streaming) and DASH (Dynamic Adaptive Streaming over HTTP) streams playable on most modern consumer devices, televisions, and set top boxes without custom player development.&lt;/p&gt; \n&lt;p&gt;Dynamic Multiview operates entirely in the compressed domain, combining individually encoded sources without re-encoding or compositing. Customers encode each source once through AWS Elemental MediaLive, and MediaPackage assembles compositions on demand - only when viewers request them, eliminating the need to pre-encode combinations. Because the output is standard HLS and DASH, it plays natively on existing devices and players with no app changes or SDK integration required. The feature supports AVC and HEVC codecs, DRM encryption, SCTE-35 ad marker passthrough, and full-screen ad replacement.&lt;/p&gt; \n&lt;p&gt;To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/medialive/latest/ug/dynamic-multiview-reference.html\"&gt;Elemental Dynamic Multiview Reference Guide&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Dynamic Multiview is available in all AWS Regions where AWS Elemental MediaPackage and MediaLive are available.&lt;/p&gt;",
+      "descriptionHtml": "&lt;p&gt;AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-game, and personalized viewing experiences as standard HLS (HTTP Live Streaming) and DASH (Dynamic Adaptive Streaming over HTTP) streams playable on most modern consumer devices, televisions, and set top boxes without custom player development.&lt;/p&gt; \n&lt;p&gt;Dynamic Multiview operates entirely in the compressed domain, combining individually encoded sources without re-encoding or compositing. Customers encode each source once through AWS Elemental MediaLive, and MediaPackage assembles compositions on demand - only when viewers request them, eliminating the need to pre-encode combinations. Because the output is standard HLS and DASH, it plays natively on existing devices and players with no app changes or SDK integration required. The feature supports AVC and HEVC codecs, DRM encryption, SCTE-35 ad marker passthrough, and full-screen ad replacement.&lt;/p&gt; \n&lt;p&gt;To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/mediapackage/latest/userguide/dynamic-multiview.html\"&gt;Elemental Dynamic Multiview Reference Guide&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Dynamic Multiview is available in all AWS Regions where AWS Elemental MediaPackage and MediaLive are available.&lt;/p&gt;",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/",
       "publishedAt": "2026-09-10T08:00:00.000Z",
       "updatedAt": "2026-09-10T08:00:00.000Z",
@@ -7732,6 +8002,27 @@
       ],
       "tags": [
         "elemental"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "43e8cc2e4dab73e2",
+      "title": "AWS Marketplace sellers now receive qualified demo and private offer requests in minutes",
+      "description": "AWS Marketplace sellers that activated the request demo or request private offer call-to-action buttons on their listings can now act on customer requests within minutes of submission, while customers are still actively evaluating their products. This happens automatically, with no changes required to their listings or workflows. When a customer submits a request, they can now provide details about their use case, and AWS Marketplace uses an agentic workflow to evaluate those details and create an opportunity for the seller: an active prospect with a defined use case. Each opportunity arrives ",
+      "descriptionHtml": "&lt;p&gt;AWS Marketplace sellers that activated the request demo or request private offer call-to-action buttons on their listings can now act on customer requests within minutes of submission, while customers are still actively evaluating their products. This happens automatically, with no changes required to their listings or workflows.&lt;br&gt; &lt;br&gt; When a customer submits a request, they can now provide details about their use case, and AWS Marketplace uses an agentic workflow to evaluate those details and create an opportunity for the seller: an active prospect with a defined use case. Each opportunity arrives in AWS Partner Central with the customer's contact details and use case, so sellers can reach out directly. Previously, an AWS representative contacted the customer to qualify every request before sharing it, adding days of delay. Now sellers receive every active lead the moment it comes in, without waiting for AWS to manually qualify it first. Even when a customer provides only their contact information without additional information, the seller still receives their details as a lead to follow up on for additional qualification, and can enrich it through AWS lead prospecting workflows.&lt;br&gt; &lt;br&gt; Sellers who have not yet added the request a demo or request private offer buttons to their listings can turn them on by following the steps in the &lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/userguide/creating-private-offer.html#private-offer-requests-demos\"&gt;AWS Marketplace Seller Guide&lt;/a&gt;. Enabling these buttons lets customers request demos and private offers directly from a seller's product listing page, accelerating product evaluations and reducing procurement cycle times.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-demo-private-offer-requests-qualification",
+      "publishedAt": "2026-09-09T21:04:00.000Z",
+      "updatedAt": "2026-09-09T21:04:00.000Z",
+      "categories": [
+        "AWS Marketplace"
+      ],
+      "services": [],
+      "tags": [
+        "aws marketplace"
       ],
       "isNew": true,
       "securityScore": 0,
@@ -7981,7 +8272,7 @@
         "analytics",
         "mwaa"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -8009,7 +8300,7 @@
         "compute",
         "ec2"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -8035,7 +8326,7 @@
         "amazon ec2",
         "ec2"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
