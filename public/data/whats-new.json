@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-12T12:00:30.643Z",
-  "itemCount": 371,
+  "lastUpdated": "2026-09-13T13:09:44.142Z",
+  "itemCount": 372,
   "items": [
     {
       "id": "d22e203e433ef6ab",
@@ -7686,6 +7686,34 @@
       "securityMatches": [
         "token"
       ],
+      "source": "whats-new"
+    },
+    {
+      "id": "ed901b7c4c2c001e",
+      "title": "AWS Elemental MediaLive enables frame-accurate pipeline locking for streams without timecode",
+      "description": "AWS Elemental MediaLive now supports Video Aligned Locking, a new feature to synchronize video pipelines without requiring timecode from the source. Previously, achieving frame-accurate locking across video outputs required investing in specialized hardware or managing complex, external synchronization workflows. While timecode is generally standard for highly produced, traditional broadcast content, it is often unavailable and difficult to manage in typical digital streaming workflows. The new capability uses visual signatures to automatically identify and align specific frames across multipl",
+      "descriptionHtml": "&lt;p&gt;AWS Elemental MediaLive now supports Video Aligned Locking, a new feature to synchronize video pipelines without requiring timecode from the source. Previously, achieving frame-accurate locking across video outputs required investing in specialized hardware or managing complex, external synchronization workflows. While timecode is generally standard for highly produced, traditional broadcast content, it is often unavailable and difficult to manage in typical digital streaming workflows. The new capability uses visual signatures to automatically identify and align specific frames across multiple video streams, enabling customers to achieve frame-accurate input switching across standard pipeline channels, as well as linked, cross-region single-pipeline channels.&lt;/p&gt; \n&lt;p&gt;Video Aligned Locking supports outputs including HLS, MediaPackage, CMAF Ingest, UDP and SRT. To learn more about how to configure this feature, visit the &lt;a href=\"https://docs.aws.amazon.com/medialive/latest/ug/pipeline-locking-verify-input.html#pipeline-locking-video-alignment-inputs\"&gt;Requirements for Video Aligned Locking&lt;/a&gt; documentation. For a deeper dive into channel synchronization, visit the guide on &lt;a href=\"https://docs.aws.amazon.com/medialive/latest/ug/pipeline-lock.html\"&gt;Implementing Pipeline Locking&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-pipeline-locking/",
+      "publishedAt": "2026-09-12T08:00:00.000Z",
+      "updatedAt": "2026-09-12T08:00:00.000Z",
+      "categories": [
+        "AWS Elemental Medialive",
+        "Media Services"
+      ],
+      "services": [
+        "Elemental",
+        "MediaLive"
+      ],
+      "tags": [
+        "aws elemental medialive",
+        "media services",
+        "elemental",
+        "medialive"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
       "source": "whats-new"
     },
     {
