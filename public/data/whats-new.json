@@ -1,7 +1,74 @@
 {
-  "lastUpdated": "2026-09-14T14:47:54.171Z",
-  "itemCount": 372,
+  "lastUpdated": "2026-09-15T13:13:26.515Z",
+  "itemCount": 381,
   "items": [
+    {
+      "id": "68ca1215efeec32f",
+      "title": "CVE-2026-86830 - Incorrect privilege assignment in Temporary Elevated Access Management (TEAM) for AWS IAM Identity Center",
+      "description": "Bulletin ID: 2026-112-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/14/2026 10:45 AM PDT Description: Temporary Elevated Access Management (TEAM) is an open source AWS sample solution for managing temporary elevated access via AWS IAM Identity Center. We identified CVE-2026-86830, where an authenticated user with application-level access could gain unintended temporary elevated access to AWS accounts managed by TEAM. Impacted versions: Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-112-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 09/14/2026 10:45 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Temporary Elevated Access Management (TEAM) is an open source AWS sample solution for managing temporary elevated access via AWS IAM Identity Center. We identified CVE-2026-86830, where an authenticated user with application-level access could gain unintended temporary elevated access to AWS accounts managed by TEAM.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt;1.5.1&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-112-aws/",
+      "publishedAt": "2026-09-14T18:04:59.000Z",
+      "updatedAt": "2026-09-14T18:04:59.000Z",
+      "categories": [],
+      "services": [
+        "IAM",
+        "IAM Identity Center"
+      ],
+      "tags": [
+        "iam",
+        "iam identity center"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "IAM Identity Center",
+        "security",
+        "access",
+        "identity"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "dd96357f92b0e3f2",
+      "title": "AWS Security Reference Architecture: A deep dive into PCI DSS compliance",
+      "description": "Amazon Web Services (AWS) is excited to announce the publication of the AWS Security Reference Architecture (AWS SRA) Payment Card Industry (PCI) Data Security Standard (DSS) Deep Dive. This new guide extends the core AWS SRA to provide prescriptive, architecture-level guidance for organizations that store, process, or transmit cardholder data on AWS. Organizations subject to […]",
+      "descriptionHtml": "Amazon Web Services (AWS) is excited to announce the publication of the AWS Security Reference Architecture (AWS SRA) Payment Card Industry (PCI) Data Security Standard (DSS) Deep Dive. This new guide extends the core AWS SRA to provide prescriptive, architecture-level guidance for organizations that store, process, or transmit cardholder data on AWS. Organizations subject to […]",
+      "url": "https://aws.amazon.com/blogs/security/aws-security-reference-architecture-a-deep-dive-into-pci-dss-compliance/",
+      "publishedAt": "2026-09-14T17:46:56.000Z",
+      "updatedAt": "2026-09-14T17:46:56.000Z",
+      "categories": [
+        "Announcements",
+        "Foundational (100)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "PCI DSS",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "announcements",
+        "foundational (100)",
+        "security",
+        "identity",
+        "& compliance",
+        "pci dss",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "security",
+        "compliance",
+        "PCI",
+        "Organizations"
+      ],
+      "source": "security-blog"
+    },
     {
       "id": "d22e203e433ef6ab",
       "title": "Amazon S3 now supports PrivateLink for FIPS endpoints",
@@ -2094,7 +2161,7 @@
         "security identity and compliance",
         "iam"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 55,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2877,7 +2944,7 @@
         "aws support",
         "emr"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "high",
       "securityMatches": [
@@ -2907,7 +2974,7 @@
         "storage",
         "s3"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "high",
       "securityMatches": [
@@ -5865,6 +5932,30 @@
       "source": "whats-new"
     },
     {
+      "id": "19c29d32a1b7977a",
+      "title": "AWS Glue zero-ETL adds target table property ownership and conflict detection",
+      "description": "AWS Glue zero-ETL integrations now detect table property conflicts and track integration ownership. When you configure a source table and target catalog, Glue associates the resulting table properties with the owning integration, so two integrations can no longer be pointed at the same target table without your knowledge. This works across Amazon S3 Tables and SageMaker Lakehouse catalogs. Data teams running multiple zero-ETL integrations gain predictable control over where each source table lands. If you attempt to create or modify an integration whose table properties are owned by another in",
+      "descriptionHtml": "&lt;p&gt;AWS Glue zero-ETL integrations now detect table property conflicts and track integration ownership. When you configure a source table and target catalog, Glue associates the resulting table properties with the owning integration, so two integrations can no longer be pointed at the same target table without your knowledge. This works across Amazon S3 Tables and SageMaker Lakehouse catalogs.&lt;/p&gt; \n&lt;p&gt;Data teams running multiple zero-ETL integrations gain predictable control over where each source table lands. If you attempt to create or modify an integration whose table properties are owned by another integration, Glue identifies the owning integration and guides you to choose a different target or update the existing one, so your pipelines stay isolated and your data lands exactly where you intend.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Commercial and AWS GovCloud (US) Regions where AWS Glue zero-ETL integrations are supported.&lt;/p&gt; \n&lt;p&gt;To learn more, refer to the &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/zero-etl-target.html\"&gt;AWS Glue Developer Guide&lt;/a&gt; and get started in the &lt;a href=\"https://console.aws.amazon.com/glue/\"&gt;AWS Glue console&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-ownership-conflicts/",
+      "publishedAt": "2026-09-14T08:00:00.000Z",
+      "updatedAt": "2026-09-14T08:00:00.000Z",
+      "categories": [],
+      "services": [
+        "Glue"
+      ],
+      "tags": [
+        "glue"
+      ],
+      "isNew": true,
+      "securityScore": 15,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "S3"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "8968fabf53354b5b",
       "title": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch",
       "description": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch, giving you visibility into workflow resource utilization as runs execute. The 14 new run metrics span CPU and GPU usage, memory usage, file system usage and I/O metrics, network throughput, and ephemeral storage usage. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. Real-time run metrics can help you identify CPU or GPU bottlenecks, detect memory or storage exhaustion before a task fails",
@@ -5988,7 +6079,7 @@
         "developer tools",
         "serverless"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -7689,6 +7780,165 @@
       "source": "whats-new"
     },
     {
+      "id": "8732e22c58dc561e",
+      "title": "Qwen3.6-35B-A3B-NVFP4 and Wan2.1-T2V-1.3B-Diffusers models now available on Amazon SageMaker JumpStart",
+      "description": "NVIDIA's Qwen3.6-35B-A3B-NVFP4 and Alibaba's Wan2.1-T2V-1.3B-Diffusers models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning agentic coding with long-context reasoning and lightweight text-to-video generation, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI challenges with specialized capabilities: Qwen3.6-35B-A3B-NVFP4 is optimized for agentic coding, multimodal reasoning, an",
+      "descriptionHtml": "&lt;p&gt;NVIDIA's Qwen3.6-35B-A3B-NVFP4 and Alibaba's Wan2.1-T2V-1.3B-Diffusers models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning agentic coding with long-context reasoning and lightweight text-to-video generation, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.&lt;/p&gt; \n&lt;p&gt;These models address different enterprise AI challenges with specialized capabilities:&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Qwen3.6-35B-A3B-NVFP4&lt;/b&gt; is optimized for &lt;b&gt;agentic coding, multimodal reasoning, and long-context understanding&lt;/b&gt; as the NVIDIA-quantized variant of Alibaba's Qwen3.6-35B-A3B. This Mixture-of-Experts model contains 35B total parameters with only 3B activated per token (8 of 256 experts), supporting a 262K-token context window extendable to ~1M via YaRN scaling. Quantized to NVFP4 using NVIDIA's ModelOpt framework, it preserves thinking across conversation turns, multi-token prediction, and tool calling for multi-step agent pipelines—all at a significantly reduced memory footprint.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Wan2.1-T2V-1.3B-Diffusers&lt;/b&gt; excels in &lt;b&gt;text-to-video generation on consumer-grade hardware&lt;/b&gt;. Built on the diffusion transformer paradigm with a novel Video Variational Autoencoder (VAE), this 1.3B-parameter model generates high-quality, physics-consistent video clips from text prompts while requiring only 8.19 GB of VRAM. It can produce a 5-second 480p video on an RTX 4090 in approximately 4 minutes, making it one of the most accessible open-source video generation models available.&lt;/p&gt; \n&lt;p&gt;With SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.&lt;/p&gt; \n&lt;p&gt;To get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/qwen3.6-35b-a3b-nvfp4-wan2.1-t2v-1.3B-diffusers-jumpstart/",
+      "publishedAt": "2026-09-14T17:39:00.000Z",
+      "updatedAt": "2026-09-14T17:39:00.000Z",
+      "categories": [
+        "Aiml",
+        "Amazon Sagemaker Jumpstart",
+        "Artificial Intelligence"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "aiml",
+        "amazon sagemaker jumpstart",
+        "artificial intelligence",
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "327a7b0dd0e4df8f",
+      "title": "Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models now available on Amazon SageMaker JumpStart",
+      "description": "Mistral AI's Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models from the Ministral 3 family bring compact, vision-capable language models purpose-built for edge deployment and resource-constrained environments, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI challenges with specialized capabilities: Ministral-3-3B-Instruct-2512 is engineered for ultra-",
+      "descriptionHtml": "&lt;p&gt;Mistral AI's Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models from the Ministral 3 family bring compact, vision-capable language models purpose-built for edge deployment and resource-constrained environments, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.&lt;/p&gt; \n&lt;p&gt;These models address different enterprise AI challenges with specialized capabilities:&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Ministral-3-3B-Instruct-2512&lt;/b&gt; is engineered for &lt;b&gt;ultra-lightweight edge deployment with multimodal understanding&lt;/b&gt;. Comprising a 3.4B language model and a 0.4B vision encoder, it fits in just 8GB of VRAM in FP8 while supporting a 256K-token context window. It offers vision analysis, multilingual instruction following across dozens of languages (including English, French, Spanish, German, Chinese, Japanese, Korean, and Arabic), strong system-prompt adherence, and native function calling with structured JSON output—all under the Apache 2.0 license.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Ministral-3-8B-Instruct-2512&lt;/b&gt; delivers &lt;b&gt;frontier-class capabilities comparable to its larger Mistral Small 3.2 24B counterpart&lt;/b&gt; in a compact 8B form factor. Built with an 8.4B language model and a 0.4B vision encoder, it fits in 12GB of VRAM in FP8 and features an interleaved sliding-window attention pattern for faster, memory-efficient inference. It shares the same vision, multilingual, agentic, and function-calling capabilities as its 3B sibling while offering stronger reasoning and generation performance.&lt;/p&gt; \n&lt;p&gt;With SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.&lt;/p&gt; \n&lt;p&gt;To get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/ministral-3-3b-instruct-2512-ministral-3-8B-Instruct-2512-jumpstart/",
+      "publishedAt": "2026-09-14T17:35:00.000Z",
+      "updatedAt": "2026-09-14T17:35:00.000Z",
+      "categories": [
+        "Aiml",
+        "Artificial Intelligence",
+        "Amazon Sagemaker Jumpstart"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "aiml",
+        "artificial intelligence",
+        "amazon sagemaker jumpstart",
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "13e94cc65ebb117f",
+      "title": "Gemma-4-31B-it-assistant and Gemma-4-31B-IT-NVFP4 models now available on Amazon SageMaker JumpStart",
+      "description": "Google DeepMind's Gemma-4-31B-it-assistant and NVIDIA's Gemma-4-31B-IT-NVFP4 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring the flagship Gemma 4 31B dense architecture to enterprise workloads in both full-precision and optimized quantized variants, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI challenges with specialized capabilities: Gemma-4-31B-it-assistant is built for multimodal reasoning, coding,",
+      "descriptionHtml": "&lt;p&gt;Google DeepMind's Gemma-4-31B-it-assistant and NVIDIA's Gemma-4-31B-IT-NVFP4 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring the flagship Gemma 4 31B dense architecture to enterprise workloads in both full-precision and optimized quantized variants, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.&lt;/p&gt; \n&lt;p&gt;These models address different enterprise AI challenges with specialized capabilities:&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Gemma-4-31B-it-assistant&lt;/b&gt; is built for &lt;b&gt;multimodal reasoning, coding, and agentic workflows&lt;/b&gt; as the assistant-tuned variant of Google's flagship 31B dense model. It handles text and image inputs (including video as frame sequences) and generates text output, with a 256K-token context window and support for over 140 languages. Ranked #3 among open models on the Arena AI text leaderboard—outcompeting models 20x its size—it features a hybrid attention mechanism interleaving local sliding-window and full global attention with native function calling for building autonomous agents.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Gemma-4-31B-IT-NVFP4&lt;/b&gt; delivers the &lt;b&gt;same Gemma 4 31B capabilities at a fraction of the memory footprint&lt;/b&gt;. Quantized with NVIDIA's ModelOpt framework to 4-bit FP4 precision, it reduces memory usage to ~18.5 GB (68% smaller than the base model) and achieves approximately 2.5x faster inference while retaining 97–99% of the original model's quality. Ideal for cost-efficient, high-throughput production deployments on NVIDIA RTX, DGX Spark, and data center GPUs.&lt;/p&gt; \n&lt;p&gt;With SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.&lt;/p&gt; \n&lt;p&gt;To get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/gemma-4-31b-it-assistant-gemma-4-31b-it-nvfp4-jumpstart/",
+      "publishedAt": "2026-09-14T17:32:00.000Z",
+      "updatedAt": "2026-09-14T17:32:00.000Z",
+      "categories": [
+        "Amazon Sagemaker Jumpstart",
+        "Aiml",
+        "Artificial Intelligence"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "amazon sagemaker jumpstart",
+        "aiml",
+        "artificial intelligence",
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "ab4a968a1915c206",
+      "title": "granite-speech-4.1-2b, kanana-2-30b-a3b-instruct, and OpenFold3 models now available on Amazon SageMaker JumpStart",
+      "description": "BM's granite-speech-4.1-2b, Kakao's kanana-2-30b-a3b-instruct, and the OpenFold Consortium's OpenFold3 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning multilingual speech recognition, bilingual agentic AI, and biomolecular structure prediction, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI challenges with specialized capabilities: granite-speech-4.1-2b is purpose-bui",
+      "descriptionHtml": "&lt;p&gt;BM's granite-speech-4.1-2b, Kakao's kanana-2-30b-a3b-instruct, and the OpenFold Consortium's OpenFold3 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning multilingual speech recognition, bilingual agentic AI, and biomolecular structure prediction, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.&lt;/p&gt; \n&lt;p&gt;These models address different enterprise AI challenges with specialized capabilities:&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;granite-speech-4.1-2b&lt;/b&gt; is purpose-built for &lt;b&gt;multilingual automatic speech recognition (ASR) and bidirectional speech translation (AST)&lt;/b&gt; across English, French, German, Spanish, Portuguese, and Japanese. This compact 2B-parameter speech-language model delivers a word error rate of 5.33% with a real-time factor of ~231, making it one of the most efficient ASR models in its class. Released under Apache 2.0, it integrates seamlessly into enterprise voice workflows for transcription, translation, and audio processing at scale.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;kanana-2-30b-a3b-instruct&lt;/b&gt; excels in &lt;b&gt;bilingual Korean-English instruction following and agentic AI workflows&lt;/b&gt;. Developed by Kakao, it adopts a cutting-edge architecture featuring Multi-head Latent Attention (MLA) and Mixture-of-Experts (MoE), activating only 3B of its 30B total parameters per forward pass for superior throughput. Post-trained with supervised fine-tuning and reinforcement learning, it supports up to 128K tokens via YaRN scaling and is designed to function as an AI collaborator that understands context and acts proactively.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;OpenFold3&lt;/b&gt; provides &lt;b&gt;all-atom biomolecular complex structure prediction&lt;/b&gt; for proteins, DNA, RNA, and small-molecule ligands. Developed by the OpenFold Consortium and the AlQuraishi Lab at Columbia University, this diffusion-based model extends structure prediction beyond single proteins to model multi-chain complexes and heterogeneous biomolecular interactions. It supports computer-aided drug design and is applicable across academic and pharmaceutical research labs.&lt;/p&gt; \n&lt;p&gt;With SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.&lt;/p&gt; \n&lt;p&gt;To get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/granite-speech-4.1-2b-edge-kanana-2-30b-a3b-instruct-openfold3-jumpstart/",
+      "publishedAt": "2026-09-14T17:30:00.000Z",
+      "updatedAt": "2026-09-14T17:30:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Amazon Sagemaker Jumpstart",
+        "Aiml"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "amazon sagemaker jumpstart",
+        "aiml",
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "c8a4cb591530d013",
+      "title": "AWS End User Messaging now supports Dynamic Flows in WhatsApp",
+      "description": "AWS End User Messaging now supports dynamic WhatsApp flows so you can turn WhatsApp conversations into rich, interactive experiences that end-users complete directly in WhatsApp. Instead of pushing end-users to a website or a separate form to complete an interactive experience, you can instead guide them through an appointment booking, lead generation, sign-up, survey or a transaction directly in the chat. Customers can start building a flow using one of Meta's stater templates with familiar building blocks like text inputs, date pickers, drop downs, and buttons, or customize the flow from scr",
+      "descriptionHtml": "&lt;p&gt;AWS End User Messaging now supports dynamic WhatsApp flows so you can turn WhatsApp conversations into rich, interactive experiences that end-users complete directly in WhatsApp.&lt;br&gt; &lt;br&gt; Instead of pushing end-users to a website or a separate form to complete an interactive experience, you can instead guide them through an appointment booking, lead generation, sign-up, survey or a transaction directly in the chat. Customers can start building a flow using one of Meta's stater templates with familiar building blocks like text inputs, date pickers, drop downs, and buttons, or customize the flow from scratch. With dynamic flows, each screen can call your own HTTPS endpoint in real time, so you can show live availability, and personalize each step in the flow for your end-users.&lt;br&gt; &lt;br&gt; You build and manage flows entirely in AWS End User Messaging Social, through the console or APIs. Define a flow with a JSON schema, then deliver it with a message template to reach customers where they are.&lt;br&gt; &lt;br&gt; WhatsApp flows are available in all regions where End User Messaging Social is available. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/social-messaging/latest/userguide/what-is-service.html\"&gt;User Guide.&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-whatsapp-dynamic-flows",
+      "publishedAt": "2026-09-14T07:00:00.000Z",
+      "updatedAt": "2026-09-14T07:00:00.000Z",
+      "categories": [
+        "Business Productivity"
+      ],
+      "services": [],
+      "tags": [
+        "business productivity"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "51dde609fe26c7ba",
+      "title": "AWS End User Messaging strengthens SMS deliverability with automatic failover",
+      "description": "AWS End User Messaging is advancing its deliverability capabilities in phone pools. Now, customers sending through phone pools automatically benefit from automatic failover to the next best performing number in the pool when SMS delivery is impacted from downstream disruptions. SMS deliverability can be affected by drops or delays when trying to reach the end recipient while it's being routed from AWS to messaging providers and eventually mobile carriers. These disruptions can hit the most important parts of your messaging program, including delivery notifications, one-time passcodes, reminder",
+      "descriptionHtml": "&lt;p&gt;AWS End User Messaging is advancing its deliverability capabilities in phone pools. Now, customers sending through phone pools automatically benefit from automatic failover to the next best performing number in the pool when SMS delivery is impacted from downstream disruptions.&lt;br&gt; &lt;br&gt; SMS deliverability can be affected by drops or delays when trying to reach the end recipient while it's being routed from AWS to messaging providers and eventually mobile carriers. These disruptions can hit the most important parts of your messaging program, including delivery notifications, one-time passcodes, reminders, and other time-sensitive messages. AWS End User Messaging watches for delivery delays, message failures, or drops in conversion and reroutes traffic to a more optimized delivery path.&lt;br&gt; &lt;br&gt; Customers do not need to take any action to receive this benefit for phone pools. If you are not sending through phone pools today, you can create one by following these &lt;a href=\"https://docs.aws.amazon.com/sms-voice/latest/userguide/phone-pool-create.html\"&gt;instructions&lt;/a&gt;. This capability is available in all AWS Regions where AWS End User Messaging is available.&lt;br&gt; &lt;br&gt; To learn more, see the AWS End User Messaging SMS &lt;a href=\"https://docs.aws.amazon.com/sms-voice/latest/userguide/what-is-sms-mms.html\"&gt;User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-improves-deliverability",
+      "publishedAt": "2026-09-14T07:00:00.000Z",
+      "updatedAt": "2026-09-14T07:00:00.000Z",
+      "categories": [
+        "Amazon Pinpoint",
+        "Business Productivity"
+      ],
+      "services": [
+        "Pinpoint"
+      ],
+      "tags": [
+        "amazon pinpoint",
+        "business productivity",
+        "pinpoint"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "ed901b7c4c2c001e",
       "title": "AWS Elemental MediaLive enables frame-accurate pipeline locking for streams without timecode",
       "description": "AWS Elemental MediaLive now supports Video Aligned Locking, a new feature to synchronize video pipelines without requiring timecode from the source. Previously, achieving frame-accurate locking across video outputs required investing in specialized hardware or managing complex, external synchronization workflows. While timecode is generally standard for highly produced, traditional broadcast content, it is often unavailable and difficult to manage in typical digital streaming workflows. The new capability uses visual signatures to automatically identify and align specific frames across multipl",
@@ -8272,7 +8522,7 @@
         "aws govcloud us",
         "rds"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
