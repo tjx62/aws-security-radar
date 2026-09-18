@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-17T13:07:05.554Z",
-  "itemCount": 408,
+  "lastUpdated": "2026-09-18T12:46:22.069Z",
+  "itemCount": 421,
   "items": [
     {
       "id": "ab40d9c49f3e8d72",
@@ -1236,6 +1236,42 @@
       "source": "security-blog"
     },
     {
+      "id": "3d6073ee4d1cf1c4",
+      "title": "AWS HealthOmics now supports IAM session policies",
+      "description": "AWS HealthOmics now supports IAM session policies, enabling you to restrict permissions for individual runs without creating and managing multiple IAM roles. Until now, there was no way to dynamically scope down permissions for a single run, requiring you to create a separate IAM role for each tenant or run. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs with fully managed bioinformatics workflows. An IAM session policy is an inline policy that limits the maximum permissions of a run without modifying the underl",
+      "descriptionHtml": "&lt;p&gt;AWS HealthOmics now supports IAM session policies, enabling you to restrict permissions for individual runs without creating and managing multiple IAM roles. Until now, there was no way to dynamically scope down permissions for a single run, requiring you to create a separate IAM role for each tenant or run. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs with fully managed bioinformatics workflows.&lt;/p&gt; \n&lt;p&gt;An IAM session policy is an inline policy that limits the maximum permissions of a run without modifying the underlying service role. Your effective permissions during a run are the intersection of permissions allowed by both the underlying identity-based policy and the temporary session policy. For example, if you operate a multi-tenant application, you can pass a session policy that limits a run's access to only that tenant's Amazon S3 buckets, without provisioning a dedicated IAM role for that tenant. You can also use IAM session policies to grant temporary access to specific Amazon S3 objects for a single run, and isolate access to sensitive resources on a per-run basis.&lt;/p&gt; \n&lt;p&gt;IAM session policy support is available in all AWS Regions where AWS HealthOmics is available: US East (N. Virginia, Ohio), US West (Oregon), Europe (Frankfurt, Ireland, London), Israel (Tel Aviv), and Asia Pacific (Tokyo, Singapore, Seoul). To learn how to configure IAM session policies for your runs, visit the Permissions section of the &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/omics/latest/dev/permissions-service.html\"&gt;AWS HealthOmics User Guide&lt;/a&gt;. To learn more about the service, visit &amp;nbsp;&lt;a href=\"https://aws.amazon.com/healthomics/\"&gt;AWS HealthOmics&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/omics-iam-session-policy/",
+      "publishedAt": "2026-09-17T18:32:00.000Z",
+      "updatedAt": "2026-09-17T18:32:00.000Z",
+      "categories": [
+        "Serverless",
+        "Artificial Intelligence",
+        "Containers",
+        "Amazon Omics"
+      ],
+      "services": [
+        "IAM"
+      ],
+      "tags": [
+        "serverless",
+        "artificial intelligence",
+        "containers",
+        "amazon omics",
+        "iam"
+      ],
+      "isNew": true,
+      "securityScore": 80,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "HIPAA",
+        "permission",
+        "policy",
+        "role"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "9b35e6ffe326ca37",
       "title": "CVE-2026-18952 - Missing Input Validation in OpenSearch Security Analytics Plugin",
       "description": "Bulletin ID: 2026-079-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 08/12/2026 11:45 AM PDT Description: OpenSearch is a community-driven, open-source search and analytics suite. We identified CVE-2026-18952, a missing input validation issue in the threat intelligence feed parser of the OpenSearch Security Analytics plugin. This issue may allow an authenticated user with the security_analytics_full_access role to perform server-side request forgery (SSRF) and read local files via a crafted URL parameter to the threat intel source configuration endpoint. Impacted",
@@ -2337,6 +2373,46 @@
       "source": "security-blog"
     },
     {
+      "id": "0b81d91be84e5e0f",
+      "title": "Run open weight models on Amazon Bedrock in AWS European Sovereign Cloud",
+      "description": "European organizations can run AI workloads on Amazon Web Services (AWS) while keeping data within the European Union (EU) and meeting regulatory requirements. You can now run generative AI workloads on open weight models on Amazon Bedrock in the AWS European Sovereign Cloud. We’re excited to announce the general availability of the first open weight […]",
+      "descriptionHtml": "European organizations can run AI workloads on Amazon Web Services (AWS) while keeping data within the European Union (EU) and meeting regulatory requirements. You can now run generative AI workloads on open weight models on Amazon Bedrock in the AWS European Sovereign Cloud. We’re excited to announce the general availability of the first open weight […]",
+      "url": "https://aws.amazon.com/blogs/security/run-open-weight-models-on-aws-bedrock-in-aws-european-sovereign-cloud/",
+      "publishedAt": "2026-09-17T21:19:20.000Z",
+      "updatedAt": "2026-09-17T21:19:20.000Z",
+      "categories": [
+        "Amazon Bedrock",
+        "Artificial Intelligence",
+        "Europe",
+        "Generative AI",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "amazon bedrock",
+        "artificial intelligence",
+        "europe",
+        "generative ai",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog",
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 55,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Organizations"
+      ],
+      "source": "security-blog"
+    },
+    {
       "id": "53ce360ce7d4dd04",
       "title": "Architecting a secure landing zone in the AWS European Sovereign Cloud",
       "description": "The AWS European Sovereign Cloud is a new, independent cloud for Europe, physically and logically separate from existing AWS Regions and operated within the European Union (EU). It provides the same services, features, and APIs as AWS commercial Regions, but runs as a distinct AWS partition (aws-eusc), with its own control plane, AWS Identity and […]",
@@ -2766,6 +2842,43 @@
       "source": "security-blog"
     },
     {
+      "id": "73e5cb63d0511541",
+      "title": "AWS Transfer Family now supports source IP preservation for SFTP servers behind a Network Load Balancer (NLB)",
+      "description": "AWS Transfer Family now preserves the client's source IP address using Proxy Protocol v2 (PPv2) when you place a Network Load Balancer (NLB) in front of your SFTP server that uses a VPC-hosted endpoint. You can now retain visibility of the client's source IP for IP-based auditing, access controls, and compliance when you use your own NLB. Previously, an NLB replaced the client's source IP with its own private IP address, so your Transfer Family logs and events recorded the NLB's address instead of the client's source IP. Because the NLB's private IP was the address presented to your custom ide",
+      "descriptionHtml": "&lt;p&gt;AWS Transfer Family now preserves the client's source IP address using Proxy Protocol v2 (PPv2) when you place a Network Load Balancer (NLB) in front of your SFTP server that uses a VPC-hosted endpoint. You can now retain visibility of the client's source IP for IP-based auditing, access controls, and compliance when you use your own NLB.&lt;/p&gt; \n&lt;p&gt;Previously, an NLB replaced the client's source IP with its own private IP address, so your Transfer Family logs and events recorded the NLB's address instead of the client's source IP. Because the NLB's private IP was the address presented to your custom identity provider during authentication, you couldn't authorize users based on their true source IP. With this launch, you can enable source IP preservation on your SFTP server so that the client's source IP is preserved. The preserved source IP is recorded in your logs and events and presented to your custom identity provider during authentication. You can enable the feature on each Transfer Family server individually through the console, CLI, or API.&lt;/p&gt; \n&lt;p&gt;Source IP preservation for SFTP servers is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions where AWS Transfer Family is available&lt;/a&gt;. To get started, visit the AWS Transfer Family console or use the AWS CLI/SDK. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/transfer/latest/userguide/working-with-nlb.html#nlb-sftp-source-ip\"&gt;Transfer Family User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/",
+      "publishedAt": "2026-09-17T19:00:00.000Z",
+      "updatedAt": "2026-09-17T19:00:00.000Z",
+      "categories": [
+        "Amazon Elastic Load Balancing",
+        "Storage",
+        "AWS Transfer Family",
+        "Migration"
+      ],
+      "services": [
+        "NLB",
+        "Transfer Family"
+      ],
+      "tags": [
+        "amazon elastic load balancing",
+        "storage",
+        "aws transfer family",
+        "migration",
+        "nlb",
+        "transfer family"
+      ],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "VPC",
+        "compliance",
+        "audit",
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "14a444a4defd43aa",
       "title": "CVE-2026-81849 - Path traversal in the aws:downloadContent plugin in amazon-ssm-agent",
       "description": "Bulletin ID: 2026-091-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 08/28/2026 11:00 AM PDT Description: AWS Systems Manager Agent (amazon-ssm-agent) is Amazon software that runs on Amazon Elastic Compute Cloud (Amazon EC2) instances, edge devices, on-premises servers, and virtual machines (VMs). Amazon-ssm-agent makes it possible for Systems Manager to update, manage, and configure these resources. We identified CVE-2026-81849, where an improper limitation of a pathname to a restricted directory in the aws:downloadContent plugin in amazon-ssm-agent before 3.3.4",
@@ -3026,6 +3139,25 @@
       "source": "whats-new"
     },
     {
+      "id": "037d4c58cea2ac50",
+      "title": "CVE-2026-92943 - Improper validation of certificate with host mismatch in AWS IoT Device SDK for Python",
+      "description": "Bulletin ID: 2026-115-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/17/2026 12:00 PM PDT Description: AWS IoT Device SDK for Python (AWSIoTPythonSDK) is an open source SDK that lets IoT devices and gateways connect to AWS IoT Core over MQTT. We identified CVE-2026-92943 in the MQTT client TLS connection layer, where the client did not validate that the server certificate matched the AWS IoT Core endpoint hostname. On Python 3.7 and later, an adversary-in-the-middle positioned on the network could present a certificate issued for an unrelated hostname by any c",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-115-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 09/17/2026 12:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS IoT Device SDK for Python (AWSIoTPythonSDK) is an open source SDK that lets IoT devices and gateways connect to AWS IoT Core over MQTT. We identified CVE-2026-92943 in the MQTT client TLS connection layer, where the client did not validate that the server certificate matched the AWS IoT Core endpoint hostname. On Python 3.7 and later, an adversary-in-the-middle positioned on the network could present a certificate issued for an unrelated hostname by any certificate authority in the device trust store, impersonate the AWS IoT Core endpoint, read device telemetry, and inject arbitrary MQTT messages that the device processes as authentic. Both SDK default connection paths were affected: X.509 mutual authentication on port 8883 and WebSocket with SigV4 on port 443. The port 443 ALPN path was not affected.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;=1.5.3 AND &amp;lt;=1.6.0 (on Python 3.7 and later)&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-114-aws/",
+      "publishedAt": "2026-09-17T19:18:01.000Z",
+      "updatedAt": "2026-09-17T19:18:01.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "TLS"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "6a0d0961aea9da66",
       "title": "CVE-2026-89090 - Denial of service in the event stream header decoder in AWS SDK for Go v2",
       "description": "Bulletin ID: 2026-110-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/11/2026 10:00 AM PDT Description: An issue exists in the the EventStream header decoder in AWS SDK for Go v2 in versions predating 2026-03-23. An actor can send a malformed EventStream response frame containing a crafted header value type byte outside the valid range, which can cause the host process to terminate. Impacted versions: Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.",
@@ -3084,7 +3216,7 @@
         "ecs",
         "iam"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "high",
       "securityMatches": [
@@ -3747,7 +3879,7 @@
       "tags": [
         "systems manager"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -4549,7 +4681,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -5795,7 +5927,7 @@
         "networking and content delivery",
         "api gateway"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -6282,6 +6414,35 @@
       "source": "whats-new"
     },
     {
+      "id": "b2750751743fc4ed",
+      "title": "Amazon S3 Express One Zone is now available in 7 additional AWS Regions",
+      "description": "The Amazon S3 Express One Zone storage class is now available in 7 additional AWS Regions: Asia Pacific (Singapore), South America (Sao Paulo), US West (N. California), Canada (Central), Europe (Paris), Asia Pacific (Sydney), and Asia Pacific (Seoul). Amazon S3 Express One Zone is a high-performance, single-Availability Zone storage class purpose-built to deliver consistent single-digit millisecond data access for your most frequently accessed data and latency-sensitive applications. S3 Express One Zone delivers data access speed up to 10x faster and request costs up to 80% lower than S3 Stand",
+      "descriptionHtml": "&lt;p&gt;The Amazon S3 Express One Zone storage class is now available in 7 additional AWS Regions: Asia Pacific (Singapore), South America (Sao Paulo), US West (N. California), Canada (Central), Europe (Paris), Asia Pacific (Sydney), and Asia Pacific (Seoul).&lt;/p&gt; \n&lt;p&gt;Amazon S3 Express One Zone is a high-performance, single-Availability Zone storage class purpose-built to deliver consistent single-digit millisecond data access for your most frequently accessed data and latency-sensitive applications. S3 Express One Zone delivers data access speed up to 10x faster and request costs up to 80% lower than S3 Standard. It enables workloads such as machine learning training, interactive analytics, and key-value caching in AI search engines to achieve fast data access with high durability and availability.&lt;/p&gt; \n&lt;p&gt;With this expansion, S3 Express One Zone is now available in 15 &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-express-Endpoints.html\"&gt;AWS Regions&lt;/a&gt;. For pricing details, visit the &lt;a href=\"https://aws.amazon.com/s3/pricing/\"&gt;S3 pricing page&lt;/a&gt;. To learn more, visit the &lt;a href=\"https://aws.amazon.com/s3/storage-classes/express-one-zone/\"&gt;product page&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-express-getting-started.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-express-one-zone-7-regions/",
+      "publishedAt": "2026-09-17T08:00:00.000Z",
+      "updatedAt": "2026-09-17T08:00:00.000Z",
+      "categories": [
+        "Amazon S3",
+        "Storage"
+      ],
+      "services": [
+        "S3"
+      ],
+      "tags": [
+        "amazon s3",
+        "storage",
+        "s3"
+      ],
+      "isNew": true,
+      "securityScore": 15,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "access",
+        "S3"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "227f7203ec3faaf2",
       "title": "Amazon WorkSpaces adds support for NVIDIA Blackwell GPU instances",
       "description": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core now support Graphics G7 bundles, built on NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. Graphics G7 delivers up to 2.1x better performance for graphics-intensive workloads compared to previous generation Graphics G6 bundles. Four bundle sizes are available, ranging from 8 vCPUs, 32 GB of memory, and one GPU up to 48 vCPUs, 192 GB of memory, and two GPUs. With Graphics G7, you can run demanding professional applications such as CAD/CAM, 3D rendering, scientific visualization, video editing, and AI-assisted de",
@@ -6393,7 +6554,7 @@
         "sagemaker",
         "athena"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -6421,7 +6582,7 @@
         "aws lambda",
         "lambda"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -6790,6 +6951,29 @@
       "source": "whats-new"
     },
     {
+      "id": "8d01b89fb9b208f0",
+      "title": "AWS Builder Center now available as mobile app on iOS and Android",
+      "description": "AWS Builder Center is a platform that brings together the global builder community, offering articles, workshops, sandbox environments, events, and learning resources in one place. Previously limited to desktop and web access, the experience is now available as a mobile app on iOS and Android. Builders worldwide can stay connected and engaged with the community from anywhere, using their AWS Builder ID to remain signed in across sessions. The AWS Builder Center mobile app enables builders to browse trending articles, access 600+ AWS Skill Builder courses, and manage hands-on workshops with fre",
+      "descriptionHtml": "&lt;p&gt;AWS Builder Center is a platform that brings together the global builder community, offering articles, workshops, sandbox environments, events, and learning resources in one place. Previously limited to desktop and web access, the experience is now available as a mobile app on iOS and Android. Builders worldwide can stay connected and engaged with the community from anywhere, using their AWS Builder ID to remain signed in across sessions.&lt;/p&gt; \n&lt;p&gt;The AWS Builder Center mobile app enables builders to browse trending articles, access 600+ AWS Skill Builder courses, and manage hands-on workshops with free sandbox environments directly from their mobile devices. Builders can follow AWS Heroes, Community Builders, and User Group Leaders, check Builder Loft event calendars on the go, and receive push notifications for subscribed topics and communities. The app also supports the Wishlist feature, allowing builders to submit and manage product feedback directly to AWS teams.&lt;/p&gt; \n&lt;p&gt;The AWS Builder Center mobile app is available worldwide on the Apple App Store and Google Play Store.&lt;/p&gt; \n&lt;p&gt;To learn more about the AWS Builder Center mobile app, visit the &lt;a href=\"https://builder.aws.com/mobile\"&gt;AWS Builder Center mobile page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-center-now-available-as-mobile-app/",
+      "publishedAt": "2026-09-17T07:09:00.000Z",
+      "updatedAt": "2026-09-17T07:09:00.000Z",
+      "categories": [
+        "Mobile Services"
+      ],
+      "services": [],
+      "tags": [
+        "mobile services"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "9db24daa6a336437",
       "title": "Amazon Connect Customer can now import evaluation form PDFs using AI",
       "description": "Amazon Connect Customer now lets managers import a PDF of an evaluation form from a third-party quality management application, and automatically recreates it in Connect using AI, making it easier to migrate an existing quality program into Connect. Instead of rebuilding an existing form question by question, you upload the PDF and choose the preferred scoring method, either percentage or points-based, and Connect Customer automatically extracts the sections, questions, answer options, and scoring into a draft evaluation form. You can also provide natural language instructions to import the fo",
@@ -6857,7 +7041,7 @@
         "high performance computing",
         "compute"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -6887,7 +7071,7 @@
         "aws govcloud us",
         "rds"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -8306,6 +8490,91 @@
       "source": "whats-new"
     },
     {
+      "id": "ab8136cc0fbe15bd",
+      "title": "AWS Batch now supports bulk job cancellation and termination",
+      "description": "AWS Batch now supports bulk job cancellation and termination, enabling you to cancel or terminate up to 50 jobs with a single API call. The new CancelJobs, TerminateJobs, and TerminateServiceJobs APIs reduce the operational complexity of managing large-scale batch workloads, letting you act on groups of jobs at once and receive per-job results in a single response. Additionally, ListJobs now returns isCancelled and isTerminated fields, and ListServiceJobs returns isTerminated, making it easier to track the lifecycle state of your jobs. To get started, call CancelJobs for jobs in SUBMITTED, PEN",
+      "descriptionHtml": "&lt;p&gt;AWS Batch now supports bulk job cancellation and termination, enabling you to cancel or terminate up to 50 jobs with a single API call. The new CancelJobs, TerminateJobs, and TerminateServiceJobs APIs reduce the operational complexity of managing large-scale batch workloads, letting you act on groups of jobs at once and receive per-job results in a single response. Additionally, ListJobs now returns isCancelled and isTerminated fields, and ListServiceJobs returns isTerminated, making it easier to track the lifecycle state of your jobs.&lt;/p&gt; \n&lt;p&gt;To get started, call CancelJobs for jobs in SUBMITTED, PENDING, or RUNNABLE states, or TerminateJobs and TerminateServiceJobs for jobs in any state, including STARTING and RUNNING. All three APIs accept up to 50 job IDs and work with individual and array jobs. You can access them through the AWS CLI or AWS SDKs.&lt;/p&gt; \n&lt;p&gt;Bulk job cancellation and termination is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where AWS Batch is available. For more information, see &lt;a href=\"https://docs.aws.amazon.com/batch/latest/APIReference/API_CancelJobs.html\"&gt;CancelJobs&lt;/a&gt;,&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/batch/latest/APIReference/API_TerminateJobs.html\"&gt;TerminateJobs&lt;/a&gt;, and &lt;a href=\"https://docs.aws.amazon.com/batch/latest/APIReference/API_TerminateServiceJobs.html\"&gt;TerminateServiceJobs&lt;/a&gt; pages in the AWS Batch API Reference Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation/",
+      "publishedAt": "2026-09-17T17:23:00.000Z",
+      "updatedAt": "2026-09-17T17:23:00.000Z",
+      "categories": [],
+      "services": [
+        "Batch"
+      ],
+      "tags": [
+        "batch"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "e2b4f8f0dd2a821f",
+      "title": "Introducing Amazon EC2 T8i instances",
+      "description": "AWS is announcing the general availability of new low-cost burstable Amazon EC2 T8i instances. These instances are powered by custom sixth generation Intel Xeon 6 processors, available exclusively on AWS, and built on the latest sixth generation AWS Nitro cards. T8i instances deliver up to 30% better price performance compared to previous generation T3 instances, and offer four sizes: nano, micro, small, and medium. These instances are designed for workloads requiring low to moderate CPU utilization, including data processing, login gateways, small databases, batch processing, event driven fun",
+      "descriptionHtml": "&lt;p&gt;AWS is announcing the general availability of new low-cost burstable Amazon EC2 T8i instances. These instances are powered by custom sixth generation Intel Xeon 6 processors, available exclusively on AWS, and built on the latest sixth generation AWS Nitro cards. T8i instances deliver up to 30% better price performance compared to previous generation T3 instances, and offer four sizes: nano, micro, small, and medium. These instances are designed for workloads requiring low to moderate CPU utilization, including data processing, login gateways, small databases, batch processing, event driven functions, CI/CD pipelines, microservices, and low traffic websites. &amp;nbsp;&lt;/p&gt; \n&lt;p&gt;T8i instances deliver up to 70% higher compute performance, 1.25x higher network bandwidth, and 2.4x higher EBS bandwidth compared to T3 instances. They use the same CPU credit system as T3 with Standard and Unlimited modes, so existing T3 customers can upgrade to T8i and immediately benefit from better price performance, enabling them to lower their TCO. For customers new to AWS or migrating from on-premises, T8i instances provide one of the most cost-effective entry points to run a variety of workloads.&lt;/p&gt; \n&lt;p&gt;T8i.micro and T8i.small are available under the &lt;a href=\"https://aws.amazon.com/free/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Free Tier&lt;/a&gt;.&amp;nbsp;T8i instances are available in US East (N. Virginia, Ohio), US West (Oregon, N. California), Europe (Frankfurt, Ireland, London, Paris), Asia Pacific (Hyderabad, Malaysia, Mumbai, Seoul, Singapore, Sydney, Tokyo), and Canada (Central) regions.&amp;nbsp;T8i instances are available to purchase via On-Demand instances, and Spot instances with Savings Plan option coming soon. To learn more, visit the &lt;a href=\"https://aws.amazon.com/ec2/instance-types/t8i/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon EC2 T8i instances page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-t8i-instances-ga/",
+      "publishedAt": "2026-09-17T15:00:00.000Z",
+      "updatedAt": "2026-09-17T15:00:00.000Z",
+      "categories": [
+        "Compute",
+        "Amazon Ec2"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "compute",
+        "amazon ec2",
+        "ec2"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "c61cc46213142ac3",
+      "title": "AWS Elastic Beanstalk introduces Cluster Mode to run multiple applications on shared infrastructure",
+      "description": "AWS Elastic Beanstalk introduces Cluster Mode, a new deployment mode that lets you run and manage multiple applications on shared infrastructure in your account. Provide your source code, a Dockerfile, or a container image in Amazon ECR, and Elastic Beanstalk handles containerization, provisioning, and ongoing operations through the console, CLI, and APIs you already use. A new Elastic Beanstalk GitHub Action deploys your application directly from your repository as part of your CI/CD pipeline. AWS Elastic Beanstalk deploys, scales, and manages your applications for their full lifecycle while ",
+      "descriptionHtml": "&lt;p&gt;AWS Elastic Beanstalk introduces Cluster Mode, a new deployment mode that lets you run and manage multiple applications on shared infrastructure in your account. Provide your source code, a Dockerfile, or a container image in Amazon ECR, and Elastic Beanstalk handles containerization, provisioning, and ongoing operations through the console, CLI, and APIs you already use. A new Elastic Beanstalk GitHub Action deploys your application directly from your repository as part of your CI/CD pipeline.&lt;/p&gt; \n&lt;p&gt;AWS Elastic Beanstalk deploys, scales, and manages your applications for their full lifecycle while handling the infrastructure, so you can focus on your code. It now offers two deployment modes. Standard Mode is the existing Elastic Beanstalk experience and continues to support all currently available platforms, including .NET, Node.js, and Python. Cluster Mode runs multiple applications on pooled infrastructure in your account, powered by Amazon EKS, instead of a dedicated environment per application. This can lower your per-application compute cost as your applications scale or your application count grows. Cluster Mode supports event-driven autoscaling, OpenTelemetry-based observability to Amazon CloudWatch and third-party providers, AWS Secrets Manager integration, and HTTPS by default via AWS Certificate Manager.&lt;/p&gt; \n&lt;p&gt;To get started, create an environment in the Elastic Beanstalk console and select Cluster Mode. You can also deploy with the AWS CLI, the GitHub Action, or the agent skills.&lt;/p&gt; \n&lt;p&gt;Cluster Mode is available in all commercial AWS Regions where Elastic Beanstalk is available. Elastic Beanstalk is HIPAA eligible and in scope for programs including PCI DSS, SOC, FedRAMP, and IRAP. There is no additional charge for Cluster Mode. You pay for the AWS resources your applications consume, including the EKS cluster and EKS Auto Mode charges for the infrastructure Elastic Beanstalk provisions on your behalf. See the Elastic Beanstalk and EKS pricing pages for details.&lt;/p&gt; \n&lt;p&gt;To learn more, see the &lt;a href=\"https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/\"&gt;AWS News blog&lt;/a&gt;, the &lt;a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/\"&gt;Elastic Beanstalk Developer Guide&lt;/a&gt;, and the &lt;a href=\"https://aws.amazon.com/elasticbeanstalk/\"&gt;Elastic Beanstalk product page&lt;/a&gt;, or download the &lt;a href=\"https://github.com/aws/agent-toolkit-for-aws/blob/main/skills/core-skills/aws-containers/SKILL.md\"&gt;agent skills&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-beanstalk-cluster-mode/",
+      "publishedAt": "2026-09-17T08:00:00.000Z",
+      "updatedAt": "2026-09-17T08:00:00.000Z",
+      "categories": [],
+      "services": [
+        "Elastic Beanstalk"
+      ],
+      "tags": [
+        "elastic beanstalk"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "f391573b3b67c4c8",
+      "title": "Amazon Quick now generates individual sheets and builds analyses from an image",
+      "description": "Amazon Quick now expands Generate Analysis with two new ways to create dashboards faster. You can generate a single sheet inside an existing analysis by describing it in natural language, and you can generate a new analysis from an image of an existing dashboard. With Generate Sheet, you describe the sheet you want and Amazon Quick adds it to your current analysis with visuals selected for your data, filter controls, and calculated fields such as year-over-year growth and month-over-month comparisons. You can extend an analysis without building each visual by hand. With generate an analysis fr",
+      "descriptionHtml": "&lt;p&gt;Amazon Quick now expands Generate Analysis with two new ways to create dashboards faster. You can generate a single sheet inside an existing analysis by describing it in natural language, and you can generate a new analysis from an image of an existing dashboard.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;With Generate Sheet, you describe the sheet you want and Amazon Quick adds it to your current analysis with visuals selected for your data, filter controls, and calculated fields such as year-over-year growth and month-over-month comparisons. You can extend an analysis without building each visual by hand.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;With generate an analysis from an image, you attach an image of a dashboard, including dashboards from other BI tools, to your prompt when you generate an analysis. Amazon Quick recreates it as an editable analysis, building what is supported in Amazon Quick. Both capabilities work with existing publishing workflows, embedding, CI/CD pipelines, and point-and-click editing.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;At launch, Generate Sheet and generate analysis from an image are available to Enterprise subscription/Author Pro users. Authors also have promotional access to this capability through December 2026 as part of Amazon Quick Enterprise, provided their organization has not restricted access.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;To learn more, see &lt;a title=\"Generating an analysis with natural language prompts in the Amazon Quick User Guide\" href=\"https://docs.aws.amazon.com/quick/latest/userguide/generating-an-analysis.html\"&gt;Generating an analysis with natural language prompts&lt;/a&gt; in the Amazon Quick User Guide. To get started, open an analysis and choose Generate Sheet, or attach an image to your prompt and choose Generate analysis.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/generate-sheet-and-generate-analysis-from-an-image/",
+      "publishedAt": "2026-09-17T02:37:00.000Z",
+      "updatedAt": "2026-09-17T02:37:00.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "22bfee1956f4a34c",
       "title": "Amazon Corretto 27 is now generally available",
       "description": "Amazon Corretto 27, a Feature Release (FR) version, is now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK . You can download Corretto 27 for Linux, Windows, and macOS from our downloads page . Corretto 27 will be supported through April 2027. Noticeable features: G1 as the Default Garbage Collector in All Environments - Makes G1 the default garbage collector across all environments, delivering more consistent performance and predictable pause times regardless of where your application runs (JEP 523) Post-Quantum Hybrid Key Exchang",
@@ -8347,6 +8616,32 @@
         "aiml",
         "amazon sagemaker training",
         "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "b3526131d57ff679",
+      "title": "Amazon ECS deployment observability for Amazon ECS Managed Daemons in AWS Management Console",
+      "description": "Amazon Elastic Container Service (Amazon ECS) now provides a consolidated deployment view for Amazon ECS Managed Daemons, giving you a single place to see how far a deployment has progressed, what is failing, and what could stop it. This helps you monitor Managed Daemon deployments at a glance and resolve issues faster, whether a rollout is in progress or you are reviewing what happened after it completed, eliminating the need to piece together deployment status from multiple sources. The deployment view presents a lifecycle timeline with timestamps at each step and the total deployment durati",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/ecs/\"&gt;Amazon Elastic Container Service&lt;/a&gt; (Amazon ECS) now provides a consolidated deployment view for Amazon ECS Managed Daemons, giving you a single place to see how far a deployment has progressed, what is failing, and what could stop it. This helps you monitor Managed Daemon deployments at a glance and resolve issues faster, whether a rollout is in progress or you are reviewing what happened after it completed, eliminating the need to piece together deployment status from multiple sources.&lt;br&gt; &lt;br&gt; The deployment view presents a lifecycle timeline with timestamps at each step and the total deployment duration, including the rollback path if a deployment is interrupted. Progress bars for each capacity provider track instances completed, in progress, and remaining, as well as instances draining and being replaced when a capacity provider is removed. A monitoring panel shows deployment circuit breaker, deployment alarm, and container health check state, each with live Amazon CloudWatch alarm detail and whether it can stop the deployment. If a daemon task fails, the affected capacity provider shows the stop reason with links to the task, its logs, and the matching troubleshooting guide, including the failure that caused a rollback. The view also displays target and source revisions with instance counts, drain percentage, and bake time.&lt;br&gt; &lt;br&gt; This enhancement is available as a console-only view in all AWS Commercial Regions at no additional cost. To get started with Amazon ECS Managed Daemons, refer to our &lt;a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/managed-daemons.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-daemon-deployment-console/",
+      "publishedAt": "2026-09-16T22:01:00.000Z",
+      "updatedAt": "2026-09-16T22:01:00.000Z",
+      "categories": [
+        "Containers",
+        "Containers And Deployment"
+      ],
+      "services": [
+        "ECS"
+      ],
+      "tags": [
+        "containers",
+        "containers and deployment",
+        "ecs"
       ],
       "isNew": true,
       "securityScore": 0,
@@ -8423,6 +8718,62 @@
       "tags": [
         "amazon connect",
         "contact center",
+        "connect"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "af57df6dc725d731",
+      "title": "Amazon Keyspaces (for Apache Cassandra) is now generally available in 11 additional Regions",
+      "description": "Amazon Keyspaces (for Apache Cassandra) is now generally available in 11 additional Regions, allowing customers in those Regions to build Cassandra-compatible applications with lower latency while keeping their data within the Region to meet data residency requirements.. Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra–compatible database service. Amazon Keyspaces is serverless, so you pay for only the resources that you use and you can build applications that serve thousands of requests per second with virtually unlimited throughput and sto",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/keyspaces/\"&gt;Amazon Keyspaces (for Apache Cassandra)&lt;/a&gt; is now generally available in 11 additional Regions,&amp;nbsp;allowing customers in those Regions to build Cassandra-compatible applications with lower latency while keeping their data within the Region to meet data residency requirements..&amp;nbsp;&lt;br&gt; &lt;br&gt; Amazon Keyspaces (for Apache Cassandra) is a scalable, highly available, and managed Apache Cassandra–compatible database service. Amazon Keyspaces is serverless, so you pay for only the resources that you use and you can build applications that serve thousands of requests per second with virtually unlimited throughput and storage.&amp;nbsp;&lt;br&gt; &lt;br&gt; To find the list of new available Regions, see the following resources: &lt;a href=\"https://builder.aws.com/build/capabilities\"&gt;AWS Capabilities by Region&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-keyspaces/",
+      "publishedAt": "2026-09-16T16:00:00.000Z",
+      "updatedAt": "2026-09-16T16:00:00.000Z",
+      "categories": [
+        "Serverless",
+        "Databases",
+        "Amazon Keyspaces"
+      ],
+      "services": [
+        "Keyspaces"
+      ],
+      "tags": [
+        "serverless",
+        "databases",
+        "amazon keyspaces",
+        "keyspaces"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "ef0734230b04ac8b",
+      "title": "Amazon Connect Talent is now generally available",
+      "description": "Amazon Connect Talent is now generally available, giving talent acquisition leaders an AI-powered hiring solution that accelerates candidate selection at scale. Informed by decades of Amazon's hiring science, Amazon Connect Talent uses AI agents to conduct structured voice interviews, administer evidence based assessments, and score candidates consistently, freeing recruiters to focus on strategic decisions. Candidates interview 24/7 from any device. Recruiters review scores, transcripts, and detailed candidate evaluations generated by their AI teammate, empowering them to make faster hiring d",
+      "descriptionHtml": "&lt;p&gt;Amazon Connect Talent is now generally available, giving talent acquisition leaders an AI-powered hiring solution that accelerates candidate selection at scale. Informed by decades of Amazon's hiring science, Amazon Connect Talent uses AI agents to conduct structured voice interviews, administer evidence based assessments, and score candidates consistently, freeing recruiters to focus on strategic decisions. Candidates interview 24/7 from any device. Recruiters review scores, transcripts, and detailed candidate evaluations generated by their AI teammate, empowering them to make faster hiring decisions with consistent objectivity.&lt;/p&gt; \n&lt;p&gt;GA capabilities include competency based assessments, AI-led voice interviews with adaptive questioning, a brand-customizable mobile-first candidate portal, and system admin onboarding tools for easy deployment. Amazon Connect Talent scales to handle hiring surges, evaluating hundreds of candidates simultaneously. Amazon Connect Talent is now available in AWS US East (N. Virginia) and US West (Oregon) regions. To learn more, visit the &lt;a href=\"https://aws.amazon.com/products/connect/talent/\"&gt;Amazon Connect Talent page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-talent/",
+      "publishedAt": "2026-09-16T12:22:00.000Z",
+      "updatedAt": "2026-09-16T12:22:00.000Z",
+      "categories": [
+        "Aiml",
+        "General:Products",
+        "Amazon Connect"
+      ],
+      "services": [
+        "Connect"
+      ],
+      "tags": [
+        "aiml",
+        "general:products",
+        "amazon connect",
         "connect"
       ],
       "isNew": true,
@@ -8854,7 +9205,7 @@
       "tags": [
         "migration"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -8880,7 +9231,7 @@
         "aws lambda",
         "lambda"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -8912,7 +9263,7 @@
         "messaging",
         "mq"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -8940,7 +9291,7 @@
         "compute",
         "outposts"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -8968,7 +9319,7 @@
         "analytics",
         "opensearch"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -8994,7 +9345,7 @@
         "amazon redshift",
         "redshift"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
