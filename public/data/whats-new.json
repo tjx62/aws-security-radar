@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-23T13:25:08.827Z",
-  "itemCount": 448,
+  "lastUpdated": "2026-09-24T13:19:39.493Z",
+  "itemCount": 456,
   "items": [
     {
       "id": "ab40d9c49f3e8d72",
@@ -747,6 +747,42 @@
         "security",
         "compliance",
         "Organizations"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "30028135b4222533",
+      "title": "ICYMI: August 2026 @AWS Security",
+      "description": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts August brought 20 AWS Security Blog posts organized across seven categories. Identity and access management led the month with five posts […]",
+      "descriptionHtml": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts August brought 20 AWS Security Blog posts organized across seven categories. Identity and access management led the month with five posts […]",
+      "url": "https://aws.amazon.com/blogs/security/icymi-august-2026-aws-security/",
+      "publishedAt": "2026-09-23T23:07:36.000Z",
+      "updatedAt": "2026-09-23T23:07:36.000Z",
+      "categories": [
+        "Announcements",
+        "Foundational (100)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "announcements",
+        "foundational (100)",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 95,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "security",
+        "compliance",
+        "access",
+        "identity"
       ],
       "source": "security-blog"
     },
@@ -1629,6 +1665,45 @@
         "identity"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "6593fc9382c847ff",
+      "title": "Supporting ASD’s multi-factor authentication campaign: Why MFA matters more than ever",
+      "description": "The Australian Signals Directorate (ASD) has this month issued a clear call to action through its Multi-factor authentication: Switch it on campaign, urging businesses, organisations, and individuals to enable multi-factor authentication (MFA) across their online accounts. At AWS, we strongly support this message. As threat actors continue to target credentials through phishing, credential stuffing, and […]",
+      "descriptionHtml": "The Australian Signals Directorate (ASD) has this month issued a clear call to action through its Multi-factor authentication: Switch it on campaign, urging businesses, organisations, and individuals to enable multi-factor authentication (MFA) across their online accounts. At AWS, we strongly support this message. As threat actors continue to target credentials through phishing, credential stuffing, and […]",
+      "url": "https://aws.amazon.com/blogs/security/supporting-asds-multi-factor-authentication-campaign-why-mfa-matters-more-than-ever/",
+      "publishedAt": "2026-09-23T14:45:44.000Z",
+      "updatedAt": "2026-09-23T14:45:44.000Z",
+      "categories": [
+        "Announcements",
+        "Foundational (100)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Australia",
+        "MFA",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "announcements",
+        "foundational (100)",
+        "security",
+        "identity",
+        "& compliance",
+        "australia",
+        "mfa",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 70,
+      "securityLevel": "high",
+      "securityMatches": [
+        "authentication",
+        "credential",
+        "threat"
+      ],
+      "source": "security-blog"
     },
     {
       "id": "7e98d17a5b9eb995",
@@ -2631,7 +2706,7 @@
         "europe",
         "security blog"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 55,
       "securityLevel": "medium",
       "securityMatches": [
@@ -4017,7 +4092,7 @@
       "tags": [
         "eks"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -5839,7 +5914,7 @@
         "aws account billing",
         "iam"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 25,
       "securityLevel": "medium",
       "securityMatches": [
@@ -6166,7 +6241,7 @@
         "amazon simple email service",
         "ses"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -6195,7 +6270,7 @@
         "amazon connect",
         "connect"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -6785,7 +6860,7 @@
         "storage",
         "s3"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -6818,7 +6893,7 @@
         "amazon workspaces",
         "workspaces"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [],
@@ -7303,6 +7378,104 @@
       "source": "whats-new"
     },
     {
+      "id": "1a2591c4b9d1e21c",
+      "title": "Amazon Connect Customer now provides routing step data in the analytics data lake",
+      "description": "Amazon Connect Customer now provides routing step data in the analytics data lake, making it easier for customers to generate insights from routing decisions. Using the data lake, customers can leverage Amazon Athena and Amazon Quick to analyze trends, such as contacts queued and contacts joined at each routing step, without complex data pipelines. For example, an analyst can now report on how contacts progressed through each routing step, identify where agent matching criteria were relaxed, and measure the impact of routing step configurations on wait times and agent utilization. Routing step",
+      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now provides routing step data in the analytics data lake, making it easier for customers to generate insights from routing decisions. Using the data lake, customers can leverage Amazon Athena and Amazon Quick to analyze trends, such as contacts queued and contacts joined at each routing step, without complex data pipelines. For example,&amp;nbsp;an analyst can now report on how contacts progressed through each routing step, identify where agent matching criteria were relaxed, and measure the impact of routing step configurations on wait times and agent utilization.&lt;/p&gt;\n&lt;p&gt;Routing step data is available in all AWS &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#analytics_datalake_region\"&gt;regions&lt;/a&gt; where Amazon Connect Customer data lake is offered. To learn more about Amazon Connect Customer data lake, see the &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/data-lake-contact-data.html\"&gt;Amazon Connect Customer Administrator Guide&lt;/a&gt;.&amp;nbsp; To learn more about Amazon Connect Customer, visit the &lt;a href=\"https://aws.amazon.com/connect/\"&gt;Amazon Connect Customer website&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/",
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "updatedAt": "2026-09-23T16:00:00.000Z",
+      "categories": [
+        "Business Productivity",
+        "Contact Center",
+        "Amazon Connect",
+        "AWS Govcloud Us"
+      ],
+      "services": [
+        "Connect"
+      ],
+      "tags": [
+        "business productivity",
+        "contact center",
+        "amazon connect",
+        "aws govcloud us",
+        "connect"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "6f0d31ce36d224ef",
+      "title": "Amazon EMR on EKS now supports IPv6 Amazon EKS clusters",
+      "description": "Today, AWS announces that Amazon EMR on EKS now supports running workloads on IPv6 Amazon Elastic Kubernetes Service (Amazon EKS) clusters. Amazon EMR on EKS enables data platform and analytics teams to run open-source big data frameworks such as Apache Spark and Apache Flink on Amazon EKS. With IPv6 support, teams operating at scale can now run these workloads on IPv6 Amazon EKS clusters, giving them access to the vastly larger address space of IPv6 as their analytics workloads grow. You can now scale large Spark and Flink workloads using the expanded IPv6 address space, which removes the nee",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces that Amazon EMR on EKS now supports running workloads on IPv6 Amazon Elastic Kubernetes Service (Amazon EKS) clusters. Amazon EMR on EKS enables data platform and analytics teams to run open-source big data frameworks such as Apache Spark and Apache Flink on Amazon EKS. With IPv6 support, teams operating at scale can now run these workloads on IPv6 Amazon EKS clusters, giving them access to the vastly larger address space of IPv6 as their analytics workloads grow.&lt;/p&gt;\n&lt;p&gt;You can now scale large Spark and Flink workloads using the expanded IPv6 address space, which removes the need for IPv4 conservation workarounds such as secondary CIDR ranges or prefix delegation. High-executor jobs, such as 500-executor Spark jobs, can run concurrently without planning around address limits. To submit workloads, use StartJobRun, Spark Connect Interactive Endpoints, and Amazon SageMaker Unified Studio with no additional configuration, while the Flink, Livy, and Spark Operators are also supported. This capability is available at no additional cost, starting with Amazon EMR releases emr-7.14.0 and emr-spark-8.0.0.&lt;/p&gt;\n&lt;p&gt;IPv6 cluster support is available in all AWS Regions where Amazon EMR on EKS and IPv6 Amazon EKS clusters are available.&lt;/p&gt;\n&lt;p&gt;Amazon EMR on EKS IPv6 cluster support includes detailed setup instructions and documentation on supported submission models. Visit the &lt;a href=\"https://aws.amazon.com/emr/features/eks/\"&gt;Amazon EMR on EKS product page&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/emr-eks-ipv6.html\"&gt;IPv6 documentation&lt;/a&gt; to learn more.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-eks-ipv6-support",
+      "publishedAt": "2026-09-23T15:00:00.000Z",
+      "updatedAt": "2026-09-23T15:00:00.000Z",
+      "categories": [
+        "Analytics",
+        "Amazon Emr",
+        "Networking"
+      ],
+      "services": [
+        "EKS",
+        "EMR"
+      ],
+      "tags": [
+        "analytics",
+        "amazon emr",
+        "networking",
+        "eks",
+        "emr"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "2a6d2d6cc35bf1ca",
+      "title": "Amazon DynamoDB global tables with multi-Region strong consistency now supports additional AWS Regions and cross-continent configurations",
+      "description": "Starting today, Amazon DynamoDB global tables with multi-Region strong consistency (MRSC) is available in five additional AWS Regions: Canada (Central), Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and Asia Pacific (Singapore), bringing the total number of supported Regions to 15. You can now create an MRSC global table in any three-Region configuration across the 15 supported AWS Regions, configured with either three replicas or two replicas and one witness Region. This includes configurations that span North America, Europe, and Asia Pacific. MRSC lets you build highly availabl",
+      "descriptionHtml": "&lt;p&gt;Starting today, Amazon DynamoDB global tables with multi-Region strong consistency (MRSC) is available in five additional AWS Regions: Canada (Central), Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and Asia Pacific (Singapore), bringing the total number of supported Regions to 15. You can now create an MRSC global table in any three-Region configuration across the 15 supported AWS Regions, configured with either three replicas or two replicas and one witness Region. This includes configurations that span North America, Europe, and Asia Pacific.&lt;/p&gt;\n&lt;p&gt;MRSC lets you build highly available multi-Region applications with a recovery point objective (RPO) of zero. By choosing replica Regions closer to your users in more geographies, you can route applications to nearby DynamoDB endpoints for strongly consistent reads while keeping your application available during Regional impairments. MRSC is ideal for global applications with strict consistency requirements, such as user profile management, inventory tracking, order state, and entitlement management.&lt;/p&gt;\n&lt;p&gt;To get started and view the complete list of supported Regions and configuration options, see the &lt;a href=\"https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables_HowItWorks.html#V2globaltables_HowItWorks.consistency-modes.mrsc\"&gt;DynamoDB Developer Guide&lt;/a&gt;. To learn more about building resilient multi-Region applications, visit the &lt;a href=\"https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables.tutorial.html#create-gt-mrsc\"&gt;DynamoDB global tables page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/dynamodb-mrsc-additional-regions/",
+      "publishedAt": "2026-09-23T08:00:00.000Z",
+      "updatedAt": "2026-09-23T08:00:00.000Z",
+      "categories": [
+        "Better Performance",
+        "Amazon Dynamodb",
+        "Global Infrastructure",
+        "Databases",
+        "Availabililty"
+      ],
+      "services": [
+        "DynamoDB"
+      ],
+      "tags": [
+        "better performance",
+        "amazon dynamodb",
+        "global infrastructure",
+        "databases",
+        "availabililty",
+        "dynamodb"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "d201aed55aaecf5e",
       "title": "Billing Transfer now supports automatic billing group creation for two-level transfers",
       "description": "AWS Billing Transfer users can now enable the Auto-Billing Transfer Billing Group Creation, a new AWS Billing Conductor preference that eliminates the manual billing group configuration in two-level billing transfer arrangements. Designed for AWS Distributors managing billing for downstream seller Partners and their end customers, this feature automatically creates billing groups when an end customer accepts a billing transfer from a downstream seller Partner, ensuring pro forma cost data is immediately available to the Partner, with no extra manual configuration. Auto-Billing Transfer Billing",
@@ -7444,7 +7617,7 @@
       "tags": [
         "mobile services"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -7472,7 +7645,7 @@
         "contact center",
         "connect"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -8672,6 +8845,38 @@
       "source": "whats-new"
     },
     {
+      "id": "8cbd6ab9ff823f88",
+      "title": "Amazon Bedrock Managed Knowledge Base now supports Salesforce and Zendesk as native data source connectors",
+      "description": "AWS announces Salesforce and Zendesk data source connectors for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now sync Salesforce knowledge articles and Zendesk articles and community posts directly into their managed knowledge base. Previously, bringing content from these platforms into Bedrock Knowledge Bases required building custom ingestion pipelines—now, you provide your instance credentials, and the connectors handle data crawling, metadata extraction, and incremental sync automatically. These connectors make it easy t",
+      "descriptionHtml": "&lt;p&gt;AWS announces Salesforce and Zendesk data source connectors for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now sync Salesforce knowledge articles and Zendesk articles and community posts directly into their managed knowledge base.\n &lt;br&gt;\n Previously, bringing content from these platforms into Bedrock Knowledge Bases required building custom ingestion pipelines—now, you provide your instance credentials, and the connectors handle data crawling, metadata extraction, and incremental sync automatically.\n &lt;br&gt;\n These connectors make it easy to build AI agents and assistants grounded in the support and product knowledge your teams already maintain in Salesforce and Zendesk. For example, power a customer-facing support bot with up-to-date Zendesk help center articles and community answers, or build an internal sales enablement assistant that retrieves relevant Salesforce knowledge articles during deal preparation. By keeping your knowledge base in sync with these platforms, your retrieval-augmented generation applications always reflect the latest content without manual intervention.\n &lt;br&gt;\n To learn more, see &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/kb-managed-ds-salesforce.html\"&gt;Salesforce data source connector&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/kb-managed-ds-zendesk.html\"&gt;Zendesk data source connector &lt;/a&gt;in the Amazon Bedrock User Guide. For more information about Amazon Bedrock Managed Knowledge Base, visit the &lt;a href=\"https://aws.amazon.com/bedrock/knowledge-bases/\"&gt;Amazon Bedrock Knowledge Bases product page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/",
+      "publishedAt": "2026-09-23T17:41:00.000Z",
+      "updatedAt": "2026-09-23T17:41:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Amazon Bedrock",
+        "Business Productivity",
+        "Aiml"
+      ],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "amazon bedrock",
+        "business productivity",
+        "aiml",
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 5,
+      "securityLevel": "low",
+      "securityMatches": [
+        "credential"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "bd4b08863b3b39f8",
       "title": "OpenAI GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock",
       "description": "Today, AWS announces the general availability of GPT-6 Sol and GPT-6 Luna from OpenAI on Amazon Bedrock. Expanding the GPT-6 family alongside Astra, these two models give teams more ways to balance intelligence, speed, and cost across every workload. Sol is the daily model for recurring complex tasks and software development. On an internal OpenAI factuality evaluation, it makes roughly half as many mistakes as GPT-5.6 Sol. Luna is the family's most efficient model for focused, high-volume tasks such as summarization, extraction, classification, and routing. Both models support up to 1M tokens",
@@ -8781,7 +8986,7 @@
         "ecs",
         "s3"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 5,
       "securityLevel": "low",
       "securityMatches": [
@@ -9057,6 +9262,30 @@
       "source": "whats-new"
     },
     {
+      "id": "a1dd445ae9bdfa24",
+      "title": "Amazon Kinesis Data Streams announces Service-Managed Partition Keys for simplified data ingestion",
+      "description": "Amazon Kinesis Data Streams now supports service-managed partition keys for On-Demand Standard and On-Demand Advantage streams, automatically distributing records across shards without requiring customers to specify partition keys to publish data. This capability simplifies data ingestion for workloads where record ordering is not required, eliminating hot partition keys and reducing time to production for streaming workloads. Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. Many streaming use cases ",
+      "descriptionHtml": "&lt;p&gt;Amazon Kinesis Data Streams now supports service-managed partition keys for On-Demand Standard and On-Demand Advantage streams, automatically distributing records across shards without requiring customers to specify partition keys to publish data. This capability simplifies data ingestion for workloads where record ordering is not required, eliminating hot partition keys and reducing time to production for streaming workloads.&lt;/p&gt;\n&lt;p&gt;Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. Many streaming use cases such as log aggregation, metrics collection, and IoT telemetry do not require ordering guarantees and benefit from prewarmed capacity for instant scaling. Previously, customers generated random partition keys (such as UUIDs) to distribute data, but random partitioning can still produce uneven throughput across shards, causing throttling for some partition keys even when the stream has sufficient aggregate capacity. By opting into service-managed partition keys, customers no longer need to specify partition keys when publishing data to streams in on-demand mode. The service automatically distributes records based on available warm capacity, allowing customers to scale to gigabytes per second without maintaining any distribution logic. Customers who want to send records without specifying a partition key can simply upgrade to the latest AWS SDK or Kinesis Producer Library (KPL) version to benefit from this capability.&lt;/p&gt;\n&lt;p&gt;Service-managed partition keys for Amazon Kinesis Data Streams is available today in all AWS commercial regions at no additional cost. To get started, visit the Amazon Kinesis Data Streams documentation (&lt;a href=\"https://aws.amazon.com/kinesis\"&gt;https://aws.amazon.com/kinesis&lt;/a&gt;).&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys",
+      "publishedAt": "2026-09-23T22:51:00.000Z",
+      "updatedAt": "2026-09-23T22:51:00.000Z",
+      "categories": [
+        "Amazon Kinesis"
+      ],
+      "services": [
+        "Kinesis"
+      ],
+      "tags": [
+        "amazon kinesis",
+        "kinesis"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "743ac592cc3256ab",
       "title": "Amazon CloudWatch Omni: AI-first observability for agents and applications",
       "description": "AWS announces the general availability of Amazon CloudWatch Omni, an evolution of Amazon CloudWatch. Omni is an AI-powered observability experience organized around your teams and the applications they run, so that you can observe and troubleshoot your applications and agents in one place. It combines the interoperability of OpenTelemetry with the scale and reliability of CloudWatch. And it meets you wherever you work: a standalone web experience with single sign-on (SSO) for your team, or a local IDE extension for getting hands-on with your agents. With CloudWatch Omni, you create spaces in y",
@@ -9155,6 +9384,27 @@
       "tags": [
         "amazon rds for sql server",
         "rds"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "146f98798c94f2c4",
+      "title": "Amazon Connect Customer launches agent-to-agent collaboration",
+      "description": "Amazon Connect Customer now supports agent-to-agent collaboration, giving customers the choice to bring in specialized AI agents during a live interaction to resolve a customer request. With this launch, Connect Customer AI agents can collaborate with each other, and with AI agents outside Connect Customer, over the open agent-to-agent (A2A) protocol through text or bidirectional voice. For example, a bank's frontline AI agent handling a customer call can delegate a fraud risk assessment to a specialist scoring AI agent, use the result to approve the transaction on the spot, and then transfer ",
+      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now supports agent-to-agent collaboration, giving customers the choice to bring in specialized AI agents during a live interaction to resolve a customer request. With this launch, Connect Customer AI agents can collaborate with each other, and with AI agents outside Connect Customer, over the open agent-to-agent (A2A) protocol through text or bidirectional voice. For example, a bank's frontline AI agent handling a customer call can delegate a fraud risk assessment to a specialist scoring AI agent, use the result to approve the transaction on the spot, and then transfer a complex dispute to another AI agent that resolves it directly with the customer.&lt;/p&gt;\n&lt;p&gt;Working with the A2A Technical Steering Committee at the Linux Foundation, AWS expanded the protocol to support voice streaming and interaction-level session continuity required for customer engagement. When using A2A, Connect Customer coordinates context passing between the AI agents so customers get a consistent experience, with unified observability, guardrails, and escalation controls across all the AI agents in an interaction. Administrators see one contact record showing what each agent said, which tools it called, and how long each step took, all captured as a single interaction for analytics, AI quality management, and to drive continual improvement.&lt;/p&gt;\n&lt;p&gt;For a full list of supported Regions, see &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/regions.html\"&gt;region availability.&lt;/a&gt; To learn more about this feature, see the &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/a2a-collaboration.html\"&gt;administrator guide&lt;/a&gt;. To learn more about Amazon Connect Customer, an AI solution that helps enterprises deliver exceptional customer experiences at every touchpoint, visit the &lt;a href=\"https://aws.amazon.com/products/connect/customer/?trk=25b81a8c-c9b1-4866-9ba5-f9cb1c5e792a&amp;amp;sc_channel=ps&amp;amp;ef_id=Cj0KCQjwzsjVBhC3ARIsALnMv4mYHhNN7YyGvP3737bRuQVACCUn8CuHCDu-_WonDUC1SXGIaqzCB2oaAjYSEALw_wcB:G:s&amp;amp;gclid=Cj0KCQjwzsjVBhC3ARIsALnMv4mYHhNN7YyGvP3737bRuQVACCUn8CuHCDu-_WonDUC1SXGIaqzCB2oaAjYSEALw_wcB\"&gt;Amazon Connect Customer website&lt;/a&gt;. For information about pricing, please visit our &lt;a href=\"https://aws.amazon.com/products/connect/customer/pricing/appendix/?refid=25b81a8c-c9b1-4866-9ba5-f9cb1c5e792a\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/Amazon-Connect-Customer-A2A",
+      "publishedAt": "2026-09-22T04:00:00.000Z",
+      "updatedAt": "2026-09-22T04:00:00.000Z",
+      "categories": [],
+      "services": [
+        "Connect"
+      ],
+      "tags": [
+        "connect"
       ],
       "isNew": true,
       "securityScore": 0,
@@ -9334,7 +9584,7 @@
       "tags": [
         "elastic beanstalk"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9351,7 +9601,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9374,7 +9624,7 @@
         "amazon corretto",
         "developers"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9400,7 +9650,7 @@
         "amazon sagemaker training",
         "sagemaker"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9426,7 +9676,7 @@
         "containers and deployment",
         "ecs"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9449,7 +9699,7 @@
         "networking and content delivery",
         "aws client vpn"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9477,7 +9727,7 @@
         "elemental",
         "mediatailor"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9503,7 +9753,7 @@
         "contact center",
         "connect"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9531,7 +9781,7 @@
         "serverless",
         "keyspaces"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
