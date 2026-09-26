@@ -1,34 +1,73 @@
 {
-  "lastUpdated": "2026-09-25T13:20:10.322Z",
-  "itemCount": 469,
+  "lastUpdated": "2026-09-26T12:43:13.170Z",
+  "itemCount": 478,
   "items": [
+    {
+      "id": "a73f02bf9d972686",
+      "title": "AWS IAM outbound identity federation now supports interface VPC endpoints for OIDC discovery",
+      "description": "AWS Identity and Access Management (IAM) outbound identity federation now supports Amazon Virtual Private Cloud (VPC) endpoints for the OpenID Connect (OIDC) discovery APIs. You can now access the OIDC discovery metadata and JSON Web Key Set (JWKS) verification key endpoints from within your VPC using AWS PrivateLink , without requiring traffic to traverse the public internet. IAM outbound identity federation eliminates the need to use long-lived credentials when your AWS workloads access external services. Instead, your workloads request short-lived JSON Web Tokens (JWTs) from AWS Security To",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/identity/federation/outbound-federation/\"&gt;AWS Identity and Access Management (IAM) outbound identity federation&lt;/a&gt; now supports Amazon Virtual Private Cloud (VPC) endpoints for the OpenID Connect (OIDC) discovery APIs. You can now access the OIDC discovery metadata and JSON Web Key Set (JWKS) verification key endpoints from within your VPC using &lt;a href=\"https://aws.amazon.com/privatelink/\"&gt;AWS PrivateLink&lt;/a&gt;, without requiring traffic to traverse the public internet.&lt;/p&gt;\n&lt;p&gt;IAM outbound identity federation eliminates the need to use long-lived credentials when your AWS workloads access external services. Instead, your workloads request short-lived JSON Web Tokens (JWTs) from AWS Security Token Service (AWS STS). External services verify these tokens using public verification keys and metadata available at OIDC discovery endpoints. Previously, the OIDC discovery endpoints were only reachable over the public internet, so a verifying workload running in a VPC without internet access could not retrieve them. With this launch, you can create an interface VPC endpoint to reach these endpoints privately, keeping the verification key retrieval traffic within the AWS network. This capability helps you meet network security requirements for workloads that operate in VPCs with restricted internet access, while still enabling external services to verify JWTs.&lt;/p&gt;\n&lt;p&gt;This feature is available in all commercial AWS Regions, the AWS GovCloud (US) Regions, and China Regions. There is no additional charge for this feature beyond standard &lt;a href=\"https://aws.amazon.com/privatelink/pricing/\"&gt;AWS PrivateLink pricing&lt;/a&gt;. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_sts_oidc_vpc_endpoint_create.html\"&gt;IAM User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/",
+      "publishedAt": "2026-09-25T17:54:00.000Z",
+      "updatedAt": "2026-09-25T17:54:00.000Z",
+      "categories": [
+        "AWS Identity And Access Management",
+        "AWS Iam",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "VPC",
+        "IAM"
+      ],
+      "tags": [
+        "aws identity and access management",
+        "aws iam",
+        "security identity and compliance",
+        "vpc",
+        "iam"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "VPC",
+        "PrivateLink",
+        "security",
+        "access",
+        "identity",
+        "token",
+        "credential"
+      ],
+      "source": "whats-new"
+    },
     {
       "id": "dd1ff0be079b4ca3",
       "title": "AWS Network Security Manager is now generally available in US East (N. Virginia) Region",
-      "description": "Today, AWS announces the general availability of AWS Network Security Manager, a comprehensive network security management solution designed to simplify security policy deployment and enforcement at scale. Network Security Manager supports AWS WAF and AWS Shield Advanced, with support for AWS Network Firewall soon to follow. AWS Network Security Manager enables security teams to consistently enforce firewall and DDoS protection configurations across their entire AWS organization. Network Security Manager features always-on security deployment automation that applies AWS WAD and AWS Sheild Adva",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announces the general availability of AWS Network Security Manager, a comprehensive network security management solution designed to simplify security policy deployment and enforcement at scale. Network Security Manager supports AWS WAF and AWS Shield Advanced, with support for AWS Network Firewall soon to follow. AWS Network Security Manager enables security teams to consistently enforce firewall and DDoS protection configurations across their entire AWS organization.&lt;/p&gt;\n&lt;p&gt;Network Security Manager features always-on security deployment automation that applies AWS WAD and AWS Sheild Advanced security protection to Internet facing assets like AWS Application Load Balancer and Amazon CloudFront. This automated approach helps security teams deploy and manage WAF rules and Shield Advanced protections efficiently, ensuring consistent security posture across targeted accounts and resources. Teams can centrally manage security policies, automatically detect configuration drift, and apply remediation reducing the operational overhead of manual security management while maintaining comprehensive protection.&lt;/p&gt;\n&lt;p&gt;AWS Network Security Manager is generally available in US East (N. Virginia). For pricing information, visit the &lt;a href=\"https://aws.amazon.com/network-security-manager/pricing/\"&gt;AWS Network Security Manager Pricing page&lt;/a&gt;.&lt;/p&gt;",
+      "description": "Today, AWS announces the general availability of AWS Network Security Manager, a comprehensive network security management solution designed to simplify security policy deployment and enforcement at scale. Network Security Manager supports AWS WAF and AWS Shield Advanced, with support for AWS Network Firewall soon to follow. AWS Network Security Manager enables security teams to consistently enforce firewall and DDoS protection configurations across their entire AWS organization. Network Security Manager features always-on security deployment automation that applies AWS WAF and AWS Shield Adva",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces the general availability of AWS Network Security Manager, a comprehensive network security management solution designed to simplify security policy deployment and enforcement at scale. Network Security Manager supports AWS WAF and AWS Shield Advanced, with support for AWS Network Firewall soon to follow. AWS Network Security Manager enables security teams to consistently enforce firewall and DDoS protection configurations across their entire AWS organization.&lt;/p&gt;\n&lt;p&gt;Network Security Manager features always-on security deployment automation that applies AWS WAF and AWS Shield Advanced security protection to Internet facing assets like AWS Application Load Balancer and Amazon CloudFront. This automated approach helps security teams deploy and manage WAF rules and Shield Advanced protections efficiently, ensuring consistent security posture across targeted accounts and resources. Teams can centrally manage security policies, automatically detect configuration drift, and apply remediation reducing the operational overhead of manual security management while maintaining comprehensive protection.&lt;/p&gt;\n&lt;p&gt;AWS Network Security Manager is generally available in US East (N. Virginia). For pricing information, visit the &lt;a href=\"https://aws.amazon.com/network-security-manager/pricing/\"&gt;AWS Network Security Manager Pricing page&lt;/a&gt;.&lt;/p&gt;",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/network-security-manager-us-east-va/",
       "publishedAt": "2026-09-24T15:00:00.000Z",
       "updatedAt": "2026-09-24T15:00:00.000Z",
       "categories": [
-        "AWS Firewall Manager",
-        "Networking And Content Delivery",
         "AWS Waf",
+        "Networking And Content Delivery",
+        "New Service",
         "AWS Shield",
         "Security Identity And Compliance",
-        "New Service"
+        "AWS Firewall Manager"
       ],
       "services": [
         "Shield",
         "WAF"
       ],
       "tags": [
-        "aws firewall manager",
-        "networking and content delivery",
         "aws waf",
+        "networking and content delivery",
+        "new service",
         "aws shield",
         "security identity and compliance",
-        "new service",
+        "aws firewall manager",
         "shield",
         "waf"
       ],
@@ -1622,8 +1661,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-017-aws/",
-      "publishedAt": "2026-09-24T17:49:06.000Z",
-      "updatedAt": "2026-09-24T17:49:06.000Z",
+      "publishedAt": "2026-09-25T20:26:31.000Z",
+      "updatedAt": "2026-09-25T20:26:31.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -1636,6 +1675,36 @@
         "policy"
       ],
       "source": "security-bulletin"
+    },
+    {
+      "id": "455d2a9bcc71df81",
+      "title": "Amazon Transcribe adds customer-managed KMS keys for custom resources",
+      "description": "Amazon Transcribe now lets you encrypt your custom vocabularies, custom vocabulary filters, and custom language models at rest with a customer-managed AWS KMS key that you own and control. Previously, these custom resources were always encrypted with an AWS owned key. Now you can supply your own symmetric AWS KMS key when you create or update these resources, so the artifacts Transcribe stores on your behalf are encrypted under a key in your account. If you do not provide a key, your resources continue to be encrypted with an AWS owned key—no action is required unless you opt in. With a custom",
+      "descriptionHtml": "&lt;p&gt;Amazon Transcribe now lets you encrypt your custom vocabularies, custom vocabulary filters, and custom language models at rest with a customer-managed AWS KMS key that you own and control.&lt;/p&gt;\n&lt;p&gt;Previously, these custom resources were always encrypted with an AWS owned key. Now you can supply your own symmetric AWS KMS key when you create or update these resources, so the artifacts Transcribe stores on your behalf are encrypted under a key in your account. If you do not provide a key, your resources continue to be encrypted with an AWS owned key—no action is required unless you opt in.&lt;/p&gt;\n&lt;p&gt;With a customer-managed key, you control key permissions and decide exactly which principals and services can encrypt and decrypt your custom resources. Every use of your key is logged in AWS CloudTrail, giving you a full audit trail for compliance and monitoring. You can also disable the key or transition resources to a different key to revoke access on your own schedule.&lt;/p&gt;\n&lt;p&gt;This feature is available in all AWS Regions where Amazon Transcribe is offered. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html\"&gt;Amazon Transcribe Developer Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/",
+      "publishedAt": "2026-09-25T19:19:00.000Z",
+      "updatedAt": "2026-09-25T19:19:00.000Z",
+      "categories": [
+        "Amazon Transcribe"
+      ],
+      "services": [
+        "KMS",
+        "Transcribe"
+      ],
+      "tags": [
+        "amazon transcribe",
+        "kms",
+        "transcribe"
+      ],
+      "isNew": true,
+      "securityScore": 70,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "KMS",
+        "Artifact",
+        "encrypt"
+      ],
+      "source": "whats-new"
     },
     {
       "id": "6593fc9382c847ff",
@@ -2453,7 +2522,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 55,
       "securityLevel": "critical",
       "securityMatches": [
@@ -3099,8 +3168,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-015-aws/",
-      "publishedAt": "2026-09-24T17:49:06.000Z",
-      "updatedAt": "2026-09-24T17:49:06.000Z",
+      "publishedAt": "2026-09-25T20:26:30.000Z",
+      "updatedAt": "2026-09-25T20:26:30.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -4197,8 +4266,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-024-aws/",
-      "publishedAt": "2026-09-22T19:49:50.000Z",
-      "updatedAt": "2026-09-22T19:49:50.000Z",
+      "publishedAt": "2026-09-25T20:30:00.000Z",
+      "updatedAt": "2026-09-25T20:30:00.000Z",
       "categories": [],
       "services": [
         "ECS",
@@ -4531,157 +4600,13 @@
       "source": "whats-new"
     },
     {
-      "id": "83872b9bd672584c",
-      "title": "CVE-2026-96883 - Type confusion in AWS pgcollection allows remote code execution",
-      "description": "Bulletin ID: 2026-118-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/24/2026 12:00 PM PDT Description: pgcollection is an open source extension to PostgreSQL. We identified CVE-2026-96883, an issue in pgcollection's type coercion logic. When requesting a stored icollection value as a type incompatible with how it was actually stored causes the extension to misinterprets the datum's representation, allowing an authenticated database user to crash the PostgreSQL backend or execute arbitrary code. Impacted versions: pgcollection v2.0.0 through v2.1.1 Please refer",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-118-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 09/24/2026 12:00 PM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;pgcollection is an open source extension to PostgreSQL. We identified CVE-2026-96883, an issue in pgcollection's type coercion logic. When requesting a stored icollection value as a type incompatible with how it was actually stored causes the extension to misinterprets the datum's representation, allowing an authenticated database user to crash the PostgreSQL backend or execute arbitrary code.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; pgcollection v2.0.0 through v2.1.1&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-118-aws/\"&gt;View article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-118-aws/",
-      "publishedAt": "2026-09-24T19:17:16.000Z",
-      "updatedAt": "2026-09-24T19:17:16.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "a60f75db27a85b81",
-      "title": "Issue with AWS Ops Wheel (CVE-2026-6911 and CVE-2026-6912",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-018-aws/",
-      "publishedAt": "2026-09-24T17:49:07.000Z",
-      "updatedAt": "2026-09-24T17:49:07.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "cb3771cf832e909c",
-      "title": "CVE-2026-5429 - Kiro IDE Webview Cross-Site Scripting via Workspace Color Theme",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-012-aws/",
-      "publishedAt": "2026-09-24T17:49:07.000Z",
-      "updatedAt": "2026-09-24T17:49:07.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "fb19190cc1b16aa0",
-      "title": "Issues with AWS Research and Engineering Studio (RES)",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-014-aws/",
-      "publishedAt": "2026-09-24T17:49:07.000Z",
-      "updatedAt": "2026-09-24T17:49:07.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "875c6264b0cd33e5",
-      "title": "CVE-2026-7191- Arbitrary Code Execution via Sandbox Bypass in QnABot on AWS",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-020-aws/",
-      "publishedAt": "2026-09-24T17:49:07.000Z",
-      "updatedAt": "2026-09-24T17:49:07.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "49b34cbfcdb7e60c",
-      "title": "Issues with Amazon Athena ODBC Driver",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-013-aws/",
-      "publishedAt": "2026-09-24T17:49:06.000Z",
-      "updatedAt": "2026-09-24T17:49:06.000Z",
-      "categories": [],
-      "services": [
-        "Athena"
-      ],
-      "tags": [
-        "athena"
-      ],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "2192aebc3f05c4ce",
-      "title": "CVE-2026-6437 - Mount Option Injection in Amazon EFS CSI Driver",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-016-aws/",
-      "publishedAt": "2026-09-24T17:49:06.000Z",
-      "updatedAt": "2026-09-24T17:49:06.000Z",
-      "categories": [],
-      "services": [
-        "EFS"
-      ],
-      "tags": [
-        "efs"
-      ],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "dd07367dde48e94b",
-      "title": "CVE-2026-5190 - AWS C Event Stream Streaming Decoder Stack Buffer Overflow",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-011-aws/",
-      "publishedAt": "2026-09-24T17:49:05.000Z",
-      "updatedAt": "2026-09-24T17:49:05.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
       "id": "62f0af1c4fc62a51",
       "title": "CVE-2026-7424 - Integer Underflow in DHCPv6 Sub-Option Parser in FreeRTOS-Plus-TCP",
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-022-aws/",
-      "publishedAt": "2026-09-22T19:49:51.000Z",
-      "updatedAt": "2026-09-22T19:49:51.000Z",
+      "publishedAt": "2026-09-25T20:30:00.000Z",
+      "updatedAt": "2026-09-25T20:30:00.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -4697,8 +4622,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-021-aws/",
-      "publishedAt": "2026-09-22T19:49:51.000Z",
-      "updatedAt": "2026-09-22T19:49:51.000Z",
+      "publishedAt": "2026-09-25T20:30:00.000Z",
+      "updatedAt": "2026-09-25T20:30:00.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -4714,8 +4639,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-025-aws/",
-      "publishedAt": "2026-09-22T19:49:50.000Z",
-      "updatedAt": "2026-09-22T19:49:50.000Z",
+      "publishedAt": "2026-09-25T20:30:00.000Z",
+      "updatedAt": "2026-09-25T20:30:00.000Z",
       "categories": [],
       "services": [
         "WorkSpaces"
@@ -4735,25 +4660,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-023-aws/",
-      "publishedAt": "2026-09-22T19:49:50.000Z",
-      "updatedAt": "2026-09-22T19:49:50.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "4d3c92565ea760f4",
-      "title": "CVE-2026-9133 - Arbitrary file read in rabbitmq-aws plugin",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-034-aws/",
-      "publishedAt": "2026-09-22T19:49:30.000Z",
-      "updatedAt": "2026-09-22T19:49:30.000Z",
+      "publishedAt": "2026-09-25T20:30:00.000Z",
+      "updatedAt": "2026-09-25T20:30:00.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -4769,6 +4677,239 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-026-aws/",
+      "publishedAt": "2026-09-25T20:30:00.000Z",
+      "updatedAt": "2026-09-25T20:30:00.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "c553d66f2e9ecc33",
+      "title": "Dirty Frag and other issues in Amazon Linux kernels",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-027-aws/",
+      "publishedAt": "2026-09-25T20:30:00.000Z",
+      "updatedAt": "2026-09-25T20:30:00.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "982a164c7bd75fb7",
+      "title": "CVE-2026-8178 - Remote Code Execution via Unsafe Class Loading in Amazon Redshift JDBC Driver",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-028-aws/",
+      "publishedAt": "2026-09-25T20:30:00.000Z",
+      "updatedAt": "2026-09-25T20:30:00.000Z",
+      "categories": [],
+      "services": [
+        "Redshift"
+      ],
+      "tags": [
+        "redshift"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "c3b237b7f89dcd87",
+      "title": "Fragnesia Local Privilege Escalation report via ESP-in-TCP in the Linux Kernel",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-029-aws/",
+      "publishedAt": "2026-09-25T20:30:00.000Z",
+      "updatedAt": "2026-09-25T20:30:00.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "2b47d6d1ef1cba99",
+      "title": "Ongoing updates on Copy.fail and variants",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
+      "publishedAt": "2026-09-25T20:30:00.000Z",
+      "updatedAt": "2026-09-25T20:30:00.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "a60f75db27a85b81",
+      "title": "Issue with AWS Ops Wheel (CVE-2026-6911 and CVE-2026-6912",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-018-aws/",
+      "publishedAt": "2026-09-25T20:26:31.000Z",
+      "updatedAt": "2026-09-25T20:26:31.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "875c6264b0cd33e5",
+      "title": "CVE-2026-7191- Arbitrary Code Execution via Sandbox Bypass in QnABot on AWS",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-020-aws/",
+      "publishedAt": "2026-09-25T20:26:31.000Z",
+      "updatedAt": "2026-09-25T20:26:31.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "2192aebc3f05c4ce",
+      "title": "CVE-2026-6437 - Mount Option Injection in Amazon EFS CSI Driver",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-016-aws/",
+      "publishedAt": "2026-09-25T20:26:31.000Z",
+      "updatedAt": "2026-09-25T20:26:31.000Z",
+      "categories": [],
+      "services": [
+        "EFS"
+      ],
+      "tags": [
+        "efs"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "cb3771cf832e909c",
+      "title": "CVE-2026-5429 - Kiro IDE Webview Cross-Site Scripting via Workspace Color Theme",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-012-aws/",
+      "publishedAt": "2026-09-25T20:26:30.000Z",
+      "updatedAt": "2026-09-25T20:26:30.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "fb19190cc1b16aa0",
+      "title": "Issues with AWS Research and Engineering Studio (RES)",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-014-aws/",
+      "publishedAt": "2026-09-25T20:26:30.000Z",
+      "updatedAt": "2026-09-25T20:26:30.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "49b34cbfcdb7e60c",
+      "title": "Issues with Amazon Athena ODBC Driver",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-013-aws/",
+      "publishedAt": "2026-09-25T20:26:30.000Z",
+      "updatedAt": "2026-09-25T20:26:30.000Z",
+      "categories": [],
+      "services": [
+        "Athena"
+      ],
+      "tags": [
+        "athena"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "dd07367dde48e94b",
+      "title": "CVE-2026-5190 - AWS C Event Stream Streaming Decoder Stack Buffer Overflow",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-011-aws/",
+      "publishedAt": "2026-09-25T20:26:30.000Z",
+      "updatedAt": "2026-09-25T20:26:30.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "83872b9bd672584c",
+      "title": "CVE-2026-96883 - Type confusion in AWS pgcollection allows remote code execution",
+      "description": "Bulletin ID: 2026-118-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/24/2026 12:00 PM PDT Description: pgcollection is an open source extension to PostgreSQL. We identified CVE-2026-96883, an issue in pgcollection's type coercion logic. When requesting a stored icollection value as a type incompatible with how it was actually stored causes the extension to misinterprets the datum's representation, allowing an authenticated database user to crash the PostgreSQL backend or execute arbitrary code. Impacted versions: pgcollection v2.0.0 through v2.1.1 Please refer",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-118-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 09/24/2026 12:00 PM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;pgcollection is an open source extension to PostgreSQL. We identified CVE-2026-96883, an issue in pgcollection's type coercion logic. When requesting a stored icollection value as a type incompatible with how it was actually stored causes the extension to misinterprets the datum's representation, allowing an authenticated database user to crash the PostgreSQL backend or execute arbitrary code.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; pgcollection v2.0.0 through v2.1.1&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-118-aws/\"&gt;View article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-118-aws/",
+      "publishedAt": "2026-09-24T19:17:16.000Z",
+      "updatedAt": "2026-09-24T19:17:16.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "4d3c92565ea760f4",
+      "title": "CVE-2026-9133 - Arbitrary file read in rabbitmq-aws plugin",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-034-aws/",
       "publishedAt": "2026-09-22T19:49:30.000Z",
       "updatedAt": "2026-09-22T19:49:30.000Z",
       "categories": [],
@@ -4802,83 +4943,11 @@
       "source": "security-bulletin"
     },
     {
-      "id": "c553d66f2e9ecc33",
-      "title": "Dirty Frag and other issues in Amazon Linux kernels",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-027-aws/",
-      "publishedAt": "2026-09-22T19:49:30.000Z",
-      "updatedAt": "2026-09-22T19:49:30.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "982a164c7bd75fb7",
-      "title": "CVE-2026-8178 - Remote Code Execution via Unsafe Class Loading in Amazon Redshift JDBC Driver",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-028-aws/",
-      "publishedAt": "2026-09-22T19:49:30.000Z",
-      "updatedAt": "2026-09-22T19:49:30.000Z",
-      "categories": [],
-      "services": [
-        "Redshift"
-      ],
-      "tags": [
-        "redshift"
-      ],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "c3b237b7f89dcd87",
-      "title": "Fragnesia Local Privilege Escalation report via ESP-in-TCP in the Linux Kernel",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-029-aws/",
-      "publishedAt": "2026-09-22T19:49:29.000Z",
-      "updatedAt": "2026-09-22T19:49:29.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
       "id": "25059116d7e41dff",
       "title": "CVE-2026-11400 and CVE-2026-11401",
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-039-aws/",
-      "publishedAt": "2026-09-22T19:49:29.000Z",
-      "updatedAt": "2026-09-22T19:49:29.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "2b47d6d1ef1cba99",
-      "title": "Ongoing updates on Copy.fail and variants",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
       "publishedAt": "2026-09-22T19:49:29.000Z",
       "updatedAt": "2026-09-22T19:49:29.000Z",
       "categories": [],
@@ -6218,7 +6287,7 @@
       "tags": [
         "resilience hub"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -6247,7 +6316,7 @@
         "amazon bedrock",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -7413,6 +7482,48 @@
       "source": "whats-new"
     },
     {
+      "id": "b2a7b19f0d48a529",
+      "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
+      "description": "AWS DataSync now provides a monitoring dashboard in the DataSync console that gives you visibility into your data transfers across your account. For each task execution, you can see its status, data and file transfer rates, duration, and the total data and files transferred. You can filter executions by status, task, task mode, execution ID, or start time to focus on a specific set of runs. The dashboard summarizes the filtered results, including the number of successful and failed executions, and the cumulative data and files transferred, grouped by task. To troubleshoot issues, you can selec",
+      "descriptionHtml": "&lt;p&gt;AWS DataSync now provides a monitoring dashboard in the DataSync console that gives you visibility into your data transfers across your account. For each task execution, you can see its status, data and file transfer rates, duration, and the total data and files transferred.&amp;nbsp;You can filter executions by status, task, task mode, execution ID, or start time to focus on a specific set of runs. The dashboard summarizes the filtered results, including the number of successful and failed executions, and the cumulative data and files transferred, grouped by task. To troubleshoot issues, you can select a failed execution to view its errors. The dashboard also displays counts of your configured tasks, locations, and agents, along with real-time total transfer rates.&lt;/p&gt;\n&lt;p&gt;Previously, monitoring multiple transfers required reviewing each execution individually or building custom Amazon CloudWatch dashboards. Now you can monitor the health, performance, and progress of concurrent transfers from a single view. This is useful for large migrations and recurring transfers that run many tasks at once.&lt;/p&gt;\n&lt;p&gt;The AWS DataSync dashboard is available at no additional cost in all commercial AWS Regions and the AWS GovCloud (US) Regions where AWS DataSync is available. To view your dashboard, go to the &lt;a href=\"https://www.google.com/url?sa=t&amp;amp;source=web&amp;amp;rct=j&amp;amp;opi=89978449&amp;amp;url=CAESVwHrOzAV20j8Wk9vTsmbIbYkRAmlzPqFHALrq6V60lbYjxzHw5x2zbIj319NQT3Omkeu_ddZIwedAWPfNk9FCqq2KWuwOIO-dn4eS5n6lZZW4uQyV6vV9w&amp;amp;ved=2ahUKEwjR4Z__g4qXAxV7FDQIHVs0I7EQFnoECB4QAQ&amp;amp;uoh=2&amp;amp;usg=AOvVaw3L5ZM1L-1k3SwMWi6qm9p5\"&gt;AWS DataSync console&lt;/a&gt;. To learn more about DataSync, visit the &lt;a href=\"https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html\"&gt;AWS DataSync User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
+      "publishedAt": "2026-09-25T15:24:00.000Z",
+      "updatedAt": "2026-09-25T15:24:00.000Z",
+      "categories": [],
+      "services": [
+        "DataSync"
+      ],
+      "tags": [
+        "datasync"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "monitoring"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "649fff65e691c4b1",
+      "title": "AWS End User Messaging now supports voice calling on WhatsApp",
+      "description": "AWS End User Messaging now lets businesses place and receive voice calls with their customers directly inside WhatsApp, using the same verified business identity they already use for messaging. With WhatsApp voice calling, a conversation can move seamlessly from a chat thread to a voice call without switching to a separate channel or application, so context is never lost and customers stay in the message thread where the conversation started. Voice calling works in both directions. Customers can call a business from within a WhatsApp chat, and businesses can call customers who have granted per",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/end-user-messaging/\"&gt;AWS End User Messaging&lt;/a&gt; now lets businesses place and receive voice calls with their customers directly inside WhatsApp, using the same verified business identity they already use for messaging. With WhatsApp voice calling, a conversation can move seamlessly from a chat thread to a voice call without switching to a separate channel or application, so context is never lost and customers stay in the message thread where the conversation started.&lt;/p&gt;\n&lt;p&gt;Voice calling works in both directions. Customers can call a business from within a WhatsApp chat, and businesses can call customers who have granted permission to be contacted. You can enable and manage WhatsApp voice calling on a registered WhatsApp business phone number using either the AWS End User Messaging console or the API.&lt;/p&gt;\n&lt;p&gt;WhatsApp voice calling is available in all Regions where AWS End User Messaging Social is available.&lt;/p&gt;\n&lt;p&gt;To learn more and get started, see the &lt;a href=\"https://docs.aws.amazon.com/social-messaging/latest/userguide/what-is-service.html\"&gt;AWS End User Messaging Social User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
+      "publishedAt": "2026-09-25T07:00:00.000Z",
+      "updatedAt": "2026-09-25T07:00:00.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "d1f5b5458a78540e",
       "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
       "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a synchronous standby replica in a different Availability Zone and provide automatic failover during infrastructure failure. You can use this capability to build and test high availability configurations in non-production environments using Developer Edition, which includes all the functionality of Enterprise Edition at no license cost. You can use this feature to validate your high availability arch",
@@ -7636,7 +7747,7 @@
         "ecs",
         "fargate"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -7659,7 +7770,7 @@
       "tags": [
         "networking"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -9359,6 +9470,144 @@
       "source": "whats-new"
     },
     {
+      "id": "994f5731ce861b2a",
+      "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
+      "description": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The M8i and M8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up to 20% better performance than M7i and M7i-flex instances, with even higher gains for specific worklo",
+      "descriptionHtml": "&lt;p&gt;Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The M8i and M8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up to 20% better performance than M7i and M7i-flex instances, with even higher gains for specific workloads. The M8i and M8i-flex instances are up to 30% faster for PostgreSQL databases, up to 60% faster for NGINX web applications, and up to 40% faster for AI deep learning recommendation models compared to M7i and M7i-flex instances.\n &lt;br&gt;\n &lt;br&gt;\n M8i-flex are the easiest way to get price performance benefits for a majority of general-purpose workloads like web and application servers, microservices, small and medium data stores, virtual desktops, and enterprise applications. They offer the most common sizes, from large to 16xlarge, and are a great first choice for applications that don't fully utilize all compute resources.\n &lt;br&gt;\n &lt;br&gt;\n M8i instances are a great choice for all general purpose workloads, especially for workloads that need the largest instance sizes or continuous high CPU usage. The SAP-certified M8i instances offer 13 sizes including 2 bare metal sizes and the new 96xlarge size for the largest applications.\n &lt;br&gt;\n &lt;br&gt;\n To get started, sign in to the &lt;a href=\"https://aws.amazon.com/console/\" target=\"_blank\"&gt;&lt;u&gt;AWS Management Console&lt;/u&gt;&lt;/a&gt;. For more information about the new instances, visit the&lt;a href=\"https://aws.amazon.com/ec2/instance-types/m8i/\" target=\"_blank\"&gt;&lt;u&gt; M8i and M8i-flex instance page&lt;/u&gt;&lt;/a&gt; or visit the AWS News &lt;a href=\"https://aws.amazon.com/blogs/aws/new-general-purpose-amazon-ec2-m8i-and-m8i-flex-instances-are-now-available/\" target=\"_blank\"&gt;&lt;u&gt;blog&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
+      "publishedAt": "2026-09-25T18:40:00.000Z",
+      "updatedAt": "2026-09-25T18:40:00.000Z",
+      "categories": [
+        "Amazon Ec2",
+        "Compute"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "amazon ec2",
+        "compute",
+        "ec2"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "ed5cc3d7b6a446f2",
+      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The R8i and R8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver 20% higher performance than R7i instances, with even higher gains for specifi",
+      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The R8i and R8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver 20% higher performance than R7i instances, with even higher gains for specific workloads. They are up to 30% faster for PostgreSQL databases, up to 60% faster for NGINX web applications, and up to 40% faster for AI deep learning recommendation models compared to R7i.&lt;/p&gt;\n&lt;p&gt;R8i-flex, our first memory-optimized Flex instances, are the easiest way to get price performance benefits for a majority of memory-intensive workloads. They offer the most common sizes, from large to 16xlarge, and are a great first choice for applications that don't fully utilize all compute resources.&lt;/p&gt;\n&lt;p&gt;R8i instances are a great choice for all memory-intensive workloads, especially for workloads that need the largest instance sizes or continuous high CPU usage. R8i instances offer 13 sizes including 2 bare metal sizes and the new 96xlarge size for the largest applications. &lt;a href=\"https://docs.aws.amazon.com/sap/latest/general/sap-hana-aws-ec2.html\" target=\"_blank\"&gt;&lt;u&gt;R8i instances are SAP-certified &lt;/u&gt;&lt;/a&gt;and deliver 142,100 aSAPS, the highest among all comparable machines in on-premises and cloud environments, delivering exceptional performance for mission-critical SAP workloads.&lt;/p&gt;\n&lt;p&gt;To get started, sign in to the &lt;a href=\"https://aws.amazon.com/console/\" target=\"_blank\"&gt;&lt;u&gt;AWS Management Console&lt;/u&gt;&lt;/a&gt;. Customers can purchase these instances via Savings Plans, On-Demand instances, and Spot instances. For more information about the new &lt;a href=\"https://aws.amazon.com/ec2/instance-types/r8i\" target=\"_blank\"&gt;&lt;u&gt;R8i and R8i-flex &lt;/u&gt;&lt;/a&gt;instances visit the AWS News &lt;a href=\"https://aws.amazon.com/blogs/aws/best-performance-and-fastest-memory-with-the-new-amazon-ec2-r8i-and-r8i-flex-instances/\" target=\"_blank\"&gt;&lt;u&gt;blog&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
+      "publishedAt": "2026-09-25T18:37:00.000Z",
+      "updatedAt": "2026-09-25T18:37:00.000Z",
+      "categories": [
+        "Compute",
+        "Amazon Ec2"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "compute",
+        "amazon ec2",
+        "ec2"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "e7ca39c1319899cb",
+      "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
+      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and C8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. These C8i and C8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up to 20% higher performance than C7i and C7i-flex instances, with even hig",
+      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and C8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. These C8i and C8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up to 20% higher performance than C7i and C7i-flex instances, with even higher gains for specific workloads. The C8i and C8i-flex are up to 60% faster for NGINX web applications, up to 40% faster for AI deep learning recommendation models, and 35% faster for Memcached stores compared to C7i and C7i-flex.\n &lt;br&gt;\n &lt;br&gt;\n C8i-flex are the easiest way to get price performance benefits for a majority of compute intensive workloads like web and application servers, databases, caches, Apache Kafka, Elasticsearch, and enterprise applications. They offer the most common sizes, from large to 16xlarge, and are a great first choice for applications that don't fully utilize all compute resources.\n &lt;br&gt;\n &lt;br&gt;\n C8i instances are a great choice for all memory-intensive workloads, especially for workloads that need the largest instance sizes or continuous high CPU usage. C8i instances offer 13 sizes including 2 bare metal sizes and the new 96xlarge size for the largest applications.\n &lt;br&gt;\n &lt;br&gt;\n To get started, sign in to the &lt;a href=\"https://aws.amazon.com/console/\" target=\"_blank\"&gt;&lt;u&gt;AWS Management Console&lt;/u&gt;&lt;/a&gt;. Customers can purchase these instances via Savings Plans, On-Demand instances, and Spot instances. For more information about the new &lt;a href=\"https://aws.amazon.com/ec2/instance-types/c8i/\" target=\"_blank\"&gt;&lt;u&gt;C8i and C8i-flex&lt;/u&gt;&lt;/a&gt; instances visit the &lt;a href=\"https://aws.amazon.com/blogs/aws/introducing-new-compute-optimized-amazon-ec2-c8i-and-c8i-flex-instances/\" target=\"_blank\"&gt;&lt;u&gt;AWS News blog&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
+      "publishedAt": "2026-09-25T18:09:00.000Z",
+      "updatedAt": "2026-09-25T18:09:00.000Z",
+      "categories": [
+        "Compute",
+        "Amazon Ec2"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "compute",
+        "amazon ec2",
+        "ec2"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "27847447baac6e7c",
+      "title": "AWS Elastic Disaster Recovery now supports AWS Graviton-based source servers",
+      "description": "AWS Elastic Disaster Recovery (AWS DRS) now supports disaster recovery for AWS Graviton-based (arm64) source servers. You can now protect and recover your Graviton workloads with the same simple, reliable DRS experience you already use for x86 workloads. As more workloads move to Graviton for its price-performance benefits, they need the same disaster recovery coverage as the rest of your environment. DRS now automatically detects arm64 source servers and recovers them onto Graviton instances, preserving your workload's architecture end to end. Recovery works the same way it does for your othe",
+      "descriptionHtml": "&lt;p&gt;AWS Elastic Disaster Recovery (AWS DRS) now supports disaster recovery for AWS Graviton-based (arm64) source servers. You can now protect and recover your Graviton workloads with the same simple, reliable DRS experience you already use for x86 workloads.&lt;/p&gt;\n&lt;p&gt;As more workloads move to Graviton for its price-performance benefits, they need the same disaster recovery coverage as the rest of your environment. DRS now automatically detects arm64 source servers and recovers them onto Graviton instances, preserving your workload's architecture end to end. Recovery works the same way it does for your other servers, with nothing extra to configure.&lt;/p&gt;\n&lt;p&gt;This capability is available in all AWS Regions where AWS DRS is offered, at no additional cost. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/drs/\"&gt;AWS Elastic Disaster Recovery User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-disaster-recovery-graviton/",
+      "publishedAt": "2026-09-25T08:00:00.000Z",
+      "updatedAt": "2026-09-25T08:00:00.000Z",
+      "categories": [
+        "Amazon S3",
+        "AWS Elastic Disaster Recovery",
+        "AWS Graviton",
+        "Disaster Recovery"
+      ],
+      "services": [
+        "S3"
+      ],
+      "tags": [
+        "amazon s3",
+        "aws elastic disaster recovery",
+        "aws graviton",
+        "disaster recovery",
+        "s3"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "006dfa9ade4dc736",
+      "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
+      "description": "AWS End User Messaging and Amazon SES now publish AI agent skills for the AWS MCP Server, enabling developers to build and send messages by asking their AI coding agent in plain language. Previously, developers had to navigate multiple documentation pages and management console screens to complete messaging tasks. Now, each skill provides your agent with step-by-step, validated guidance for tasks like verifying sending identities, building branded Rich Communication Services (RCS) agents, and sending production emails. These skills integrate with popular AI coding agents including Claude Code,",
+      "descriptionHtml": "&lt;p&gt;AWS End User Messaging and Amazon SES now publish AI agent skills for the AWS MCP Server, enabling developers to build and send messages by asking their AI coding agent in plain language. Previously, developers had to navigate multiple documentation pages and management console screens to complete messaging tasks. Now, each skill provides your agent with step-by-step, validated guidance for tasks like verifying sending identities, building branded Rich Communication Services (RCS) agents, and sending production emails.&lt;/p&gt;\n&lt;p&gt;These skills integrate with popular AI coding agents including Claude Code, Codex, Cursor, and Kiro. For example, you can ask Amazon SES to verify a sending identity and send your first production email. You can ask AWS End User Messaging to build a branded RCS agent and send yourself a rich message with cards and buttons. The skills eliminate the need to manually search documentation or switch between console screens, allowing you to complete messaging workflows directly through natural language commands.&lt;/p&gt;\n&lt;p&gt;To use these skills, first &lt;a title=\"AWS MCP\" href=\"https://docs.aws.amazon.com/agent-toolkit/latest/userguide/getting-started-aws-mcp-server.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;connect the AWS MCP Server&lt;/a&gt; to your agent. In Claude Code, Codex, and Cursor, the aws-core plugin bundles the server and a curated set of skills in one install. In Kiro and other agents, you add the server to your MCP configuration file. Then add the skill for the channel you want, and your agent is ready to guide you. For details on what each skill does and how to install it, see the &lt;a title=\"SMS / RCS Agent Setup Guide\" href=\"https://docs.aws.amazon.com/sms-voice/latest/userguide/agent-setup-guide.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS End User Messaging SMS and RCS agent setup guide&lt;/a&gt;, the &lt;a title=\"WhatsApp Agent Setup Guide\" href=\"https://docs.aws.amazon.com/social-messaging/latest/userguide/agent-setup-guide.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS End User Messaging WhatsApp agent setup guide,&lt;/a&gt; and the &lt;a title=\"SES Agent Setup Guide\" href=\"https://docs.aws.amazon.com/ses/latest/dg/agent-setup-guide.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon SES agent setup guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
+      "publishedAt": "2026-09-25T07:00:00.000Z",
+      "updatedAt": "2026-09-25T07:00:00.000Z",
+      "categories": [
+        "Developer Tools",
+        "Artificial Intelligence",
+        "Amazon Ses",
+        "Developer"
+      ],
+      "services": [
+        "SES"
+      ],
+      "tags": [
+        "developer tools",
+        "artificial intelligence",
+        "amazon ses",
+        "developer",
+        "ses"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "2bf7eb806336388d",
       "title": "AWS Billing and Cost Management now provides billing context for your account through a new API",
       "description": "AWS Billing and Cost Management now offers the ListBillingViewSegments API, which returns the billing context of your account over a time period you specify. You can use the API to retrieve information about how your accounts are positioned in the billing hierarchy, such as management accounts, member accounts, or billing group primary accounts. You can also identify which accounts managed your billing relationship and the rate settings, either billable or pro forma, applied to your cost data. The API returns billing context only, not cost and usage data. You can call the API directly or throu",
@@ -9720,7 +9969,7 @@
         "amazon ec2",
         "ec2"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9748,7 +9997,7 @@
         "amazon ec2",
         "ec2"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9776,7 +10025,7 @@
         "amazon sns",
         "sns"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9804,7 +10053,7 @@
         "general:products",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
