@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T13:35:22.178Z",
+  "lastUpdated": "2026-09-28T16:32:01.447Z",
   "itemCount": 478,
   "items": [
     {
@@ -2245,7 +2245,7 @@
         "athena",
         "cdk"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 60,
       "securityLevel": "high",
       "securityMatches": [
