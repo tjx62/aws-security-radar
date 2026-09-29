@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-28T16:32:01.447Z",
-  "itemCount": 478,
+  "lastUpdated": "2026-09-29T14:40:40.139Z",
+  "itemCount": 488,
   "items": [
     {
       "id": "a73f02bf9d972686",
@@ -1132,7 +1132,7 @@
         "aiml",
         "security hub"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 85,
       "securityLevel": "critical",
       "securityMatches": [
@@ -1762,7 +1762,7 @@
         "compute",
         "migration"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 70,
       "securityLevel": "critical",
       "securityMatches": [
@@ -3163,6 +3163,37 @@
       "source": "whats-new"
     },
     {
+      "id": "45181ca63b15228a",
+      "title": "AWS European Sovereign Cloud: Demonstrating an independent operation",
+      "description": "On Saturday, October 24, 2026, we will conduct an exercise demonstrating that the AWS European Sovereign Cloud can operate without depending on any infrastructure outside of the European Union (EU). For several hours, the AWS European Sovereign Cloud will operate without a connection to the AWS Global Network backbone. The backbone is the private network […]",
+      "descriptionHtml": "On Saturday, October 24, 2026, we will conduct an exercise demonstrating that the AWS European Sovereign Cloud can operate without depending on any infrastructure outside of the European Union (EU). For several hours, the AWS European Sovereign Cloud will operate without a connection to the AWS Global Network backbone. The backbone is the private network […]",
+      "url": "https://aws.amazon.com/blogs/security/aws-european-sovereign-cloud-demonstrating-an-independent-operation/",
+      "publishedAt": "2026-09-28T17:05:12.000Z",
+      "updatedAt": "2026-09-28T17:05:12.000Z",
+      "categories": [
+        "Announcements",
+        "Europe",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "announcements",
+        "europe",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [],
+      "source": "security-blog"
+    },
+    {
       "id": "015d9161615f1a60",
       "title": "CVE-2026-5747 - Out-of-bounds Write in Firecracker virtio-pci Transport",
       "description": "",
@@ -3820,6 +3851,40 @@
       "securityLevel": "medium",
       "securityMatches": [],
       "source": "security-blog"
+    },
+    {
+      "id": "22bd5c1da8c3969b",
+      "title": "AWS Backup adds logically air-gapped vault support for Amazon FSx for NetApp ONTAP",
+      "description": "AWS Backup logically air-gapped vault now supports Amazon FSx for NetApp ONTAP. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS Organizations, supporting direct restore to reduce recovery time from a data loss event. You can now protect your Amazon FSx for NetApp ONTAP volumes in logically air-gapped vaults. A logically air-gapped vault stores immutable backups that are locked by default, and isolated with encryption using AWS owned keys or customer-managed keys. You can store your FSx for NetApp ONTAP backups in a logica",
+      "descriptionHtml": "&lt;p&gt;AWS Backup logically air-gapped vault now supports Amazon FSx for NetApp ONTAP. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS Organizations, supporting direct restore to reduce recovery time from a data loss event.&lt;/p&gt;\n&lt;p&gt;You can now protect your Amazon FSx for NetApp ONTAP volumes in logically air-gapped vaults. A logically air-gapped vault stores immutable backups that are locked by default, and isolated with encryption using AWS owned keys or customer-managed keys. You can store your FSx for NetApp ONTAP backups in a logically air-gapped vault in the same account or across other accounts and Regions. This helps reduce the risk of downtime, ensure business continuity, and meet compliance and disaster recovery requirements.&lt;/p&gt;\n&lt;p&gt;You can get started using the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. Target FSx for NetApp ONTAP backups to a logically air-gapped vault by specifying it as the primary target or copy destination in your backup plan. Share the vault for recovery or restore testing with other accounts using AWS Resource Access Manager (RAM), or safeguard vault access during account compromise using &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/multipartyapproval.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Multi-party approval&lt;/a&gt;. Once available, you can initiate direct restore jobs from that account, eliminating the overhead of copying backups first.&lt;/p&gt;\n&lt;p&gt;This support is available in all AWS Regions where both logically air-gapped vault and Amazon FSx for NetApp ONTAP are available. For more information and detailed regional availability, visit the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#features-by-region\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Backup documentation&lt;/a&gt;. To learn more about logically air-gapped vaults, visit the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html\"&gt;feature documentation&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/backup/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-air-gapped-vault-fsx-ontap/",
+      "publishedAt": "2026-09-28T08:00:00.000Z",
+      "updatedAt": "2026-09-28T08:00:00.000Z",
+      "categories": [
+        "Storage",
+        "Amazon Fsx Netapp Ontap",
+        "AWS Backup"
+      ],
+      "services": [
+        "FSx",
+        "Backup"
+      ],
+      "tags": [
+        "storage",
+        "amazon fsx netapp ontap",
+        "aws backup",
+        "fsx",
+        "backup"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "encryption",
+        "encrypt",
+        "Organizations"
+      ],
+      "source": "whats-new"
     },
     {
       "id": "657a4f483d456edd",
@@ -6242,6 +6307,34 @@
       "source": "whats-new"
     },
     {
+      "id": "83286fe7bea978ec",
+      "title": "Amazon Corretto September 2026 Patch Updates",
+      "description": "On September 25, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK: Corretto 25.0.4.10.1, 21.0.12.11.1, 17.0.20.12.1, and 11.0.32.12.1 are now available for download . Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. This patch includes the latest tzdata 2026d updates. Visit Corretto home page to download Corretto 27, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get the updates on your Linux system by configuring a Corretto Apt, Yu",
+      "descriptionHtml": "&lt;p&gt;On September 25, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK: Corretto 25.0.4.10.1, 21.0.12.11.1, 17.0.20.12.1, and 11.0.32.12.1 are now available for &lt;a href=\"https://aws.amazon.com/corretto/\"&gt;download&lt;/a&gt;. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. This patch includes the latest&amp;nbsp;tzdata 2026d updates.&lt;/p&gt;\n&lt;p&gt;Visit Corretto &lt;a href=\"https://aws.amazon.com/corretto\"&gt;home page&lt;/a&gt; to download Corretto 27, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get the updates on your Linux system by configuring a &lt;a href=\"https://docs.aws.amazon.com/corretto/latest/corretto-26-ug/generic-linux-install.html\"&gt;Corretto Apt, Yum, or Apk repo&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Feedback is &lt;a href=\"https://github.com/corretto\"&gt;welcomed&lt;/a&gt;!&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-sept-2026-updates/",
+      "publishedAt": "2026-09-28T14:00:00.000Z",
+      "updatedAt": "2026-09-28T14:00:00.000Z",
+      "categories": [
+        "Amazon Corretto",
+        "Developer Tools",
+        "AWS Govcloud Us"
+      ],
+      "services": [],
+      "tags": [
+        "amazon corretto",
+        "developer tools",
+        "aws govcloud us"
+      ],
+      "isNew": true,
+      "securityScore": 20,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "patch"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "46282a577d1bef3e",
       "title": "Amazon EMR 7.14 is now available",
       "description": "Amazon EMR 7.14 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless, along with version upgrades for additional applications. This release also upgrades Apache Spark to 3.5.8 and Apache Iceberg to 1.10.1. Apache Iceberg materialized views now refresh faster on tables with updates and deletes, using change data capture to read only the data files affected by a change. On Amazon EMR on EKS, clusters now support Spark Connect endpoints for interactive Spark sessions with token-based authentication, and can run workloads on IPv6 Amazon EKS clus",
@@ -6263,7 +6356,7 @@
         "compute",
         "emr"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -6936,7 +7029,7 @@
         "amazon emr",
         "emr"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -7482,6 +7575,32 @@
       "source": "whats-new"
     },
     {
+      "id": "324aecd31ca16023",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream capabilities in version 8.0.2",
+      "description": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes, 5 new aggregation stages, and change stream enhancements starting from minor version 8.0.2. This release expands MongoDB API compatibility and improves query performance, making it easier to migrate MongoDB workloads to Amazon DocumentDB without application code changes. Key new capabilities in version 8.0.2 include: - Retryable Writes — insert, update, and delete operations automatically retry on transient network errors, improving application resilience during failovers. - New aggregation stages — $setWindowFields ",
+      "descriptionHtml": "&lt;p&gt;Amazon DocumentDB (with MongoDB compatibility) now supports&amp;nbsp;retryable writes, 5 new aggregation stages, and change stream enhancements starting from minor version 8.0.2. This release expands MongoDB API compatibility and improves query performance, making it easier to migrate MongoDB workloads to Amazon DocumentDB without application code changes.&lt;/p&gt;\n&lt;p&gt;Key new capabilities in version 8.0.2 include:&lt;/p&gt;\n&lt;p&gt;- Retryable Writes — insert, update, and delete operations automatically retry on transient network errors, improving application resilience during failovers.\n &lt;br&gt;\n - New aggregation stages — $setWindowFields (with its full set of window operators), $bucketAuto, $facet, $graphLookup, and correlated $lookup, enabling advanced analytics, faceted search, and hierarchical queries.\n &lt;br&gt;\n - Change stream enhancements — the $changeStreamSplitLargeEvent stage splits change events larger than the 16 MB limit into fragments, and change streams now emit events for createCollection and createIndex operations.\n &lt;br&gt;\n - Query performance improvements — enhancements to the query planner add index-only scans for find and aggregation queries, index scans on $expr predicates, incremental sort, and faster count and countDocuments() operations.\n &lt;br&gt;\n - Index management — support for the reIndex command on partial indexes.&lt;/p&gt;\n&lt;p&gt;These capabilities are available starting from Amazon DocumentDB 8.0.2 in all regions where Amazon DocumentDB is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/documentdb/latest/developerguide/mongo-apis.html\"&gt;Supported MongoDB APIs, operations, and data types&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/documentdb/latest/developerguide/release-notes.html\"&gt;Amazon DocumentDB release notes&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
+      "publishedAt": "2026-09-28T08:00:00.000Z",
+      "updatedAt": "2026-09-28T08:00:00.000Z",
+      "categories": [
+        "Amazon Documentdb"
+      ],
+      "services": [
+        "DocumentDB"
+      ],
+      "tags": [
+        "amazon documentdb",
+        "documentdb"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "migrate"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "b2a7b19f0d48a529",
       "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
       "description": "AWS DataSync now provides a monitoring dashboard in the DataSync console that gives you visibility into your data transfers across your account. For each task execution, you can see its status, data and file transfer rates, duration, and the total data and files transferred. You can filter executions by status, task, task mode, execution ID, or start time to focus on a specific set of runs. The dashboard summarizes the filtered results, including the number of successful and failed executions, and the cumulative data and files transferred, grouped by task. To troubleshoot issues, you can selec",
@@ -7711,7 +7830,7 @@
         "ecs",
         "fargate"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -9470,6 +9589,166 @@
       "source": "whats-new"
     },
     {
+      "id": "0860418c6f256720",
+      "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates",
+      "description": "Amazon EC2 Future-dated Capacity Reservations let you secure capacity up to 120 days in advance by specifying the capacity you need, the start date, and a commitment duration. If your plans change before delivery, you can now postpone your start date to match your new timeline. When you postpone your start date, EC2 presents a quote that shows the new start date and the required commitment duration. The commitment duration can increase, depending on when you postpone the start date. After you review and accept the quote, EC2 updates your reservation with the new start date. This feature is ava",
+      "descriptionHtml": "&lt;p&gt;Amazon EC2 Future-dated Capacity Reservations let you secure capacity up to 120 days in advance by specifying the capacity you need, the start date, and a commitment duration. If your plans change before delivery, you can now postpone your start date to match your new timeline.&lt;/p&gt;\n&lt;p&gt;When you postpone your start date, EC2 presents a quote that shows the new start date and the required commitment duration. The commitment duration can increase, depending on when you postpone the start date. After you review and accept the quote, EC2 updates your reservation with the new start date.&lt;/p&gt;\n&lt;p&gt;This feature is available to all Future-dated Capacity Reservation customers. Refer to the &lt;a href=\"https://builder.aws.com/build/capabilities/explore\"&gt;AWS Capabilities by Region&lt;/a&gt; website for the feature's regional availability. For more details, refer to the &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/capacity-reservations-modify.html\"&gt;Capacity Reservation user guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/",
+      "publishedAt": "2026-09-28T21:17:00.000Z",
+      "updatedAt": "2026-09-28T21:17:00.000Z",
+      "categories": [
+        "Amazon Ec2",
+        "Compute"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "amazon ec2",
+        "compute",
+        "ec2"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "2513dd5a1ca3c547",
+      "title": "Amazon Rekognition Face Liveness now returns Feedback Codes",
+      "description": "Amazon Rekognition Face Liveness now returns Feedback Codes that help customers understand why a liveness check received a low score and how users could retry successfully. The codes are returned in the GetFaceLivenessSessionResults API response, and they identify the specific conditions that contributed to the low score, such as poor lighting, face obstruction, closed eyes, or low video quality. Customers can surface these codes to their end users who can then make targeted corrections and retry with confidence. A single session can return multiple Feedback Codes at once, allowing users to re",
+      "descriptionHtml": "&lt;p&gt;Amazon Rekognition Face Liveness now returns Feedback Codes that help customers understand why a liveness check&amp;nbsp;received a low score and how users could retry successfully. The codes are returned in the GetFaceLivenessSessionResults API response, and they identify the specific conditions that contributed to the low score, such as poor lighting, face obstruction, closed eyes, or low video quality. Customers can surface these codes to their end users who can then make targeted corrections and retry with confidence. A single session can return multiple Feedback Codes at once, allowing users to resolve all contributing issues in one retry.&amp;nbsp;This feature is especially useful in identity verification onboarding, re-authentication flows, and accessibility scenarios.&lt;/p&gt;\n&lt;p&gt;Amazon Rekognition Face Liveness verifies that the person in front of the camera is a real, live human (instead of a photo, video replay, mask, or deepfake) through a short, guided selfie-video check. It returns a confidence score, a reference image for face matching, and session audit images.&amp;nbsp;\n &lt;br&gt;\n &lt;br&gt;\n Rekognition Face Liveness is available in US East (N. Virginia), US West (Oregon), Europe (Ireland), Asia Pacific (Tokyo, Mumbai, Malaysia, Thailand), and South America (São Paulo). To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/rekognition/latest/dg/face-liveness-programming-api.html\"&gt;Amazon Rekognition Face Liveness API documentation&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/rekognition/latest/dg/face-liveness-faq.html\"&gt;Face Liveness FAQ&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes/",
+      "publishedAt": "2026-09-28T20:41:00.000Z",
+      "updatedAt": "2026-09-28T20:41:00.000Z",
+      "categories": [
+        "Amazon Rekognition",
+        "Artificial Intelligence"
+      ],
+      "services": [
+        "Rekognition"
+      ],
+      "tags": [
+        "amazon rekognition",
+        "artificial intelligence",
+        "rekognition"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "b5f5b34e2ab19a91",
+      "title": "Grok 4.7 is now available on Amazon Bedrock",
+      "description": "Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. Grok 4.7 builds on Grok 4.6 with better mixed-document handling, more dependable repo-scale coding with planning and error recovery, and enhanced browser-use agents for form fills and portal navigation. Get started with Grok 4.7 in the Amazon Bedrock console or programmatically through supported Amazon Bedrock APIs. For information about supported AWS Regions , endpoints, APIs, features, inference profiles and pricing, see the Amazo",
+      "descriptionHtml": "&lt;p&gt;Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Grok 4.7 builds on Grok 4.6 with better mixed-document handling, more dependable repo-scale coding with planning and error recovery, and enhanced browser-use agents for form fills and portal navigation. &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Get started with Grok 4.7 in the&lt;a href=\"https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/\"&gt; Amazon Bedrock console&lt;/a&gt; or programmatically through supported Amazon Bedrock APIs. For information about supported&lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html\"&gt; AWS Regions&lt;/a&gt;, endpoints, APIs, features, inference profiles and pricing, see the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-7.html\"&gt;Amazon Bedrock documentation&lt;/a&gt;. To learn more, read the launch &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/\"&gt;blog post&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-grok-4-7/",
+      "publishedAt": "2026-09-28T18:29:00.000Z",
+      "updatedAt": "2026-09-28T18:29:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Amazon Bedrock"
+      ],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "amazon bedrock",
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "b1c2af3fd05e6169",
+      "title": "Claude Sonnet 5.5 now available on AWS",
+      "description": "AWS now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work at faster speed. Claude Sonnet 5.5 is a smarter, more efficient Sonnet and a step up from Sonnet 5, making it a natural upgrade for teams already building on Sonnet. It's stronger for coding, completing well-scoped tasks as part of a larger coding strategy such as building and fixing features with Claude in the same session or verifying output against requirements. And it produces ready-to-share knowledge work, from 1-",
+      "descriptionHtml": "&lt;p&gt;AWS now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work at faster speed.&lt;/p&gt;\n&lt;p&gt;Claude Sonnet 5.5 is a smarter, more efficient Sonnet and a step up from Sonnet 5, making it a natural upgrade for teams already building on Sonnet. It's stronger for coding, completing well-scoped tasks as part of a larger coding strategy such as building and fixing features with Claude in the same session or verifying output against requirements. And it produces ready-to-share knowledge work, from 1-pagers, diagrams, and summary slides to document edits and spreadsheet cleanup.&lt;/p&gt;\n&lt;p&gt;Customers have two ways to access Claude Sonnet 5.5: Amazon Bedrock and Claude Platform on AWS.&lt;/p&gt;\n&lt;p&gt;Amazon Bedrock gives you Sonnet's capabilities while keeping your data within AWS infrastructure with regional data residency and provides access through a unified service with AWS-managed features like Guardrails and Knowledge Bases. To learn more, see the Amazon Bedrock &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5-5.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html?refid=7ecf60df-6136-414c-a7c3-6aa4d2d6019f#model-regions-anthropic\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;regional availability&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Claude Platform on AWS gives you direct access to Anthropic's native platform experience and capabilities via the AWS Console. Build, test, and deploy with the same APIs, features, and console experience you'd get working with Anthropic directly, unified with AWS billing and authentication. To get started, see the Claude Platform on AWS &lt;a href=\"https://docs.aws.amazon.com/claude-platform/latest/userguide/setup.html?refid=7ecf60df-6136-414c-a7c3-6aa4d2d6019f\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws/",
+      "publishedAt": "2026-09-28T15:00:00.000Z",
+      "updatedAt": "2026-09-28T15:00:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Amazon Bedrock"
+      ],
+      "services": [
+        "Bedrock",
+        "Claude"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "amazon bedrock",
+        "bedrock",
+        "claude"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "2172b58785cf0f74",
+      "title": "Claude Sonnet 5.5 now available on AWS GovCloud (US)",
+      "description": "AWS GovCloud (US) now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work ag faster speed. Claude Sonnet 5.5 is a smarter, more efficient Sonnet and a step up from Sonnet 5, making it a natural upgrade for teams already building on Sonnet. It's stronger for coding, completing well-scoped tasks as part of a larger coding strategy such as building and fixing features with Claude in the same session or verifying output against requirements. And it produces ready-to-share knowledge",
+      "descriptionHtml": "&lt;p&gt;AWS GovCloud (US) now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work ag faster speed.&lt;/p&gt;\n&lt;p&gt;Claude Sonnet 5.5 is a smarter, more efficient Sonnet and a step up from Sonnet 5, making it a natural upgrade for teams already building on Sonnet. It's stronger for coding, completing well-scoped tasks as part of a larger coding strategy such as building and fixing features with Claude in the same session or verifying output against requirements. And it produces ready-to-share knowledge work, from 1-pagers, diagrams, and summary slides to document edits and spreadsheet cleanup.&lt;/p&gt;\n&lt;p&gt;Amazon Bedrock gives you Sonnet's capabilities while keeping your data within AWS infrastructure with regional data residency and provides access through a unified service with AWS-managed features like Guardrails and Knowledge Bases. To learn more, see the Amazon Bedrock &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5-5.html\"&gt;documentation&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html?refid=7ecf60df-6136-414c-a7c3-6aa4d2d6019f#model-regions-anthropic\"&gt;regional availability&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws-govcloud-us/",
+      "publishedAt": "2026-09-28T15:00:00.000Z",
+      "updatedAt": "2026-09-28T15:00:00.000Z",
+      "categories": [
+        "AWS Govcloud Us",
+        "Amazon Bedrock"
+      ],
+      "services": [
+        "Bedrock",
+        "Claude"
+      ],
+      "tags": [
+        "aws govcloud us",
+        "amazon bedrock",
+        "bedrock",
+        "claude"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "823133e656668191",
+      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes",
+      "description": "For developers building MongoDB-compatible applications, retryable writes improve application resilience during transient errors such as network interruptions or primary failovers. Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes starting with engine version 8.0.2, eliminating the need for additional code changes when enabling this capability. With retryable writes, the MongoDB driver automatically retries certain write operations one time if a transient error occurs. Most current MongoDB-compatible drivers enable retryable writes by default. With this release, appl",
+      "descriptionHtml": "&lt;p&gt;For developers building MongoDB-compatible applications, retryable writes improve application resilience during transient errors such as network interruptions or primary failovers. Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes starting with engine version 8.0.2, eliminating the need for additional code changes when enabling this capability.&lt;/p&gt;\n&lt;p&gt;With retryable writes, the MongoDB driver automatically retries certain write operations one time if a transient error occurs. Most current MongoDB-compatible drivers enable retryable writes by default. With this release, applications connecting to Amazon DocumentDB 8.0.2 no longer need to set retryWrites=false in the connection string to avoid errors. Retryable writes are supported for all write commands except updateMany and deleteMany, as well as transaction commit and abort commands. On engine versions earlier than 8.0.2, retryable writes remain unsupported and must be disabled.&lt;/p&gt;\n&lt;p&gt;Retryable writes are available on Amazon DocumentDB 8.0.2 instance-based and serverless clusters in all regions where Amazon DocumentDB 8.0 is available. To get started with retryable writes, see the &lt;a href=\"https://docs.aws.amazon.com/documentdb/latest/developerguide/retryable-writes.html\"&gt;Amazon DocumentDB developer guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
+      "publishedAt": "2026-09-28T08:00:00.000Z",
+      "updatedAt": "2026-09-28T08:00:00.000Z",
+      "categories": [
+        "Amazon Documentdb",
+        "Databases"
+      ],
+      "services": [
+        "DocumentDB"
+      ],
+      "tags": [
+        "amazon documentdb",
+        "databases",
+        "documentdb"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "994f5731ce861b2a",
       "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
       "description": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The M8i and M8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up to 20% better performance than M7i and M7i-flex instances, with even higher gains for specific worklo",
@@ -9872,7 +10151,7 @@
         "outposts",
         "route 53"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9898,7 +10177,7 @@
         "analytics",
         "glue"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9922,7 +10201,7 @@
         "amazon rds for sql server",
         "rds"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -9943,7 +10222,7 @@
       "tags": [
         "connect"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
