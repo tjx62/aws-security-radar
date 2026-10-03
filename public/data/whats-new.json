@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T14:31:21.838Z",
+  "lastUpdated": "2026-10-03T13:07:04.161Z",
   "itemCount": 500,
   "items": [
     {
@@ -158,7 +158,7 @@
         "vpc",
         "iam"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -1973,7 +1973,7 @@
         "kms",
         "transcribe"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 70,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2495,6 +2495,27 @@
         "Secret"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "d74ef45ced8221c5",
+      "title": "CVE-2026-103956, CVE-2026-103957, and CVE-2026-103958 - Issues in Loom for AWS",
+      "description": "Bulletin ID: 2026-124-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/02/2026 12:00 PM PDT Description: Loom is an AWS Labs open-source AI agent orchestration platform. We have identified and addressed three issues in Loom for AWS, described below. We recommend upgrading to the latest version (1.7.0) and ensuring any forked or derivative code is patched to incorporate the new fixes. - CVE-2026-103956 ‐ Authentication bypass in Loom for AWS (CWE-306, CWE-1188) An issue in the authentication dependency in Loom for AWS versions - CVE-2026-103957 ‐ OAuth2 token and",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-124-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 10/02/2026 12:00 PM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;Loom is an AWS Labs open-source AI agent orchestration platform. We have identified and addressed three issues in Loom for AWS, described below. We recommend upgrading to the latest version (1.7.0) and ensuring any forked or derivative code is patched to incorporate the new fixes.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;- CVE-2026-103956 ‐ Authentication bypass in Loom for AWS (CWE-306, CWE-1188)&lt;/b&gt; An issue in the authentication dependency in Loom for AWS versions &amp;lt;1.6.1 allowed any network client to obtain full administrative authority over the agent control plane ‐ including registering tool servers, reading stored integration credentials, and rewriting IAM role policies attached to managed agent roles ‐ via any request to the application API in a deployment where no identity provider was configured. This issue was addressed in version 1.6.1, released 2026-08-04.\n &lt;br&gt;\n &lt;b&gt;- CVE-2026-103957 ‐ OAuth2 token and credential disclosure via outbound request handling in Loom for AWS (CWE-918, CWE-201)&lt;/b&gt; An issue in the OAuth2 discovery handling in Loom for AWS versions &amp;lt;1.7.0 allowed an authenticated user with the mcp:write or a2a:write scope to configure a well-known discovery URL whose document directed the backend to send OAuth2 client secrets or another user's access token to a third-party-controlled endpoint. The 1.6.1 release blocked internal-address reach for this code path but did not fully address the token disclosure. This issue was fully addressed in version 1.7.0.\n &lt;br&gt;\n &lt;b&gt;- CVE-2026-103958 ‐ Outbound request handling issue in tool server and remote agent connections in Loom for AWS (CWE-918)&lt;/b&gt; An issue in the tool server (MCP) and remote agent (A2A) connection handling in Loom for AWS versions &amp;lt;1.7.0 allowed an authenticated user with the mcp:write or a2a:write scope to direct connection requests to arbitrary internal network locations — including the container's credential-vending endpoint ‐ and read the responses. This issue was addressed in version 1.7.0.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-124-aws/",
+      "publishedAt": "2026-10-02T19:21:29.000Z",
+      "updatedAt": "2026-10-02T19:21:29.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "high",
+      "securityMatches": [
+        "authentication",
+        "patch",
+        "token"
+      ],
+      "source": "security-bulletin"
     },
     {
       "id": "d39a7fb2ef13466b",
@@ -4330,6 +4351,29 @@
       "source": "security-blog"
     },
     {
+      "id": "7cb6d369102915c4",
+      "title": "CVE-2026-104019 - OS command injection in the Studio Space startup script in Amazon SageMaker Distribution",
+      "description": "Bulletin ID: 2026-125-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/02/2026 13:00 PM PDT Description: Amazon SageMaker Unified Studio is an AWS service that unifies data, analytics, and AI development. It lets you find and access your organization's data and act on it with integrated, purpose-built tools. We identified CVE-2026-104019, an issue with the startup of SageMaker Spaces in SageMaker Unified Studio. The startup script in a SageMaker Space performs a network validation against all the available SageMaker connections in a project. Under certain condit",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-125-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 10/02/2026 13:00 PM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;Amazon SageMaker Unified Studio is an AWS service that unifies data, analytics, and AI development. It lets you find and access your organization's data and act on it with integrated, purpose-built tools.&lt;/p&gt;\n&lt;p&gt;We identified CVE-2026-104019, an issue with the startup of SageMaker Spaces in SageMaker Unified Studio. The startup script in a SageMaker Space performs a network validation against all the available SageMaker connections in a project. Under certain conditions, improper sanitization of connection details during this validation could allow arbitrary code to be executed in the Space of another project member. In projects with the Trusted Identity Propagation feature enabled, this issue could result in a user with project contributor permissions (or higher) gaining access to another member's temporary execution role credentials and calling downstream trusted identity propagation-enabled AWS services on their behalf.&lt;/p&gt;\n&lt;p&gt;We implemented a fix to all supported SageMaker Distribution versions to sanitize connection details during the startup validation process. The fix is deployed globally and will apply to all Spaces automatically on the next startup.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;- 2.8.x - 2.13.x: all versions affected, no fix (end of support)\n &lt;br&gt;\n - 2.14.x: &amp;lt; 2.14.12, fixed in 2.14.12\n &lt;br&gt;\n - 3.3.x - 3.8.x: all versions affected, no fix (end of support)\n &lt;br&gt;\n - 3.9.x: &amp;lt; 3.9.12, fixed in 3.9.12\n &lt;br&gt;\n - 4.0.x: &amp;lt; 4.0.11, fixed in 4.0.11\n &lt;br&gt;\n - 4.1.x: &amp;lt; 4.1.11, fixed in 4.1.11\n &lt;br&gt;\n - 4.2.x: &amp;lt; 4.2.8, fixed in 4.2.8\n &lt;br&gt;\n - 4.3.x: &amp;lt; 4.3.5, fixed in 4.3.5\n &lt;br&gt;\n - 4.4.x: &amp;lt; 4.4.3, fixed in 4.4.3\n &lt;br&gt;\n - 4.5.x: not affected\n &lt;br&gt;\n - &amp;lt; 2.8.0 and &amp;lt; 3.3.0: not affected&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-125-aws/",
+      "publishedAt": "2026-10-02T20:25:48.000Z",
+      "updatedAt": "2026-10-02T20:25:48.000Z",
+      "categories": [],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "4f38a25b0bb66aec",
       "title": "Uncover blind spots in AWS data plane operations with CloudTrail Event Coverage",
       "description": "AWS CloudTrail introduces Event Coverage, a new console experience that gives customers visibility into their data plane operations coverage at the account and organization level. You can now see which AWS services and resource types in your environment have data event logging enabled and which do not. This helps you quickly identify gaps in your logging posture without manually scanning accounts in your organization. Data events enable you to track data plane operations in AWS services. For example, you can log Amazon S3 object-level operations like GetObject and PutObject to detect unauthori",
@@ -5254,6 +5298,56 @@
         "security",
         "Config",
         "access"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "8867bf736489e8df",
+      "title": "CVE-2026-103505 - Mount Option Injection in Amazon EFS CSI Driver",
+      "description": "Bulletin ID: 2026-120-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/01/2026 08:30 AM PDT Description: The Amazon EFS CSI Driver is a Container Storage Interface driver that allows Kubernetes clusters to use Amazon Elastic File System. We identified CVE-2026-103505, where an actor with PersistentVolume creation privileges can inject additional mount options through the mounttargetipmap volumeAttribute. Appending comma-separated values to a value inside that JSON map causes the mount utility to parse them as separate mount options. Impacted versions: >= v3.1.0 ",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-120-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 10/01/2026 08:30 AM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;The Amazon EFS CSI Driver is a Container Storage Interface driver that allows Kubernetes clusters to use Amazon Elastic File System. We identified CVE-2026-103505, where an actor with PersistentVolume creation privileges can inject additional mount options through the mounttargetipmap volumeAttribute. Appending comma-separated values to a value inside that JSON map causes the mount utility to parse them as separate mount options.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;= v3.1.0 AND &amp;lt;= v3.4.2&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-120-aws/",
+      "publishedAt": "2026-10-02T16:38:11.000Z",
+      "updatedAt": "2026-10-02T16:38:11.000Z",
+      "categories": [],
+      "services": [
+        "EFS"
+      ],
+      "tags": [
+        "efs"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "e15d1053d32652a5",
+      "title": "AgentCore Gateway supports private TLS certificates for VPC endpoints",
+      "description": "Amazon Bedrock AgentCore Gateway now supports TLS certificates signed by private certificate authorities (CAs) on MCP, OpenAPI, and HTTP proxy targets. This feature enables you to connect securely to gateway targets that use TLS certificates issued by your own private certificate authority. With this feature, you can establish native connections to private endpoints in your VPC without requiring an intermediate Application Load Balancer. You can register a private CA certificate with gateway targets that use private endpoints powered by Amazon VPC Lattice. The gateway fetches your PEM-encoded ",
+      "descriptionHtml": "&lt;p&gt;Amazon Bedrock AgentCore Gateway now supports TLS certificates signed by private certificate authorities (CAs) on MCP, OpenAPI, and HTTP proxy targets. This feature enables you to connect securely to gateway targets that use TLS certificates issued by your own private certificate authority. With this feature, you can establish native connections to private endpoints in your VPC without requiring an intermediate Application Load Balancer.&lt;/p&gt;\n&lt;p&gt;You can register a private CA certificate with gateway targets that use private endpoints powered by Amazon VPC Lattice. The gateway fetches your PEM-encoded CA certificate from Amazon S3 or AWS Secrets Manager and uses it as the trust anchor for outbound TLS connections. Private CA support is available for MCP server targets, OpenAPI targets, and HTTP proxy (passthrough) targets.&lt;/p&gt;\n&lt;p&gt;Support for private certificates on AgentCore Gateway is available in all Regions where both AgentCore Gateway and Amazon VPC Lattice are available. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway-vpc-egress.html#gateway-private-certificate\"&gt;AgentCore Developer Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-private-tls-vpc/",
+      "publishedAt": "2026-10-02T08:00:00.000Z",
+      "updatedAt": "2026-10-02T08:00:00.000Z",
+      "categories": [
+        "Amazon Bedrock"
+      ],
+      "services": [
+        "VPC",
+        "Bedrock"
+      ],
+      "tags": [
+        "amazon bedrock",
+        "vpc",
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "TLS",
+        "VPC"
       ],
       "source": "whats-new"
     },
@@ -7870,6 +7964,61 @@
       "source": "whats-new"
     },
     {
+      "id": "49e0bd1a32097a2c",
+      "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
+      "description": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies for ECS services using Amazon VPC Lattice . Applications that use VPC Lattice for service-to-service communication across VPCs and AWS accounts can now take advantage of managed traffic shifting natively from Amazon ECS when rolling out updates. With this launch, ECS customers using VPC Lattice can shift traffic in a controlled manner during deployments, choosing how quickly traffic moves based on their confidence in each release: all at once with blue/green, in equal increm",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/ecs/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Elastic Container Service&lt;/a&gt; (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies for ECS services using &lt;a href=\"https://aws.amazon.com/vpc/lattice/\" target=\"_blank\"&gt;Amazon VPC Lattice&lt;/a&gt;. Applications that use VPC Lattice for service-to-service communication across VPCs and AWS accounts can now take advantage of managed traffic shifting natively from Amazon ECS when rolling out updates.&lt;/p&gt;\n&lt;p&gt;With this launch, ECS customers using VPC Lattice can shift traffic in a controlled manner during deployments, choosing how quickly traffic moves based on their confidence in each release: all at once with blue/green, in equal increments with linear, or starting with a small percentage with canary. Teams can validate new versions with test traffic before shifting production traffic, and run custom validation steps or manual approvals with deployment lifecycle hooks, including Lambda and pause hooks. These services can also use Amazon CloudWatch alarms and the Amazon ECS deployment circuit breaker to automatically roll back deployments if issues are detected, with bake time keeping the previous version ready for a quick rollback without downtime.&lt;/p&gt;\n&lt;p&gt;To get started, select your VPC Lattice target groups, listener rule, and preferred deployment strategy in the ECS service configuration using the AWS Management Console, AWS CLI, AWS SDKs, or Infrastructure-as-Code tools. This functionality can be enabled for both new and existing ECS services in all AWS &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Regions&lt;/a&gt; where VPC Lattice is available. For more information, see &lt;a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/vpc-lattice-resources-for-blue-green.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon ECS deployments with VPC Lattice&lt;/a&gt;.\n &lt;br&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+      "publishedAt": "2026-10-02T20:18:00.000Z",
+      "updatedAt": "2026-10-02T20:18:00.000Z",
+      "categories": [
+        "AWS Fargate",
+        "Containers",
+        "Amazon Ecs",
+        "Serverless"
+      ],
+      "services": [
+        "ECS",
+        "Fargate",
+        "VPC"
+      ],
+      "tags": [
+        "aws fargate",
+        "containers",
+        "amazon ecs",
+        "serverless",
+        "ecs",
+        "fargate",
+        "vpc"
+      ],
+      "isNew": true,
+      "securityScore": 15,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "VPC"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "9527aeff89630720",
+      "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
+      "description": "AWS Brazil now provides an automated distribution workflow through the AWS Brazil 2P Distribution Program. Eligible non-Brazilian independent software vendors (ISVs) grant AWS Brazil the right to distribute their Software-as-a-Service (SaaS) product licenses, and AWS Brazil distributes them to customers in Brazil. AWS Brazil is the seller of record, invoicing Brazilian customers in Brazilian Reais (BRL) with applicable Brazilian taxes. The distribution authorizations, seller disbursements, withholding tax calculation, invoicing, and seller reporting are automated. Eligible ISVs agree to the ap",
+      "descriptionHtml": "&lt;p&gt;AWS Brazil now provides an automated distribution workflow through the AWS Brazil 2P Distribution Program. Eligible non-Brazilian independent software vendors (ISVs) grant AWS Brazil the right to distribute their Software-as-a-Service (SaaS) product licenses, and AWS Brazil distributes them to customers in Brazil. AWS Brazil is the seller of record, invoicing Brazilian customers in Brazilian Reais (BRL) with applicable Brazilian taxes. The distribution authorizations, seller disbursements, withholding tax calculation, invoicing, and seller reporting are automated.&lt;/p&gt;\n&lt;p&gt;Eligible ISVs agree to the applicable Brazil 2P distribution terms to grant AWS Brazil the right to distribute SaaS product licenses locally by creating distribution authorizations through AWS Partner Central or public APIs. AWS Brazil, as the seller of record, creates private offers for Brazilian buyers, determines the buyer-facing price, and automatically generates invoices, calculates and withholds taxes, and disburses payments. ISVs track transactions and payment status through the Seller Insights dashboard.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Buyers in Brazil see private offers priced in USD and invoiced in BRL by AWS Brazil, using the exchange rate on the invoice date. Buyers can pay by credit card (Visa, Mastercard, American Express) or Pay by Invoice (PBI), add a purchase order number, and access invoices in the AWS Billing Console.&lt;/p&gt;\n&lt;p&gt;To learn more about the AWS Brazil 2P Distribution Program, visit the &lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/userguide/brazil-2p-getting-started.html\"&gt;AWS Marketplace Seller Guide&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/buyerguide/brazil-2p-buyer-faq.html\"&gt;AWS Marketplace Buyer Guide&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/",
+      "publishedAt": "2026-10-02T16:30:00.000Z",
+      "updatedAt": "2026-10-02T16:30:00.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 15,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "authorization"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "461cd26f73604f2b",
       "title": "Amazon S3 Object Lock variable retention with event holds is now available in AWS GovCloud (US) Regions",
       "description": "Amazon S3 Object Lock support for variable retention with event holds is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). Amazon S3 Object Lock variable retention allows you to apply write-once-read-many (WORM) protection to objects whose required retention period starts with a future event, such as a contract closing or an audit completing. You place an event hold with a retention duration on an object and S3 protects the object while the hold is in place. When you release the hold, S3 retains the object for the duration you specified. Unlike legal holds, which end protecti",
@@ -8613,6 +8762,34 @@
       "source": "whats-new"
     },
     {
+      "id": "f30e21eb0a319aa8",
+      "title": "Amazon ElastiCache for Valkey now supports OpenTelemetry metrics and detailed monitoring",
+      "description": "Amazon ElastiCache for Valkey now publishes OpenTelemetry metrics to Amazon CloudWatch for your node-based clusters, and each metric carries attributes you can filter and aggregate on with Prometheus Query Language (PromQL) expressions. ElastiCache now offers two monitoring modes. Standard monitoring, the existing experience, continues to publish CloudWatch Metrics (Classic) every 60 seconds and now also publishes a core set of OpenTelemetry metrics at the same interval at no additional charge. Detailed monitoring, the new mode, lets you select from the full set of OpenTelemetry metrics and pu",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/elasticache/\"&gt;Amazon ElastiCache&lt;/a&gt; for Valkey now publishes OpenTelemetry metrics to Amazon CloudWatch for your node-based clusters, and each metric carries attributes you can filter and aggregate on with Prometheus Query Language (PromQL) expressions. ElastiCache now offers two monitoring modes. Standard monitoring, the existing experience, continues to publish CloudWatch Metrics (Classic) every 60 seconds and now also publishes a core set of OpenTelemetry metrics at the same interval at no additional charge. Detailed monitoring, the new mode, lets you select from the full set of OpenTelemetry metrics and publish them every 15 seconds.&lt;/p&gt;\n&lt;p&gt;With OpenTelemetry metrics, you can detect any node in a cluster nearing its connection limit, break errors down by type during an incident, or forecast if a node will run out of memory. You can run these queries in CloudWatch and Grafana, keeping PromQL skills your team already has. With detailed monitoring, you can balance diagnostic depth and cost, with 15-second metrics enabling detection of short-lived events like latency spikes. The core set of OpenTelemetry metrics also powers &lt;a href=\"https://console.aws.amazon.com/cloudwatch/home#dashboards/insights/elasticache\"&gt;ElastiCache Insights&lt;/a&gt;, a pre-built dashboard in Amazon CloudWatch.&lt;/p&gt;\n&lt;p&gt;To get started, open the Metrics tab for a cluster in the &lt;a href=\"https://console.aws.amazon.com/elasticache/\"&gt;Amazon ElastiCache console&lt;/a&gt;, select Detailed, and choose Configure detailed metrics.&lt;/p&gt;\n&lt;p&gt;OpenTelemetry metrics and detailed monitoring are available for node-based Valkey clusters in all AWS Regions where Amazon CloudWatch supports OpenTelemetry metrics. There is no additional charge from ElastiCache for detailed monitoring. &lt;a href=\"https://aws.amazon.com/cloudwatch/pricing/\"&gt;CloudWatch pricing for OpenTelemetry metrics&lt;/a&gt; applies to the detailed monitoring metrics you select, alarms you create, and PromQL API queries you run.&lt;/p&gt;\n&lt;p&gt;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/otel-metrics.html\"&gt;Monitoring ElastiCache with OpenTelemetry metrics&lt;/a&gt; in the Amazon ElastiCache User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-opentelemetry-metrics-detailed-monitoring",
+      "publishedAt": "2026-10-02T07:00:00.000Z",
+      "updatedAt": "2026-10-02T07:00:00.000Z",
+      "categories": [
+        "Amazon Elasticache",
+        "Databases"
+      ],
+      "services": [
+        "ElastiCache"
+      ],
+      "tags": [
+        "amazon elasticache",
+        "databases",
+        "elasticache"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "monitoring"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "814beb8fc3b07bf3",
       "title": "Serverless Storage on Amazon EMR Serverless now supports terabyte-scale shuffle",
       "description": "Amazon EMR Serverless now offers enhanced serverless storage capabilities with support for up to 1TB shuffle operations, raising the previous 200 GB per-job limit. Amazon EMR Serverless makes it simple for data engineers and data scientists to run open-source big data analytics frameworks without configuring, managing, and scaling clusters or servers. This enhancement enables enterprise customers to run production-scale Apache Spark workloads that require processing large volumes of shuffle data during complex operations such as joins, aggregations, and sorting. Enterprise data teams can now c",
@@ -8883,7 +9060,7 @@
       "tags": [
         "datasync"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -10971,6 +11148,107 @@
       "source": "whats-new"
     },
     {
+      "id": "09375ddb03aeb69d",
+      "title": "AWS Health introduces the version catalog for software lifecycle management",
+      "description": "Today, AWS Health introduces the version catalog which provides a centralized source of lifecycle information for software versions across AWS services. The version catalog helps customers move from reactive to proactive management of version upgrades and end-of-support risk. It is available in the AWS Health Dashboard, and customers on Business Support Plus, Enterprise Support, or Unified Operations can use the AWS Health API to integrate lifecycle data into their operational workflows. Customers running applications on AWS need to stay current with software versions to maintain a strong secu",
+      "descriptionHtml": "&lt;p&gt;Today, AWS Health introduces the version catalog which provides a centralized source of lifecycle information for software versions across AWS services. The version catalog helps customers move from reactive to proactive management of version upgrades and end-of-support risk. It is available in the AWS Health Dashboard, and customers on Business Support Plus, Enterprise Support, or Unified Operations can use the AWS Health API to integrate lifecycle data into their operational workflows.&lt;/p&gt;\n&lt;p&gt;Customers running applications on AWS need to stay current with software versions to maintain a strong security and operational posture. AWS Health already sends account and resource-specific Planned Lifecycle Events well in advance for major version end-of-support milestones. The version catalog adds service-wide view of supported versions and their timelines, so customers can build upgrade schedules, governance controls, and move to newer supported versions before receiving an account-specific Planned Lifecycle Event.&lt;/p&gt;\n&lt;p&gt;At launch, the version catalog covers multiple AWS services including Amazon RDS, Amazon EKS, and AWS Lambda with more services being added over time. The version catalog is available across all AWS Commercial Regions.&lt;/p&gt;\n&lt;p&gt;To get started, visit the version catalog in the &lt;a href=\"https://health.console.aws.amazon.com/health/home?region=us-east-1#/account/version-catalog\"&gt;AWS Health Dashboard&lt;/a&gt; or read the &lt;a href=\"https://docs.aws.amazon.com/health/latest/ug/aws-health-version-catalog.html\"&gt;documentation&lt;/a&gt; to learn more.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
+      "publishedAt": "2026-10-02T18:09:00.000Z",
+      "updatedAt": "2026-10-02T18:09:00.000Z",
+      "categories": [
+        "AWS Health",
+        "Management And Governance",
+        "AWS Support"
+      ],
+      "services": [
+        "Health"
+      ],
+      "tags": [
+        "aws health",
+        "management and governance",
+        "aws support",
+        "health"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "f977b0fc85e17e05",
+      "title": "Amazon Aurora DSQL now supports partial indexes",
+      "description": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers index storage cost. Many tables hold a small working set alongside a much larger history, such as open orders among years of completed ones. Add a WHERE clause to CREATE INDEX to index just that working set. The index stays small as the table grows, and queries that target those rows read less data. Aurora DSQL uses a partial index for any query whose filter falls within the index's condition. Parti",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/aurora/dsql/\"&gt;Amazon Aurora DSQL&lt;/a&gt; now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers index storage cost.&lt;/p&gt;\n&lt;p&gt;Many tables hold a small working set alongside a much larger history, such as open orders among years of completed ones. Add a WHERE clause to CREATE INDEX to index just that working set. The index stays small as the table grows, and queries that target those rows read less data. Aurora DSQL uses a partial index for any query whose filter falls within the index's condition.&lt;/p&gt;\n&lt;p&gt;Partial indexes are available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where Aurora DSQL is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/aurora-dsql/latest/userguide/create-index-syntax-support.html\"&gt;CREATE INDEX&lt;/a&gt; in the Aurora DSQL User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+      "publishedAt": "2026-10-02T17:30:00.000Z",
+      "updatedAt": "2026-10-02T17:30:00.000Z",
+      "categories": [
+        "Databases"
+      ],
+      "services": [
+        "Aurora"
+      ],
+      "tags": [
+        "databases",
+        "aurora"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "48fe2d4e1794fa8b",
+      "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
+      "description": "Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use Amazon Elastic Kubernetes Service (EKS) and Amazon EKS Distro to run Kubernetes version 1.37. Starting today, you can create new EKS clusters using version 1.37 and upgrade existing clusters to version 1.37 using the EKS console, the eksctl command line interface, or through an infrastructure-as-code tool. Kubernetes version 1.37 introduces several key improvements, promoting the Metrics API to general availability as metrics.k8s.io/v1 . This API provides Pod and node CPU ",
+      "descriptionHtml": "&lt;p&gt;Kubernetes version 1.37 introduced several new features and bug fixes, and AWS is excited to announce that you can now use &lt;a href=\"https://aws.amazon.com/eks/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Elastic Kubernetes Service&lt;/a&gt; (EKS) and &lt;a href=\"https://aws.amazon.com/eks/eks-distro/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon EKS Distro&lt;/a&gt; to run Kubernetes version 1.37. Starting today, you can create new EKS clusters using version 1.37 and upgrade existing clusters to version 1.37 using the EKS console, the eksctl command line interface, or through an infrastructure-as-code tool.&lt;/p&gt;\n&lt;p&gt;Kubernetes version 1.37 introduces several key improvements, promoting the Metrics API to general availability as &lt;i&gt;metrics.k8s.io/v1&lt;/i&gt;. This API provides Pod and node CPU and memory usage for the Horizontal Pod Autoscaler and &lt;i&gt;kubectl top&lt;/i&gt;. Dynamic Resource Allocation (DRA) device taints and tolerations also graduate to general availability, letting DRA drivers and administrators taint devices such as GPUs so the scheduler avoids them unless tolerated. Horizontal Pod Autoscaler scale-to-zero graduates to beta and is enabled by default, allowing autoscalers with &lt;i&gt;minReplicas: 0&lt;/i&gt; that use object or external metrics to scale workloads to zero Pods when idle and back up when demand returns. To learn more about Kubernetes version 1.37, see our &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions-standard.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt; and the Kubernetes project &lt;a href=\"https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.37.md\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;release notes.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;EKS now supports Kubernetes version 1.37 in all the AWS Regions where EKS is available, including the AWS GovCloud (US) Regions.&lt;/p&gt;\n&lt;p&gt;You can learn more about the Kubernetes versions available on EKS and instructions to update your cluster to version 1.37 by visiting EKS documentation. You can use &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/cluster-insights.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;EKS cluster insights&lt;/a&gt; to check if there are any issues that can impact your Kubernetes cluster upgrades. EKS Distro builds of Kubernetes version 1.37 are available through ECR Public Gallery and GitHub. Learn more about the EKS version lifecycle policies in the &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+      "publishedAt": "2026-10-02T17:30:00.000Z",
+      "updatedAt": "2026-10-02T17:30:00.000Z",
+      "categories": [
+        "Containers",
+        "AWS Govcloud Us",
+        "Amazon Eks"
+      ],
+      "services": [
+        "EKS"
+      ],
+      "tags": [
+        "containers",
+        "aws govcloud us",
+        "amazon eks",
+        "eks"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "9cc727417f4828a2",
+      "title": "The AWS MCP Server is now available in six additional AWS Regions",
+      "description": "The AWS MCP Server is now available in six additional AWS Regions: Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Ireland), Europe (London), and US West (Oregon). The AWS MCP Server, part of the Agent Toolkit for AWS , is a managed Model Context Protocol server that gives AI coding agents a single interface to AWS APIs, so agents can discover and call AWS services without building and maintaining per-service integrations. With this expansion, customers in these Regions can run the AWS MCP Server closer to their developers with lower latency, and keep request dat",
+      "descriptionHtml": "&lt;p&gt;The AWS MCP Server is now available in six additional AWS Regions: Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Ireland), Europe (London), and US West (Oregon). The AWS MCP Server, part of the &lt;a href=\"https://aws.amazon.com/products/developer-tools/agent-toolkit-for-aws\" data-pdffiller-skip=\"1\"&gt;Agent Toolkit for AWS&lt;/a&gt;, is a managed Model Context Protocol server that gives AI coding agents a single interface to AWS APIs, so agents can discover and call AWS services without building and maintaining per-service integrations.&lt;/p&gt;\n&lt;p&gt;With this expansion, customers in these Regions can run the AWS MCP Server closer to their developers with lower latency, and keep request data within the Region to meet data residency requirements. For example, a development team in London can point its coding agents at a local endpoint to provision infrastructure, inspect running workloads, and debug failures without routing requests to another geography. The AWS MCP Server can access services in all commercial AWS Regions, while the AWS MCP Server itself runs in the Regions listed below.&lt;/p&gt;\n&lt;p&gt;You can use AWS MCP Server in the following AWS Regions: US East (N. Virginia), US West (Oregon), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Frankfurt), Europe (Ireland), and Europe (London).&lt;/p&gt;\n&lt;p&gt;To get started, see the following resources:&lt;/p&gt;\n&lt;p&gt;- &lt;a href=\"https://docs.aws.amazon.com/aws-mcp/latest/userguide/getting-started-aws-mcp-server.html\" data-pdffiller-skip=\"1\"&gt;Getting started with the AWS MCP Server&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;- &lt;a href=\"https://docs.aws.amazon.com/general/latest/gr/aws-mcp.html\" data-pdffiller-skip=\"1\"&gt;AWS MCP Server endpoints and quotas&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-mcp-server-six-additional-regions/",
+      "publishedAt": "2026-10-02T08:00:00.000Z",
+      "updatedAt": "2026-10-02T08:00:00.000Z",
+      "categories": [
+        "Developer Tools"
+      ],
+      "services": [],
+      "tags": [
+        "developer tools"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "7a313636ba38bd3f",
       "title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
       "description": "Today, AWS announces the availability of Amazon DynamoDB Accelerator (DAX) in 17 additional AWS Regions: Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Asia Pacific (New Zealand), Asia Pacific (Osaka), Asia Pacific (Seoul), Asia Pacific (Taipei), Asia Pacific (Thailand), Canada West (Calgary), Europe (Milan), Europe (Zurich), Israel (Tel Aviv), Mexico (Central), AWS GovCloud (US-East), and AWS GovCloud (US-West). DAX is a fully managed, highly available, in-memory cache for Amazon DynamoDB that delivers up to 10 ti",
@@ -11657,7 +11935,7 @@
         "compute",
         "ec2"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -11683,7 +11961,7 @@
         "amazon ec2",
         "ec2"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -11709,7 +11987,7 @@
         "amazon ec2",
         "ec2"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -13571,291 +13849,6 @@
         "amazon ec2",
         "aws graviton",
         "ec2"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "ba9a8fcaf332bae3",
-      "title": "Amazon EC2 P6-B200 instances are now available in the AWS Asia Pacific (Hyderabad) Region",
-      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in the AWS Asia Pacific (Hyderabad) Region. These instances offer up to 2x performance compared to P5en instances for AI training and inference. P6-B200 instances feature 8 Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and a 60% increase in GPU memory bandwidth compared to P5en, 5th Generation Intel Xeon processors (Emerald Rapids), and up to 3.2 terabits per second of Elastic Fabric Adapter (EFAv4) networking. P6-B200 instances are powered by the AWS Nitro ",
-      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in the AWS Asia Pacific (Hyderabad) Region. These instances offer up to 2x performance compared to P5en instances for AI training and inference.&lt;/p&gt; \n&lt;p&gt;P6-B200 instances feature 8 Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and a 60% increase in GPU memory bandwidth compared to P5en, 5th Generation Intel Xeon processors (Emerald Rapids), and up to 3.2 terabits per second of Elastic Fabric Adapter (EFAv4) networking. P6-B200 instances are powered by the AWS Nitro System, so you can reliably and securely scale AI workloads within Amazon EC2 UltraClusters to tens of thousands of GPUs.&lt;/p&gt; \n&lt;p&gt;P6-B200 instances are now available in p6-b200.48xlarge size in the following AWS Regions: US West (Oregon), US East (N. Virginia, Ohio), AWS GovCloud (US-West, US-East), and Asia Pacific (Hyderabad, Mumbai) Regions. To learn more about P6-B200 instances, visit &lt;a href=\"https://aws.amazon.com/ec2/instance-types/p6/\" target=\"_blank\"&gt;Amazon EC2 P6 instances.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b200-instances-available-asia-pacific-hyderabad",
-      "publishedAt": "2026-09-03T19:14:00.000Z",
-      "updatedAt": "2026-09-03T19:14:00.000Z",
-      "categories": [
-        "Amazon Ec2",
-        "Compute",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "amazon ec2",
-        "compute",
-        "artificial intelligence",
-        "ec2"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "83dfe7d4e2b1819c",
-      "title": "Amazon EC2 P6-B300 instances are now available in the AWS Asia Pacific (Jakarta) Region",
-      "description": "Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the AWS Asia Pacific (Jakarta) Region. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4 Tbps EFA networking, 300 Gbps dedicated ENA throughput, and 4 TB of system memory. P6-B300 instances deliver 2x networking bandwidth, 1.5x GPU memory size, and 1.5x GPU TFLOPS (at FP4, without sparsity) compared to P6-B200 instances, making them well suited to train and deploy large trillion-parameter foundation models (FMs) including large language models (LLMs) wit",
-      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Elastic Cloud Compute (Amazon EC2) P6-B300 instances are available in the AWS Asia Pacific (Jakarta) Region. P6-B300 instances provide 8xNVIDIA Blackwell Ultra GPUs with 2.1 TB high bandwidth GPU memory, 6.4 Tbps EFA networking, 300 Gbps dedicated ENA throughput, and 4 TB of system memory.&lt;/p&gt; \n&lt;p&gt;P6-B300 instances deliver 2x networking bandwidth, 1.5x GPU memory size, and 1.5x GPU TFLOPS (at FP4, without sparsity) compared to P6-B200 instances, making them well suited to train and deploy large trillion-parameter foundation models (FMs) including large language models (LLMs) with sophisticated techniques. The higher networking and larger memory deliver faster training times and more token throughput for AI workloads.&lt;/p&gt; \n&lt;p&gt;P6-B300 instances are now available in p6-b300.48xlarge size in the following AWS Regions: US West (Oregon), AWS GovCloud (US-East), US East (N. Virginia), Asia Pacific (Hyderabad, Jakarta, Seoul), and South America (Sao Paulo) Regions. To learn more about P6-B300 instances, visit &lt;a href=\"https://aws.amazon.com/ec2/instance-types/p6/\" target=\"_blank\"&gt;Amazon EC2 P6 instances.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-p6-b300-instances-available-asia-pacific-jakarta",
-      "publishedAt": "2026-09-03T19:03:00.000Z",
-      "updatedAt": "2026-09-03T19:03:00.000Z",
-      "categories": [
-        "Amazon Ec2",
-        "Artificial Intelligence",
-        "Compute"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "amazon ec2",
-        "artificial intelligence",
-        "compute",
-        "ec2"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "e6a32fa4f927ebcd",
-      "title": "Introducing Amazon Quick Max: 5x the usage for power users who want the most out of Quick",
-      "description": "Amazon Quick now offers Quick Max, a new plan for power users who want to get the absolute most out of Quick. With 5x the usage and 5x the storage of Plus, Max gives you the room to do more: more agents, more workflows, more of whatever makes Quick yours. With Max, you can run large, concurrent workloads without interruption—all month long. It delivers more value per dollar the more you use it and is available with both monthly and annual billing options. New to Amazon Quick? You can sign up for free in minutes . Already on Plus? Click your name at the bottom of the left navigation bar, then s",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.com/quick\" target=\"_blank\"&gt;&lt;u&gt;Amazon Quick&lt;/u&gt;&lt;/a&gt; now offers Quick Max, a new plan for power users who want to get the absolute most out of Quick. With 5x the usage and 5x the storage of Plus, Max gives you the room to do more: more agents, more workflows, more of whatever makes Quick yours.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;With Max, you can run large, concurrent workloads without interruption—all month long. It delivers more value per dollar the more you use it and is available with both monthly and annual billing options. &amp;nbsp;&lt;/p&gt; \n&lt;p&gt;New to Amazon Quick? You can &lt;a href=\"https://portal.aws.amazon.com/billing/signup/service?app=AmazonQuickSuite&amp;amp;tier=free&amp;amp;funnel=boost#/validation\" target=\"_blank\"&gt;&lt;u&gt;sign up for free in minutes&lt;/u&gt;&lt;/a&gt;. Already on Plus? Click your name at the bottom of the left navigation bar, then select \"Upgrade plan\" to switch to Max. To compare all available plans—Free, Plus, and Max—visit the &lt;a href=\"https://aws.amazon.com/quick/pricing/\" target=\"_blank\"&gt;&lt;u&gt;Amazon Quick pricing page&lt;/u&gt;&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-max-5x-usage-power-users/",
-      "publishedAt": "2026-09-03T17:17:00.000Z",
-      "updatedAt": "2026-09-03T17:17:00.000Z",
-      "categories": [
-        "Business Productivity",
-        "Artificial Intelligence"
-      ],
-      "services": [],
-      "tags": [
-        "business productivity",
-        "artificial intelligence"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "8e6022c4492277dd",
-      "title": "AWS Gateway Load Balancer now supports TCP Reset for faster failure recovery",
-      "description": "A WS Gateway Load Balancer (GWLB) now supports sending TCP Reset (RST) packets when a target becomes unhealthy, is deregistered, or when a flow's idle timeout expires. This feature helps reduce traffic interruptions from minutes to seconds by enabling TCP endpoints to quickly detect failed connections and establish new TCP flows through healthy targets. Previously, when a GWLB target failed, existing TCP connections would continue to be forwarded to the unhealthy target (aka fail-open behavior). Client and server applications could experience interruptions lasting several minutes due to TCP re",
-      "descriptionHtml": "&lt;p&gt;A&lt;b&gt;&lt;/b&gt;WS Gateway Load Balancer (GWLB) now supports sending TCP Reset (RST) packets when a target becomes unhealthy, is deregistered, or when a flow's idle timeout expires. This feature helps reduce traffic interruptions from minutes to seconds by enabling TCP endpoints to quickly detect failed connections and establish new TCP flows through healthy targets.&lt;br&gt; &lt;br&gt; Previously, when a GWLB target failed, existing TCP connections would continue to be forwarded to the unhealthy target (aka fail-open behavior). Client and server applications could experience interruptions lasting several minutes due to TCP retry and exponential back-off mechanisms built in the TCP stacks of clients or servers. When this capability is enabled, GWLB sends TCP Resets in response to the incoming traffic, indicating to the sender that a TCP connection is no longer viable. This allows TCP endpoints to recover in quickly.&lt;br&gt; &lt;br&gt; TCP Reset is not enabled by default to ensure backward compatibility. You can enable it per target group using the AWS Management Console, AWS CLI, or API. Three triggers are supported independently for generating TCP Reset: target becomes unhealthy, target deregistration (after connection draining), and TCP idle timeout expiry.&lt;br&gt; &lt;br&gt; This feature is available for all new and existing Gateway Load Balancers in all AWS Regions where GWLB is available. There is no additional charge for using this feature.&lt;br&gt; &lt;br&gt; To learn more, visit this &lt;a href=\"https://aws.amazon.com/blogs/networking-and-content-delivery/reduce-traffic-interruptions-with-gateway-load-balancer-tcp-reset/\"&gt;AWS blog&lt;/a&gt;&lt;i&gt;,&lt;/i&gt;&lt;b&gt;&lt;i&gt; &lt;/i&gt;&lt;/b&gt;and GWLB User Guide &lt;a href=\"https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/edit-target-group-attributes.html#send-tcp-reset-target-failover\"&gt;here&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/gateway-listeners.html#listener-attributes\"&gt;here&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/",
-      "publishedAt": "2026-09-03T17:00:00.000Z",
-      "updatedAt": "2026-09-03T17:00:00.000Z",
-      "categories": [
-        "Networking And Content Delivery",
-        "Amazon Elastic Load Balancing"
-      ],
-      "services": [],
-      "tags": [
-        "networking and content delivery",
-        "amazon elastic load balancing"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "f38f1804e2358611",
-      "title": "Amazon Aurora MySQL now supports multi-source replication and delayed replication",
-      "description": "Starting today, Amazon Aurora MySQL supports two new replication capabilities: multi-source replication and delayed replication. Multi-source replication lets a single Aurora MySQL cluster replicate from multiple source databases at the same time, making it easier to consolidate data from separate MySQL databases. This enables critical use-cases, such as merging shards or aggregating data from separate databases (e.g. regional or departmental instances) into a central location for operational workflows, such as reporting and backups. To learn more, please refer to the MySQL multi-source replic",
-      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Aurora MySQL supports two new replication capabilities: multi-source replication and delayed replication. Multi-source replication lets a single Aurora MySQL cluster replicate from multiple source databases at the same time, making it easier to consolidate data from separate MySQL databases. This enables critical use-cases, such as merging shards or aggregating data from separate databases (e.g. regional or departmental instances) into a central location for operational workflows, such as reporting and backups. To learn more, please refer to the &lt;a href=\"https://dev.mysql.com/doc/refman/8.4/en/replication-multi-source.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;MySQL multi-source replication documentation&lt;/a&gt;.&lt;br&gt; &lt;br&gt; Delayed replication lets you configure a binlog replica to intentionally lag behind its source by a set period of time, giving you a simple safeguard against human error and logical data corruption. If a harmful change is made on the source, you can recover quickly by stopping replication to the replica before the change is applied and promoting it, without performing a full database restore. A delayed replica also provides a convenient fallback during upgrades and a way to inspect an earlier state of your data. To learn more, please refer to the &lt;a href=\"https://dev.mysql.com/doc/refman/8.4/en/replication-delayed.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;MySQL delayed replication documentation&lt;/a&gt;.&lt;br&gt; &lt;br&gt; Together, these capabilities give you greater flexibility and stronger data protection when replicating into Aurora MySQL. Multi-source replication and Delayed replication are supported on Aurora MySQL version 8.4.8 and higher, in all &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.RegionsAndAvailabilityZones.html#Aurora.Overview.Availability.MySQL\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions&lt;/a&gt; where Aurora MySQL is available. For additional information on Aurora MySQL disaster recovery, see the &lt;a href=\"https://docs.aws.amazon.com/solutions/disaster-recovery-using-amazon-aurora/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;guidance from our solutions library&lt;/a&gt;. To learn more, please refer to &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraMySQLReleaseNotes/AuroraMySQL.Updates.84Updates.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Aurora MySQL 8.4&lt;/a&gt; release notes.&lt;br&gt; &lt;br&gt; &lt;a href=\"https://aws.amazon.com/rds/aurora/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Aurora&lt;/a&gt; is designed for high performance and availability at global scale with full MySQL compatibility. It provides scale-to-zero serverless compute, Aurora Global Database for multi-Region resilience, Aurora I/O-Optimized for improved price performance on I/O-intensive workloads, and built-in security and continuous backups. To get started, take a look at Aurora’s &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;getting started page&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-multisourcerep-delayedrep/",
-      "publishedAt": "2026-09-03T16:00:00.000Z",
-      "updatedAt": "2026-09-03T16:00:00.000Z",
-      "categories": [
-        "Databases",
-        "Amazon Aurora"
-      ],
-      "services": [
-        "Aurora"
-      ],
-      "tags": [
-        "databases",
-        "amazon aurora",
-        "aurora"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "59422113241ade91",
-      "title": "Amazon SageMaker Unified Studio Workflows support Python and Bash operators",
-      "description": "Amazon SageMaker Unified Studio Workflows now supports PythonOperator and BashOperator, enabling you to run custom Python functions and shell commands directly in your serverless workflows without provisioning separate compute resources. This eliminates the need to offload custom logic to Lambda or ECS for tasks like data transformations or shell script execution. To get started, open a serverless visual workflow in your SageMaker Unified Studio project, search for PythonOperator or BashOperator in the task panel, and drag the node onto your canvas. Provide your Python or shell script files th",
-      "descriptionHtml": "&lt;p&gt;Amazon SageMaker Unified Studio Workflows now supports PythonOperator and BashOperator, enabling you to run custom Python functions and shell commands directly in your serverless workflows without provisioning separate compute resources. This eliminates the need to offload custom logic to Lambda or ECS for tasks like data transformations or shell script execution.&lt;/p&gt;\n&lt;p&gt;To get started, open a serverless visual workflow in your SageMaker Unified Studio project, search for PythonOperator or BashOperator in the task panel, and drag the node onto your canvas. Provide your Python or shell script files through the workflow settings, then point each operator to the function or command in your scripts. For example, configure PythonOperator to call a data transformation function or set BashOperator to run a shell command, all without leaving the visual canvas.&lt;/p&gt;\n&lt;p&gt;This feature is available in all AWS Regions where Amazon SageMaker Unified Studio is available. For more information, see &lt;a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/supported-regions.html\"&gt;Supported Regions for Amazon SageMaker Unified Studio&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/operators.html\"&gt;Supported operators for Amazon MWAA Serverless workflows&lt;/a&gt;. To get started, see &lt;a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/serverless-visual-workflows.html\"&gt;Serverless visual workflows&lt;/a&gt; in the Amazon SageMaker Unified Studio User Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/",
-      "publishedAt": "2026-09-03T15:00:00.000Z",
-      "updatedAt": "2026-09-03T15:00:00.000Z",
-      "categories": [
-        "Amazon Sagemaker",
-        "Serverless",
-        "Developer Tools"
-      ],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "amazon sagemaker",
-        "serverless",
-        "developer tools",
-        "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "13e650259e5fda18",
-      "title": "Amazon Connect Customer expands automated performance evaluations to Malay",
-      "description": "Amazon Connect Customer now automates evaluations of human and AI agents in Malay using generative AI. Managers define custom evaluation criteria in natural language and receive AI-generated evaluations with justifications in their preferred language. Performance evaluations also supports cross-language evaluation and can complete assessments in English, even when the conversation is in Malay. This enables multilingual contact centers to use a standardized evaluation framework across languages. This feature is supported in 8 AWS regions including US East (N. Virginia), US West (Oregon), Europe",
-      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now automates evaluations of human and AI agents in Malay using generative AI. Managers define custom evaluation criteria in natural language and receive AI-generated evaluations with justifications in their preferred language. Performance evaluations also supports cross-language evaluation and can complete assessments in English, even when the conversation is in Malay. This enables multilingual contact centers to use a standardized evaluation framework across languages.&lt;/p&gt; \n&lt;p&gt;This feature is supported in 8 &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regions_az/\"&gt;AWS regions&lt;/a&gt; including US East (N. Virginia), US West (Oregon), Europe (Frankfurt), Europe (London), Canada (Central), Asia Pacific (Sydney), Asia Pacific (Tokyo), and Asia Pacific (Singapore). For information about Amazon Connect pricing, please visit our &lt;a href=\"https://aws.amazon.com/connect/pricing/\"&gt;pricing page&lt;/a&gt;. To learn more, please visit our &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/generative-ai-performance-evaluations.html#set-up-generative-ai-evals-in-non-english-language\"&gt;documentation&lt;/a&gt; and our &lt;a href=\"https://aws.amazon.com/connect/contact-lens/\"&gt;webpage&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-automated-evaluations-malay/",
-      "publishedAt": "2026-09-02T17:00:00.000Z",
-      "updatedAt": "2026-09-02T17:00:00.000Z",
-      "categories": [
-        "Amazon Connect",
-        "Contact Center"
-      ],
-      "services": [
-        "Connect"
-      ],
-      "tags": [
-        "amazon connect",
-        "contact center",
-        "connect"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "aa4ce5a4cfc3d180",
-      "title": "Amazon Connect Customer announces general availability of agentic CX designer",
-      "description": "Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice and digital experiences that bring agentic and deterministic AI together to transform how you serve customers with the control and reliability enterprises demand. Your business teams users can go from designing conversations and integrating with the systems that run your business, to testing, to launching production-ready experiences in weeks, not months. Agentic CX designer gives you the clarity ",
-      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice and digital experiences that bring agentic and deterministic AI together to transform how you serve customers with the control and reliability enterprises demand. Your business teams users can go from designing conversations and integrating with the systems that run your business, to testing, to launching production-ready experiences in weeks, not months.&lt;/p&gt; \n&lt;p&gt;Agentic CX designer gives you the clarity of a flowchart with the power of a large language model. On a visual canvas you define the logic, guardrails, and integrations, and the model handles the natural conversation. For outcomes that have to be exact, such as eligibility, approvals, routing, or compliance, you define the workflow and the conversation follows it. You build, test, and deploy in the same place, so the team that designs an experience can validate it and put it into production without writing code or handing the work to engineering.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
-      "publishedAt": "2026-09-02T16:00:00.000Z",
-      "updatedAt": "2026-09-02T16:00:00.000Z",
-      "categories": [
-        "Contact Center"
-      ],
-      "services": [
-        "Connect"
-      ],
-      "tags": [
-        "contact center",
-        "connect"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "50b2bc4a31e1401f",
-      "title": "AWS CloudFormation now supports contract tests v2 for resource types",
-      "description": "AWS CloudFormation now supports contract tests v2, available through the --v2 flag of the cfn test command in the CloudFormation CLI. Previously, the contract test suite covered only basic scenarios around the CRUD handlers. Contract tests v2 adds deeper test scenarios that exercise your resource type implementation across each handler operation. All new resource types can run contract tests v2 through the test-type API during registry submission, and Java-based resource types can also run them locally with cfn test --v2, requiring only Docker and a built handler package. Contract tests v2 int",
-      "descriptionHtml": "&lt;p&gt;AWS CloudFormation now supports contract tests v2, available through the --v2 flag of the cfn test command in the CloudFormation CLI. Previously, the contract test suite covered only basic scenarios around the CRUD handlers. Contract tests v2 adds deeper test scenarios that exercise your resource type implementation across each handler operation. All new resource types can run contract tests v2 through the test-type API during registry submission, and Java-based resource types can also run them locally with cfn test --v2, requiring only Docker and a built handler package.&lt;/p&gt; \n&lt;p&gt;Contract tests v2 introduces live-state verification that confirms actual resource state matches the requested state after create, update, and delete operations. Developers also benefit from schema backward-compatibility checks, test input linting that flags hardcoded Regions, account IDs, and partitions, and detailed HTML and JUnit XML reports for local contract test execution. These improvements significantly reduce iteration cycles by surfacing issues before registry submission.&lt;/p&gt; \n&lt;p&gt;Contract tests v2 is available in all AWS Regions where AWS CloudFormation is available. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/cloudformation-cli/latest/userguide/contract-tests.html\"&gt;AWS CloudFormation contract tests documentation&lt;/a&gt; and the &lt;a href=\"https://aws.amazon.com/cloudformation/\"&gt;AWS CloudFormation product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cloudformation-contract-tests-v2-resource-types/",
-      "publishedAt": "2026-09-02T15:23:00.000Z",
-      "updatedAt": "2026-09-02T15:23:00.000Z",
-      "categories": [
-        "AWS Cloudformation",
-        "Developer Tools"
-      ],
-      "services": [
-        "CloudFormation"
-      ],
-      "tags": [
-        "aws cloudformation",
-        "developer tools",
-        "cloudformation"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "6bb3875a98d222de",
-      "title": "AWS Lambda now supports SnapStart for container image functions",
-      "description": "Starting today, AWS Lambda supports SnapStart for functions packaged as container images , reducing startup times from several seconds to as low as sub-second. Lambda SnapStart is an opt-in capability that makes it easier for you to build highly responsive and scalable applications without provisioning resources or implementing complex performance optimizations. Customers deploy Lambda functions with container images to align with their organization's container-based deployment standards, or to package larger dependencies up to 10 GB. However, larger container images can experience startup tim",
-      "descriptionHtml": "&lt;p&gt;Starting today, AWS Lambda supports SnapStart for functions packaged as &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/images-create.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;container images&lt;/a&gt;, reducing startup times from several seconds to as low as sub-second. Lambda SnapStart is an opt-in capability that makes it easier for you to build highly responsive and scalable applications without provisioning resources or implementing complex performance optimizations.&lt;/p&gt; \n&lt;p&gt;Customers deploy Lambda functions with container images to align with their organization's container-based deployment standards, or to package larger dependencies up to 10 GB. However, larger container images can experience startup times of several seconds as Lambda downloads image layers and initializes the runtime and application code. SnapStart addresses this by taking a snapshot of the initialized execution environment during function deployment, caching it, and resuming from it on invocation, instead of initializing from scratch. Previously, SnapStart was only supported for managed runtimes (Python, .NET, and Java). Starting today, customers can use SnapStart for container images to improve startup times for latency-sensitive workloads such as ML inference and interactive APIs.&lt;/p&gt; \n&lt;p&gt;Lambda SnapStart for container images is available in all commercial &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions&lt;/a&gt;, except Asia Pacific (New Zealand) and Asia Pacific (Taipei).&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;You can activate SnapStart for new or existing &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/images-create.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;container image&lt;/a&gt; functions using AWS Lambda API, AWS Console, AWS Command Line Interface (AWS CLI), AWS CloudFormation, AWS Serverless Application Model (AWS SAM), AWS SDK, and AWS Cloud Development Kit (AWS CDK). If you use an AWS base image for Lambda with Java (version 11+), Python (version 3.12+), or .NET (version 8+), the experience remains the same as with functions deployed as .zip file archives. For all other AWS base images for Lambda (for example, Node.js or Ruby) or custom base images, refer to the &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/snapstart-runtime-hooks-custom.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;developer guide.&lt;/a&gt; For more information about SnapStart, see Lambda &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation.&lt;/a&gt; To learn more about pricing for SnapStart for container image functions, visit &lt;a href=\"https://aws.amazon.com/lambda/pricing/#SnapStart_Pricing\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Lambda Pricing.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/",
-      "publishedAt": "2026-09-02T09:00:00.000Z",
-      "updatedAt": "2026-09-02T09:00:00.000Z",
-      "categories": [
-        "Serverless",
-        "Developer Tools",
-        "Compute"
-      ],
-      "services": [
-        "Lambda"
-      ],
-      "tags": [
-        "serverless",
-        "developer tools",
-        "compute",
-        "lambda"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "f7f1c0ca2a26419e",
-      "title": "Amazon Quick now lets you build custom apps with natural language  -",
-      "description": "Now generally available, Amazon Quick lets you build custom applications by simply describing them in natural language. Create project trackers, customer dashboards, and training portals in minutes instead of months. Whether you're a product manager, finance lead, HR partner, or ops analyst, you can now turn ideas into fully functional apps without writing any code. Tell Quick what you need, and it builds a live, connected application with real-time data from your existing business systems. Quick connects directly to the tools and data your business already uses, including Salesforce, Jira, As",
-      "descriptionHtml": "&lt;p&gt;Now generally available, Amazon Quick lets you build custom applications by simply describing them in natural language. Create project trackers, customer dashboards, and training portals in minutes instead of months. Whether you're a product manager, finance lead, HR partner, or ops analyst, you can now turn ideas into fully functional apps without writing any code. Tell Quick what you need, and it builds a live, connected application with real-time data from your existing business systems.&lt;/p&gt; \n&lt;p&gt;Quick connects directly to the tools and data your business already uses, including Salesforce, Jira, Asana, ServiceNow, Microsoft 365, Google Workspace, databases, and data warehouses. Your apps stay current automatically as underlying data changes, and every connection respects your organization's existing identity, authorization, and access control policies. Once built, you can publish and share apps instantly with specific users or your entire organization. Need to make a change like adding AI, updating the visual style, or connecting to another system? Just describe what you want and Quick handles it.&lt;/p&gt; \n&lt;p&gt;During preview, customers used Quick to replace spreadsheets and disconnected tools with purpose-built applications. New York Life built an e-learning portal for their Institutional Life team that consolidates onboarding, training, and compliance courses into a single experience. The Amazon Quick team tracks pipeline, customer requests, and adoption metrics in a weekly leadership review app that replaced manual data pulls from four different systems.&lt;/p&gt; \n&lt;p&gt;Building apps in Quick is available to Plus, Professional, and Enterprise customers starting September 1, 2026. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/using-amazon-quick-apps.html\"&gt;Apps in Quick getting-started guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-custom-apps-natural-language/",
-      "publishedAt": "2026-09-01T21:37:00.000Z",
-      "updatedAt": "2026-09-01T21:37:00.000Z",
-      "categories": [
-        "Aiml",
-        "Artificial Intelligence",
-        "Business Productivity"
-      ],
-      "services": [],
-      "tags": [
-        "aiml",
-        "artificial intelligence",
-        "business productivity"
       ],
       "isNew": false,
       "securityScore": 0,
