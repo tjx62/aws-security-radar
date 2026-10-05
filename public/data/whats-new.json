@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T13:46:14.599Z",
+  "lastUpdated": "2026-10-05T16:53:02.940Z",
   "itemCount": 500,
   "items": [
     {
@@ -2858,7 +2858,7 @@
         "iam",
         "sagemaker"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 55,
       "securityLevel": "critical",
       "securityMatches": [
@@ -4460,7 +4460,7 @@
         "fsx",
         "backup"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -7279,7 +7279,7 @@
         "developer tools",
         "aws govcloud us"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -9037,7 +9037,7 @@
         "amazon documentdb",
         "documentdb"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -11855,7 +11855,7 @@
         "bedrock",
         "claude"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -11883,7 +11883,7 @@
         "bedrock",
         "claude"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -11909,7 +11909,7 @@
         "databases",
         "documentdb"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
