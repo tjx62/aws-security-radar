@@ -1,7 +1,41 @@
 {
-  "lastUpdated": "2026-10-06T14:48:48.221Z",
+  "lastUpdated": "2026-10-07T15:17:26.619Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "48c6f555f6a5d80c",
+      "title": "AWS Certificate Manager now supports ACME issuance through AWS PrivateLink",
+      "description": "AWS Certificate Manager (ACM) now supports AWS PrivateLink for ACME public certificate issuance, allowing you to request and renew public TLS certificates over a private network path that stays within the AWS network. You can now create a VPC interface endpoint to the ACM ACME service and route issuance traffic from any ACMEv2-compatible client through your VPC. If you're already using ACME with ACM, setup requires no changes to your ACME clients. After you create your managed ACME endpoint in ACM, you create a standard VPC interface endpoint using the VPC console, AWS CLI, or AWS CloudFormati",
+      "descriptionHtml": "&lt;p&gt;AWS Certificate Manager (ACM) now supports AWS PrivateLink for ACME public certificate issuance, allowing you to request and renew public TLS certificates over a private network path that stays within the AWS network. You can now create a VPC interface endpoint to the ACM ACME service and route issuance traffic from any ACMEv2-compatible client through your VPC.&lt;/p&gt;\n&lt;p&gt;If you're already using ACME with ACM, setup requires no changes to your ACME clients. After you create your managed ACME endpoint in ACM, you create a standard VPC interface endpoint using the VPC console, AWS CLI, or AWS CloudFormation. Private DNS resolves your existing ACME directory URL to the interface endpoint inside your VPC automatically, so the same client configuration and directory URL continue to work with no reconfiguration. Issuance operations—account creation, order creation, domain validation, finalization, and certificate retrieval—then flow over PrivateLink. All activity remains visible in the ACM console with AWS CloudTrail logging and Amazon CloudWatch metrics for auditability.&lt;/p&gt;\n&lt;p&gt;AWS PrivateLink support for ACME certificate issuance is available in all commercial AWS Regions. Standard AWS PrivateLink charges apply for interface endpoints; see the AWS PrivateLink pricing page. For ACM pricing details, see the &amp;nbsp;&lt;a href=\"https://aws.amazon.com/certificate-manager/pricing/\"&gt;ACM pricing page&lt;/a&gt;. To get started with ACME and PrivateLink, visit the &amp;nbsp;&lt;a href=\"https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/\"&gt;AWS News blog post&amp;nbsp;&lt;/a&gt;&amp;nbsp;or read the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/acm/latest/userguide/acm-acme.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink",
+      "publishedAt": "2026-10-06T14:01:00.000Z",
+      "updatedAt": "2026-10-06T14:01:00.000Z",
+      "categories": [
+        "AWS Certificate Manager",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "PrivateLink",
+        "Certificate Manager"
+      ],
+      "tags": [
+        "aws certificate manager",
+        "security identity and compliance",
+        "privatelink",
+        "certificate manager"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Certificate Manager",
+        "ACM",
+        "TLS",
+        "VPC",
+        "PrivateLink"
+      ],
+      "source": "whats-new"
+    },
     {
       "id": "5ac6b976ead214d5",
       "title": "AWS IAM Identity Center now supports network access controls for Identity Store",
@@ -156,7 +190,7 @@
         "iam",
         "iam identity center"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -977,6 +1011,53 @@
       "source": "security-blog"
     },
     {
+      "id": "279c4a835cdf7fae",
+      "title": "Identity-aware AI data agents with AWS Lake Formation and Trusted Identity Propagation",
+      "description": "You’re building a data agent that lets business users ask questions about lakehouse data in natural language. You’ve already built governance policies that control who can access which datasets. The challenge is making the agent respect those rules without rebuilding them in your application code. When a user asks a question, the agent maps it […]",
+      "descriptionHtml": "You’re building a data agent that lets business users ask questions about lakehouse data in natural language. You’ve already built governance policies that control who can access which datasets. The challenge is making the agent respect those rules without rebuilding them in your application code. When a user asks a question, the agent maps it […]",
+      "url": "https://aws.amazon.com/blogs/security/identity-aware-ai-data-agents-with-aws-lake-formation-and-trusted-identity-propagation/",
+      "publishedAt": "2026-10-06T16:07:06.000Z",
+      "updatedAt": "2026-10-06T16:07:06.000Z",
+      "categories": [
+        "Advanced (300)",
+        "AWS IAM Identity Center",
+        "AWS Lake Formation",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Security Blog"
+      ],
+      "services": [
+        "IAM",
+        "IAM Identity Center",
+        "Lake Formation"
+      ],
+      "tags": [
+        "advanced (300)",
+        "aws iam identity center",
+        "aws lake formation",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "security blog",
+        "iam",
+        "iam identity center",
+        "lake formation"
+      ],
+      "isNew": true,
+      "securityScore": 95,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "access",
+        "identity",
+        "IAM",
+        "IAM Identity Center"
+      ],
+      "source": "security-blog"
+    },
+    {
       "id": "30028135b4222533",
       "title": "ICYMI: August 2026 @AWS Security",
       "description": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts August brought 20 AWS Security Blog posts organized across seven categories. Identity and access management led the month with five posts […]",
@@ -1192,7 +1273,7 @@
         "privatelink",
         "kinesis"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 90,
       "securityLevel": "critical",
       "securityMatches": [
@@ -1713,6 +1794,42 @@
         "access",
         "S3",
         "Bucket"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "349c665257f67398",
+      "title": "Improving SPIRE security and resiliency with AWS managed services",
+      "description": "In cloud-centered environments, establishing trust between workloads is fundamental to securing machine-to-machine communication. Traditional approaches such as API keys, shared secrets, and static service account credentials weren’t designed for the scale and ephemeral nature of cloud workloads. This drives an organizational need to shift from long-term, static credentials to short-lived cryptographic workload identities. Organizations are […]",
+      "descriptionHtml": "In cloud-centered environments, establishing trust between workloads is fundamental to securing machine-to-machine communication. Traditional approaches such as API keys, shared secrets, and static service account credentials weren’t designed for the scale and ephemeral nature of cloud workloads. This drives an organizational need to shift from long-term, static credentials to short-lived cryptographic workload identities. Organizations are […]",
+      "url": "https://aws.amazon.com/blogs/security/improving-spire-security-and-resiliency-with-aws-managed-services/",
+      "publishedAt": "2026-10-06T18:52:25.000Z",
+      "updatedAt": "2026-10-06T18:52:25.000Z",
+      "categories": [
+        "Advanced (300)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "advanced (300)",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 80,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "security",
+        "Organizations",
+        "credential",
+        "Secret"
       ],
       "source": "security-blog"
     },
@@ -2990,7 +3107,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 55,
       "securityLevel": "medium",
       "securityMatches": [
@@ -4652,7 +4769,7 @@
         "amazon redshift",
         "redshift"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -5529,6 +5646,27 @@
       "source": "whats-new"
     },
     {
+      "id": "0d12d9da9901afda",
+      "title": "CVE-2026-105812 and CVE-2026-106032: Issue with Bedrock AgentCore Starter Toolkit - Import Agent Code Injection and SSRF",
+      "description": "Bulletin ID: 2026-127-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/06/2026 13:30 PM PDT Description: bedrock-agentcore-starter-toolkit is an AWS-maintained open-source Python package, distributed via GitHub and PyPI, that provides a command-line interface for importing Amazon Bedrock Agents into local development environments. We identified CVE-2026-105812, a code injection issue that could allow arbitrary code execution when a specially crafted agent is imported and subsequently run or deployed, and CVE-2026-106032, an external reference handling issue that",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-127-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 10/06/2026 13:30 PM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;bedrock-agentcore-starter-toolkit is an AWS-maintained open-source Python package, distributed via GitHub and PyPI, that provides a command-line interface for importing Amazon Bedrock Agents into local development environments. We identified CVE-2026-105812, a code injection issue that could allow arbitrary code execution when a specially crafted agent is imported and subsequently run or deployed, and CVE-2026-106032, an external reference handling issue that could cause unintended network requests or local file access during agent import.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Affected versions:&lt;/b&gt; &amp;gt;= 0.1.4 and &amp;lt;= 0.3.13&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-127-aws/",
+      "publishedAt": "2026-10-06T20:41:24.000Z",
+      "updatedAt": "2026-10-06T20:41:24.000Z",
+      "categories": [],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
       "id": "8867bf736489e8df",
       "title": "CVE-2026-103505 - Mount Option Injection in Amazon EFS CSI Driver",
       "description": "Bulletin ID: 2026-120-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/01/2026 08:30 AM PDT Description: The Amazon EFS CSI Driver is a Container Storage Interface driver that allows Kubernetes clusters to use Amazon Elastic File System. We identified CVE-2026-103505, where an actor with PersistentVolume creation privileges can inject additional mount options through the mounttargetipmap volumeAttribute. Appending comma-separated values to a value inside that JSON map causes the mount utility to parse them as separate mount options. Impacted versions: >= v3.1.0 ",
@@ -5843,7 +5981,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [
@@ -7117,7 +7255,7 @@
       "tags": [
         "artificial intelligence"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 25,
       "securityLevel": "medium",
       "securityMatches": [
@@ -7396,6 +7534,33 @@
       "securityMatches": [
         "security",
         "patch"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "3a10652e9e2d3211",
+      "title": "AWS Control Tower AFT now supports plan-only customization runs",
+      "description": "AWS Control Tower Account Factory for Terraform (AFT) now supports plan-only customization runs, giving administrators the ability to preview Terraform changes before applying them across their managed accounts. AFT is an open-source Terraform module that automates account provisioning and customization in AWS Control Tower environments. Previously, invoking customizations always triggered a full Terraform apply with no way to preview changes, making it difficult to validate expected outcomes or catch unintended configuration drift before a broad rollout. With plan-only runs, administrators ca",
+      "descriptionHtml": "&lt;p&gt;AWS Control Tower Account Factory for Terraform (AFT) now supports plan-only customization runs, giving administrators the ability to preview Terraform changes before applying them across their managed accounts.\n &lt;br&gt;\n AFT is an open-source Terraform module that automates account provisioning and customization in AWS Control Tower environments. Previously, invoking customizations always triggered a full Terraform apply with no way to preview changes, making it difficult to validate expected outcomes or catch unintended configuration drift before a broad rollout. With plan-only runs, administrators can now trigger a Terraform plan for global and account customizations without applying any changes. This capability supports safe pre-rollout validation, drift detection, and integration into CI/CD review workflows. Plan-only runs are compatible across all AFT-supported Terraform distributions, including open source, Terraform Cloud, and Terraform Enterprise.&lt;/p&gt;\n&lt;p&gt;This feature is available in all AWS Regions where&amp;nbsp;AWS Control Tower Account Factory for Terraform is supported. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/controltower/latest/userguide/aft-overview.html\"&gt;AFT documentation&lt;/a&gt; and the &lt;a href=\"https://github.com/aws-ia/terraform-aws-control_tower_account_factory/releases/tag/1.22.0\"&gt;AFT 1.22.0 release notes&lt;/a&gt; for configuration details. For more information, see the &lt;a href=\"https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html\"&gt;AWS Control Tower User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-control-tower-aft/",
+      "publishedAt": "2026-10-05T19:31:00.000Z",
+      "updatedAt": "2026-10-05T19:31:00.000Z",
+      "categories": [
+        "AWS Control Tower"
+      ],
+      "services": [
+        "Control Tower"
+      ],
+      "tags": [
+        "aws control tower",
+        "control tower"
+      ],
+      "isNew": true,
+      "securityScore": 20,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "Control Tower"
       ],
       "source": "whats-new"
     },
@@ -8375,7 +8540,7 @@
         "aws organizations",
         "organizations"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [],
@@ -8401,7 +8566,7 @@
         "aws transfer family",
         "transfer family"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -8429,7 +8594,7 @@
         "amazon bedrock",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -8465,7 +8630,7 @@
         "workspaces",
         "appstream"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [],
@@ -9193,7 +9358,7 @@
         "aws marketplace",
         "aws marketplace and partners"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -9221,7 +9386,7 @@
         "amazon bedrock",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -9253,7 +9418,7 @@
         "business productivity",
         "connect"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -9285,7 +9450,7 @@
         "rds",
         "aurora"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -9315,7 +9480,7 @@
         "bedrock",
         "claude"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -10994,7 +11159,7 @@
         "amazon simple storage service",
         "s3"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 5,
       "securityLevel": "low",
       "securityMatches": [
@@ -11452,6 +11617,83 @@
       "source": "whats-new"
     },
     {
+      "id": "2dae24cccb14cc62",
+      "title": "AWS Batch now publishes job metrics to Amazon CloudWatch",
+      "description": "AWS Batch now publishes job metrics to Amazon CloudWatch, providing native observability for batch workloads. AWS Batch emits metrics throughout the job lifecycle, giving you visibility into job queue health, failure rates, and job durations. AWS Batch automatically publishes job state transition and duration metrics to the AWS/Batch namespace in Amazon CloudWatch, with JobQueueName dimension. State transition metrics track how many jobs entered a given state, such as submitted, running, succeeded, or failed. Duration metrics track how long jobs spent between states, such as time from submissi",
+      "descriptionHtml": "&lt;p&gt;AWS Batch now publishes job metrics to Amazon CloudWatch, providing native observability for batch workloads. AWS Batch emits metrics throughout the job lifecycle, giving you visibility into job queue health, failure rates, and job durations.&lt;/p&gt;\n&lt;p&gt;AWS Batch automatically publishes job state transition and duration metrics to the AWS/Batch namespace in Amazon CloudWatch, with JobQueueName dimension. State transition metrics track how many jobs entered a given state, such as submitted, running, succeeded, or failed. Duration metrics track how long jobs spent between states, such as time from submission to runnable or total execution time. You can view these metrics in the AWS Batch console, the Amazon CloudWatch console, or through the AWS CLI and AWS SDKs.&lt;/p&gt;\n&lt;p&gt;AWS Batch CloudWatch metrics are now published in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where AWS Batch is available. For more information, see CloudWatch Metrics page in the &lt;a href=\"https://docs.aws.amazon.com/batch/latest/userguide/using_cloudwatch_metrics.html\"&gt;AWS Batch User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
+      "publishedAt": "2026-10-06T17:30:00.000Z",
+      "updatedAt": "2026-10-06T17:30:00.000Z",
+      "categories": [],
+      "services": [
+        "Batch",
+        "CloudWatch"
+      ],
+      "tags": [
+        "batch",
+        "cloudwatch"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "05ddb19c66263d76",
+      "title": "Amazon EC2 Hpc8a instances are now available in Asia Pacific (Singapore)",
+      "description": "Starting today, Amazon EC2 Hpc8a instances are available in Asia Pacific (Singapore) region. These instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin). With a maximum frequency of 4.5GHz, Hpc8a instances deliver up to 40% higher performance and up to 25% better price performance compared to Hpc7a instances, helping customers accelerate compute-intensive workloads while optimizing costs. Compared to Hpc7a instances, Hpc8a instances also provide up to 42% higher memory bandwidth, further improving performance for memory-intensive simulations and scientific computing ",
+      "descriptionHtml": "&lt;p&gt;Starting today, Amazon EC2 Hpc8a instances are available in&amp;nbsp;Asia Pacific (Singapore) region. These instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin). With a maximum frequency of 4.5GHz, Hpc8a instances deliver up to 40% higher performance and up to 25% better price performance compared to Hpc7a instances, helping customers accelerate compute-intensive workloads while optimizing costs. Compared to Hpc7a instances, Hpc8a instances also provide up to 42% higher memory bandwidth, further improving performance for memory-intensive simulations and scientific computing workloads.\n &lt;br&gt;\n &lt;br&gt;\n Built on the latest sixth-generation &lt;a href=\"https://aws.amazon.com/ec2/nitro/\"&gt;AWS Nitro Cards&lt;/a&gt;, Hpc8a instances are designed for compute-intensive, latency-sensitive HPC workloads. They are ideal for tightly coupled applications such as computational fluid dynamics (CFD), weather forecasting, explicit finite element analysis (FEA), and multiphysics simulations that require fast inter-node communication and consistent high performance.\n &lt;br&gt;\n &lt;br&gt;\n To get started, sign in to the &lt;a href=\"https://console.aws.amazon.com/ec2/?trk=d8ec3b19-0f37-4f8c-8c12-189f913e205c&amp;amp;sc_channel=el\"&gt;AWS Management Console&lt;/a&gt;. For more information visit the &lt;a href=\"https://aws.amazon.com/ec2/instance-types/hpc8a/\"&gt;Amazon EC2 Hpc8a instance page&lt;/a&gt; or &lt;a href=\"https://aws.amazon.com/blogs/aws/amazon-ec2-hpc8a-instances-powered-by-5th-gen-amd-epyc-processors-are-now-available\"&gt;AWS news blog&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-hpc8a-asia-pacific/",
+      "publishedAt": "2026-10-05T20:33:00.000Z",
+      "updatedAt": "2026-10-05T20:33:00.000Z",
+      "categories": [
+        "Compute",
+        "Amazon Ec2"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "compute",
+        "amazon ec2",
+        "ec2"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "70ce59158d0e790c",
+      "title": "Amazon EC2 introduces shared tags for Amazon Machine Images",
+      "description": "Amazon EC2 now supports AMI tag sharing, a new feature that lets AMI owners make selected tags visible to all AWS accounts an AMI is shared with. Whether an AMI is shared with an account, across an organization, or made public, a shared tag is automatically shared alongside the AMI, eliminating the need to build and maintain custom tag replication workflows. AMI owners simply add the 'ec2:SharedTag/' prefix to any tag key, and every account the AMI is shared with can immediately see it. This removes the operational burden of replicating tags into each account after sharing an AMI. Shared tags ",
+      "descriptionHtml": "&lt;p&gt;Amazon EC2 now supports AMI tag sharing, a new feature that lets AMI owners make selected tags visible to all AWS accounts an AMI is shared with. Whether an AMI is shared with an account, across an organization, or made public, a shared tag is automatically shared alongside the AMI, eliminating the need to build and maintain custom tag replication workflows.&lt;/p&gt;\n&lt;p&gt;AMI owners simply add the 'ec2:SharedTag/' prefix to any tag key, and every account the AMI is shared with can immediately see it. This removes the operational burden of replicating tags into each account after sharing an AMI. Shared tags are read-only for recipient accounts, so only the owner can create, modify, or delete them. They count only against the owner's 50 tag per resource quota, allowing recipient accounts to continue adding their own private tags without any impact to their limits.&lt;/p&gt;\n&lt;p&gt;This feature is available in all AWS Regions at no additional cost. To learn more, please visit the &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/sharingamis-explicit.html\"&gt;documentation&lt;/a&gt;&amp;nbsp;and read the &lt;a href=\"https://aws.amazon.com/blogs/compute/introducing-ec2-ami-tag-sharing-share-ec2-tags-across-aws-accounts/\"&gt;blog&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-ami-shared-tags",
+      "publishedAt": "2026-10-05T17:28:00.000Z",
+      "updatedAt": "2026-10-05T17:28:00.000Z",
+      "categories": [
+        "Amazon Ec2",
+        "Compute",
+        "AWS Govcloud Us"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "amazon ec2",
+        "compute",
+        "aws govcloud us",
+        "ec2"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "6ec3de306e25c58c",
       "title": "Announcing Amazon Nova 2.5 Sonic with improved reasoning for voice agents",
       "description": "Today, we announce the general availability of Amazon Nova 2.5 Sonic, our latest speech-to-speech model for natural, real-time voice agents. This release brings improved reasoning, instruction following, and tool-calling accuracy to real-time voice applications. The model also delivers lower latency, enabling faster, more natural interactions. Nova 2.5 Sonic helps voice agents maintain context, follow multi-step instructions, and use connected tools to complete customer tasks. For example, a customer-service agent can look up an order, check return eligibility, and initiate a return within a c",
@@ -11878,7 +12120,7 @@
       "tags": [
         "artificial intelligence"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -11899,7 +12141,7 @@
       "tags": [
         "aws marketplace"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -11920,7 +12162,7 @@
       "tags": [
         "aws deadline cloud"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -11946,7 +12188,7 @@
         "amazon rds",
         "rds"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -11970,7 +12212,7 @@
         "aws deadline cloud",
         "ecs"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -11996,7 +12238,7 @@
         "amazon rds",
         "rds"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -12024,7 +12266,7 @@
         "msk",
         "kafka"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -13652,213 +13894,6 @@
         "storage",
         "compute",
         "outposts"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "c935ee5e7f02c5b6",
-      "title": "Amazon OpenSearch Serverless is now available on v0 by Vercel",
-      "description": "You can now build full-stack search and AI applications in minutes using Amazon OpenSearch Serverless on v0 by Vercel, an AI-powered platform that transforms your ideas into production-ready web applications. OpenSearch Serverless eliminates infrastructure management and automatically scales capacity up and down based on demand, so you can focus on building and not managing clusters. With this launch, you can use natural language prompts to build applications powered by OpenSearch Serverless for full-text search and vector search for retrieval-augmented generation (RAG) workloads, all without ",
-      "descriptionHtml": "&lt;p&gt;You can now build full-stack search and AI applications in minutes using Amazon OpenSearch Serverless on v0 by Vercel, an AI-powered platform that transforms your ideas into production-ready web applications. OpenSearch Serverless eliminates infrastructure management and automatically scales capacity up and down based on demand, so you can focus on building and not managing clusters. With this launch, you can use natural language prompts to build applications powered by OpenSearch Serverless for full-text search and vector search for retrieval-augmented generation (RAG) workloads, all without leaving the v0 interface.&lt;/p&gt;\n&lt;p&gt;To get started, simply describe what you want to build using a natural language prompt in&amp;nbsp;&lt;a href=\"https://v0.app\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;v0&lt;/a&gt; or visit &lt;a href=\"https://v0.app/?pi=aws.opensearch\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;OpenSearch Serverless&lt;/a&gt; in v0 to begin with Amazon OpenSearch Serverless pre-selected.&amp;nbsp;v0 generates a complete full-stack application, automatically provisions an Amazon OpenSearch Serverless collection, indexes your data into the collection, and uses the Amazon OpenSearch Serverless endpoint for serving search queries. v0 handles the required environment variables and configuration, and loads provider-specific agent skills to generate code that follows recommended patterns. You can either prompt v0 to provision Amazon OpenSearch Serverless resources under a new AWS account or link to an existing AWS account.&lt;/p&gt;\n&lt;p&gt;You can create Vercel apps with Amazon OpenSearch Serverless in v0 in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), US West (N. California), Canada (Central), South America (São Paulo), Europe (Ireland), Europe (London), Europe (Paris), Europe (Frankfurt), Europe (Stockholm), Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Asia Pacific (Seoul), and Asia Pacific (Osaka). To learn more, check out the Vercel &lt;a href=\"https://x.com/v0/status/2097745295706833121\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;announcement&lt;/a&gt; or visit the &lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt; for Amazon OpenSearch Serverless.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-opensearch-serverless-available-V0-vercel/",
-      "publishedAt": "2026-09-10T17:00:00.000Z",
-      "updatedAt": "2026-09-10T17:00:00.000Z",
-      "categories": [
-        "Amazon Opensearch Service",
-        "Artificial Intelligence",
-        "Analytics"
-      ],
-      "services": [
-        "OpenSearch"
-      ],
-      "tags": [
-        "amazon opensearch service",
-        "artificial intelligence",
-        "analytics",
-        "opensearch"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "bc1f1a52e6aca9b7",
-      "title": "Amazon Redshift RG instances now available in Europe (Zurich) Region",
-      "description": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS Europe (Zurich) Region. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous generation RA3 instances, at 30% lower price per vCPU. RG instances include Redshift's custom-built vectorized data lake query engine that processes Apache Iceberg and Parquet data on your cluster nodes, enabling you to run SQL analytics across your data warehouse and data lake using a single engine. RG instances are available in four instance sizes, rg.large,",
-      "descriptionHtml": "&lt;p&gt;Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS Europe (Zurich) Region. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous generation RA3 instances, at 30% lower price per vCPU. RG instances include Redshift's custom-built vectorized data lake query engine that processes Apache Iceberg and Parquet data on your cluster nodes, enabling you to run SQL analytics across your data warehouse and data lake using a single engine.&lt;/p&gt;\n&lt;p&gt;RG instances are available in four instance sizes, rg.large, rg.xlarge, rg.4xlarge and rg.12xlarge. Customers with existing RA3 clusters can upgrade them to RG using Snapshot &amp;amp; Restore, Elastic Resize, or Classic Resize. RG instances are available with flexible pricing options, including On-Demand, and 1-year and 3-year Reserved Instances with All Upfront, Partial Upfront, and No Upfront payment options. For pricing details, visit the &lt;a href=\"https://aws.amazon.com/redshift/pricing/\"&gt;Amazon Redshift pricing page&lt;/a&gt;.\n &lt;br&gt;\n &lt;br&gt;\n To get started, refer to the following resources:\n &lt;br&gt;&lt;/p&gt;\n&lt;ul&gt;\n &lt;li&gt;\n  &lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-clusters.html#rs-rg-nodes-table\"&gt;Amazon Redshift RG Instance Documentation&lt;/a&gt;&lt;/p&gt;\n &lt;/li&gt;\n &lt;li&gt;\n  &lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/redshift/latest/mgmt/managing-cluster-considerations.html#rs-upgrading-to-ra3\"&gt;RA3 to RG Upgrade Guide&lt;/a&gt;&lt;/p&gt;\n &lt;/li&gt;\n &lt;li&gt;\n  &lt;p&gt;&lt;a href=\"https://aws.amazon.com/redshift/pricing/\"&gt;Amazon Redshift pricing page&lt;/a&gt;&lt;/p&gt;\n &lt;/li&gt;\n&lt;/ul&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-redshift-rg-available-zurich",
-      "publishedAt": "2026-09-10T16:00:00.000Z",
-      "updatedAt": "2026-09-10T16:00:00.000Z",
-      "categories": [
-        "Analytics",
-        "Amazon Redshift"
-      ],
-      "services": [
-        "Redshift"
-      ],
-      "tags": [
-        "analytics",
-        "amazon redshift",
-        "redshift"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "4d8528112df89769",
-      "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
-      "description": "AWS Elemental Inference now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new capability analyzes live video in parallel with encoding to extract Interactive Advertising Bureau (IAB) content taxonomy categories, Global Alliance for Responsible Media (GARM) brand suitability signals, detected objects and actions, and shot and scene-level descriptions. Broadcasters and content platforms can now power contextual ad decisioning, media asset enrichment, and content discovery workfl",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"/elemental-inference/\"&gt;AWS Elemental Inference&lt;/a&gt; now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new capability analyzes live video in parallel with encoding to extract Interactive Advertising Bureau (IAB) content taxonomy categories, Global Alliance for Responsible Media (GARM) brand suitability signals, detected objects and actions, and shot and scene-level descriptions. Broadcasters and content platforms can now power contextual ad decisioning, media asset enrichment, and content discovery workflows using serverless, fully managed AI.&lt;/p&gt;\n&lt;p&gt;For contextual advertising, &lt;a href=\"/medialive/\"&gt;AWS Elemental MediaLive&lt;/a&gt; embeds the Elemental Inference feed ID into (Society of Cable Telecommunications Engineers) SCTE-35 ad markers in the live stream. At each ad break, &lt;a href=\"/mediatailor/\"&gt;AWS Elemental MediaTailor&lt;/a&gt; uses a Monetization Function to retrieve the scene-level signals for that feed ID and translate them into the targeting parameters ad servers expect. This enables context-aware ad decision-making without custom integration work, supporting use cases like contextual deal curation and brand suitability scores, resulting in improved monetization outcomes for publishers. For media asset management, detecting objects and actions, and shot and scene-level descriptions, provide automatic structured metadata generation for every scene and shot, building richer archives that power contextual content discovery, assisted editing workflows, and personalized content recommendations without manual logging or post-production metadata entry.&lt;/p&gt;\n&lt;p&gt;Contextual metadata is available today in the AWS Elemental MediaLive console in all AWS Regions where AWS Elemental Inference is available.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
-      "publishedAt": "2026-09-10T08:00:00.000Z",
-      "updatedAt": "2026-09-10T08:00:00.000Z",
-      "categories": [
-        "AWS Elemental Medialive",
-        "AWS Elemental Mediatailor",
-        "Artificial Intelligence",
-        "Media Services",
-        "Aiml"
-      ],
-      "services": [
-        "Elemental",
-        "MediaLive",
-        "MediaTailor"
-      ],
-      "tags": [
-        "aws elemental medialive",
-        "aws elemental mediatailor",
-        "artificial intelligence",
-        "media services",
-        "aiml",
-        "elemental",
-        "medialive",
-        "mediatailor"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "f7a196ff2d32ef73",
-      "title": "AWS Elemental MediaTailor now offers Yield Optimization to automatically fill ad breaks with Amazon Ads demand",
-      "description": "AWS Elemental MediaTailor now offers Yield Optimization, a new capability that automatically monetizes unused ad inventory with Amazon Ads demand during server-side ad insertion (SSAI) for livestreams. Available exclusively to publishers in the Amazon Publisher Services (APS) Streaming TV program, yield optimization turns unfilled ad breaks into monetized impressions at zero cost to enable and with no additional infrastructure required. Because ads are stitched directly into the stream before reaching the viewer, they play seamlessly on every device. Key highlights: - Built for scale: yield op",
-      "descriptionHtml": "&lt;p&gt;AWS Elemental MediaTailor now offers Yield Optimization, a new capability that automatically monetizes unused ad inventory with Amazon Ads demand during server-side ad insertion (SSAI) for livestreams. Available exclusively to publishers in the Amazon Publisher Services (APS) Streaming TV program, yield optimization turns unfilled ad breaks into monetized impressions at zero cost to enable and with no additional infrastructure required.&lt;/p&gt;\n&lt;p&gt;Because ads are stitched directly into the stream before reaching the viewer, they play seamlessly on every device. Key highlights:&lt;/p&gt;\n&lt;p&gt;- Built for scale: yield optimization is designed for large-scale live events such as professional league championships, with low latency and fast response times to maximize ad fill during peak viewership.&lt;/p&gt;\n&lt;p&gt;- Brand safe: demand is filtered by category to avoid competitive conflicts within the same ad break. publishers set their own price floors and category rules to maintain full control over which ads run in their streams.&lt;/p&gt;\n&lt;p&gt;- Simple to enable: configure yield optimization through the MediaTailor API or Console. No additional infrastructure or client-side changes are required.&lt;/p&gt;\n&lt;p&gt;- Performance visibility: monitor ad fill rate improvements using MediaTailor metrics in Amazon CloudWatch. Track revenue and earnings through the APS Publisher portal.&lt;/p&gt;\n&lt;p&gt;AWS Elemental MediaTailor yield optimization is available at no additional cost in all AWS Regions where MediaTailor is available, including US East (Ohio), US East (N. Virginia), US West (Oregon); Africa (Cape Town); Asia Pacific (Hyderabad, Malaysia, Melbourne, Mumbai, Osaka, Seoul, Singapore, Sydney, Tokyo); Canada (Central); Europe (Frankfurt, Ireland, London, Paris, Stockholm); Middle East (UAE); and South America (São Paulo). To learn more, visit the AWS Elemental MediaTailor documentation.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/mediatailor-yield-optimization/",
-      "publishedAt": "2026-09-10T08:00:00.000Z",
-      "updatedAt": "2026-09-10T08:00:00.000Z",
-      "categories": [],
-      "services": [
-        "Elemental",
-        "MediaTailor"
-      ],
-      "tags": [
-        "elemental",
-        "mediatailor"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "ec0a4d16a2fec7f7",
-      "title": "AWS Elemental MediaTailor now supports Low-Latency HLS ad insertion",
-      "description": "AWS Elemental MediaTailor now supports Low-Latency HTTP Live Streaming (LL-HLS) ad insertion using HLS Interstitials. MediaTailor is a channel assembly and personalized ad insertion service for video providers that monetizes live streams, linear channels, and video-on-demand content. With this launch, video providers can insert ads into low-latency live streams while holding the reduced latency their viewers expect. LL-HLS reduces live latency by delivering partial segments and letting players hold a playlist request open until the next segment part is ready, which requires media playlists to ",
-      "descriptionHtml": "&lt;p data-region-mapper-last-set=\"1789048046921\" style=\"pointer-events: auto !important;\"&gt;AWS Elemental MediaTailor now supports Low-Latency HTTP Live Streaming (LL-HLS) ad insertion using HLS Interstitials. MediaTailor is a channel assembly and personalized ad insertion service for video providers that monetizes live streams, linear channels, and video-on-demand content. With this launch, video providers can insert ads into low-latency live streams while holding the reduced latency their viewers expect.&lt;/p&gt;\n&lt;p data-region-mapper-last-set=\"1789048046921\" style=\"pointer-events: auto !important;\"&gt;LL-HLS reduces live latency by delivering partial segments and letting players hold a playlist request open until the next segment part is ready, which requires media playlists to be cacheable at the content delivery network (CDN) edge. MediaTailor supports this using HLS Interstitials, which reference ads as a separate playlist instead of stitching them into each viewer's media playlist. Every viewer receives the same cacheable playlist, so MediaTailor sustains low-latency playback at scale and moves the ad decision server call off the manifest request path. This capability has been proven in production on live sporting events with multi-million views, and is ideal for live sports, news, betting and wagering, watch-party, and interactive live formats where latency is a product requirement.&lt;/p&gt;\n&lt;p&gt;Low-Latency HLS ad insertion is available in all AWS Regions where AWS Elemental MediaTailor is available. To learn more, visit the &lt;a href=\"https://aws.amazon.com/mediatailor/\"&gt;AWS Elemental MediaTailor product page&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/mediatailor/latest/ug/server-guided.html\"&gt;MediaTailor server-guided ad insertion documentation&lt;/a&gt;. To get started, sign in to the &lt;a href=\"https://console.aws.amazon.com/mediatailor/home\"&gt;MediaTailor console&lt;/a&gt;..&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-low-latency-hls-ad-insertion",
-      "publishedAt": "2026-09-10T08:00:00.000Z",
-      "updatedAt": "2026-09-10T08:00:00.000Z",
-      "categories": [
-        "Media Services",
-        "AWS Elemental Mediatailor"
-      ],
-      "services": [
-        "Elemental",
-        "MediaTailor"
-      ],
-      "tags": [
-        "media services",
-        "aws elemental mediatailor",
-        "elemental",
-        "mediatailor"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "b6e22eb6d9e7536d",
-      "title": "AWS Elemental introduces Dynamic Multiview for live video",
-      "description": "AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-game, and personalized viewing experiences as standard HLS (HTTP Live Streaming) and DASH (Dynamic Adaptive Streaming over HTTP) streams playable on most modern consumer devices, televisions, and set top boxes without custom player development. Dynamic Multiview operates entirely in the compressed domain, combining individually encoded sources without re-encoding or compositing.",
-      "descriptionHtml": "&lt;p&gt;AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-game, and personalized viewing experiences as standard HLS (HTTP Live Streaming) and DASH (Dynamic Adaptive Streaming over HTTP) streams playable on most modern consumer devices, televisions, and set top boxes without custom player development.&lt;/p&gt;\n&lt;p&gt;Dynamic Multiview operates entirely in the compressed domain, combining individually encoded sources without re-encoding or compositing. Customers encode each source once through AWS Elemental MediaLive, and MediaPackage assembles compositions on demand - only when viewers request them, eliminating the need to pre-encode combinations. Because the output is standard HLS and DASH, it plays natively on existing devices and players with no app changes or SDK integration required. The feature supports AVC and HEVC codecs, DRM encryption, SCTE-35 ad marker passthrough, and full-screen ad replacement.&lt;/p&gt;\n&lt;p&gt;To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/mediapackage/latest/userguide/dynamic-multiview.html\"&gt;Elemental Dynamic Multiview Reference Guide&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Dynamic Multiview is available in all AWS Regions where AWS Elemental MediaPackage and MediaLive are available.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/",
-      "publishedAt": "2026-09-10T08:00:00.000Z",
-      "updatedAt": "2026-09-10T08:00:00.000Z",
-      "categories": [],
-      "services": [
-        "Elemental"
-      ],
-      "tags": [
-        "elemental"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "43e8cc2e4dab73e2",
-      "title": "AWS Marketplace sellers now receive qualified demo and private offer requests in minutes",
-      "description": "AWS Marketplace sellers that activated the request demo or request private offer call-to-action buttons on their listings can now act on customer requests within minutes of submission, while customers are still actively evaluating their products. This happens automatically, with no changes required to their listings or workflows. When a customer submits a request, they can now provide details about their use case, and AWS Marketplace uses an agentic workflow to evaluate those details and create an opportunity for the seller: an active prospect with a defined use case. Each opportunity arrives ",
-      "descriptionHtml": "&lt;p&gt;AWS Marketplace sellers that activated the request demo or request private offer call-to-action buttons on their listings can now act on customer requests within minutes of submission, while customers are still actively evaluating their products. This happens automatically, with no changes required to their listings or workflows.\n &lt;br&gt;\n &lt;br&gt;\n When a customer submits a request, they can now provide details about their use case, and AWS Marketplace uses an agentic workflow to evaluate those details and create an opportunity for the seller: an active prospect with a defined use case. Each opportunity arrives in AWS Partner Central with the customer's contact details and use case, so sellers can reach out directly. Previously, an AWS representative contacted the customer to qualify every request before sharing it, adding days of delay. Now sellers receive every active lead the moment it comes in, without waiting for AWS to manually qualify it first. Even when a customer provides only their contact information without additional information, the seller still receives their details as a lead to follow up on for additional qualification, and can enrich it through AWS lead prospecting workflows.\n &lt;br&gt;\n &lt;br&gt;\n Sellers who have not yet added the request a demo or request private offer buttons to their listings can turn them on by following the steps in the &lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/userguide/creating-private-offer.html#private-offer-requests-demos\"&gt;AWS Marketplace Seller Guide&lt;/a&gt;. Enabling these buttons lets customers request demos and private offers directly from a seller's product listing page, accelerating product evaluations and reducing procurement cycle times.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-demo-private-offer-requests-qualification",
-      "publishedAt": "2026-09-09T21:04:00.000Z",
-      "updatedAt": "2026-09-09T21:04:00.000Z",
-      "categories": [
-        "AWS Marketplace"
-      ],
-      "services": [],
-      "tags": [
-        "aws marketplace"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "f94a619b068070fb",
-      "title": "AWS Lambda now supports 90-minute function timeout on Lambda Managed Instances",
-      "description": "AWS Lambda now supports a 90-minute function timeout for asynchronous and event source mapping (ESM) invocations on Lambda Managed Instances (LMI) , a 6x increase from the previous 15-minute limit. You can now run data processing, media transcoding, financial calculations, AI inference, and batch workloads on Lambda for jobs that require longer continuous execution, without re-architecting your applications. Customers use Lambda to build serverless applications like event-driven processors, API backends, and data processing pipelines. For data-intensive workloads like media transcoding, financ",
-      "descriptionHtml": "&lt;p&gt;AWS Lambda now supports a 90-minute function timeout for &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html\"&gt;asynchronous&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/invocation-eventsourcemapping.html\"&gt;event source mapping (ESM)&lt;/a&gt; invocations on &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/lambda-managed-instances.html\"&gt;Lambda Managed Instances (LMI)&lt;/a&gt;, a 6x increase from the previous 15-minute limit. You can now run data processing, media transcoding, financial calculations, AI inference, and batch workloads on Lambda for jobs that require longer continuous execution, without re-architecting your applications.&lt;/p&gt;\n&lt;p&gt;Customers use Lambda to build serverless applications like event-driven processors, API backends, and data processing pipelines. For data-intensive workloads like media transcoding, financial calculations (such as Monte Carlo simulations), and AI inference that need longer continuous execution, Lambda's 15-minute function timeout limit required customers to adopt&amp;nbsp;architectural workarounds. With today's launch, you can configure a function timeout of up to 90 minutes for asynchronous and ESM invocations on Lambda Managed Instances. Lambda Managed Instances lets you process multiple concurrent requests per instance, access specialized compute configurations, and drive cost efficiency through EC2 pricing advantages, without managing infrastructure. The increased function timeout also applies to invocations within &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/durable-functions.html\"&gt;Lambda durable functions&lt;/a&gt;, which allow you to checkpoint and replay steps for longer-running invocations. When invoked asynchronously, a multi-step durable execution can run for up to 1 year.&lt;/p&gt;\n&lt;p&gt;You can configure up to a 90-minute function timeout for asynchronous and ESM invocations via the AWS Lambda Console, AWS CLI, Lambda APIs, Infrastructure as Code tooling, or the &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/agent-setup-guide.html\"&gt;Agent Toolkit for AWS&lt;/a&gt;. Synchronous invocations retain the existing 15-minute maximum timeout. This feature is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where Lambda Managed Instances is available.&lt;/p&gt;\n&lt;p&gt;To learn more about configuring the 90-minute function timeout, see the &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/lambda-managed-instances.html\"&gt;Lambda developer guide&lt;/a&gt;. For combining extended timeouts with checkpoint-and-replay resilience, see the &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/durable-functions.html\"&gt;durable functions documentation&lt;/a&gt;. For pricing details, see &lt;a href=\"https://aws.amazon.com/lambda/pricing/\"&gt;AWS Lambda Pricing&lt;/a&gt;. To learn more about AWS Lambda, visit &lt;a href=\"https://aws.amazon.com/lambda/\"&gt;aws.amazon.com/lambda&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/",
-      "publishedAt": "2026-09-09T18:00:00.000Z",
-      "updatedAt": "2026-09-09T18:00:00.000Z",
-      "categories": [
-        "Serverless"
-      ],
-      "services": [
-        "Lambda"
-      ],
-      "tags": [
-        "serverless",
-        "lambda"
       ],
       "isNew": false,
       "securityScore": 0,
