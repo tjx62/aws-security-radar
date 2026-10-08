@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T15:17:26.619Z",
+  "lastUpdated": "2026-10-08T15:17:25.845Z",
   "itemCount": 500,
   "items": [
     {
@@ -126,7 +126,7 @@
         "iam",
         "iam identity center"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -157,7 +157,7 @@
         "security identity and compliance",
         "secrets manager"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -1393,6 +1393,45 @@
       "source": "whats-new"
     },
     {
+      "id": "719dd2ca5f23d45b",
+      "title": "Configuring your AI vulnerability harness, Part 2: The steering file",
+      "description": "This post shows you how to configure an AI model to perform structured, evidence-based vulnerability triage with the consistency of a seasoned security analyst. You’ll learn the design decisions behind five configuration sections that enforce structural verification, evidence-based scoring, and infrastructure-aware prioritization across every analysis session. Our companion post—Building your AI vulnerability harness—covered the architecture; […]",
+      "descriptionHtml": "This post shows you how to configure an AI model to perform structured, evidence-based vulnerability triage with the consistency of a seasoned security analyst. You’ll learn the design decisions behind five configuration sections that enforce structural verification, evidence-based scoring, and infrastructure-aware prioritization across every analysis session. Our companion post—Building your AI vulnerability harness—covered the architecture; […]",
+      "url": "https://aws.amazon.com/blogs/security/configuring-your-ai-vulnerability-harness-part-2-the-steering-file/",
+      "publishedAt": "2026-10-07T21:49:50.000Z",
+      "updatedAt": "2026-10-07T21:49:50.000Z",
+      "categories": [
+        "Advanced (300)",
+        "Artificial Intelligence",
+        "Best Practices",
+        "Generative AI",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "advanced (300)",
+        "artificial intelligence",
+        "best practices",
+        "generative ai",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 85,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "security",
+        "vulnerability",
+        "Config"
+      ],
+      "source": "security-blog"
+    },
+    {
       "id": "22ad99f25da66114",
       "title": "AWS Advanced Ruby Driver Wrapper is generally available",
       "description": "The Amazon Web Services (AWS) Advanced Ruby Driver Wrapper is now generally available for use with Amazon RDS and Amazon Aurora PostgreSQL and MySQL-compatible databases. This advanced database driver reduces RDS Blue/Green switchover, Aurora Global database switchover and database failover times, improving application availability. Additionally, it supports multiple authentication mechanisms for your database, including AWS Secrets Manager authentication, and token-based authentication with AWS Identity and Access Management (IAM). The AWS Advanced Ruby Driver Wrapper builds on top of the com",
@@ -1490,7 +1529,7 @@
         "security and compliance",
         "security hub"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 85,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2481,6 +2520,57 @@
       "source": "security-blog"
     },
     {
+      "id": "bdd4ba231abed7c1",
+      "title": "CVE-2026-107352 - Missing authorization checks in Amazon Athena engine version 3 request handling",
+      "description": "Bulletin ID: 2026-128-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/07/2026 13:00 PM PDT Description: Missing authorization checks in Amazon Athena engine version 3 request handling could have allowed an authenticated user to read limited query metadata (AWS account identifiers and SQL statement text) from other AWS accounts. AWS remediated the issue on September 1, 2026, and has confirmed no customer metadata was accessed. Query results, credentials, and Amazon S3 data were not affected. No customer action is required. Resolution: This issue was addressed se",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-128-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 10/07/2026 13:00 PM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;Missing authorization checks in Amazon Athena engine version 3 request handling could have allowed an authenticated user to read limited query metadata (AWS account identifiers and SQL statement text) from other AWS accounts. AWS remediated the issue on September 1, 2026, and has confirmed no customer metadata was accessed. Query results, credentials, and Amazon S3 data were not affected. No customer action is required.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Resolution:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;This issue was addressed service-side on September 1, 2026.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-128-aws/",
+      "publishedAt": "2026-10-07T20:19:18.000Z",
+      "updatedAt": "2026-10-07T20:19:18.000Z",
+      "categories": [],
+      "services": [
+        "Athena"
+      ],
+      "tags": [
+        "athena"
+      ],
+      "isNew": true,
+      "securityScore": 65,
+      "securityLevel": "high",
+      "securityMatches": [
+        "authorization",
+        "access",
+        "S3",
+        "credential"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "0ba4357947bd046a",
+      "title": "Issue with Amazon SageMaker Python SDK - Model artifact integrity verification issues (CVE-2026-8596 &amp;amp; CVE-2026-8597)",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-031-aws/",
+      "publishedAt": "2026-10-06T20:42:03.000Z",
+      "updatedAt": "2026-10-06T20:42:03.000Z",
+      "categories": [],
+      "services": [
+        "Artifact",
+        "SageMaker"
+      ],
+      "tags": [
+        "artifact",
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 65,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Artifact"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "8cf01c27cfc9c9e6",
       "title": "AWS DataSync now supports shared VPCs",
       "description": "AWS DataSync now supports shared Virtual Private Clouds (VPCs). You can create DataSync agents and run transfer tasks using subnets shared across AWS accounts with AWS Resource Access Manager (RAM). It allows you to transfer data privately over a shared subnet and VPC endpoint managed in a central account, rather than one per account. Customers that centralize their networking previously had to create a separate DataSync VPC endpoint in every account that connected privately through AWS PrivateLink. Each endpoint consumed IP addresses and added operational overhead to maintain across accounts.",
@@ -2520,31 +2610,6 @@
         "access"
       ],
       "source": "whats-new"
-    },
-    {
-      "id": "0ba4357947bd046a",
-      "title": "Issue with Amazon SageMaker Python SDK - Model artifact integrity verification issues (CVE-2026-8596 &amp;amp; CVE-2026-8597)",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-031-aws/",
-      "publishedAt": "2026-09-22T19:49:29.000Z",
-      "updatedAt": "2026-09-22T19:49:29.000Z",
-      "categories": [],
-      "services": [
-        "Artifact",
-        "SageMaker"
-      ],
-      "tags": [
-        "artifact",
-        "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 65,
-      "securityLevel": "high",
-      "securityMatches": [
-        "Artifact"
-      ],
-      "source": "security-bulletin"
     },
     {
       "id": "79ab97da000c8572",
@@ -2722,6 +2787,78 @@
         "Secret"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "049527df767fea23",
+      "title": "Building your AI vulnerability harness, Part 1",
+      "description": "Vulnerability scanners produce findings faster than manual triage can process them. Your developers ship more code with more dependencies, and the volume of candidate findings grows with it. Many findings a scanner produces are unlikely to be exploited. The ones that matter need to reach an engineer fast, with enough evidence that they can act […]",
+      "descriptionHtml": "Vulnerability scanners produce findings faster than manual triage can process them. Your developers ship more code with more dependencies, and the volume of candidate findings grows with it. Many findings a scanner produces are unlikely to be exploited. The ones that matter need to reach an engineer fast, with enough evidence that they can act […]",
+      "url": "https://aws.amazon.com/blogs/security/building-your-ai-vulnerability-harness-part-1/",
+      "publishedAt": "2026-10-07T21:49:43.000Z",
+      "updatedAt": "2026-10-07T21:49:43.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Best Practices",
+        "Generative AI",
+        "Intermediate (200)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "artificial intelligence",
+        "best practices",
+        "generative ai",
+        "intermediate (200)",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "high",
+      "securityMatches": [
+        "vulnerability"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "88dd0c0e4cc92b60",
+      "title": "Part 1 – Cybersecurity journeys: I didn’t plan this",
+      "description": "If you’ve ever wondered whether your background qualifies you for a career in cybersecurity, you’re not alone — and you’re probably more prepared than you think. My name is Shannon Brazil, and I work in security communications at Amazon Web Services (AWS). I have been in the security space for over a decade, and my […]",
+      "descriptionHtml": "If you’ve ever wondered whether your background qualifies you for a career in cybersecurity, you’re not alone — and you’re probably more prepared than you think. My name is Shannon Brazil, and I work in security communications at Amazon Web Services (AWS). I have been in the security space for over a decade, and my […]",
+      "url": "https://aws.amazon.com/blogs/security/part-1-cybersecurity-journeys-i-didnt-plan-this/",
+      "publishedAt": "2026-10-07T16:21:19.000Z",
+      "updatedAt": "2026-10-07T16:21:19.000Z",
+      "categories": [
+        "Foundational (100)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Thought Leadership",
+        "AWS Security Profiles",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "foundational (100)",
+        "security",
+        "identity",
+        "& compliance",
+        "thought leadership",
+        "aws security profiles",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "high",
+      "securityMatches": [
+        "security"
+      ],
+      "source": "security-blog"
     },
     {
       "id": "8bf1bfbef192bae6",
@@ -3651,7 +3788,7 @@
         "amazon s3",
         "s3"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 50,
       "securityLevel": "critical",
       "securityMatches": [
@@ -3876,6 +4013,31 @@
         "identity"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "1f8f37ef6b080e72",
+      "title": "CVE-2026-105811 - Authorization bypass through a user-controlled key in the Amazon Q Business Lambda hook sample in QnABot on AWS",
+      "description": "Bulletin ID: 2026-126-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/06/2026 13:00 PM PDT Description: QnABot on AWS is a sample solution of a multi-channel, multi-language conversational interface (chatbot) that responds to your customer's questions, answers, and feedback. We identified CVE-2026-105811 in the optional Amazon Q Business Lambda hook sample of QnABot on AWS. The Amazon Q Business Lambda hook sample (q-business-lambda-hook) is an optional integration sample included in the QnABot on AWS repository. It requires separate, manual deployment and addi",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-126-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 10/06/2026 13:00 PM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;QnABot on AWS is a sample solution of a multi-channel, multi-language conversational interface (chatbot) that responds to your customer's questions, answers, and feedback. We identified CVE-2026-105811 in the optional Amazon Q Business Lambda hook sample of QnABot on AWS. The Amazon Q Business Lambda hook sample (q-business-lambda-hook) is an optional integration sample included in the QnABot on AWS repository. It requires separate, manual deployment and additional setup; it is not deployed automatically with QnABot. Customers who have not deployed this sample are not affected and do not need to take action.&lt;/p&gt;\n&lt;p&gt;Authorization bypass through a user-controlled key in the sample included with QnABot on AWS versions 7.0.0 through 7.4.5 might allow an authenticated remote user to read arbitrary Amazon S3 objects in the deploying AWS account.&lt;/p&gt;\n&lt;p&gt;To remediate this issue, affected customers should update the QnABot on AWS stack to version 7.4.6 or later and then redeploy the Amazon Q Business Lambda hook sample stack. Updating the QnABot on AWS stack alone does not deliver the fix.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;=7.0.0, &amp;lt;7.4.6&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-126-aws/",
+      "publishedAt": "2026-10-07T18:25:26.000Z",
+      "updatedAt": "2026-10-07T18:25:26.000Z",
+      "categories": [],
+      "services": [
+        "Lambda",
+        "Q"
+      ],
+      "tags": [
+        "lambda",
+        "q"
+      ],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "authorization"
+      ],
+      "source": "security-bulletin"
     },
     {
       "id": "2031db561396c5ca",
@@ -4739,7 +4901,7 @@
         "security and compliance",
         "cloudtrail"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -5646,6 +5808,44 @@
       "source": "whats-new"
     },
     {
+      "id": "1fd117d49dee23d2",
+      "title": "CVE-2026-8838 - Remote Code Execution in amazon-redshift-python-driver",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-033-aws/",
+      "publishedAt": "2026-10-06T20:42:03.000Z",
+      "updatedAt": "2026-10-06T20:42:03.000Z",
+      "categories": [],
+      "services": [
+        "Redshift"
+      ],
+      "tags": [
+        "redshift"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "24cb222a3393aa98",
+      "title": "CVE-2026-8686 - Heap out-of-bounds read in coreMQTT MQTT5 property parsing",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-032-aws/",
+      "publishedAt": "2026-10-06T20:42:03.000Z",
+      "updatedAt": "2026-10-06T20:42:03.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
       "id": "0d12d9da9901afda",
       "title": "CVE-2026-105812 and CVE-2026-106032: Issue with Bedrock AgentCore Starter Toolkit - Import Agent Code Injection and SSRF",
       "description": "Bulletin ID: 2026-127-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/06/2026 13:30 PM PDT Description: bedrock-agentcore-starter-toolkit is an AWS-maintained open-source Python package, distributed via GitHub and PyPI, that provides a command-line interface for importing Amazon Bedrock Agents into local development environments. We identified CVE-2026-105812, a code injection issue that could allow arbitrary code execution when a specially crafted agent is imported and subsequently run or deployed, and CVE-2026-106032, an external reference handling issue that",
@@ -6080,27 +6280,6 @@
       "source": "security-bulletin"
     },
     {
-      "id": "1fd117d49dee23d2",
-      "title": "CVE-2026-8838 - Remote Code Execution in amazon-redshift-python-driver",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-033-aws/",
-      "publishedAt": "2026-09-22T19:49:30.000Z",
-      "updatedAt": "2026-09-22T19:49:30.000Z",
-      "categories": [],
-      "services": [
-        "Redshift"
-      ],
-      "tags": [
-        "redshift"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
       "id": "798a8eb492fb583b",
       "title": "CVE-2026-9291 - Insecure Deserialization in Amazon Braket SDK Job Results Processing",
       "description": "",
@@ -6144,23 +6323,6 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-037-aws/",
-      "publishedAt": "2026-09-22T19:49:29.000Z",
-      "updatedAt": "2026-09-22T19:49:29.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "24cb222a3393aa98",
-      "title": "CVE-2026-8686 - Heap out-of-bounds read in coreMQTT MQTT5 property parsing",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-032-aws/",
       "publishedAt": "2026-09-22T19:49:29.000Z",
       "updatedAt": "2026-09-22T19:49:29.000Z",
       "categories": [],
@@ -7151,6 +7313,36 @@
       "source": "whats-new"
     },
     {
+      "id": "05e131969028bb90",
+      "title": "AWS Config now supports 77 new resource types",
+      "description": "AWS Config now supports 77 additional AWS resource types across key services including Amazon EC2, Amazon S3 Files, and Amazon Q Business. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources. With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators. You can now use AWS Config to monitor the following newly",
+      "descriptionHtml": "&lt;p&gt;AWS Config now supports 77 additional AWS resource types across key services including Amazon EC2, Amazon S3 Files, and Amazon Q Business. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources.&lt;/p&gt;\n&lt;p&gt;With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators.&lt;/p&gt;\n&lt;p&gt;You can now use AWS Config to monitor the following newly supported resource types in all &lt;a href=\"https://docs.aws.amazon.com/config/latest/developerguide/what-is-resource-config-coverage.html\"&gt;AWS Regions&lt;/a&gt; where the resources are available:&lt;/p&gt;\n&lt;p&gt;\n &lt;br&gt;\n Resource Types:\n&lt;/p&gt;\n&lt;table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"979\"&gt;\n &lt;tbody&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\" width=\"348\"&gt;AWS::ApplicationAutoScaling::ScalableTarget&lt;/td&gt;\n   &lt;td width=\"348\"&gt;AWS::GuardDuty::ThreatEntitySet&lt;/td&gt;\n   &lt;td width=\"283\"&gt;AWS::PCS::Queue&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ApplicationSignals::Discovery&lt;/td&gt;\n   &lt;td&gt;AWS::GuardDuty::TrustedEntitySet&lt;/td&gt;\n   &lt;td&gt;AWS::QBusiness::DataSource&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::APS::AnomalyDetector&lt;/td&gt;\n   &lt;td&gt;AWS::HealthLake::DataTransformationProfile&lt;/td&gt;\n   &lt;td&gt;AWS::QBusiness::Index&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::APS::ResourcePolicy&lt;/td&gt;\n   &lt;td&gt;AWS::InspectorV2::CodeSecurityScanConfiguration&lt;/td&gt;\n   &lt;td&gt;AWS::QBusiness::Permission&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ARCRegionSwitch::Plan&lt;/td&gt;\n   &lt;td&gt;AWS::IoT::Logging&lt;/td&gt;\n   &lt;td&gt;AWS::QBusiness::Plugin&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Batch::QuotaShare&lt;/td&gt;\n   &lt;td&gt;AWS::IoTWireless::WirelessDeviceImportTask&lt;/td&gt;\n   &lt;td&gt;AWS::QBusiness::Retriever&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Batch::ServiceEnvironment&lt;/td&gt;\n   &lt;td&gt;AWS::LicenseManager::Grant&lt;/td&gt;\n   &lt;td&gt;AWS::QBusiness::WebExperience&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::PaymentConnector&lt;/td&gt;\n   &lt;td&gt;AWS::LicenseManager::License&lt;/td&gt;\n   &lt;td&gt;AWS::QuickSight::OAuthClientApplication&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::ResourcePolicy&lt;/td&gt;\n   &lt;td&gt;AWS::Lightsail::DatabaseSnapshot&lt;/td&gt;\n   &lt;td&gt;AWS::RTBFabric::InboundExternalLink&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Braket::SpendingLimit&lt;/td&gt;\n   &lt;td&gt;AWS::MediaConnect::RouterInput&lt;/td&gt;\n   &lt;td&gt;AWS::RTBFabric::RequesterGateway&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::CleanRooms::IdMappingTable&lt;/td&gt;\n   &lt;td&gt;AWS::MediaConnect::RouterNetworkInterface&lt;/td&gt;\n   &lt;td&gt;AWS::S3Files::AccessPoint&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::CleanRoomsML::ConfiguredModelAlgorithm&lt;/td&gt;\n   &lt;td&gt;AWS::MediaLive::Multiplex&lt;/td&gt;\n   &lt;td&gt;AWS::S3Files::FileSystem&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::CloudWatch::AlarmMuteRule&lt;/td&gt;\n   &lt;td&gt;AWS::MediaLive::Node&lt;/td&gt;\n   &lt;td&gt;AWS::S3Files::FileSystemPolicy&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Connect::UserHierarchyStructure&lt;/td&gt;\n   &lt;td&gt;AWS::MediaLive::SdiSource&lt;/td&gt;\n   &lt;td&gt;AWS::S3Files::MountTarget&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ConnectCampaignsV2::Campaign&lt;/td&gt;\n   &lt;td&gt;AWS::MediaPackageV2::ChannelPolicy&lt;/td&gt;\n   &lt;td&gt;AWS::SecurityAgent::Application&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::CUR::ReportDefinition&lt;/td&gt;\n   &lt;td&gt;AWS::MediaPackageV2::OriginEndpointPolicy&lt;/td&gt;\n   &lt;td&gt;AWS::SecurityAgent::TargetDomain&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::DataSync::LocationAzureBlob&lt;/td&gt;\n   &lt;td&gt;AWS::MediaTailor::ChannelPolicy&lt;/td&gt;\n   &lt;td&gt;AWS::SES::MailManagerAddressList&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::DataSync::LocationFSxONTAP&lt;/td&gt;\n   &lt;td&gt;AWS::NeptuneGraph::GraphSnapshot&lt;/td&gt;\n   &lt;td&gt;AWS::SSM::MaintenanceWindow&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::DataSync::LocationFSxOpenZFS&lt;/td&gt;\n   &lt;td&gt;AWS::Notifications::EventRule&lt;/td&gt;\n   &lt;td&gt;AWS::SSO::Application&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::EC2::TransitGatewayMeteringPolicy&lt;/td&gt;\n   &lt;td&gt;AWS::Notifications::NotificationHub&lt;/td&gt;\n   &lt;td&gt;AWS::Timestream::InfluxDBCluster&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::EC2::VPCCidrBlock&lt;/td&gt;\n   &lt;td&gt;AWS::Omics::Configuration&lt;/td&gt;\n   &lt;td&gt;AWS::Timestream::InfluxDBInstance&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ECR::RegistryScanningConfiguration&lt;/td&gt;\n   &lt;td&gt;AWS::Omics::WorkflowVersion&lt;/td&gt;\n   &lt;td&gt;AWS::Transcribe::VocabularyFilter&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::EKS::Capability&lt;/td&gt;\n   &lt;td&gt;AWS::OpenSearchServerless::CollectionGroup&lt;/td&gt;\n   &lt;td&gt;AWS::Wisdom::AIGuardrail&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ElementalInference::Feed&lt;/td&gt;\n   &lt;td&gt;AWS::PCAConnectorAD::ServicePrincipalName&lt;/td&gt;\n   &lt;td&gt;AWS::Wisdom::Assistant&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::EntityResolution::IdNamespace&lt;/td&gt;\n   &lt;td&gt;AWS::PCS::Cluster&lt;/td&gt;\n   &lt;td&gt;AWS::WorkSpacesWeb::NetworkSettings&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Glue::Blueprint&lt;/td&gt;\n   &lt;td&gt;AWS::PCS::ComputeNodeGroup&lt;/td&gt;\n   &lt;td&gt;&amp;nbsp;&lt;/td&gt;\n  &lt;/tr&gt;\n &lt;/tbody&gt;\n&lt;/table&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-config-new-resource-types",
+      "publishedAt": "2026-10-07T15:00:00.000Z",
+      "updatedAt": "2026-10-07T15:00:00.000Z",
+      "categories": [
+        "Management And Governance",
+        "AWS Config"
+      ],
+      "services": [
+        "Config"
+      ],
+      "tags": [
+        "management and governance",
+        "aws config",
+        "config"
+      ],
+      "isNew": true,
+      "securityScore": 25,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "audit",
+        "S3"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "954382e6cfd850f2",
       "title": "AWS Well-Architected Agent is now available in preview",
       "description": "AWS announces the preview of AWS Well-Architected Agent, an AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and optimizes AWS infrastructure across cost, security, performance, and reliability, delivering contextualized recommendations prioritized by business goals. It automatically correlates key metrics and application topology against Well-Architected best practices and analyzes Terraform, CDK templates and CloudFormation templates to deliver automation-ready fixes where applicable. With AWS Well-Architected Agen",
@@ -7202,7 +7394,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 25,
       "securityLevel": "medium",
       "securityMatches": [
@@ -7231,7 +7423,7 @@
         "amazon rds",
         "rds"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 25,
       "securityLevel": "medium",
       "securityMatches": [
@@ -7583,7 +7775,7 @@
         "amazon corretto",
         "aws govcloud us"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -7614,7 +7806,7 @@
         "route 53",
         "cloudwatch"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -7643,7 +7835,7 @@
         "amazon eks",
         "eks"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -7672,7 +7864,7 @@
         "artificial intelligence",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -8478,7 +8670,7 @@
         "amazon s3",
         "s3"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -8509,7 +8701,7 @@
         "emr",
         "glue"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -9278,7 +9470,7 @@
         "analytics",
         "emr"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -9303,7 +9495,7 @@
         "developer tools",
         "aws developer tools"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -9331,7 +9523,7 @@
         "databases",
         "aurora"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -11103,7 +11295,7 @@
         "analytics",
         "glue"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 5,
       "securityLevel": "low",
       "securityMatches": [
@@ -11131,7 +11323,7 @@
         "amazon s3",
         "s3"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 5,
       "securityLevel": "low",
       "securityMatches": [
@@ -11617,6 +11809,83 @@
       "source": "whats-new"
     },
     {
+      "id": "15c7cbb99663dbe5",
+      "title": "AWS Capabilities by Region now offers availability notifications for individual features and advanced filters",
+      "description": "Today, AWS announces feature-level availability notifications and advanced filters for AWS Capabilities by Region in AWS Builder Center. You can now set availability notifications for AWS service, or to an individual feature of an AWS service, in the AWS Regions you are interested in, and receive an in-app notification and a weekly email digest covering all the capabilities that became available since you enabled availability notifications. Setting availability notifications for a service covers every feature within it, and an 'All regions' option covers every Region, including AWS Regions tha",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces feature-level availability notifications and advanced filters for &lt;a href=\"https://builder.aws.com/build/capabilities/explore\"&gt;AWS Capabilities by Region&lt;/a&gt; in AWS Builder Center. You can now set availability notifications for AWS service, or to an individual feature of an AWS service, in the AWS Regions you are interested in, and receive an in-app notification and a weekly email digest covering all the capabilities that became available since you enabled availability notifications. Setting availability notifications for a service covers every feature within it, and an 'All regions' option covers every Region, including AWS Regions that launch in the future.&lt;/p&gt;\n&lt;p&gt;In addition to the feature level availability notifications , you can now filter API operations and CloudFormation resources by availability status and compare Regions to show all capabilities, only matching ones, or only differences. With over 19,000 API operations and more than 5,000 CloudFormation resource types, these filters quickly narrow a full listing down to the exact differences between Regions, working alongside search and existing display preferences.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Comparing capabilities in AWS Capabilities by Region requires no account. Setting up availability notifications requires a Builder ID, which is free. To get started, visit &lt;a href=\"https://builder.aws.com/build/capabilities/explore\"&gt;AWS Capabilities by Region&lt;/a&gt; on AWS Builder Center. To learn more, explore the &lt;a href=\"https://builder.aws.com/faq#aws-capabilities-by-region\"&gt;AWS Builder Center FAQ&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/awscapabilities-enhancements/",
+      "publishedAt": "2026-10-07T15:00:00.000Z",
+      "updatedAt": "2026-10-07T15:00:00.000Z",
+      "categories": [
+        "Developer"
+      ],
+      "services": [],
+      "tags": [
+        "developer"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "651ddd0c43d10b82",
+      "title": "Claude Haiku 5.5 is now available on AWS",
+      "description": "AWS now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs around 75% less than Claude Haiku 4.5 for most tasks. Claude Haiku 5.5 is Anthropic's most capable Haiku yet, a significant step up from Haiku 4.5 across coding, tool use, computer use, and agents. It's also the first Haiku with effort controls, so teams can tune cost against intelligence for each task. Haiku 5.5 fits work where speed and cost matter most: real-time experiences like voice agents, live support,",
+      "descriptionHtml": "&lt;p&gt;AWS now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs around 75% less than Claude Haiku 4.5 for most tasks.&lt;/p&gt;\n&lt;p&gt;Claude Haiku 5.5 is Anthropic's most capable Haiku yet, a significant step up from Haiku 4.5 across coding, tool use, computer use, and agents. It's also the first Haiku with effort controls, so teams can tune cost against intelligence for each task. Haiku 5.5 fits work where speed and cost matter most: real-time experiences like voice agents, live support, and in-app assistants, and high-volume tasks like classification, summarization, and pulling key fields from documents. It's also a fast, cost-efficient subagent. A more capable model like Claude Opus 5.5 can plan the work and hand off well-defined coding, tool use, and browser automation tasks to Haiku, making it practical to run many agents in parallel.&lt;/p&gt;\n&lt;p&gt;Customers have two ways to access Claude Haiku 5.5: Amazon Bedrock and Claude Platform on AWS.&lt;/p&gt;\n&lt;p&gt;Amazon Bedrock gives you Haiku's capabilities while keeping your data within AWS infrastructure with regional data residency and provides access through a unified service with AWS-managed features like Guardrails and Knowledge Bases. To learn more, see the Amazon Bedrock &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-5-5.html\" target=\"_blank\"&gt;documentation&lt;/a&gt; and regional &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html#model-regions-anthropic\" target=\"_blank\"&gt;availability&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Claude Platform on AWS gives you direct access to Anthropic's native platform experience and capabilities via the AWS Console. Build, test, and deploy with the same APIs, features, and console experience you'd get working with Anthropic directly, unified with AWS billing and authentication. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/claude-platform/latest/userguide/welcome.html\" target=\"_blank\"&gt;Claude Platform on AWS&lt;/a&gt; documentation.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws/",
+      "publishedAt": "2026-10-07T14:00:00.000Z",
+      "updatedAt": "2026-10-07T14:00:00.000Z",
+      "categories": [
+        "Amazon Bedrock",
+        "Artificial Intelligence"
+      ],
+      "services": [
+        "Bedrock",
+        "Claude"
+      ],
+      "tags": [
+        "amazon bedrock",
+        "artificial intelligence",
+        "bedrock",
+        "claude"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "63bdf60805bad832",
+      "title": "Claude Haiku 5.5 is now available on AWS GovCloud (US)",
+      "description": "AWS GovCloud (US) now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs around 75% less than Claude Haiku 4.5 for most tasks. Claude Haiku 5.5 is Anthropic's most capable Haiku yet, a significant step up from Haiku 4.5 across coding, tool use, computer use, and agents. It's also the first Haiku with effort controls, so teams can tune cost against intelligence for each task. Haiku 5.5 fits work where speed and cost matter most: real-time experiences like voice agents,",
+      "descriptionHtml": "&lt;p&gt;AWS GovCloud (US) now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs around 75% less than Claude Haiku 4.5 for most tasks.&lt;/p&gt;\n&lt;p&gt;Claude Haiku 5.5 is Anthropic's most capable Haiku yet, a significant step up from Haiku 4.5 across coding, tool use, computer use, and agents. It's also the first Haiku with effort controls, so teams can tune cost against intelligence for each task. Haiku 5.5 fits work where speed and cost matter most: real-time experiences like voice agents, live support, and in-app assistants, and high-volume tasks like classification, summarization, and pulling key fields from documents. It's also a fast, cost-efficient subagent. A more capable model like Claude Opus 5.5 can plan the work and hand off well-defined coding, tool use, and browser automation tasks to Haiku, making it practical to run many agents in parallel.&lt;/p&gt;\n&lt;p&gt;Amazon Bedrock gives you Haiku's capabilities while keeping your data within AWS infrastructure with regional data residency and provides access through a unified service with AWS-managed features like Guardrails and Knowledge Bases. To learn more, see the Amazon Bedrock &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-5-5.html\"&gt;documentation&lt;/a&gt; and regional &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html#model-regions-anthropic\"&gt;availability&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws-govcloud/",
+      "publishedAt": "2026-10-07T14:00:00.000Z",
+      "updatedAt": "2026-10-07T14:00:00.000Z",
+      "categories": [
+        "Amazon Bedrock",
+        "AWS Govcloud Us"
+      ],
+      "services": [
+        "Bedrock",
+        "Claude"
+      ],
+      "tags": [
+        "amazon bedrock",
+        "aws govcloud us",
+        "bedrock",
+        "claude"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "2dae24cccb14cc62",
       "title": "AWS Batch now publishes job metrics to Amazon CloudWatch",
       "description": "AWS Batch now publishes job metrics to Amazon CloudWatch, providing native observability for batch workloads. AWS Batch emits metrics throughout the job lifecycle, giving you visibility into job queue health, failure rates, and job durations. AWS Batch automatically publishes job state transition and duration metrics to the AWS/Batch namespace in Amazon CloudWatch, with JobQueueName dimension. State transition metrics track how many jobs entered a given state, such as submitted, running, succeeded, or failed. Duration metrics track how long jobs spent between states, such as time from submissi",
@@ -11886,7 +12155,7 @@
         "cloudwatch",
         "transfer family"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -11912,7 +12181,7 @@
         "aws budgets",
         "budgets"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -11938,7 +12207,7 @@
         "amazon workspaces",
         "workspaces"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -11968,7 +12237,7 @@
         "cloudwatch",
         "workspaces"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -11989,7 +12258,7 @@
       "tags": [
         "compute"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -12015,7 +12284,7 @@
         "amazon aurora",
         "aurora"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -12045,7 +12314,7 @@
         "rds",
         "aurora"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -12071,7 +12340,7 @@
         "amazon rds",
         "rds"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -12099,7 +12368,7 @@
         "bedrock",
         "claude"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -13660,240 +13929,6 @@
         "amazon sagemaker jumpstart",
         "aiml",
         "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "c8a4cb591530d013",
-      "title": "AWS End User Messaging now supports Dynamic Flows in WhatsApp",
-      "description": "AWS End User Messaging now supports dynamic WhatsApp flows so you can turn WhatsApp conversations into rich, interactive experiences that end-users complete directly in WhatsApp. Instead of pushing end-users to a website or a separate form to complete an interactive experience, you can instead guide them through an appointment booking, lead generation, sign-up, survey or a transaction directly in the chat. Customers can start building a flow using one of Meta's stater templates with familiar building blocks like text inputs, date pickers, drop downs, and buttons, or customize the flow from scr",
-      "descriptionHtml": "&lt;p&gt;AWS End User Messaging now supports dynamic WhatsApp flows so you can turn WhatsApp conversations into rich, interactive experiences that end-users complete directly in WhatsApp.\n &lt;br&gt;\n &lt;br&gt;\n Instead of pushing end-users to a website or a separate form to complete an interactive experience, you can instead guide them through an appointment booking, lead generation, sign-up, survey or a transaction directly in the chat. Customers can start building a flow using one of Meta's stater templates with familiar building blocks like text inputs, date pickers, drop downs, and buttons, or customize the flow from scratch. With dynamic flows, each screen can call your own HTTPS endpoint in real time, so you can show live availability, and personalize each step in the flow for your end-users.\n &lt;br&gt;\n &lt;br&gt;\n You build and manage flows entirely in AWS End User Messaging Social, through the console or APIs. Define a flow with a JSON schema, then deliver it with a message template to reach customers where they are.\n &lt;br&gt;\n &lt;br&gt;\n WhatsApp flows are available in all regions where End User Messaging Social is available. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/social-messaging/latest/userguide/what-is-service.html\"&gt;User Guide.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-whatsapp-dynamic-flows",
-      "publishedAt": "2026-09-14T07:00:00.000Z",
-      "updatedAt": "2026-09-14T07:00:00.000Z",
-      "categories": [
-        "Business Productivity"
-      ],
-      "services": [],
-      "tags": [
-        "business productivity"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "51dde609fe26c7ba",
-      "title": "AWS End User Messaging strengthens SMS deliverability with automatic failover",
-      "description": "AWS End User Messaging is advancing its deliverability capabilities in phone pools. Now, customers sending through phone pools automatically benefit from automatic failover to the next best performing number in the pool when SMS delivery is impacted from downstream disruptions. SMS deliverability can be affected by drops or delays when trying to reach the end recipient while it's being routed from AWS to messaging providers and eventually mobile carriers. These disruptions can hit the most important parts of your messaging program, including delivery notifications, one-time passcodes, reminder",
-      "descriptionHtml": "&lt;p&gt;AWS End User Messaging is advancing its deliverability capabilities in phone pools. Now, customers sending through phone pools automatically benefit from automatic failover to the next best performing number in the pool when SMS delivery is impacted from downstream disruptions.\n &lt;br&gt;\n &lt;br&gt;\n SMS deliverability can be affected by drops or delays when trying to reach the end recipient while it's being routed from AWS to messaging providers and eventually mobile carriers. These disruptions can hit the most important parts of your messaging program, including delivery notifications, one-time passcodes, reminders, and other time-sensitive messages. AWS End User Messaging watches for delivery delays, message failures, or drops in conversion and reroutes traffic to a more optimized delivery path.\n &lt;br&gt;\n &lt;br&gt;\n Customers do not need to take any action to receive this benefit for phone pools. If you are not sending through phone pools today, you can create one by following these &lt;a href=\"https://docs.aws.amazon.com/sms-voice/latest/userguide/phone-pool-create.html\"&gt;instructions&lt;/a&gt;. This capability is available in all AWS Regions where AWS End User Messaging is available.\n &lt;br&gt;\n &lt;br&gt;\n To learn more, see the AWS End User Messaging SMS &lt;a href=\"https://docs.aws.amazon.com/sms-voice/latest/userguide/what-is-sms-mms.html\"&gt;User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-improves-deliverability",
-      "publishedAt": "2026-09-14T07:00:00.000Z",
-      "updatedAt": "2026-09-14T07:00:00.000Z",
-      "categories": [
-        "Amazon Pinpoint",
-        "Business Productivity"
-      ],
-      "services": [
-        "Pinpoint"
-      ],
-      "tags": [
-        "amazon pinpoint",
-        "business productivity",
-        "pinpoint"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "ed901b7c4c2c001e",
-      "title": "AWS Elemental MediaLive enables frame-accurate pipeline locking for streams without timecode",
-      "description": "AWS Elemental MediaLive now supports Video Aligned Locking, a new feature to synchronize video pipelines without requiring timecode from the source. Previously, achieving frame-accurate locking across video outputs required investing in specialized hardware or managing complex, external synchronization workflows. While timecode is generally standard for highly produced, traditional broadcast content, it is often unavailable and difficult to manage in typical digital streaming workflows. The new capability uses visual signatures to automatically identify and align specific frames across multipl",
-      "descriptionHtml": "&lt;p&gt;AWS Elemental MediaLive now supports Video Aligned Locking, a new feature to synchronize video pipelines without requiring timecode from the source. Previously, achieving frame-accurate locking across video outputs required investing in specialized hardware or managing complex, external synchronization workflows. While timecode is generally standard for highly produced, traditional broadcast content, it is often unavailable and difficult to manage in typical digital streaming workflows. The new capability uses visual signatures to automatically identify and align specific frames across multiple video streams, enabling customers to achieve frame-accurate input switching across standard pipeline channels, as well as linked, cross-region single-pipeline channels.&lt;/p&gt;\n&lt;p&gt;Video Aligned Locking supports outputs including HLS, MediaPackage, CMAF Ingest, UDP and SRT. To learn more about how to configure this feature, visit the &lt;a href=\"https://docs.aws.amazon.com/medialive/latest/ug/pipeline-locking-verify-input.html#pipeline-locking-video-alignment-inputs\"&gt;Requirements for Video Aligned Locking&lt;/a&gt; documentation. For a deeper dive into channel synchronization, visit the guide on &lt;a href=\"https://docs.aws.amazon.com/medialive/latest/ug/pipeline-lock.html\"&gt;Implementing Pipeline Locking&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-pipeline-locking/",
-      "publishedAt": "2026-09-12T08:00:00.000Z",
-      "updatedAt": "2026-09-12T08:00:00.000Z",
-      "categories": [
-        "AWS Elemental Medialive",
-        "Media Services"
-      ],
-      "services": [
-        "Elemental",
-        "MediaLive"
-      ],
-      "tags": [
-        "aws elemental medialive",
-        "media services",
-        "elemental",
-        "medialive"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "a60364c6fd05dba8",
-      "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
-      "description": "Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable Processors and built with AWS Nitro System, are designed for memory-intensive workloads and deliver improvements in performance compared to previous generation X1 instances. These instances are SAP-certified for running Business Suite on HANA, SAP S/4HANA, Data Mart Solutions on HANA, Business Warehouse on HANA, SAP BW/4HANA, and SAP NetWeaver workloads on any database.",
-      "descriptionHtml": "&lt;p&gt;Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable Processors and built with AWS Nitro System, are designed for memory-intensive workloads and deliver improvements in performance compared to previous generation X1 instances. These instances are SAP-certified for running Business Suite on HANA, SAP S/4HANA, Data Mart Solutions on HANA, Business Warehouse on HANA, SAP BW/4HANA, and SAP NetWeaver workloads on any database.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
-      "publishedAt": "2026-09-11T18:35:00.000Z",
-      "updatedAt": "2026-09-11T18:35:00.000Z",
-      "categories": [
-        "Amazon Ec2",
-        "Compute"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "amazon ec2",
-        "compute",
-        "ec2"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "da4cc670b70a2f5c",
-      "title": "Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts",
-      "description": "Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes. When running LLM inference at scale for workloads like chat assistants, agentic pipelines, RAG, and document analysis, cold start is a real bottleneck. Deployments and scale-out events spend most of their time downloading container images and model weights. As model size increases, this gets worse, with large models taking tens of minutes before they can serve traffic. Model caching solves this with two",
-      "descriptionHtml": "&lt;p&gt;Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes.&lt;/p&gt;\n&lt;p&gt;When running LLM inference at scale for workloads like chat assistants, agentic pipelines, RAG, and document analysis, cold start is a real bottleneck. Deployments and scale-out events spend most of their time downloading container images and model weights. As model size increases, this gets worse, with large models taking tens of minutes before they can serve traffic.&lt;/p&gt;\n&lt;p&gt;Model caching solves this with two independent capabilities. The weights cache stores model weights on local NVMe so pods read from fast local storage instead of pulling from S3 or FSx over the network. The image cache pre-pulls the container image so pods skip the ECR download entirely. If a pod lands on a node without a warm cache, it falls back to pulling from the original source automatically, so there is no risk of pods getting stuck or failing.&lt;/p&gt;\n&lt;p&gt;Benchmarks across models from 57 GB to 145 GB show around 60% faster scale-out, and the image cache cuts over two minutes of image-pull time (97% reduction). The benefit grows with model size while retaining the reliability of the original source path.&lt;/p&gt;\n&lt;p&gt;Customers enable model caching through the HyperPod Inference Operator by adding a modelCacheConfig section to their InferenceEndpointConfig or JumpStartModel resource. The operator handles the full lifecycle with no manual setup or cleanup.&lt;/p&gt;\n&lt;p&gt;Model caching is now generally available in all regions where SageMaker HyperPod is available. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-model-deployment-model-caching.html\"&gt;SageMaker HyperPod documentation&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
-      "publishedAt": "2026-09-11T18:25:00.000Z",
-      "updatedAt": "2026-09-11T18:25:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Amazon Sagemaker"
-      ],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "amazon sagemaker",
-        "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "7350f13f35f6faa0",
-      "title": "AWS Transform for .NET now generates unit tests for modernized code",
-      "description": "Today, AWS announced that AWS Transform for .NET can automatically generate unit tests for the code it modernizes. When enabled, AWS Transform generates unit tests that target the testable classes in your transformed .NET application, such as business logic and controllers, giving you an automated test safety net on the modernized code as part of the same job that performs the migration. Modernizing a .NET Framework application to modern .NET produces a transformed, buildable codebase, but teams previously had to write test coverage for that modernized code by hand. With this launch, AWS Trans",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announced that AWS Transform for .NET can automatically generate unit tests for the code it modernizes. When enabled, AWS Transform generates unit tests that target the testable classes in your transformed .NET application, such as business logic and controllers, giving you an automated test safety net on the modernized code as part of the same job that performs the migration.&lt;/p&gt;\n&lt;p&gt;Modernizing a .NET Framework application to modern .NET produces a transformed, buildable codebase, but teams previously had to write test coverage for that modernized code by hand. With this launch, AWS Transform assesses your application for testability in parallel with the standard .NET assessment, plans which classes and methods to cover, and generates the corresponding unit test code, so you complete the migration with tests already in place. Unit test generation is opt-in: you can enable it at the start of a job or after transformation completes.&lt;/p&gt;\n&lt;p&gt;Unit test generation for AWS Transform for .NET is supported in the AWS Toolkit for Visual Studio extension. It is available in all AWS Regions where AWS Transform for .NET is supported. To get started, run a .NET transformation with AWS Transform for .NET in Visual Studio and choose to generate unit tests. To learn more, refer to&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/dotnet-ide.html\"&gt;Modernizing .NET in the IDE&lt;/a&gt; in the AWS Transform User Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-net-unit-tests",
-      "publishedAt": "2026-09-10T20:00:00.000Z",
-      "updatedAt": "2026-09-10T20:00:00.000Z",
-      "categories": [
-        "Migration"
-      ],
-      "services": [],
-      "tags": [
-        "migration"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "f376e824d666d507",
-      "title": "AWS Lambda durable functions integrates with Pydantic AI",
-      "description": "Today, AWS Lambda durable functions announces an integration with Pydantic AI , an open source framework for building AI agents in Python. AWS Lambda durable functions saves your Pydantic AI agent's progress as it runs, so after an interruption like a timeout, your agent resumes from the last completed step instead of starting over. Your agent gains fault tolerance without you having to write the checkpoint and retry logic yourself. With this integration, each model and tool call your agent makes is a durable execution step, so an interrupted run does not repeat calls that already completed. T",
-      "descriptionHtml": "&lt;p&gt;Today, AWS Lambda durable functions announces an integration with &lt;a href=\"https://pydantic.dev/docs/ai/overview/\"&gt;Pydantic AI&lt;/a&gt;, an open source framework for building AI agents in Python. AWS Lambda durable functions saves your Pydantic AI agent's progress as it runs, so after an interruption like a timeout, your agent resumes from the last completed step instead of starting over. Your agent gains fault tolerance without you having to write the checkpoint and retry logic yourself.&lt;/p&gt;\n&lt;p&gt;With this integration, each model and tool call your agent makes is a durable execution step, so an interrupted run does not repeat calls that already completed. This matters when the work is expensive to repeat, such as a chain of model calls that reviews a set of documents or researches a topic across many sources, where starting over means paying again for tokens to do the same work. It also helps to avoid unwanted side-effects when resuming execution, such as billing a customer twice. Because your agent runs on AWS Lambda, you manage no servers and pay only for the compute it uses.&lt;/p&gt;\n&lt;p&gt;You can use this integration in any Python AWS Lambda durable function. It is available in all AWS Regions where AWS Lambda durable functions is available. To get started, install Pydantic AI and follow its &lt;a href=\"https://pydantic.dev/docs/ai/harness/aws-lambda/\"&gt;AWS Lambda durability page&lt;/a&gt;. You can also find the integration details in the &lt;a href=\"https://docs.aws.amazon.com/durable-execution/sdk-reference/integrations/pydantic-ai/\"&gt;durable execution SDK reference&lt;/a&gt;. For more information about AWS Lambda durable functions, see the &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/durable-functions.html\"&gt;developer guide&lt;/a&gt; and the &lt;a href=\"https://aws.amazon.com/lambda/\"&gt;AWS Lambda product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-durable-pydantic-ai/",
-      "publishedAt": "2026-09-10T18:45:00.000Z",
-      "updatedAt": "2026-09-10T18:45:00.000Z",
-      "categories": [
-        "Serverless",
-        "AWS Lambda"
-      ],
-      "services": [
-        "Lambda"
-      ],
-      "tags": [
-        "serverless",
-        "aws lambda",
-        "lambda"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "6b9e6f7c8ea0d481",
-      "title": "Amazon MQ now supports RabbitMQ 4.3",
-      "description": "Amazon MQ now supports RabbitMQ version 4.3 which adds quorum queue feature enhancements such as compaction, increased priority levels, native delayed retries, and graceful consumer timeouts. RabbitMQ 4.3 also includes various bug fixes and performance improvements for memory management. Quorum queues on RabbitMQ 4.3 performs compaction to reduce disk usage for queues and native support for 32 strict priority levels, compared to the relative 2 levels supported in previous RabbitMQ versions. Quorum queues can now automatically set failed messages aside and retry delivery after a set cooldown de",
-      "descriptionHtml": "&lt;p&gt;Amazon MQ now supports RabbitMQ version 4.3 which adds quorum queue feature enhancements such as compaction, increased priority levels, native delayed retries, and graceful consumer timeouts.&amp;nbsp;RabbitMQ 4.3 also includes various bug fixes and performance improvements for memory management.&lt;/p&gt;\n&lt;p&gt;Quorum queues on RabbitMQ 4.3 performs compaction to reduce disk usage for queues and native support for 32 strict priority levels, compared to the relative 2 levels supported in previous RabbitMQ versions. Quorum queues can now automatically set failed messages aside and retry delivery after a set cooldown delay. Consumer timeouts have moved from global protocol channels to quorum queues and can be configured specific to the protocol now.&amp;nbsp;Both consumer timeouts and delayed retries can be configured and managed by RabbitMQ Policies. Transient non-exclusive queues, Global QoS, and Classic queues v1 storage are no longer supported on RabbitMQ 4.3. Consumer timeouts also do not apply to classic queues.&lt;/p&gt;\n&lt;p&gt;To start using RabbitMQ 4.3 on Amazon MQ, simply select RabbitMQ 4.3 when creating a new broker using the m7g instance type through the AWS Management console, AWS CLI, or AWS SDKs. Amazon MQ automatically manages patch version upgrades for your RabbitMQ 4.3 brokers, so you need to only specify the major.minor version. To learn more about the changes in RabbitMQ 4.3, see the &lt;a href=\"https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/amazon-mq-release-notes.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon MQ release notes&lt;/a&gt; and the Amazon MQ &lt;a href=\"https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/working-with-rabbitmq.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;developer guide&lt;/a&gt;. This version is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;regions&lt;/a&gt; where Amazon MQ m7g type instances are available today.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mq-rabbitmq-43/",
-      "publishedAt": "2026-09-10T18:08:00.000Z",
-      "updatedAt": "2026-09-10T18:08:00.000Z",
-      "categories": [
-        "Developer Tools",
-        "Migration",
-        "Analytics",
-        "Amazon Mq",
-        "Messaging"
-      ],
-      "services": [
-        "MQ"
-      ],
-      "tags": [
-        "developer tools",
-        "migration",
-        "analytics",
-        "amazon mq",
-        "messaging",
-        "mq"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "a9b71fde0798d5b5",
-      "title": "Announcing second-generation single-rack AWS Outposts",
-      "description": "Today, AWS announces the general availability of second-generation single-rack AWS Outposts, a self-contained 42U rack that integrates compute, storage and networking into a single compact unit purpose-built for workloads requiring low latency, local data processing, and data residency in space and power constrained locations. A single-rack Outposts delivers up to 2,688 vCPU and 100 TB of Amazon Elastic Block Store (Amazon EBS) storage. Moreover, like multi-rack Outposts, single-rack Outposts support the latest x86-powered EC2 instances, including general purpose (M7i, M8i), compute-optimized ",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announces the general availability of second-generation single-rack AWS Outposts, a self-contained 42U rack that integrates compute, storage and networking into a single compact unit purpose-built for workloads requiring low latency, local data processing, and data residency in space and power constrained locations. A single-rack Outposts delivers up to 2,688 vCPU and 100 TB of Amazon Elastic Block Store (Amazon EBS) storage. Moreover, like multi-rack Outposts, single-rack Outposts support the latest x86-powered EC2 instances, including general purpose (M7i, M8i), compute-optimized (C7i, C8i), memory-optimized (R7i, R8i), and Outposts accelerated networking (Bmn-sf2e, Bmn-cx2, Bmn-cx3a) instances.&lt;/p&gt;\n&lt;p&gt;For organizations that operate in locations with limited rack space, such as manufacturing, gaming, and other industries, single-rack Outposts brings the latest AWS compute, storage, and networking features on-premises, and gives customers a direct path to modernize while leveraging their currently available space and power. Single-rack and multi-rack Outposts offer customers a consistent experience with the same AWS APIs, management console, automation, governance policies, and security controls across AWS Regions and on-premises locations.&lt;/p&gt;\n&lt;p&gt;For a current list of AWS Regions and countries/territories where Outposts racks are supported, check out the &lt;a href=\"https://aws.amazon.com/outposts/rack/faqs/#product-faqs%23in-which-countries-and-territories-is-outposts-rack-available-trigger\"&gt;Outposts rack FAQs page&lt;/a&gt;. To get started, open the &lt;a href=\"https://console.aws.amazon.com/outposts/\"&gt;AWS Outposts console&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts/",
-      "publishedAt": "2026-09-10T17:58:00.000Z",
-      "updatedAt": "2026-09-10T17:58:00.000Z",
-      "categories": [
-        "AWS Outposts",
-        "Storage",
-        "Compute"
-      ],
-      "services": [
-        "Outposts"
-      ],
-      "tags": [
-        "aws outposts",
-        "storage",
-        "compute",
-        "outposts"
       ],
       "isNew": false,
       "securityScore": 0,
