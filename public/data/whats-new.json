@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T15:17:25.845Z",
+  "lastUpdated": "2026-10-09T15:02:15.965Z",
   "itemCount": 500,
   "items": [
     {
@@ -92,7 +92,7 @@
         "guardduty",
         "security hub"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -1493,7 +1493,7 @@
         "guardduty",
         "organizations"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 85,
       "securityLevel": "critical",
       "securityMatches": [
@@ -3206,6 +3206,39 @@
       "source": "security-blog"
     },
     {
+      "id": "e5069e533e093a02",
+      "title": "AWS Network Firewall adds wildcard support for container attribute filters",
+      "description": "AWS Network Firewall now supports wildcard matching in container attribute-based inspection filters for Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon Elastic Container Service (Amazon ECS). This enhancement allows you to define attribute filters using wildcard patterns to match multiple container workloads in a single rule, eliminating the need to create individual container associations for each variant. With wildcard support, you can use patterns like app=payments-* to automatically cover all variants of an application, such as payments-api, payments-worker, and payments-cron. Th",
+      "descriptionHtml": "&lt;p&gt;AWS Network Firewall now supports wildcard matching in container attribute-based inspection filters for Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon Elastic Container Service (Amazon ECS). This enhancement allows you to define attribute filters using wildcard patterns to match multiple container workloads in a single rule, eliminating the need to create individual container associations for each variant.&lt;/p&gt;\n&lt;p&gt;With wildcard support, you can use patterns like app=payments-* to automatically cover all variants of an application, such as payments-api, payments-worker, and payments-cron. This simplifies firewall rule management for dynamic container environments where new application variants are frequently deployed, reducing operational overhead and ensuring consistent security coverage across your containerized workloads.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Wildcard support for container attribute filters is available in all AWS Regions where AWS Network Firewall container attribute-based inspection is supported. For a full list of supported Regions, see the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Region Table&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;To get started, visit AWS Network Firewall &lt;a href=\"https://aws.amazon.com/network-firewall/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;product page&lt;/a&gt; and service &lt;a href=\"https://docs.aws.amazon.com/network-firewall/latest/developerguide/container-associations.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-network-firewall-container-attributes-wildcard",
+      "publishedAt": "2026-10-08T16:00:00.000Z",
+      "updatedAt": "2026-10-08T16:00:00.000Z",
+      "categories": [
+        "AWS Network Firewall",
+        "Networking And Content Delivery",
+        "Security Identity And Compliance",
+        "Containers And Deployment"
+      ],
+      "services": [
+        "AWS Network Firewall"
+      ],
+      "tags": [
+        "aws network firewall",
+        "networking and content delivery",
+        "security identity and compliance",
+        "containers and deployment"
+      ],
+      "isNew": true,
+      "securityScore": 55,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Network Firewall",
+        "firewall",
+        "AWS Network Firewall"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "2e75da0fd5722d00",
       "title": "AWS Batch now supports Amazon EKS access entry authentication",
       "description": "AWS Batch now supports Amazon EKS access entry authentication for compute environments. EKS access entries provide an API-driven approach to granting IAM principals access to Kubernetes clusters, complementing the existing aws-auth ConfigMap . AWS Batch can now authenticate to your cluster through the access entry mechanism, simplifying cluster setup and authentication lifecycle management. To get started, use the CreateComputeEnvironment or UpdateComputeEnvironment APIs to set accessEntry.desiredState to ENABLED on all AWS Batch compute environments targeting your cluster. AWS Batch creates o",
@@ -3769,6 +3802,27 @@
       "source": "security-blog"
     },
     {
+      "id": "0a930818b7ded66a",
+      "title": "CVE-2026-107332 - Insecure default file permissions on cached credentials in AWS Toolkit for Visual Studio Code",
+      "description": "Bulletin ID: 2026-129-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/08/2026 10:30 PM PDT Description: AWS Toolkit for Visual Studio Code is an open source extension that lets developers work with AWS services, including Amazon CodeCatalyst, from within Visual Studio Code. We identified CVE-2026-107332, an issue in the CodeCatalyst connection handler. When a user connected to a CodeCatalyst Dev Environment, the extension cached the user's CodeCatalyst bearer token to a file with world-readable permissions and did not remove the file after the session ended. A ",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-129-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 10/08/2026 10:30 PM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;AWS Toolkit for Visual Studio Code is an open source extension that lets developers work with AWS services, including Amazon CodeCatalyst, from within Visual Studio Code. We identified CVE-2026-107332, an issue in the CodeCatalyst connection handler. When a user connected to a CodeCatalyst Dev Environment, the extension cached the user's CodeCatalyst bearer token to a file with world-readable permissions and did not remove the file after the session ended. A local user or process on the same machine with access to the file system was able to read this file and obtain the bearer token.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt; 4.10.0&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-129-aws/",
+      "publishedAt": "2026-10-08T17:43:09.000Z",
+      "updatedAt": "2026-10-08T17:43:09.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "permission",
+        "token",
+        "credential"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "53f19282ed74deb5",
       "title": "Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account",
       "description": "Amazon S3 Tables now support up to 100 table buckets per AWS Region in an AWS account, increased from 10. This allows you to create up to 1 million tables per AWS Region in an AWS account. With a higher table bucket allowance, you can create a separate table bucket for each dataset, workload, or team, and apply table bucket-level settings such as encryption, access policies, and replication to each. The higher quota applies by default to all accounts at no additional cost. S3 Tables deliver the first cloud object store with built-in Apache Iceberg support, and the easiest way to store tabular ",
@@ -4081,7 +4135,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "medium",
       "securityMatches": [
@@ -4100,7 +4154,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "medium",
       "securityMatches": [
@@ -4830,6 +4884,29 @@
       "source": "security-blog"
     },
     {
+      "id": "ad5f44432b340c99",
+      "title": "CVE-2026-107608: Improper link resolution in asset bundling output handling in aws-cdk-lib",
+      "description": "Bulletin ID: 2026-131-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/08/2026 12:30 PM PDT Description: AWS CDK is an open source framework that allows customers to build cloud infrastructure using their favorite programming language (Python, Typescript, C#, Go). That infrastructure is then able to be deployed with AWS CDK command line commands to AWS CloudFormation. We identified CVE-2026-107608, which is an issue where Docker files could be configured to insert symlinked files into the output of the AWS CDK asset bundling process when it was invoked with a Do",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-131-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 10/08/2026 12:30 PM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;AWS CDK is an open source framework that allows customers to build cloud infrastructure using their favorite programming language (Python, Typescript, C#, Go). That infrastructure is then able to be deployed with AWS CDK command line commands to AWS CloudFormation. We identified CVE-2026-107608, which is an issue where Docker files could be configured to insert symlinked files into the output of the AWS CDK asset bundling process when it was invoked with a Docker file. When bundling an asset using AWS CDK with a docker file, prior to 2.267.0, it was possible for a docker file to insert a symlinked file or directory into the output of asset bundling without the symlink having been provided as input to the bundling process.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; All aws-cdk-lib versions before 2.267.0&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-131-aws/",
+      "publishedAt": "2026-10-08T19:44:26.000Z",
+      "updatedAt": "2026-10-08T19:44:26.000Z",
+      "categories": [],
+      "services": [
+        "CDK"
+      ],
+      "tags": [
+        "cdk"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "bb12278ed7739567",
       "title": "AWS Client VPN now supports device posture assessment",
       "description": "AWS Client VPN now supports device posture assessment, allowing you to verify that connecting user devices meet your security and compliance requirements before granting network access. This feature integrates with your existing device posture providers, so only trusted, compliant devices can access your AWS resources through Client VPN. Previously, Client VPN authenticated users through certificates, SAML, or Active Directory. With device posture assessment, you can now also integrate CrowdStrike , Jamf , or JumpCloud with Client VPN to automatically evaluate device security signals such as c",
@@ -5458,7 +5535,7 @@
         "amazon redshift",
         "redshift"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 35,
       "securityLevel": "high",
       "securityMatches": [
@@ -5808,6 +5885,23 @@
       "source": "whats-new"
     },
     {
+      "id": "7b2fbfb42940026a",
+      "title": "CVE-2026-107322 - OS command injection in Amazon Agent Plugins for AWS databases-on-aws",
+      "description": "Bulletin ID: 2026-130-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/08/2026 11:30 AM PDT Description: Amazon Agent Plugins for AWS is an open source collection of plugins that extends supported AI coding agents with AWS-focused workflows and tool integrations. The databases-on-aws plugin provides database design, development, migration, and operational guidance, including Aurora DSQL helper scripts. We identified CVE-2026-107322, where an incomplete list of disallowed inputs in databases-on-aws versions before 1.7.1 could allow a remote unauthenticated actor ",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-130-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 10/08/2026 11:30 AM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;Amazon Agent Plugins for AWS is an open source collection of plugins that extends supported AI coding agents with AWS-focused workflows and tool integrations. The databases-on-aws plugin provides database design, development, migration, and operational guidance, including Aurora DSQL helper scripts.&lt;/p&gt;\n&lt;p&gt;We identified CVE-2026-107322, where an incomplete list of disallowed inputs in databases-on-aws versions before 1.7.1 could allow a remote unauthenticated actor to supply crafted content that an agent ingests. The affected code is not a listening network service; operating-system command execution on the host is possible only if the agent subsequently invokes the local helper with the crafted database command value. Any resulting command runs with the permissions of the process running the helper. This issue does not affect the Aurora DSQL service or bypass database privileges.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; databases-on-aws versions 1.0.0 through 1.7.0&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-130-aws/",
+      "publishedAt": "2026-10-08T19:29:19.000Z",
+      "updatedAt": "2026-10-08T19:29:19.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
       "id": "1fd117d49dee23d2",
       "title": "CVE-2026-8838 - Remote Code Execution in amazon-redshift-python-driver",
       "description": "",
@@ -5907,7 +6001,7 @@
         "vpc",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [
@@ -5931,7 +6025,7 @@
       "tags": [
         "lambda"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -7374,7 +7468,7 @@
         "aws trusted advisor",
         "cloudformation"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 25,
       "securityLevel": "medium",
       "securityMatches": [
@@ -8577,6 +8671,29 @@
       "source": "whats-new"
     },
     {
+      "id": "6a57ab554bced622",
+      "title": "OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
+      "description": "Today, AWS announces the availability of Ultrafast mode for GPT-6.1 Sol from OpenAI on Amazon Bedrock. Ultrafast mode provides faster inference for workloads where speed matters most. The Amazon Bedrock inference engine delivers the performance, security, and reliability required for production workloads. Use GPT-6.1 Sol Ultrafast for latency-sensitive applications such as real-time coding assistants, interactive agents, and customer-facing experiences that require fast, high-quality responses. GPT-6.1 Sol helps developers build features, debug issues, investigate complex codebases, and comple",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces the availability of Ultrafast mode for GPT-6.1 Sol from OpenAI on Amazon Bedrock.&amp;nbsp;Ultrafast mode provides faster inference for workloads where speed matters most. The Amazon Bedrock inference engine delivers the performance, security, and reliability required for production workloads.&lt;/p&gt;\n&lt;p&gt;Use GPT-6.1 Sol&amp;nbsp;Ultrafast for latency-sensitive applications such as real-time coding assistants, interactive agents, and customer-facing experiences that require fast, high-quality responses. GPT-6.1 Sol helps developers build features, debug issues, investigate complex codebases, and complete multistep workflows. Established AWS controls help you secure workloads, govern access, and audit model invocation activity.&lt;/p&gt;\n&lt;p&gt;You can get started in the &lt;a href=\"https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/\"&gt;Amazon Bedrock console&lt;/a&gt; or programmatically through supported Amazon Bedrock APIs. For information about supported AWS Regions, endpoints, APIs, features, inference profiles, and pricing, see the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-1-sol.html\"&gt;Amazon Bedrock documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/",
+      "publishedAt": "2026-10-08T19:41:00.000Z",
+      "updatedAt": "2026-10-08T19:41:00.000Z",
+      "categories": [],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 15,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "security"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "7e067d20acc3b3a9",
       "title": "AWS Continuum for Penetration Testing now supports continuous penetration testing integrated directly into your CI/CD pipeline",
       "description": "AWS Continuum for Penetration Testing now integrates continuous penetration testing directly into your CI/CD pipeline (public preview) AWS Continuum for Penetration Testing (formerly AWS Security Agent) already provides continuous, on-demand penetration testing without the need to contract third-party pentest vendors. Now, in public preview, Continuum for Penetration Testing shifts security testing even further left by integrating directly into your existing CI/CD systems, making penetration testing a deploy-time event. Development teams ship code daily, but even with on-demand penetration tes",
@@ -9394,6 +9511,34 @@
       "source": "whats-new"
     },
     {
+      "id": "0fcb44809e61d4c6",
+      "title": "Amazon RDS for Oracle now supports minor version upgrade prechecks and a new RDS event to help reduce patching downtime",
+      "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you run a minor version upgrade precheck yourself, before you start an upgrade or before your scheduled maintenance window. RDS for Oracle now also emits a new event during patching that tells you when your DB instance is accepting connections again. With this event, you can bring your applications back while the remaining maintenance tasks are still in progress, which can reduce your application downtime during patching. At the start of every minor version upgrade, RDS for Oracle checks for conditions that would prevent the u",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/oracle/\"&gt;Amazon Relational Database Service (Amazon RDS) for Oracle&lt;/a&gt; now lets you run a minor version upgrade precheck yourself, before you start an upgrade or before your scheduled maintenance window. RDS for Oracle now also emits a new event during patching that tells you when your DB instance is accepting connections again. With this event, you can bring your applications back while the remaining maintenance tasks are still in progress, which can reduce your application downtime during patching.&lt;/p&gt;\n&lt;p&gt;At the start of every minor version upgrade, RDS for Oracle checks for conditions that would prevent the upgrade from completing, such as insufficient free storage, invalid Oracle-maintained objects, or invalid triggers. If a check finds a problem, the upgrade stops, and you must fix the problem and schedule the upgrade again. Previously, these checks ran only as part of the upgrade itself. With the new rdsadmin.rdsadmin_precheck_tasks.precheck_minor_upgrade procedure, you can run the checks at any time. The precheck is read-only and doesn't affect your workload. It reports every issue it finds in a single log so you can fix them and run the precheck again until it passes before your maintenance window.&lt;/p&gt;\n&lt;p&gt;During a minor version upgrade or an operating system update, RDS for Oracle now emits RDS-EVENT-0596 as soon as your DB instance is accepting connections. Any remaining maintenance tasks then complete while your database is online. You can subscribe to this event through Amazon RDS event notifications or Amazon EventBridge to automate application reconnection or notify your teams that the database is back online.&lt;/p&gt;\n&lt;p&gt;These capabilities are available in all AWS commercial and AWS GovCloud (US) Regions where Amazon RDS for Oracle is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Oracle.Precheck.html\"&gt;Running minor version upgrade prechecks in Amazon RDS for Oracle&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Events.Messages.html\"&gt;Amazon RDS event categories and event messages&lt;/a&gt;, and &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/working-with-events.html\"&gt;Monitoring Amazon RDS events&lt;/a&gt; in the Amazon RDS User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-minor-version-upgrade-precheck-new-patching-rds-event/",
+      "publishedAt": "2026-10-08T18:00:00.000Z",
+      "updatedAt": "2026-10-08T18:00:00.000Z",
+      "categories": [
+        "Databases",
+        "Amazon Rds For Oracle"
+      ],
+      "services": [
+        "RDS"
+      ],
+      "tags": [
+        "databases",
+        "amazon rds for oracle",
+        "rds"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "patch"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "ebc1d13f56f9f674",
       "title": "Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views",
       "description": "Amazon Redshift now supports the creation and refresh of Apache Iceberg materialized views. Materialized views pre-compute expensive joins and aggregations once and store the results in an Apache Iceberg table in Amazon S3 or Amazon S3 table buckets, registered in the AWS Glue Data Catalog. Materialized views are created using familiar SQL — CREATE MATERIALIZED VIEW ... USING ICEBERG and the results are instantly queryable by any Iceberg-compatible engine, including Amazon Athena, Apache Spark on Amazon EMR and AWS Glue, and third-party engines such as Trino, or Snowflake. Redshift keeps them ",
@@ -9423,6 +9568,36 @@
       "source": "whats-new"
     },
     {
+      "id": "fcdd8e4e91d6b07e",
+      "title": "Amazon OpenSearch Service introduces validation advisory for domain configuration changes",
+      "description": "Amazon OpenSearch Service now provides validation advisory for domain configuration changes, which helps you make informed decisions about changes that carry risk but can still be applied. Each configuration validation is now classified as either Critical, which blocks the change, or Warning, which gives advisory guidance that you can acknowledge before you proceed. Previously, validation results were limited to pass or block. There was no way to flag changes that would succeed but carry risk. Validation advisory helps you find potential issues without blocking deployments. Examples include de",
+      "descriptionHtml": "&lt;p&gt;Amazon OpenSearch Service now provides validation advisory for domain configuration changes, which helps you make informed decisions about changes that carry risk but can still be applied. Each configuration validation is now classified as either Critical, which blocks the change, or Warning, which gives advisory guidance that you can acknowledge before you proceed.&lt;/p&gt;\n&lt;p&gt;Previously, validation results were limited to pass or block. There was no way to flag changes that would succeed but carry risk. Validation advisory helps you find potential issues without blocking deployments. Examples include dedicated coordinator nodes that may be too small for the data node configuration, or a shard count that exceeds the recommended limit for the cluster. You can acknowledge warnings when you first submit a change, review severity in dry-run results before applying changes, set acknowledgments directly in AWS CloudFormation templates, and see severity in API responses and Amazon EventBridge notifications.&lt;/p&gt;\n&lt;p&gt;Validation advisory supports all Amazon OpenSearch Service domains running either OpenSearch or Elasticsearch versions. It is available in all AWS Regions where Amazon OpenSearch Service is available. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/managedomains-configuration-changes.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-validation-advisory/",
+      "publishedAt": "2026-10-02T09:35:00.000Z",
+      "updatedAt": "2026-10-02T09:35:00.000Z",
+      "categories": [
+        "Databases",
+        "Analytics",
+        "Amazon Opensearch Service"
+      ],
+      "services": [
+        "OpenSearch"
+      ],
+      "tags": [
+        "databases",
+        "analytics",
+        "amazon opensearch service",
+        "opensearch"
+      ],
+      "isNew": false,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "f30e21eb0a319aa8",
       "title": "Amazon ElastiCache for Valkey now supports OpenTelemetry metrics and detailed monitoring",
       "description": "Amazon ElastiCache for Valkey now publishes OpenTelemetry metrics to Amazon CloudWatch for your node-based clusters, and each metric carries attributes you can filter and aggregate on with Prometheus Query Language (PromQL) expressions. ElastiCache now offers two monitoring modes. Standard monitoring, the existing experience, continues to publish CloudWatch Metrics (Classic) every 60 seconds and now also publishes a core set of OpenTelemetry metrics at the same interval at no additional charge. Detailed monitoring, the new mode, lets you select from the full set of OpenTelemetry metrics and pu",
@@ -9442,7 +9617,7 @@
         "databases",
         "elasticache"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -11267,7 +11442,7 @@
         "s3",
         "dynamodb"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 5,
       "securityLevel": "low",
       "securityMatches": [
@@ -11809,6 +11984,89 @@
       "source": "whats-new"
     },
     {
+      "id": "6e28a735e8d9c369",
+      "title": "AWS Cost Explorer, Budgets, and Dashboards now support Amazon Bedrock product attributes",
+      "description": "AWS Cost Explorer, AWS Budgets, and AWS Cost Management Dashboards now let you analyze Amazon Bedrock costs by product attributes, a new dimension that breaks down Bedrock cost by model, model provider, inference type, and feature. In Cost Explorer and Dashboards, you can group and filter costs by these attributes. In Budgets, you can filter budgets by the same attributes. With this launch, finance and platform teams get a direct view of which models and workloads drive their Bedrock spend, and can act on it in the billing tools they already use. The attributes include model (such as Claude So",
+      "descriptionHtml": "&lt;p&gt;AWS Cost Explorer, AWS Budgets, and AWS Cost Management Dashboards now let you analyze Amazon Bedrock costs by product attributes, a new dimension that breaks down Bedrock cost by model, model provider, inference type, and feature. In Cost Explorer and Dashboards, you can group and filter costs by these attributes. In Budgets, you can filter budgets by the same attributes.&lt;/p&gt;\n&lt;p&gt;With this launch, finance and platform teams get a direct view of which models and workloads drive their Bedrock spend, and can act on it in the billing tools they already use. The attributes include model (such as Claude Sonnet 5 or Claude Haiku 4.5), model provider (such as Anthropic or Cohere), inference type (such as input tokens or output tokens), and feature (such as on-demand inference or reranker). You can combine product attributes with cost allocation tags on application inference profiles, projects, or workspaces to see which applications drive spend on each model, and with IAM principal tags to see which users or roles drive it. Group a month of Bedrock spend by model in Cost Explorer to find your most expensive models, build a dashboard widget that tracks cost per provider, or set a budget that alerts on spend for a single model.&lt;/p&gt;\n&lt;p&gt;The Amazon Bedrock product attribute dimension is available today at no additional charge in all AWS Regions, excluding the AWS GovCloud (US) Regions and the China (Beijing) and China (Ningxia) Regions. To learn more, see the user guides for&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html\"&gt;Cost Explorer&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html\"&gt;Budgets&lt;/a&gt;, and &lt;a href=\"https://docs.aws.amazon.com/cost-management/latest/userguide/dashboards.html\"&gt;Dashboards&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-bedrock-attributes-in-cost-explorer/",
+      "publishedAt": "2026-10-08T18:51:00.000Z",
+      "updatedAt": "2026-10-08T18:51:00.000Z",
+      "categories": [
+        "AWS Cost Explorer",
+        "Cost Management",
+        "Amazon Bedrock",
+        "AWS Budgets"
+      ],
+      "services": [
+        "Bedrock",
+        "Cost Explorer",
+        "Budgets"
+      ],
+      "tags": [
+        "aws cost explorer",
+        "cost management",
+        "amazon bedrock",
+        "aws budgets",
+        "bedrock",
+        "cost explorer",
+        "budgets"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "3d60798aedee644e",
+      "title": "Amazon GameLift Servers adds CPU burstability for container fleets",
+      "description": "Amazon GameLift Servers now supports CPU burstability for container fleets, giving game developers greater flexibility in how compute resources are allocated and consumed at runtime. Previously, container fleets relied on a fixed CPU value that simultaneously controlled both container packing density and imposed a hard runtime cap. This dual constraint forced developers to choose between efficient resource utilization and maintaining performance headroom for their game server workloads. Game server workloads are inherently bursty, CPU demand stays low during most of a match but spikes sharply ",
+      "descriptionHtml": "&lt;p&gt;Amazon GameLift Servers now supports CPU burstability for container fleets, giving game developers greater flexibility in how compute resources are allocated and consumed at runtime. Previously, container fleets relied on a fixed CPU value that simultaneously controlled both container packing density and imposed a hard runtime cap. This dual constraint forced developers to choose between efficient resource utilization and maintaining performance headroom for their game server workloads.&lt;/p&gt;\n&lt;p&gt;Game server workloads are inherently bursty, CPU demand stays low during most of a match but spikes sharply during physics calculations, AI processing, or collision detection. With CPU burstability, developers can now pack containers based on typical CPU needs while still allowing game server processes to burst into available idle instance CPU during peak demand moments. This opt-in feature is configured per container group definition, supports high-density deployments without sacrificing peak performance, and is included at no additional cost as part of standard container fleet pricing.&lt;/p&gt;\n&lt;p&gt;CPU burstability for Amazon GameLift Servers container fleets is available in all AWS Regions where container fleets are supported, excluding China Regions.&lt;/p&gt;\n&lt;p&gt;To learn more about CPU burstability for Amazon GameLift Servers container fleets, visit the &lt;a href=\"https://docs.aws.amazon.com/gameliftservers/latest/developerguide/release-notes.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon GameLift Servers Developer Guide&lt;/a&gt; or explore the &lt;a href=\"https://aws.amazon.com/gamelift/servers/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon GameLift Servers product page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-gamelift-servers-cpu-burstability",
+      "publishedAt": "2026-10-08T08:00:00.000Z",
+      "updatedAt": "2026-10-08T08:00:00.000Z",
+      "categories": [
+        "Amazon Gamelift",
+        "Game Development"
+      ],
+      "services": [],
+      "tags": [
+        "amazon gamelift",
+        "game development"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "302e3cafa3afcc74",
+      "title": "Amazon EC2 C8gb instances now generally available in additional regions",
+      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gb instances, powered by the latest-generation AWS Graviton4 processors, are available in the US East (Ohio), US West (N. California), EU (Frankfurt, Ireland, Paris, Stockholm), and Africa (Cape Town) regions. The new instances provide up to 30% better compute performance than AWS Graviton3-based EC2 instances. At up to 300 Gbps EBS bandwidth and 1600K IOPS, C8gb instances offer higher EBS performance compared to same-sized equivalent Graviton4-based instances. Take advantage of the higher block storage performance offered by these ne",
+      "descriptionHtml": "&lt;p style=\"text-align: left;\"&gt;Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gb instances, powered by the latest-generation AWS Graviton4 processors, are available in the US East (Ohio), US West (N. California), EU (Frankfurt, Ireland, Paris, Stockholm), and Africa (Cape Town) regions. The new instances provide up to 30% better compute performance than AWS Graviton3-based EC2 instances. At up to 300 Gbps EBS bandwidth and 1600K IOPS, C8gb instances offer higher EBS performance compared to same-sized equivalent Graviton4-based instances.&lt;/p&gt;\n&lt;p style=\"text-align: left;\"&gt;Take advantage of the higher block storage performance offered by these new EBS optimized EC2 instances to scale the performance and throughput of workloads such as high-performance file systems, while optimizing the cost of running your workloads.&lt;/p&gt;\n&lt;p style=\"text-align: left;\"&gt;For increased scalability, these instances offer instance sizes up to 48xlarge, up to 384 GiB of memory, up to 300 Gbps of EBS bandwidth, up to 400 Gbps of networking bandwidth. These instances support Elastic Fabric Adapter (EFA) networking on the 16xlarge, 24xlarge, 48xlarge sizes, which enables lower latency and improved cluster performance for workloads deployed on tightly coupled clusters.&lt;/p&gt;\n&lt;p style=\"text-align: left;\"&gt;C8gb instances are available in the following AWS Regions: US East (N. Virginia, Ohio), US West (N.California, Oregon), EU (Frankfurt, Ireland, Paris, Stockholm), and Africa (Cape Town).&lt;/p&gt;\n&lt;p style=\"text-align: left;\"&gt;To learn more, see &lt;a href=\"https://aws.amazon.com/ec2/instance-types/c8g/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon EC2 C8gb Instances&lt;/a&gt;. To begin your Graviton journey, visit the &lt;a href=\"https://aws.amazon.com/ec2/graviton/level-up-with-graviton/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Level up your compute with AWS Graviton page&lt;/a&gt;. To get started, see &lt;a href=\"https://console.aws.amazon.com/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Management Console&lt;/a&gt;, &lt;a href=\"https://aws.amazon.com/cli/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Command Line Interface (AWS CLI)&lt;/a&gt;, and &lt;a href=\"https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS SDKs&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-c8gb/",
+      "publishedAt": "2026-10-07T18:26:00.000Z",
+      "updatedAt": "2026-10-07T18:26:00.000Z",
+      "categories": [
+        "Compute",
+        "Amazon Ec2"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "compute",
+        "amazon ec2",
+        "ec2"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "15c7cbb99663dbe5",
       "title": "AWS Capabilities by Region now offers availability notifications for individual features and advanced filters",
       "description": "Today, AWS announces feature-level availability notifications and advanced filters for AWS Capabilities by Region in AWS Builder Center. You can now set availability notifications for AWS service, or to an individual feature of an AWS service, in the AWS Regions you are interested in, and receive an in-app notification and a weekly email digest covering all the capabilities that became available since you enabled availability notifications. Setting availability notifications for a service covers every feature within it, and an 'All regions' option covers every Region, including AWS Regions tha",
@@ -12078,7 +12336,7 @@
       "tags": [
         "developer tools"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -12099,7 +12357,7 @@
       "tags": [
         "q"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -12125,7 +12383,7 @@
         "databases",
         "dynamodb"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -13648,287 +13906,6 @@
         "general:products",
         "amazon connect",
         "connect"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "f49ec69593ff8dad",
-      "title": "Monitor cost anomalies directly in Billing and Cost Management Dashboards with the new Detected Anomalies widget",
-      "description": "Today, AWS Billing and Cost Management (BCM) announces support for the Detected Anomalies widget in BCM Dashboards. You can now review cost anomalies alongside cost and usage, budgets, cost efficiency, and reports for Savings Plans and Reserved Instance coverage and utilization. This provides a unified view of your spending, commitments, and cost anomalies in a single, tailored dashboard. The Detected Anomalies widget displays the number of anomalies detected and their total cost impact relative to your month-to-date spend, giving you immediate context on each anomaly's scale. For each anomaly",
-      "descriptionHtml": "&lt;p&gt;Today, AWS Billing and Cost Management (BCM) announces support for the Detected Anomalies widget in BCM Dashboards. You can now review cost anomalies alongside cost and usage, budgets, cost efficiency, and reports for Savings Plans and Reserved Instance coverage and utilization. This provides a unified view of your spending, commitments, and cost anomalies in a single, tailored dashboard.&lt;/p&gt;\n&lt;p&gt;The Detected Anomalies widget displays the number of anomalies detected and their total cost impact relative to your month-to-date spend, giving you immediate context on each anomaly's scale. For each anomaly, you can review the cost impact, root cause, and duration. Choose a look-back period of 30, 60, or 90 days, and filter by severity, service, account, and region so that each dashboard shows the anomalies most relevant to that account. By adding one or more Detected Anomalies widget to a BCM Dashboard, finance teams and cloud administrators can monitor anomalies from their existing cost management workflows.&lt;/p&gt;\n&lt;p&gt;The widget links directly to the AWS Cost Anomaly Detection console so you can easily investigate an anomaly and record your assessment. It is fully integrated with dashboard exports and can be included in scheduled email reports or downloaded as a CSV or PDF for offline analysis. It is also included with cross-account dashboard sharing.&lt;/p&gt;\n&lt;p&gt;The Detected Anomalies widget for BCM Dashboards is available in all commercial AWS Regions at no additional charge. To learn more, visit our &lt;a href=\"https://docs.aws.amazon.com/cost-management/latest/userguide/dashboards.html\"&gt;User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/monitor-detected-anomalies-using-dashboards",
-      "publishedAt": "2026-09-15T22:00:00.000Z",
-      "updatedAt": "2026-09-15T22:00:00.000Z",
-      "categories": [
-        "AWS Management Console",
-        "Business Productivity",
-        "Cost Management",
-        "Cloud Financial Management"
-      ],
-      "services": [],
-      "tags": [
-        "aws management console",
-        "business productivity",
-        "cost management",
-        "cloud financial management"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "bba45943f7f6b41d",
-      "title": "AWS Direct Connect announces flat-rate pricing for dedicated connections",
-      "description": "AWS Direct Connect announces flat-rate pricing for 10G and 100G dedicated connections AWS Direct Connect provides dedicated network connectivity from on-premises environments to AWS. Customers value the flexibility of AWS Direct Connect's pay-as-you-go pricing, paying only for the port hours and data transfer out (DTO) they use, with no upfront commitment or long-term contracts. For workloads with large, sustained DTO, the per-gigabyte charges vary from month to month, making monthly costs challenging to predict as traffic grows. Flat-rate pricing for 10 Gbps and 100 Gbps dedicated connections",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;AWS Direct Connect announces flat-rate pricing for 10G and 100G dedicated connections&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;AWS Direct Connect provides dedicated network connectivity from on-premises environments to AWS. Customers value the flexibility of AWS Direct Connect's pay-as-you-go pricing, paying only for the port hours and data transfer out (DTO) they use, with no upfront commitment or long-term contracts. For workloads with large, sustained DTO, the per-gigabyte charges vary from month to month, making monthly costs challenging to predict as traffic grows. Flat-rate pricing for 10 Gbps and 100 Gbps dedicated connections introduces a single fixed monthly price that eliminates DTO charges within the selected pricing tier. This pricing model is designed for network architects, enterprise IT teams, and FinOps practitioners who need predictable, fixed-line-item network budgeting. With a fixed monthly price,&amp;nbsp; you can grow your use of AWS without worrying about increasing data transfer bills.&lt;/p&gt;\n&lt;p&gt;With flat-rate pricing, you pay a single fee based on your connection bandwidth and the geographical scope of your connectivity. With five geographic tiers ranging from same-metro to global coverage, customers can select the scope that matches their traffic patterns and pay one consistent monthly rate regardless of data volume. Flat-rate pricing also introduces the port-pair concept, a new way to provision dedicated connections with inbuilt resiliency. A port-pair is two dedicated connections on different devices or locations that share the same bandwidth and geographical connectivity scope. One connection carries your traffic while the other stands by for redundancy. The second connection is included at no additional charge. Port-pairs are recommended but optional.&lt;/p&gt;\n&lt;p&gt;Flat-rate pricing is available at all AWS Direct Connect locations across all commercial AWS Regions (China Regions excluded) and applies exclusively to Dedicated Connections. The pricing model is configured per connection and gives customers the flexibility to switch billing mode on connections at any time.&lt;/p&gt;\n&lt;p&gt;To learn more about flat-rate pricing tiers, port-pair configurations, and eligibility requirements, visit the &lt;a href=\"http://aws.amazon.com/directconnect/pricing/flat-rate/\"&gt;AWS Direct Connect Flat-Rate Pricing&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/directconnect/latest/UserGuide/flat-rate-connections.html\"&gt;User Guide&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/directconnect/latest/PricingGuide/pricing-flat-rate.html\"&gt;Pricing Guide&lt;/a&gt; pages.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/",
-      "publishedAt": "2026-09-15T19:00:00.000Z",
-      "updatedAt": "2026-09-15T19:00:00.000Z",
-      "categories": [
-        "Pricing",
-        "AWS Direct Connect",
-        "Networking",
-        "Networking And Content Delivery"
-      ],
-      "services": [
-        "Direct Connect",
-        "Connect"
-      ],
-      "tags": [
-        "pricing",
-        "aws direct connect",
-        "networking",
-        "networking and content delivery",
-        "direct connect",
-        "connect"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "c4284db6afceda3f",
-      "title": "AWS Step Functions adds new AWS service integrations automatically, starting with AWS Lambda MicroVMs",
-      "description": "AWS Step Functions now automatically adds AWS SDK integrations for new AWS services and capabilities within weeks of their release, starting with AWS Lambda MicroVMs, AWS Lambda Core and others. Now, you can orchestrate the latest AWS services from your workflows without waiting for updates. AWS Step Functions is a visual workflow service capable of orchestrating over 220 AWS services to help customers build distributed applications at scale. With the AWS Lambda Core and AWS Lambda MicroVMs service integrations, you can orchestrate agentic workflows without writing custom coordination code. Yo",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/step-functions/\"&gt;AWS Step Functions&lt;/a&gt; now automatically adds AWS SDK integrations for new AWS services and capabilities within weeks of their release, starting with AWS Lambda MicroVMs, AWS Lambda Core and others. Now, you can orchestrate the latest AWS services from your workflows without waiting for updates.&amp;nbsp;\n &lt;br&gt;\n &amp;nbsp;\n &lt;br&gt;\n AWS Step Functions is a visual workflow service capable of orchestrating over 220 AWS services to help customers build distributed applications at scale. With the AWS Lambda Core and AWS Lambda MicroVMs service integrations, you can orchestrate agentic workflows without writing custom coordination code. You can use Step Functions to launch Lambda MicroVMs, which provide isolated, secure execution environments for each agent task with built-in retries if an environment fails to start. You can run multiple tasks simultaneously using Step Functions Parallel or Map states and automatically terminate environments when the task completes. You can use Lambda Core to configure the private networking those MicroVM environments need to securely reach your internal databases or APIs in the same workflow.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;This expansion also includes AWS Partner Central Revenue Measurement, AWS Resilience Hub V2, AWS Support Authorization and Amazon SageMaker Job Runtime. Going forward, new AWS services will automatically appear as Step Functions integrations within weeks of their release with no additional configuration or action required. As updates will be continuous, we will no longer publish What's New posts to highlight new AWS SDK service integration updates.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;\n &lt;br&gt;\n These enhancements are now generally available in all AWS Regions where AWS Step Functions is available. Specific services and API actions are subject to the availability of the target service in the AWS Region. To learn more about AWS Step Functions SDK integrations, visit the &lt;a href=\"https://docs.aws.amazon.com/step-functions/latest/dg/integrate-services.html\"&gt;Developer Guide&lt;/a&gt;, or see the full list of supported services at &lt;a href=\"https://docs.aws.amazon.com/step-functions/latest/dg/supported-services-awssdk.html\"&gt;AWS SDK service integrations,&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/step-functions/latest/dg/awssdk-release-history.html\"&gt;integration release history&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-integrations/",
-      "publishedAt": "2026-09-15T18:54:00.000Z",
-      "updatedAt": "2026-09-15T18:54:00.000Z",
-      "categories": [
-        "Serverless",
-        "AWS Step Functions"
-      ],
-      "services": [
-        "Lambda",
-        "Step Functions"
-      ],
-      "tags": [
-        "serverless",
-        "aws step functions",
-        "lambda",
-        "step functions"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "949447ff541f1696",
-      "title": "Amazon SageMaker AI now supports instance preference lists for training and processing jobs",
-      "description": "Today, Amazon SageMaker AI announces instance preference lists for training and processing jobs, making it easier and faster to find compute capacity for your workloads. Many AI training, fine-tuning, and data processing workloads run comparably well on any of several instance types or sizes. However, before now, you had to name only one instance type at the time of job submission and wait for SageMaker to find that specific instance for your job. For high-demand GPUs during peak periods, where wait times can be unpredictable, customers sometimes had to build complex retry logic or concurrentl",
-      "descriptionHtml": "&lt;p&gt;Today, Amazon SageMaker AI announces instance preference lists for training and processing jobs, making it easier and faster to find compute capacity for your workloads. Many AI training, fine-tuning, and data processing workloads run comparably well on any of several instance types or sizes. However, before now, you had to name only one instance type at the time of job submission and wait for SageMaker to find that specific instance for your job. For high-demand GPUs during peak periods, where wait times can be unpredictable, customers sometimes had to build complex retry logic or concurrently submit multiple jobs with different instance types to find the first available option. Now you can simply provide a prioritized list of the instance types your workload accepts, and SageMaker automatically runs your job on the first available configuration from your preferences. With this solution, your training or processing job will likely start sooner.&lt;/p&gt;\n&lt;p&gt;To use this feature, you specify your instance type and count preferences in priority order when submitting the training or processing job. For example, your list might contain a preference of two instances of ml.g6.48xlarge or four instances of ml.g5.48xlarge. SageMaker works through the list and launches your job on the first configuration where capacity is available. You can also configure the capacity sourcing from on-demand sources or from your reserved SageMaker Flexible Training Plans within the same job submission. This feature simplifies the process of getting compute for your jobs during high-demand periods and reduces the undifferentiated manual retrying you would otherwise do, all within the SageMaker training and processing job APIs you already use.&lt;/p&gt;\n&lt;p&gt;Instance preference lists for SageMaker training and processing jobs is available today in all AWS Regions where SageMaker is available through the SageMaker CLIs, APIs, SDKs and Console UI. To learn more, see our &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/train-instance-preferences.html\"&gt;documentation&lt;/a&gt;&amp;nbsp;or our &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/\"&gt;launch blog&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-training-processing-instance-pref-lists/",
-      "publishedAt": "2026-09-15T18:30:00.000Z",
-      "updatedAt": "2026-09-15T18:30:00.000Z",
-      "categories": [
-        "Amazon Sagemaker Training",
-        "Aiml"
-      ],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "amazon sagemaker training",
-        "aiml",
-        "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "0fedb6eca294acd4",
-      "title": "Amazon Connect Customer now enables agents to bid on preferred shifts",
-      "description": "Amazon Connect Customer now enables agents to bid on preferred shifts, giving them more control over their work schedules. Schedulers first establish agent ranking either by uploading a CSV file or generating a randomized ranking. Connect Customer then uses forecasted demand and shift profiles to generate available shifts and presents them to agents to rank. For example, in a Monday–Friday 6AM–10PM shift profile with 9-hour shifts, required shifts are 6AM–3PM (500 agents), 9AM–6PM (800 agents), and 1PM–10PM (600 agents). Once the bidding window closes, Connect Customer automatically assigns ea",
-      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now enables agents to bid on preferred shifts, giving them more control over their work schedules. Schedulers first establish agent ranking either by uploading a CSV file or generating a randomized ranking. Connect Customer then uses forecasted demand and shift profiles to generate available shifts and presents them to agents to rank. For example, in a Monday–Friday 6AM–10PM shift profile with 9-hour shifts, required shifts are 6AM–3PM (500 agents), 9AM–6PM (800 agents), and 1PM–10PM (600 agents). Once the bidding window closes, Connect Customer automatically assigns each agent to their highest-ranked available shift while using agent ranking as a tiebreaker. Shift bidding gives agents a structured way to influence their own schedules, while reducing the time schedulers spend on manual shift assignments, improving both agent satisfaction and scheduling efficiency.&lt;/p&gt;\n&lt;p&gt;This feature is available in all&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#optimization_region\"&gt;AWS Regions&lt;/a&gt;&amp;nbsp;where Amazon Connect Customer agent scheduling is available. To learn more about Amazon Connect Customer agent scheduling, click&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/forecasting-capacity-planning-scheduling.html\"&gt;here&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-shift-bidding/",
-      "publishedAt": "2026-09-15T16:00:00.000Z",
-      "updatedAt": "2026-09-15T16:00:00.000Z",
-      "categories": [
-        "AWS Govcloud Us",
-        "Amazon Connect",
-        "Business Productivity"
-      ],
-      "services": [
-        "Connect"
-      ],
-      "tags": [
-        "aws govcloud us",
-        "amazon connect",
-        "business productivity",
-        "connect"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "7bd7807b3ef2059d",
-      "title": "AWS Glue zero-ETL now captures archived Salesforce records",
-      "description": "AWS Glue zero-ETL integrations for Salesforce now capture archived records in your target tables, giving you a complete replica of your Salesforce data for analytics and reporting. Archived records are identified and reflected accurately through the isArchived field, so your analytical data stays fully in sync with your Salesforce source. This is especially valuable for high-volume entities that Salesforce archives automatically, such as Events, Tasks, and Activities, giving you complete visibility into this data in your analytical data stores. This feature applies to your zero-ETL integration",
-      "descriptionHtml": "&lt;p&gt;AWS Glue zero-ETL integrations for Salesforce now capture archived records in your target tables, giving you a complete replica of your Salesforce data for analytics and reporting. Archived records are identified and reflected accurately through the isArchived field, so your analytical data stays fully in sync with your Salesforce source. This is especially valuable for high-volume entities that Salesforce archives automatically, such as Events, Tasks, and Activities, giving you complete visibility into this data in your analytical data stores.&lt;/p&gt;\n&lt;p&gt;This feature applies to your zero-ETL integrations with no action required. New integrations capture archived records automatically from the moment the integration is created. For existing integrations, AWS Glue automatically backfills archived record status, with no re-sync, reconfiguration, or schema change needed. Your existing pipelines continue running uninterrupted while the isArchived field is populated accurately on your behalf.&lt;/p&gt;\n&lt;p&gt;This feature is available in all AWS Commercial and AWS GovCloud (US) Regions where AWS Glue zero-ETL integrations for Salesforce are supported.&lt;/p&gt;\n&lt;p&gt;To get started, create or continue using an AWS Glue zero-ETL integration for Salesforce using the &lt;a href=\"https://console.aws.amazon.com/glue/\"&gt;AWS Glue console&lt;/a&gt;, CLI, or SDK. To learn more, see AWS Glue zero-ETL &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/zero-etl-sources.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/glue-zero-etl-archived-salesforce/",
-      "publishedAt": "2026-09-15T08:00:00.000Z",
-      "updatedAt": "2026-09-15T08:00:00.000Z",
-      "categories": [
-        "Databases",
-        "AWS Glue",
-        "Analytics"
-      ],
-      "services": [
-        "Glue"
-      ],
-      "tags": [
-        "databases",
-        "aws glue",
-        "analytics",
-        "glue"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "8732e22c58dc561e",
-      "title": "Qwen3.6-35B-A3B-NVFP4 and Wan2.1-T2V-1.3B-Diffusers models now available on Amazon SageMaker JumpStart",
-      "description": "NVIDIA's Qwen3.6-35B-A3B-NVFP4 and Alibaba's Wan2.1-T2V-1.3B-Diffusers models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning agentic coding with long-context reasoning and lightweight text-to-video generation, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI challenges with specialized capabilities: Qwen3.6-35B-A3B-NVFP4 is optimized for agentic coding, multimodal reasoning, an",
-      "descriptionHtml": "&lt;p&gt;NVIDIA's Qwen3.6-35B-A3B-NVFP4 and Alibaba's Wan2.1-T2V-1.3B-Diffusers models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spanning agentic coding with long-context reasoning and lightweight text-to-video generation, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.&lt;/p&gt;\n&lt;p&gt;These models address different enterprise AI challenges with specialized capabilities:&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Qwen3.6-35B-A3B-NVFP4&lt;/b&gt; is optimized for &lt;b&gt;agentic coding, multimodal reasoning, and long-context understanding&lt;/b&gt; as the NVIDIA-quantized variant of Alibaba's Qwen3.6-35B-A3B. This Mixture-of-Experts model contains 35B total parameters with only 3B activated per token (8 of 256 experts), supporting a 262K-token context window extendable to ~1M via YaRN scaling. Quantized to NVFP4 using NVIDIA's ModelOpt framework, it preserves thinking across conversation turns, multi-token prediction, and tool calling for multi-step agent pipelines—all at a significantly reduced memory footprint.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Wan2.1-T2V-1.3B-Diffusers&lt;/b&gt; excels in &lt;b&gt;text-to-video generation on consumer-grade hardware&lt;/b&gt;. Built on the diffusion transformer paradigm with a novel Video Variational Autoencoder (VAE), this 1.3B-parameter model generates high-quality, physics-consistent video clips from text prompts while requiring only 8.19 GB of VRAM. It can produce a 5-second 480p video on an RTX 4090 in approximately 4 minutes, making it one of the most accessible open-source video generation models available.&lt;/p&gt;\n&lt;p&gt;With SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.&lt;/p&gt;\n&lt;p&gt;To get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/qwen3.6-35b-a3b-nvfp4-wan2.1-t2v-1.3B-diffusers-jumpstart/",
-      "publishedAt": "2026-09-14T17:39:00.000Z",
-      "updatedAt": "2026-09-14T17:39:00.000Z",
-      "categories": [
-        "Aiml",
-        "Amazon Sagemaker Jumpstart",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "aiml",
-        "amazon sagemaker jumpstart",
-        "artificial intelligence",
-        "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "327a7b0dd0e4df8f",
-      "title": "Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models now available on Amazon SageMaker JumpStart",
-      "description": "Mistral AI's Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models from the Ministral 3 family bring compact, vision-capable language models purpose-built for edge deployment and resource-constrained environments, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI challenges with specialized capabilities: Ministral-3-3B-Instruct-2512 is engineered for ultra-",
-      "descriptionHtml": "&lt;p&gt;Mistral AI's Ministral-3-3B-Instruct-2512 and Ministral-3-8B-Instruct-2512 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models from the Ministral 3 family bring compact, vision-capable language models purpose-built for edge deployment and resource-constrained environments, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.&lt;/p&gt;\n&lt;p&gt;These models address different enterprise AI challenges with specialized capabilities:&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Ministral-3-3B-Instruct-2512&lt;/b&gt; is engineered for &lt;b&gt;ultra-lightweight edge deployment with multimodal understanding&lt;/b&gt;. Comprising a 3.4B language model and a 0.4B vision encoder, it fits in just 8GB of VRAM in FP8 while supporting a 256K-token context window. It offers vision analysis, multilingual instruction following across dozens of languages (including English, French, Spanish, German, Chinese, Japanese, Korean, and Arabic), strong system-prompt adherence, and native function calling with structured JSON output—all under the Apache 2.0 license.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Ministral-3-8B-Instruct-2512&lt;/b&gt; delivers &lt;b&gt;frontier-class capabilities comparable to its larger Mistral Small 3.2 24B counterpart&lt;/b&gt; in a compact 8B form factor. Built with an 8.4B language model and a 0.4B vision encoder, it fits in 12GB of VRAM in FP8 and features an interleaved sliding-window attention pattern for faster, memory-efficient inference. It shares the same vision, multilingual, agentic, and function-calling capabilities as its 3B sibling while offering stronger reasoning and generation performance.&lt;/p&gt;\n&lt;p&gt;With SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.&lt;/p&gt;\n&lt;p&gt;To get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/ministral-3-3b-instruct-2512-ministral-3-8B-Instruct-2512-jumpstart/",
-      "publishedAt": "2026-09-14T17:35:00.000Z",
-      "updatedAt": "2026-09-14T17:35:00.000Z",
-      "categories": [
-        "Aiml",
-        "Artificial Intelligence",
-        "Amazon Sagemaker Jumpstart"
-      ],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "aiml",
-        "artificial intelligence",
-        "amazon sagemaker jumpstart",
-        "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "13e94cc65ebb117f",
-      "title": "Gemma-4-31B-it-assistant and Gemma-4-31B-IT-NVFP4 models now available on Amazon SageMaker JumpStart",
-      "description": "Google DeepMind's Gemma-4-31B-it-assistant and NVIDIA's Gemma-4-31B-IT-NVFP4 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring the flagship Gemma 4 31B dense architecture to enterprise workloads in both full-precision and optimized quantized variants, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI challenges with specialized capabilities: Gemma-4-31B-it-assistant is built for multimodal reasoning, coding,",
-      "descriptionHtml": "&lt;p&gt;Google DeepMind's Gemma-4-31B-it-assistant and NVIDIA's Gemma-4-31B-IT-NVFP4 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring the flagship Gemma 4 31B dense architecture to enterprise workloads in both full-precision and optimized quantized variants, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.&lt;/p&gt;\n&lt;p&gt;These models address different enterprise AI challenges with specialized capabilities:&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Gemma-4-31B-it-assistant&lt;/b&gt; is built for &lt;b&gt;multimodal reasoning, coding, and agentic workflows&lt;/b&gt; as the assistant-tuned variant of Google's flagship 31B dense model. It handles text and image inputs (including video as frame sequences) and generates text output, with a 256K-token context window and support for over 140 languages. Ranked #3 among open models on the Arena AI text leaderboard—outcompeting models 20x its size—it features a hybrid attention mechanism interleaving local sliding-window and full global attention with native function calling for building autonomous agents.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Gemma-4-31B-IT-NVFP4&lt;/b&gt; delivers the &lt;b&gt;same Gemma 4 31B capabilities at a fraction of the memory footprint&lt;/b&gt;. Quantized with NVIDIA's ModelOpt framework to 4-bit FP4 precision, it reduces memory usage to ~18.5 GB (68% smaller than the base model) and achieves approximately 2.5x faster inference while retaining 97–99% of the original model's quality. Ideal for cost-efficient, high-throughput production deployments on NVIDIA RTX, DGX Spark, and data center GPUs.&lt;/p&gt;\n&lt;p&gt;With SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.&lt;/p&gt;\n&lt;p&gt;To get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/gemma-4-31b-it-assistant-gemma-4-31b-it-nvfp4-jumpstart/",
-      "publishedAt": "2026-09-14T17:32:00.000Z",
-      "updatedAt": "2026-09-14T17:32:00.000Z",
-      "categories": [
-        "Amazon Sagemaker Jumpstart",
-        "Aiml",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "amazon sagemaker jumpstart",
-        "aiml",
-        "artificial intelligence",
-        "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "ab4a968a1915c206",
-      "title": "granite-speech-4.1-2b, kanana-2-30b-a3b-instruct, and OpenFold3 models now available on Amazon SageMaker JumpStart",
-      "description": "BM's granite-speech-4.1-2b, Kakao's kanana-2-30b-a3b-instruct, and the OpenFold Consortium's OpenFold3 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning multilingual speech recognition, bilingual agentic AI, and biomolecular structure prediction, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure. These models address different enterprise AI challenges with specialized capabilities: granite-speech-4.1-2b is purpose-bui",
-      "descriptionHtml": "&lt;p&gt;BM's granite-speech-4.1-2b, Kakao's kanana-2-30b-a3b-instruct, and the OpenFold Consortium's OpenFold3 models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities spanning multilingual speech recognition, bilingual agentic AI, and biomolecular structure prediction, enabling customers to deploy high-performance, scalable AI solutions on AWS infrastructure.&lt;/p&gt;\n&lt;p&gt;These models address different enterprise AI challenges with specialized capabilities:&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;granite-speech-4.1-2b&lt;/b&gt; is purpose-built for &lt;b&gt;multilingual automatic speech recognition (ASR) and bidirectional speech translation (AST)&lt;/b&gt; across English, French, German, Spanish, Portuguese, and Japanese. This compact 2B-parameter speech-language model delivers a word error rate of 5.33% with a real-time factor of ~231, making it one of the most efficient ASR models in its class. Released under Apache 2.0, it integrates seamlessly into enterprise voice workflows for transcription, translation, and audio processing at scale.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;kanana-2-30b-a3b-instruct&lt;/b&gt; excels in &lt;b&gt;bilingual Korean-English instruction following and agentic AI workflows&lt;/b&gt;. Developed by Kakao, it adopts a cutting-edge architecture featuring Multi-head Latent Attention (MLA) and Mixture-of-Experts (MoE), activating only 3B of its 30B total parameters per forward pass for superior throughput. Post-trained with supervised fine-tuning and reinforcement learning, it supports up to 128K tokens via YaRN scaling and is designed to function as an AI collaborator that understands context and acts proactively.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;OpenFold3&lt;/b&gt; provides &lt;b&gt;all-atom biomolecular complex structure prediction&lt;/b&gt; for proteins, DNA, RNA, and small-molecule ligands. Developed by the OpenFold Consortium and the AlQuraishi Lab at Columbia University, this diffusion-based model extends structure prediction beyond single proteins to model multi-chain complexes and heterogeneous biomolecular interactions. It supports computer-aided drug design and is applicable across academic and pharmaceutical research labs.&lt;/p&gt;\n&lt;p&gt;With SageMaker JumpStart, customers can deploy any of these models with just a few clicks to address their specific AI use cases.&lt;/p&gt;\n&lt;p&gt;To get started with these models, navigate to the SageMaker JumpStart model catalog in the SageMaker console or use the SageMaker Python SDK to deploy the models to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"&gt;Amazon SageMaker JumpStart documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/granite-speech-4.1-2b-edge-kanana-2-30b-a3b-instruct-openfold3-jumpstart/",
-      "publishedAt": "2026-09-14T17:30:00.000Z",
-      "updatedAt": "2026-09-14T17:30:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Amazon Sagemaker Jumpstart",
-        "Aiml"
-      ],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "amazon sagemaker jumpstart",
-        "aiml",
-        "sagemaker"
       ],
       "isNew": false,
       "securityScore": 0,
