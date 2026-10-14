@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T15:38:50.650Z",
+  "lastUpdated": "2026-10-14T13:23:29.127Z",
   "itemCount": 500,
   "items": [
     {
@@ -1303,7 +1303,7 @@
         "iam identity center",
         "lake formation"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 95,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2094,6 +2094,37 @@
       "source": "security-blog"
     },
     {
+      "id": "b05252c2ca6f40fd",
+      "title": "AWS Security Hub now supports resource criticality for prioritization",
+      "description": "Today, AWS Security Hub adds resource criticality to exposure prioritization, helping central security teams focus on the exposures that threaten their most business-critical resources. You can set criticality with an automation rule, for example marking every compute resource in a specific account as Very High. The rule applies to resources already in your inventory and to new resources as Security Hub discovers them. Security Hub also infers criticality from resource tags and resource names, with no configuration required, and records which source determined the value. Criticality appears as",
+      "descriptionHtml": "&lt;p&gt;Today, AWS Security Hub adds resource criticality to exposure prioritization, helping central security teams focus on the exposures that threaten their most business-critical resources.&lt;/p&gt;\n&lt;p&gt;You can set criticality with an automation rule, for example marking every compute resource in a specific account as Very High. The rule applies to resources already in your inventory and to new resources as Security Hub discovers them. Security Hub also infers criticality from resource tags and resource names, with no configuration required, and records which source determined the value. Criticality appears as a column on the Resources page for sorting, filtering, and grouping, and on the Impact assessment tab of an exposure finding. Resource criticality is included with Security Hub Essentials at no additional cost and is always on for all customers.&lt;/p&gt;\n&lt;p&gt;Resource criticality is included with Security Hub Essentials at no additional cost and requires no new enablement. To learn more, see&amp;nbsp; &lt;a href=\"https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub-v2.html\"&gt;AWS Security Hub User Guide&lt;/a&gt; and the &lt;a href=\"https://aws.amazon.com/security-hub/\"&gt;AWS Security Hub product page&lt;/a&gt;.&amp;nbsp;For a list of AWS Regions where Security Hub is available, see the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Region table&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-resource-criticality/",
+      "publishedAt": "2026-10-14T01:00:00.000Z",
+      "updatedAt": "2026-10-14T01:00:00.000Z",
+      "categories": [
+        "AWS Security Hub",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "Security Hub"
+      ],
+      "tags": [
+        "aws security hub",
+        "security identity and compliance",
+        "security hub"
+      ],
+      "isNew": true,
+      "securityScore": 80,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Security Hub",
+        "security",
+        "Config",
+        "threat"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "349c665257f67398",
       "title": "Improving SPIRE security and resiliency with AWS managed services",
       "description": "In cloud-centered environments, establishing trust between workloads is fundamental to securing machine-to-machine communication. Traditional approaches such as API keys, shared secrets, and static service account credentials weren’t designed for the scale and ephemeral nature of cloud workloads. This drives an organizational need to shift from long-term, static credentials to short-lived cryptographic workload identities. Organizations are […]",
@@ -2118,7 +2149,7 @@
         "technical how to",
         "security blog"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 80,
       "securityLevel": "critical",
       "securityMatches": [
@@ -3105,6 +3136,41 @@
         "Secret"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "d4d4c831f29f527e",
+      "title": "Part 2 – Cybersecurity journeys: What even is this job?",
+      "description": "If you’ve ever looked at a list of cybersecurity jobs and felt like none of them fit you, you might just be looking at a short list. Most career guides cover the same few roles, like the analyst watching alerts or the pen tester (penetration tester, someone hired to legally break into systems to find […]",
+      "descriptionHtml": "If you’ve ever looked at a list of cybersecurity jobs and felt like none of them fit you, you might just be looking at a short list. Most career guides cover the same few roles, like the analyst watching alerts or the pen tester (penetration tester, someone hired to legally break into systems to find […]",
+      "url": "https://aws.amazon.com/blogs/security/part-2-cybersecurity-journeys-what-even-is-this-job/",
+      "publishedAt": "2026-10-13T20:58:01.000Z",
+      "updatedAt": "2026-10-13T20:58:01.000Z",
+      "categories": [
+        "Foundational (100)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Thought Leadership",
+        "AWS Security Profiles",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "foundational (100)",
+        "security",
+        "identity",
+        "& compliance",
+        "thought leadership",
+        "aws security profiles",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "high",
+      "securityMatches": [
+        "security"
+      ],
+      "source": "security-blog"
     },
     {
       "id": "d39a7fb2ef13466b",
@@ -6798,7 +6864,7 @@
       "tags": [
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -10024,6 +10090,107 @@
       "source": "whats-new"
     },
     {
+      "id": "ea07bc9e1fc479af",
+      "title": "AWS Agent Registry now supports custom metadata for registry records",
+      "description": "AWS Agent Registry is the centralized, governed catalog for agents, MCP servers, agent skills, gateways, and custom resources within your organization. As organizations scale to hundreds of such resources, a name and description alone are insufficient for effective governance and discovery. Custom metadata lets you extend every registry record with your organization's own structured fields, so both people and automated systems can find and govern resources consistently. With custom metadata, publishers can record fields like team ownership, data classification, or review status directly on eac",
+      "descriptionHtml": "&lt;p&gt;AWS Agent Registry is the centralized, governed catalog for agents, MCP servers, agent skills, gateways, and custom resources within your organization. As organizations scale to hundreds of such resources, a name and description alone are insufficient for effective governance and discovery. Custom metadata lets you extend every registry record with your organization's own structured fields, so both people and automated systems can find and govern resources consistently.\n &lt;br&gt;\n &lt;br&gt;\n With custom metadata, publishers can record fields like team ownership, data classification, or review status directly on each registry record. You define a schema once per registry with common attributes, then extend it with type-specific fields — such as a model family for agent records. Each field supports free text, a URL, a Boolean, or a choice from a list of allowed values, and the registry validates required fields and values on every record creation or update. You can then filter search results on any custom metadata field from the AWS Management Console, the AWS CLI, the AWS SDKs, or the registry's MCP endpoint.\n &lt;br&gt;\n &lt;br&gt;\n Custom metadata is available in all AWS Regions where AWS Agent Registry is available: US East (N. Virginia), US West (Oregon), Asia Pacific (Sydney), Asia Pacific (Tokyo), and Europe (Ireland).\n &lt;br&gt;\n &lt;br&gt;\n To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/registry.html\"&gt;AWS Agent Registry documentation&lt;/a&gt;. For detailed setup guidance, see &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/registry-custom-metadata-schema.html\"&gt;Define a custom metadata schema&lt;/a&gt; and&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/registry-custom-metadata-values.html\"&gt;Set custom metadata values on a record&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-agent-registry-custom-metadata-registry-records",
+      "publishedAt": "2026-10-13T21:00:00.000Z",
+      "updatedAt": "2026-10-13T21:00:00.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Organizations"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "1f076240946adff9",
+      "title": "Amazon DCV releases version 2026.0 with RHEL 10 support and new clients",
+      "description": "Amazon DCV 2026.0 is now available, adding support for RHEL 10, Rocky Linux 10, CentOS 10, and Ubuntu 26.04 along with a new macOS client and updated Windows and Linux clients. Amazon DCV is a high-performance remote display protocol that enables customers to securely access remote desktops and application sessions across Windows, Linux, and macOS. Amazon DCV 2026.0 includes the following key features and improvements: Support for RHEL 10, Rocky Linux 10, CentOS 10, and Ubuntu 26.04, with Linux hosts and sessions running on the modern Wayland display server A new macOS client with gamepad supp",
+      "descriptionHtml": "&lt;p&gt;Amazon DCV 2026.0 is now available, adding support for RHEL 10, Rocky Linux 10, CentOS 10, and Ubuntu 26.04 along with a new macOS client and updated Windows and Linux clients. Amazon DCV is a high-performance remote display protocol that enables customers to securely access remote desktops and application sessions across Windows, Linux, and macOS.&lt;/p&gt;\n&lt;p&gt;Amazon DCV 2026.0 includes the following key features and improvements:&lt;/p&gt;\n&lt;ul&gt;\n &lt;li&gt;\n  &lt;p&gt;Support for RHEL 10, Rocky Linux 10, CentOS 10, and Ubuntu 26.04, with Linux hosts and sessions running on the modern Wayland display server&lt;/p&gt;\n &lt;/li&gt;\n &lt;li&gt;\n  &lt;p&gt;A new macOS client with gamepad support, and updated Windows and Linux clients&lt;/p&gt;\n &lt;/li&gt;\n &lt;li&gt;\n  &lt;p&gt;URL redirection on Windows hosts, so configured links opened in a remote session launch in the local browser on the client device&lt;/p&gt;\n &lt;/li&gt;\n &lt;li&gt;\n  &lt;p&gt;Printer preferences redirection on Windows, giving remote sessions access to client-side printer settings&lt;/p&gt;\n &lt;/li&gt;\n &lt;li&gt;\n  &lt;p&gt;Performance improvements, including H.264 frame slice support and slice-based multithreaded decoding on the Linux and macOS clients for lower latency&lt;/p&gt;\n &lt;/li&gt;\n &lt;li&gt;\n  &lt;p&gt;Support for new macOS server versions on Amazon EC2&lt;/p&gt;\n &lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;For more information about the new features and enhancements in Amazon DCV 2026.0, see the &lt;a href=\"https://docs.aws.amazon.com/dcv/latest/adminguide/doc-history-release-notes.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;release notes&lt;/a&gt; or visit the &lt;a href=\"https://aws.amazon.com/hpc/dcv/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon DCV webpage&lt;/a&gt; to learn more and get started.&lt;/p&gt;\n&lt;h2&gt;&amp;nbsp;&lt;/h2&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dcv-2026-0/",
+      "publishedAt": "2026-10-13T19:35:00.000Z",
+      "updatedAt": "2026-10-13T19:35:00.000Z",
+      "categories": [
+        "Marketing:Marchitecture"
+      ],
+      "services": [],
+      "tags": [
+        "marketing:marchitecture"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "55a7a484e5b4c0a1",
+      "title": "AWS Deadline Cloud now helps users find their accessible resources in the Deadline Cloud monitor",
+      "description": "AWS Deadline Cloud now lets users who have access to specific queues, fleets, or jobs, rather than an entire farm, find the resources they can reach directly from the Deadline Cloud monitor. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads for visual effects, animation, product design, simulation, and gaming. Previously, a user with access to only one queue had to get the farm ID from an administrator before they could reach their work. With this launch, the Deadline Cloud monitor displays to users queues they have access to, the parent IDs needed to r",
+      "descriptionHtml": "&lt;p&gt;AWS Deadline Cloud now lets users who have access to specific queues, fleets, or jobs, rather than an entire farm, find the resources they can reach directly from the Deadline Cloud monitor. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads for visual effects, animation, product design, simulation, and gaming.&lt;/p&gt;\n&lt;p&gt;Previously, a user with access to only one queue had to get the farm ID from an administrator before they could reach their work. With this launch, the Deadline Cloud monitor displays to users queues they have access to, the parent IDs needed to reach them, and their level of access, covering both direct and group-inherited permissions. Teams now can share a single monitor entry point (URL) across different permission levels without additional coordination.&lt;/p&gt;\n&lt;p&gt;Resource discovery is available in all AWS Regions where Deadline Cloud is available. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/deadline-cloud/latest/userguide/view-member-resource-access.html\"&gt;AWS Deadline Cloud user guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/deadline-cloud/resources",
+      "publishedAt": "2026-10-13T18:54:00.000Z",
+      "updatedAt": "2026-10-13T18:54:00.000Z",
+      "categories": [
+        "Media Services",
+        "AWS Deadline Cloud"
+      ],
+      "services": [],
+      "tags": [
+        "media services",
+        "aws deadline cloud"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "cccd319aa659940c",
+      "title": "AWS DataSync Enhanced mode now supports FSx for OpenZFS, NFS 4.2, and object metadata controls",
+      "description": "AWS DataSync Enhanced mode now supports Amazon FSx for OpenZFS as a source or destination location, NFS version 4.2 for on-premises NFS servers and FSx for OpenZFS file systems, and a new ObjectMetadata option for object storage transfers. Previously, customers transferring data to or from FSx for OpenZFS were limited to Basic mode. NFS 4.2 lets you transfer data from NFS servers on the latest version without reconfiguring them to an older protocol version. The ObjectMetadata option gives you control over whether an object's user metadata is copied to the destination, which helps when destinat",
+      "descriptionHtml": "&lt;p&gt;AWS DataSync Enhanced mode now supports Amazon FSx for OpenZFS as a source or destination location, NFS version 4.2 for on-premises NFS servers and FSx for OpenZFS file systems, and a new ObjectMetadata option for object storage transfers. Previously, customers transferring data to or from FSx for OpenZFS were limited to Basic mode.&lt;/p&gt;\n&lt;p&gt;NFS 4.2 lets you transfer data from NFS servers on the latest version without reconfiguring them to an older protocol version. The ObjectMetadata option gives you control over whether an object's user metadata is copied to the destination, which helps when destination metadata must stay intact, such as buckets served by AWS Storage Gateway, or when source metadata keys are not compatible with the destination, such as Azure Blob Storage. Existing tasks remain unaffected and continue to run as scheduled.&lt;/p&gt;\n&lt;p&gt;These capabilities are available for Enhanced mode tasks in all AWS Regions where AWS DataSync Enhanced mode is supported. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html\"&gt;AWS DataSync documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/datasync-enhanced-openzfs-nfs42-metadata/",
+      "publishedAt": "2026-10-13T08:00:00.000Z",
+      "updatedAt": "2026-10-13T08:00:00.000Z",
+      "categories": [
+        "Storage",
+        "Amazon Fsx For Openzfs",
+        "AWS Datasync",
+        "Migration"
+      ],
+      "services": [
+        "FSx",
+        "DataSync"
+      ],
+      "tags": [
+        "storage",
+        "amazon fsx for openzfs",
+        "aws datasync",
+        "migration",
+        "fsx",
+        "datasync"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "b91671942e88f409",
       "title": "AWS Lambda announces Lambda Web Functions",
       "description": "AWS Lambda announces Lambda Web Functions, a new serverless compute primitive where your code handles HTTP requests directly. Your code listens on a port and handles requests as it would on any HTTP server. You use frameworks you already know, such as Express or Hono, with no adapters or custom configuration. This enables you to serve workloads such as AI inference endpoints, server-side rendered (SSR) web apps, streaming API endpoints, microservices, and webhooks. You pay for active CPU time and the memory your environment holds, not for idle CPU time your code spends waiting on databases or ",
@@ -12661,6 +12828,132 @@
       "source": "whats-new"
     },
     {
+      "id": "bc8e15b7e4fd61cf",
+      "title": "Amazon ECS adds LiveTaskCount and removes the charge for RunningTaskCount metric",
+      "description": "Today, Amazon Elastic Container Service (Amazon ECS) announces LiveTaskCount, a new ECS service metric that reports how many tasks are actively running in your service, available to all customers at no additional charge. Additionally, the existing RunningTaskCount metric in Amazon CloudWatch Container Insights no longer incurs a charge. LiveTaskCount reports the number of actively running ECS tasks across all desired states (ACTIVATING, RUNNING, and DEACTIVATING), including tasks still running while transitioning to a stopped state, for example, tasks undergoing connection draining during a sc",
+      "descriptionHtml": "&lt;p&gt;Today, Amazon Elastic Container Service (Amazon ECS) announces LiveTaskCount, a new ECS service metric that reports how many tasks are actively running in your service, available to all customers at no additional charge. Additionally, the existing RunningTaskCount metric in Amazon CloudWatch Container Insights no longer incurs a charge.&lt;/p&gt;\n&lt;p&gt;LiveTaskCount reports the number of actively running ECS tasks across all desired states (ACTIVATING, RUNNING, and DEACTIVATING), including tasks still running while transitioning to a stopped state, for example, tasks undergoing connection draining during a scale-in event. This comprehensive state coverage makes LiveTaskCount well suited for autoscaling policies and capacity planning where a complete view of active, metric-generating tasks is required. It is available at no charge as part of ECS service utilization metrics and does not require opting in to CloudWatch Container Insights. The existing CloudWatch Container Insights RunningTaskCount metric tracks tasks where both the current and desired state are RUNNING, and continues to serve as a health and stability signal for customers who depend on it. With today's update, RunningTaskCount is now available at no additional charge for all CloudWatch Container Insights users.&lt;/p&gt;\n&lt;p&gt;These updates are available in all AWS Regions where Amazon ECS is available. No action is required, and the pricing change for RunningTaskCount takes effect beginning October 1, 2026, and applies automatically. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service_utilization.html#cw_live_task_count\"&gt;ECS CloudWatch metrics&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cloudwatch-container-insights.html\"&gt;ECS Container Insights metrics&lt;/a&gt;. For a pricing example, see &lt;a href=\"https://aws.amazon.com/cloudwatch/pricing/\"&gt;Amazon CloudWatch pricing&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-service-metrics/",
+      "publishedAt": "2026-10-13T22:00:00.000Z",
+      "updatedAt": "2026-10-13T22:00:00.000Z",
+      "categories": [
+        "Amazon Ecs",
+        "Containers",
+        "Amazon Cloudwatch"
+      ],
+      "services": [
+        "ECS",
+        "CloudWatch"
+      ],
+      "tags": [
+        "amazon ecs",
+        "containers",
+        "amazon cloudwatch",
+        "ecs",
+        "cloudwatch"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "9f9a2b2ac15f3335",
+      "title": "Amazon Location Service launches an interactive API Playground featuring Places, Routes and Maps APIs",
+      "description": "Amazon Location Service now offers a complete, interactive API Playground that lets developers explore and test every Places, Routes, and Maps API visually without writing code. With this release, all 14 Amazon Location Service Places, Maps and Routes APIs are available in an interactive API Playground, where developers can make real API calls, see results rendered on an interactive map, adjust parameters, and copy ready-to-use request snippets directly into their applications. The API Playground covers Amazon Location Service's Places, Routes, and Maps APIs: search and geocoding (Geocode, Rev",
+      "descriptionHtml": "&lt;p&gt;Amazon Location Service now offers a complete, interactive API Playground that lets developers explore and test every Places, Routes, and Maps API visually without writing code. With this release, all 14 Amazon Location Service Places, Maps and Routes APIs are available in an interactive API Playground, where developers can make real API calls, see results rendered on an interactive map, adjust parameters, and copy ready-to-use request snippets directly into their applications.&lt;/p&gt;\n&lt;p&gt;The API Playground covers Amazon Location Service's Places, Routes, and Maps APIs: search and geocoding (Geocode, ReverseGeocode, Autocomplete, Suggest, SearchText, SearchNearby, and GetPlace), route planning and optimization (CalculateRoutes, CalculateRouteMatrix, CalculateIsolines, OptimizeWaypoints, and SnapToRoads), and mapping (Dynamic Map and GetStaticMap). Customers can simulate validating delivery addresses, planning truck-safe multi-stop routes, visualizing drive-time service areas, or embedding maps into their apps — with no SDK setup or test scripts required.&lt;/p&gt;\n&lt;p&gt;The API Playground is available in the following AWS Regions: US East (Ohio), US East (N. Virginia), US West (Oregon), Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Malaysia), Asia Pacific (Tokyo), Canada (Central), Europe (Frankfurt), Europe (Ireland), Europe (London), Europe (Spain), Europe (Stockholm), and South America (São Paulo).&lt;/p&gt;\n&lt;p&gt;To get started, visit the &lt;a href=\"https://console.aws.amazon.com/location/api-playground\"&gt;Amazon Location Service API Playground&lt;/a&gt; in the AWS Console, or learn more in the &lt;a href=\"https://docs.aws.amazon.com/location/latest/developerguide/api-playground.html\"&gt;Developer Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-location-service-api-playground",
+      "publishedAt": "2026-10-13T18:46:00.000Z",
+      "updatedAt": "2026-10-13T18:46:00.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "349234644a70ac9c",
+      "title": "Bring deep SageMaker AI expertise to your coding agent with the AWS AI/ML skill in the Agent Toolkit for AWS",
+      "description": "Your coding agent can select, train, optimize and deploy models on Amazon SageMaker AI while working across the rest of your AWS environment in a single natural-language workflow. The AWS AI/ML skill is now a core skill in the Agent Toolkit for AWS , so it works alongside the toolkit's other AWS skills like EC2, Bedrock, and more. We released the new AWS AI/ML skill on the Agent Toolkit for AWS. The toolkit is now the single, supported integration point, replacing the previous AWS Labs skills and plugins, with a consistent and easy install and update path. The skill is also pre-installed into ",
+      "descriptionHtml": "&lt;p&gt;Your coding agent can select, train, optimize and deploy models on Amazon SageMaker AI while working across the rest of your AWS environment in a single natural-language workflow. The AWS AI/ML skill is now a core skill in the &lt;a href=\"https://github.com/aws/agent-toolkit-for-aws/tree/main\"&gt;Agent Toolkit for AWS&lt;/a&gt;, so it works alongside the toolkit's other AWS skills like EC2, Bedrock, and more.&lt;/p&gt;\n&lt;p&gt;We released the new AWS AI/ML skill on the Agent Toolkit for AWS. The toolkit is now the single, supported integration point, replacing the previous AWS Labs skills and plugins, with a consistent and easy install and update path. The skill is also pre-installed into SageMaker Studio JupyterLab for use with Kiro or your coding agent of choice.&lt;/p&gt;\n&lt;p&gt;Moreover, we extended the SageMaker AI capability areas supported by skills.&lt;/p&gt;\n&lt;ul&gt;\n &lt;li&gt;\n  &lt;p&gt;&lt;a href=\"https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/\"&gt;Inference optimization&lt;/a&gt;: optimize deployed models for latency, throughput, and cost&lt;/p&gt;\n &lt;/li&gt;\n &lt;li&gt;\n  &lt;p&gt;&lt;a href=\"https://builder.aws.com/content/3BRdZnv6dY63soyl4qn7FJMQdqd/agentic-model-customization-simplifying-fine-tuning-with-ai-guided-workflows-in-amazon-sagemaker-ai\"&gt;Model customization&lt;/a&gt;: end-to-end guided fine-tuning workflows, from use case definition through training, evaluation and deployment&lt;/p&gt;\n &lt;/li&gt;\n &lt;li&gt;\n  &lt;p&gt;Serverful training for both traditional ML and generative AI&lt;/p&gt;\n &lt;/li&gt;\n &lt;li&gt;\n  &lt;p&gt;MLflow: experiment tracking and model lifecycle management&lt;/p&gt;\n &lt;/li&gt;\n &lt;li&gt;\n  &lt;p&gt;JumpStart model deployment and model recommendations: deploy pre-built JumpStart models and get guided recommendations on the right model for the use case&lt;/p&gt;\n &lt;/li&gt;\n &lt;li&gt;\n  &lt;p&gt;Processing jobs: data preparation and ETL on managed compute&lt;/p&gt;\n &lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;The AWS AI/ML skill is available at no additional charge; you pay only for the AWS resources your agents use. To get started, install the skill from the &lt;a href=\"https://github.com/aws/agent-toolkit-for-aws/tree/main\"&gt;Agent Toolkit for AWS&lt;/a&gt; on GitHub, or use it pre-installed in SageMaker Studio JupyterLab. To learn more about &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-updated-jl-coding-assistant.html\"&gt;using a coding assistant with your SageMaker AI workflows&lt;/a&gt;, see the Amazon SageMaker AI documentation.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/",
+      "publishedAt": "2026-10-13T14:00:00.000Z",
+      "updatedAt": "2026-10-13T14:00:00.000Z",
+      "categories": [],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "33522f952861b1a0",
+      "title": "Amazon Route 53 now supports registrations, transfers, and renewals for Premium Domains",
+      "description": "Amazon Route 53 Domains now supports Premium Domain Names. Customers can now search for, register, transfer, renew, and restore registry premium names directly through Route 53. Most domain registries set aside a selection of \"premium\" domains - names that are short, memorable, or in high demand. Previously, Route 53 Domains did not support these premium names, which meant customers who wanted them had to register and manage them through other registrars, fragmenting their portfolios across multiple providers. With this launch, customers can now discover and acquire premium domains directly in",
+      "descriptionHtml": "&lt;p&gt;Amazon Route 53 Domains now supports Premium Domain Names. Customers can now search for, register, transfer, renew, and restore registry premium names directly through Route 53.&lt;/p&gt;\n&lt;p&gt;Most domain registries set aside a selection of \"premium\" domains - names that are short, memorable, or in high demand. Previously, Route 53 Domains did not support these premium names, which meant customers who wanted them had to register and manage them through other registrars, fragmenting their portfolios across multiple providers. With this launch, customers can now discover and acquire premium domains directly in Route 53 Domains, consolidate their existing premium domains from other registrars, and manage premium and standard domains together through a single, unified experience. Finding and registering a premium domain works just like it does for standard domains. Premium domains appear automatically in domain search and availability results, with pricing shown upfront, so customers know the cost before they commit.&lt;/p&gt;\n&lt;p&gt;To learn more about Amazon Route 53 Domains and start registering premium domains, visit the &lt;a href=\"https://aws.amazon.com/route53/domains/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Route 53 Domains page&lt;/a&gt;. For a complete list of supported top-level domains, see the &lt;a href=\"https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/registrar-tld-list.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Route 53 TLD list&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/route-53-premium-domains/",
+      "publishedAt": "2026-10-13T08:00:00.000Z",
+      "updatedAt": "2026-10-13T08:00:00.000Z",
+      "categories": [
+        "Networking And Content Delivery",
+        "Partner",
+        "General:Products",
+        "Amazon Route 53"
+      ],
+      "services": [
+        "Route 53"
+      ],
+      "tags": [
+        "networking and content delivery",
+        "partner",
+        "general:products",
+        "amazon route 53",
+        "route 53"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "0656dbeb9c2f4bd4",
+      "title": "Amazon RDS now supports the latest CU for Microsoft SQL Server",
+      "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2025 CU8 KB5104822 (RDS version 17.00.4075.5.v1). For additional information on the improvements and fixes included in these updates, see Microsoft documentation for KB5104822. We recommend that you upgrade your Amazon RDS for SQL Server instances to apply these updates using Amazon RDS Management Console, or by using the AWS SDK or CLI. You can learn more about upgrading your database instance in the Ama",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/sqlserver/\" target=\"_blank\"&gt;Amazon Relational Database Service (Amazon RDS) for SQL Server &lt;/a&gt;now supports the latest Cumulative Updates (CU) for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2025 CU8 &lt;a href=\"https://support.microsoft.com/en-us/servicing/sql/sql-server-2025/cumulative-update/kb5104822-cu8\" target=\"_blank\"&gt;KB5104822&lt;/a&gt; (RDS version 17.00.4075.5.v1).\n &lt;br&gt;\n &lt;br&gt;\n For additional information on the improvements and fixes included in these updates, see Microsoft documentation for KB5104822. We recommend that you upgrade your Amazon RDS for SQL Server instances to apply these updates using Amazon RDS Management Console, or by using the AWS SDK or CLI. You can learn more about upgrading your database instance in the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.SQLServer.html\" target=\"_blank\"&gt;Amazon RDS SQL Server User Guide for upgrading your RDS Microsoft SQL Server DB engine&lt;/a&gt;.\n &lt;br&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-supports-latest-cu-microsoft-sql-server/",
+      "publishedAt": "2026-10-13T07:30:00.000Z",
+      "updatedAt": "2026-10-13T07:30:00.000Z",
+      "categories": [
+        "Databases",
+        "AWS Govcloud Us",
+        "Amazon Rds For Sql Server"
+      ],
+      "services": [
+        "RDS"
+      ],
+      "tags": [
+        "databases",
+        "aws govcloud us",
+        "amazon rds for sql server",
+        "rds"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "cf845e8fa106e070",
       "title": "Amazon EC2 G7 instances now available in Europe (Frankfurt) and Europe (Stockholm) Regions",
       "description": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (Frankfurt) and Europe (Stockholm) Regions. G7 instances deliver up to 4.6x AI inference performance and up to 2.1 graphics performance compared to G6 instances. G7 instances also deliver faster performance for GPU-accelerated data analytics workloads. Customers can use G7 instances for deploying AI models for language translation, video and image analysis, speech recognition and recommender systems. They also accelerate graphics workloads such as crea",
@@ -13094,7 +13387,7 @@
         "batch",
         "cloudwatch"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -13797,304 +14090,6 @@
         "amazon cloudwatch logs",
         "amazon cloudwatch",
         "cloudwatch"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "0860418c6f256720",
-      "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Postponing Start Dates",
-      "description": "Amazon EC2 Future-dated Capacity Reservations let you secure capacity up to 120 days in advance by specifying the capacity you need, the start date, and a commitment duration. If your plans change before delivery, you can now postpone your start date to match your new timeline. When you postpone your start date, EC2 presents a quote that shows the new start date and the required commitment duration. The commitment duration can increase, depending on when you postpone the start date. After you review and accept the quote, EC2 updates your reservation with the new start date. This feature is ava",
-      "descriptionHtml": "&lt;p&gt;Amazon EC2 Future-dated Capacity Reservations let you secure capacity up to 120 days in advance by specifying the capacity you need, the start date, and a commitment duration. If your plans change before delivery, you can now postpone your start date to match your new timeline.&lt;/p&gt;\n&lt;p&gt;When you postpone your start date, EC2 presents a quote that shows the new start date and the required commitment duration. The commitment duration can increase, depending on when you postpone the start date. After you review and accept the quote, EC2 updates your reservation with the new start date.&lt;/p&gt;\n&lt;p&gt;This feature is available to all Future-dated Capacity Reservation customers. Refer to the &lt;a href=\"https://builder.aws.com/build/capabilities/explore\"&gt;AWS Capabilities by Region&lt;/a&gt; website for the feature's regional availability. For more details, refer to the &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/capacity-reservations-modify.html\"&gt;Capacity Reservation user guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/",
-      "publishedAt": "2026-09-28T21:17:00.000Z",
-      "updatedAt": "2026-09-28T21:17:00.000Z",
-      "categories": [
-        "Amazon Ec2",
-        "Compute"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "amazon ec2",
-        "compute",
-        "ec2"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "2513dd5a1ca3c547",
-      "title": "Amazon Rekognition Face Liveness now returns Feedback Codes",
-      "description": "Amazon Rekognition Face Liveness now returns Feedback Codes that help customers understand why a liveness check received a low score and how users could retry successfully. The codes are returned in the GetFaceLivenessSessionResults API response, and they identify the specific conditions that contributed to the low score, such as poor lighting, face obstruction, closed eyes, or low video quality. Customers can surface these codes to their end users who can then make targeted corrections and retry with confidence. A single session can return multiple Feedback Codes at once, allowing users to re",
-      "descriptionHtml": "&lt;p&gt;Amazon Rekognition Face Liveness now returns Feedback Codes that help customers understand why a liveness check&amp;nbsp;received a low score and how users could retry successfully. The codes are returned in the GetFaceLivenessSessionResults API response, and they identify the specific conditions that contributed to the low score, such as poor lighting, face obstruction, closed eyes, or low video quality. Customers can surface these codes to their end users who can then make targeted corrections and retry with confidence. A single session can return multiple Feedback Codes at once, allowing users to resolve all contributing issues in one retry.&amp;nbsp;This feature is especially useful in identity verification onboarding, re-authentication flows, and accessibility scenarios.&lt;/p&gt;\n&lt;p&gt;Amazon Rekognition Face Liveness verifies that the person in front of the camera is a real, live human (instead of a photo, video replay, mask, or deepfake) through a short, guided selfie-video check. It returns a confidence score, a reference image for face matching, and session audit images.&amp;nbsp;\n &lt;br&gt;\n &lt;br&gt;\n Rekognition Face Liveness is available in US East (N. Virginia), US West (Oregon), Europe (Ireland), Asia Pacific (Tokyo, Mumbai, Malaysia, Thailand), and South America (São Paulo). To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/rekognition/latest/dg/face-liveness-programming-api.html\"&gt;Amazon Rekognition Face Liveness API documentation&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/rekognition/latest/dg/face-liveness-faq.html\"&gt;Face Liveness FAQ&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes/",
-      "publishedAt": "2026-09-28T20:41:00.000Z",
-      "updatedAt": "2026-09-28T20:41:00.000Z",
-      "categories": [
-        "Amazon Rekognition",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "Rekognition"
-      ],
-      "tags": [
-        "amazon rekognition",
-        "artificial intelligence",
-        "rekognition"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "b5f5b34e2ab19a91",
-      "title": "Grok 4.7 is now available on Amazon Bedrock",
-      "description": "Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. Grok 4.7 builds on Grok 4.6 with better mixed-document handling, more dependable repo-scale coding with planning and error recovery, and enhanced browser-use agents for form fills and portal navigation. Get started with Grok 4.7 in the Amazon Bedrock console or programmatically through supported Amazon Bedrock APIs. For information about supported AWS Regions , endpoints, APIs, features, inference profiles and pricing, see the Amazo",
-      "descriptionHtml": "&lt;p&gt;Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Grok 4.7 builds on Grok 4.6 with better mixed-document handling, more dependable repo-scale coding with planning and error recovery, and enhanced browser-use agents for form fills and portal navigation. &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Get started with Grok 4.7 in the&lt;a href=\"https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/\"&gt; Amazon Bedrock console&lt;/a&gt; or programmatically through supported Amazon Bedrock APIs. For information about supported&lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html\"&gt; AWS Regions&lt;/a&gt;, endpoints, APIs, features, inference profiles and pricing, see the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-7.html\"&gt;Amazon Bedrock documentation&lt;/a&gt;. To learn more, read the launch &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/\"&gt;blog post&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-grok-4-7/",
-      "publishedAt": "2026-09-28T18:29:00.000Z",
-      "updatedAt": "2026-09-28T18:29:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Amazon Bedrock"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "amazon bedrock",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "b1c2af3fd05e6169",
-      "title": "Claude Sonnet 5.5 now available on AWS",
-      "description": "AWS now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work at faster speed. Claude Sonnet 5.5 is a smarter, more efficient Sonnet and a step up from Sonnet 5, making it a natural upgrade for teams already building on Sonnet. It's stronger for coding, completing well-scoped tasks as part of a larger coding strategy such as building and fixing features with Claude in the same session or verifying output against requirements. And it produces ready-to-share knowledge work, from 1-",
-      "descriptionHtml": "&lt;p&gt;AWS now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work at faster speed.&lt;/p&gt;\n&lt;p&gt;Claude Sonnet 5.5 is a smarter, more efficient Sonnet and a step up from Sonnet 5, making it a natural upgrade for teams already building on Sonnet. It's stronger for coding, completing well-scoped tasks as part of a larger coding strategy such as building and fixing features with Claude in the same session or verifying output against requirements. And it produces ready-to-share knowledge work, from 1-pagers, diagrams, and summary slides to document edits and spreadsheet cleanup.&lt;/p&gt;\n&lt;p&gt;Customers have two ways to access Claude Sonnet 5.5: Amazon Bedrock and Claude Platform on AWS.&lt;/p&gt;\n&lt;p&gt;Amazon Bedrock gives you Sonnet's capabilities while keeping your data within AWS infrastructure with regional data residency and provides access through a unified service with AWS-managed features like Guardrails and Knowledge Bases. To learn more, see the Amazon Bedrock &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5-5.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html?refid=7ecf60df-6136-414c-a7c3-6aa4d2d6019f#model-regions-anthropic\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;regional availability&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Claude Platform on AWS gives you direct access to Anthropic's native platform experience and capabilities via the AWS Console. Build, test, and deploy with the same APIs, features, and console experience you'd get working with Anthropic directly, unified with AWS billing and authentication. To get started, see the Claude Platform on AWS &lt;a href=\"https://docs.aws.amazon.com/claude-platform/latest/userguide/setup.html?refid=7ecf60df-6136-414c-a7c3-6aa4d2d6019f\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws/",
-      "publishedAt": "2026-09-28T15:00:00.000Z",
-      "updatedAt": "2026-09-28T15:00:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Amazon Bedrock"
-      ],
-      "services": [
-        "Bedrock",
-        "Claude"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "amazon bedrock",
-        "bedrock",
-        "claude"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "2172b58785cf0f74",
-      "title": "Claude Sonnet 5.5 now available on AWS GovCloud (US)",
-      "description": "AWS GovCloud (US) now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work ag faster speed. Claude Sonnet 5.5 is a smarter, more efficient Sonnet and a step up from Sonnet 5, making it a natural upgrade for teams already building on Sonnet. It's stronger for coding, completing well-scoped tasks as part of a larger coding strategy such as building and fixing features with Claude in the same session or verifying output against requirements. And it produces ready-to-share knowledge",
-      "descriptionHtml": "&lt;p&gt;AWS GovCloud (US) now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work ag faster speed.&lt;/p&gt;\n&lt;p&gt;Claude Sonnet 5.5 is a smarter, more efficient Sonnet and a step up from Sonnet 5, making it a natural upgrade for teams already building on Sonnet. It's stronger for coding, completing well-scoped tasks as part of a larger coding strategy such as building and fixing features with Claude in the same session or verifying output against requirements. And it produces ready-to-share knowledge work, from 1-pagers, diagrams, and summary slides to document edits and spreadsheet cleanup.&lt;/p&gt;\n&lt;p&gt;Amazon Bedrock gives you Sonnet's capabilities while keeping your data within AWS infrastructure with regional data residency and provides access through a unified service with AWS-managed features like Guardrails and Knowledge Bases. To learn more, see the Amazon Bedrock &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5-5.html\"&gt;documentation&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html?refid=7ecf60df-6136-414c-a7c3-6aa4d2d6019f#model-regions-anthropic\"&gt;regional availability&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws-govcloud-us/",
-      "publishedAt": "2026-09-28T15:00:00.000Z",
-      "updatedAt": "2026-09-28T15:00:00.000Z",
-      "categories": [
-        "AWS Govcloud Us",
-        "Amazon Bedrock"
-      ],
-      "services": [
-        "Bedrock",
-        "Claude"
-      ],
-      "tags": [
-        "aws govcloud us",
-        "amazon bedrock",
-        "bedrock",
-        "claude"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "823133e656668191",
-      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes",
-      "description": "For developers building MongoDB-compatible applications, retryable writes improve application resilience during transient errors such as network interruptions or primary failovers. Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes starting with engine version 8.0.2, eliminating the need for additional code changes when enabling this capability. With retryable writes, the MongoDB driver automatically retries certain write operations one time if a transient error occurs. Most current MongoDB-compatible drivers enable retryable writes by default. With this release, appl",
-      "descriptionHtml": "&lt;p&gt;For developers building MongoDB-compatible applications, retryable writes improve application resilience during transient errors such as network interruptions or primary failovers. Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes starting with engine version 8.0.2, eliminating the need for additional code changes when enabling this capability.&lt;/p&gt;\n&lt;p&gt;With retryable writes, the MongoDB driver automatically retries certain write operations one time if a transient error occurs. Most current MongoDB-compatible drivers enable retryable writes by default. With this release, applications connecting to Amazon DocumentDB 8.0.2 no longer need to set retryWrites=false in the connection string to avoid errors. Retryable writes are supported for all write commands except updateMany and deleteMany, as well as transaction commit and abort commands. On engine versions earlier than 8.0.2, retryable writes remain unsupported and must be disabled.&lt;/p&gt;\n&lt;p&gt;Retryable writes are available on Amazon DocumentDB 8.0.2 instance-based and serverless clusters in all regions where Amazon DocumentDB 8.0 is available. To get started with retryable writes, see the &lt;a href=\"https://docs.aws.amazon.com/documentdb/latest/developerguide/retryable-writes.html\"&gt;Amazon DocumentDB developer guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-retryable-writes/",
-      "publishedAt": "2026-09-28T08:00:00.000Z",
-      "updatedAt": "2026-09-28T08:00:00.000Z",
-      "categories": [
-        "Amazon Documentdb",
-        "Databases"
-      ],
-      "services": [
-        "DocumentDB"
-      ],
-      "tags": [
-        "amazon documentdb",
-        "databases",
-        "documentdb"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "994f5731ce861b2a",
-      "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
-      "description": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The M8i and M8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up to 20% better performance than M7i and M7i-flex instances, with even higher gains for specific worklo",
-      "descriptionHtml": "&lt;p&gt;Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The M8i and M8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up to 20% better performance than M7i and M7i-flex instances, with even higher gains for specific workloads. The M8i and M8i-flex instances are up to 30% faster for PostgreSQL databases, up to 60% faster for NGINX web applications, and up to 40% faster for AI deep learning recommendation models compared to M7i and M7i-flex instances.\n &lt;br&gt;\n &lt;br&gt;\n M8i-flex are the easiest way to get price performance benefits for a majority of general-purpose workloads like web and application servers, microservices, small and medium data stores, virtual desktops, and enterprise applications. They offer the most common sizes, from large to 16xlarge, and are a great first choice for applications that don't fully utilize all compute resources.\n &lt;br&gt;\n &lt;br&gt;\n M8i instances are a great choice for all general purpose workloads, especially for workloads that need the largest instance sizes or continuous high CPU usage. The SAP-certified M8i instances offer 13 sizes including 2 bare metal sizes and the new 96xlarge size for the largest applications.\n &lt;br&gt;\n &lt;br&gt;\n To get started, sign in to the &lt;a href=\"https://aws.amazon.com/console/\" target=\"_blank\"&gt;&lt;u&gt;AWS Management Console&lt;/u&gt;&lt;/a&gt;. For more information about the new instances, visit the&lt;a href=\"https://aws.amazon.com/ec2/instance-types/m8i/\" target=\"_blank\"&gt;&lt;u&gt; M8i and M8i-flex instance page&lt;/u&gt;&lt;/a&gt; or visit the AWS News &lt;a href=\"https://aws.amazon.com/blogs/aws/new-general-purpose-amazon-ec2-m8i-and-m8i-flex-instances-are-now-available/\" target=\"_blank\"&gt;&lt;u&gt;blog&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
-      "publishedAt": "2026-09-25T18:40:00.000Z",
-      "updatedAt": "2026-09-25T18:40:00.000Z",
-      "categories": [
-        "Amazon Ec2",
-        "Compute"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "amazon ec2",
-        "compute",
-        "ec2"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "ed5cc3d7b6a446f2",
-      "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
-      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The R8i and R8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver 20% higher performance than R7i instances, with even higher gains for specifi",
-      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The R8i and R8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver 20% higher performance than R7i instances, with even higher gains for specific workloads. They are up to 30% faster for PostgreSQL databases, up to 60% faster for NGINX web applications, and up to 40% faster for AI deep learning recommendation models compared to R7i.&lt;/p&gt;\n&lt;p&gt;R8i-flex, our first memory-optimized Flex instances, are the easiest way to get price performance benefits for a majority of memory-intensive workloads. They offer the most common sizes, from large to 16xlarge, and are a great first choice for applications that don't fully utilize all compute resources.&lt;/p&gt;\n&lt;p&gt;R8i instances are a great choice for all memory-intensive workloads, especially for workloads that need the largest instance sizes or continuous high CPU usage. R8i instances offer 13 sizes including 2 bare metal sizes and the new 96xlarge size for the largest applications. &lt;a href=\"https://docs.aws.amazon.com/sap/latest/general/sap-hana-aws-ec2.html\" target=\"_blank\"&gt;&lt;u&gt;R8i instances are SAP-certified &lt;/u&gt;&lt;/a&gt;and deliver 142,100 aSAPS, the highest among all comparable machines in on-premises and cloud environments, delivering exceptional performance for mission-critical SAP workloads.&lt;/p&gt;\n&lt;p&gt;To get started, sign in to the &lt;a href=\"https://aws.amazon.com/console/\" target=\"_blank\"&gt;&lt;u&gt;AWS Management Console&lt;/u&gt;&lt;/a&gt;. Customers can purchase these instances via Savings Plans, On-Demand instances, and Spot instances. For more information about the new &lt;a href=\"https://aws.amazon.com/ec2/instance-types/r8i\" target=\"_blank\"&gt;&lt;u&gt;R8i and R8i-flex &lt;/u&gt;&lt;/a&gt;instances visit the AWS News &lt;a href=\"https://aws.amazon.com/blogs/aws/best-performance-and-fastest-memory-with-the-new-amazon-ec2-r8i-and-r8i-flex-instances/\" target=\"_blank\"&gt;&lt;u&gt;blog&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
-      "publishedAt": "2026-09-25T18:37:00.000Z",
-      "updatedAt": "2026-09-25T18:37:00.000Z",
-      "categories": [
-        "Compute",
-        "Amazon Ec2"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "compute",
-        "amazon ec2",
-        "ec2"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "e7ca39c1319899cb",
-      "title": "Amazon EC2 C8i and C8i-flex instances are now available in additional regions",
-      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and C8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. These C8i and C8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up to 20% higher performance than C7i and C7i-flex instances, with even hig",
-      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and C8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. These C8i and C8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up to 20% higher performance than C7i and C7i-flex instances, with even higher gains for specific workloads. The C8i and C8i-flex are up to 60% faster for NGINX web applications, up to 40% faster for AI deep learning recommendation models, and 35% faster for Memcached stores compared to C7i and C7i-flex.\n &lt;br&gt;\n &lt;br&gt;\n C8i-flex are the easiest way to get price performance benefits for a majority of compute intensive workloads like web and application servers, databases, caches, Apache Kafka, Elasticsearch, and enterprise applications. They offer the most common sizes, from large to 16xlarge, and are a great first choice for applications that don't fully utilize all compute resources.\n &lt;br&gt;\n &lt;br&gt;\n C8i instances are a great choice for all memory-intensive workloads, especially for workloads that need the largest instance sizes or continuous high CPU usage. C8i instances offer 13 sizes including 2 bare metal sizes and the new 96xlarge size for the largest applications.\n &lt;br&gt;\n &lt;br&gt;\n To get started, sign in to the &lt;a href=\"https://aws.amazon.com/console/\" target=\"_blank\"&gt;&lt;u&gt;AWS Management Console&lt;/u&gt;&lt;/a&gt;. Customers can purchase these instances via Savings Plans, On-Demand instances, and Spot instances. For more information about the new &lt;a href=\"https://aws.amazon.com/ec2/instance-types/c8i/\" target=\"_blank\"&gt;&lt;u&gt;C8i and C8i-flex&lt;/u&gt;&lt;/a&gt; instances visit the &lt;a href=\"https://aws.amazon.com/blogs/aws/introducing-new-compute-optimized-amazon-ec2-c8i-and-c8i-flex-instances/\" target=\"_blank\"&gt;&lt;u&gt;AWS News blog&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/",
-      "publishedAt": "2026-09-25T18:09:00.000Z",
-      "updatedAt": "2026-09-25T18:09:00.000Z",
-      "categories": [
-        "Compute",
-        "Amazon Ec2"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "compute",
-        "amazon ec2",
-        "ec2"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "27847447baac6e7c",
-      "title": "AWS Elastic Disaster Recovery now supports AWS Graviton-based source servers",
-      "description": "AWS Elastic Disaster Recovery (AWS DRS) now supports disaster recovery for AWS Graviton-based (arm64) source servers. You can now protect and recover your Graviton workloads with the same simple, reliable DRS experience you already use for x86 workloads. As more workloads move to Graviton for its price-performance benefits, they need the same disaster recovery coverage as the rest of your environment. DRS now automatically detects arm64 source servers and recovers them onto Graviton instances, preserving your workload's architecture end to end. Recovery works the same way it does for your othe",
-      "descriptionHtml": "&lt;p&gt;AWS Elastic Disaster Recovery (AWS DRS) now supports disaster recovery for AWS Graviton-based (arm64) source servers. You can now protect and recover your Graviton workloads with the same simple, reliable DRS experience you already use for x86 workloads.&lt;/p&gt;\n&lt;p&gt;As more workloads move to Graviton for its price-performance benefits, they need the same disaster recovery coverage as the rest of your environment. DRS now automatically detects arm64 source servers and recovers them onto Graviton instances, preserving your workload's architecture end to end. Recovery works the same way it does for your other servers, with nothing extra to configure.&lt;/p&gt;\n&lt;p&gt;This capability is available in all AWS Regions where AWS DRS is offered, at no additional cost. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/drs/\"&gt;AWS Elastic Disaster Recovery User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/elastic-disaster-recovery-graviton/",
-      "publishedAt": "2026-09-25T08:00:00.000Z",
-      "updatedAt": "2026-09-25T08:00:00.000Z",
-      "categories": [
-        "Amazon S3",
-        "AWS Elastic Disaster Recovery",
-        "AWS Graviton",
-        "Disaster Recovery"
-      ],
-      "services": [
-        "S3"
-      ],
-      "tags": [
-        "amazon s3",
-        "aws elastic disaster recovery",
-        "aws graviton",
-        "disaster recovery",
-        "s3"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "006dfa9ade4dc736",
-      "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
-      "description": "AWS End User Messaging and Amazon SES now publish AI agent skills for the AWS MCP Server, enabling developers to build and send messages by asking their AI coding agent in plain language. Previously, developers had to navigate multiple documentation pages and management console screens to complete messaging tasks. Now, each skill provides your agent with step-by-step, validated guidance for tasks like verifying sending identities, building branded Rich Communication Services (RCS) agents, and sending production emails. These skills integrate with popular AI coding agents including Claude Code,",
-      "descriptionHtml": "&lt;p&gt;AWS End User Messaging and Amazon SES now publish AI agent skills for the AWS MCP Server, enabling developers to build and send messages by asking their AI coding agent in plain language. Previously, developers had to navigate multiple documentation pages and management console screens to complete messaging tasks. Now, each skill provides your agent with step-by-step, validated guidance for tasks like verifying sending identities, building branded Rich Communication Services (RCS) agents, and sending production emails.&lt;/p&gt;\n&lt;p&gt;These skills integrate with popular AI coding agents including Claude Code, Codex, Cursor, and Kiro. For example, you can ask Amazon SES to verify a sending identity and send your first production email. You can ask AWS End User Messaging to build a branded RCS agent and send yourself a rich message with cards and buttons. The skills eliminate the need to manually search documentation or switch between console screens, allowing you to complete messaging workflows directly through natural language commands.&lt;/p&gt;\n&lt;p&gt;To use these skills, first &lt;a title=\"AWS MCP\" href=\"https://docs.aws.amazon.com/agent-toolkit/latest/userguide/getting-started-aws-mcp-server.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;connect the AWS MCP Server&lt;/a&gt; to your agent. In Claude Code, Codex, and Cursor, the aws-core plugin bundles the server and a curated set of skills in one install. In Kiro and other agents, you add the server to your MCP configuration file. Then add the skill for the channel you want, and your agent is ready to guide you. For details on what each skill does and how to install it, see the &lt;a title=\"SMS / RCS Agent Setup Guide\" href=\"https://docs.aws.amazon.com/sms-voice/latest/userguide/agent-setup-guide.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS End User Messaging SMS and RCS agent setup guide&lt;/a&gt;, the &lt;a title=\"WhatsApp Agent Setup Guide\" href=\"https://docs.aws.amazon.com/social-messaging/latest/userguide/agent-setup-guide.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS End User Messaging WhatsApp agent setup guide,&lt;/a&gt; and the &lt;a title=\"SES Agent Setup Guide\" href=\"https://docs.aws.amazon.com/ses/latest/dg/agent-setup-guide.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon SES agent setup guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
-      "publishedAt": "2026-09-25T07:00:00.000Z",
-      "updatedAt": "2026-09-25T07:00:00.000Z",
-      "categories": [
-        "Developer Tools",
-        "Artificial Intelligence",
-        "Amazon Ses",
-        "Developer"
-      ],
-      "services": [
-        "SES"
-      ],
-      "tags": [
-        "developer tools",
-        "artificial intelligence",
-        "amazon ses",
-        "developer",
-        "ses"
       ],
       "isNew": false,
       "securityScore": 0,
