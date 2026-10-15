@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T13:23:29.127Z",
+  "lastUpdated": "2026-10-15T13:08:50.557Z",
   "itemCount": 500,
   "items": [
     {
@@ -1678,7 +1678,7 @@
         "& compliance",
         "security blog"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 85,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2417,6 +2417,33 @@
       "source": "security-blog"
     },
     {
+      "id": "fb50ef66d1614669",
+      "title": "CVE-2026-110310 - RSA PKCS#1 v1.5 padding oracle via legacy envelope key format downgrade in Amazon S3 Encryption Client for .NET",
+      "description": "Bulletin ID: 2026-135-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/14/2026 12:30 PM PDT Description: We identified CVE-2026-110310, an issue in Amazon S3 encryption client for .NET that could allow a remote user who can read encrypted objects in the S3 bucket can force a padding downgrade by altering the padding scheme recorded in an object's metadata to legacy PKCS#1 v1.5. Since this padding scheme is susceptible to the Bleichenbacher attack, the user can use a PKCS#1 v1.5 padding oracle to recover the RSA-wrapped envelope key and decrypt the object. Impact",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-135-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 10/14/2026 12:30 PM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;We identified CVE-2026-110310, an issue in Amazon S3 encryption client for .NET that could allow a remote user who can read encrypted objects in the S3 bucket can force a padding downgrade by altering the padding scheme recorded in an object's metadata to legacy PKCS#1 v1.5. Since this padding scheme is susceptible to the Bleichenbacher attack, the user can use a PKCS#1 v1.5 padding oracle to recover the RSA-wrapped envelope key and decrypt the object.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;= 2.1.0; 3.0.0 to 3.2.1; 4.0.0 to 4.0.2&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-135-aws/",
+      "publishedAt": "2026-10-14T19:48:49.000Z",
+      "updatedAt": "2026-10-14T19:48:49.000Z",
+      "categories": [],
+      "services": [
+        "S3"
+      ],
+      "tags": [
+        "s3"
+      ],
+      "isNew": true,
+      "securityScore": 75,
+      "securityLevel": "high",
+      "securityMatches": [
+        "encryption",
+        "encrypt",
+        "S3",
+        "Bucket",
+        "attack"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "b1508cbab9351e07",
       "title": "AWS IAM now supports 20 managed policies per role by default",
       "description": "AWS Identity and Access Management (IAM) has increased the default quota for managed policies per role from 10 to 20. This higher default quota reduces the need to make Service Quota requests when following IAM best practices like separating permissions into purpose-specific policies or when onboarding to AWS Partner products that require attaching additional managed policies. If you need more than 20 managed policies per role, you can request a quota increase up to 25 using Service Quotas. This change is available in all commercial AWS Regions, AWS GovCloud (US) and China Regions and applies ",
@@ -2447,6 +2474,27 @@
         "identity"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "6217d778654bbad9",
+      "title": "CVE-2026-6550 - Key commitment policy bypass via shared key cache in AWS Encryption SDK for Python",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-017-aws/",
+      "publishedAt": "2026-10-14T18:37:57.000Z",
+      "updatedAt": "2026-10-14T18:37:57.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 70,
+      "securityLevel": "high",
+      "securityMatches": [
+        "encryption",
+        "encrypt",
+        "policy"
+      ],
+      "source": "security-bulletin"
     },
     {
       "id": "091786eb1e65d4e3",
@@ -2498,7 +2546,7 @@
         "aurora",
         "guardduty"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 70,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2508,27 +2556,6 @@
         "attack"
       ],
       "source": "whats-new"
-    },
-    {
-      "id": "6217d778654bbad9",
-      "title": "CVE-2026-6550 - Key commitment policy bypass via shared key cache in AWS Encryption SDK for Python",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-017-aws/",
-      "publishedAt": "2026-10-07T20:16:44.000Z",
-      "updatedAt": "2026-10-07T20:16:44.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 70,
-      "securityLevel": "high",
-      "securityMatches": [
-        "encryption",
-        "encrypt",
-        "policy"
-      ],
-      "source": "security-bulletin"
     },
     {
       "id": "fcce66777be03a40",
@@ -2874,8 +2901,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-048-aws/",
-      "publishedAt": "2026-10-09T18:19:17.000Z",
-      "updatedAt": "2026-10-09T18:19:17.000Z",
+      "publishedAt": "2026-10-14T18:38:30.000Z",
+      "updatedAt": "2026-10-14T18:38:30.000Z",
       "categories": [],
       "services": [
         "WAF"
@@ -2897,8 +2924,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-031-aws/",
-      "publishedAt": "2026-10-08T18:49:39.000Z",
-      "updatedAt": "2026-10-08T18:49:39.000Z",
+      "publishedAt": "2026-10-14T18:38:13.000Z",
+      "updatedAt": "2026-10-14T18:38:13.000Z",
       "categories": [],
       "services": [
         "Artifact",
@@ -2931,7 +2958,7 @@
       "tags": [
         "athena"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 65,
       "securityLevel": "high",
       "securityMatches": [
@@ -3138,6 +3165,62 @@
       "source": "whats-new"
     },
     {
+      "id": "0a6437aaf9356b19",
+      "title": "Penetration testing every deployment with AWS Continuum",
+      "description": "Most security tooling that fits into a CI/CD pipeline—static analysis (SAST), software composition analysis (SCA), and dynamic scanners (DAST)—flags potential issues from patterns and signatures. A flagged pattern shows you where to look; penetration testing is what confirms whether something is actually exploitable. That confirmation has traditionally come from a periodic, out-of-band engagement that runs […]",
+      "descriptionHtml": "Most security tooling that fits into a CI/CD pipeline—static analysis (SAST), software composition analysis (SCA), and dynamic scanners (DAST)—flags potential issues from patterns and signatures. A flagged pattern shows you where to look; penetration testing is what confirms whether something is actually exploitable. That confirmation has traditionally come from a periodic, out-of-band engagement that runs […]",
+      "url": "https://aws.amazon.com/blogs/security/penetration-testing-every-deployment-with-aws-continuum/",
+      "publishedAt": "2026-10-14T20:21:52.000Z",
+      "updatedAt": "2026-10-14T20:21:52.000Z",
+      "categories": [
+        "Generative AI",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Artificial Intelligence",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "generative ai",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "artificial intelligence",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "high",
+      "securityMatches": [
+        "security"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "d39a7fb2ef13466b",
+      "title": "CVE-2026-11931 - Insecure Permissions on Authentication Token Cache File in Kiro IDE",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-045-aws/",
+      "publishedAt": "2026-10-14T18:38:30.000Z",
+      "updatedAt": "2026-10-14T18:38:30.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "high",
+      "securityMatches": [
+        "authentication",
+        "permission",
+        "token"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "d4d4c831f29f527e",
       "title": "Part 2 – Cybersecurity journeys: What even is this job?",
       "description": "If you’ve ever looked at a list of cybersecurity jobs and felt like none of them fit you, you might just be looking at a short list. Most career guides cover the same few roles, like the analyst watching alerts or the pen tester (penetration tester, someone hired to legally break into systems to find […]",
@@ -3173,27 +3256,6 @@
       "source": "security-blog"
     },
     {
-      "id": "d39a7fb2ef13466b",
-      "title": "CVE-2026-11931 - Insecure Permissions on Authentication Token Cache File in Kiro IDE",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-045-aws/",
-      "publishedAt": "2026-10-09T16:14:05.000Z",
-      "updatedAt": "2026-10-09T16:14:05.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 60,
-      "securityLevel": "high",
-      "securityMatches": [
-        "authentication",
-        "permission",
-        "token"
-      ],
-      "source": "security-bulletin"
-    },
-    {
       "id": "049527df767fea23",
       "title": "Building your AI vulnerability harness, Part 1",
       "description": "Vulnerability scanners produce findings faster than manual triage can process them. Your developers ship more code with more dependencies, and the volume of candidate findings grows with it. Many findings a scanner produces are unlikely to be exploited. The ones that matter need to reach an engineer fast, with enough evidence that they can act […]",
@@ -3222,7 +3284,7 @@
         "& compliance",
         "security blog"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 60,
       "securityLevel": "high",
       "securityMatches": [
@@ -3257,7 +3319,7 @@
         "aws security profiles",
         "security blog"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 60,
       "securityLevel": "high",
       "securityMatches": [
@@ -3590,6 +3652,26 @@
       "source": "security-blog"
     },
     {
+      "id": "fb7791a7c14e5ed9",
+      "title": "CVE-2026-16584 - AWS API MCP Server Security Policy Bypass via Startup Failure",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-063-aws/",
+      "publishedAt": "2026-10-14T18:38:44.000Z",
+      "updatedAt": "2026-10-14T18:38:44.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 55,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "security",
+        "policy"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "37a4520f1e97dfa9",
       "title": "AWS Lambda supports OAuth authentication for self-managed Apache Kafka event sources",
       "description": "AWS Lambda now supports OAuth authentication for self-managed Apache Kafka event source mappings (ESM), including Kafka clusters that customers run themselves and managed offerings such as Confluent Cloud, Aiven, and Redpanda. With this launch, customers can authenticate their Lambda Kafka consumers through their enterprise identity provider, helping them meet the security and compliance requirements for their Kafka applications. Customers building event-driven Kafka workloads for use cases such as payment processing, fraud detection, and real-time data pipelines use Kafka ESM to build serverl",
@@ -3735,26 +3817,6 @@
         "credential"
       ],
       "source": "whats-new"
-    },
-    {
-      "id": "fb7791a7c14e5ed9",
-      "title": "CVE-2026-16584 - AWS API MCP Server Security Policy Bypass via Startup Failure",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-063-aws/",
-      "publishedAt": "2026-09-22T19:48:45.000Z",
-      "updatedAt": "2026-09-22T19:48:45.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 55,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "policy"
-      ],
-      "source": "security-bulletin"
     },
     {
       "id": "48ce0a18d93951fd",
@@ -4214,6 +4276,40 @@
       "source": "security-blog"
     },
     {
+      "id": "fd33a8041ffd4fa9",
+      "title": "AWS Transfer Family now supports AWS Secrets Manager storage for SFTP server host keys",
+      "description": "AWS Transfer Family now lets you store SFTP server host keys in AWS Secrets Manager in your own AWS account. This gives you greater control over your server identity and helps simplify server migrations and failover. Previously, Transfer Family stored host keys within the service, so you could not retrieve the associated private key material. With this launch, you can choose Secrets Manager as the storage type when creating a server or importing a host key. You can then retrieve the private key material and reuse the same host key across servers and AWS Regions. For example, you can use it on ",
+      "descriptionHtml": "&lt;p&gt;AWS Transfer Family now lets you store SFTP server host keys in AWS Secrets Manager in your own AWS account. This gives you greater control over your server identity and helps simplify server migrations and failover.&lt;/p&gt;\n&lt;p&gt;Previously, Transfer Family stored host keys within the service, so you could not retrieve the associated private key material. With this launch, you can choose Secrets Manager as the storage type when creating a server or importing a host key. You can then retrieve the private key material and reuse the same host key across servers and AWS Regions. For example, you can use it on a standby server for failover or on a replacement server during migration, without requiring clients to trust a new host key. AWS Identity and Access Management (IAM) policies let you control who can retrieve the stored keys. You can also migrate existing host keys to Secrets Manager, which may require additional steps; see the AWS Transfer Family User Guide for details.&lt;/p&gt;\n&lt;p&gt;This capability is available in all AWS Regions where AWS Transfer Family is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/transfer/latest/userguide/configuring-servers-change-host-key.html\" target=\"_blank\"&gt;Store SFTP server host keys in AWS Secrets Manager&lt;/a&gt; in the AWS Transfer Family User Guide. To get started, go to the &lt;a href=\"https://console.aws.amazon.com/transfer/home\" target=\"_blank\"&gt;AWS Transfer Family console&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-secrets-host-keys/",
+      "publishedAt": "2026-10-14T08:00:00.000Z",
+      "updatedAt": "2026-10-14T08:00:00.000Z",
+      "categories": [
+        "Migration",
+        "AWS Secrets Manager",
+        "AWS Transfer Family"
+      ],
+      "services": [
+        "Secrets Manager",
+        "Transfer Family"
+      ],
+      "tags": [
+        "migration",
+        "aws secrets manager",
+        "aws transfer family",
+        "secrets manager",
+        "transfer family"
+      ],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Secrets Manager",
+        "identity",
+        "Secret"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "728201e777dc9f81",
       "title": "Amazon OpenSearch Service now supports index-level encryption",
       "description": "Amazon OpenSearch Service now supports index-level encryption, letting you encrypt each index at rest with its own AWS Key Management Service (AWS KMS) customer managed key. This helps you protect data with different ownership or sensitivity under separate keys on the same domain. For example, you can encrypt each tenant's data with its own key in a multi-tenant application. Index-level encryption builds on the existing encryption at rest capability in Amazon OpenSearch Service. To enable it, set the encryption mode to Native and specify a customer managed AWS KMS key when you create a new dom",
@@ -4511,6 +4607,100 @@
       "source": "whats-new"
     },
     {
+      "id": "b64fe921c928d8c1",
+      "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with social sign-in",
+      "description": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup, no credit card, and no console navigation required. Previously, new customers who discovered a model on Hugging Face or an AWS product page had to complete a multi-step AWS account creation process, provide a credit card, navigate the AWS Console to find SageMaker AI, configure an environment, and set up IAM permissions before they could begin working. With earlier launches, we reduced environment setup ",
+      "descriptionHtml": "&lt;p&gt;Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup, no credit card, and no console navigation required.&lt;/p&gt;\n&lt;p&gt;Previously, new customers who discovered a model on Hugging Face or an AWS product page had to complete a multi-step AWS account creation process, provide a credit card, navigate the AWS Console to find SageMaker AI, configure an environment, and set up IAM permissions before they could begin working. With earlier launches, we reduced environment setup to twenty seconds, pre-configured model customization permissions, and introduced deep links from Hugging Face and AWS product pages so customers could land directly inside Studio with a model pre-loaded. Now, with social sign-in, new customers complete a simplified sign-up using an existing identity, receive free credits as part of the AWS Free Tier with no credit card required, and arrive inside a ready-to-use SageMaker Studio environment where they can immediately fine-tune, evaluate, and deploy foundation models. Customers can invite team members by email, and collaborators sign in with their own social credentials to access the shared Studio environment, including shared models, notebooks, and endpoints without configuring IAM users or permissions. When a project grows beyond free credits, customers can upgrade to a paid plan and set a spend limit to stay within budget. Verified customers continue to receive default GPU access to G5, G6, G6e, and G4dn instances across endpoint deployments, training jobs, and notebooks without requesting quota increases.&lt;/p&gt;\n&lt;p&gt;This feature is available in all AWS Commercial Regions where Amazon SageMaker Studio is supported. To get started, visit any supported model on &lt;a href=\"https://huggingface.co/models\"&gt;&lt;u&gt;Hugging Face&lt;/u&gt;&lt;/a&gt; and select \"Customize and Deploy on SageMaker AI\" or \"Deploy on SageMaker AI,\" or click Get Started from the &lt;a href=\"https://aws.amazon.com/sagemaker/ai/studio/\"&gt;&lt;u&gt;SageMaker Studio&lt;/u&gt;&lt;/a&gt; page. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/accounts/latest/reference/sign-in-new.html\"&gt;&lt;u&gt;AWS sign-up documentation&lt;/u&gt;&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/onboard-quick-start.html\"&gt;&lt;u&gt;SageMaker Studio setup guide&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-social-sign-in/",
+      "publishedAt": "2026-10-14T22:00:00.000Z",
+      "updatedAt": "2026-10-14T22:00:00.000Z",
+      "categories": [
+        "Aiml",
+        "Artificial Intelligence",
+        "Amazon Sagemaker",
+        "Amazon Sagemaker Studio",
+        "Amazon Sagemaker Jumpstart"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "aiml",
+        "artificial intelligence",
+        "amazon sagemaker",
+        "amazon sagemaker studio",
+        "amazon sagemaker jumpstart",
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "high",
+      "securityMatches": [
+        "IAM",
+        "Config",
+        "permission",
+        "credential"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "05211db46b6d843c",
+      "title": "CVE-2026-16317 and CVE-2026-16318: Issues with s2n-tls: an open-source implementation of the TLS/SSL protocols",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-062-aws/",
+      "publishedAt": "2026-10-14T18:38:44.000Z",
+      "updatedAt": "2026-10-14T18:38:44.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "TLS"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "79322c48474ffd24",
+      "title": "CVE-2026-9255 - Tool Execution Without Authorization via Piped Stdin in Kiro CLI",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-035-aws/",
+      "publishedAt": "2026-10-14T18:38:13.000Z",
+      "updatedAt": "2026-10-14T18:38:13.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "authorization"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "015d9161615f1a60",
+      "title": "CVE-2026-5747 - Out-of-bounds Write in Firecracker virtio-pci Transport",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-015-aws/",
+      "publishedAt": "2026-10-14T18:37:56.000Z",
+      "updatedAt": "2026-10-14T18:37:56.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "PCI"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "a8a33738f39273c7",
       "title": "AWS Secrets Manager adds managed external secrets support for Databricks and Twilio",
       "description": "AWS Secrets Manager now extends its managed external secrets capability to include Databricks and Twilio, enabling you to automatically rotate the credentials that your data pipelines and messaging applications use to call these services. You set up rotation directly from the AWS Management Console or API without writing or maintaining any custom rotation Lambda functions. Long-lived credentials often stay unrotated because rotation is hard to set up and hard to distribute safely to the applications that use the updated credential. With managed external secrets, you can use Secrets Manager to ",
@@ -4562,44 +4752,6 @@
       "source": "security-bulletin"
     },
     {
-      "id": "79322c48474ffd24",
-      "title": "CVE-2026-9255 - Tool Execution Without Authorization via Piped Stdin in Kiro CLI",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-035-aws/",
-      "publishedAt": "2026-10-08T18:49:39.000Z",
-      "updatedAt": "2026-10-08T18:49:39.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 45,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "authorization"
-      ],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "015d9161615f1a60",
-      "title": "CVE-2026-5747 - Out-of-bounds Write in Firecracker virtio-pci Transport",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-015-aws/",
-      "publishedAt": "2026-10-07T20:16:44.000Z",
-      "updatedAt": "2026-10-07T20:16:44.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 45,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "PCI"
-      ],
-      "source": "security-bulletin"
-    },
-    {
       "id": "1f8f37ef6b080e72",
       "title": "CVE-2026-105811 - Authorization bypass through a user-controlled key in the Amazon Q Business Lambda hook sample in QnABot on AWS",
       "description": "Bulletin ID: 2026-126-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/06/2026 13:00 PM PDT Description: QnABot on AWS is a sample solution of a multi-channel, multi-language conversational interface (chatbot) that responds to your customer's questions, answers, and feedback. We identified CVE-2026-105811 in the optional Amazon Q Business Lambda hook sample of QnABot on AWS. The Amazon Q Business Lambda hook sample (q-business-lambda-hook) is an optional integration sample included in the QnABot on AWS repository. It requires separate, manual deployment and addi",
@@ -4616,7 +4768,7 @@
         "lambda",
         "q"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "medium",
       "securityMatches": [
@@ -4784,25 +4936,6 @@
         "security"
       ],
       "source": "whats-new"
-    },
-    {
-      "id": "05211db46b6d843c",
-      "title": "CVE-2026-16317 and CVE-2026-16318: Issues with s2n-tls: an open-source implementation of the TLS/SSL protocols",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-062-aws/",
-      "publishedAt": "2026-09-22T19:48:46.000Z",
-      "updatedAt": "2026-09-22T19:48:46.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 45,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "TLS"
-      ],
-      "source": "security-bulletin"
     },
     {
       "id": "61671c9aac485bf1",
@@ -5377,6 +5510,78 @@
       "source": "security-blog"
     },
     {
+      "id": "daea5ab7285ab0d9",
+      "title": "CVE-2026-14471 - Authenticated SQL injection in the metrics-service retention policy subsystem of mcp-gateway-registry",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-052-aws/",
+      "publishedAt": "2026-10-14T18:38:31.000Z",
+      "updatedAt": "2026-10-14T18:38:31.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "policy"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "7671aa0f547a2810",
+      "title": "CVE-2026-13769 – Insecure file permissions in AWS CLI",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-049-aws/",
+      "publishedAt": "2026-10-14T18:38:30.000Z",
+      "updatedAt": "2026-10-14T18:38:30.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "permission"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "736c5220fc00fdd9",
+      "title": "AWS License Manager now supports license type conversions for Ubuntu Pro purchased through AWS Marketplace",
+      "description": "AWS License Manager now supports in-place upgrades for EC2 Ubuntu LTS (Long Term Support) instances to Ubuntu Pro available on AWS Marketplace. This allows customers to strengthen their security posture and meet compliance requirements without rebuilding their fleet or migrating workloads to a new instance or AMI. With an Ubuntu Pro subscription, customers receive security patches for up to 10 years — extendable to 15 years with the Legacy add-on. This coverage extends beyond the base OS to thousands of additional packages, including widely used open-source applications such as NGINX, PostgreS",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/license-manager/\"&gt;AWS License Manager&amp;nbsp;&lt;/a&gt; now supports in-place upgrades for EC2 Ubuntu LTS (Long Term Support) instances to Ubuntu Pro available on AWS Marketplace. This allows customers to strengthen their security posture and meet compliance requirements without rebuilding their fleet or migrating workloads to a new instance or AMI. With an Ubuntu Pro subscription, customers receive security patches for up to 10 years — extendable to 15 years with the Legacy add-on. This coverage extends beyond the base OS to thousands of additional packages, including widely used open-source applications such as NGINX, PostgreSQL, MongoDB, and Redis. Ubuntu Pro also supports Kernel Livepatch, which applies critical kernel security fixes without rebooting to minimize downtime.&lt;/p&gt;\n&lt;p&gt;With this launch, customers, who have an existing Canonical Ubuntu Pro subscription through AWS Marketplace, can upgrade directly during the conversion workflow. Customers who do not yet have a subscription can subscribe to Canonical Ubuntu Pro from within the AWS License Manager console. The new feature is available in &amp;nbsp;&lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;all commercial regions&amp;nbsp;&lt;/a&gt; where AWS License Manager is available.&lt;/p&gt;\n&lt;p&gt;To get started, navigate to the &amp;nbsp;&lt;a href=\"https://us-east-1.console.aws.amazon.com/license-manager/home?region=us-east-1#/\"&gt;AWS License Manager console&amp;nbsp;&lt;/a&gt; and the &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/license-manager/latest/userguide/license-asset-groups-overview.html\"&gt;AWS License Manager User Guide&amp;nbsp;&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-license-manager-conversions-ubuntu-pro-marketplace/",
+      "publishedAt": "2026-10-14T17:04:00.000Z",
+      "updatedAt": "2026-10-14T17:04:00.000Z",
+      "categories": [
+        "Partner Network",
+        "AWS License Manager",
+        "Management And Governance",
+        "AWS Marketplace"
+      ],
+      "services": [
+        "License Manager"
+      ],
+      "tags": [
+        "partner network",
+        "aws license manager",
+        "management and governance",
+        "aws marketplace",
+        "license manager"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "security",
+        "compliance",
+        "patch"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "cff4147567d643c0",
       "title": "Amazon CloudFront now supports AWS Lambda Web Functions as an origin",
       "description": "Starting today, you can deliver web applications built on AWS Lambda Web Functions through CloudFront's global edge network. With CloudFront in front of a Lambda Web Function, you get TLS termination at the edge for lower latency and faster connections, caching for better performance, and custom domains with managed TLS certificates. No changes to application code are needed. CloudFront Origin Access Control (OAC) restricts your Lambda Web Function so it's reachable only through CloudFront, so unintended requests that bypass your security protections do not reach your origin. With OAC in place",
@@ -5407,25 +5612,6 @@
         "access"
       ],
       "source": "whats-new"
-    },
-    {
-      "id": "7671aa0f547a2810",
-      "title": "CVE-2026-13769 – Insecure file permissions in AWS CLI",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-049-aws/",
-      "publishedAt": "2026-10-09T18:19:17.000Z",
-      "updatedAt": "2026-10-09T18:19:17.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 40,
-      "securityLevel": "high",
-      "securityMatches": [
-        "permission"
-      ],
-      "source": "security-bulletin"
     },
     {
       "id": "0d69ee4453647251",
@@ -5686,25 +5872,6 @@
       "securityLevel": "high",
       "securityMatches": [
         "Config"
-      ],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "daea5ab7285ab0d9",
-      "title": "CVE-2026-14471 - Authenticated SQL injection in the metrics-service retention policy subsystem of mcp-gateway-registry",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-052-aws/",
-      "publishedAt": "2026-09-22T19:49:10.000Z",
-      "updatedAt": "2026-09-22T19:49:10.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 40,
-      "securityLevel": "high",
-      "securityMatches": [
-        "policy"
       ],
       "source": "security-bulletin"
     },
@@ -6066,13 +6233,32 @@
       "source": "whats-new"
     },
     {
+      "id": "84c2885b48c2c778",
+      "title": "CVE-2026-15746 - Credential disclosure in Strands Agents Tools elasticsearch_memory tool",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-056-aws/",
+      "publishedAt": "2026-10-14T18:38:44.000Z",
+      "updatedAt": "2026-10-14T18:38:44.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 35,
+      "securityLevel": "high",
+      "securityMatches": [
+        "credential"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "dd440c926a788bd9",
       "title": "CVE-2026-7461 - OS Command Injection in Amazon ECS Agent via FSx Windows File Server Volume Credentials",
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-024-aws/",
-      "publishedAt": "2026-10-07T20:16:45.000Z",
-      "updatedAt": "2026-10-07T20:16:45.000Z",
+      "publishedAt": "2026-10-14T18:37:57.000Z",
+      "updatedAt": "2026-10-14T18:37:57.000Z",
       "categories": [],
       "services": [
         "ECS",
@@ -6119,25 +6305,6 @@
         "S3"
       ],
       "source": "whats-new"
-    },
-    {
-      "id": "84c2885b48c2c778",
-      "title": "CVE-2026-15746 - Credential disclosure in Strands Agents Tools elasticsearch_memory tool",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-056-aws/",
-      "publishedAt": "2026-09-22T19:48:47.000Z",
-      "updatedAt": "2026-09-22T19:48:47.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 35,
-      "securityLevel": "high",
-      "securityMatches": [
-        "credential"
-      ],
-      "source": "security-bulletin"
     },
     {
       "id": "ef375097ba3a35f7",
@@ -6435,13 +6602,178 @@
       "source": "whats-new"
     },
     {
+      "id": "2145282344d50d00",
+      "title": "CVE-2026-15895: OS command injection in jsii-diff in AWS jsii",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-057-aws/",
+      "publishedAt": "2026-10-14T18:38:44.000Z",
+      "updatedAt": "2026-10-14T18:38:44.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "7cd2f8576053ef3e",
+      "title": "CVE-2026-12283 - Issue with Athena Federated Query Synapse Connector",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-059-aws/",
+      "publishedAt": "2026-10-14T18:38:44.000Z",
+      "updatedAt": "2026-10-14T18:38:44.000Z",
+      "categories": [],
+      "services": [
+        "Athena"
+      ],
+      "tags": [
+        "athena"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "9862c9a2f36c4840",
+      "title": "CVE-2026-15415 - Path traversal and arbitrary file write in the workflow linters of aws-healthomics-mcp-server",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-060-aws/",
+      "publishedAt": "2026-10-14T18:38:44.000Z",
+      "updatedAt": "2026-10-14T18:38:44.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "437deb5729164c09",
+      "title": "CVE-2026-16756 - Allocation of resources without limits in the default aws-smithy-http-server serve() path allows unauthenticated Slowloris denial of service",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-064-aws/",
+      "publishedAt": "2026-10-14T18:38:44.000Z",
+      "updatedAt": "2026-10-14T18:38:44.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "bd2d052cdc5dd51f",
+      "title": "CVE-2026-16796 - Improper neutralization of argument delimiters in AWS Bedrock AgentCore Python SDK install_packages()",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-065-aws/",
+      "publishedAt": "2026-10-14T18:38:44.000Z",
+      "updatedAt": "2026-10-14T18:38:44.000Z",
+      "categories": [],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "4872613c1c751f04",
+      "title": "CVE-2026-15737 - Sensitive content disclosure via OpenTelemetry spans in AgentCore Python SDK",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-058-aws/",
+      "publishedAt": "2026-10-14T18:38:44.000Z",
+      "updatedAt": "2026-10-14T18:38:44.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "331468d003f9eadc",
+      "title": "CVE-2026-14265- Deserialization of Untrusted Data in AWS Advanced JDBC Wrapper RemoteQueryCachePlugin",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-051-aws/",
+      "publishedAt": "2026-10-14T18:38:31.000Z",
+      "updatedAt": "2026-10-14T18:38:31.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "e3fabffaaedf4224",
+      "title": "CVE-2026-15643 - AWS HealthLake MCP Server SSRF via Unvalidated Pagination URL",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-054-aws/",
+      "publishedAt": "2026-10-14T18:38:31.000Z",
+      "updatedAt": "2026-10-14T18:38:31.000Z",
+      "categories": [],
+      "services": [
+        "HealthLake"
+      ],
+      "tags": [
+        "healthlake"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "28bbe3f7ab0b9162",
+      "title": "CVE-2026-14904 - Improper Link Resolution in Auth.GetUserPrivateKey in AWS Research and Engineering Studio",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-053-aws/",
+      "publishedAt": "2026-10-14T18:38:31.000Z",
+      "updatedAt": "2026-10-14T18:38:31.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
       "id": "75ab7f449a41c1c6",
       "title": "CVE-2026-12957 and CVE-2026-12958 - Issues in Language Servers for AWS and Amazon Q Developer Plugins",
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-047-aws/",
-      "publishedAt": "2026-10-09T18:19:17.000Z",
-      "updatedAt": "2026-10-09T18:19:17.000Z",
+      "publishedAt": "2026-10-14T18:38:30.000Z",
+      "updatedAt": "2026-10-14T18:38:30.000Z",
       "categories": [],
       "services": [
         "Q"
@@ -6461,8 +6793,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-046-aws/",
-      "publishedAt": "2026-10-09T18:19:17.000Z",
-      "updatedAt": "2026-10-09T18:19:17.000Z",
+      "publishedAt": "2026-10-14T18:38:30.000Z",
+      "updatedAt": "2026-10-14T18:38:30.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6478,8 +6810,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-050-aws/",
-      "publishedAt": "2026-10-09T18:19:17.000Z",
-      "updatedAt": "2026-10-09T18:19:17.000Z",
+      "publishedAt": "2026-10-14T18:38:30.000Z",
+      "updatedAt": "2026-10-14T18:38:30.000Z",
       "categories": [],
       "services": [
         "CDK"
@@ -6499,8 +6831,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-041-aws/",
-      "publishedAt": "2026-10-09T16:14:05.000Z",
-      "updatedAt": "2026-10-09T16:14:05.000Z",
+      "publishedAt": "2026-10-14T18:38:30.000Z",
+      "updatedAt": "2026-10-14T18:38:30.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6516,8 +6848,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-043-aws/",
-      "publishedAt": "2026-10-09T16:14:05.000Z",
-      "updatedAt": "2026-10-09T16:14:05.000Z",
+      "publishedAt": "2026-10-14T18:38:30.000Z",
+      "updatedAt": "2026-10-14T18:38:30.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6533,8 +6865,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-039-aws/",
-      "publishedAt": "2026-10-08T19:49:32.000Z",
-      "updatedAt": "2026-10-08T19:49:32.000Z",
+      "publishedAt": "2026-10-14T18:38:13.000Z",
+      "updatedAt": "2026-10-14T18:38:13.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6550,25 +6882,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-037-aws/",
-      "publishedAt": "2026-10-08T19:49:32.000Z",
-      "updatedAt": "2026-10-08T19:49:32.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "7b2fbfb42940026a",
-      "title": "CVE-2026-107322 - OS command injection in Amazon Agent Plugins for AWS databases-on-aws",
-      "description": "Bulletin ID: 2026-130-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/08/2026 11:30 AM PDT Description: Amazon Agent Plugins for AWS is an open source collection of plugins that extends supported AI coding agents with AWS-focused workflows and tool integrations. The databases-on-aws plugin provides database design, development, migration, and operational guidance, including Aurora DSQL helper scripts. We identified CVE-2026-107322, where an incomplete list of disallowed inputs in databases-on-aws versions before 1.7.1 could allow a remote unauthenticated actor ",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-130-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 10/08/2026 11:30 AM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;Amazon Agent Plugins for AWS is an open source collection of plugins that extends supported AI coding agents with AWS-focused workflows and tool integrations. The databases-on-aws plugin provides database design, development, migration, and operational guidance, including Aurora DSQL helper scripts.&lt;/p&gt;\n&lt;p&gt;We identified CVE-2026-107322, where an incomplete list of disallowed inputs in databases-on-aws versions before 1.7.1 could allow a remote unauthenticated actor to supply crafted content that an agent ingests. The affected code is not a listening network service; operating-system command execution on the host is possible only if the agent subsequently invokes the local helper with the crafted database command value. Any resulting command runs with the permissions of the process running the helper. This issue does not affect the Aurora DSQL service or bypass database privileges.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; databases-on-aws versions 1.0.0 through 1.7.0&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-130-aws/",
-      "publishedAt": "2026-10-08T19:29:19.000Z",
-      "updatedAt": "2026-10-08T19:29:19.000Z",
+      "publishedAt": "2026-10-14T18:38:13.000Z",
+      "updatedAt": "2026-10-14T18:38:13.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6584,8 +6899,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-033-aws/",
-      "publishedAt": "2026-10-08T18:49:39.000Z",
-      "updatedAt": "2026-10-08T18:49:39.000Z",
+      "publishedAt": "2026-10-14T18:38:13.000Z",
+      "updatedAt": "2026-10-14T18:38:13.000Z",
       "categories": [],
       "services": [
         "Redshift"
@@ -6605,25 +6920,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-032-aws/",
-      "publishedAt": "2026-10-08T18:49:39.000Z",
-      "updatedAt": "2026-10-08T18:49:39.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "62f0af1c4fc62a51",
-      "title": "CVE-2026-7424 - Integer Underflow in DHCPv6 Sub-Option Parser in FreeRTOS-Plus-TCP",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-022-aws/",
-      "publishedAt": "2026-10-07T20:16:45.000Z",
-      "updatedAt": "2026-10-07T20:16:45.000Z",
+      "publishedAt": "2026-10-14T18:38:13.000Z",
+      "updatedAt": "2026-10-14T18:38:13.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6639,8 +6937,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-026-aws/",
-      "publishedAt": "2026-10-07T20:16:45.000Z",
-      "updatedAt": "2026-10-07T20:16:45.000Z",
+      "publishedAt": "2026-10-14T18:38:13.000Z",
+      "updatedAt": "2026-10-14T18:38:13.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6656,8 +6954,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-027-aws/",
-      "publishedAt": "2026-10-07T20:16:45.000Z",
-      "updatedAt": "2026-10-07T20:16:45.000Z",
+      "publishedAt": "2026-10-14T18:38:13.000Z",
+      "updatedAt": "2026-10-14T18:38:13.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6673,8 +6971,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-028-aws/",
-      "publishedAt": "2026-10-07T20:16:45.000Z",
-      "updatedAt": "2026-10-07T20:16:45.000Z",
+      "publishedAt": "2026-10-14T18:38:13.000Z",
+      "updatedAt": "2026-10-14T18:38:13.000Z",
       "categories": [],
       "services": [
         "Redshift"
@@ -6694,8 +6992,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-029-aws/",
-      "publishedAt": "2026-10-07T20:16:45.000Z",
-      "updatedAt": "2026-10-07T20:16:45.000Z",
+      "publishedAt": "2026-10-14T18:38:13.000Z",
+      "updatedAt": "2026-10-14T18:38:13.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6711,8 +7009,25 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
-      "publishedAt": "2026-10-07T20:16:45.000Z",
-      "updatedAt": "2026-10-07T20:16:45.000Z",
+      "publishedAt": "2026-10-14T18:38:13.000Z",
+      "updatedAt": "2026-10-14T18:38:13.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "62f0af1c4fc62a51",
+      "title": "CVE-2026-7424 - Integer Underflow in DHCPv6 Sub-Option Parser in FreeRTOS-Plus-TCP",
+      "description": "",
+      "descriptionHtml": "",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-022-aws/",
+      "publishedAt": "2026-10-14T18:37:57.000Z",
+      "updatedAt": "2026-10-14T18:37:57.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6728,8 +7043,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-021-aws/",
-      "publishedAt": "2026-10-07T20:16:45.000Z",
-      "updatedAt": "2026-10-07T20:16:45.000Z",
+      "publishedAt": "2026-10-14T18:37:57.000Z",
+      "updatedAt": "2026-10-14T18:37:57.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6745,8 +7060,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-020-aws/",
-      "publishedAt": "2026-10-07T20:16:45.000Z",
-      "updatedAt": "2026-10-07T20:16:45.000Z",
+      "publishedAt": "2026-10-14T18:37:57.000Z",
+      "updatedAt": "2026-10-14T18:37:57.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6762,8 +7077,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-018-aws/",
-      "publishedAt": "2026-10-07T20:16:44.000Z",
-      "updatedAt": "2026-10-07T20:16:44.000Z",
+      "publishedAt": "2026-10-14T18:37:57.000Z",
+      "updatedAt": "2026-10-14T18:37:57.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6779,8 +7094,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-016-aws/",
-      "publishedAt": "2026-10-07T20:16:44.000Z",
-      "updatedAt": "2026-10-07T20:16:44.000Z",
+      "publishedAt": "2026-10-14T18:37:56.000Z",
+      "updatedAt": "2026-10-14T18:37:56.000Z",
       "categories": [],
       "services": [
         "EFS"
@@ -6800,8 +7115,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-014-aws/",
-      "publishedAt": "2026-10-07T20:16:44.000Z",
-      "updatedAt": "2026-10-07T20:16:44.000Z",
+      "publishedAt": "2026-10-14T18:37:56.000Z",
+      "updatedAt": "2026-10-14T18:37:56.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -6817,8 +7132,8 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-013-aws/",
-      "publishedAt": "2026-10-07T20:16:44.000Z",
-      "updatedAt": "2026-10-07T20:16:44.000Z",
+      "publishedAt": "2026-10-14T18:37:56.000Z",
+      "updatedAt": "2026-10-14T18:37:56.000Z",
       "categories": [],
       "services": [
         "Athena"
@@ -6838,8 +7153,61 @@
       "description": "",
       "descriptionHtml": "",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-011-aws/",
-      "publishedAt": "2026-10-07T20:16:44.000Z",
-      "updatedAt": "2026-10-07T20:16:44.000Z",
+      "publishedAt": "2026-10-14T18:37:56.000Z",
+      "updatedAt": "2026-10-14T18:37:56.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "33113657d4bc2ade",
+      "title": "AWS Backup now supports Amazon FSx file systems in the Asia Pacific (New Zealand) Region",
+      "description": "AWS Backup now supports Amazon FSx for Lustre, Amazon FSx for NetApp ONTAP, Amazon FSx for OpenZFS, and Amazon FSx for Windows File Server in the Asia Pacific (New Zealand) Region. With this launch, you can use AWS Backup to centrally automate and manage data protection for your Amazon FSx file systems in the Asia Pacific (New Zealand) Region, alongside your other supported AWS resources. You can create policy-based backup plans to schedule backups and apply retention rules, store backups in encrypted vaults, and restore file systems when needed. This helps you meet business continuity, disast",
+      "descriptionHtml": "&lt;p&gt;AWS Backup now supports Amazon FSx for Lustre, Amazon FSx for NetApp ONTAP, Amazon FSx for OpenZFS, and Amazon FSx for Windows File Server in the Asia Pacific (New Zealand) Region.&lt;/p&gt;\n&lt;p&gt;With this launch, you can use AWS Backup to centrally automate and manage data protection for your Amazon FSx file systems in the Asia Pacific (New Zealand) Region, alongside your other supported AWS resources. You can create policy-based backup plans to schedule backups and apply retention rules, store backups in encrypted vaults, and restore file systems when needed. This helps you meet business continuity, disaster recovery, and regulatory compliance requirements from a single, centralized service.&lt;/p&gt;\n&lt;p&gt;To get started, visit the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. For a complete list of supported Regions and features, visit the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#features-by-region\"&gt;AWS Backup documentation&lt;/a&gt;. To learn more about AWS Backup, visit the &lt;a href=\"https://aws.amazon.com/backup/\"&gt;product page&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/backup/pricing/\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-fsx-asia-pacific-new-zealand/",
+      "publishedAt": "2026-10-14T08:00:00.000Z",
+      "updatedAt": "2026-10-14T08:00:00.000Z",
+      "categories": [
+        "Storage",
+        "Amazon Fsx For Lustre",
+        "Amazon Fsx Netapp Ontap",
+        "AWS Backup"
+      ],
+      "services": [
+        "FSx",
+        "Backup"
+      ],
+      "tags": [
+        "storage",
+        "amazon fsx for lustre",
+        "amazon fsx netapp ontap",
+        "aws backup",
+        "fsx",
+        "backup"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "encrypt",
+        "policy",
+        "data protection"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "7b2fbfb42940026a",
+      "title": "CVE-2026-107322 - OS command injection in Amazon Agent Plugins for AWS databases-on-aws",
+      "description": "Bulletin ID: 2026-130-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/08/2026 11:30 AM PDT Description: Amazon Agent Plugins for AWS is an open source collection of plugins that extends supported AI coding agents with AWS-focused workflows and tool integrations. The databases-on-aws plugin provides database design, development, migration, and operational guidance, including Aurora DSQL helper scripts. We identified CVE-2026-107322, where an incomplete list of disallowed inputs in databases-on-aws versions before 1.7.1 could allow a remote unauthenticated actor ",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-130-AWS\n &lt;br&gt;\n &lt;b&gt;Scope:&lt;/b&gt; AWS\n &lt;br&gt;\n &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)\n &lt;br&gt;\n &lt;b&gt;Publication Date:&lt;/b&gt; 10/08/2026 11:30 AM PDT&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;Amazon Agent Plugins for AWS is an open source collection of plugins that extends supported AI coding agents with AWS-focused workflows and tool integrations. The databases-on-aws plugin provides database design, development, migration, and operational guidance, including Aurora DSQL helper scripts.&lt;/p&gt;\n&lt;p&gt;We identified CVE-2026-107322, where an incomplete list of disallowed inputs in databases-on-aws versions before 1.7.1 could allow a remote unauthenticated actor to supply crafted content that an agent ingests. The affected code is not a listening network service; operating-system command execution on the host is possible only if the agent subsequently invokes the local helper with the crafted database command value. Any resulting command runs with the permissions of the process running the helper. This issue does not affect the Aurora DSQL service or bypass database privileges.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; databases-on-aws versions 1.0.0 through 1.7.0&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-130-aws/",
+      "publishedAt": "2026-10-08T19:29:19.000Z",
+      "updatedAt": "2026-10-08T19:29:19.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -7127,23 +7495,6 @@
       "source": "security-bulletin"
     },
     {
-      "id": "331468d003f9eadc",
-      "title": "CVE-2026-14265- Deserialization of Untrusted Data in AWS Advanced JDBC Wrapper RemoteQueryCachePlugin",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-051-aws/",
-      "publishedAt": "2026-09-22T19:49:09.000Z",
-      "updatedAt": "2026-09-22T19:49:09.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
       "id": "50ce914e270a9547",
       "title": "CVE-2026-12530 - Improper neutralization of argument delimiters in AWS Bedrock AgentCore Python SDK install_packages()",
       "description": "",
@@ -7165,44 +7516,6 @@
       "source": "security-bulletin"
     },
     {
-      "id": "e3fabffaaedf4224",
-      "title": "CVE-2026-15643 - AWS HealthLake MCP Server SSRF via Unvalidated Pagination URL",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-054-aws/",
-      "publishedAt": "2026-09-22T19:49:08.000Z",
-      "updatedAt": "2026-09-22T19:49:08.000Z",
-      "categories": [],
-      "services": [
-        "HealthLake"
-      ],
-      "tags": [
-        "healthlake"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "28bbe3f7ab0b9162",
-      "title": "CVE-2026-14904 - Improper Link Resolution in Auth.GetUserPrivateKey in AWS Research and Engineering Studio",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-053-aws/",
-      "publishedAt": "2026-09-22T19:49:08.000Z",
-      "updatedAt": "2026-09-22T19:49:08.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
       "id": "858a3625d8c3353f",
       "title": "CVE-2026-15738 - Issue with AWS Load Balancer Controller Cross-Namespace Traffic Interception via HTTPRoute/GRPCRoute Priority Ordering",
       "description": "",
@@ -7210,116 +7523,6 @@
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-055-aws/",
       "publishedAt": "2026-09-22T19:49:08.000Z",
       "updatedAt": "2026-09-22T19:49:08.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "2145282344d50d00",
-      "title": "CVE-2026-15895: OS command injection in jsii-diff in AWS jsii",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-057-aws/",
-      "publishedAt": "2026-09-22T19:48:47.000Z",
-      "updatedAt": "2026-09-22T19:48:47.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "7cd2f8576053ef3e",
-      "title": "CVE-2026-12283 - Issue with Athena Federated Query Synapse Connector",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-059-aws/",
-      "publishedAt": "2026-09-22T19:48:46.000Z",
-      "updatedAt": "2026-09-22T19:48:46.000Z",
-      "categories": [],
-      "services": [
-        "Athena"
-      ],
-      "tags": [
-        "athena"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "9862c9a2f36c4840",
-      "title": "CVE-2026-15415 - Path traversal and arbitrary file write in the workflow linters of aws-healthomics-mcp-server",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-060-aws/",
-      "publishedAt": "2026-09-22T19:48:46.000Z",
-      "updatedAt": "2026-09-22T19:48:46.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "437deb5729164c09",
-      "title": "CVE-2026-16756 - Allocation of resources without limits in the default aws-smithy-http-server serve() path allows unauthenticated Slowloris denial of service",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-064-aws/",
-      "publishedAt": "2026-09-22T19:48:46.000Z",
-      "updatedAt": "2026-09-22T19:48:46.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "bd2d052cdc5dd51f",
-      "title": "CVE-2026-16796 - Improper neutralization of argument delimiters in AWS Bedrock AgentCore Python SDK install_packages()",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-065-aws/",
-      "publishedAt": "2026-09-22T19:48:46.000Z",
-      "updatedAt": "2026-09-22T19:48:46.000Z",
-      "categories": [],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "4872613c1c751f04",
-      "title": "CVE-2026-15737 - Sensitive content disclosure via OpenTelemetry spans in AgentCore Python SDK",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-058-aws/",
-      "publishedAt": "2026-09-22T19:48:46.000Z",
-      "updatedAt": "2026-09-22T19:48:46.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -7976,7 +8179,7 @@
         "aws config",
         "config"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 25,
       "securityLevel": "medium",
       "securityMatches": [
@@ -9221,6 +9424,29 @@
       "source": "whats-new"
     },
     {
+      "id": "c64254aae4140394",
+      "title": "AWS HealthOmics introduces resource fallback order for Nextflow workflows",
+      "description": "Today, AWS HealthOmics introduces the resource fallback directive for tasks in your Nextflow workflows, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances. Researchers and bioinformaticians can use this directive to reduce time spent diagnosing and resubmitting runs due to accelerator constraints and keep production workflows running. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. With resou",
+      "descriptionHtml": "&lt;p&gt;Today, AWS HealthOmics introduces the resource fallback directive for tasks in your Nextflow workflows, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances. Researchers and bioinformaticians can use this directive to reduce time spent diagnosing and resubmitting runs due to accelerator constraints and keep production workflows running. &lt;a href=\"https://aws.amazon.com/healthomics/\"&gt;AWS HealthOmics&lt;/a&gt; is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. &lt;/p&gt;\n&lt;p&gt;With resource fallback for Nextflow workflows, you can prioritize your preferred accelerator for your task. When your preferred accelerator is unavailable, HealthOmics automatically moves through your specified alternatives in the fallback without resubmission. Each accelerator profile has a configurable timeout, giving you control over how long HealthOmics searches for that accelerator before moving to the next. Shorter timeouts help you move quickly through the fallback order, while longer timeouts increase the probability of reserving your preferred accelerator. You can also include a CPU profile as a final fallback to increase the likelihood of your task reserving an instance. &lt;/p&gt;\n&lt;p&gt;You can now use resource fallback for Nextflow workflows in all AWS HealthOmics Regions: US East (N. Virginia, Ohio), US West (Oregon), Europe (Frankfurt, Ireland, London), Israel (Tel Aviv), and Asia Pacific (Seoul, Singapore, Tokyo). To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/omics/latest/dev/advanced-resource-configuration.html\"&gt;advanced resource configuration&lt;/a&gt;&amp;nbsp;and &lt;a href=\"https://docs.aws.amazon.com/omics/latest/dev/workflow-definition-nextflow.html#workflow-nextflow-directive-fallback\"&gt;Nextflow specifics&lt;/a&gt; documentation. &lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-resource-fallback-for-Nextflow/",
+      "publishedAt": "2026-10-14T16:00:00.000Z",
+      "updatedAt": "2026-10-14T16:00:00.000Z",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "services": [],
+      "tags": [
+        "artificial intelligence"
+      ],
+      "isNew": true,
+      "securityScore": 15,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "HIPAA"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "8282dbce7df1c339",
       "title": "Amazon S3 Express One Zone is now available in 4 additional AWS Regions",
       "description": "The Amazon S3 Express One Zone storage class is now available in 4 additional AWS Regions: Europe (London), Asia Pacific (Jakarta), Asia Pacific (Hong Kong), and Africa (Cape Town). Amazon S3 Express One Zone is a high-performance, single-Availability Zone storage class purpose-built to deliver consistent single-digit millisecond data access for your most frequently accessed data and latency-sensitive applications. S3 Express One Zone delivers data access speed up to 10x faster and request costs up to 80% lower than S3 Standard. It enables workloads such as machine learning training, interacti",
@@ -10090,6 +10316,25 @@
       "source": "whats-new"
     },
     {
+      "id": "b2cfe0b4d5207411",
+      "title": "ARC Region switch adds four new capabilities",
+      "description": "Amazon Application Recovery Controller (ARC) Region switch helps you orchestrate the failover of multi-Region applications to achieve a bounded recovery time during a Regional impairment. Today, Region switch adds four new capabilities: AWS Systems Manager Run Command execution block, payloads for custom action Lambda execution block, service quota parity checks, and wait for target group health feature for compute scaling actions. AWS Systems Manager Run Command execution block. During failover, you often need to run commands on managed instances and VMs. This execution block lets you invoke ",
+      "descriptionHtml": "&lt;p&gt;Amazon Application Recovery Controller (ARC) Region switch helps you orchestrate the failover of multi-Region applications to achieve a bounded recovery time during a Regional impairment. Today, Region switch adds four new capabilities: AWS Systems Manager Run Command execution block, payloads for custom action Lambda execution block, service quota parity checks, and wait for target group health feature for compute scaling actions.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;AWS Systems Manager Run Command execution block.&lt;/b&gt; During failover, you often need to run commands on managed instances and VMs. This execution block lets you invoke Run Command actions on managed instances during failover, with plan evaluation verifying that command documents target valid instances and that IAM permissions are correctly configured.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Payloads for custom action Lambda execution block.&lt;/b&gt; ARC Region switch now lets you pass payloads to your custom action Lambda execution block, allowing reusability of your Lambda functions across recovery plans.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Service quota checks.&lt;/b&gt; Service quota limits are a common failure mode during recovery. Region switch now verifies quota parity between your primary and standby Region, and automatically submits quota limit increases, reducing the risk of insufficient service quotas during recovery.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Wait for target group health.&lt;/b&gt; Amazon ECS service scaling and Amazon EC2 Auto Scaling group execution blocks help you provision compute capacity during recovery, but provisioned capacity may not be ready to serve traffic. The optional wait for target group health feature verifies that your provisioned capacity is ready to serve traffic.&lt;/p&gt;\n&lt;p&gt;To get started, see the documentation for &lt;a href=\"https://docs.aws.amazon.com/r53recovery/latest/dg/ssm-send-command-block.html\"&gt;AWS Systems Manager Run Command execution block&amp;nbsp;&lt;/a&gt;,&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/r53recovery/latest/dg/custom-action-lambda-block.html\"&gt;custom action Lambda execution block&amp;nbsp;&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/r53recovery/latest/dg/working-with-rs-service-quota-checks.html\"&gt;Service quota checks&amp;nbsp;&lt;/a&gt; and the Wait for target group health for &lt;a href=\"https://docs.aws.amazon.com/r53recovery/latest/dg/ecs-service-scaling-block.html\"&gt;Amazon ECS service scaling execution block&amp;nbsp;&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/r53recovery/latest/dg/ec2-auto-scaling-block.html\"&gt;Amazon EC2 Auto Scaling group execution block&amp;nbsp;&lt;/a&gt;.&amp;nbsp;&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/region-switch-target-health-ssm-lambda/",
+      "publishedAt": "2026-10-14T17:38:00.000Z",
+      "updatedAt": "2026-10-14T17:38:00.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Systems Manager"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "ea07bc9e1fc479af",
       "title": "AWS Agent Registry now supports custom metadata for registry records",
       "description": "AWS Agent Registry is the centralized, governed catalog for agents, MCP servers, agent skills, gateways, and custom resources within your organization. As organizations scale to hundreds of such resources, a name and description alone are insufficient for effective governance and discovery. Custom metadata lets you extend every registry record with your organization's own structured fields, so both people and automated systems can find and govern resources consistently. With custom metadata, publishers can record fields like team ownership, data classification, or review status directly on eac",
@@ -10240,6 +10485,32 @@
       "securityLevel": "low",
       "securityMatches": [
         "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "a058678f17bfbaa1",
+      "title": "Amazon EC2 M8id instances now available in Asia Pacific (Malaysia) and Asia Pacific (Sydney)",
+      "description": "Amazon Elastic Compute Cloud (Amazon EC2) M8id instances with up to 22.8 TB of local NVMe-based SSD block-level storage are now available in Asia Pacific (Malaysia) and Asia Pacific (Sydney). M8id instances are designed for workloads that require a balance of compute and memory resources along with high-speed, low-latency local block storage, including data logging, media processing, and medium-sized data stores. Amazon EC2 M8id instances offer 3 times more vCPUs, memory and local storage compared to previous sixth-generation instances. These instances deliver up to 43% higher compute performa",
+      "descriptionHtml": "&lt;p&gt;Amazon Elastic Compute Cloud (Amazon EC2) M8id instances with up to 22.8 TB of local NVMe-based SSD block-level storage are now available in Asia Pacific (Malaysia) and Asia Pacific (Sydney). M8id instances are designed for workloads that require a balance of compute and memory resources along with high-speed, low-latency local block storage, including data logging, media processing, and medium-sized data stores.&lt;/p&gt;\n&lt;p&gt;Amazon EC2 M8id instances offer 3 times more vCPUs, memory and local storage compared to previous sixth-generation instances. These instances deliver up to 43% higher compute performance and 3.3 times more memory bandwidth compared to previous sixth-generation M6id instances. They also deliver up to 46% higher performance for I/O intensive database workloads, and up to 30% faster query results for I/O intensive real-time data analytics compared to previous sixth generation instances.&lt;/p&gt;\n&lt;p&gt;Additionally, customers can now adjust the network and Amazon EBS bandwidth on these instances by 25% using EC2 instance bandwidth weighting configuration, providing greater flexibility with the allocation of bandwidth resources to better optimize workloads. These instances offer Elastic Fabric Adapter (EFA) networking on 24xlarge, 48xlarge, metal-24xl, and metal-48xl sizes.&lt;/p&gt;\n&lt;p&gt;Customers can purchase these instances via Savings Plans, On-Demand instances, and Spot instances. For more information visit the &lt;a href=\"https://aws.amazon.com/ec2/instance-types/m8i/\"&gt;Amazon EC2 M8id&lt;/a&gt; page.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-m8id-asia-pacific-malaysia-sydney/",
+      "publishedAt": "2026-10-09T21:00:00.000Z",
+      "updatedAt": "2026-10-09T21:00:00.000Z",
+      "categories": [
+        "Amazon Ec2"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "amazon ec2",
+        "ec2"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "logging"
       ],
       "source": "whats-new"
     },
@@ -12211,6 +12482,68 @@
       "source": "whats-new"
     },
     {
+      "id": "0a5fa89d9b52250f",
+      "title": "Announcing Blockchain Snapshots on AWS for node bootstrapping",
+      "description": "For blockchain node operators running Ethereum or Solana, AWS is announcing Blockchain Snapshots on AWS, an initiative that publishes pre-synced public blockchain node chain data in Amazon Simple Storage Service (Amazon S3) so you can bootstrap a node from a snapshot instead of peer-to-peer syncing from the network. These snapshots are hosted on Amazon S3 within AWS infrastructure, enabling customers running nodes on AWS benefit from reduced latency and optimized data transfer. Blockchain Snapshots on AWS republishes each network's authoritative snapshot in a format optimized for parallel extr",
+      "descriptionHtml": "&lt;p&gt;For blockchain node operators running Ethereum or Solana, AWS is announcing Blockchain Snapshots on AWS, an initiative that publishes pre-synced public blockchain node chain data in &lt;a href=\"https://aws.amazon.com/s3/\"&gt;Amazon Simple Storage Service (Amazon S3)&lt;/a&gt; so you can bootstrap a node from a snapshot instead of peer-to-peer syncing from the network. These&amp;nbsp;snapshots are hosted on Amazon S3 within AWS infrastructure, enabling customers running nodes on AWS benefit from reduced latency and optimized data transfer. Blockchain Snapshots on AWS republishes each network's authoritative snapshot in a format optimized for parallel extraction across multiple cores, reducing setup time, that an &lt;a href=\"https://aws.amazon.com/ec2/\"&gt;Amazon Elastic Compute Cloud (Amazon EC2)&lt;/a&gt; instance can use.&lt;/p&gt;\n&lt;p&gt;Snapshots cover Ethereum and Solana, are available at no charge, and refresh on the same cadence as the upstream provider. Use them to add capacity to a remote procedure call (RPC) fleet, recover a failed node, or re-sync a corrupted database.&lt;/p&gt;\n&lt;p&gt;You can use Blockchain Snapshots on AWS in the following AWS Regions: US East (N. Virginia), Europe (Ireland), and Asia Pacific (Tokyo). Access requires an Amazon EC2 instance in the same Region with an Amazon S3 gateway VPC endpoint.&lt;/p&gt;\n&lt;p&gt;To get started, visit the &lt;a href=\"https://awslabs.github.io/blockchain-snapshots/\"&gt;Blockchain Snapshots on AWS documentation&lt;/a&gt; to access setup instructions and download the latest snapshots.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/blockchain-snapshots-node-bootstrapping/",
+      "publishedAt": "2026-10-14T08:00:00.000Z",
+      "updatedAt": "2026-10-14T08:00:00.000Z",
+      "categories": [
+        "Amazon S3",
+        "Amazon Ec2",
+        "Blockchain",
+        "Compute"
+      ],
+      "services": [
+        "EC2",
+        "S3"
+      ],
+      "tags": [
+        "amazon s3",
+        "amazon ec2",
+        "blockchain",
+        "compute",
+        "ec2",
+        "s3"
+      ],
+      "isNew": true,
+      "securityScore": 5,
+      "securityLevel": "low",
+      "securityMatches": [
+        "S3"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "fe0038c6c3bce143",
+      "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
+      "description": "Amazon S3, including S3 Tables and S3 Vectors, is now available on the Vercel Marketplace and v0 by Vercel. Developers can create and connect S3 resources in seconds without leaving their development environment, getting the durability, scalability, and performance of S3 through Vercel's streamlined provisioning workflow. Millions of customers rely on S3 for low-cost, high-performance storage to power web and AI applications, but until now provisioning it from Vercel required navigating to the AWS Management Console. Now, S3 integrates directly into the Vercel developer experience, automatical",
+      "descriptionHtml": "&lt;p&gt;Amazon S3, including S3 Tables and S3 Vectors, is now available on the Vercel Marketplace and v0 by Vercel. Developers can create and connect S3 resources in seconds without leaving their development environment, getting the durability, scalability, and performance of S3 through Vercel's streamlined provisioning workflow.&lt;/p&gt;\n&lt;p&gt;Millions of customers rely on S3 for low-cost, high-performance storage to power web and AI applications, but until now provisioning it from Vercel required navigating to the AWS Management Console. Now, S3 integrates directly into the Vercel developer experience, automatically handling resource provisioning and connection configuration. You can choose from S3 general purpose buckets for virtually any use case, S3 Tables for fully managed Apache Iceberg tables optimized for analytics workloads, or S3 Vectors to natively store and query vectors at scale.&lt;/p&gt;\n&lt;p&gt;New AWS accounts created through Vercel include $100 in credits valid for up to six months, usable across Amazon S3, Amazon OpenSearch Serverless, and AWS Database services. Existing AWS customers can link their account to use S3 with their Vercel projects.&lt;/p&gt;\n&lt;p&gt;Amazon S3 on Vercel is now available in all AWS Regions where Vercel is available. To get started, read the &lt;a href=\"http://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS News Blog&lt;/a&gt;, visit &lt;a href=\"https://vercel.com/marketplace/aws\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS on Vercel Marketplace&lt;/a&gt;, or launch &lt;a href=\"https://v0.app/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;v0 by Vercel&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-vercel-marketplace-v0",
+      "publishedAt": "2026-10-14T04:00:00.000Z",
+      "updatedAt": "2026-10-14T04:00:00.000Z",
+      "categories": [
+        "Storage",
+        "Amazon Simple Storage Service"
+      ],
+      "services": [
+        "S3"
+      ],
+      "tags": [
+        "storage",
+        "amazon simple storage service",
+        "s3"
+      ],
+      "isNew": true,
+      "securityScore": 5,
+      "securityLevel": "low",
+      "securityMatches": [
+        "S3"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "d2be8a0b09dc2a42",
       "title": "Anthropic Claude Sonnet 5.5 and Claude Opus 5.5 are now available on Kiro in AWS GovCloud (US)",
       "description": "Two new Anthropic models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Claude Opus 5.5 is Anthropic's most capable Opus model yet and a step up from Opus 5 on long-running agentic coding work. Opus 5.5 thinks adaptively on every request, deciding how much effort each task needs, and completes tasks with roughly 40% fewer tool calls and about half the tokens of Opus 5 in Kiro's internal benchmarking. Available with a 1M context window and 2.0x credit multiplier, down from Opus 5's 2.2x. Claude Sonnet 5.5 is Anthropic's fastest Sonnet model to date and a natural up",
@@ -12828,6 +13161,88 @@
       "source": "whats-new"
     },
     {
+      "id": "5a9e88fa0c991899",
+      "title": "Amazon CloudWatch announces log routing and chained log parsers",
+      "description": "Amazon CloudWatch now supports conditional log routing and chained parsers via pipelines, giving you more control over how log data is transformed and which CloudWatch log group it's sent to. CloudWatch pipelines is a fully managed service that ingests, transforms, and routes telemetry to CloudWatch without managing infrastructure. Log pipelines often carry a mix of event types that belong in different places, and individual events can nest one log format inside another. With conditional log routing, you define routes that send each event to a different CloudWatch log group based on conditions",
+      "descriptionHtml": "&lt;p&gt;Amazon CloudWatch now supports conditional log routing and chained parsers via pipelines, giving you more control over how log data is transformed and which CloudWatch log group it's sent to. CloudWatch pipelines is a fully managed service that ingests, transforms, and routes telemetry to CloudWatch without managing infrastructure.&lt;/p&gt;\n&lt;p&gt;Log pipelines often carry a mix of event types that belong in different places, and individual events can nest one log format inside another. With conditional log routing, you define routes that send each event to a different CloudWatch log group based on conditions evaluated against processed fields, so you can separate events by severity, source, or type and apply the right retention and access controls to each. With chained parsers, you can apply multiple parser processors in sequence, where later parsers consume fields produced by earlier ones. For example, you can parse a JSON envelope first, then apply a Grok parser to a field it extracts. Together, these capabilities let you structure diverse log formats and route them to the right log groups in a single pipeline.&lt;/p&gt;\n&lt;p&gt;Conditional routing and chained parsers are available in all commercial AWS Regions where CloudWatch pipelines is generally available. You can configure these capabilities using the AWS Management Console, AWS CLI, or AWS SDKs. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch-pipelines.html\"&gt;Amazon CloudWatch pipelines documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
+      "publishedAt": "2026-10-14T22:14:00.000Z",
+      "updatedAt": "2026-10-14T22:14:00.000Z",
+      "categories": [
+        "Management And Governance",
+        "Amazon Cloudwatch"
+      ],
+      "services": [
+        "CloudWatch"
+      ],
+      "tags": [
+        "management and governance",
+        "amazon cloudwatch",
+        "cloudwatch"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "1f19e2ae61ee365e",
+      "title": "AWS Transfer Family console supports SVG logos and ICO favicons for web apps",
+      "description": "The AWS Transfer Family console now supports SVG files for logos and ICO files for favicons in web apps, with upload limits increased to 2 MB. This gives you more flexibility to use existing branding assets when customizing your web app. Previously, the console accepted only JPG and PNG files and limited logo uploads to 50 KB and favicon uploads to 20 KB. The console automatically resizes images and converts them to JPG or PNG before saving them. Existing API upload limits and format requirements remain unchanged. These capabilities are available in all AWS Regions where Transfer Family web ap",
+      "descriptionHtml": "&lt;p&gt;The AWS Transfer Family console now supports SVG files for logos and ICO files for favicons in web apps, with upload limits increased to 2 MB. This gives you more flexibility to use existing branding assets when customizing your web app.&lt;/p&gt;\n&lt;p&gt;Previously, the console accepted only JPG and PNG files and limited logo uploads to 50 KB and favicon uploads to 20 KB. The console automatically resizes images and converts them to JPG or PNG before saving them. Existing API upload limits and format requirements remain unchanged.&lt;/p&gt;\n&lt;p&gt;These capabilities are available in all AWS Regions where Transfer Family web apps are offered. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/transfer/latest/userguide/web-app-tutorial.html\" target=\"_blank\"&gt;Transfer Family web apps tutorial&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-svg-ico-favicons/",
+      "publishedAt": "2026-10-14T08:00:00.000Z",
+      "updatedAt": "2026-10-14T08:00:00.000Z",
+      "categories": [
+        "Storage",
+        "AWS Transfer Family",
+        "Migration"
+      ],
+      "services": [
+        "Transfer Family"
+      ],
+      "tags": [
+        "storage",
+        "aws transfer family",
+        "migration",
+        "transfer family"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "f4c37ec4471b3736",
+      "title": "Amazon RDS Proxy now supports SQL Server 2022",
+      "description": "Amazon RDS Proxy , a fully managed, highly available database proxy for Amazon Relational Database Service (RDS) , now supports Amazon RDS for SQL Server instances running major version 2022. Amazon RDS Proxy sits between your application and the database to pool and share established database connections, improving database efficiency and application scalability. For Amazon RDS for SQL Server Multi-AZ databases, RDS Proxy automatically connects to the standby database instance during a failure, preserves application connections, and helps reduce failover times by up to 83%. RDS Proxy supports",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/proxy/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS Proxy&lt;/a&gt;, a fully managed, highly available database proxy for &lt;a href=\"https://aws.amazon.com/rds/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Relational Database Service (RDS)&lt;/a&gt;, now supports &lt;a href=\"https://aws.amazon.com/rds/sqlserver/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for SQL Server&lt;/a&gt;&amp;nbsp;instances running major version 2022.\n &lt;br&gt;\n &lt;br&gt;\n Amazon RDS Proxy sits between your application and the database to pool and share established database connections, improving database efficiency and application scalability. For Amazon RDS for SQL Server Multi-AZ databases, RDS Proxy automatically connects to the standby database instance during a failure, preserves application connections, and helps reduce failover times by up to 83%. RDS Proxy supports standard IAM authentication for SQL Server, where your applications authenticate to the proxy using AWS Identity and Access Management (IAM) and RDS Proxy manages database connections using credentials stored in AWS Secrets Manager.\n &lt;br&gt;\n &lt;br&gt;\n You can enable Amazon RDS Proxy for your SQL Server 2022 database in a few steps on the Amazon RDS console, then connect by pointing your application to the RDS Proxy endpoint. To get started, see our &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/rds-proxy-supports-sqlserver-2022",
+      "publishedAt": "2026-10-14T07:00:00.000Z",
+      "updatedAt": "2026-10-14T07:00:00.000Z",
+      "categories": [
+        "Databases",
+        "Amazon Rds For Sql Server",
+        "AWS Govcloud Us"
+      ],
+      "services": [
+        "RDS"
+      ],
+      "tags": [
+        "databases",
+        "amazon rds for sql server",
+        "aws govcloud us",
+        "rds"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "bc8e15b7e4fd61cf",
       "title": "Amazon ECS adds LiveTaskCount and removes the charge for RunningTaskCount metric",
       "description": "Today, Amazon Elastic Container Service (Amazon ECS) announces LiveTaskCount, a new ECS service metric that reports how many tasks are actively running in your service, available to all customers at no additional charge. Additionally, the existing RunningTaskCount metric in Amazon CloudWatch Container Insights no longer incurs a charge. LiveTaskCount reports the number of actively running ECS tasks across all desired states (ACTIVATING, RUNNING, and DEACTIVATING), including tasks still running while transitioning to a stopped state, for example, tasks undergoing connection draining during a sc",
@@ -12850,6 +13265,32 @@
         "amazon cloudwatch",
         "ecs",
         "cloudwatch"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "141afa49fb066fd3",
+      "title": "AWS Lambda durable functions increases durable operation and checkpoint payload limits",
+      "description": "Starting today, AWS Lambda durable functions increases the maximum number of durable operations per execution from 3,000 to 30,000, and the maximum checkpoint payload size from 256 KB to 1 MB. Higher operation limits let you safely do more work in a single execution including expanding iterative loops, polling for longer time periods, and building more complex rollback paths that run when a step fails. At 1 MB, checkpoint payloads match the maximum payload size of asynchronous Lambda invocations, and integration services such as Amazon SQS, and Amazon EventBridge, so a workflow can persist a f",
+      "descriptionHtml": "&lt;p&gt;Starting today, AWS Lambda durable functions increases the maximum number of durable operations per execution from 3,000 to 30,000, and the maximum checkpoint payload size from 256 KB to 1 MB. Higher operation limits let you safely do more work in a single execution including expanding iterative loops, polling for longer time periods, and building more complex rollback paths that run when a step fails. At 1 MB, checkpoint payloads match the maximum payload size of asynchronous Lambda invocations, and integration services such as Amazon SQS, and Amazon EventBridge, so a workflow can persist a full event from any of these sources in a single operation.&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/durable-functions.html\"&gt;AWS Lambda durable functions&lt;/a&gt; helps you build resilient multi-step applications and AI workflows that execute for up to one year, with built-in checkpointing, automatic retries, and waits that suspend execution without incurring compute charges. Every durable operation counts toward the per-execution limit, including each step attempt, each poll of a wait-for-condition, and each branch of a parallel or map operation. With 30,000 operations, a single execution has more room to coordinate complex, multi-step workflows, iterate across thousands of items, or poll an external system for weeks, without exceeding checkpoint limits.&lt;/p&gt;\n&lt;p&gt;An agentic application can reason over thousands of model and tool calls, and with 1 MB checkpoints it persists larger conversation histories, model responses, and outputs from tools directly in the checkpoint instead of writing to external storage. For state larger than 1 MB, the JavaScript and Python SDKs include a &lt;a href=\"https://docs.aws.amazon.com/durable-execution/sdk-reference/state/serialization/#filesystem-serdes\"&gt;FileSystem serializer&lt;/a&gt; that writes the payload to an Amazon EFS or Amazon S3 Files mount and checkpoints a pointer instead.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;The new limits apply in all AWS Regions where AWS Lambda durable functions is available. To learn more about these service limits, see the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html\"&gt;AWS Lambda developer guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-gen-limit-increase/",
+      "publishedAt": "2026-10-13T22:00:00.000Z",
+      "updatedAt": "2026-10-13T22:00:00.000Z",
+      "categories": [
+        "Serverless",
+        "AWS Lambda"
+      ],
+      "services": [
+        "Lambda"
+      ],
+      "tags": [
+        "serverless",
+        "aws lambda",
+        "lambda"
       ],
       "isNew": true,
       "securityScore": 0,
@@ -13111,6 +13552,34 @@
       "source": "whats-new"
     },
     {
+      "id": "998b11aa45d4da82",
+      "title": "Amazon EC2 C9g, C9gd, M9g, and M9gd instances are now available in additional regions",
+      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g and C9gd instances are available in the Asia Pacific (Malaysia, Seoul, Singapore) regions. Amazon EC2 M9g and M9gd instances are available in the Asia Pacific (Malaysia) and Europe (Spain) regions. These instances are powered by AWS Graviton5 processors, the fifth generation of custom-designed CPUs, which deliver the best price performance for a broad range of workloads running on Amazon EC2. C9g and C9gd instances and M9g and M9gd instances deliver up to 25% better compute performance than AWS Graviton4-based C8g, C8gd, M8g, and M8",
+      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g and C9gd instances are available in the Asia Pacific (Malaysia, Seoul, Singapore) regions. Amazon EC2 M9g and M9gd instances are available in the Asia Pacific (Malaysia) and Europe (Spain) regions. These instances are powered by AWS Graviton5 processors, the fifth generation of custom-designed CPUs, which deliver the best price performance for a broad range of workloads running on Amazon EC2.&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/ec2/instance-types/c9g/\"&gt;C9g and C9gd instances&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/ec2/instance-types/m9g/\"&gt;M9g and M9gd instances&lt;/a&gt; deliver up to 25% better compute performance than AWS Graviton4-based C8g, C8gd, M8g, and M8gd instances. They are up to 30% faster for databases, up to 35% faster for web applications, and up to 35% faster for machine learning. These instances are built on the sixth-generation &lt;a href=\"https://aws.amazon.com/ec2/nitro/\"&gt;AWS Nitro System&lt;/a&gt; and are the first to feature the &lt;a href=\"https://aws.amazon.com/blogs/compute/aws-nitro-isolation-engine-formally-verifying-the-hypervisor-in-the-aws-nitro-system/\"&gt;Nitro Isolation Engine&lt;/a&gt;. The Isolation Engine uses formal verification to provide mathematical assurance that customer workloads are isolated from each other and from AWS operators, pioneering a new standard for mathematically proven cloud security.&lt;/p&gt;\n&lt;p&gt;C9g instances are ideal for compute-intensive workloads such as high-performance computing (HPC), batch processing, gaming, video encoding, scientific modeling, distributed analytics, CPU-based machine learning (ML) inference, real-time analytics, and ad serving. M9g instances serve a broad range of general-purpose workloads, including application servers, microservices, gaming, caching, and containers. They also deliver the performance needed for agentic AI use cases like real-time reasoning, code generation, and multi-step orchestration. C9gd and M9gd instances add local NVMe-based SSD block-level storage for workloads that need high-speed, low-latency local storage for scratch space, temporary files, and caches.&lt;/p&gt;\n&lt;p&gt;C9g, C9gd, M9g, and M9gd instances are available for purchase in these regions via Savings Plans, On-Demand, Spot Instances, Dedicated Instances, or Dedicated Hosts. &lt;a href=\"https://aws.amazon.com/ec2/graviton/level-up-with-graviton/\"&gt;Level up your compute with AWS Graviton&lt;/a&gt; and get started today with &lt;a href=\"https://aws.amazon.com/ec2/instance-types/c9g/\"&gt;C9g&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/ec2/instance-types/m9g/\"&gt;M9g&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-c9g-m9g-instances-additional-regions/",
+      "publishedAt": "2026-10-09T21:00:00.000Z",
+      "updatedAt": "2026-10-09T21:00:00.000Z",
+      "categories": [
+        "Amazon Ec2",
+        "AWS Graviton",
+        "Compute"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "amazon ec2",
+        "aws graviton",
+        "compute",
+        "ec2"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "ac2fb4a0425f6f00",
       "title": "Amazon EC2 R8g instances now available in additional regions",
       "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to AWS Graviton3-based instances. Amazon EC2 R8g instances are ideal for memory-intensive workloads such as databases, in-memory caches, and real-time big data analytics. These instances are built on the AWS Nitro System , which offloads CPU virtualization, storage, and networking functions to dedicated hardware and software to enhance the performance ",
@@ -13179,6 +13648,34 @@
         "amazon connect",
         "contact center",
         "connect"
+      ],
+      "isNew": true,
+      "securityScore": 0,
+      "securityLevel": "low",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
+      "id": "397e26c5c601bc85",
+      "title": "Amazon EC2 C8gd and M8gd instances are now available in additional regions",
+      "description": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd and M8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now available in Europe (Stockholm), Asia Pacific (Mumbai), and Asia Pacific (Seoul). M8gd instances are now available in Europe (Stockholm), US West (N. California), and Asia Pacific (Singapore). These instances are powered by AWS Graviton4 processors, delivering up to 30% better performance over Graviton3-based instances. They have up to 40% higher performance for I/O intensive database workloads, and up t",
+      "descriptionHtml": "&lt;p&gt;Amazon Elastic Compute Cloud (Amazon EC2) C8gd and M8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now available in Europe (Stockholm), Asia Pacific (Mumbai), and Asia Pacific (Seoul). M8gd instances are now available in Europe (Stockholm), US West (N. California), and Asia Pacific (Singapore). These instances are powered by AWS Graviton4 processors, delivering up to 30% better performance over Graviton3-based instances. They have up to 40% higher performance for I/O intensive database workloads, and up to 20% faster query results for I/O intensive real-time data analytics than comparable AWS Graviton3-based instances. These instances are built on the AWS Nitro System and are a great fit for applications that need access to high-speed, low latency local storage.&lt;/p&gt;\n&lt;p&gt;Each instance is available in 12 different sizes. They provide up to 50 Gbps of network bandwidth and up to 40 Gbps of bandwidth to the Amazon Elastic Block Store (Amazon EBS). Additionally, customers can now adjust the network and Amazon EBS bandwidth on these instances by 25% using EC2 instance bandwidth weighting configuration, providing greater flexibility with the allocation of bandwidth resources to better optimize workloads. These instances offer Elastic Fabric Adapter (EFA) networking on 24xlarge, 48xlarge, metal-24xl, and metal-48xl sizes.&lt;/p&gt;\n&lt;p&gt;C8gd instances are ideal for compute-intensive workloads such as high-performance web servers, batch processing, distributed analytics, ad serving, video encoding, and gaming servers. M8gd instances are well-suited for balanced workloads including application servers, microservices, enterprise applications, and small to medium databases.&lt;/p&gt;\n&lt;p&gt;To learn more, see &lt;a href=\"https://aws.amazon.com/ec2/instance-types/c8g/\"&gt;Amazon C8gd Instances&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/ec2/instance-types/m8g/\"&gt;Amazon M8gd Instances&lt;/a&gt;. To explore how to migrate your workloads to Graviton-based instances, see &lt;a href=\"https://aws.amazon.com/ec2/graviton/fast-start/\"&gt;AWS Graviton Fast Start program&lt;/a&gt; and &lt;a href=\"https://github.com/aws/porting-advisor-for-graviton\"&gt;Porting Advisor for Graviton&lt;/a&gt;. To get started, see the &lt;a href=\"https://console.aws.amazon.com/ec2\"&gt;AWS Management Console&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-c8gd-m8gd-additional-regions/",
+      "publishedAt": "2026-10-09T08:00:00.000Z",
+      "updatedAt": "2026-10-09T08:00:00.000Z",
+      "categories": [
+        "Compute",
+        "Amazon Ec2",
+        "AWS Graviton"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "compute",
+        "amazon ec2",
+        "aws graviton",
+        "ec2"
       ],
       "isNew": true,
       "securityScore": 0,
@@ -13261,7 +13758,7 @@
         "amazon gamelift",
         "game development"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -13287,7 +13784,7 @@
         "amazon ec2",
         "ec2"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -13308,7 +13805,7 @@
       "tags": [
         "developer"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -13336,7 +13833,7 @@
         "bedrock",
         "claude"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -13364,7 +13861,7 @@
         "bedrock",
         "claude"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 0,
       "securityLevel": "low",
       "securityMatches": [],
@@ -13665,431 +14162,6 @@
         "cost management",
         "aws budgets",
         "budgets"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "3fc6850d3ea04cbb",
-      "title": "Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU",
-      "description": "Amazon WorkSpaces Core Managed Instances now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. G7 instances deliver up to 2.1X better performance for graphics-intensive workloads compared to previous generation G6 instances. With Graphics G7, customers can run demanding professional applications such as CAD/CAM, 3D rendering, scientific visualization, video editing, and AI-assisted design workflows at higher fidelity and frame rates. G7 instances feature 32 GB of GDDR7 GPU memory per GPU and 2.67X faster memory bandwidth, ",
-      "descriptionHtml": "&lt;p&gt;Amazon WorkSpaces Core Managed Instances now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. G7 instances deliver up to 2.1X better performance for graphics-intensive workloads compared to previous generation G6 instances.&lt;/p&gt;\n&lt;p&gt;With Graphics G7, customers can run demanding professional applications such as CAD/CAM, 3D rendering, scientific visualization, video editing, and AI-assisted design workflows at higher fidelity and frame rates. G7 instances feature 32 GB of GDDR7 GPU memory per GPU and 2.67X faster memory bandwidth, enabling larger, more complex 3D scenes and models. Six instance sizes are available with 1 to 8 GPUs, vCPUs ranging from 8 to 192, and system memory from 32 GB to 768 GB, with support for Linux and Windows, including bring-your-own-license.&lt;/p&gt;\n&lt;p&gt;Graphics G7 instances for WorkSpaces Core Managed Instances are available in US East (N. Virginia), US East (Ohio), US West (Oregon), and Europe (Spain). Additional AWS Regions will be added as availability expands.&lt;/p&gt;\n&lt;p&gt;To get started, specify an instance type from the G7 family when creating a new WorkSpaces Core Managed Instance, or look for G7 instance types when they become available through your WorkSpaces Core partner solution. For more information, see the following resources:&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/workspaces/vdi-partners/\" target=\"_blank\"&gt;Amazon WorkSpaces Core&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/workspaces-core/latest/ag/partner-admin-guides.html\" target=\"_blank\"&gt;Amazon WorkSpaces Core Managed Instances&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/ec2/instance-types/g7/\" target=\"_blank\"&gt;EC2 G7 Instance Types&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/workspaces/vdi-partners/pricing/\" target=\"_blank\"&gt;Amazon WorkSpaces Core Managed Instances Pricing&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-cmi-g7/",
-      "publishedAt": "2026-09-30T23:59:00.000Z",
-      "updatedAt": "2026-09-30T23:59:00.000Z",
-      "categories": [
-        "Desktop And App Streaming",
-        "Amazon Workspaces"
-      ],
-      "services": [
-        "WorkSpaces"
-      ],
-      "tags": [
-        "desktop and app streaming",
-        "amazon workspaces",
-        "workspaces"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "c1ba9ce49abfd031",
-      "title": "Amazon Managed Grafana now supports creating Grafana 13.2 workspaces",
-      "description": "Amazon Managed Grafana now supports creating new workspaces with Grafana version 13.2. This release brings features from open-source Grafana versions 13.0 to 13.2, including Git Sync for dashboards, dynamic dashboards, and PromQL query support in the Amazon CloudWatch data source plugin. With Git Sync, you can treat dashboards as code by linking a workspace to a Git repository, enabling version control for tracking, reviewing, and reverting dashboard modifications. Dynamic dashboards provide a more adaptable approach to layout and paneling, constructing responsive views driven by conditions th",
-      "descriptionHtml": "&lt;p&gt;Amazon Managed Grafana now supports creating new workspaces with Grafana version 13.2. This release brings features from open-source Grafana versions 13.0 to 13.2, including Git Sync for dashboards, dynamic dashboards, and PromQL query support in the Amazon CloudWatch data source plugin.&lt;/p&gt;\n&lt;p&gt;With Git Sync, you can treat dashboards as code by linking a workspace to a Git repository, enabling version control for tracking, reviewing, and reverting dashboard modifications. Dynamic dashboards provide a more adaptable approach to layout and paneling, constructing responsive views driven by conditions that respond to data and variables. The Amazon CloudWatch data source plugin now supports PromQL queries, allowing you to use Prometheus Query Language to query metrics that CloudWatch ingests via its OpenTelemetry (OTLP) endpoint, complementing the existing Metric Search and Metrics Insights query types.&lt;/p&gt;\n&lt;p&gt;Grafana 13.2 is available in all AWS regions where Amazon Managed Grafana is generally available.&lt;/p&gt;\n&lt;p&gt;To learn more about creating Amazon Managed Grafana workspaces with version 13.2, visit the &lt;a href=\"https://docs.aws.amazon.com/grafana/latest/userguide/version-differences.html#version-diff-v13\"&gt;user documentation&lt;/a&gt;. For more information about Amazon Managed Grafana features and pricing, visit the &lt;a href=\"https://aws.amazon.com/grafana/\"&gt;product page&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/grafana/pricing/\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-managed-grafana-now-supports-creating-grafana-13-2-workspaces",
-      "publishedAt": "2026-09-30T19:30:00.000Z",
-      "updatedAt": "2026-09-30T19:30:00.000Z",
-      "categories": [
-        "Management And Governance",
-        "Amazon Cloudwatch",
-        "Amazon Managed Service For Grafana"
-      ],
-      "services": [
-        "CloudWatch",
-        "WorkSpaces"
-      ],
-      "tags": [
-        "management and governance",
-        "amazon cloudwatch",
-        "amazon managed service for grafana",
-        "cloudwatch",
-        "workspaces"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "6f780587e133c915",
-      "title": "AWS Parallel Computing Service now supports scaling logs",
-      "description": "AWS Parallel Computing Service (AWS PCS) now supports scaling logs, which record how AWS PCS scales the compute node groups in your cluster. Each log entry records one state transition for one compute node—for example, an instance launch, a node registration, a scale-down, or a launch failure with its reason. Using scaling logs, you can more easily troubleshoot scaling issues. For example, you can determine why a compute node group did not reach its target size, which launches failed for capacity reasons, and when a specific node started or stopped. Scaling log delivery is opt-in, and you can ",
-      "descriptionHtml": "&lt;p&gt;AWS Parallel Computing Service (AWS PCS) now supports scaling logs, which record how AWS PCS scales the compute node groups in your cluster. Each log entry records one state transition for one compute node—for example, an instance launch, a node registration, a scale-down, or a launch failure with its reason. Using scaling logs, you can more easily troubleshoot scaling issues. For example, you can determine why a compute node group did not reach its target size, which launches failed for capacity reasons, and when a specific node started or stopped. Scaling log delivery is opt-in, and you can configure AWS PCS to emit scaling logs to Amazon CloudWatch Logs, Amazon S3, and Amazon Data Firehose.&lt;/p&gt;\n&lt;p&gt;AWS PCS is a managed service that simplifies running and scaling HPC workloads on AWS using Slurm. You can build complete, elastic environments that integrate compute, storage, networking, and visualization tools, while the service handles cluster operations with managed updates and built-in observability features.&lt;/p&gt;\n&lt;p&gt;This feature is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;&lt;u&gt;AWS Regions where AWS PCS is available&lt;/u&gt;&lt;/a&gt;. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/pcs/latest/userguide/monitoring-overview.html\"&gt;AWS PCS User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-pcs-scaling-logs/",
-      "publishedAt": "2026-09-30T19:00:00.000Z",
-      "updatedAt": "2026-09-30T19:00:00.000Z",
-      "categories": [
-        "Compute"
-      ],
-      "services": [],
-      "tags": [
-        "compute"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "54d3ae5b799624c4",
-      "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
-      "description": "Amazon Aurora serverless now scales in even larger steps, adding up to 16 ACUs to its current capacity within a second and continuing to scale up to 256 ACUs as your workload grows. With this launch, your workload will scale faster and reach capacity that it requires. When the workload finishes, Aurora serverless automatically scales down to zero, so you only pay for what you use. This makes it especially well-suited for agentic AI applications, which typically have bursts of activity, long idle windows, and unpredictable traffic patterns. This enhancement is enabled by default on all Aurora s",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/aurora/serverless/\"&gt;Amazon Aurora serverless&lt;/a&gt; now scales in even larger steps, adding up to 16 ACUs to its current capacity within a second and continuing to scale up to 256 ACUs as your workload grows. With this launch, your workload will scale faster and reach capacity that it requires. When the workload finishes, Aurora serverless automatically scales down to zero, so you only pay for what you use. This makes it especially well-suited for agentic AI applications, which typically have bursts of activity, long idle windows, and unpredictable traffic patterns.&lt;/p&gt;\n&lt;p&gt;This enhancement is enabled by default on all Aurora serverless clusters running on platform version 3 or 4, with no configuration changes required. Existing clusters on platform versions 1 and 2 can upgrade directly to the latest platform version 4 to benefit from these improvements. You can verify your cluster's platform version in the AWS Management Console under the instance configuration section, or via the RDS API's ServerlessV2PlatformVersion parameter.&lt;/p&gt;\n&lt;p&gt;For pricing details and Region availability, visit &lt;a href=\"https://aws.amazon.com/rds/aurora/pricing/\"&gt;Amazon Aurora Pricing&lt;/a&gt;. To learn more, read the Aurora serverless scaling &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.html\"&gt;documentation&lt;/a&gt;, and get started by creating an Aurora serverless database in just a few steps in the &lt;a href=\"https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB_us-east-2_a53ff6382623e9a3&amp;amp;client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&amp;amp;forceMobileApp=0&amp;amp;code_challenge=SCavOinSDkGpz8021yaDgWGy_E5aIbgB7HoRsIR47N0&amp;amp;code_challenge_method=SHA-256\"&gt;AWS Management Console&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-16-acu-scaling/",
-      "publishedAt": "2026-09-30T17:50:00.000Z",
-      "updatedAt": "2026-09-30T17:50:00.000Z",
-      "categories": [
-        "Databases",
-        "Amazon Aurora"
-      ],
-      "services": [
-        "Aurora"
-      ],
-      "tags": [
-        "databases",
-        "amazon aurora",
-        "aurora"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "3d54f94e61587390",
-      "title": "Amazon Aurora and RDS now support AMD-based R8a instances",
-      "description": "Amazon Aurora and Amazon RDS now support R8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in R8a database instances corresponds to a physical CPU core, which delivers consistent per-core performance. For workloads with high I/O requirements, R8a instances provide up to 75 Gbps of network bandwidth and 60 Gbps of Amazon EBS bandwidth. All R8a instances are built on the AWS Nitro System using sixth-generation Nitro Cards. R8a database instances are supported for Amazon Aurora PostgreSQL-Compatible Edition,",
-      "descriptionHtml": "&lt;p&gt;Amazon Aurora and Amazon RDS now support R8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in R8a database instances corresponds to a physical CPU core, which delivers consistent per-core performance. For workloads with high I/O requirements, R8a instances provide up to 75 Gbps of network bandwidth and 60 Gbps of Amazon EBS bandwidth. All R8a instances are built on the AWS Nitro System using sixth-generation Nitro Cards.&lt;/p&gt;\n&lt;p&gt;R8a database instances are supported for Amazon Aurora PostgreSQL-Compatible Edition, Amazon Aurora MySQL-Compatible Edition, RDS for PostgreSQL, MySQL and MariaDB. R8a database instances are available in US East (N. Virginia, Ohio), US West (Oregon), Canada (Central), Asia Pacific (Tokyo, Taipei) and Europe (Ireland, Frankfurt, Spain) regions.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;You can get started with R8a database instances through the &lt;a href=\"https://console.aws.amazon.com/rds/home?refid=35100cff-4aaa-46ac-bc1d-71576bef47be\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;&lt;u&gt;Amazon RDS Management Console&lt;/u&gt;&lt;/a&gt; or by using the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.CreateInstance.html?refid=35100cff-4aaa-46ac-bc1d-71576bef47be#Aurora.CreateInstance.Creating\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;&lt;u&gt;AWS Command Line Interface&lt;/u&gt;&lt;/a&gt; (CLI). For the specific engine versions that support these instance classes, see the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.DBInstanceClass.SupportAurora.html?refid=35100cff-4aaa-46ac-bc1d-71576bef47be\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;&lt;u&gt;Aurora&lt;/u&gt;&lt;/a&gt;&amp;nbsp;and &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.Support.html?refid=35100cff-4aaa-46ac-bc1d-71576bef47be\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;&lt;u&gt;RDS&lt;/u&gt;&lt;/a&gt; documentation. For pricing, see the &lt;a href=\"https://aws.amazon.com/rds/aurora/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;&lt;u&gt;Amazon Aurora pricing page&lt;/u&gt;&lt;/a&gt;&amp;nbsp;&amp;nbsp;and the&amp;nbsp;&lt;a href=\"https://aws.amazon.com/rds/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;&lt;u&gt;Amazon RDS pricing page&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-r8a/",
-      "publishedAt": "2026-09-30T17:00:00.000Z",
-      "updatedAt": "2026-09-30T17:00:00.000Z",
-      "categories": [
-        "Amazon Rds",
-        "Databases",
-        "Amazon Aurora"
-      ],
-      "services": [
-        "RDS",
-        "Aurora"
-      ],
-      "tags": [
-        "amazon rds",
-        "databases",
-        "amazon aurora",
-        "rds",
-        "aurora"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "c57c3680beb6eb16",
-      "title": "Amazon RDS now supports AMD-based M8a instances",
-      "description": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now support M8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in M8a database instances corresponds to a physical CPU core, which delivers consistent per-core performance. For workloads with high I/O requirements, M8a instances provide up to 75 Gbps of network bandwidth and 60 Gbps of Amazon EBS bandwidth. All instances are built on the AWS Nitro System using sixth-generation Nitro Cards. M8a database instances are available in US East (N. Virginia, Ohio), US ",
-      "descriptionHtml": "&lt;p&gt;Amazon RDS for PostgreSQL, MySQL, and MariaDB now support M8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in M8a database instances corresponds to a physical CPU core, which delivers consistent per-core performance. For workloads with high I/O requirements, M8a instances provide up to 75 Gbps of network bandwidth and 60 Gbps of Amazon EBS bandwidth. All instances are built on the AWS Nitro System using sixth-generation Nitro Cards.&lt;/p&gt;\n&lt;p&gt;M8a database instances are available in US East (N. Virginia, Ohio), US West (Oregon), Asia Pacific (Mumbai, Tokyo, Hyderabad) and Europe (Ireland, Frankfurt, Spain) regions. You can get started with M8a database instances through the &lt;a href=\"https://console.aws.amazon.com/rds/home?refid=35100cff-4aaa-46ac-bc1d-71576bef47be\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;&lt;u&gt;Amazon RDS Management Console&lt;/u&gt;&lt;/a&gt; or by using the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateDBInstance.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;&lt;u&gt;AWS Command Line Interface&lt;/u&gt;&lt;/a&gt; (CLI). For the specific engine versions that support these instance classes, see the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.Support.html?refid=35100cff-4aaa-46ac-bc1d-71576bef47be\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;&lt;u&gt;RDS&lt;/u&gt;&lt;/a&gt; documentation. For pricing , see the &lt;a href=\"https://aws.amazon.com/rds/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;&lt;u&gt;Amazon RDS pricing page&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-m8a/",
-      "publishedAt": "2026-09-30T17:00:00.000Z",
-      "updatedAt": "2026-09-30T17:00:00.000Z",
-      "categories": [
-        "Databases",
-        "Amazon Rds"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "databases",
-        "amazon rds",
-        "rds"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "47e1f21e301be42c",
-      "title": "Amazon Bedrock expands Claude models in-region support in the UK (London)",
-      "description": "We're excited to announce in-region support for Anthropic's Claude Opus 5.5 and Claude Sonnet 5 on Amazon Bedrock in the UK (London) Region. Customers who need to process data within the United Kingdom, including those in financial services, healthcare, and the public sector, can now use these models at scale while keeping inference in-country. In the UK, Amazon Bedrock supports Claude Opus 5.5 and Claude Sonnet 5 with in-region inference on the bedrock-runtime endpoint in the London (eu-west-2) Region. Amazon Bedrock processes inference requests and data within the Region you call, and the pr",
-      "descriptionHtml": "&lt;p&gt;We're excited to announce in-region support for Anthropic's &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5-5.html\" target=\"_blank\"&gt;Claude Opus 5.5&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5.html\" target=\"_blank\"&gt;Claude Sonnet 5&lt;/a&gt; on Amazon Bedrock in the UK (London) Region. Customers who need to process data within the United Kingdom, including those in financial services, healthcare, and the public sector, can now use these models at scale while keeping inference in-country.\n &lt;br&gt;\n &lt;br&gt;\n In the UK, Amazon Bedrock supports Claude Opus 5.5 and Claude Sonnet 5 with in-region inference on the bedrock-runtime endpoint in the London (eu-west-2) Region. Amazon Bedrock processes inference requests and data within the Region you call, and the processing never leaves that Region.\n &lt;br&gt;\n &lt;br&gt;\n For the most current information about model availability in each Region, see &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html#model-regions-anthropic\" target=\"_blank\"&gt;Regional availability&lt;/a&gt; by models in the Amazon Bedrock User Guide. To get started with Claude models on Amazon Bedrock, visit the Amazon Bedrock console.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-lhr/",
-      "publishedAt": "2026-09-30T17:00:00.000Z",
-      "updatedAt": "2026-09-30T17:00:00.000Z",
-      "categories": [
-        "Amazon Bedrock",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "Bedrock",
-        "Claude"
-      ],
-      "tags": [
-        "amazon bedrock",
-        "artificial intelligence",
-        "bedrock",
-        "claude"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "1b77fb7ca469f0af",
-      "title": "Amazon Quick adds Hierarchy Filter for guided dashboard drill-down",
-      "description": "Amazon Quick now supports the hierarchy filter, a single control that lets readers drill through related dimensions such as Region, Country, and City. It replaces several stacked filter controls with one, cutting clutter and guiding readers to their data in fewer clicks. The filter holds up to five dimension levels, arranged broadest to most detailed. Readers open one dropdown and expand each level in turn, with every selection narrowing the next and auto-selecting its parent chain. Authors create it by adding a filter, setting its type to Hierarchy filter, and arranging the fields parent to c",
-      "descriptionHtml": "&lt;p&gt;Amazon Quick now supports the hierarchy filter, a single control that lets readers drill through related dimensions such as Region, Country, and City. It replaces several stacked filter controls with one, cutting clutter and guiding readers to their data in fewer clicks.&lt;/p&gt;\n&lt;p&gt;The filter holds up to five dimension levels, arranged broadest to most detailed. Readers open one dropdown and expand each level in turn, with every selection narrowing the next and auto-selecting its parent chain. Authors create it by adding a filter, setting its type to Hierarchy filter, and arranging the fields parent to child.&lt;/p&gt;\n&lt;p&gt;For a retail sales dashboard, instead of stacking Region, Country, and City controls side by side, an author adds one hierarchy filter. A reader expands a region to see its countries, then a country to see its cities, selecting any mix along the way. The relationships are visible in the control, so readers do not need to know which country belongs to which region.&lt;/p&gt;\n&lt;p&gt;The hierarchy filter is available today in all &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions where Amazon Quick is supported&lt;/a&gt;. To see how it works, read the &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter/\" target=\"_blank\"&gt;blog post&lt;/a&gt;. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/hierarchy-filter.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Hierarchy filters&lt;/a&gt; in the Amazon Quick User Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/quick-hierarchy-filter",
-      "publishedAt": "2026-09-30T15:00:00.000Z",
-      "updatedAt": "2026-09-30T15:00:00.000Z",
-      "categories": [
-        "Artificial Intelligence"
-      ],
-      "services": [],
-      "tags": [
-        "artificial intelligence"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "9e78ad4b3d0e86e4",
-      "title": "Partner Revenue Measurement adds Multi-Partner support to Resource Tagging",
-      "description": "Partner Revenue Measurement (PRM) provides measurement of AWS consumption driven by Partner solutions. Today, PRM adds multi-Partner support to Resource Tagging, so that multiple AWS Partners can receive revenue attribution for the same AWS resource. Previously, a resource carried only one Partner tag, aws-apn-id , so when multiple Partners contributed to the same workload, only one Partner received attribution. With this update, each Partner tags the resources they contribute to using a new key in the format aws-apn-id- . When more than one Partner tags the same resource, each tagged Partner ",
-      "descriptionHtml": "&lt;p&gt;Partner Revenue Measurement (PRM) provides measurement of AWS consumption driven by Partner solutions. Today, PRM adds multi-Partner support to Resource Tagging, so that multiple AWS Partners can receive revenue attribution for the same AWS resource. Previously, a resource carried only one Partner tag, &lt;i&gt;aws-apn-id&lt;/i&gt;, so when multiple Partners contributed to the same workload, only one Partner received attribution.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;With this update, each Partner tags the resources they contribute to using a new key in the format &lt;i&gt;aws-apn-id-&amp;lt;partner-central-aws-account-id&amp;gt;.&lt;/i&gt; When more than one Partner tags the same resource, each tagged Partner receives revenue attribution. This benefits Partners that co-deliver solutions, such as a consulting Partner that deploys and operates a software Partner's product in an AWS account. The existing &lt;i&gt;aws-apn-id&lt;/i&gt; key continues to work, and resources tagged with it require no additional changes. &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Multi-Partner support in Resource Tagging is available today in all commercial AWS regions. Revenue attributed through the existing &lt;i&gt;aws-apn-id&lt;/i&gt; key and the new key both appear under the “Resource Tagging” method in the &lt;a href=\"https://aws.amazon.com/blogs/apn/unlock-revenue-insights-in-the-new-attributed-revenue-dashboard/\"&gt;Attributed Revenue Dashboard&lt;/a&gt;, with no changes to the dashboard.&lt;/p&gt;\n&lt;p&gt;To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/what-is-service.html\"&gt;Partner Revenue Measurement product page&lt;/a&gt; and the Resource Tagging&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/\"&gt;onboarding guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/partner-revenue-measurement-multi-partner-resource-tagging",
-      "publishedAt": "2026-09-30T12:00:00.000Z",
-      "updatedAt": "2026-09-30T12:00:00.000Z",
-      "categories": [
-        "AWS Marketplace"
-      ],
-      "services": [],
-      "tags": [
-        "aws marketplace"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "f9241ac7d7eb9ba8",
-      "title": "AWS Deadline Cloud now supports expressions in job templates",
-      "description": "AWS Deadline Cloud now supports flexible expressions and rich parameter types in job templates, giving customers a cleaner, more powerful way to fit the service to existing production pipelines. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming. Customers can now express pipeline logic directly in their job templates. This includes expressions such as arithmetic, conditionals, string and path operations, and list comprehensions, all in a familiar Python-style syntax. Cust",
-      "descriptionHtml": "&lt;p&gt;AWS Deadline Cloud now supports flexible expressions and rich parameter types in job templates, giving customers a cleaner, more powerful way to fit the service to existing production pipelines. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming.&lt;/p&gt;\n&lt;p&gt;Customers can now express pipeline logic directly in their job templates. This includes expressions such as arithmetic, conditionals, string and path operations, and list comprehensions, all in a familiar Python-style syntax. Customers can use this to split a frame range into per-task frames, derive an output path from the scene name, or toggle an optional flag directly within job templates themselves, making it easier to automate bespoke pipeline operations. New boolean, list, and frame-range parameter types match how pipelines already describe work. For example, a checkbox can add a --gpu flag and its matching host requirement when set, and a list of cameras can become a step's task range. Expressions are type-checked at submission, and their evaluation is deterministic, meaning that job execution behaves predictably every time.&lt;/p&gt;\n&lt;p&gt;These capabilities come from the new EXPR extension to Open Job Description, the open specification Deadline Cloud uses for job templates, and are available in all AWS Regions where AWS Deadline Cloud is supported.&lt;/p&gt;\n&lt;p&gt;To get started, visit the &lt;a href=\"https://docs.aws.amazon.com/deadline-cloud/latest/developerguide/VERIFY-expr-doc-url.html\"&gt;Deadline Cloud developer guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-expressions-job-templates/",
-      "publishedAt": "2026-09-29T21:55:00.000Z",
-      "updatedAt": "2026-09-29T21:55:00.000Z",
-      "categories": [
-        "AWS Deadline Cloud"
-      ],
-      "services": [],
-      "tags": [
-        "aws deadline cloud"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "b843e85ea8219f19",
-      "title": "Amazon RDS now adds full snapshot size information to the Console and API",
-      "description": "Amazon RDS now displays the full snapshot size for RDS Snapshots. With this enhancement, customers can now retrieve full snapshot sizes programmatically through the DescribeDBSnapshots API using the new field, ‘FullSnapshotSizeInBytes’. They can also view this on the console with the ‘Full Snapshot Size’ column. Amazon RDS snapshots are incremental. This means that if you take multiple snapshots of a volume over time, each snapshot only stores the new or modified blocks while maintaining references to unchanged blocks from previous snapshots. The ‘FullSnapshotSizeInBytes’ field shows you the t",
-      "descriptionHtml": "&lt;p&gt;Amazon RDS now displays the full snapshot size for RDS Snapshots. With this enhancement, customers can now retrieve full snapshot sizes programmatically through the DescribeDBSnapshots API using the new field, ‘FullSnapshotSizeInBytes’. They can also view this on the console with the ‘Full Snapshot Size’ column.&amp;nbsp; &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Amazon RDS snapshots are incremental. This means that if you take multiple snapshots of a volume over time, each snapshot only stores the new or modified blocks while maintaining references to unchanged blocks from previous snapshots. The ‘FullSnapshotSizeInBytes’ field shows you the total size of all blocks that make up a snapshot, including both the blocks stored directly in that snapshot and all blocks referenced from previous snapshots. For instance, if you have a 100 GB database volume with 50 GB of data, the ‘full snapshot size’ would show 50 GB regardless of whether it's the first snapshot or a subsequent one. Please note that this is different from the incremental snapshot size, which only refers to the size of newly changed blocks stored in that specific snapshot.&lt;/p&gt;\n&lt;p&gt;Full snapshot size is available all Amazon RDS database instances in all commercial AWS Regions. You can start using it today through the Amazon RDS Management Console, the AWS Command Line Interface (CLI), or the AWS SDKs. To learn more, see&amp;nbsp;the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_CommonTasks.BackupRestore.html\" target=\"_blank\"&gt;Amazon RDS User Guide.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-full-snapshot-size-available/",
-      "publishedAt": "2026-09-29T21:00:23.000Z",
-      "updatedAt": "2026-09-29T21:00:23.000Z",
-      "categories": [
-        "Databases",
-        "Amazon Rds"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "databases",
-        "amazon rds",
-        "rds"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "927f0bed08c5c501",
-      "title": "AWS Deadline Cloud now supports ECS containers on Linux Service-Managed Fleets",
-      "description": "AWS Deadline Cloud now supports running jobs using Docker containers from Amazon Elastic Container Service (ECS) on Linux-based service-managed fleets. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming. Deadline Cloud customers can now bring their own software containers directly to the service using Docker-enabled fleets. Customers that already package software into container images can point Deadline Cloud to these images directly. This unlocks any container-deployed so",
-      "descriptionHtml": "&lt;p&gt;AWS Deadline Cloud now supports running jobs using Docker containers from Amazon Elastic Container Service (ECS) on Linux-based service-managed fleets. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming.\n &lt;br&gt;\n &lt;br&gt;\n Deadline Cloud customers can now bring their own software containers directly to the service using Docker-enabled fleets. Customers that already package software into container images can point Deadline Cloud to these images directly. This unlocks any container-deployed software use case, from rendering tools like Blender to physical AI workloads such as NVIDIA Isaac Sim and MuJoCo. With service-managed fleets, Deadline Cloud automatically deploys the containerized software on every worker instance at scale.&lt;/p&gt;\n&lt;p&gt;Containers are integrated with Deadline Cloud fleets and queues, so that customer job templates do not need to contain container commands or image references. This means the same job bundles customers run locally with the Open Job Description CLI can be submitted to Deadline Cloud with no additional changes. The result is a faster path from existing containerized software workflows to a fully managed render and compute farm.&lt;/p&gt;\n&lt;p&gt;Container support for service-managed fleets is available in all AWS Regions where Deadline Cloud is offered.&lt;/p&gt;\n&lt;p&gt;To get started, see our &lt;a href=\"https://docs.aws.amazon.com/deadline-cloud/latest/userguide/fleet-container-support.html\"&gt;user guide&lt;/a&gt; and our &lt;a href=\"https://docs.aws.amazon.com/deadline-cloud/latest/developerguide/containers.html\"&gt;developer guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-ecs-containers-linux-smf/",
-      "publishedAt": "2026-09-29T20:18:00.000Z",
-      "updatedAt": "2026-09-29T20:18:00.000Z",
-      "categories": [
-        "AWS Deadline Cloud"
-      ],
-      "services": [
-        "ECS"
-      ],
-      "tags": [
-        "aws deadline cloud",
-        "ecs"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "117d579b763bacb5",
-      "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514 and 11.22-rds.20260514",
-      "description": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514, and 11.22-rds.20260514. Amazon RDS Extended Support provides up to three additional years of fixes for critical Common Vulnerabilities and Exposures (CVE) and bugs beyond a major version's end of standard support date, giving you more time to upgrade to a new major version. You can upgrade your database using Amazon RDS Blue/Green Deployments , in-place upgrade, or restore from a snapshot. Learn more about performing version upgrades in the Amazon",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/postgresql/\"&gt;Amazon Relational Database Service (RDS) for PostgreSQL&lt;/a&gt; announces Amazon RDS Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514, and 11.22-rds.20260514.&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/extended-support.html\"&gt;Amazon RDS Extended Support&lt;/a&gt; provides up to three additional years of fixes for critical Common Vulnerabilities and Exposures (CVE) and bugs beyond a major version's end of standard support date, giving you more time to upgrade to a new major version.&lt;/p&gt;\n&lt;p&gt;You can upgrade your database using &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments.html\"&gt;Amazon RDS Blue/Green Deployments&lt;/a&gt;, in-place upgrade, or restore from a snapshot. Learn more about performing version upgrades in the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.PostgreSQL.html\"&gt;Amazon RDS for PostgreSQL User Guide&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Amazon RDS for PostgreSQL makes it simple to set up, operate, and scale PostgreSQL deployments in the cloud. Create or update a fully managed Amazon RDS database in the &lt;a href=\"https://console.aws.amazon.com/rds/\"&gt;Amazon RDS Management Console&lt;/a&gt; or by using the AWS Command Line Interface (AWS CLI).&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-postgresql-extended-support/",
-      "publishedAt": "2026-09-29T16:00:00.000Z",
-      "updatedAt": "2026-09-29T16:00:00.000Z",
-      "categories": [
-        "Databases",
-        "Amazon Rds"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "databases",
-        "amazon rds",
-        "rds"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "44d8efcee1de668e",
-      "title": "AWS Transform now supports Apache Kafka migration assessments for Amazon MSK",
-      "description": "You can now use AWS Transform agentic migration assessments to evaluate the migration of on-premises Apache Kafka clusters to Amazon Managed Streaming for Apache Kafka (Amazon MSK) . AWS Transform migration assessments use agentic AI to analyze your workloads, recommend the best-fit AWS services, and generate a total cost of ownership (TCO) business case with pricing options and actionable next steps - all in minutes, through natural-language chat or with AWS Transform MCP server . For Apache Kafka workloads, the assessment agent delivers compatibility checks, right-sized Amazon MSK Express br",
-      "descriptionHtml": "&lt;p&gt;You can now use &lt;a href=\"https://aws.amazon.com/transform/\"&gt;AWS Transform&lt;/a&gt; agentic migration assessments to evaluate the migration of on-premises Apache Kafka clusters to &lt;a href=\"https://aws.amazon.com/msk/\"&gt;Amazon Managed Streaming for Apache Kafka (Amazon MSK)&lt;/a&gt;. AWS Transform &lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/transform-app-assessments.html\"&gt;migration assessments&lt;/a&gt; use agentic AI to analyze your workloads, recommend the best-fit AWS services, and generate a total cost of ownership (TCO) business case with pricing options and actionable next steps - all in minutes, through natural-language chat or with &lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/transform-migrations-mcp.html\"&gt;AWS Transform MCP server&lt;/a&gt;. For Apache Kafka workloads, the assessment agent delivers compatibility checks, right-sized &lt;a href=\"https://aws.amazon.com/msk/features/express-brokers-for-amazon-msk/\"&gt;Amazon MSK Express broker&lt;/a&gt; recommendations, and projected costs - helping you quickly build a migration business case and accelerate your migration decisions.&lt;/p&gt;\n&lt;p&gt;Evaluating a Kafka-to-MSK migration often involves multiple steps - mapping topologies, validating compatibility, right-sizing brokers, and projecting costs - that can take weeks when done manually. With this launch, you can start your migration assessment by uploading a Kafka cluster inventory file or simply describing your clusters in chat. The assessment agent then handles the heavy lifting - checking each cluster for MSK compatibility across topology, version, configurations, authentication, and quotas; sizing MSK Express brokers; and projecting costs across broker hours, storage, data-in, and cross-AZ transfer. Additionally, you can create what-if scenarios with customized assumptions - compare pricing across Regions, adjust retention, or explore alternative configurations - to generate a comprehensive migration business case that gives stakeholders the confidence to move forward.&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/transform-app-assessments.html\"&gt;Migration assessments&lt;/a&gt; for Amazon MSK are available in all AWS Regions where &lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/regions.html\"&gt;&lt;u&gt;AWS Transform is offered&lt;/u&gt;&lt;/a&gt;. To get started, visit the &lt;a href=\"https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html\"&gt;Amazon MSK Developer Guide&lt;/a&gt;,&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/msk/latest/developerguide/msk-replicator-migrate-ai-assist.html\"&gt;Assess MSK migration readiness with AI tools&lt;/a&gt;, or the &lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/what-is-service.html\"&gt;AWS Transform user guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-msk-migration-assessment-with-aws-transform",
-      "publishedAt": "2026-09-29T15:00:00.000Z",
-      "updatedAt": "2026-09-29T15:00:00.000Z",
-      "categories": [
-        "Analytics",
-        "Amazon Msk"
-      ],
-      "services": [
-        "MSK",
-        "Kafka"
-      ],
-      "tags": [
-        "analytics",
-        "amazon msk",
-        "msk",
-        "kafka"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "9290a9808eb81604",
-      "title": "AWS Transfer Family now supports downloading multiple files and folders in web apps",
-      "description": "AWS Transfer Family now lets web app users download multiple files and folders at once. End users can select any combination of files and folders and download them together in a single action. The download is delivered as a zip archive that preserves the original folder structure when unzipped. You can get started by selecting files and folders in a location and choosing Download from the action menu. Previously, end users could download only one file at a time, and folders could not be downloaded at all. The web app shows the files to be downloaded and real-time progress with a success or fai",
-      "descriptionHtml": "&lt;p&gt;AWS Transfer Family now lets web app users download multiple files and folders at once. End users can select any combination of files and folders and download them together in a single action. The download is delivered as a zip archive that preserves the original folder structure when unzipped.&lt;/p&gt;\n&lt;p&gt;You can get started by selecting files and folders in a location and choosing Download from the action menu. Previously, end users could download only one file at a time, and folders could not be downloaded at all. The web app&amp;nbsp;shows the files to be downloaded and real-time progress with a success or failed status for each one.&lt;/p&gt;\n&lt;p&gt;Multiple-file download is available in Google Chrome, Mozilla Firefox, and Chromium-based browsers such as Microsoft Edge. It is not currently supported in Safari, where end users can still download files one at a time. This capability is available in all AWS Regions where Transfer Family Web Apps is offered. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/transfer/latest/userguide/web-app.html\"&gt;Transfer Family web apps User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-web-apps-download-multiple-files-folders",
-      "publishedAt": "2026-09-29T08:00:00.000Z",
-      "updatedAt": "2026-09-29T08:00:00.000Z",
-      "categories": [],
-      "services": [
-        "Transfer Family"
-      ],
-      "tags": [
-        "transfer family"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "f2a50aebc577743f",
-      "title": "Amazon CloudWatch Logs now automatically indexes frequently queried fields",
-      "description": "Amazon CloudWatch Logs now automatically indexes the fields you query frequently, speeding up CloudWatch Logs Insights queries without requiring any manual setup. Previously, you had to manually select the fields to index based on your query patterns and usage, requiring extra work for teams whose query patterns change over time. CloudWatch Logs identifies the fields in your queries that you use for filtering with the = and IN operations and indexes them automatically, enabling queries to run faster and scan less data. Fields that are automatically indexed don't count toward your 20-field-per-",
-      "descriptionHtml": "&lt;p&gt;Amazon CloudWatch Logs now automatically indexes the fields you query frequently, speeding up CloudWatch Logs Insights queries without requiring any manual setup. Previously, you had to manually select the fields to index based on your query patterns and usage, requiring extra work for teams whose query patterns change over time.&lt;/p&gt;\n&lt;p&gt;CloudWatch Logs identifies the fields in your queries that you use for filtering with the = and IN operations and indexes them automatically, enabling queries to run faster and scan less data. Fields that are automatically indexed don't count toward your 20-field-per-log-group limit and are retained for 30 days. The list of automatically indexed fields is updated as your query patterns change. To keep a field indexed permanently, promote it to a field index policy using the console or API.&lt;/p&gt;\n&lt;p&gt;Auto-indexing is available in all AWS Regions where CloudWatch Logs field indexing is supported, at no additional cost. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/\"&gt;Amazon CloudWatch Logs User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-logs-auto-indexes-fields/",
-      "publishedAt": "2026-09-29T08:00:00.000Z",
-      "updatedAt": "2026-09-29T08:00:00.000Z",
-      "categories": [
-        "Amazon Cloudwatch Logs"
-      ],
-      "services": [
-        "CloudWatch"
-      ],
-      "tags": [
-        "amazon cloudwatch logs",
-        "cloudwatch"
-      ],
-      "isNew": false,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "ed801afe3fa05e75",
-      "title": "Amazon CloudWatch Logs Insights now lets you estimate bytes scanned before running a query",
-      "description": "Amazon CloudWatch Logs Insights now lets you estimate the volume of log data, in bytes, that a query would scan over your selected log groups and time range - without running the query. This helps you adjust your log group selection, time range, and filters before running the query. In the CloudWatch console, the estimate appears automatically in the query editor when you change the log group selection, time range, or query text. When using the AWS CLI or API, append the estimate command to your query to request it explicitly. Queries that use the estimate command incur no CloudWatch Logs Insi",
-      "descriptionHtml": "&lt;p&gt;Amazon CloudWatch Logs Insights now lets you estimate the volume of log data, in bytes, that a query would scan over your selected log groups and time range - without running the query. This helps you adjust your log group selection, time range, and filters before running the query.&lt;/p&gt;\n&lt;p&gt;In the CloudWatch console, the estimate appears automatically in the query editor when you change the log group selection, time range, or query text. When using the AWS CLI or API, append the estimate command to your query to request it explicitly. Queries that use the estimate command incur no CloudWatch Logs Insights query charges.&lt;/p&gt;\n&lt;p&gt;The estimate command is available in all AWS commercial regions. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_QuerySyntax-Estimate.html\"&gt;Amazon CloudWatch Logs documentation.&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-logs-estimate-bytes-scanned/",
-      "publishedAt": "2026-09-29T08:00:00.000Z",
-      "updatedAt": "2026-09-29T08:00:00.000Z",
-      "categories": [
-        "Amazon Cloudwatch Logs",
-        "Amazon Cloudwatch"
-      ],
-      "services": [
-        "CloudWatch"
-      ],
-      "tags": [
-        "amazon cloudwatch logs",
-        "amazon cloudwatch",
-        "cloudwatch"
       ],
       "isNew": false,
       "securityScore": 0,
