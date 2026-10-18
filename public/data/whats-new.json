@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T12:00:31.509Z",
+  "lastUpdated": "2026-10-18T12:29:03.383Z",
   "itemCount": 500,
   "items": [
     {
@@ -2092,6 +2092,40 @@
         "Bucket"
       ],
       "source": "security-blog"
+    },
+    {
+      "id": "0b9e8f67e6b4c756",
+      "title": "Amazon Braket now in scope for FedRAMP Class C",
+      "description": "Amazon Braket is now in scope for FedRAMP Class C in AWS US Regions where Braket is available. The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard approach to the security assessment, authorization, and continuous monitoring of cloud products and services. With FedRAMP Class C authorization, government customers and the organizations that serve them can use Amazon Braket to explore quantum computing within an authorized boundary. The AWS-operated components of Braket, including the API and SDK, job orchestration and managemen",
+      "descriptionHtml": "&lt;p&gt;Amazon Braket is now in scope for FedRAMP Class C in AWS US Regions where Braket is available. The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard approach to the security assessment, authorization, and continuous monitoring of cloud products and services.&lt;/p&gt;\n&lt;p&gt;With FedRAMP Class C authorization, government customers and the organizations that serve them can use Amazon Braket to explore quantum computing within an authorized boundary. The AWS-operated components of Braket, including the API and SDK, job orchestration and management, compilation, and result storage in Amazon S3, are within the FedRAMP-certified boundary, while quantum workloads execute on third-party Quantum Hardware Providers (QHPs) outside that boundary. All data sent to QHPs meets AWS' privacy and security requirements including removal of all personally identifiable information, data encryption in transit and at rest, and adherence to AWS' standard data retention and deletion policies.&lt;/p&gt;\n&lt;p&gt;To learn more about FedRAMP, visit AWS FedRAMP services and the FedRAMP Marketplace. To learn more about Amazon Braket, visit the Braket product page and Getting Started on Braket resources.&lt;/p&gt;\n&lt;p&gt;Regional Availability: US East (N. Virginia), US West (N. California), US West (Oregon)&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/braket-fedramp-class-c/",
+      "publishedAt": "2026-10-16T08:00:00.000Z",
+      "updatedAt": "2026-10-16T08:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "Quantum Technologies",
+        "Amazon Braket"
+      ],
+      "services": [
+        "Braket"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "quantum technologies",
+        "amazon braket",
+        "braket"
+      ],
+      "isNew": true,
+      "securityScore": 80,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "authorization",
+        "security",
+        "FedRAMP",
+        "Organizations",
+        "monitoring"
+      ],
+      "source": "whats-new"
     },
     {
       "id": "b05252c2ca6f40fd",
@@ -14153,34 +14187,6 @@
         "serverless",
         "lambda",
         "eventbridge"
-      ],
-      "isNew": true,
-      "securityScore": 0,
-      "securityLevel": "low",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "1f19e2ae61ee365e",
-      "title": "AWS Transfer Family console supports SVG logos and ICO favicons for web apps",
-      "description": "The AWS Transfer Family console now supports SVG files for logos and ICO files for favicons in web apps, with upload limits increased to 2 MB. This gives you more flexibility to use existing branding assets when customizing your web app. Previously, the console accepted only JPG and PNG files and limited logo uploads to 50 KB and favicon uploads to 20 KB. The console automatically resizes images and converts them to JPG or PNG before saving them. Existing API upload limits and format requirements remain unchanged. These capabilities are available in all AWS Regions where Transfer Family web ap",
-      "descriptionHtml": "&lt;p&gt;The AWS Transfer Family console now supports SVG files for logos and ICO files for favicons in web apps, with upload limits increased to 2 MB. This gives you more flexibility to use existing branding assets when customizing your web app.&lt;/p&gt;\n&lt;p&gt;Previously, the console accepted only JPG and PNG files and limited logo uploads to 50 KB and favicon uploads to 20 KB. The console automatically resizes images and converts them to JPG or PNG before saving them. Existing API upload limits and format requirements remain unchanged.&lt;/p&gt;\n&lt;p&gt;These capabilities are available in all AWS Regions where Transfer Family web apps are offered. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/transfer/latest/userguide/web-app-tutorial.html\" target=\"_blank\"&gt;Transfer Family web apps tutorial&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-svg-ico-favicons/",
-      "publishedAt": "2026-10-14T08:00:00.000Z",
-      "updatedAt": "2026-10-14T08:00:00.000Z",
-      "categories": [
-        "Storage",
-        "AWS Transfer Family",
-        "Migration"
-      ],
-      "services": [
-        "Transfer Family"
-      ],
-      "tags": [
-        "storage",
-        "aws transfer family",
-        "migration",
-        "transfer family"
       ],
       "isNew": true,
       "securityScore": 0,
