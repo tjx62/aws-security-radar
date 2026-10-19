@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T12:29:03.383Z",
+  "lastUpdated": "2026-10-19T15:20:19.096Z",
   "itemCount": 500,
   "items": [
     {
@@ -4519,7 +4519,7 @@
         "amazon opensearch service",
         "opensearch"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 50,
       "securityLevel": "critical",
       "securityMatches": [
@@ -4983,7 +4983,7 @@
         "aws secrets manager",
         "secrets manager"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "high",
       "securityMatches": [
@@ -9885,7 +9885,7 @@
         "amazon simple storage service",
         "s3"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -10998,7 +10998,7 @@
         "aws transfer family",
         "transfer family"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
