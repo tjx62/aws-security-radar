@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T13:33:12.278Z",
+  "lastUpdated": "2026-10-23T13:09:13.334Z",
   "itemCount": 500,
   "items": [
     {
@@ -1797,41 +1797,6 @@
       "source": "whats-new"
     },
     {
-      "id": "4b2d636a48551795",
-      "title": "Using AWS WAF to apply mitigations for PHP2Shell RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619)",
-      "description": "On October 21, 2026, the PHP project released emergency fixes for two critical remote code execution (RCE) vulnerabilities in the PHP core runtime, tracked as CVE-2026-109618 and CVE-2026-109619 and collectively named PHP2Shell. Both are rated 9.2 (Critical) under CVSS v4.0, and both allow an unauthenticated attacker to run code on a vulnerable server. The fixed […]",
-      "descriptionHtml": "On October 21, 2026, the PHP project released emergency fixes for two critical remote code execution (RCE) vulnerabilities in the PHP core runtime, tracked as CVE-2026-109618 and CVE-2026-109619 and collectively named PHP2Shell. Both are rated 9.2 (Critical) under CVSS v4.0, and both allow an unauthenticated attacker to run code on a vulnerable server. The fixed […]",
-      "url": "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
-      "publishedAt": "2026-10-22T00:50:04.000Z",
-      "updatedAt": "2026-10-22T00:50:04.000Z",
-      "categories": [
-        "Security",
-        "Identity",
-        "& Compliance",
-        "Technical How To",
-        "Security Blog"
-      ],
-      "services": [
-        "WAF"
-      ],
-      "tags": [
-        "security",
-        "identity",
-        "& compliance",
-        "technical how to",
-        "security blog",
-        "waf"
-      ],
-      "isNew": true,
-      "securityScore": 85,
-      "securityLevel": "critical",
-      "securityMatches": [
-        "WAF",
-        "attack"
-      ],
-      "source": "security-blog"
-    },
-    {
       "id": "b46d7d82592acf11",
       "title": "CVE-2026-83551 - Cleartext storage of HMAC signing key in Amazon SageMaker Python SDK",
       "description": "Bulletin ID: 2026-093-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/01/2026 11:00 AM PDT Description: SageMaker Python SDK's @step and @remote decorator pipeline component uses an HMAC key to protect the integrity of serialized function payloads stored in S3. We identified an issue where the HMAC secret key is stored in cleartext within pipeline definitions and accessible via the DescribePipeline API. This allows an actor with a role in that account that has permissions to invoke DescribePipeline to extract the key, create cloud-pickled payloads with valid HM",
@@ -2347,6 +2312,40 @@
       "source": "security-blog"
     },
     {
+      "id": "4b2d636a48551795",
+      "title": "Using AWS WAF to apply mitigations for PHP2Shell RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619)",
+      "description": "October 22, 2026: We updated this post to add the AWS WAF PHP application managed rule group. Version 2.3 of the rule group adds the PHP2Shell_BODY rule for CVE-2026-109619, and AWS made it the default version. On October 21, 2026, the PHP project released emergency fixes for two critical remote code execution (RCE) vulnerabilities in the […]",
+      "descriptionHtml": "October 22, 2026: We updated this post to add the AWS WAF PHP application managed rule group. Version 2.3 of the rule group adds the PHP2Shell_BODY&amp;nbsp;rule for CVE-2026-109619, and AWS made it the default version. On October 21, 2026, the PHP project released emergency fixes for two critical remote code execution (RCE) vulnerabilities in the […]",
+      "url": "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
+      "publishedAt": "2026-10-22T00:50:04.000Z",
+      "updatedAt": "2026-10-22T00:50:04.000Z",
+      "categories": [
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Security Blog"
+      ],
+      "services": [
+        "WAF"
+      ],
+      "tags": [
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "security blog",
+        "waf"
+      ],
+      "isNew": true,
+      "securityScore": 80,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "WAF"
+      ],
+      "source": "security-blog"
+    },
+    {
       "id": "0f720091ce52f20d",
       "title": "PHP web runtimes (CVE-2026-109618 and CVE-2026-109619)",
       "description": "Bulletin ID: 2026-143-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/21/2026 14:30 PM PDT Summary: Two critical vulnerabilities in PHP (CVE-2026-109618 and CVE-2026-109619) allow an unauthenticated remote actor to execute code, access process-accessible data, or cause denial of service on affected PHP workers. Customers running affected PHP versions (8.2–8.5 below the fixed releases, and end-of-life 5.4–8.1) should upgrade immediately to a patched release (8.5.12, 8.4.27, 8.3.36, or 8.2.35); configuration changes alone are not complete mitigations. AWS has ide",
@@ -2390,7 +2389,7 @@
         "amazon braket",
         "braket"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 80,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2750,7 +2749,7 @@
         "& compliance",
         "security blog"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 75,
       "securityLevel": "high",
       "securityMatches": [
@@ -2885,7 +2884,7 @@
         "artificial intelligence",
         "containers"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 70,
       "securityLevel": "critical",
       "securityMatches": [
@@ -3673,6 +3672,62 @@
       "source": "whats-new"
     },
     {
+      "id": "97da6e6577dbae88",
+      "title": "CVE-2026-115416 - Incorrect authorization checks in Amazon Athena engine version 3 query processing",
+      "description": "Bulletin ID: 2026-144-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/22/2026 09:30 AM PDT Description: Amazon Athena is an interactive query service that allows you to analyze data in Amazon S3 using standard SQL. We identified CVE-2026-115416, an issue in Amazon Athena engine version 3 query processing where incorrect authorization checks could have allowed an authenticated user to read AWS account identifiers and SQL statement text query metadata from other AWS accounts. Query results, and data stored in Amazon S3 or other data sources, were not accessible t",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-144-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/22/2026 09:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Amazon Athena is an interactive query service that allows you to analyze data in Amazon S3 using standard SQL. We identified CVE-2026-115416, an issue in Amazon Athena engine version 3 query processing where incorrect authorization checks could have allowed an authenticated user to read AWS account identifiers and SQL statement text query metadata from other AWS accounts. Query results, and data stored in Amazon S3 or other data sources, were not accessible through this issue.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; Amazon Athena engine version 3&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-144-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-144-aws/",
+      "publishedAt": "2026-10-22T16:58:02.000Z",
+      "updatedAt": "2026-10-22T16:58:02.000Z",
+      "categories": [],
+      "services": [
+        "Athena"
+      ],
+      "tags": [
+        "athena"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "high",
+      "securityMatches": [
+        "authorization",
+        "access",
+        "S3"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "c3f9e3269f729740",
+      "title": "AWS Service Reference Information now supports global condition keys, service names, and data plane classification",
+      "description": "AWS is expanding programmatic service reference information to help you automate IAM policy management and keep your policies aligned with the latest service updates. The service reference now includes all aws:-prefixed global condition keys in a single machine-readable file, a ServiceName field mapping service identifiers to human-readable names, and an IsDataPlane property identifying which actions are data plane operations. You can automate retrieval of this information to eliminate manual effort, and incorporate it directly into your existing policy management tools and processes. This fea",
+      "descriptionHtml": "&lt;p&gt;AWS is expanding programmatic service reference information to help you automate IAM policy management and keep your policies aligned with the latest service updates. The service reference now includes all aws:-prefixed global condition keys in a single machine-readable file, a ServiceName field mapping service identifiers to human-readable names, and an IsDataPlane property identifying which actions are data plane operations.&lt;/p&gt; \n&lt;p&gt;You can automate retrieval of this information to eliminate manual effort, and incorporate it directly into your existing policy management tools and processes. This feature is available at no additional cost. To get started, refer to the &lt;a&gt;&lt;/a&gt;&lt;a href=\"https://docs.aws.amazon.com/service-authorization/latest/reference/service-reference.html\"&gt;documentation on programmatic service reference information&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-service-reference-information-global-condition-keys-service-names-data-plane/",
+      "publishedAt": "2026-10-21T18:00:00.000Z",
+      "updatedAt": "2026-10-21T18:00:00.000Z",
+      "categories": [
+        "Management Tools",
+        "Security Identity And Compliance",
+        "AWS Iam"
+      ],
+      "services": [
+        "IAM"
+      ],
+      "tags": [
+        "management tools",
+        "security identity and compliance",
+        "aws iam",
+        "iam"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "policy"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "d39a7fb2ef13466b",
       "title": "CVE-2026-11931 - Insecure Permissions on Authentication Token Cache File in Kiro IDE",
       "description": "",
@@ -4239,7 +4294,7 @@
         "s3",
         "redshift"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 55,
       "securityLevel": "critical",
       "securityMatches": [
@@ -4933,7 +4988,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 50,
       "securityLevel": "medium",
       "securityMatches": [
@@ -5414,7 +5469,7 @@
         "aiml",
         "sagemaker"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "high",
       "securityMatches": [
@@ -6170,6 +6225,74 @@
       "source": "security-blog"
     },
     {
+      "id": "0239b32c5400547b",
+      "title": "AWS Continuum for code vulnerabilities is now generally available",
+      "description": "Today, AWS announces the general availability of AWS Continuum for code vulnerabilities. Continuum for code vulnerabilities discovers, validates, prioritizes, and remediates code vulnerabilities at machine speed. Continuum for code vulnerabilities builds a context graph from your AWS environment, including resource topology, identity relationships, and network reachability. It knows which resources are part of your application, and which findings carry real business risk. It ingests your existing vulnerability findings, scans your code, and then confirms which findings are exploitable by testi",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces the general availability of AWS Continuum for code vulnerabilities. Continuum for code vulnerabilities&amp;nbsp;discovers, validates, prioritizes, and remediates code vulnerabilities at machine speed.&lt;/p&gt; \n&lt;p&gt;Continuum for code vulnerabilities builds a context graph from your AWS environment, including resource topology, identity relationships, and network reachability. It knows which resources are part of your application, and which findings carry real business risk. It ingests your existing vulnerability findings, scans your code, and then confirms which findings are exploitable by testing them in an isolated sandbox. The findings are prioritized by business impact. And finally, it provides remediation patches as pull requests directly to developer workflows with exploitability proof and blast radius assessment attached.&lt;/p&gt; \n&lt;p&gt;Continuum for code vulnerabilities picks the right AI model for each task. Continuum starts in Learn mode where it proposes the remediation fixes that you approve. When it builds sufficient trust in its precision, you switch to the Enforce mode and let it act autonomous within the guardrails you set.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;AWS Continuum works alongside your existing AWS security services, including Amazon GuardDuty and AWS Security Hub. For more information about the AWS Regions where AWS Continuum is available, see the &lt;a title=\"AWS Regional Table\" href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Region table.&lt;/a&gt; To learn more, see the AWS Continuum &lt;a href=\"https://aws.amazon.com/continuum/\"&gt;product page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
+      "publishedAt": "2026-10-22T21:00:00.000Z",
+      "updatedAt": "2026-10-22T21:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance"
+      ],
+      "services": [],
+      "tags": [
+        "security identity and compliance"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "vulnerability",
+        "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "39f1b4404e7fcfc4",
+      "title": "CVE-2026-115419 - Unintended disclosure of data element to wrong session in Strands Agents SDK A2A Server",
+      "description": "Bulletin ID: 2026-146-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/22/2026 13:00 PM PDT Description: Strands Agents is an open-source SDK, available for Python and TypeScript, for building AI agents. The SDK includes an Agent2Agent (A2A) server component that exposes an agent over HTTP so other agents and clients can call it. We identified CVE-2026-115419, an issue where the A2A server did not properly isolate conversation state between callers. An authenticated remote user could access another caller's conversation history or influence model behavior for ot",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-146-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/22/2026 13:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Strands Agents is an open-source SDK, available for Python and TypeScript, for building AI agents. The SDK includes an Agent2Agent (A2A) server component that exposes an agent over HTTP so other agents and clients can call it. We identified CVE-2026-115419, an issue where the A2A server did not properly isolate conversation state between callers. An authenticated remote user could access another caller's conversation history or influence model behavior for other callers in multi-tenant deployments.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;br&gt; - strands-agents (Python): all versions containing the multiagent.a2a module, &amp;lt; 1.43.0&lt;br&gt; - @strands-agents/sdk (TypeScript): &amp;lt; 1.5.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-146-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-146-aws/",
+      "publishedAt": "2026-10-22T20:07:11.000Z",
+      "updatedAt": "2026-10-22T20:07:11.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "6da231f7086f1060",
+      "title": "CVE-2026-115414 - OS Command Injection Issue in SAM CLI Terraform Hook",
+      "description": "Bulletin ID: 2026-145-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/22/2026 11:30 AM PDT Description: AWS SAM CLI is an open-source framework for building serverless applications. We identified CVE-2026-115414, an OS command injection issue in the Terraform hook (sam build --hook-name terraform) in AWS SAM CLI. The Terraform hook generates a Makefile recipe that interpolates a Terraform resource address without fully neutralizing shell metacharacters, which could allow an actor who can influence the Terraform configuration or plan file consumed by a build to ",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-145-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/22/2026 11:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS SAM CLI is an open-source framework for building serverless applications. We identified CVE-2026-115414, an OS command injection issue in the Terraform hook (sam build --hook-name terraform) in AWS SAM CLI. The Terraform hook generates a Makefile recipe that interpolates a Terraform resource address without fully neutralizing shell metacharacters, which could allow an actor who can influence the Terraform configuration or plan file consumed by a build to execute arbitrary commands as the build user on the host running the build.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;=1.63.0, &amp;lt;=1.166.1&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-145-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-145-aws/",
+      "publishedAt": "2026-10-22T18:50:58.000Z",
+      "updatedAt": "2026-10-22T18:50:58.000Z",
+      "categories": [],
+      "services": [
+        "SAM",
+        "Terraform"
+      ],
+      "tags": [
+        "sam",
+        "terraform"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "5881a1d29252d0db",
       "title": "CVE-2026-85028: Creation of Temporary File in Directory with Insecure Permissions in AWS FPGA Development Kit",
       "description": "Bulletin ID: 2026-096-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/03/2026 11:00 AM PDT Description: The AWS FPGA Developer Kit is a hardware-software development kit that enables developers to create accelerators for the high-performance accelerator cards on EC2 F2 instances. We identified CVE-2026-85028, where a creation of a temporary file in a directory with insecure permissions in the FPGA management tool installation component in AWS FPGA Development Kit (aws-fpga) before 2.3.4 might allow local users to execute arbitrary code with root privileges via ",
@@ -6361,7 +6484,7 @@
       "tags": [
         "neptune"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -7339,6 +7462,23 @@
         "access"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "d2ed338d9d365103",
+      "title": "CVE-2026-115417 - Memory allocation with excessive size value in the MQTT 3.1.1 compatibility adapter in aws-c-mqtt",
+      "description": "Bulletin ID: 2026-147-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/22/2026 13:30 PM PDT Description: aws-c-mqtt is a C99 implementation of the MQTT 3.1.1 and MQTT5 specifications, distributed as part of the AWS Common Runtime (CRT) and bundled in the AWS IoT Device SDK for C++ v2. We identified CVE-2026-115417, a memory allocation with excessive size value (CWE-789) in the library's MQTT 3.1.1 compatibility adapter. Under certain conditions, a remote actor could cause a denial of service of the client process. Impacted versions: >= 0.9.1 AND Please refer to ",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-147-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/22/2026 13:30 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;aws-c-mqtt is a C99 implementation of the MQTT 3.1.1 and MQTT5 specifications, distributed as part of the AWS Common Runtime (CRT) and bundled in the AWS IoT Device SDK for C++ v2. We identified CVE-2026-115417, a memory allocation with excessive size value (CWE-789) in the library's MQTT 3.1.1 compatibility adapter. Under certain conditions, a remote actor could cause a denial of service of the client process.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;= 0.9.1 AND &amp;lt; 0.16.2&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-147-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-147-aws/",
+      "publishedAt": "2026-10-22T20:40:51.000Z",
+      "updatedAt": "2026-10-22T20:40:51.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
     },
     {
       "id": "adc796320b63ee36",
@@ -10436,7 +10576,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -10466,7 +10606,7 @@
         "vpc",
         "cloudfront"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -11367,6 +11507,85 @@
       "source": "whats-new"
     },
     {
+      "id": "8e3fe4f2728b4af9",
+      "title": "Amazon OpenSearch Serverless now supports a 5-second default refresh interval",
+      "description": "Starting today, Amazon OpenSearch Serverless reduces the default refresh interval to 5 seconds for both search and vector collections. The refresh interval controls how quickly newly ingested documents become available for search. By lowering the default from 10 seconds to 5 seconds, newly written data becomes searchable faster, giving applications quicker read-after-write visibility automatically, with no configuration changes and no action required on your part. This improvement applies to the next generation of Amazon OpenSearch Serverless and takes effect by default on both search and vect",
+      "descriptionHtml": "&lt;p&gt;Starting today, Amazon OpenSearch Serverless reduces the default refresh interval to 5 seconds for both search and vector collections. The refresh interval controls how quickly newly ingested documents become available for search. By lowering the default from 10 seconds to 5 seconds, newly written data becomes searchable faster, giving applications quicker read-after-write visibility automatically, with no configuration changes and no action required on your part.&lt;/p&gt; \n&lt;p&gt;This improvement applies to the next generation of Amazon OpenSearch Serverless and takes effect by default on both search and vector collections. Faster refresh is valuable for workloads that continuously ingest data and need near real-time retrieval, including full-text search over frequently updated content as well as vector use cases such as retrieval-augmented generation (RAG), semantic search, and recommendation and personalization systems. This means applications and AI agents can retrieve and act on the most recently ingested data sooner, improving the relevance and accuracy of search results and RAG responses for datasets that change frequently.&lt;/p&gt; \n&lt;p&gt;The 5-second default refresh interval is available in all&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/general/latest/gr/opensearch-service.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;24 regions&lt;/a&gt;&amp;nbsp;where Amazon OpenSearch Serverless is available today. To learn more, see the Amazon OpenSearch Serverless &lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-serverless-supports-5-second-refresh-interval/",
+      "publishedAt": "2026-10-22T18:34:00.000Z",
+      "updatedAt": "2026-10-22T18:34:00.000Z",
+      "categories": [
+        "Serverless",
+        "Amazon Opensearch Service",
+        "Analytics"
+      ],
+      "services": [
+        "OpenSearch"
+      ],
+      "tags": [
+        "serverless",
+        "amazon opensearch service",
+        "analytics",
+        "opensearch"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "b19d4267dd308428",
+      "title": "AWS Direct Connect announces 100G expansion in Bangalore, India",
+      "description": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location in the Netmagic DC2 data center near Bangalore, India. You can now establish private, direct network access to all public AWS Regions (except those in China), AWS GovCloud Regions, and AWS Local Zones from this location. The Direct Connect service enables you to establish a private, physical network connection between AWS and your data center, office, or colocation environment. These private connections can provide a more consistent network experience than those made over the public",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing &lt;a href=\"https://aws.amazon.com/directconnect\"&gt;AWS Direct Connect&lt;/a&gt; location in the Netmagic DC2 data center near Bangalore, India. You can now establish private, direct network access to all public AWS Regions (except those in China), AWS GovCloud Regions, and &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/localzones/\"&gt;AWS Local Zones&lt;/a&gt; from this location.&lt;/p&gt; \n&lt;p&gt;The Direct Connect service enables you to establish a private, physical network connection between AWS and your data center, office, or colocation environment. These private connections can provide a more consistent network experience than those made over the public internet.&lt;/p&gt; \n&lt;p&gt;For more information on the over 150 Direct Connect locations worldwide, visit the &lt;a href=\"https://aws.amazon.com/directconnect/locations/\"&gt;locations&lt;/a&gt; section of the Direct Connect &lt;a href=\"https://aws.amazon.com/directconnect\"&gt;product detail pages&lt;/a&gt;. Or, visit our &lt;a href=\"https://aws.amazon.com/directconnect/getting-started/\"&gt;getting started&lt;/a&gt; page to learn more about how to purchase and deploy Direct Connect.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-bangalore/",
+      "publishedAt": "2026-10-22T16:00:00.000Z",
+      "updatedAt": "2026-10-22T16:00:00.000Z",
+      "categories": [
+        "AWS Direct Connect",
+        "Networking And Content Delivery"
+      ],
+      "services": [
+        "Direct Connect",
+        "Connect"
+      ],
+      "tags": [
+        "aws direct connect",
+        "networking and content delivery",
+        "direct connect",
+        "connect"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "9b855d6ccc453f25",
+      "title": "Amazon Quick Now Available in the AWS Singapore Region",
+      "description": "Amazon Quick is now available in the AWS Asia Pacific (Singapore) region (ap-southeast-1). This launch allows customers in Singapore to access the full power of Amazon Quick while meeting local requirements for data sovereignty. Amazon Quick provides business users an agentic teammate that quickly answers questions at work and turns those answers into actions. With Amazon Quick, every user is empowered to make better decisions faster and take actions without switching applications using AI they can trust. Today’s launch allows customers to take advantage of Amazon Quick’s capabilities includin",
+      "descriptionHtml": "&lt;p&gt;Amazon Quick is now available in the AWS Asia Pacific (Singapore) region (ap-southeast-1). This launch allows customers in Singapore to access the full power of Amazon Quick while meeting local requirements for data sovereignty.&lt;/p&gt; \n&lt;p&gt;Amazon Quick provides business users an agentic teammate that quickly answers questions at work and turns those answers into actions. With Amazon Quick, every user is empowered to make better decisions faster and take actions without switching applications using AI they can trust. Today’s launch allows customers to take advantage of Amazon Quick’s capabilities including AI-powered chat, Research, Spaces, and QuickSight dashboards — with their data stored and processed locally within the AWS Singapore region.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;For a full list of AWS regions where Amazon Quick is available, visit the &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html\"&gt;Quick regional availability page.&lt;/a&gt; To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/quick/\"&gt;Amazon Quick documentation&lt;/a&gt; or &lt;a href=\"https://aws.amazon.com/quick/\"&gt;product detail page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-now-available-in-the-aws-singapore-region/",
+      "publishedAt": "2026-10-22T07:00:00.000Z",
+      "updatedAt": "2026-10-22T07:00:00.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "a8a623a5a83b5599",
       "title": "Amazon Connect Customer launches two new layouts for agent workspace",
       "description": "Amazon Connect Customer now offers two different layouts that optimize screen space on the agent workspace. Contact center agents spend hours each day in the agent workspace, which includes all of the contact controls and applications they need to resolve customer issues. Agents who handle different channels and workflows want the workspace arranged differently, so that they can quickly read, respond, and access their tools. Now, administrators can choose the best layout for each team, maximizing agent efficiency and satisfaction. On the Modern layout, contact controls are at the top of the wo",
@@ -11610,7 +11829,7 @@
         "aws outposts",
         "outposts"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -11635,7 +11854,7 @@
         "artificial intelligence",
         "migration"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -13956,7 +14175,7 @@
         "amazon sagemaker deploy",
         "sagemaker"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 5,
       "securityLevel": "low",
       "securityMatches": [
@@ -14023,266 +14242,6 @@
       "securityLevel": "low",
       "securityMatches": [
         "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "fe0038c6c3bce143",
-      "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
-      "description": "Amazon S3, including S3 Tables and S3 Vectors, is now available on the Vercel Marketplace and v0 by Vercel. Developers can create and connect S3 resources in seconds without leaving their development environment, getting the durability, scalability, and performance of S3 through Vercel's streamlined provisioning workflow. Millions of customers rely on S3 for low-cost, high-performance storage to power web and AI applications, but until now provisioning it from Vercel required navigating to the AWS Management Console. Now, S3 integrates directly into the Vercel developer experience, automatical",
-      "descriptionHtml": "&lt;p&gt;Amazon S3, including S3 Tables and S3 Vectors, is now available on the Vercel Marketplace and v0 by Vercel. Developers can create and connect S3 resources in seconds without leaving their development environment, getting the durability, scalability, and performance of S3 through Vercel's streamlined provisioning workflow.&lt;/p&gt; \n&lt;p&gt;Millions of customers rely on S3 for low-cost, high-performance storage to power web and AI applications, but until now provisioning it from Vercel required navigating to the AWS Management Console. Now, S3 integrates directly into the Vercel developer experience, automatically handling resource provisioning and connection configuration. You can choose from S3 general purpose buckets for virtually any use case, S3 Tables for fully managed Apache Iceberg tables optimized for analytics workloads, or S3 Vectors to natively store and query vectors at scale.&lt;/p&gt; \n&lt;p&gt;New AWS accounts created through Vercel include $100 in credits valid for up to six months, usable across Amazon S3, Amazon OpenSearch Serverless, and AWS Database services. Existing AWS customers can link their account to use S3 with their Vercel projects.&lt;/p&gt; \n&lt;p&gt;Amazon S3 on Vercel is now available in all AWS Regions where Vercel is available. To get started, read the &lt;a href=\"http://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS News Blog&lt;/a&gt;, visit &lt;a href=\"https://vercel.com/marketplace/aws\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS on Vercel Marketplace&lt;/a&gt;, or launch &lt;a href=\"https://v0.app/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;v0 by Vercel&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-vercel-marketplace-v0",
-      "publishedAt": "2026-10-14T04:00:00.000Z",
-      "updatedAt": "2026-10-14T04:00:00.000Z",
-      "categories": [
-        "Storage",
-        "Amazon Simple Storage Service"
-      ],
-      "services": [
-        "S3"
-      ],
-      "tags": [
-        "storage",
-        "amazon simple storage service",
-        "s3"
-      ],
-      "isNew": false,
-      "securityScore": 5,
-      "securityLevel": "low",
-      "securityMatches": [
-        "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "d2be8a0b09dc2a42",
-      "title": "Anthropic Claude Sonnet 5.5 and Claude Opus 5.5 are now available on Kiro in AWS GovCloud (US)",
-      "description": "Two new Anthropic models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. Claude Opus 5.5 is Anthropic's most capable Opus model yet and a step up from Opus 5 on long-running agentic coding work. Opus 5.5 thinks adaptively on every request, deciding how much effort each task needs, and completes tasks with roughly 40% fewer tool calls and about half the tokens of Opus 5 in Kiro's internal benchmarking. Available with a 1M context window and 2.0x credit multiplier, down from Opus 5's 2.2x. Claude Sonnet 5.5 is Anthropic's fastest Sonnet model to date and a natural up",
-      "descriptionHtml": "&lt;p&gt;Two new Anthropic models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions.&lt;/p&gt; \n&lt;p&gt;Claude Opus 5.5 is Anthropic's most capable Opus model yet and a step up from Opus 5 on long-running agentic coding work. Opus 5.5 thinks adaptively on every request, deciding how much effort each task needs, and completes tasks with roughly 40% fewer tool calls and about half the tokens of Opus 5 in Kiro's internal benchmarking. Available with a 1M context window and 2.0x credit multiplier, down from Opus 5's 2.2x.&lt;/p&gt; \n&lt;p&gt;Claude Sonnet 5.5 is Anthropic's fastest Sonnet model to date and a natural upgrade for teams already building on Sonnet 5. Output is more than 30% faster, real-world coding and knowledge work approaches Opus 5.5 performance, and clearer writing makes it a stronger collaborator, giving developers a cost-performance dial between maximum capability and higher throughput. Available with a 1M context window and 1.3x credit multiplier.&lt;/p&gt; \n&lt;p&gt;Ensure your IDE or CLI is updated to the latest version, then restart it to access the new models from the model selector. For more details, visit the &lt;a href=\"https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-kiro.html\"&gt;GovCloud documentation&lt;/a&gt;, the &lt;a href=\"https://kiro.dev/docs/enterprise/monitor-and-track/\"&gt;monitoring and tracking guide&lt;/a&gt;, or contact your AWS account team. To learn more about Kiro, visit the &lt;a href=\"https://kiro.dev/\"&gt;Kiro product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-claude-5-5-aws-govcloud-us/",
-      "publishedAt": "2026-10-09T17:13:00.000Z",
-      "updatedAt": "2026-10-09T17:13:00.000Z",
-      "categories": [
-        "AWS Govcloud Us"
-      ],
-      "services": [
-        "Claude"
-      ],
-      "tags": [
-        "aws govcloud us",
-        "claude"
-      ],
-      "isNew": false,
-      "securityScore": 5,
-      "securityLevel": "low",
-      "securityMatches": [
-        "token"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "0b8eaae2ef190860",
-      "title": "Amazon S3 Vectors metadata pre-filtering is now available in AWS GovCloud (US) Regions",
-      "description": "Amazon S3 Vectors metadata pre-filtering is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Pre-filtering evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3 Vectors also adds a prefix match operator ($startsWith) for filtering on values like paths and URLs. Together, these improvements give your retrieval-augmented generation (RAG), agentic, and semantic-search applications more complete results when you filter, so your applications return more relevant answers. S3 Vector",
-      "descriptionHtml": "&lt;p&gt;Amazon S3 Vectors metadata pre-filtering is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Pre-filtering evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3 Vectors also adds a prefix match operator ($startsWith) for filtering on values like paths and URLs. Together, these improvements give your retrieval-augmented generation (RAG), agentic, and semantic-search applications more complete results when you filter, so your applications return more relevant answers.&lt;/p&gt; \n&lt;p&gt;S3 Vectors provides native support to store and query vectors in Amazon S3, delivering purpose-built, cost-optimized vector storage and query at billion-vector scale. With this launch, indexes in new vector buckets in the AWS GovCloud (US) Regions use metadata pre-filtering by default, with no change to how you write vectors with PutVectors or run filtered queries with QueryVectors. To use pre-filtering on an existing index, update it in place with the UpdateIndexMode API. You can also compare pre-filtering against your current filtering on the same index, using a per-query parameter on QueryVectors, before you update.&lt;/p&gt; \n&lt;p&gt;Metadata pre-filtering is available at no additional cost in all commercial AWS Regions where Amazon S3 Vectors is available, and in the AWS China Regions. We are in the process of deploying this change and plan to complete the deployment in the coming days. To get started, use the AWS CLI, AWS SDKs, or the Amazon S3 console. To learn more, visit the Amazon S3 Vectors &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-metadata-filtering.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt; and the &lt;a href=\"https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS News blog&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://signin.aws.amazon.com/signup?request_type=register\"&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-vectors-metadata-pre-filtering-in-govcloud-regions/",
-      "publishedAt": "2026-10-09T17:00:00.000Z",
-      "updatedAt": "2026-10-09T17:00:00.000Z",
-      "categories": [
-        "Storage",
-        "Amazon S3"
-      ],
-      "services": [
-        "S3"
-      ],
-      "tags": [
-        "storage",
-        "amazon s3",
-        "s3"
-      ],
-      "isNew": false,
-      "securityScore": 5,
-      "securityLevel": "low",
-      "securityMatches": [
-        "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "63b8a1fa44f7e578",
-      "title": "Amazon DynamoDB introduces filtered export to Amazon S3",
-      "description": "Amazon DynamoDB now supports filtered export for tables. Export to Amazon S3 allows you to export your table data for analytics, data sharing, and other offline uses, as either a full export or an incremental export over a time window. Filtered export enables you to specify exactly which items and attributes to export, producing a dataset that contains only the data relevant to your use case. With filtered export, you use a key condition expression on a key attribute and a filter expression on any attribute to select which items to export, and a projection expression to choose which attributes",
-      "descriptionHtml": "&lt;p&gt;Amazon DynamoDB now supports filtered export for tables. Export to Amazon S3 allows you to export your table data for analytics, data sharing, and other offline uses, as either a full export or an incremental export over a time window. Filtered export enables you to specify exactly which items and attributes to export, producing a dataset that contains only the data relevant to your use case.\n &lt;br&gt;&lt;/p&gt;\n&lt;p&gt;With filtered export, you use a key condition expression on a key attribute and a filter expression on any attribute to select which items to export, and a projection expression to choose which attributes to include. The export then returns only the items and attributes you want. You can use that subset of data to perform granular data recovery, move a slice of data between accounts, or run analytics while meeting your compliance rules. Filtered export works with both full exports and incremental exports.&lt;/p&gt;\n&lt;p&gt;Filtered export is available in all AWS Regions, except the AWS GovCloud (US) Regions. To get started, see the following resources:&lt;/p&gt;\n&lt;ul&gt;\n &lt;li&gt;&lt;a href=\"https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/S3DataExport.HowItWorks.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;DynamoDB data export to Amazon S3&lt;/a&gt;&amp;nbsp;in the DynamoDB developer guide&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n &lt;li&gt;&lt;a title=\"Filtering a table export\" href=\"https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/S3DataExport.Filtered.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Filtering a table export&lt;/a&gt;&amp;nbsp;in the DynamoDB developer guide&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n &lt;li&gt;&lt;a href=\"https://aws.amazon.com/blogs/database/introducing-filtered-export-from-amazon-dynamodb-to-amazon-s3/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Introducing filtered export from Amazon DynamoDB to Amazon S3&lt;/a&gt; blog post&lt;/li&gt;\n&lt;/ul&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
-      "publishedAt": "2026-10-01T17:00:00.000Z",
-      "updatedAt": "2026-10-01T17:00:00.000Z",
-      "categories": [
-        "Amazon Dynamodb",
-        "Database And Data Warehouse"
-      ],
-      "services": [
-        "S3",
-        "DynamoDB"
-      ],
-      "tags": [
-        "amazon dynamodb",
-        "database and data warehouse",
-        "s3",
-        "dynamodb"
-      ],
-      "isNew": false,
-      "securityScore": 5,
-      "securityLevel": "low",
-      "securityMatches": [
-        "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "383771457a307d77",
-      "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
-      "description": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables, optimize them for query performance, and discover them in Amazon S3. With table optimization, you can compact V3 tables using binpack, sort, or z-order strategies to improve query performance, and remove expired snapshots and orphan files to reduce storage costs. These optimizations support V3 data types, including variant, geospatial, and nanosecond-precision timestamps. You can also generate number of ",
-      "descriptionHtml": "&lt;p&gt;AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables, optimize them for query performance, and discover them in Amazon S3.&lt;/p&gt;\n&lt;p&gt;With table optimization, you can compact V3 tables using binpack, sort, or z-order strategies to improve query performance, and remove expired snapshots and orphan files to reduce storage costs. These optimizations support V3 data types, including variant, geospatial, and nanosecond-precision timestamps. You can also generate number of distinct values (NDV) statistics for V3 tables, which analytics engines use to plan queries efficiently. In addition, you can use Glue crawlers to discover V3 tables stored in Amazon S3 and register them in Glue Data Catalog, making them available to query with any V3-compatible engines.&lt;/p&gt;\n&lt;p&gt;These capabilities are available for Iceberg V3 tables in all AWS Regions where Glue Data Catalog table optimization, statistics, and crawlers are available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/table-optimizers.html\"&gt;Glue Optimization&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/iceberg-column-statistics.html\"&gt;Glue Statistics&lt;/a&gt;, and &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/crawler-data-stores.html\"&gt;Glue crawlers&lt;/a&gt; in the Glue Developer Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
-      "publishedAt": "2026-10-01T08:00:00.000Z",
-      "updatedAt": "2026-10-01T08:00:00.000Z",
-      "categories": [
-        "AWS Glue",
-        "Analytics"
-      ],
-      "services": [
-        "Glue"
-      ],
-      "tags": [
-        "aws glue",
-        "analytics",
-        "glue"
-      ],
-      "isNew": false,
-      "securityScore": 5,
-      "securityLevel": "low",
-      "securityMatches": [
-        "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "5f511ba30d24b57b",
-      "title": "Amazon S3 Vectors introduces metadata pre-filtering for up to 5x higher recall on filtered search",
-      "description": "Amazon S3 Vectors now supports pre-filtering, which evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3 Vectors also adds a prefix match operator ($startsWith) for filtering on values like paths and URLs. Together, these improvements give your retrieval-augmented generation (RAG), agentic, and semantic-search applications more complete results when you filter, so your applications return more relevant answers. S3 Vectors provides native support to store and query vectors in Amazon S3, delivering purpose-",
-      "descriptionHtml": "&lt;p&gt;Amazon S3 Vectors now supports pre-filtering, which evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3 Vectors also adds a prefix match operator ($startsWith) for filtering on values like paths and URLs. Together, these improvements give your retrieval-augmented generation (RAG), agentic, and semantic-search applications more complete results when you filter, so your applications return more relevant answers.&lt;/p&gt;\n&lt;p&gt;S3 Vectors provides native support to store and query vectors in Amazon S3, delivering purpose-built, cost-optimized vector storage and query at billion-vector scale. With this launch, indexes in new vector buckets use metadata pre-filtering by default, with no change to how you write vectors with PutVectors or run filtered queries with QueryVectors. To use pre-filtering on an existing index, update it in place with the UpdateIndexMode API. You can also compare pre-filtering against your current filtering on the same index, using a per-query parameter on QueryVectors, before you update.&lt;/p&gt;\n&lt;p&gt;Metadata pre-filtering is available at no additional cost in all commercial AWS Regions where Amazon S3 Vectors is available, and in the AWS China Regions. We are in the process of deploying this change and plan to complete the deployment in the coming days. To get started, use the AWS CLI, AWS SDKs, or the Amazon S3 console. To learn more, visit the Amazon S3 Vectors &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors-metadata-filtering.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt; and the &lt;a href=\"https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS News blog&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/",
-      "publishedAt": "2026-09-30T20:00:00.000Z",
-      "updatedAt": "2026-09-30T20:00:00.000Z",
-      "categories": [
-        "Storage",
-        "Amazon S3"
-      ],
-      "services": [
-        "S3"
-      ],
-      "tags": [
-        "storage",
-        "amazon s3",
-        "s3"
-      ],
-      "isNew": false,
-      "securityScore": 5,
-      "securityLevel": "low",
-      "securityMatches": [
-        "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "df2c162bee7903a7",
-      "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
-      "description": "Amazon S3 Tables add support for geometry, geography, unknown, and nanosecond timestamp data types, along with column default values, as defined in the Apache Iceberg Version 3 (V3) specification. You can now store geospatial coordinates and nanosecond-precision event times natively instead of encoding them in strings or integers. This helps simplify data architecture while improving storage efficiency and performance. With this launch, S3 Tables support all data types introduced in V3, adding to existing support for the Variant data type, deletion vectors, and row lineage. Geometry and geogra",
-      "descriptionHtml": "&lt;p&gt;Amazon S3 Tables add support for geometry, geography, unknown, and nanosecond timestamp data types, along with column default values, as defined in the Apache Iceberg Version 3 (V3) specification. You can now store geospatial coordinates and nanosecond-precision event times natively instead of encoding them in strings or integers. This helps simplify data architecture while improving storage efficiency and performance. With this launch, S3 Tables support all data types introduced in V3, adding to existing support for the Variant data type, deletion vectors, and row lineage.&lt;/p&gt;\n&lt;p&gt;Geometry and geography columns store points, lines, and polygons natively, so fleet tracking and asset mapping workloads can filter on location at query time. Nanosecond timestamps let telemetry and financial workloads record event times at source precision. Column default values populate a newly added column for existing rows, with no backfill required. S3 Tables provide automatic table maintenance and compaction for Apache Iceberg tables, so tables using V3 data types stay performant and cost effective as data scales.&lt;/p&gt;\n&lt;p&gt;Support for these data types in S3 Tables is available in all AWS Regions where S3 Tables are available. To learn more, see &lt;a href=\"https://aws.amazon.com/s3/features/tables/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon S3 Tables&lt;/a&gt;,&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/working-with-apache-iceberg-v3.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Apache Iceberg V3 on AWS&lt;/a&gt;, and the &lt;a href=\"https://docs.aws.amazon.com/prescriptive-guidance/latest/apache-iceberg-on-aws/table-spec-v3.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Prescriptive Guidance&lt;/a&gt;&amp;nbsp;for working with Iceberg table format specification version 3.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-tables-iceberg-v3-data-types",
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "updatedAt": "2026-09-30T04:00:00.000Z",
-      "categories": [
-        "Storage",
-        "Amazon Simple Storage Service"
-      ],
-      "services": [
-        "S3"
-      ],
-      "tags": [
-        "storage",
-        "amazon simple storage service",
-        "s3"
-      ],
-      "isNew": false,
-      "securityScore": 5,
-      "securityLevel": "low",
-      "securityMatches": [
-        "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "6696aba600af7ac4",
-      "title": "Amazon SageMaker HyperPod Inference Gateway for scalable LLM inference",
-      "description": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing system that deploys as a single EKS managed add-on on existing SageMaker HyperPod infrastructure with zero application changes. By replacing unintelligent round-robin load balancing with real-time inference-signal-driven routing, it reduces first-token latency by up to 82% and p99 TTFT reductions of 97–98% in mixed-hardware and burst traffic scenarios. The Gateway is built around 3 core components. The Envoy Endpoint terminates HTTPS traffic and exposes a single private endpoint per cluster. The Body-Based Ro",
-      "descriptionHtml": "&lt;p&gt;Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing system that deploys as a single EKS managed add-on on existing SageMaker HyperPod infrastructure with zero application changes. By replacing unintelligent round-robin load balancing with real-time inference-signal-driven routing, it reduces first-token latency by up to 82% and p99 TTFT reductions of 97–98% in mixed-hardware and burst traffic scenarios.&lt;/p&gt;\n&lt;p&gt;The Gateway is built around 3 core components. The Envoy Endpoint terminates HTTPS traffic and exposes a single private endpoint per cluster. The Body-Based Router reads the model name directly from each incoming request and routes it to the correct GPU pool - enabling one gateway to serve many models from a single endpoint URL with no client-side changes required. The Endpoint Picker continuously scores every model server pod in real time across 6 inference-level signals - KV cache utilization, queue depth, LoRA adapter residency, prefix cache hit rate, predicted latency and running requests - selecting the optimal pod for each individual request.&lt;/p&gt;\n&lt;p&gt;The gateway works with any OpenAI-compatible model server, including vLLM and SGLang, requiring no application code changes.&lt;/p&gt;\n&lt;p&gt;Per-cluster routing is available today in all AWS Regions where the SageMaker HyperPod inference add-on is supported. Coming soon - cross-cluster and cross-region routing with a centralized fleet gateway, global rate limiting, and cost-tier-aware traffic shaping.&lt;/p&gt;\n&lt;p&gt;To learn more, read the &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/\"&gt;launch blog&lt;/a&gt; and explore the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-model-deployment-inference-gateway.html\"&gt;documentation&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-hyperpod-inference-gateway/",
-      "publishedAt": "2026-09-24T08:00:00.000Z",
-      "updatedAt": "2026-09-24T08:00:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Amazon Eks",
-        "Compute"
-      ],
-      "services": [
-        "EKS",
-        "SageMaker"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "amazon eks",
-        "compute",
-        "eks",
-        "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 5,
-      "securityLevel": "low",
-      "securityMatches": [
-        "token"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "8cbd6ab9ff823f88",
-      "title": "Amazon Bedrock Managed Knowledge Base now supports Salesforce and Zendesk as native data source connectors",
-      "description": "AWS announces Salesforce and Zendesk data source connectors for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now sync Salesforce knowledge articles and Zendesk articles and community posts directly into their managed knowledge base. Previously, bringing content from these platforms into Bedrock Knowledge Bases required building custom ingestion pipelines—now, you provide your instance credentials, and the connectors handle data crawling, metadata extraction, and incremental sync automatically. These connectors make it easy t",
-      "descriptionHtml": "&lt;p&gt;AWS announces Salesforce and Zendesk data source connectors for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now sync Salesforce knowledge articles and Zendesk articles and community posts directly into their managed knowledge base.\n &lt;br&gt;\n Previously, bringing content from these platforms into Bedrock Knowledge Bases required building custom ingestion pipelines—now, you provide your instance credentials, and the connectors handle data crawling, metadata extraction, and incremental sync automatically.\n &lt;br&gt;\n These connectors make it easy to build AI agents and assistants grounded in the support and product knowledge your teams already maintain in Salesforce and Zendesk. For example, power a customer-facing support bot with up-to-date Zendesk help center articles and community answers, or build an internal sales enablement assistant that retrieves relevant Salesforce knowledge articles during deal preparation. By keeping your knowledge base in sync with these platforms, your retrieval-augmented generation applications always reflect the latest content without manual intervention.\n &lt;br&gt;\n To learn more, see &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/kb-managed-ds-salesforce.html\"&gt;Salesforce data source connector&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/kb-managed-ds-zendesk.html\"&gt;Zendesk data source connector &lt;/a&gt;in the Amazon Bedrock User Guide. For more information about Amazon Bedrock Managed Knowledge Base, visit the &lt;a href=\"https://aws.amazon.com/bedrock/knowledge-bases/\"&gt;Amazon Bedrock Knowledge Bases product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/",
-      "publishedAt": "2026-09-23T17:41:00.000Z",
-      "updatedAt": "2026-09-23T17:41:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Amazon Bedrock",
-        "Business Productivity",
-        "Aiml"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "amazon bedrock",
-        "business productivity",
-        "aiml",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 5,
-      "securityLevel": "low",
-      "securityMatches": [
-        "credential"
       ],
       "source": "whats-new"
     }
