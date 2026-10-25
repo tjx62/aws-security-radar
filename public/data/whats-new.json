@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T12:29:02.554Z",
+  "lastUpdated": "2026-10-25T13:00:00.549Z",
   "itemCount": 500,
   "items": [
     {
@@ -4172,8 +4172,8 @@
       "description": "Read this article",
       "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-105-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-105-aws/",
-      "publishedAt": "2026-10-23T17:45:18.000Z",
-      "updatedAt": "2026-10-23T17:45:18.000Z",
+      "publishedAt": "2026-10-25T03:11:39.000Z",
+      "updatedAt": "2026-10-25T03:11:39.000Z",
       "categories": [],
       "services": [
         "S3"
@@ -5237,6 +5237,25 @@
       "source": "whats-new"
     },
     {
+      "id": "93fd69a0e8808c94",
+      "title": "CVE-2026-111943: eMudhra intermediate CA key recovery in AWS trust bundles",
+      "description": "Bulletin ID: 2026-150-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/24/2026 20:00 PM PDT Summary: AWS identified CVE-2026-111943, a key-generation flaw at external CA eMudhra/emSign that made intermediate CA private keys recoverable. Three roots are affected: AAA Certificate Services, emSign Root TLS CA - G3, and emSign ECC Root CA - G3. They shipped in AWS-owned trust bundles, exposing soft-fail TLS clients to man-in-the-middle risk. AWS is removing the roots. Customers using CloudFront custom origins or ALB OIDC/JWT auth should check whether their certifica",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-150-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/24/2026 20:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Summary:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS identified CVE-2026-111943, a key-generation flaw at external CA eMudhra/emSign that made intermediate CA private keys recoverable. Three roots are affected: AAA Certificate Services, emSign Root TLS CA - G3, and emSign ECC Root CA - G3. They shipped in AWS-owned trust bundles, exposing soft-fail TLS clients to man-in-the-middle risk. AWS is removing the roots. Customers using CloudFront custom origins or ALB OIDC/JWT auth should check whether their certificates chain to an affected root and reissue from a different CA before enforcement.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-150-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-150-aws/",
+      "publishedAt": "2026-10-25T03:07:57.000Z",
+      "updatedAt": "2026-10-25T03:07:57.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "TLS"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "7d91eb17e78afbf2",
       "title": "CVE-2026-75935 and CVE-2026-75936 - Issue with Amazon ion-java - Memory-amplification denial of service",
       "description": "Bulletin ID: 2026-083-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 08/18/2026 12:30 PM PDT Description: ion-java is a Java library that implements the Amazon Ion data format specification. We identified CVE-2026-75935, memory-amplification denial of service via declared-length preallocation, and CVE-2026-75936, memory-amplification denial of service via highly compressed data expansion. Affected versions: Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.",
@@ -6143,6 +6162,29 @@
       "source": "security-blog"
     },
     {
+      "id": "41c7df7bffb3ef5a",
+      "title": "CVE-2026-89049 - Server-side request forgery in the Session Manager port forwarding functionality in AWS Systems Manager Agent",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-107-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-107-aws/",
+      "publishedAt": "2026-10-25T03:13:38.000Z",
+      "updatedAt": "2026-10-25T03:13:38.000Z",
+      "categories": [],
+      "services": [
+        "Systems Manager"
+      ],
+      "tags": [
+        "systems manager"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Systems Manager"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "ebc89964e953de08",
       "title": "CVE-2026-115845 - Incomplete validation in the run_script Python sandbox in AWS MCP Server",
       "description": "Bulletin ID: 2026-149-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/23/2026 12:00 PM PDT Description: AWS MCP Server is a managed server that gives AI agents access to AWS through the Model Context Protocol (MCP), including a run_script tool that runs Python scripts in a sandboxed environment. We identified CVE-2026-115845, an issue in the Python code validator of the run_script tool in AWS MCP Server. An incomplete list of disallowed inputs might allow an authenticated remote user to execute arbitrary code within their own isolated session environment via a ",
@@ -6855,29 +6897,6 @@
       "source": "security-bulletin"
     },
     {
-      "id": "41c7df7bffb3ef5a",
-      "title": "CVE-2026-89049 - Server-side request forgery in the Session Manager port forwarding functionality in AWS Systems Manager Agent",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-107-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-107-aws/",
-      "publishedAt": "2026-09-10T18:44:24.000Z",
-      "updatedAt": "2026-09-10T18:44:24.000Z",
-      "categories": [],
-      "services": [
-        "Systems Manager"
-      ],
-      "tags": [
-        "systems manager"
-      ],
-      "isNew": false,
-      "securityScore": 40,
-      "securityLevel": "high",
-      "securityMatches": [
-        "Systems Manager"
-      ],
-      "source": "security-bulletin"
-    },
-    {
       "id": "3dc6b9f1c25be0e7",
       "title": "Amazon Bedrock Managed Knowledge Base adds APIs and console support for debugging document-level access control",
       "description": "AWS announces the CheckIngestedDocumentAcl and GetIngestedDocumentAcl APIs for Amazon Bedrock Managed Knowledge Base, giving customers a self-service way to debug document access issues and audit document-level permissions. When a user doesn't see an expected document in retrieval results for ACL-enabled data sources, it can be difficult to determine whether the cause is an access control misconfiguration or something else entirely. These new APIs and the accompanying console experience close that gap, enabling you to quickly diagnose and resolve permission issues without opening a support cas",
@@ -7378,13 +7397,81 @@
       "source": "whats-new"
     },
     {
+      "id": "6a0d0961aea9da66",
+      "title": "CVE-2026-89090 - Denial of service in the event stream header decoder in AWS SDK for Go v2",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-110-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-110-aws/",
+      "publishedAt": "2026-10-25T03:13:38.000Z",
+      "updatedAt": "2026-10-25T03:13:38.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "caa70077f6f98466",
+      "title": "CVE-2026-18061 - XML External Entity (XXE) in AWS Advanced JDBC Wrapper RemoteQueryCachePlugin",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-109-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-109-aws/",
+      "publishedAt": "2026-10-25T03:13:38.000Z",
+      "updatedAt": "2026-10-25T03:13:38.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "620b291e0c95e62c",
+      "title": "CVE-2026-89065 and CVE-2026-89066: Issue with projen - Path traversal and OS command injection",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-108-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-108-aws/",
+      "publishedAt": "2026-10-25T03:13:38.000Z",
+      "updatedAt": "2026-10-25T03:13:38.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "748a42a70eca074e",
+      "title": "CVE-2026-85228 - Integer overflow in tensor buffer validation in Deep Java Library",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-106-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-106-aws/",
+      "publishedAt": "2026-10-25T03:13:38.000Z",
+      "updatedAt": "2026-10-25T03:13:38.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
       "id": "9d89458f235b2e01",
       "title": "CVE-2026-87911",
       "description": "Read this article",
       "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-104-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-104-aws/",
-      "publishedAt": "2026-10-23T17:44:51.000Z",
-      "updatedAt": "2026-10-23T17:44:51.000Z",
+      "publishedAt": "2026-10-25T03:11:39.000Z",
+      "updatedAt": "2026-10-25T03:11:39.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -7400,8 +7487,8 @@
       "description": "Read this article",
       "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-103-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-103-aws/",
-      "publishedAt": "2026-10-23T17:44:25.000Z",
-      "updatedAt": "2026-10-23T17:44:25.000Z",
+      "publishedAt": "2026-10-25T03:11:39.000Z",
+      "updatedAt": "2026-10-25T03:11:39.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -7417,8 +7504,8 @@
       "description": "Read this article",
       "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-102-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-102-aws/",
-      "publishedAt": "2026-10-23T17:43:59.000Z",
-      "updatedAt": "2026-10-23T17:43:59.000Z",
+      "publishedAt": "2026-10-25T03:11:39.000Z",
+      "updatedAt": "2026-10-25T03:11:39.000Z",
       "categories": [],
       "services": [
         "OpenSearch"
@@ -7438,8 +7525,8 @@
       "description": "Read this article",
       "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-101-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-101-aws/",
-      "publishedAt": "2026-10-23T17:43:25.000Z",
-      "updatedAt": "2026-10-23T17:43:25.000Z",
+      "publishedAt": "2026-10-25T03:11:39.000Z",
+      "updatedAt": "2026-10-25T03:11:39.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -8780,74 +8867,6 @@
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-114-aws/",
       "publishedAt": "2026-09-17T19:18:01.000Z",
       "updatedAt": "2026-09-17T19:18:01.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "6a0d0961aea9da66",
-      "title": "CVE-2026-89090 - Denial of service in the event stream header decoder in AWS SDK for Go v2",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-110-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-110-aws/",
-      "publishedAt": "2026-09-11T17:09:09.000Z",
-      "updatedAt": "2026-09-11T17:09:09.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "caa70077f6f98466",
-      "title": "CVE-2026-18061 - XML External Entity (XXE) in AWS Advanced JDBC Wrapper RemoteQueryCachePlugin",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-109-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-109-aws/",
-      "publishedAt": "2026-09-11T16:37:01.000Z",
-      "updatedAt": "2026-09-11T16:37:01.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "620b291e0c95e62c",
-      "title": "CVE-2026-89065 and CVE-2026-89066: Issue with projen - Path traversal and OS command injection",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-108-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-108-aws/",
-      "publishedAt": "2026-09-11T16:10:27.000Z",
-      "updatedAt": "2026-09-11T16:10:27.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "748a42a70eca074e",
-      "title": "CVE-2026-85228 - Integer overflow in tensor buffer validation in Deep Java Library",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-106-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-106-aws/",
-      "publishedAt": "2026-09-10T17:13:16.000Z",
-      "updatedAt": "2026-09-10T17:13:16.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -11556,9 +11575,9 @@
     },
     {
       "id": "5767ee5c982d745e",
-      "title": "Web Search on AWS Bedrock now supports domain filtering and user location controls",
-      "description": "Web Search on AWS Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses API request. With domain filtering, you can restrict Web Search results to a set of domains you choose. Using the filters parameter, you specify up to 100 allowed_domains to limit results to trusted sources, or up to 100 blocked_domains to exclude sources you don't want. This is useful when you want responses grounded only in specific sites, ",
-      "descriptionHtml": "&lt;p&gt;Web Search on AWS Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses API request.&lt;/p&gt; \n&lt;p&gt;With domain filtering, you can restrict Web Search results to a set of domains you choose. Using the filters parameter, you specify up to 100 allowed_domains to limit results to trusted sources, or up to 100 blocked_domains to exclude sources you don't want. This is useful when you want responses grounded only in specific sites, or when you need to keep certain domains out of results.&lt;/p&gt; \n&lt;p&gt;With user location, you can optionally specify location parameters so that Web Search can return results relevant to that geography. This helps with location-dependent questions, such as regional availability or local services.&lt;/p&gt; \n&lt;p&gt;Domain filtering and user location are available in all AWS Regions where Web Search is supported: US East (N. Virginia), US East (Ohio), US West (Oregon), and AWS GovCloud (US-West). To get started, see the Web Search section in the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/web-search.html\"&gt;AWS Bedrock User Guide&lt;/a&gt;. For pricing, see the &lt;a href=\"https://aws.amazon.com/bedrock/pricing/\"&gt;AWS Bedrock pricing page&lt;/a&gt;.&lt;/p&gt;",
+      "title": "Web Search on Amazon Bedrock now supports domain filtering and user location controls",
+      "description": "Web Search on Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses API request. With domain filtering, you can restrict Web Search results to a set of domains you choose. Using the filters parameter, you specify up to 100 allowed_domains to limit results to trusted sources, or up to 100 blocked_domains to exclude sources you don't want. This is useful when you want responses grounded only in specific site",
+      "descriptionHtml": "&lt;p&gt;Web Search on&amp;nbsp;Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses API request.&lt;/p&gt; \n&lt;p&gt;With domain filtering, you can restrict Web Search results to a set of domains you choose. Using the filters parameter, you specify up to 100 allowed_domains to limit results to trusted sources, or up to 100 blocked_domains to exclude sources you don't want. This is useful when you want responses grounded only in specific sites, or when you need to keep certain domains out of results.&lt;/p&gt; \n&lt;p&gt;With user location, you can optionally specify location parameters so that Web Search can return results relevant to that geography. This helps with location-dependent questions, such as regional availability or local services.&lt;/p&gt; \n&lt;p&gt;Domain filtering and user location are available in all AWS Regions where Web Search is supported: US East (N. Virginia), US East (Ohio), US West (Oregon), and AWS GovCloud (US-West). To get started, see the Web Search section in the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/web-search.html\"&gt;Amazon Bedrock User Guide&lt;/a&gt;. For pricing, see the &lt;a href=\"https://aws.amazon.com/bedrock/pricing/\"&gt;Amazon Bedrock pricing page&lt;/a&gt;.&lt;/p&gt;",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/",
       "publishedAt": "2026-10-23T21:04:00.000Z",
       "updatedAt": "2026-10-23T21:04:00.000Z",
@@ -14150,36 +14169,6 @@
       "securityLevel": "low",
       "securityMatches": [
         "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "a85aeda09785999f",
-      "title": "Amazon OpenSearch Service introduces intelligent ingestion for logs and documents in Amazon S3",
-      "description": "Amazon OpenSearch Serverless now offers intelligent ingestion, a fully managed feature that turns logs and documents stored in Amazon S3 into searchable content in Amazon OpenSearch Serverless (NextGen) collections . With intelligent ingestion, you can set up ingestion with a few clicks in the AWS Management Console or a single API call, with no ingestion infrastructure to manage. Intelligent ingestion supports observability logs and structured data in JSON, NDJSON, and JSON array formats, and unstructured files in PDF, Word, plain text, and Markdown formats. You choose an S3 source and a coll",
-      "descriptionHtml": "&lt;p&gt;Amazon OpenSearch Serverless now offers intelligent ingestion, a fully managed feature that turns logs and documents stored in Amazon S3 into searchable content in Amazon OpenSearch Serverless (NextGen) collections . With intelligent ingestion, you can set up ingestion with a few clicks in the AWS Management Console or a single API call, with no ingestion infrastructure to manage. Intelligent ingestion supports observability logs and structured data in JSON, NDJSON, and JSON array formats, and unstructured files in PDF, Word, plain text, and Markdown formats.&lt;/p&gt; \n&lt;p&gt;You choose an S3 source and a collection index, and intelligent ingestion handles the rest. It automatically detects data types, parses documents, describes images, chunks text, generates vector embeddings, and indexes the results. You don't need to manage ingestion or document-processing infrastructure, or size capacity in advance. Use ingestion jobs for one-time loads such as migrations and backfills, or ingestion streams to keep an index in sync as new objects arrive in your bucket. Capacity scales with your workload up to the collection's configured limit, and you pay only for active processing. Source S3 buckets can be in the same AWS account as the collection or in a different account.&lt;/p&gt; \n&lt;p&gt;For logs and structured data, intelligent ingestion applies transformations and optionally adds embeddings, with no pipeline code. For unstructured data, it parses PDF, Word, plain text, and Markdown files while keeping headings, reading order, and tables intact, so the content lands in an index ready for semantic and hybrid search. When documents contain charts, diagrams, screenshots, or photos, a vision-language model generates text descriptions that are indexed with the surrounding content, making visual information searchable too.&lt;/p&gt; \n&lt;p&gt;Intelligent ingestion is available today for Amazon OpenSearch Serverless (NextGen) collections, with Amazon S3 as the source, in seven AWS Regions. To get started, open the Amazon OpenSearch Service console, choose your collection, and select the Ingestion tab. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-intelligent-ingestion.html\"&gt;Intelligent ingestion&lt;/a&gt; in the Amazon OpenSearch Service Developer Guide. For pricing, see &lt;a href=\"https://aws.amazon.com/opensearch-service/pricing/\"&gt;Amazon OpenSearch Service pricing&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-intelligent-ingestion-logs-documents-s3",
-      "publishedAt": "2026-10-22T20:54:00.000Z",
-      "updatedAt": "2026-10-22T20:54:00.000Z",
-      "categories": [
-        "Amazon Opensearch Service",
-        "Analytics"
-      ],
-      "services": [
-        "S3",
-        "OpenSearch"
-      ],
-      "tags": [
-        "amazon opensearch service",
-        "analytics",
-        "s3",
-        "opensearch"
-      ],
-      "isNew": true,
-      "securityScore": 5,
-      "securityLevel": "low",
-      "securityMatches": [
-        "S3"
       ],
       "source": "whats-new"
     }
