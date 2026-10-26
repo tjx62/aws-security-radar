@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T13:00:00.549Z",
+  "lastUpdated": "2026-10-26T14:54:59.800Z",
   "itemCount": 500,
   "items": [
     {
@@ -152,7 +152,7 @@
         "iam",
         "iam identity center"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -11899,7 +11899,7 @@
         "aws govcloud us",
         "rds"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
