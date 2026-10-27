@@ -1,7 +1,42 @@
 {
-  "lastUpdated": "2026-10-26T14:54:59.800Z",
+  "lastUpdated": "2026-10-27T14:04:57.679Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "05f1e90524d13f2f",
+      "title": "AWS IAM Identity Center now supports cross-Region trusted identity propagation",
+      "description": "Trusted identity propagation carries a user's identity with their request, so AWS services can grant permissions based on who the user is and their underlying group associations, and log that user's access for auditing. With cross-Region support, this identity context can now be propagated to AWS services running in different AWS Regions, giving you greater flexibility in how you architect and deploy across AWS Regions. Customers often distribute workloads across AWS Regions for many reasons including separating the compute from the data it queries, to running workloads where capacity is avail",
+      "descriptionHtml": "&lt;p&gt;Trusted identity propagation carries a user's identity with their request, so AWS services can grant permissions based on who the user is and their underlying group associations, and log that user's access for auditing. With cross-Region support, this identity context can now be propagated to AWS services running in different AWS Regions, giving you greater flexibility in how you architect and deploy across AWS Regions.&lt;/p&gt; \n&lt;p&gt;Customers often distribute workloads across AWS Regions for many reasons including separating the compute from the data it queries, to running workloads where capacity is available, or for disaster recovery and global scale. Previously, trusted identity propagation required all of the AWS services accessing a user's identity to reside in the same AWS Region. To reach services in another AWS Region, customers had to either grant access through broad IAM roles that cannot distinguish individual users or consolidate all their services into a single AWS Region. With cross-Region trusted identity propagation, a user's identity travels with the request across AWS Regions automatically, so you can grant access based on who the user is and their underlying group associations, and audit who accessed which resources, while preserving fine-grained access control for every individual user.&lt;/p&gt; \n&lt;p&gt;Cross-Region trusted identity propagation is available at no additional cost in all AWS Regions where IAM Identity Center is available. For the list of Regions where IAM Identity Center is available, see &lt;a href=\"https://builder.aws.com/build/capabilities/explore?tab=service-feature&amp;amp;f=eJxtks1OwzAQhF8F7bk-kFKQKnFF4sCFHusIWck2jTCx5Z8CqvLuGKeOHTu3nW_Wu_LYV9DIsTHYvmPXi0HDHo4UrCbItCH3FDZRVUF9Y-p5NXnsRLSw5nwzmUzHBFUFNQhlzsuGiFa6tgFlOyZZLeRybEQrXdsSPRRoV6LHEj15hFY3pMUsw05cVkiSZcNIg4NRjEeQ2GgzOwFVAD6t6KdJzXJuXg5P3jGoKZqeZ4u_fnKAJUhXazbfvIYNSCUkKvP70nOD6uOEzFiF7utdKUgKewpC-XPGiWPtiu6_cO6nd28HXlvfJDx79vXF12-Wm55MP_ruYKV0oVAY6xHGP20D8yw\"&gt;AWS Capabilities by Region.&lt;/a&gt;&amp;nbsp; For more information, see &lt;a href=\"https://docs.aws.amazon.com/singlesignon/latest/userguide/trustedidentitypropagation-overview.html\"&gt;Trusted identity propagation&lt;/a&gt; in the IAM Identity Center User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-cross-region-tip/",
+      "publishedAt": "2026-10-26T08:00:00.000Z",
+      "updatedAt": "2026-10-26T08:00:00.000Z",
+      "categories": [
+        "AWS Iam Identity Center",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "IAM",
+        "IAM Identity Center"
+      ],
+      "tags": [
+        "aws iam identity center",
+        "security identity and compliance",
+        "iam",
+        "iam identity center"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "IAM Identity Center",
+        "audit",
+        "permission",
+        "access",
+        "identity"
+      ],
+      "source": "whats-new"
+    },
     {
       "id": "90b9569e8d2397e3",
       "title": "Best practices for integrating IAM Roles Anywhere with your PKI",
@@ -118,7 +153,7 @@
         "iam",
         "iam identity center"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -1917,7 +1952,7 @@
         "security identity and compliance",
         "guardduty"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 85,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2723,6 +2758,47 @@
         "audit"
       ],
       "source": "security-blog"
+    },
+    {
+      "id": "2ed3fea838b1aed3",
+      "title": "AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation",
+      "description": "AWS Key Management Service (KMS) now supports Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), a post-quantum cryptography standard under NIST FIPS 203 , which enables two parties to establish a shared secret. NIST designed ML-KEM to replace the classical key-establishment schemes, like DH/ECDH key agreement, and RSA-based key transport, in their strategic cryptographic roadmap (see NIST IR 8547 ). ML-KEM addresses the \"harvest now, decrypt later\" threat to those classical schemes, where an adversary records the key-establishment exchange today and recovers the shared secret once suf",
+      "descriptionHtml": "&lt;p&gt;AWS Key Management Service (KMS) now supports Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), a post-quantum cryptography standard under &lt;a href=\"https://csrc.nist.gov/pubs/fips/203/final\"&gt;NIST FIPS 203&lt;/a&gt;, which&amp;nbsp;enables two parties to establish a shared secret.&amp;nbsp;NIST designed ML-KEM to replace the classical key-establishment schemes, like DH/ECDH key agreement, and RSA-based key transport, in their strategic cryptographic roadmap&amp;nbsp;(see &lt;a href=\"https://csrc.nist.gov/pubs/ir/8547/ipd\"&gt;NIST IR 8547&lt;/a&gt;).&amp;nbsp;ML-KEM addresses the \"harvest now, decrypt later\" threat to those classical schemes, where an adversary records the key-establishment exchange today and recovers the shared secret once sufficiently powerful quantum computers become available.&lt;/p&gt; \n&lt;p&gt;KMS supports all three ML-KEM key specs defined in NIST FIPS 203: ML-KEM-512, ML-KEM-768, and ML-KEM-1024. The Encapsulate API uses the public key to produce a random 32-byte shared secret and its ciphertext form. The Decapsulate API recovers the shared secret from ciphertext using the corresponding private key. KMS protects the private key of an ML-KEM key pair in FIPS 140-3 Level 3 validated hardware security modules (HSMs). You can use the GetPublicKey API to export the public key and distribute it to partners, client applications, or external systems for performing the encapsulate operation locally using cryptographic libraries like AWS-LC, OpenSSL, or Bouncy Castle.&lt;/p&gt; \n&lt;p&gt;ML-KEM is available in all AWS Regions where KMS is available, except the the Middle East (UAE), Middle East (Bahrain), and China Regions. For more information, see &lt;a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/symm-asymm-choose-key-spec.html\"&gt;Key spec reference&lt;/a&gt; in the AWS KMS Developer Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/",
+      "publishedAt": "2026-10-26T08:00:00.000Z",
+      "updatedAt": "2026-10-26T08:00:00.000Z",
+      "categories": [
+        "AWS Kms",
+        "AWS Govcloud Us",
+        "P&Gt;",
+        "Security",
+        "Quantum Technologies",
+        "General:Products",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "KMS"
+      ],
+      "tags": [
+        "aws kms",
+        "aws govcloud us",
+        "p&gt;",
+        "security",
+        "quantum technologies",
+        "general:products",
+        "security identity and compliance",
+        "kms"
+      ],
+      "isNew": true,
+      "securityScore": 75,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "KMS",
+        "FIPS",
+        "Secret",
+        "threat"
+      ],
+      "source": "whats-new"
     },
     {
       "id": "248be7019c94baf8",
@@ -6162,6 +6238,55 @@
       "source": "security-blog"
     },
     {
+      "id": "7d865b8818844dcd",
+      "title": "CVE-2026-115418 - SQL injection in the database-query custom resource handlers in Amazon Web Services (AWS)",
+      "description": "Bulletin ID: 2026-151-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/26/2026 09:30 AM PDT Description: The AWS Cloud Development Kit (CDK) @aws-cdk/aws-redshift-alpha module provides experimental constructs that manage Amazon Redshift users, tables and privileges. We identified CVE-2026-115418, an issue where crafted user names, comments or passwords set in these constructs could change the SQL that runs with Amazon Redshift superuser privileges at deployment, including granting access to all cluster users. Exploiting the issue requires the ability to influenc",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-151-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/26/2026 09:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;The AWS Cloud Development Kit (CDK) @aws-cdk/aws-redshift-alpha module provides experimental constructs that manage Amazon Redshift users, tables and privileges. We identified CVE-2026-115418, an issue where crafted user names, comments or passwords set in these constructs could change the SQL that runs with Amazon Redshift superuser privileges at deployment, including granting access to all cluster users. Exploiting the issue requires the ability to influence the CDK application's construct property values.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt;2.274.0-alpha.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-151-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-151-aws/",
+      "publishedAt": "2026-10-26T16:50:46.000Z",
+      "updatedAt": "2026-10-26T16:50:46.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "34e23abf9f11be99",
+      "title": "Amazon SageMaker Unified Studio adds light mode support for IDC-based domains",
+      "description": "Today, AWS announces light mode support in Amazon SageMaker Unified Studio for Identity Center (IDC) based domains. Customers can now configure the visual interface mode to match their preference, choosing between dark and light themes. With this launch, customers can set this visual preference in both IAM-based and IDC-based domains. Light mode helps improve readability in bright environments and provides a familiar visual experience for customers who prefer lighter interfaces. Combined with the existing dark mode, this update gives you full control over the appearance of your development env",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces light mode support in Amazon SageMaker Unified Studio for Identity Center (IDC) based domains. Customers can now configure the visual interface mode to match their preference, choosing between dark and light themes. With this launch, customers can set this visual preference in both IAM-based and IDC-based domains.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Light mode helps improve readability in bright environments and provides a familiar visual experience for customers who prefer lighter interfaces. Combined with the existing dark mode, this update gives you full control over the appearance of your development environment, improving accessibility and reducing eye strain across varying lighting conditions. In SageMaker Unified Studio settings, you can choose 'Customize appearance' under your Profile settings to select between visual modes including dark mode, light mode, and device setting, which matches your operating system's setting. The setting persists across browsers and devices.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where Amazon SageMaker Unified Studio is available. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/navigating-sagemaker-unified-studio.html#display-mode\"&gt;Amazon SageMaker Unified Studio User Guide.&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/smus-light-mode",
+      "publishedAt": "2026-10-26T15:32:00.000Z",
+      "updatedAt": "2026-10-26T15:32:00.000Z",
+      "categories": [
+        "Amazon Sagemaker",
+        "Analytics"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "amazon sagemaker",
+        "analytics",
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "IAM",
+        "Config",
+        "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "41c7df7bffb3ef5a",
       "title": "CVE-2026-89049 - Server-side request forgery in the Session Manager port forwarding functionality in AWS Systems Manager Agent",
       "description": "Read this article",
@@ -7393,6 +7518,36 @@
         "security",
         "Config",
         "access"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "9241e10e6b2d1095",
+      "title": "AWS Glue Data Catalog now supports OAuth for Apache Iceberg REST Catalog APIs",
+      "description": "AWS Glue Data Catalog now supports OAuth 2.0 bearer token authentication for Apache Iceberg REST Catalog (IRC) APIs using AWS Sign-In. The Apache Iceberg REST Catalog specification defines OAuth 2.0 as its standard authentication mechanism, and query engines such as Apache Spark, Trino, and Apache Flink implement it natively. These engines and external integration partners can now authenticate to the Glue Data Catalog Iceberg endpoint using standard OAuth 2.0 bearer tokens, in addition to AWS Signature Version 4 (SigV4). You can now grant partners federated access to your Iceberg tables withou",
+      "descriptionHtml": "&lt;p&gt;AWS Glue Data Catalog now supports OAuth 2.0 bearer token authentication for Apache Iceberg REST Catalog (IRC) APIs using AWS Sign-In. The Apache Iceberg REST Catalog specification defines OAuth 2.0 as its standard authentication mechanism, and query engines such as Apache Spark, Trino, and Apache Flink implement it natively. These engines and external integration partners can now authenticate to the Glue Data Catalog Iceberg endpoint using standard OAuth 2.0 bearer tokens, in addition to AWS Signature Version 4 (SigV4).&lt;/p&gt; \n&lt;p&gt;You can now grant partners federated access to your Iceberg tables without distributing AWS credentials. Using OAuth 2.0 Token Exchange (RFC 8693), you exchange an OpenID Connect (OIDC) identity token for a short-lived, Glue-scoped bearer token and include it in IRC requests following the same standards-based pattern used across the Iceberg ecosystem. Access remains governed by AWS IAM and AWS Lake Formation permissions. Common use cases include enabling third-party analytics and data cloud platforms to query tables in the Glue Data Catalog through a single, consistent authentication path.&lt;/p&gt; \n&lt;p&gt;This capability is available in all AWS Regions where AWS Glue and Lake Formation are available. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/connect-glu-iceberg-rest.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Glue User Guide&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/signin/latest/userguide/configure-oauth-glue-iceberg-rest.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Sign-In User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-catalog-oauth-iceberg-rest/",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "updatedAt": "2026-10-26T04:00:00.000Z",
+      "categories": [
+        "AWS Glue",
+        "Analytics"
+      ],
+      "services": [
+        "Glue"
+      ],
+      "tags": [
+        "aws glue",
+        "analytics",
+        "glue"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "authentication",
+        "access",
+        "token"
       ],
       "source": "whats-new"
     },
@@ -9695,7 +9850,7 @@
       "tags": [
         "migration"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -11574,6 +11729,64 @@
       "source": "whats-new"
     },
     {
+      "id": "0b5e0e34b5f4a94c",
+      "title": "Amazon ECR now supports replication backfill for existing container images",
+      "description": "Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destinations. Previously, replication only applied to images pushed after the replication configuration was enabled, requiring customers to manually retag images to trigger replication of preexisting images. With replication backfill, you can now replicate your full image catalog to new or existing destinations with a single API call. Replication backfill is useful when expanding to a new AWS Region, validat",
+      "descriptionHtml": "&lt;p&gt;Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destinations. Previously, replication only applied to images pushed after the replication configuration was enabled, requiring customers to manually retag images to trigger replication of preexisting images. With replication backfill, you can now replicate your full image catalog to new or existing destinations with a single API call.&lt;/p&gt; \n&lt;p&gt;Replication backfill is useful when expanding to a new AWS Region, validating disaster recovery readiness, updating replication rules, or ensuring complete image catalogs exist across Regions for compliance purposes. You can run up to ten backfill jobs concurrently, monitor progress and per-image results through new APIs, and stop a job at any time without deleting images that have already been replicated.&lt;/p&gt; \n&lt;p&gt;Replication backfill is available in all AWS Regions where Amazon ECR is available. To learn more, refer to the &lt;a href=\"https://docs.aws.amazon.com/AmazonECR/latest/userguide/\"&gt;Amazon ECR user guide&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
+      "publishedAt": "2026-10-26T20:24:00.000Z",
+      "updatedAt": "2026-10-26T20:24:00.000Z",
+      "categories": [
+        "Containers",
+        "Amazon Ecr"
+      ],
+      "services": [
+        "ECR"
+      ],
+      "tags": [
+        "containers",
+        "amazon ecr",
+        "ecr"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "06e217f59690a1a5",
+      "title": "AWS EC2 Auto Scaling now supports Launch Before Terminate at account-level to replace instances",
+      "description": "AWS EC2 Auto Scaling now lets you enable Launch Before Terminate as the default replacement behavior across all Auto Scaling groups in your account. When enabled, Auto Scaling launches a replacement instance and waits for it to pass health checks before terminating the instance it replaces, helping your applications maintain full capacity and availability during instance replacement events. This applies to replacement events such as instance refreshes, rebalancing, health checks, and maximum-instance-lifetime replacements. You can enable Launch Before Terminate through AWS EC2 Auto Scaling acc",
+      "descriptionHtml": "&lt;p&gt;AWS EC2 Auto Scaling now lets you enable Launch Before Terminate as the default replacement behavior across all Auto Scaling groups in your account. When enabled, Auto Scaling launches a replacement instance and waits for it to pass health checks before terminating the instance it replaces, helping your applications maintain full capacity and availability during instance replacement events. This applies to replacement events such as instance refreshes, rebalancing, health checks, and maximum-instance-lifetime replacements.&lt;/p&gt; \n&lt;p&gt;You can enable Launch Before Terminate through AWS EC2 Auto Scaling account settings, which let you configure the behavior once at the account level instead of on each Auto Scaling group individually. You can manage the setting with the new `PutAccountSetting` and `DescribeAccountSettings` APIs, available through the AWS Management Console, AWS CLI, or AWS SDKs.&lt;/p&gt; \n&lt;p&gt;Launch Before Terminate is available in all AWS Regions at no additional cost.&lt;/p&gt; \n&lt;p&gt;To learn more, see Launch Before Terminate in the &lt;a href=\"https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-account-settings.html\"&gt;AWS EC2 Auto Scaling User Guide&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/autoscaling/ec2/APIReference/API_Operations.html\"&gt;AWS EC2 Auto Scaling API Reference Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-auto-scaling-launch-before-terminate/",
+      "publishedAt": "2026-10-26T08:00:00.000Z",
+      "updatedAt": "2026-10-26T08:00:00.000Z",
+      "categories": [
+        "Compute",
+        "Amazon Ec2",
+        "Amazon Ec2 Auto Scaling"
+      ],
+      "services": [
+        "EC2"
+      ],
+      "tags": [
+        "compute",
+        "amazon ec2",
+        "amazon ec2 auto scaling",
+        "ec2"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "replacement"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "5767ee5c982d745e",
       "title": "Web Search on Amazon Bedrock now supports domain filtering and user location controls",
       "description": "Web Search on Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses API request. With domain filtering, you can restrict Web Search results to a set of domains you choose. Using the filters parameter, you specify up to 100 allowed_domains to limit results to trusted sources, or up to 100 blocked_domains to exclude sources you don't want. This is useful when you want responses grounded only in specific site",
@@ -11837,7 +12050,7 @@
         "artificial intelligence",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -11869,7 +12082,7 @@
         "aws govcloud us",
         "ec2"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -13992,183 +14205,6 @@
       "securityLevel": "low",
       "securityMatches": [
         "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "2fef4fbde8d42cec",
-      "title": "Amazon SES now supports open and click tracking override parameters",
-      "description": "Amazon Simple Email Service (SES) now supports open and click tracking override parameters in the SendEmail and SendBulkEmail APIs. Senders can enable or disable open tracking and click tracking on an individual API call, rather than managing tracking preferences through separate configuration sets. Previously, controlling tracking behavior required maintaining a distinct configuration set for each combination of open- and click-tracking settings. With this new capability, you specify the tracking preference directly in the send request, reducing configuration overhead and simplifying how you ",
-      "descriptionHtml": "&lt;p&gt;Amazon Simple Email Service (SES) now supports open and click tracking override parameters in the SendEmail and SendBulkEmail APIs. Senders can enable or disable open tracking and click tracking on an individual API call, rather than managing tracking preferences through separate configuration sets.&lt;br&gt; &lt;br&gt; Previously, controlling tracking behavior required maintaining a distinct configuration set for each combination of open- and click-tracking settings. With this new capability, you specify the tracking preference directly in the send request, reducing configuration overhead and simplifying how you honor recipient-level tracking consent. This is useful for senders that must respect per-recipient consent choices to meet data protection requirements such as GDPR and CNIL guidance.&lt;br&gt; &lt;br&gt; The tracking overrides apply per request and take precedence over the tracking behavior defined in the associated configuration set, giving you fine-grained control without changing your existing configuration set structure. There is no additional cost to use this feature.&lt;br&gt; &lt;br&gt; This capability is available in all AWS Regions where Amazon SES is available.&lt;/p&gt; \n&lt;p&gt;To learn more, see the documentation on open and click tracking in the &lt;a href=\"https://docs.aws.amazon.com/ses/latest/APIReference-V2/API_SendEmail.html\"&gt;&lt;i&gt;Amazon SES Developer Guide&lt;/i&gt;.&amp;nbsp;&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-adds-open-click-tracking-override/",
-      "publishedAt": "2026-08-21T07:00:00.000Z",
-      "updatedAt": "2026-08-21T07:00:00.000Z",
-      "categories": [
-        "Applications",
-        "Amazon Simple Email Service"
-      ],
-      "services": [
-        "SES"
-      ],
-      "tags": [
-        "applications",
-        "amazon simple email service",
-        "ses"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "fe3ef12f76246c78",
-      "title": "Amazon Aurora DSQL now supports Amazon CloudWatch Database Insights",
-      "description": "Amazon Aurora DSQL now features a new Amazon CloudWatch Database Insights metric that delivers per-statement, cluster-level performance monitoring details. Aurora DSQL database insights captures sampled wait states and normalized SQL statements for all active cluster sessions. You can use it to diagnose performance issues with your clusters, and identify the queries consuming the most resources. Aurora DSQL database insights metrics can be used to analyze your cluster performance using Amazon CloudWatch Database Insights, Amazon CloudWatch PromQL, and Aurora DSQL system diagnostics AI skill. T",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/aurora/dsql/\"&gt;Amazon Aurora DSQL&lt;/a&gt; now features a new Amazon CloudWatch Database Insights metric that delivers per-statement, cluster-level performance monitoring details. Aurora DSQL database insights captures sampled wait states and normalized SQL statements for all active cluster sessions. You can use it to diagnose performance issues with your clusters, and identify the queries consuming the most resources.&lt;/p&gt; \n&lt;p&gt;Aurora DSQL database insights metrics can be used to analyze your cluster performance using Amazon CloudWatch Database Insights, Amazon CloudWatch PromQL, and Aurora DSQL system diagnostics AI skill. The metric, captured at 1-minute interval, is available by default at no additional cost.&lt;/p&gt; \n&lt;p&gt;This feature is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where Aurora DSQL is available. To learn more about Aurora DSQL database insights, read &lt;a href=\"https://aws.amazon.com/blogs/database/amazon-aurora-dsql-observability-concepts-and-usage-with-amazon-cloudwatch/\"&gt;the blog&lt;/a&gt; and see &lt;a href=\"https://docs.aws.amazon.com/aurora-dsql/latest/userguide/dsql-db-insights.html\"&gt;getting started&lt;/a&gt;. To learn more about CloudWatch Database Insights, see &lt;a href=\"https://aws.amazon.com/cloudwatch/pricing/\"&gt;pricing&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Database-Insights.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights/",
-      "publishedAt": "2026-08-20T16:00:00.000Z",
-      "updatedAt": "2026-08-20T16:00:00.000Z",
-      "categories": [],
-      "services": [
-        "Aurora",
-        "CloudWatch"
-      ],
-      "tags": [
-        "aurora",
-        "cloudwatch"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "monitoring"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "326577b0b17b4cf7",
-      "title": "AWS Marketplace now supports category-based notifications and multi-channel delivery for partners",
-      "description": "AWS partners can now configure category-based notifications and multi-channel delivery for AWS Marketplace notifications through AWS User Notifications. Previously, partners received their AWS Marketplace notifications through their AWS account’s root email address or custom email aliases, with no way to select notification categories or route each category to the teams responsible for managing it. With this launch, partners can choose which contacts receive each notification category and how those notifications are delivered. Four notification categories are available. Product listings notifi",
-      "descriptionHtml": "&lt;p&gt;AWS partners can now configure category-based notifications and multi-channel delivery for AWS Marketplace notifications through AWS User Notifications. Previously, partners received their AWS Marketplace notifications through their AWS account’s root email address or custom email aliases, with no way to select notification categories or route each category to the teams responsible for managing it. With this launch, partners can choose which contacts receive each notification category and how those notifications are delivered.&lt;/p&gt; \n&lt;p&gt;Four notification categories are available. Product listings notifications cover open product tasks, recurring scan findings for AMI and container products, and Vendor Insights security profile snapshots for SaaS products. Offers and agreements notifications cover private offers, reseller activity, professional services requests, agreement starts and cancellations, cancellation requests, and agreement creation failures. Payments and disbursements notifications cover payment requests, billing adjustments, invoice submission outcomes, payment failures, and disbursement issues. Account management notifications cover business and bank account verification actions, approvals, expirations, and rejections.&lt;/p&gt; \n&lt;p&gt;By default, notifications are delivered by email to the AWS account’s root email address. Partners can add recipients through additional email addresses and distribution lists. Partners can also receive notifications through the AWS Console Mobile Application or Amazon Q Developer in chat applications such as Slack and Microsoft Teams. After enabling managed notifications, partners can select the contacts and delivery channels that receive each category.&lt;/p&gt; \n&lt;p&gt;AWS Marketplace category-based notifications are available in all AWS Commercial Regions where AWS Marketplace is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/userguide/email-notifications.html\"&gt;Managing email notifications for AWS Marketplace events&lt;/a&gt; in the AWS Marketplace documentation. To enable managed notifications, visit the &lt;a href=\"https://console.aws.amazon.com/notifications/home#/managed-notifications\"&gt;AWS User Notifications console&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace/",
-      "publishedAt": "2026-08-20T00:06:00.000Z",
-      "updatedAt": "2026-08-20T00:06:00.000Z",
-      "categories": [
-        "General:Products",
-        "AWS Marketplace",
-        "Management And Governance"
-      ],
-      "services": [],
-      "tags": [
-        "general:products",
-        "aws marketplace",
-        "management and governance"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "0db41eed0e504d64",
-      "title": "Web Search in Amazon Bedrock AgentCore adds domain and published date filtering, expands to Europe and Asia Pacific",
-      "description": "Web Search in Amazon Bedrock AgentCore now supports domain filtering and published-date filtering, giving agents per-request control over which web sources and time windows they search. Amazon Bedrock AgentCore provides the infrastructure to build, connect, and optimize AI agents, and Web Search enables those agents to ground responses in current web data. With runtime domain filtering, agents can narrow search results to trusted sources or block unwanted domains on a per-call basis without requiring admin reconfiguration. Published-date filtering allows agents to constrain results to a specif",
-      "descriptionHtml": "&lt;p&gt;Web Search in Amazon Bedrock AgentCore now supports domain filtering and published-date filtering, giving agents per-request control over which web sources and time windows they search. Amazon Bedrock AgentCore provides the infrastructure to build, connect, and optimize AI agents, and Web Search enables those agents to ground responses in current web data.&lt;br&gt; &lt;br&gt; With runtime domain filtering, agents can narrow search results to trusted sources or block unwanted domains on a per-call basis without requiring admin reconfiguration. Published-date filtering allows agents to constrain results to a specific time window using inclusive from and to date bounds, ensuring responses reflect only timely, relevant content.&lt;br&gt; &lt;br&gt; With this launch, agents can pass include and exclude domain lists and a published-date range directly in each tool call, while admins gain new gateway-level allowlist support and an increased domain cap of up to 100 domains per list. These capabilities are ideal for regulated industries, research workflows, and applications that require strict control over information sources and recency.&lt;br&gt; &lt;br&gt; The Web Search Tool is also expanding to Europe (Ireland) (eu-west-1) and Asia Pacific (Tokyo) (ap-northeast-1), joining the existing US East (N. Virginia) (us-east-1) availability. To learn more, read the &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/\"&gt;technical blog&lt;/a&gt; about domain and published date filters , and review the Amazon Bedrock AgentCore &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway-target-connector-web-search-tool.html\"&gt;product documentation&lt;/a&gt;.&lt;br&gt; &lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/web-search-amazon-bedrock/",
-      "publishedAt": "2026-08-19T22:55:00.000Z",
-      "updatedAt": "2026-08-19T22:55:00.000Z",
-      "categories": [
-        "Amazon Bedrock"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "amazon bedrock",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "691131ca5e76c62e",
-      "title": "AWS Elemental MediaConnect Router now supports configurable recovery latency modes",
-      "description": "AWS Elemental MediaConnect Router now enables customers to configure latency settings, providing control over the internal connection latency between inputs and outputs within the router. Previously, the protocol latency inside the router was set automatically by the service and could not be adjusted. MediaConnect Router now offers two latency configuration options on router outputs: balanced mode and low-latency mode. The balanced mode maintains the existing behavior for general use cases, while the low-latency mode optimizes the internal connection recovery time for latency-sensitive workflo",
-      "descriptionHtml": "&lt;p&gt;AWS Elemental MediaConnect Router now enables customers to configure latency settings, providing control over the internal connection latency between inputs and outputs within the router. Previously, the protocol latency inside the router was set automatically by the service and could not be adjusted.&lt;/p&gt; \n&lt;p&gt;MediaConnect Router now offers two latency configuration options on router outputs: balanced mode and low-latency mode. The balanced mode maintains the existing behavior for general use cases, while the low-latency mode optimizes the internal connection recovery time for latency-sensitive workflows. The appropriate mode is configured per router output, allowing the same input to feed multiple outputs with different latency requirements. A new CloudWatch metric, RouteFabricRecoveryLatency, provides visibility into the configured recovery latency for each route.&lt;/p&gt; \n&lt;p&gt;Customers can configure and view the latency setting using the MediaConnect API or AWS Management Console and AWS CLI.&lt;/p&gt; \n&lt;p&gt;Configurable recovery latency is available in all regions where MediaConnect Router is currently deployed. To learn more about latency modes, visit the &lt;a href=\"https://docs.aws.amazon.com/mediaconnect/latest/ug/creating-router-io.html\"&gt;AWS Elemental MediaConnect documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mediaconnect-router-latency-modes/",
-      "publishedAt": "2026-08-19T18:00:00.000Z",
-      "updatedAt": "2026-08-19T18:00:00.000Z",
-      "categories": [],
-      "services": [
-        "Elemental"
-      ],
-      "tags": [
-        "elemental"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "daf0c96d93817e6a",
-      "title": "Amazon Quick adds deny by default for custom permissions",
-      "description": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users. Previously, new AI capabilities were available to all users on release, requiring administrators to react after the fact. With deny by default, administrators restrict the AI capability category in a custom permissions profile and assign it to users, roles, or the entire account. Quick then denies any new AI capability at launch for those users. Restricting a category also restricts existing capabilities in it. Administrators explicitly all",
-      "descriptionHtml": "&lt;p&gt;Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users.&lt;br&gt; &lt;br&gt; Previously, new AI capabilities were available to all users on release, requiring administrators to react after the fact. With deny by default, administrators restrict the AI capability category in a custom permissions profile and assign it to users, roles, or the entire account. Quick then denies any new AI capability at launch for those users. Restricting a category also restricts existing capabilities in it. Administrators explicitly allow each capability when ready. The restriction applies only to the profile you configure.&lt;br&gt; &lt;br&gt; Configure deny by default in Manage account in Amazon Quick or through the AWS CLI. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/custom-permissions-governance.html\" target=\"_blank\"&gt;Custom permissions deny by default&lt;/a&gt;. Deny by default is available in all AWS Regions where &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html\" target=\"_blank\"&gt;Amazon Quick is available&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-deny-by-default/",
-      "publishedAt": "2026-08-19T15:36:00.000Z",
-      "updatedAt": "2026-08-19T15:36:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Business Productivity"
-      ],
-      "services": [],
-      "tags": [
-        "artificial intelligence",
-        "business productivity"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "permission"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "ea1f7e9733e75f6e",
-      "title": "Amazon Bedrock now supports SpaceXAI Grok 4.6 with Cross Region Inferencing",
-      "description": "Amazon Bedrock now supports SpaceXAI Grok 4.6, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. Customers can now access Grok 4.6 at scale with cross-Region inference routing requests across multiple AWS Regions for higher throughput and lower inference costs. Cross-Region inference automatically routes inference requests across multiple AWS Regions to give you higher throughput, without you needing to manage capacity across multiple Regions. The US Geo inference profile—us.xai.grok-4.6—routes requests only within the US geogr",
-      "descriptionHtml": "&lt;p&gt;Amazon Bedrock now supports SpaceXAI Grok 4.6, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. Customers can now access Grok 4.6 at scale with cross-Region inference routing requests across multiple AWS Regions for higher throughput and lower inference costs.&lt;br&gt; &lt;br&gt; Cross-Region inference automatically routes inference requests across multiple AWS Regions to give you higher throughput, without you needing to manage capacity across multiple Regions. The US Geo inference profile—us.xai.grok-4.6—routes requests only within the US geography, so you can scale while keeping data processed within the United States to meet data residency requirements. The Global inference profile—global.xai.grok-4.6—serves requests from any commercial AWS Region where the model is available, giving you the broadest access to Bedrock capacity and the highest throughput during demand spikes, at a lower per-token cost. The model runs on the bedrock-runtime endpoint with support for the Responses, Chat Completions, and Converse APIs, and works with the same account-level controls you already use for other models on Bedrock, including model invocation logging (deliverable to Amazon S3 or Amazon CloudWatch Logs), Amazon CloudWatch metrics, and cost itemization in AWS Cost Explorer and the AWS Cost and Usage Report.&lt;br&gt; &lt;br&gt; Cross-Region inference for Grok 4.6 is available in all AWS Regions where Amazon Bedrock is offered. To get started, review the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-6.html\"&gt;model card for Grok 4.6&lt;/a&gt;&amp;nbsp; in the Amazon Bedrock User Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/",
-      "publishedAt": "2026-08-19T05:18:00.000Z",
-      "updatedAt": "2026-08-19T05:18:00.000Z",
-      "categories": [],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
       ],
       "source": "whats-new"
     }
