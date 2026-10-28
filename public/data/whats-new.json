@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T14:04:57.679Z",
+  "lastUpdated": "2026-10-28T14:54:25.548Z",
   "itemCount": 500,
   "items": [
     {
@@ -120,7 +120,7 @@
         "iam",
         "iam identity center"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -1866,6 +1866,43 @@
       "source": "whats-new"
     },
     {
+      "id": "27fb00d39be7f27d",
+      "title": "Introducing Route 53 Resolved IP Validation for AWS Network Firewall",
+      "description": "Your workloads reach most destinations by domain name, but a firewall can only act on what it sees in the traffic. For HTTP and HTTPS, AWS Network Firewall domain rules match the name that the client puts in the request, and the client chooses that name. The connections for protocols such as SSH and SSH […]",
+      "descriptionHtml": "Your workloads reach most destinations by domain name, but a firewall can only act on what it sees in the traffic. For HTTP and HTTPS, AWS Network Firewall domain rules match the name that the client puts in the request, and the client chooses that name. The connections for protocols such as SSH and SSH […]",
+      "url": "https://aws.amazon.com/blogs/security/introducing-route-53-resolved-ip-validation-for-aws-network-firewall/",
+      "publishedAt": "2026-10-27T23:46:13.000Z",
+      "updatedAt": "2026-10-27T23:46:13.000Z",
+      "categories": [
+        "AWS Network Firewall",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To"
+      ],
+      "services": [
+        "Route 53",
+        "AWS Network Firewall"
+      ],
+      "tags": [
+        "aws network firewall",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "route 53"
+      ],
+      "isNew": true,
+      "securityScore": 85,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Network Firewall",
+        "firewall",
+        "AWS Network Firewall"
+      ],
+      "source": "security-blog"
+    },
+    {
       "id": "b46d7d82592acf11",
       "title": "CVE-2026-83551 - Cleartext storage of HMAC signing key in Amazon SageMaker Python SDK",
       "description": "Bulletin ID: 2026-093-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/01/2026 11:00 AM PDT Description: SageMaker Python SDK's @step and @remote decorator pipeline component uses an HMAC key to protect the integrity of serialized function payloads stored in S3. We identified an issue where the HMAC secret key is stored in cleartext within pipeline definitions and accessible via the DescribePipeline API. This allows an actor with a role in that account that has permissions to invoke DescribePipeline to extract the key, create cloud-pickled payloads with valid HM",
@@ -1918,7 +1955,7 @@
         "aws network firewall",
         "route 53"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 85,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2929,7 +2966,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 70,
       "securityLevel": "high",
       "securityMatches": [
@@ -3409,7 +3446,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 65,
       "securityLevel": "high",
       "securityMatches": [
@@ -3698,6 +3735,70 @@
         "Secret"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "ea985950f5d95641",
+      "title": "AWS becomes first CSP to complete the Cloud High profile assessment with 172 services and features in scope",
+      "description": "We continue to expand the scope of our assurance programs at Amazon Web Services (AWS) and are pleased to announce the successful completion of our first ever Cloud High (PBHH) security assessment with 172 assessed services and features. Completion of this assessment, effective September 18, 2026, makes AWS the first cloud service provider (CSP) in […]",
+      "descriptionHtml": "We continue to expand the scope of our assurance programs at Amazon Web Services (AWS) and are pleased to announce the successful completion of our first ever Cloud High (PBHH) security assessment with 172 assessed services and features. Completion of this assessment, effective September 18, 2026, makes AWS the first cloud service provider (CSP) in […]",
+      "url": "https://aws.amazon.com/blogs/security/aws-becomes-first-csp-to-complete-the-cloud-high-profile-assessment-with-172-services-and-features-in-scope/",
+      "publishedAt": "2026-10-27T17:50:05.000Z",
+      "updatedAt": "2026-10-27T17:50:05.000Z",
+      "categories": [
+        "Announcements",
+        "Compliance",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "AWS Canada (Central) Region",
+        "Canada"
+      ],
+      "services": [],
+      "tags": [
+        "announcements",
+        "compliance",
+        "security",
+        "identity",
+        "& compliance",
+        "aws canada (central) region",
+        "canada"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "high",
+      "securityMatches": [
+        "security"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "f007b37a95b7e68a",
+      "title": "Part 3 – Cybersecurity journeys: The work behind the work",
+      "description": "The most important work I’ve done in cybersecurity would make for terrible television. There were no countdown clocks and no frantic typing, just a lot of careful reading, a lot of hard conversations, and the occasional quiet moment where everything finally clicked. That’s the part I want to show you this week, because the three […]",
+      "descriptionHtml": "The most important work I’ve done in cybersecurity would make for terrible television. There were no countdown clocks and no frantic typing, just a lot of careful reading, a lot of hard conversations, and the occasional quiet moment where everything finally clicked. That’s the part I want to show you this week, because the three […]",
+      "url": "https://aws.amazon.com/blogs/security/part-3-cybersecurity-journeys-the-work-behind-the-work/",
+      "publishedAt": "2026-10-27T17:00:07.000Z",
+      "updatedAt": "2026-10-27T17:00:07.000Z",
+      "categories": [
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Thought Leadership"
+      ],
+      "services": [],
+      "tags": [
+        "security",
+        "identity",
+        "& compliance",
+        "thought leadership"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "high",
+      "securityMatches": [
+        "security"
+      ],
+      "source": "security-blog"
     },
     {
       "id": "97da6e6577dbae88",
@@ -4289,7 +4390,7 @@
         "s3",
         "cloudwatch"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 55,
       "securityLevel": "critical",
       "securityMatches": [
@@ -7971,7 +8072,7 @@
         "networking",
         "vpc"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [
@@ -8001,7 +8102,7 @@
         "amazon workspaces",
         "workspaces"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [
@@ -9809,6 +9910,34 @@
       "source": "whats-new"
     },
     {
+      "id": "eccfb5bc764d6d06",
+      "title": "Amazon Corretto October 2026 Patch Updates",
+      "description": "On October 26, 2026 Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 27.0.1.0.11, 25.0.5.0.10, 21.0.13.0.11, 17.0.21.0.11, 11.0.33.0.10, and 8u512 are now available for download . Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. Visit the Corretto home page to download Corretto 27, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get the updates on your Linux system by configuring a Corretto Apt, Yum, or Apk repo . Feedback is wel",
+      "descriptionHtml": "&lt;p&gt;On October 26, 2026 Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 27.0.1.0.11, 25.0.5.0.10, 21.0.13.0.11, 17.0.21.0.11, 11.0.33.0.10, and 8u512 are now available for &lt;a href=\"https://aws.amazon.com/corretto/\"&gt;download&lt;/a&gt;. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK.&lt;/p&gt; \n&lt;p&gt;Visit the Corretto &lt;a href=\"https://aws.amazon.com/corretto\"&gt;home page&lt;/a&gt; to download Corretto 27, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get the updates on your Linux system by configuring a &lt;a href=\"https://docs.aws.amazon.com/corretto/latest/corretto-25-ug/generic-linux-install.html\"&gt;Corretto Apt, Yum, or Apk repo&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Feedback is &lt;a href=\"https://github.com/corretto\"&gt;welcomed&lt;/a&gt;!&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-oct-2026-patch-updates",
+      "publishedAt": "2026-10-27T14:00:00.000Z",
+      "updatedAt": "2026-10-27T14:00:00.000Z",
+      "categories": [
+        "Developer Tools",
+        "AWS Govcloud Us",
+        "Amazon Corretto"
+      ],
+      "services": [],
+      "tags": [
+        "developer tools",
+        "aws govcloud us",
+        "amazon corretto"
+      ],
+      "isNew": true,
+      "securityScore": 20,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "patch"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "2245a2e3e50ea948",
       "title": "Amazon DynamoDB global tables now support disassociating replicas",
       "description": "Amazon DynamoDB global tables now support disassociating a replica without deleting its table or data. Global tables provide fully managed, multi-Region, multi-active replication. You can now stop replication to and from a replica and continue using the same table as a single-Region table. An account can leave a shared multi-account global table and continue using its table independently. You can also stop replication to a Region while keeping its table for local workloads, validation, or audit, without creating a replacement table or copying data. DynamoDB supports disassociating replicas in ",
@@ -9826,7 +9955,7 @@
         "amazon dynamodb",
         "dynamodb"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -11729,10 +11858,38 @@
       "source": "whats-new"
     },
     {
+      "id": "ec4053628a648a22",
+      "title": "Amazon ElastiCache for Valkey now supports changing durability on existing clusters",
+      "description": "Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters without creating a new cluster. Previously, you couldn't change the durability configuration of an existing cluster in place. This made it harder to move from caching to persistent data store use cases, or to adapt as your application requirements change. Now you can change durability at any point in your application's lifecycle. You can choose between two durability options: synchronous and asynchronous writes. Synchronous writes persist data across at least two AZs before responding t",
+      "descriptionHtml": "&lt;p&gt;Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters without creating a new cluster. Previously, you couldn't change the durability configuration of an existing cluster in place. This made it harder to move from caching to persistent data store use cases, or to adapt as your application requirements change. Now you can change durability at any point in your application's lifecycle.&lt;/p&gt; \n&lt;p&gt;You can choose between two durability options: synchronous and asynchronous writes. Synchronous writes persist data across at least two AZs before responding to the client, designed for zero data loss at single-digit millisecond write latency. Asynchronous writes persist data after responding to the client, maintaining microsecond write latency at no additional cost. However, up to 10 seconds of uncommitted data could be lost in the rare event of a failure. Both options maintain microsecond read latency. You can now use ElastiCache for a broader set of use cases beyond caching where data loss is unacceptable such as AI agent long-term memory, AI agent workflow state, knowledge bases for RAG applications, payment tokenization, and real-time inventory management.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where ElastiCache for Valkey 9.0 and later is available. To get started, use the AWS Management Console, AWS SDK, or AWS CLI. For pricing, see the &amp;nbsp;&lt;a href=\"https://aws.amazon.com/elasticache/pricing/\"&gt;Amazon ElastiCache pricing page&amp;nbsp;&lt;/a&gt;. To learn more, see &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/\"&gt;Durability&amp;nbsp;&lt;/a&gt; in the ElastiCache documentation.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/",
+      "publishedAt": "2026-10-27T15:21:00.000Z",
+      "updatedAt": "2026-10-27T15:21:00.000Z",
+      "categories": [
+        "Amazon Elasticache",
+        "Databases"
+      ],
+      "services": [
+        "ElastiCache"
+      ],
+      "tags": [
+        "amazon elasticache",
+        "databases",
+        "elasticache"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "0b5e0e34b5f4a94c",
       "title": "Amazon ECR now supports replication backfill for existing container images",
       "description": "Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destinations. Previously, replication only applied to images pushed after the replication configuration was enabled, requiring customers to manually retag images to trigger replication of preexisting images. With replication backfill, you can now replicate your full image catalog to new or existing destinations with a single API call. Replication backfill is useful when expanding to a new AWS Region, validat",
-      "descriptionHtml": "&lt;p&gt;Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destinations. Previously, replication only applied to images pushed after the replication configuration was enabled, requiring customers to manually retag images to trigger replication of preexisting images. With replication backfill, you can now replicate your full image catalog to new or existing destinations with a single API call.&lt;/p&gt; \n&lt;p&gt;Replication backfill is useful when expanding to a new AWS Region, validating disaster recovery readiness, updating replication rules, or ensuring complete image catalogs exist across Regions for compliance purposes. You can run up to ten backfill jobs concurrently, monitor progress and per-image results through new APIs, and stop a job at any time without deleting images that have already been replicated.&lt;/p&gt; \n&lt;p&gt;Replication backfill is available in all AWS Regions where Amazon ECR is available. To learn more, refer to the &lt;a href=\"https://docs.aws.amazon.com/AmazonECR/latest/userguide/\"&gt;Amazon ECR user guide&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "descriptionHtml": "&lt;p&gt;Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destinations. Previously, replication only applied to images pushed after the replication configuration was enabled, requiring customers to manually retag images to trigger replication of preexisting images. With replication backfill, you can now replicate your full image catalog to new or existing destinations with a single API call.&lt;/p&gt; \n&lt;p&gt;Replication backfill is useful when expanding to a new AWS Region, validating disaster recovery readiness, updating replication rules, or ensuring complete image catalogs exist across Regions for compliance purposes. You can run up to ten backfill jobs concurrently, monitor progress and per-image results through new APIs, and stop a job at any time without deleting images that have already been replicated.&lt;/p&gt; \n&lt;p&gt;Replication backfill is available in all AWS Regions where Amazon ECR is available. To learn more, refer to the &lt;a href=\"https://docs.aws.amazon.com/AmazonECR/latest/userguide/replication-backfill.html\"&gt;Amazon ECR user guide&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
       "publishedAt": "2026-10-26T20:24:00.000Z",
       "updatedAt": "2026-10-26T20:24:00.000Z",
@@ -11939,7 +12096,7 @@
         "amazon connect",
         "connect"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -11967,7 +12124,7 @@
         "amazon sagemaker",
         "sagemaker"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -11999,7 +12156,7 @@
         "ecs",
         "fargate"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -12022,7 +12179,7 @@
       "tags": [
         "polly"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -14058,153 +14215,6 @@
       "securityLevel": "low",
       "securityMatches": [
         "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "d06c75f42f2252cf",
-      "title": "AWS Backup adds cross-Region and cross-account backup support for Amazon FSx for NetApp ONTAP",
-      "description": "AWS Backup now supports copying Amazon FSx for NetApp ONTAP backups across AWS Regions and accounts. You can copy your FSx for NetApp ONTAP backups to another AWS Region, another AWS account, or both, using policy-based backup plans or on-demand copy jobs. Copying backups to a separate Region helps you meet cross-Region disaster recovery and business continuity goals, while copying to a separate account helps protect your backups from accidental deletion, operational error, or account compromise. AWS Backup manages these copies centrally, and you can automate them across your organization usin",
-      "descriptionHtml": "&lt;p&gt;AWS Backup now supports copying Amazon FSx for NetApp ONTAP backups across AWS Regions and accounts. You can copy your FSx for NetApp ONTAP backups to another AWS Region, another AWS account, or both, using policy-based backup plans or on-demand copy jobs.&lt;/p&gt; \n&lt;p&gt;Copying backups to a separate Region helps you meet cross-Region disaster recovery and business continuity goals, while copying to a separate account helps protect your backups from accidental deletion, operational error, or account compromise. AWS Backup manages these copies centrally, and you can automate them across your organization using AWS Organizations.&lt;/p&gt; \n&lt;p&gt;This capability is available in all commercial AWS Regions where both Amazon FSx for NetApp ONTAP and AWS Backup are available. To get started, visit the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. For a complete list of supported Regions and features, visit the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#supported-services-by-region\" target=\"_blank\"&gt;AWS Backup documentation&lt;/a&gt;. To learn more, visit the &lt;a href=\"https://aws.amazon.com/backup/\" target=\"_blank\"&gt;product page&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/backup/pricing/\" target=\"_blank\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-amazon-fsx-netapp-cross-account-region/",
-      "publishedAt": "2026-08-27T17:25:00.000Z",
-      "updatedAt": "2026-08-27T17:25:00.000Z",
-      "categories": [
-        "AWS Backup",
-        "Storage",
-        "Amazon Fsx Netapp Ontap"
-      ],
-      "services": [
-        "FSx",
-        "Backup"
-      ],
-      "tags": [
-        "aws backup",
-        "storage",
-        "amazon fsx netapp ontap",
-        "fsx",
-        "backup"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "policy"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "1120c43a1a914d0c",
-      "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
-      "description": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate. Agents can also add a profile later when the customer is not identified at case creation, such as for calls from a shared phone number or issues that require identity verification. Amazon Connect Cases is available in the following AWS regions: US East (N. Virginia), US West (Oregon), Canada (Central), Europe (Frankfurt), Europe (London), Asia Pacific (Seoul), Asia Pacific (Si",
-      "descriptionHtml": "&lt;p&gt;&lt;span style=\"font-weight: normal;\"&gt;Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate. Agents can also add a profile later when the customer is not identified at case creation, such as for calls from a shared phone number or issues that require identity verification.&lt;/span&gt;&lt;/p&gt; \n&lt;p&gt;&lt;span style=\"font-weight: normal;\"&gt;Amazon Connect Cases is available in the following AWS regions: US East (N. Virginia), US West (Oregon), Canada (Central), Europe (Frankfurt), Europe (London), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), and Africa (Cape Town). To learn more and get started, visit the Amazon Connect Cases &lt;a href=\"https://aws.amazon.com/products/connect/customer/cases/\"&gt;webpage&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/cases.html\"&gt;documentation&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
-      "publishedAt": "2026-08-25T16:00:00.000Z",
-      "updatedAt": "2026-08-25T16:00:00.000Z",
-      "categories": [
-        "Messaging",
-        "Business Productivity",
-        "Contact Center",
-        "Amazon Connect"
-      ],
-      "services": [
-        "Connect"
-      ],
-      "tags": [
-        "messaging",
-        "business productivity",
-        "contact center",
-        "amazon connect",
-        "connect"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "identity"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "d3b37de1dd864c94",
-      "title": "Amazon Aurora now supports PostgreSQL 18.4, 17.10, 16.14, 15.18, and 14.23",
-      "description": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.4, 17.10, 16.14, 15.18, and 14.23 which include bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to address known Common Vulnerabilities and Exposures (CVEs) and benefit from these improvements, as detailed in the release notes . You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at scale, enable automatic minor version upgrades and use the AWS Organizations Up",
-      "descriptionHtml": "&lt;p&gt;Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.4, 17.10, 16.14, 15.18, and 14.23 which include bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to address known Common Vulnerabilities and Exposures (CVEs) and benefit from these improvements, as detailed in the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/AuroraPostgreSQL.Updates.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;release notes&lt;/a&gt;.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at scale, enable automatic minor version upgrades and use the AWS Organizations &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Maintenance.AMVU.UpgradeRollout.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Upgrade Rollout Policy&lt;/a&gt; to orchestrate multiple upgrades in phases, validating on lower-priority environments before upgrading your most critical ones. For more information, see &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_UpgradeDBInstance.PostgreSQL.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Upgrading Amazon Aurora PostgreSQL DB clusters&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Amazon Aurora is designed for high performance and availability at global scale with full PostgreSQL compatibility. It provides scale-to-zero serverless compute, Aurora Global Database for multi-Region resilience, Aurora I/O-Optimized for improved price performance on I/O-intensive workloads, and built-in security and continuous backups. To get started, take a look at our &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_GettingStartedAurora.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;getting started page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-postgresql-18-4-17-10-16-14-15-18-14-23/",
-      "publishedAt": "2026-08-24T16:00:00.000Z",
-      "updatedAt": "2026-08-24T16:00:00.000Z",
-      "categories": [
-        "Amazon Aurora",
-        "Databases",
-        "Amazon Rds"
-      ],
-      "services": [
-        "RDS",
-        "Aurora"
-      ],
-      "tags": [
-        "amazon aurora",
-        "databases",
-        "amazon rds",
-        "rds",
-        "aurora"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Organizations"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "10785b3ac73b2dd4",
-      "title": "AWS Deadline Cloud now tracks automatic download status in the Deadline Cloud Monitor",
-      "description": "The AWS Deadline Cloud monitor now shows the progress, status, and health of your automatic file downloads from jobs running in the cloud. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming. The Deadline Cloud Monitor (DCM) desktop app provides customers with visibility into their render environments, jobs, resources, and costs. Now, customers can also use the monitor to confirm that automatically configured job outputs successfully downloaded to their destination drive. W",
-      "descriptionHtml": "&lt;p&gt;The AWS Deadline Cloud monitor now shows the progress, status, and health of your automatic file downloads from jobs running in the cloud. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming. The Deadline Cloud Monitor (DCM) desktop app provides customers with visibility into their render environments, jobs, resources, and costs. Now, customers can also use the monitor to confirm that automatically configured job outputs successfully downloaded to their destination drive.&lt;/p&gt; \n&lt;p&gt;With this update, the monitor app introduces a new \"Download Status\" column at both the job and task level, showing download progress and confirming when all output files are available on your drive. An indicator displays how current that status is. If files are unavailable for any reason, the app surfaces clear guidance on next steps. This eliminates manual drive verification and helps teams confidently confirm output availability before downstream tasks begin, particularly valuable in large-scale render pipelines where manual file checking is impractical.&lt;/p&gt; \n&lt;p&gt;To learn more about AWS Deadline Cloud and the new automatic download status feature in the Deadline Cloud Monitor desktop app, visit https://aws.amazon.com/deadline-cloud/.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-auto-download-status-tracking/",
-      "publishedAt": "2026-08-21T18:00:00.000Z",
-      "updatedAt": "2026-08-21T18:00:00.000Z",
-      "categories": [
-        "AWS Deadline Cloud"
-      ],
-      "services": [],
-      "tags": [
-        "aws deadline cloud"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "88902d3891cc4174",
-      "title": "Amazon EKS Capability for Argo CD now supports custom configuration",
-      "description": "The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports custom configuration through a standard argocd-cm ConfigMap in your cluster. This capability gives you a fully managed GitOps continuous delivery experience, and you can now tune it to fit how your teams work. You can define custom health checks for your Custom Resources, customize the Argo CD UI banner content, adjust how the capability watches and compares the resources it manages, and more. You configure these settings the same way you do in upstream Argo CD, and AWS applies them to your managed capabilit",
-      "descriptionHtml": "&lt;p&gt;The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports custom configuration through a standard argocd-cm ConfigMap in your cluster. This capability gives you a fully managed GitOps continuous delivery experience, and you can now tune it to fit how your teams work. You can define custom health checks for your Custom Resources, customize the Argo CD UI banner content, adjust how the capability watches and compares the resources it manages, and more. You configure these settings the same way you do in upstream Argo CD, and AWS applies them to your managed capability.&lt;/p&gt; \n&lt;p&gt;With this launch, cluster administrators now have more control over how Argo CD reports application health. By default, Argo CD has no built-in health logic for Custom Resources, so an Application can report as healthy while its resources are still provisioning, and sync waves can advance before those resources are ready. With a custom health check, you define this logic yourself. For example, a health check for a database resource can hold an Application at progressing until the database is ready. The capability also includes built-in health checks for AWS Controllers for Kubernetes (ACK) and kro (Kube Resource Orchestrator) resources, so these report accurate health with no additional configuration.&lt;/p&gt; \n&lt;p&gt;You can configure the EKS Capability for Argo CD in all AWS Regions where the capability is available. To learn more, see &lt;a href=\"https://aws.amazon.com/eks/\"&gt;Amazon EKS&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/argocd-configure-settings.html\"&gt;Configure Argo CD settings&lt;/a&gt; in the Amazon EKS User Guide.&lt;/p&gt; \n&lt;h4&gt;&amp;nbsp;&lt;/h4&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration",
-      "publishedAt": "2026-08-21T17:00:00.000Z",
-      "updatedAt": "2026-08-21T17:00:00.000Z",
-      "categories": [
-        "Amazon Eks",
-        "Containers"
-      ],
-      "services": [
-        "EKS"
-      ],
-      "tags": [
-        "amazon eks",
-        "containers",
-        "eks"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
       ],
       "source": "whats-new"
     }
