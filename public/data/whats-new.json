@@ -1,7 +1,48 @@
 {
-  "lastUpdated": "2026-10-28T14:54:25.548Z",
+  "lastUpdated": "2026-10-29T14:59:39.489Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "5f9b433e5be6ff4e",
+      "title": "AWS IAM Identity Center's Identity Store now supports change notifications through Amazon EventBridge",
+      "description": "AWS IAM Identity Center's Identity Store now delivers real-time events to Amazon EventBridge when users, groups, or group memberships or the identity store itself is created, updated, or deleted. AWS IAM Identity Center Identity Store is a central repository that allows you to manage identities and access across AWS accounts and applications, serving as the identity source for AWS IAM Identity Center. This new capability helps you automatically respond to identity lifecycle events and support your security and compliance processes by detecting changes as they happen. With Identity Store change",
+      "descriptionHtml": "&lt;p&gt;AWS IAM Identity Center's Identity Store now delivers real-time events to Amazon EventBridge when users, groups, or group memberships or the identity store itself is created, updated, or deleted. AWS IAM Identity Center Identity Store is a central repository that allows you to manage identities and access across AWS accounts and applications, serving as the identity source for AWS IAM Identity Center. This new capability helps you automatically respond to identity lifecycle events and support your security and compliance processes by detecting changes as they happen.&lt;/p&gt; \n&lt;p&gt;With Identity Store change notifications, you can build automated workflows that respond to identity changes in your organization. For example, security teams can create EventBridge rules that trigger AWS Lambda functions to audit user provisioning activity, send alerts to security information and event management (SIEM) systems, or update access in downstream applications when users or groups change. Organizations that manage large workforces can also use this data to automate onboarding and offboarding when users are added to or removed from specific groups.&lt;/p&gt; \n&lt;p&gt;Change notifications are available in all AWS Regions where IAM Identity Center is available, and events are sent in each enabled Region of your instance. For the list of Regions, see &lt;a href=\"https://builder.aws.com/build/capabilities/explore?tab=service-feature&amp;amp;f=eJwdi0EKhDAUQ68yZK2L2fYAc4DZ-ouIZqQgtrRfQaR3909XeeElNwo3zsrlyzXEvcBhEByl51S0fws8OqQcE7Oen7Ap8_jjpEemTW9BEjhBzIJOoFYGb7D-wWxs1jV5NggLdw16vWZL2q36ivoAQn8tDw\"&gt;AWS capabilities by Regions&lt;/a&gt;. Change notifications are available at no additional cost beyond standard Amazon EventBridge usage charges. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/singlesignon/latest/userguide/event-notifications.html\"&gt;Event notifications&lt;/a&gt; in the AWS IAM Identity Center User Guide and &lt;a href=\"https://docs.aws.amazon.com/eventbridge/latest/ref/events-ref-identitystore.html\"&gt;Identity Store events&lt;/a&gt; in the Amazon EventBridge Events Reference.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-change-notifications/",
+      "publishedAt": "2026-10-28T08:00:00.000Z",
+      "updatedAt": "2026-10-28T08:00:00.000Z",
+      "categories": [
+        "AWS Lambda",
+        "AWS Iam Identity Center",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "Lambda",
+        "IAM",
+        "IAM Identity Center",
+        "EventBridge"
+      ],
+      "tags": [
+        "aws lambda",
+        "aws iam identity center",
+        "security identity and compliance",
+        "lambda",
+        "iam",
+        "iam identity center",
+        "eventbridge"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "IAM Identity Center",
+        "security",
+        "compliance",
+        "access",
+        "identity"
+      ],
+      "source": "whats-new"
+    },
     {
       "id": "05f1e90524d13f2f",
       "title": "AWS IAM Identity Center now supports cross-Region trusted identity propagation",
@@ -73,7 +114,7 @@
         "iam",
         "certificate manager"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -1677,7 +1718,7 @@
         "security blog",
         "waf"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 90,
       "securityLevel": "critical",
       "securityMatches": [
@@ -1706,7 +1747,7 @@
         "amazon cognito",
         "cognito"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 90,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2428,7 +2469,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 80,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2800,16 +2841,16 @@
       "id": "2ed3fea838b1aed3",
       "title": "AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation",
       "description": "AWS Key Management Service (KMS) now supports Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), a post-quantum cryptography standard under NIST FIPS 203 , which enables two parties to establish a shared secret. NIST designed ML-KEM to replace the classical key-establishment schemes, like DH/ECDH key agreement, and RSA-based key transport, in their strategic cryptographic roadmap (see NIST IR 8547 ). ML-KEM addresses the \"harvest now, decrypt later\" threat to those classical schemes, where an adversary records the key-establishment exchange today and recovers the shared secret once suf",
-      "descriptionHtml": "&lt;p&gt;AWS Key Management Service (KMS) now supports Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), a post-quantum cryptography standard under &lt;a href=\"https://csrc.nist.gov/pubs/fips/203/final\"&gt;NIST FIPS 203&lt;/a&gt;, which&amp;nbsp;enables two parties to establish a shared secret.&amp;nbsp;NIST designed ML-KEM to replace the classical key-establishment schemes, like DH/ECDH key agreement, and RSA-based key transport, in their strategic cryptographic roadmap&amp;nbsp;(see &lt;a href=\"https://csrc.nist.gov/pubs/ir/8547/ipd\"&gt;NIST IR 8547&lt;/a&gt;).&amp;nbsp;ML-KEM addresses the \"harvest now, decrypt later\" threat to those classical schemes, where an adversary records the key-establishment exchange today and recovers the shared secret once sufficiently powerful quantum computers become available.&lt;/p&gt; \n&lt;p&gt;KMS supports all three ML-KEM key specs defined in NIST FIPS 203: ML-KEM-512, ML-KEM-768, and ML-KEM-1024. The Encapsulate API uses the public key to produce a random 32-byte shared secret and its ciphertext form. The Decapsulate API recovers the shared secret from ciphertext using the corresponding private key. KMS protects the private key of an ML-KEM key pair in FIPS 140-3 Level 3 validated hardware security modules (HSMs). You can use the GetPublicKey API to export the public key and distribute it to partners, client applications, or external systems for performing the encapsulate operation locally using cryptographic libraries like AWS-LC, OpenSSL, or Bouncy Castle.&lt;/p&gt; \n&lt;p&gt;ML-KEM is available in all AWS Regions where KMS is available, except the the Middle East (UAE), Middle East (Bahrain), and China Regions. For more information, see &lt;a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/symm-asymm-choose-key-spec.html\"&gt;Key spec reference&lt;/a&gt; in the AWS KMS Developer Guide.&lt;/p&gt;",
+      "descriptionHtml": "&lt;p&gt;AWS Key Management Service (KMS) now supports Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), a post-quantum cryptography standard under &lt;a href=\"https://csrc.nist.gov/pubs/fips/203/final\"&gt;NIST FIPS 203&lt;/a&gt;, which&amp;nbsp;enables two parties to establish a shared secret.&amp;nbsp;NIST designed ML-KEM to replace the classical key-establishment schemes, like DH/ECDH key agreement, and RSA-based key transport, in their strategic cryptographic roadmap&amp;nbsp;(see &lt;a href=\"https://csrc.nist.gov/pubs/ir/8547/ipd\"&gt;NIST IR 8547&lt;/a&gt;).&amp;nbsp;ML-KEM addresses the \"harvest now, decrypt later\" threat to those classical schemes, where an adversary records the key-establishment exchange today and recovers the shared secret once sufficiently powerful quantum computers become available.&lt;/p&gt; \n&lt;p&gt;KMS supports all three ML-KEM key specs defined in NIST FIPS 203: ML-KEM-512, ML-KEM-768, and ML-KEM-1024. The Encapsulate API uses the public key to produce a random 32-byte shared secret and its ciphertext form. The Decapsulate API recovers the shared secret from ciphertext using the corresponding private key. KMS protects the private key of an ML-KEM key pair in FIPS 140-3 Level 3 validated hardware security modules (HSMs). You can use the GetPublicKey API to export the public key and distribute it to partners, client applications, or external systems for performing the encapsulate operation locally using cryptographic libraries like AWS-LC, OpenSSL, or Bouncy Castle.&lt;/p&gt; \n&lt;p&gt;ML-KEM is available in all AWS Regions where KMS is available, except the the Middle East (UAE), Middle East (Bahrain), and China Regions. For more information, see &lt;a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/pqkeys.html#mlkem\"&gt;ML-KEM keys in AWS KMS&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/symm-asymm-choose-key-spec.html#key-spec-mlkem\"&gt;Key spec reference&lt;/a&gt;&amp;nbsp;in the AWS KMS Developer Guide.&lt;/p&gt;",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/",
       "publishedAt": "2026-10-26T08:00:00.000Z",
       "updatedAt": "2026-10-26T08:00:00.000Z",
       "categories": [
-        "AWS Kms",
+        "Quantum Technologies",
+        "Security",
         "AWS Govcloud Us",
         "P&Gt;",
-        "Security",
-        "Quantum Technologies",
+        "AWS Kms",
         "General:Products",
         "Security Identity And Compliance"
       ],
@@ -2817,11 +2858,11 @@
         "KMS"
       ],
       "tags": [
-        "aws kms",
+        "quantum technologies",
+        "security",
         "aws govcloud us",
         "p&gt;",
-        "security",
-        "quantum technologies",
+        "aws kms",
         "general:products",
         "security identity and compliance",
         "kms"
@@ -3400,7 +3441,7 @@
         "& compliance",
         "security blog"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 65,
       "securityLevel": "high",
       "securityMatches": [
@@ -3424,7 +3465,7 @@
       "tags": [
         "sagemaker"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 65,
       "securityLevel": "high",
       "securityMatches": [
@@ -3847,7 +3888,7 @@
         "aws iam",
         "iam"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 60,
       "securityLevel": "critical",
       "securityMatches": [
@@ -6339,6 +6380,50 @@
       "source": "security-blog"
     },
     {
+      "id": "567534bb7ce121bd",
+      "title": "CVE-2026-115415 - Secret masking bypass in the environment tool in Strands Agents Tools",
+      "description": "Bulletin ID: 2026-154-AWS Publication Date: 10/28/2026 12:30 PM PDT Description: We identified CVE-2026-115415, an issue where the environment tool accepted a masking parameter from the large language model (LLM) through its tool schema. A crafted prompt, delivered through content the agent is asked to process, could instruct the model to call the tool with masking turned off. The tool would then return the agent host's environment variables in cleartext, including cloud credentials and API keys, without prompting the operator for consent. Impacted versions: >= 0.1.0 AND Please refer to the ar",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-154-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/28/2026 12:30 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-115415, an issue where the environment tool accepted a masking parameter from the large language model (LLM) through its tool schema. A crafted prompt, delivered through content the agent is asked to process, could instruct the model to call the tool with masking turned off. The tool would then return the agent host's environment variables in cleartext, including cloud credentials and API keys, without prompting the operator for consent.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;= 0.1.0 AND &amp;lt; 0.8.6&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-154-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-154-aws/",
+      "publishedAt": "2026-10-28T19:39:08.000Z",
+      "updatedAt": "2026-10-28T19:39:08.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "credential",
+        "Secret"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "226a4732404897fa",
+      "title": "CVE-2026-118029 - Unverified ownership of the default Athena query result location in AWS SDK for pandas",
+      "description": "Bulletin ID: 2026-153-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/28/2026 08:30 AM PDT Description: AWS SDK for pandas (awswrangler) is an open-source Python library that integrates pandas with AWS data services such as Amazon Athena, Amazon S3, and AWS Glue. We identified CVE-2026-118029 in the Athena module, where unverified ownership of the default query result location could allow a remote user to read Athena query results and tamper with result sets returned to the caller via a pre-created S3 bucket. Impacted versions: awswrangler Please refer to the a",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-153-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/28/2026 08:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS SDK for pandas (awswrangler) is an open-source Python library that integrates pandas with AWS data services such as Amazon Athena, Amazon S3, and AWS Glue. We identified CVE-2026-118029 in the Athena module, where unverified ownership of the default query result location could allow a remote user to read Athena query results and tamper with result sets returned to the caller via a pre-created S3 bucket.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; awswrangler &amp;lt; 3.16.1&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-153-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-153-aws/",
+      "publishedAt": "2026-10-28T15:40:38.000Z",
+      "updatedAt": "2026-10-28T15:40:38.000Z",
+      "categories": [],
+      "services": [
+        "Athena"
+      ],
+      "tags": [
+        "athena"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "S3",
+        "Bucket"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "7d865b8818844dcd",
       "title": "CVE-2026-115418 - SQL injection in the database-query custom resource handlers in Amazon Web Services (AWS)",
       "description": "Bulletin ID: 2026-151-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/26/2026 09:30 AM PDT Description: The AWS Cloud Development Kit (CDK) @aws-cdk/aws-redshift-alpha module provides experimental constructs that manage Amazon Redshift users, tables and privileges. We identified CVE-2026-115418, an issue where crafted user names, comments or passwords set in these constructs could change the SQL that runs with Amazon Redshift superuser privileges at deployment, including granting access to all cluster users. Exploiting the issue requires the ability to influenc",
@@ -6626,7 +6711,7 @@
         "direct connect",
         "connect"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -7619,6 +7704,56 @@
         "security",
         "Config",
         "access"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "5f9d0643962de830",
+      "title": "CVE-2026-111497: Native Brotli Decoder Remote Code Execution and Memory Disclosure",
+      "description": "Bulletin ID: 2026-155-AWS Publication Date: 10/28/2026 15:00 PM PDT Description: AWS is aware of CVE-2026-111497, an issue in the native Brotli decompression library that could allow a third party to run code or read process memory in an affected application. AWS Lambda, AWS Amplify, AWS App Runner, Amazon CloudWatch Synthetics, AWS CodeBuild, AWS Elastic Beanstalk, and AWS Elemental MediaLive are addressing this issue. Some services require customer action. For details, see the bulletin. Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-155-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/28/2026 15:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS is aware of CVE-2026-111497, an issue in the native Brotli decompression library that could allow a third party to run code or read process memory in an affected application. AWS Lambda, AWS Amplify, AWS App Runner, Amazon CloudWatch Synthetics, AWS CodeBuild, AWS Elastic Beanstalk, and AWS Elemental MediaLive are addressing this issue. Some services require customer action. For details, see the bulletin.&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-155-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-155-aws/",
+      "publishedAt": "2026-10-28T21:58:12.000Z",
+      "updatedAt": "2026-10-28T21:58:12.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "0dc7a5542f714b71",
+      "title": "AWS Elemental MediaConnect Router now supports endpoint connection management",
+      "description": "AWS Elemental MediaConnect Router now supports managing connections through a new endpoint registry, which allows you to register devices or software external to MediaConnect and connect those endpoints to your router inputs and outputs. You can share registered endpoints directly with other AWS accounts, eliminating the need to manually chain router inputs and outputs or coordinate IP addresses and encryption settings out of band. Cross-account endpoint sharing lowers costs by reducing required compute instances and decreases latency through fewer network hops. Sharing is managed through AWS ",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/mediaconnect/features/router/\"&gt;AWS Elemental MediaConnect Router&lt;/a&gt;&amp;nbsp;now supports managing connections through a new endpoint registry, which allows you to register devices or software external to MediaConnect and connect those endpoints to your router inputs and outputs. You can share registered endpoints directly with other AWS accounts, eliminating the need to manually chain router inputs and outputs or coordinate IP addresses and encryption settings out of band.&lt;/p&gt; \n&lt;p&gt;Cross-account endpoint sharing lowers costs by reducing required compute instances and decreases latency through fewer network hops. Sharing is managed through AWS Resource Access Manager (AWS RAM), with Connection Manager providing visibility and control over each shared connection. Common use cases include content distributors sharing live feeds with downstream partners, broadcasters collaborating across organizational boundaries, and media workflows that require secure cross-account video transport.&lt;/p&gt; \n&lt;p&gt;MediaConnect endpoint registry is available in all AWS Regions where AWS Elemental MediaConnect Router is available, at no additional cost. For more information, see the AWS Elemental MediaConnect &lt;a href=\"https://docs.aws.amazon.com/mediaconnect/latest/ug/working-with-endpoints.html\"&gt;User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-cross-account-endpoints/",
+      "publishedAt": "2026-10-26T08:00:00.000Z",
+      "updatedAt": "2026-10-26T08:00:00.000Z",
+      "categories": [
+        "Lower Cost",
+        "AWS Resource Access Manager",
+        "AWS Elemental Mediaconnect",
+        "Media Services"
+      ],
+      "services": [
+        "Elemental"
+      ],
+      "tags": [
+        "lower cost",
+        "aws resource access manager",
+        "aws elemental mediaconnect",
+        "media services",
+        "elemental"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "encryption",
+        "encrypt"
       ],
       "source": "whats-new"
     },
@@ -9432,6 +9567,35 @@
       "source": "whats-new"
     },
     {
+      "id": "d66ff784f191fe45",
+      "title": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
+      "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version that builds on a quarterly Release Update (RU), bundling Oracle's Critical Security Patch Update (CSPU) with additional Oracle-recommended fixes. The September 2026 MRP is applied on top of the July 2026 RU and includes the Oracle September CSPU . We recommend upgrading to the September 2026 MRP as it includes the latest security updates for Oracle Database. This release also includes the updated Or",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/oracle/\"&gt;Amazon Relational Database Service (Amazon RDS) for Oracle&lt;/a&gt; now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version that builds on a quarterly Release Update (RU), bundling Oracle's Critical Security Patch Update (CSPU) with additional Oracle-recommended fixes. The September 2026 MRP is applied on top of the July 2026 RU and includes the &lt;a href=\"https://www.oracle.com/security-alerts/cspusep2026.html#AppendixDB\"&gt;Oracle September CSPU&lt;/a&gt;. We recommend upgrading to the September 2026 MRP as it includes the latest security updates for Oracle Database.&lt;/p&gt; \n&lt;p&gt;This release also includes the updated Oracle time zone file (DST version 46), which reflects the latest daylight saving time rule changes in several regions, including British Columbia and Alberta in Canada (effective November 1, 2026) and Morocco and Western Sahara (effective September 20, 2026), which are moving to permanent UTC offsets. If you store timestamps that include time zone information for these areas, the updated time zone file keeps that data aligned with the new rules.&lt;/p&gt; \n&lt;p&gt;You can apply the September 2026 MRP for new database instances, or upgrade existing instances to engine version 19.0.0.0.ru-2026-07.mrp-2026-09.r2 or 26.0.0.0.ru-2026-07.mrp-2026-09.r2 from the Amazon RDS Management Console, or by using the AWS SDK or CLI. To learn more about Oracle MRPs supported on Amazon RDS for each engine version, see the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/OracleReleaseNotes/Welcome.html\"&gt;Amazon RDS for Oracle Release notes&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp",
+      "publishedAt": "2026-10-28T21:00:00.000Z",
+      "updatedAt": "2026-10-28T21:00:00.000Z",
+      "categories": [
+        "Databases",
+        "Amazon Rds"
+      ],
+      "services": [
+        "RDS"
+      ],
+      "tags": [
+        "databases",
+        "amazon rds",
+        "rds"
+      ],
+      "isNew": true,
+      "securityScore": 25,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "security",
+        "patch"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "723f7e9eaf9dadf7",
       "title": "Amazon Corretto October 2026 Quarterly Updates",
       "description": "On October 22, 2026 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 27.0.1.0.10, 25.0.5.0.9, 21.0.13.0.10, 17.0.21.0.10, 11.0.33.0.9, and 8u512 are now available for download . Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. Visit the Corretto home page to download Corretto 27, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get the updates on your Linux system by configuring a Corretto Apt, Yum, or Apk repo . Feedback is welcomed !",
@@ -9906,6 +10070,35 @@
       "securityMatches": [
         "security",
         "patch"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "44076607dd1da013",
+      "title": "Amazon ECS Managed Instances adds cross-instance and Spot consolidation",
+      "description": "Today, Amazon Elastic Container Service (Amazon ECS) Managed Instances introduces two infrastructure optimization updates: cross-instance and Spot consolidation. Cross-instance consolidation evaluates tasks running across multiple underutilized instances together, packing them onto fewer instances to raise utilization and lower costs. Spot consolidation extends this capability to Spot capacity, consolidating underutilized Spot Instances after first verifying replacement capacity is available. Amazon ECS Managed Instances provisions, configures, and operates right-sized Amazon EC2 instances for",
+      "descriptionHtml": "&lt;p&gt;Today, &lt;a href=\"https://aws.amazon.com/ecs/managed-instances/\"&gt;Amazon Elastic Container Service (Amazon ECS) Managed Instances&lt;/a&gt; introduces two infrastructure optimization updates: cross-instance and Spot consolidation. Cross-instance consolidation evaluates tasks running across multiple underutilized instances together, packing them onto fewer instances to raise utilization and lower costs. Spot consolidation extends this capability to Spot capacity, consolidating underutilized Spot Instances after first verifying replacement capacity is available.&lt;/p&gt;\n&lt;p&gt;Amazon ECS Managed Instances provisions, configures, and operates right-sized Amazon EC2 instances for your workloads, balancing availability and cost. Its infrastructure optimization continuously monitors your fleet, reclaiming idle capacity and consolidating underutilized instances with graceful start-before-stop task replacement. Until now, optimization evaluated each instance in isolation for replacement, which worked well when a capacity provider was configured with diverse instance types. However, when a capacity provider was configured with a narrow range of instance types, there were fewer opportunities to consolidate multiple underutilized instances, because no single replacement could yield savings. With cross-instance consolidation, ECS now evaluates and repacks tasks across multiple instances simultaneously. For example, in our testing with a capacity provider configured for c9g instances with a minimum size of 4xlarge, running 261 tasks (each 1 vCPU, 1.94 GiB), cross-instance consolidation reduced the fleet from 19 instances (seven 4xlarge, seven 8xlarge, four 12xlarge, and one 24xlarge) to 13 instances (eight 4xlarge and five 8xlarge), while raising CPU utilization from 42% to 91% and memory utilization from 41% to 88%. Spot consolidation applies the same approach to Spot capacity, first verifying replacement capacity is available. With these enhancements, ECS Managed Instances delivers deeper cost optimization for both your On-Demand and Spot workloads.&lt;/p&gt;\n&lt;p&gt;Cross-instance and Spot consolidation are now available at no additional cost in all AWS Regions, and apply automatically to all existing and new ECS Managed Instances capacity providers. To learn more, see our &lt;a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/managed-instances-infrastructure-optimization.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/",
+      "publishedAt": "2026-10-28T18:00:00.000Z",
+      "updatedAt": "2026-10-28T18:00:00.000Z",
+      "categories": [
+        "Amazon Ecs",
+        "Containers"
+      ],
+      "services": [
+        "ECS"
+      ],
+      "tags": [
+        "amazon ecs",
+        "containers",
+        "ecs"
+      ],
+      "isNew": true,
+      "securityScore": 20,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "replacement"
       ],
       "source": "whats-new"
     },
@@ -10889,6 +11082,36 @@
       "source": "whats-new"
     },
     {
+      "id": "368aa69eadc53400",
+      "title": "Amazon EKS Dashboard now provides fleet-wide visibility into certificate authority (CA) rotation",
+      "description": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announces certificate authority (CA) rotation visibility in the Amazon EKS Dashboard, giving you a consolidated view of CA rotation across your clusters. The Amazon EKS Dashboard already provides centralized visibility into your clusters across AWS Regions and accounts, and it now includes CA rotation, so you can see where action is needed without checking each cluster individually. Each Amazon EKS cluster has its own CA, and clusters created since 2018 have CAs with a 10-year validity period that are now approaching the point where rotatio",
+      "descriptionHtml": "&lt;p&gt;Today, Amazon Elastic Kubernetes Service (Amazon EKS) announces certificate authority (CA) rotation visibility in the Amazon EKS Dashboard, giving you a consolidated view of CA rotation across your clusters. The Amazon EKS Dashboard already provides centralized visibility into your clusters across AWS Regions and accounts, and it now includes CA rotation, so you can see where action is needed without checking each cluster individually.&lt;/p&gt; \n&lt;p&gt;Each Amazon EKS cluster has its own CA, and clusters created since 2018 have CAs with a 10-year validity period that are now approaching the point where rotation activities should begin. In the EKS Dashboard, you can now see your clusters and their CA rotation status, which clusters have CAs approaching expiration, and upcoming automated rotation events, so platform teams who operate many clusters can prioritize action across their fleet from one place.&lt;/p&gt; \n&lt;p&gt;The Amazon EKS Dashboard aggregates data across your accounts and Regions through AWS Organizations, so you enable trusted access for the dashboard in your organization’s management account to use this capability. You view the dashboard from the US East region (us-east-1), and it is available at no additional cost. CA rotation support extends to all commercial AWS Regions, and the dashboard brings that rotation status together in one fleet-wide view. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/certificate-authority-rotation.html\"&gt;Amazon EKS documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-dashboard-fleet-wide-visibility-certificate-authority-ca-rotation/",
+      "publishedAt": "2026-10-28T18:07:00.000Z",
+      "updatedAt": "2026-10-28T18:07:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "Amazon Eks",
+        "Compute",
+        "Containers"
+      ],
+      "services": [
+        "EKS"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "amazon eks",
+        "compute",
+        "containers",
+        "eks"
+      ],
+      "isNew": true,
+      "securityScore": 15,
+      "securityLevel": "medium",
+      "securityMatches": [],
+      "source": "whats-new"
+    },
+    {
       "id": "ed5ad04bed3ca04a",
       "title": "Amazon EMR Serverless now supports IPv6 and dual-stack connectivity",
       "description": "Amazon EMR Serverless now supports IPv6 and dual-stack connectivity, expanding beyond the IPv4-only connectivity that was previously available. You can now run your Apache Spark and Apache Hive jobs over IPv6 in your Amazon Virtual Private Cloud (VPC) by supplying dual-stack (IPv4 and IPv6) or IPv6-only subnets. This gives you greater flexibility in how your applications connect to data stores and services, while maintaining full backward compatibility with your existing IPv4 workloads. As Spark and Hive workloads scale to many workers, the IPv4 address space in your VPCs and subnets can becom",
@@ -11858,23 +12081,136 @@
       "source": "whats-new"
     },
     {
+      "id": "02bf3705d3d86c18",
+      "title": "Amazon Bedrock AgentCore CLI version 1.0 is now available",
+      "description": "AWS announces the general availability of Amazon Bedrock AgentCore CLI version 1.0 (@aws/agentcore 1.0.0), rebuilt with faster startup, a consistent command structure, and support for more AgentCore resources. The CLI helps developers create, develop, deploy, and operate AI agents and supporting resources from the terminal. With version 1.0, developers can use the project workflow or work directly with harnesses, runtimes, memory, identity, gateways, and payments without first adding them to a project. Developers can invoke existing resources by ID or ARN, open an interactive shell, export a h",
+      "descriptionHtml": "&lt;p&gt;AWS announces the general availability of Amazon Bedrock AgentCore CLI version 1.0 (@aws/agentcore 1.0.0), rebuilt with faster startup, a consistent command structure, and support for more AgentCore resources. The CLI helps developers create, develop, deploy, and operate AI agents and supporting resources from the terminal.&lt;/p&gt; \n&lt;p&gt;With version 1.0, developers can use the project workflow or work directly with harnesses, runtimes, memory, identity, gateways, and payments without first adding them to a project. Developers can invoke existing resources by ID or ARN, open an interactive shell, export a harness, and use searchable menus, resource pickers, and guided workflows. Consistent global flags provide region selection, JSON output, debugging, and version information across commands.&lt;/p&gt; \n&lt;p&gt;Existing projects can be migrated to AgentCore version 1 using the agentcore migrate command.&lt;/p&gt; \n&lt;p&gt;Install AgentCore CLI version 1.0 from &lt;a href=\"https://www.npmjs.com/package/@aws/agentcore\"&gt;npm&lt;/a&gt; or explore the source on &lt;a href=\"https://github.com/aws/agentcore-cli\"&gt;GitHub&lt;/a&gt;. To learn more, visit the &lt;a href=\"https://aws.amazon.com/bedrock/agentcore/\"&gt;Amazon Bedrock AgentCore product page&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-cli-reference.html\"&gt;AgentCore CLI reference&lt;/a&gt;, and &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-get-started-cli.html\"&gt;Get started with Amazon Bedrock AgentCore&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
+      "publishedAt": "2026-10-28T20:00:00.000Z",
+      "updatedAt": "2026-10-28T20:00:00.000Z",
+      "categories": [
+        "Amazon Bedrock",
+        "Artificial Intelligence"
+      ],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "amazon bedrock",
+        "artificial intelligence",
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "6c1de1083885681a",
+      "title": "Introducing time series collections for the next generation of Amazon OpenSearch Serverless",
+      "description": "Today, we're announcing support for time series collections on the next generation of Amazon OpenSearch Serverless. With time series collections, you can ingest, store, and analyze logs, metrics, traces, and event data without provisioning or managing clusters. They absorb ingest spikes automatically, keep recent data fast to query, and make months or years of history searchable at low cost, all in the same collection. Time series collections add a new, lower-cost warm storage tier in addition to the existing hot storage tier, so customers can retain their infrequently accessed data without pa",
+      "descriptionHtml": "&lt;p&gt;Today, we're announcing support for time series collections on the next generation of Amazon OpenSearch Serverless. With time series collections, you can ingest, store, and analyze logs, metrics, traces, and event data without provisioning or managing clusters. They absorb ingest spikes automatically, keep recent data fast to query, and make months or years of history searchable at low cost, all in the same collection.&lt;/p&gt; \n&lt;p&gt;Time series collections add a new, lower-cost warm storage tier in addition to the existing hot storage tier, so customers can retain their infrequently accessed data without paying hot storage prices. Customers can choose how long data stays hot before transitiong to warm storage.&amp;nbsp; With up to 100 TB of hot storage per collection, time series collections can handle high-volume observability workloads such as application monitoring, security analytics, and IoT telemetry. Alerting and anomaly detection are also now available, so customers can get notified about issues and spot unusual patterns in their log and event data without separate tooling.&lt;/p&gt; \n&lt;p&gt;Time series collections are available today in all &lt;a href=\"https://docs.aws.amazon.com/general/latest/gr/opensearch-service.html\" target=\"_blank\"&gt;AWS Regions&lt;/a&gt; where OpenSearch Serverless is available. To learn more about the pricing for the new warm storage,&amp;nbsp; see &lt;a href=\"https://aws.amazon.com/opensearch-service/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;OpenSearch Serverless pricing&lt;/a&gt;. To learn more about time series collections on Amazon OpenSearch Serverless, see the &lt;a href=\"https://aws.amazon.com/opensearch-service/features/serverless/\" target=\"_blank\"&gt;OpenSearch Serverless feature page&lt;/a&gt;, the &lt;a href=\"https://aws.amazon.com/blogs/big-data/introducing-the-next-generation-of-serverless-time-series-for-amazon-opensearch-service/\" target=\"_blank\"&gt;launch blog&lt;/a&gt;, and the &lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless.html\" target=\"_blank\"&gt;AWS documentation&lt;/a&gt;.&lt;a href=\"https://aws.amazon.com/opensearch-service/pricing/\"&gt;&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/",
+      "publishedAt": "2026-10-28T18:35:00.000Z",
+      "updatedAt": "2026-10-28T18:35:00.000Z",
+      "categories": [
+        "Serverless",
+        "Analytics",
+        "Amazon Opensearch Service"
+      ],
+      "services": [
+        "OpenSearch"
+      ],
+      "tags": [
+        "serverless",
+        "analytics",
+        "amazon opensearch service",
+        "opensearch"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "dfbc0bcf24879e0f",
+      "title": "Amazon EKS Auto Mode now supports Kubernetes Gateway API",
+      "description": "Amazon EKS Auto Mode now supports the Kubernetes Gateway API, giving customers a standard, portable way to define how traffic reaches their applications. Customers can configure application load balancing using Gateway and HTTPRoute resources, and EKS Auto Mode provisions and manages the underlying AWS infrastructure automatically. With this launch, EKS Auto Mode customers can adopt the next-generation Kubernetes traffic management standard without installing or configuring a separate controller. Capabilities include HTTP and gRPC routing, cross-namespace traffic routing for multi-team environ",
+      "descriptionHtml": "&lt;p&gt;Amazon EKS Auto Mode now supports the Kubernetes Gateway API, giving customers a standard, portable way to define how traffic reaches their applications. Customers can configure application load balancing using Gateway and HTTPRoute resources, and EKS Auto Mode provisions and manages the underlying AWS infrastructure automatically.&lt;/p&gt; \n&lt;p&gt;With this launch, EKS Auto Mode customers can adopt the next-generation Kubernetes traffic management standard without installing or configuring a separate controller. Capabilities include HTTP and gRPC routing, cross-namespace traffic routing for multi-team environments, weighted traffic splitting, header-based routing, and automatic TLS certificate discovery through AWS Certificate Manager. Existing workloads using Ingress resources continue to work alongside Gateway API resources.&lt;/p&gt; \n&lt;p&gt;To get started, see the &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/auto-configure-gateway-api.html\"&gt;Amazon EKS documentation&lt;/a&gt;. Gateway API support is included as part of EKS Auto Mode and is available in all AWS Regions where EKS Auto Mode is supported. Standard charges apply for the AWS load balancing resources provisioned.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-auto-mode-kubernetes-gateway-api/",
+      "publishedAt": "2026-10-28T17:33:00.000Z",
+      "updatedAt": "2026-10-28T17:33:00.000Z",
+      "categories": [
+        "Amazon Eks",
+        "Compute",
+        "Networking",
+        "Containers"
+      ],
+      "services": [
+        "EKS"
+      ],
+      "tags": [
+        "amazon eks",
+        "compute",
+        "networking",
+        "containers",
+        "eks"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "f11899420a6211ae",
+      "title": "Announcing the AWS Marketplace and Amazon Business unified storefront",
+      "description": "Today, AWS Marketplace and Amazon Business announced the unified storefront. Organizations can now give their teams one curated catalog that puts software, data, and AI tools from AWS Marketplace alongside physical goods and supplies from Amazon Business. Many enterprises already buy from both, but they manage two catalogs with duplicated approval rules and separate reporting. The unified storefront can now give procurement teams one front door for both. Built on AWS Marketplace Storefront, the unified storefront lets administrators connect their organization's Amazon Business account and impo",
+      "descriptionHtml": "&lt;p&gt;Today, AWS Marketplace and Amazon Business announced the unified storefront. Organizations can now give their teams one curated catalog that puts software, data, and AI tools from AWS Marketplace alongside physical goods and supplies from Amazon Business. Many enterprises already buy from both, but they manage two catalogs with duplicated approval rules and separate reporting. The unified storefront can now give procurement teams one front door for both.&lt;/p&gt;\n&lt;p&gt;Built on AWS Marketplace Storefront, the unified storefront lets administrators connect their organization's Amazon Business account and import Amazon Business products into their branded storefront. Administrators set governance rules once, and they apply across both catalogs. Buyers can browse AWS Marketplace listings and Amazon Business products in one place. Purchases of AWS Marketplace listings complete directly in the storefront and appear on the customer's AWS invoice. When a buyer selects an Amazon Business product, single sign-on takes them to an authenticated Amazon Business cart, so they don't need a second login. Each storefront connects only to the accounts its administrator sets up.&lt;/p&gt;\n&lt;p&gt;The Amazon Business connector is available in all AWS Regions where AWS Marketplace operates to AWS Marketplace Storefront customers who have access to both the AWS Marketplace and Amazon Business APIs.&lt;/p&gt;\n&lt;p&gt;To learn more, visit the &lt;a href=\"https://aws.amazon.com/marketplace/partners/storefront\"&gt;AWS Marketplace Storefront product page&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/storefrontguide/what-is-marketplace-storefront.html\"&gt;AWS Marketplace Storefront User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/marketplace-business-storefront/",
+      "publishedAt": "2026-10-28T08:00:00.000Z",
+      "updatedAt": "2026-10-28T08:00:00.000Z",
+      "categories": [
+        "AWS Marketplace"
+      ],
+      "services": [],
+      "tags": [
+        "aws marketplace"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Organizations"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "ec4053628a648a22",
       "title": "Amazon ElastiCache for Valkey now supports changing durability on existing clusters",
-      "description": "Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters without creating a new cluster. Previously, you couldn't change the durability configuration of an existing cluster in place. This made it harder to move from caching to persistent data store use cases, or to adapt as your application requirements change. Now you can change durability at any point in your application's lifecycle. You can choose between two durability options: synchronous and asynchronous writes. Synchronous writes persist data across at least two AZs before responding t",
-      "descriptionHtml": "&lt;p&gt;Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters without creating a new cluster. Previously, you couldn't change the durability configuration of an existing cluster in place. This made it harder to move from caching to persistent data store use cases, or to adapt as your application requirements change. Now you can change durability at any point in your application's lifecycle.&lt;/p&gt; \n&lt;p&gt;You can choose between two durability options: synchronous and asynchronous writes. Synchronous writes persist data across at least two AZs before responding to the client, designed for zero data loss at single-digit millisecond write latency. Asynchronous writes persist data after responding to the client, maintaining microsecond write latency at no additional cost. However, up to 10 seconds of uncommitted data could be lost in the rare event of a failure. Both options maintain microsecond read latency. You can now use ElastiCache for a broader set of use cases beyond caching where data loss is unacceptable such as AI agent long-term memory, AI agent workflow state, knowledge bases for RAG applications, payment tokenization, and real-time inventory management.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where ElastiCache for Valkey 9.0 and later is available. To get started, use the AWS Management Console, AWS SDK, or AWS CLI. For pricing, see the &amp;nbsp;&lt;a href=\"https://aws.amazon.com/elasticache/pricing/\"&gt;Amazon ElastiCache pricing page&amp;nbsp;&lt;/a&gt;. To learn more, see &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/\"&gt;Durability&amp;nbsp;&lt;/a&gt; in the ElastiCache documentation.&lt;/p&gt;",
+      "description": "Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters. Previously, you couldn't change the durability configuration of an existing cluster in place. This made it harder to move from caching to persistent data store use cases, or to adapt as your application requirements change. Now you can change durability at any point in your application's lifecycle. You can choose between two durability options: synchronous and asynchronous writes. Synchronous writes persist data across at least two AZs before responding to the client, designed for zero",
+      "descriptionHtml": "&lt;p&gt;Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters. Previously, you couldn't change the durability configuration of an existing cluster in place. This made it harder to move from caching to persistent data store use cases, or to adapt as your application requirements change. Now you can change durability at any point in your application's lifecycle.&lt;/p&gt; \n&lt;p&gt;You can choose between two durability options: synchronous and asynchronous writes. Synchronous writes persist data across at least two AZs before responding to the client, designed for zero data loss at single-digit millisecond write latency. Asynchronous writes persist data after responding to the client, maintaining microsecond write latency at no additional cost. However, up to 10 seconds of uncommitted data could be lost in the rare event of a failure. Both options maintain microsecond read latency. You can now use ElastiCache for a broader set of use cases beyond caching where data loss is unacceptable such as AI agent long-term memory, AI agent workflow state, knowledge bases for RAG applications, payment tokenization, and real-time inventory management.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where ElastiCache for Valkey 9.0 and later is available. To get started, use the AWS Management Console, AWS SDK, or AWS CLI. For pricing, see the &amp;nbsp;&lt;a href=\"https://aws.amazon.com/elasticache/pricing/\"&gt;Amazon ElastiCache pricing page&lt;/a&gt;. To learn more, see &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/durability.html\"&gt;Durability&lt;/a&gt;&amp;nbsp;in the ElastiCache documentation.&lt;/p&gt;",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/",
       "publishedAt": "2026-10-27T15:21:00.000Z",
       "updatedAt": "2026-10-27T15:21:00.000Z",
       "categories": [
-        "Amazon Elasticache",
-        "Databases"
+        "Databases",
+        "Amazon Elasticache"
       ],
       "services": [
         "ElastiCache"
       ],
       "tags": [
-        "amazon elasticache",
         "databases",
+        "amazon elasticache",
         "elasticache"
       ],
       "isNew": true,
@@ -12068,7 +12404,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -13873,348 +14209,6 @@
       "securityLevel": "low",
       "securityMatches": [
         "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "bff7205c755f6b5b",
-      "title": "Amazon RDS for SQL Server supports additional SQL trace flags",
-      "description": "Amazon RDS for SQL Server supports 18 additional SQL trace flags that you can enable through database parameter groups. Trace flags are configuration switches that modify SQL Server engine behavior — such as query optimizer cardinality estimation, lock escalation, statistics management, and memory handling — to allow database administrators to fine-tune performance and address workload-specific challenges. With this expansion, you have greater flexibility to optimize and stabilize your SQL Server workloads directly within your managed RDS environment. The newly supported trace flags include: 6",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/sqlserver/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for SQL Server&lt;/a&gt;&amp;nbsp;supports 18 additional SQL trace flags that you can enable through database parameter groups. Trace flags are configuration switches that modify SQL Server engine behavior — such as query optimizer cardinality estimation, lock escalation, statistics management, and memory handling — to allow database administrators to fine-tune performance and address workload-specific challenges. With this expansion, you have greater flexibility to optimize and stabilize your SQL Server workloads directly within your managed RDS environment.&lt;/p&gt; \n&lt;p&gt;The newly supported trace flags include: 647, 652, 1448, 3654, 4138, 4139, 7745, 8285, 8780, 9432, 9481, 9492, 9592, 11024, 11042, 12502, 12618, and 12656. These trace flags address scenarios such as query plan optimization, DDL performance improvements, availability group replication, Query Store behavior, automatic plan correction, and known engine bug mitigations. Because trace flags modify core SQL Server engine behavior, you should test them in a non-production environment before applying them to production instances. Some trace flags can impact system performance, increase memory usage, or change query execution plans in unexpected ways.&lt;/p&gt; \n&lt;p&gt;Trace flags are available in all AWS Regions where Amazon RDS for SQL Server is supported. To get started, update your RDS parameter group to enable the desired trace flags and apply it to your DB instance.&amp;nbsp;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SQLServer.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for SQL Server User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-sqlserver-supports-additional-trace-flags/",
-      "publishedAt": "2026-09-02T07:00:00.000Z",
-      "updatedAt": "2026-09-02T07:00:00.000Z",
-      "categories": [
-        "Amazon Rds For Sql Server",
-        "AWS Govcloud Us",
-        "Databases"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "amazon rds for sql server",
-        "aws govcloud us",
-        "databases",
-        "rds"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "0d05af21cd18817f",
-      "title": "Amazon CloudWatch now supports warm-up periods for alarms",
-      "description": "Amazon CloudWatch now lets you configure a warm-up period for metric alarms and log alarms, delaying alarm evaluation for a set time after the alarm is created. This reduces noise from missing data while a new resource or service starts up and begins publishing metrics. For example, a team that provisions a new microservice and its alarms together through a CI/CD pipeline can attach a warm-up period so alarms do not page the on-call engineer while the service is still starting up and has not yet published metrics. Previously, when you created an alarm before the underlying metric was reporting",
-      "descriptionHtml": "&lt;p&gt;Amazon CloudWatch now lets you configure a warm-up period for metric alarms and log alarms, delaying alarm evaluation for a set time after the alarm is created. This reduces noise from missing data while a new resource or service starts up and begins publishing metrics. For example, a team that provisions a new microservice and its alarms together through a CI/CD pipeline can attach a warm-up period so alarms do not page the on-call engineer while the service is still starting up and has not yet published metrics.&lt;/p&gt; \n&lt;p&gt; &lt;/p&gt; \n&lt;p&gt;Previously, when you created an alarm before the underlying metric was reporting data, CloudWatch evaluated the alarm right away using its \"treat missing data\" setting. For resources that take time to begin emitting metrics, such as a newly deployed application or service, this could cause the alarm to transition state and run actions on missing data during startup, triggering unnecessary notifications. A warm-up period fixes this by giving you two ways to hold off evaluation during startup: wait a fixed duration you set before evaluation begins, or let CloudWatch start evaluating automatically as soon as the metric actually has enough data to fill the alarm's evaluation window.&lt;/p&gt; \n&lt;p&gt; &lt;/p&gt; \n&lt;p&gt;You set the warm-up period with the WarmUpConfiguration parameter when you create or update an alarm. Specify a warm-up duration from 1 to 2,880 minutes (2 days). By default, the alarm ends warm-up early and begins evaluating as soon as enough data fills its evaluation window. Additionally, you can optionally require the alarm to wait the full duration before evaluating.&lt;/p&gt; \n&lt;p&gt; &lt;/p&gt; \n&lt;p&gt;Warm-up periods are available in all AWS Regions where Amazon CloudWatch is offered at no additional charge beyond standard CloudWatch alarm pricing.&lt;/p&gt; \n&lt;p&gt; &lt;/p&gt; \n&lt;p&gt;To get started, see &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/alarm-warm-up.html\" target=\"_blank\"&gt;Alarm warm-up periods&amp;nbsp;&lt;/a&gt; and &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Create_WarmUp_Alarm.html\" target=\"_blank\"&gt;Create an alarm that uses a warm-up period&amp;nbsp;&lt;/a&gt; in the Amazon CloudWatch User Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-alarms-warmup-period",
-      "publishedAt": "2026-09-01T08:00:00.000Z",
-      "updatedAt": "2026-09-01T08:00:00.000Z",
-      "categories": [
-        "Amazon Cloudwatch",
-        "Management And Governance"
-      ],
-      "services": [
-        "CloudWatch"
-      ],
-      "tags": [
-        "amazon cloudwatch",
-        "management and governance",
-        "cloudwatch"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "1af0a53b5a5a6370",
-      "title": "Partner Revenue Measurement expands service coverage for User Agent string capability",
-      "description": "Partner Revenue Measurement User Agent string now supports additional AWS services. Partner Revenue Measurement allows Partners to better understand their AWS revenue impact and product consumption patterns. Previously, the User Agent string capability measured AWS service consumption across select services. With this expansion, Partners can now measure attributed revenue across additional applicable AWS services that log control plane activity in AWS CloudTrail, significantly increasing the visibility Partners have into the revenue their solutions drive. Partners who have already embedded a u",
-      "descriptionHtml": "&lt;p&gt;Partner Revenue Measurement &lt;a href=\"https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/user-agent-string.html\"&gt;User Agent string&lt;/a&gt; now supports additional AWS services. Partner Revenue Measurement allows Partners to better understand their AWS revenue impact and product consumption patterns. Previously, the User Agent string capability measured AWS service consumption across select services. With this expansion, Partners can now measure attributed revenue across additional applicable AWS services that log control plane activity in AWS CloudTrail, significantly increasing the visibility Partners have into the revenue their solutions drive.&lt;/p&gt; \n&lt;p&gt;Partners who have already embedded a user agent (format APN_1.1/pc_&amp;lt;AWS Marketplace product-code&amp;gt;$) in their applications automatically benefit from the expanded coverage with no additional implementation needed. The additional service consumption measured through this expansion is now visible in the &lt;a href=\"https://aws.amazon.com/about-aws/whats-new/2026/04/attributed-revenue-dashboard-launch/\"&gt;Attributed Revenue Dashboard&lt;/a&gt;, accessible through Partner Analytics in AWS Partner Central on the AWS Console. This User Agent string method complements Partner Revenue Measurement's &lt;a href=\"https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/resource-tagging.html\"&gt;Resource Tagging&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/marketplace-metering.html\"&gt;AWS Marketplace Metering&lt;/a&gt; integration capabilities.&lt;/p&gt; \n&lt;p&gt;Partner Revenue Measurement is generally available in all commercial regions. To learn more about User Agent string implementation or other Partner Revenue Measurement capabilities, review the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/what-is-service.html\"&gt;onboarding guide&lt;/a&gt;&amp;nbsp;and &lt;a href=\"https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/user-agent-included-services.html\"&gt;services supported&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/partner-revenue-measurement-user-agent-expansion/",
-      "publishedAt": "2026-08-31T22:00:00.000Z",
-      "updatedAt": "2026-08-31T22:00:00.000Z",
-      "categories": [
-        "Partner Network",
-        "AWS Marketplace And Partners"
-      ],
-      "services": [],
-      "tags": [
-        "partner network",
-        "aws marketplace and partners"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "CloudTrail"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "ce11634945b148d3",
-      "title": "AWS Elemental MediaTailor introduces in-console analytics dashboard for ad monetization and streaming performance",
-      "description": "AWS Elemental MediaTailor now includes an analytics dashboard built directly into the AWS Management Console, giving publishers a global and multi-region view of ad monetization and streaming performance — with the ability to compare across regions and drill into individual playback configurations. The dashboard surfaces key business metrics including fill rate, ad impression rate, video completion rate, and impression recovery data — showing publishers exactly how many billable impressions they are recovering through MediaTailor's server-side beacon retry logic. The analytics dashboard is ava",
-      "descriptionHtml": "&lt;p&gt;AWS Elemental MediaTailor now includes an analytics dashboard built directly into the AWS Management Console, giving publishers a global and multi-region view of ad monetization and streaming performance — with the ability to compare across regions and drill into individual playback configurations.&lt;/p&gt; \n&lt;p&gt;The dashboard surfaces key business metrics including fill rate, ad impression rate, video completion rate, and impression recovery data — showing publishers exactly how many billable impressions they are recovering through MediaTailor's server-side beacon retry logic.&lt;/p&gt; \n&lt;p&gt;The analytics dashboard is available in all AWS Regions where AWS Elemental MediaTailor is available. The dashboard uses Amazon CloudWatch, which provides a free tier of usage. Some dashboard components use ListMetrics API calls, and pricing applies for usage beyond the free tier. See &lt;a href=\"https://aws.amazon.com/cloudwatch/pricing/\"&gt;Amazon CloudWatch pricing&lt;/a&gt;&amp;nbsp;for details. Additional streaming metrics, reporting dimensions, and visualizations will be added in subsequent releases to the dashboard.&lt;/p&gt; \n&lt;p&gt;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/mediatailor/latest/ug/analytics-dashboard.html\"&gt;Monitoring ad insertion performance with the analytics dashboard&lt;/a&gt; in the AWS Elemental MediaTailor User Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mediatailor-analytics-dashboard",
-      "publishedAt": "2026-08-31T21:35:00.000Z",
-      "updatedAt": "2026-08-31T21:35:00.000Z",
-      "categories": [
-        "AWS Elemental Mediatailor",
-        "Media Services"
-      ],
-      "services": [
-        "Elemental",
-        "MediaTailor"
-      ],
-      "tags": [
-        "aws elemental mediatailor",
-        "media services",
-        "elemental",
-        "mediatailor"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "b6e3d84b34b538fd",
-      "title": "Amazon Connect Global Resiliency now supports cross-region routing of contacts across two active AWS regions",
-      "description": "Amazon Connect Global Resiliency now supports cross-region routing of contacts to agents across two linked AWS regions. For example, a contact arriving in US East (N. Virginia) is offered to the longest-available matching agent whether that agent is in US East (N. Virginia) or US West (Oregon), while managers view analytics and search contacts across both regions as a unified contact center. Because both regions now carry live traffic at all times, neither sits idle as an untested standby. Your full configuration and any integrations are exercised continuously in both regions, providing confid",
-      "descriptionHtml": "&lt;p&gt;Amazon Connect Global Resiliency now supports cross-region routing of contacts to agents across two linked AWS regions. For example, a contact arriving in US East (N. Virginia) is offered to the longest-available matching agent whether that agent is in US East (N. Virginia) or US West (Oregon), while managers view analytics and search contacts across both regions as a unified contact center.&lt;/p&gt; \n&lt;p&gt;Because both regions now carry live traffic at all times, neither sits idle as an untested standby. Your full configuration and any integrations are exercised continuously in both regions, providing confidence that either environment is ready to absorb the full workload whenever you need it. You retain full control over how traffic is distributed, and can shift new contacts and agents to a single region at any time.&lt;/p&gt; \n&lt;p&gt;Global routing is supported in &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#gr_region\"&gt;all AWS regional pairings where Amazon Connect Global Resiliency is available&lt;/a&gt;: US East (N. Virginia) and US West (Oregon), EU (Frankfurt) and EU (London), Asia Pacific (Osaka) and Asia Pacific (Tokyo). To obtain access to this feature, contact your AWS account team or an AWS representative. To learn more, visit the &lt;a href=\"https://aws.amazon.com/connect/\"&gt;Amazon Connect website&lt;/a&gt; or see &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/setup-connect-global-resiliency.html\"&gt;Set up Amazon Connect Global Resiliency&lt;/a&gt; in the Amazon Connect Administrator Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-global-resiliency-cross-region-routing/",
-      "publishedAt": "2026-08-31T19:25:00.000Z",
-      "updatedAt": "2026-08-31T19:25:00.000Z",
-      "categories": [
-        "Contact Center",
-        "Amazon Connect"
-      ],
-      "services": [
-        "Connect"
-      ],
-      "tags": [
-        "contact center",
-        "amazon connect",
-        "connect"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "406e575f97fef370",
-      "title": "Amazon Redshift now supports Apache Iceberg v3 tables",
-      "description": "Amazon Redshift now supports reading from and writing to Apache Iceberg v3 tables in your data lake. Apache Iceberg is an open table format, and its v3 release adds several new features. With this launch, Amazon Redshift introduces support for default column values, row lineage, and deletion vectors. With default column values, you can define an initial value that Amazon Redshift applies when no value is provided, simplifying schema evolution as you add columns to existing tables. Row lineage exposes pseudo-columns that track each row's identity and last-updated sequence number, so you can bui",
-      "descriptionHtml": "&lt;p&gt;Amazon Redshift now supports reading from and writing to Apache Iceberg v3 tables in your data lake. Apache Iceberg is an open table format, and its v3 release adds several new features.&amp;nbsp;With this launch, Amazon Redshift introduces support for default column values, row lineage, and deletion vectors.&lt;br&gt; With default column values, you can define an initial value that Amazon Redshift applies when no value is provided, simplifying schema evolution as you add columns to existing tables. Row lineage exposes pseudo-columns that track each row's identity and last-updated sequence number, so you can build incremental pipelines and CDC (change data capture) workflows that process only modified rows. Deletion vectors replace Iceberg v2's positional delete files with compact compressed bitmaps, delivering faster reads and writes for high-frequency update and delete workloads such as compliance-driven record removal. You can create a v3 table with CREATE TABLE &amp;lt;table&amp;gt; ... USING ICEBERG TABLE PROPERTIES ('format-version' = '3'), or upgrade an existing v2 table in place with ALTER TABLE &amp;lt;table&amp;gt; SET TABLE PROPERTIES ('format-version' = '3').&lt;br&gt; Amazon Redshift's Graviton based provisioned and serverless clusters support the new v3 format. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/redshift/latest/dg/iceberg-v3-features.html\" title=\"Iceberg V3 features doc\"&gt;&lt;u&gt;Apache Iceberg v3 features&lt;/u&gt; &lt;/a&gt;in the &lt;a href=\"https://docs.aws.amazon.com/redshift/\"&gt;Amazon Redshift Documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-apache-iceberg-v3",
-      "publishedAt": "2026-08-31T18:10:00.000Z",
-      "updatedAt": "2026-08-31T18:10:00.000Z",
-      "categories": [
-        "Amazon Redshift"
-      ],
-      "services": [
-        "Redshift"
-      ],
-      "tags": [
-        "amazon redshift",
-        "redshift"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "identity"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "5809dc8598c624d2",
-      "title": "Amazon OpenSearch Service adds new Cluster Insights for faster diagnosis of cluster status",
-      "description": "Amazon OpenSearch Service has expanded Cluster Insights with 17 new insights that identify the root causes behind Red and Yellow cluster status and provide actionable recommendations to resolve them. These insights cover resource exhaustion scenarios including JVM out-of-memory, sustained CPU saturation, as well as configuration issues such as zone imbalance, and misconfigured replica counts. Previously, when a cluster entered Red or Yellow status due to unassigned shards, diagnosing the underlying cause required manually correlating multiple metrics across nodes and availability zones. With t",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/opensearch-service/\"&gt;Amazon OpenSearch Service&lt;/a&gt; has expanded Cluster Insights with 17 new insights that identify the root causes behind Red and Yellow cluster status and provide actionable recommendations to resolve them. These insights cover resource exhaustion scenarios including JVM out-of-memory, sustained CPU saturation, as well as configuration issues such as zone imbalance, and misconfigured replica counts.&lt;/p&gt; \n&lt;p&gt;Previously, when a cluster entered Red or Yellow status due to unassigned shards, diagnosing the underlying cause required manually correlating multiple metrics across nodes and availability zones. With these new insights, OpenSearch Service automatically identifies the specific resource constraint or misconfiguration responsible and provides tailored recommendations — such as scaling up instance types, increasing disk capacity, or correcting shard allocation settings — so you can restore cluster stability faster.&lt;/p&gt; \n&lt;p&gt;Six new Critical-severity insights detect conditions causing primary shards to become unassigned (Red status), while eleven insights ranging from Medium to Critical severity surface issues preventing replica shard allocation (Yellow status). Each insight identifies affected nodes and provides specific remediation recommendations to help you take targeted corrective action.&lt;/p&gt; \n&lt;p&gt;These insights are available at no additional cost for Amazon OpenSearch Service domains running OpenSearch 1.0 and later, and Elasticsearch 6.8 and later, across 11 Regions globally: US East (N. Virginia, Ohio), US West (Oregon), Canada (Central), Asia Pacific (Sydney, Tokyo), and Europe (Frankfurt, Ireland, London, Paris, Stockholm). To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/cluster-insights.html\"&gt;Cluster Insights documentation&lt;/a&gt; or view the complete &lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/insights-catalog.html\"&gt;catalog of available insights&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-cluster-status-insight/",
-      "publishedAt": "2026-08-31T15:41:00.000Z",
-      "updatedAt": "2026-08-31T15:41:00.000Z",
-      "categories": [
-        "Databases",
-        "Amazon Opensearch Service",
-        "Analytics"
-      ],
-      "services": [
-        "OpenSearch"
-      ],
-      "tags": [
-        "databases",
-        "amazon opensearch service",
-        "analytics",
-        "opensearch"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "a78ae59b36e62360",
-      "title": "AWS Agent Registry for centralized agent discovery and governance is now generally available",
-      "description": "AWS Agent Registry is now generally available. It provides a private, governed catalog and discovery layer for agents, tools, skills, MCP servers, and custom resources within your organization. Teams get complete visibility into their AI landscape, so they can discover existing capabilities instead of rebuilding from scratch. Access it through the AWS Agent Registry console, AWS CLI, or AWS SDK. You can also discover and use registry resources from Amazon Bedrock AgentCore, Amazon Quick, and Kiro IDE, so teams can find the right agents and tools without switching context. The console pairs sem",
-      "descriptionHtml": "&lt;p&gt;AWS Agent Registry is now generally available. It provides a private, governed catalog and discovery layer for agents, tools, skills, MCP servers, and custom resources within your organization. Teams get complete visibility into their AI landscape, so they can discover existing capabilities instead of rebuilding from scratch. Access it through the AWS Agent Registry console, AWS CLI, or AWS SDK. You can also discover and use registry resources from Amazon Bedrock AgentCore, Amazon Quick, and Kiro IDE, so teams can find the right agents and tools without switching context. The console pairs semantic and keyword search with a dedicated browse experience for exploring registries and records. The registry is also exposed as an MCP server that builders can query directly from their IDEs.&lt;/p&gt; \n&lt;p&gt;In addition to the capabilities launched in preview (manual and URL-based record creation, approval workflows, semantic and keyword search, and AWS CloudTrail audit trails), Registry now adds new enterprise features. Teams can provision and manage registries as code using AWS CloudFormation, Terraform, and the AWS CDK, and apply tags to registries and records for organization, cost allocation, and access control. Using AWS Resource Access Manager (AWS RAM), customers can share registries across accounts and create organization-wide registries. Registry can also auto-detect agents on AgentCore runtime and AgentCore gateways across the entire organization into a central registry, keeping records current without manual authoring. A new integration with Amazon Quick lets customers discover custom connectors from the registry directly on the Quick Connectors page.&lt;/p&gt; \n&lt;p&gt;AWS Agent Registry is available in five AWS Regions: US West (Oregon), Asia Pacific (Tokyo), Asia Pacific (Sydney), Europe (Ireland), and US East (N. Virginia). Learn more about the registry through &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/\"&gt;the blog&lt;/a&gt;, and deep dive using the &lt;a href=\"https://docs.aws.amazon.com/agent-registry/\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-agent-registry-generally-available",
-      "publishedAt": "2026-08-31T15:21:00.000Z",
-      "updatedAt": "2026-08-31T15:21:00.000Z",
-      "categories": [
-        "Amazon Bedrock",
-        "Management And Governance",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "amazon bedrock",
-        "management and governance",
-        "artificial intelligence",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "c4c1a3c99fdfaf03",
-      "title": "Amazon Bedrock AgentCore Memory now supports flexible namespace variables",
-      "description": "Amazon Bedrock AgentCore Memory now lets developers define flexible namespace variables to scope long-term memories along any application-specific dimension - such as organization, tenant, team, or environment - without creating duplicate strategies or overloading built-in variables. This gives multi-tenant and complex-hierarchy applications fine-grained control over how memories are organized, isolated, and accessed. Define keys on the memory resource, reference them in a strategy's namespace template, and supply values at runtime through the CreateEvent API. The service substitutes them into",
-      "descriptionHtml": "&lt;p&gt;Amazon Bedrock AgentCore Memory now lets developers define flexible namespace variables to scope long-term memories along any application-specific dimension - such as organization, tenant, team, or environment - without creating duplicate strategies or overloading built-in variables. This gives multi-tenant and complex-hierarchy applications fine-grained control over how memories are organized, isolated, and accessed.&lt;br&gt; &lt;br&gt; Define keys on the memory resource, reference them in a strategy's namespace template, and supply values at runtime through the CreateEvent API. The service substitutes them into namespace templates during long-term memory extraction. Up to five keys can be defined per memory resource, each referenceable across multiple strategies.&lt;br&gt; &lt;br&gt; Flexible namespace variables are available today in all AWS Regions where Amazon Bedrock AgentCore Memory is generally available, at no additional cost. To get started, see &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/specify-long-term-memory-organization.html\"&gt;Specify long-term memory organization with namespaces&lt;/a&gt; in the Amazon Bedrock AgentCore Developer Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-flexible-namespaces",
-      "publishedAt": "2026-08-28T20:00:00.000Z",
-      "updatedAt": "2026-08-28T20:00:00.000Z",
-      "categories": [
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "10a85bf78052a714",
-      "title": "Amazon Redshift integrates with Agent Toolkit for AWS for AI-assisted data warehouse management",
-      "description": "Amazon Redshift now integrates with the Agent Toolkit for AWS , enabling you to build, query, troubleshoot, and migrate to Amazon Redshift data warehouses and data lakes directly from AI agents such as Claude Code, Kiro, and Cursor. The integration pairs the AWS MCP (Model Context Protocol) server , which provides authenticated AWS API execution on your behalf — with Redshift skills : curated packages of tested procedures and reference material that help AI agents complete Redshift tasks more effectively. The Redshift skills cover SQL syntax references to reduce query generation errors, metada",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/redshift/\"&gt;Amazon Redshift&lt;/a&gt; now integrates with the &lt;a href=\"https://aws.amazon.com/products/developer-tools/agent-toolkit-for-aws/\"&gt;Agent Toolkit for AWS&lt;/a&gt;, enabling you to build, query, troubleshoot, and migrate to Amazon Redshift data warehouses and data lakes directly from AI agents such as Claude Code, Kiro, and Cursor. The integration pairs the &lt;a href=\"https://docs.aws.amazon.com/agent-toolkit/latest/userguide/mcp-server.html\"&gt;AWS MCP (Model Context Protocol) server&lt;/a&gt;, which provides authenticated AWS API execution on your behalf — with &lt;a href=\"https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/redshift-guide\"&gt;Redshift skills&lt;/a&gt;: curated packages of tested procedures and reference material that help AI agents complete Redshift tasks more effectively.&lt;/p&gt; \n&lt;p&gt;The &lt;a href=\"https://github.com/aws/agent-toolkit-for-aws/tree/1799aae50f30a8e97bab4faf38f2eadbd665028b/skills/specialized-skills/analytics-skills/redshift-guide\"&gt;Redshift skills&lt;/a&gt; cover SQL syntax references to reduce query generation errors, metadata discovery to explore schemas and data without writing SQL by hand, data loading patterns, materialized view best practices, function and data type guidance, and extensions such as Qualify, Pivot, and Super. It also guides end-to-end data warehouse migrations to Amazon Redshift, including discovery, schema and SQL conversion, data movement, validation, and performance comparison. We will continue to expand these skills with additional capabilities over time.&lt;/p&gt; \n&lt;p&gt;The skills work with provisioned clusters and &lt;a href=\"https://aws.amazon.com/redshift/redshift-serverless/\"&gt;Serverless&lt;/a&gt; workgroups, require no changes to existing infrastructure, and are available at no additional charge in all AWS Regions where Amazon Redshift and the AWS MCP Server are offered.&lt;/p&gt; \n&lt;p&gt;To get started, install the &lt;a href=\"https://github.com/aws/agent-toolkit-for-aws/tree/1799aae50f30a8e97bab4faf38f2eadbd665028b/plugins/aws-data-analytics\"&gt;aws-data-analytics plugin&lt;/a&gt; in your agent, which bundles the MCP Server configuration and Redshift skills in a single step. Agents with MCP Server access can also discover and load skills at runtime without pre-installation. For setup instructions, see the &lt;a href=\"https://docs.aws.amazon.com/agent-toolkit/latest/userguide/quick-start.html\"&gt;Agent Toolkit documentation&lt;/a&gt; or the &lt;a href=\"https://docs.aws.amazon.com/redshift/latest/mgmt/agent-skills.html\"&gt;Amazon Redshift skills documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-agenttoolkit-for-ai-assisted-datawarehouse-mgmt",
-      "publishedAt": "2026-08-27T20:07:00.000Z",
-      "updatedAt": "2026-08-27T20:07:00.000Z",
-      "categories": [
-        "Amazon Redshift",
-        "Analytics"
-      ],
-      "services": [
-        "Redshift"
-      ],
-      "tags": [
-        "amazon redshift",
-        "analytics",
-        "redshift"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "migrate"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "463ea43f10b2c8cb",
-      "title": "AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery",
-      "description": "AWS Elastic Disaster Recovery (AWS DRS) now offers Recovery Plans, a capability that automates the sequential launch of multi-server applications during recovery and drills. Instead of launching servers one at a time and tracking dependencies manually, you define the recovery sequence once and run it with a single action when you need it. This addresses a common challenge for customers running applications made up of databases, application tiers, and supporting services that must come up in a specific order. Recovery Plans let you group servers into sequential steps with configurable wait time",
-      "descriptionHtml": "&lt;p&gt;AWS Elastic Disaster Recovery (AWS DRS) now offers Recovery Plans, a capability that automates the sequential launch of multi-server applications during recovery and drills. Instead of launching servers one at a time and tracking dependencies manually, you define the recovery sequence once and run it with a single action when you need it. This addresses a common challenge for customers running applications made up of databases, application tiers, and supporting services that must come up in a specific order.&lt;/p&gt; \n&lt;p&gt;Recovery Plans let you group servers into sequential steps with configurable wait times between them, so your application recovers predictably and consistently every time. You can run plans in a non-disruptive drill mode to validate your procedures, add approval steps where you want a person in the loop, and monitor progress in real time. This automation reduces recovery time and eliminates common errors that occur when coordinating server launch order during high-stress disaster scenarios.&lt;/p&gt; \n&lt;p&gt;Recovery Plans are available in all AWS Regions where AWS DRS is offered, at no additional cost beyond standard DRS usage. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/drs/latest/userguide/recovery-plans.html\"&gt;AWS Elastic Disaster Recovery User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/",
-      "publishedAt": "2026-08-27T18:00:00.000Z",
-      "updatedAt": "2026-08-27T18:00:00.000Z",
-      "categories": [
-        "Storage",
-        "Management And Governance",
-        "AWS Elastic Disaster Recovery",
-        "Disaster Recovery"
-      ],
-      "services": [],
-      "tags": [
-        "storage",
-        "management and governance",
-        "aws elastic disaster recovery",
-        "disaster recovery"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "a880d59a364f61dc",
-      "title": "Amazon Connect Customer expands conversational analytics capabilities in the Africa (Cape Town) Region",
-      "description": "Amazon Connect Customer now supports generative AI-powered summaries, real-time call analytics, and real-time rules in the Africa (Cape Town) Region. These capabilities extend the post-contact conversational analytics already available in the Region, giving companies access to AI-powered insights that help them improve customer experience, agent performance, and operational efficiency. With generative AI-powered summaries, supervisors and human-agents receive concise, AI-generated summaries of customer interactions immediately after a contact ends, eliminating the need for manual note-taking a",
-      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now supports generative AI-powered summaries, real-time call analytics, and real-time rules in the Africa (Cape Town) Region. These capabilities extend the post-contact conversational analytics already available in the Region, giving companies access to AI-powered insights that help them improve customer experience, agent performance, and operational efficiency.&lt;/p&gt; \n&lt;p&gt;With generative AI-powered summaries, supervisors and human-agents receive concise, AI-generated summaries of customer interactions immediately after a contact ends, eliminating the need for manual note-taking and reducing after-contact work. Real-time call analytics provide live transcription enabling supervisors to monitor interactions as they happen and intervene when needed to improve outcomes. Real-time rules automatically categorize contacts and alert supervisors based on keywords, sentiment, and other criteria detected during a live interaction, enabling immediate action such as sending notifications or generating tasks.&lt;/p&gt; \n&lt;p&gt;To learn more about Connect Customer conversational analytics capabilities, refer to the &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/analyze-conversations.html\"&gt;Amazon Connect Customer Administrator Guide&lt;/a&gt; or visit the &lt;a href=\"https://aws.amazon.com/connect/\"&gt;Amazon Connect Customer website&lt;/a&gt;. For a complete list of conversational analytics features available by Region, refer to &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#contactlens_region\"&gt;Availability of Connect Customer features by Region&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/connect-customer-analytics-cape-town/",
-      "publishedAt": "2026-08-27T18:00:00.000Z",
-      "updatedAt": "2026-08-27T18:00:00.000Z",
-      "categories": [
-        "Contact Center",
-        "Amazon Connect",
-        "Analytics",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "Connect"
-      ],
-      "tags": [
-        "contact center",
-        "amazon connect",
-        "analytics",
-        "artificial intelligence",
-        "connect"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
       ],
       "source": "whats-new"
     }
