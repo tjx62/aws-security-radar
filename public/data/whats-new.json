@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T14:59:39.489Z",
+  "lastUpdated": "2026-10-30T14:53:05.578Z",
   "itemCount": 500,
   "items": [
     {
@@ -77,6 +77,42 @@
         "identity"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "4b2d636a48551795",
+      "title": "Using AWS WAF to apply mitigations for PHP2Shell RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619)",
+      "description": "October 29, 2026: We added guidance for end-of-life PHP versions (8.1 and earlier), including the source backports that the PHP security team published for PHP 7.4, 8.0, and 8.1. October 23, 2026 (update 2): The PHP project disclosed CVE-2026-115560, a separate remote code execution issue that the October 21 releases don’t fix. It affects only […]",
+      "descriptionHtml": "October 29, 2026: We added guidance for end-of-life PHP versions (8.1 and earlier), including the source backports that the PHP security team published for PHP 7.4, 8.0, and 8.1. October 23, 2026 (update 2): The PHP project disclosed CVE-2026-115560, a separate remote code execution issue that the October 21 releases don’t fix. It affects only […]",
+      "url": "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
+      "publishedAt": "2026-10-22T00:50:04.000Z",
+      "updatedAt": "2026-10-22T00:50:04.000Z",
+      "categories": [
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Security Blog"
+      ],
+      "services": [
+        "WAF"
+      ],
+      "tags": [
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "security blog",
+        "waf"
+      ],
+      "isNew": false,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "WAF",
+        "security",
+        "end-of-life"
+      ],
+      "source": "security-blog"
     },
     {
       "id": "90b9569e8d2397e3",
@@ -1693,41 +1729,6 @@
       "source": "security-blog"
     },
     {
-      "id": "4b2d636a48551795",
-      "title": "Using AWS WAF to apply mitigations for PHP2Shell RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619)",
-      "description": "October 23, 2026-2: The PHP project disclosed CVE-2026-115560, a separate remote code execution issue that the October 21 releases don’t fix. It affects only applications with an uncommon configuration that keeps session upload progress enabled. The PHP2Shell_BODY rule in the PHP application managed rule group, version 2.4 and later, already blocks POST requests that carry […]",
-      "descriptionHtml": "October 23, 2026-2: The PHP project disclosed CVE-2026-115560, a separate remote code execution issue that the October 21 releases don’t fix. It affects only applications with an uncommon configuration that keeps session upload progress enabled. The PHP2Shell_BODY rule in the PHP application managed rule group, version 2.4 and later, already blocks POST requests that carry […]",
-      "url": "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/",
-      "publishedAt": "2026-10-22T00:50:04.000Z",
-      "updatedAt": "2026-10-22T00:50:04.000Z",
-      "categories": [
-        "Security",
-        "Identity",
-        "& Compliance",
-        "Technical How To",
-        "Security Blog"
-      ],
-      "services": [
-        "WAF"
-      ],
-      "tags": [
-        "security",
-        "identity",
-        "& compliance",
-        "technical how to",
-        "security blog",
-        "waf"
-      ],
-      "isNew": false,
-      "securityScore": 90,
-      "securityLevel": "critical",
-      "securityMatches": [
-        "WAF",
-        "Config"
-      ],
-      "source": "security-blog"
-    },
-    {
       "id": "7411a19955fb3b93",
       "title": "Amazon Cognito extends multi-Region replication to AWS GovCloud (US) Regions",
       "description": "Amazon Cognito multi-Region replication (MRR) now supports AWS GovCloud (US) Regions, extending the resilience benefits of MRR to more workloads. MRR lets you synchronize user and machine identity data, including credentials, user pool configurations, and federation setups, to a secondary user pool in a standby Region you designate, in near real-time. With user data in the standby Region, you can redirect traffic and keep authentication available if there is a disruption in your primary Region. Previously, MRR was available in 16 commercial Regions. You can now also use MRR to replicate betwee",
@@ -1903,6 +1904,38 @@
         "VPC",
         "PrivateLink",
         "FIPS"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "e4c6130bb2bb6bfc",
+      "title": "ACM now supports ACME for public certificates in AWS GovCloud (US)",
+      "description": "AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS certificates from Amazon Trust Services using any ACMEv2-compatible client, including Certbot, cert-manager for Kubernetes, and acme.sh. With the CA/Browser Forum mandating 47-day certificate lifetimes by 2029, manual management of public certificates becomes untenable. ACME support in ACM gives developers a standards-based path to fully automate certificate issuance and renewal. To learn more, visit the",
+      "descriptionHtml": "&lt;p&gt;AWS Certificate Manager (ACM) ACME protocol support is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West), providing a fully managed ACME server endpoint that issues public TLS certificates from Amazon Trust Services using any ACMEv2-compatible client, including Certbot, cert-manager for Kubernetes, and acme.sh. With the CA/Browser Forum mandating 47-day certificate lifetimes by 2029, manual management of public certificates becomes untenable. ACME support in ACM gives developers a standards-based path to fully automate certificate issuance and renewal.&lt;/p&gt;\n&lt;p&gt;To learn more, visit the &lt;a href=\"https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/\"&gt;AWS News blog post&lt;/a&gt;, the &lt;a href=\"https://docs.aws.amazon.com/acm/latest/userguide/acm-acme.html\"&gt;ACM ACME documentation&lt;/a&gt;, the &lt;a href=\"https://aws.amazon.com/certificate-manager/pricing/\"&gt;ACM pricing page&lt;/a&gt;, and the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regional Services page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/acm-acme-support-govcloud-us/",
+      "publishedAt": "2026-10-29T08:00:00.000Z",
+      "updatedAt": "2026-10-29T08:00:00.000Z",
+      "categories": [
+        "AWS Govcloud Us",
+        "Security Identity And Compliance",
+        "AWS Certificate Manager"
+      ],
+      "services": [
+        "ACM"
+      ],
+      "tags": [
+        "aws govcloud us",
+        "security identity and compliance",
+        "aws certificate manager",
+        "acm"
+      ],
+      "isNew": true,
+      "securityScore": 85,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Certificate Manager",
+        "ACM",
+        "TLS"
       ],
       "source": "whats-new"
     },
@@ -2836,6 +2869,36 @@
         "audit"
       ],
       "source": "security-blog"
+    },
+    {
+      "id": "d67e3a17ae403798",
+      "title": "Public endpoints for Amazon ElastiCache Serverless now in AWS GovCloud (US)",
+      "description": "Amazon ElastiCache Serverless for Valkey now supports public endpoints in the AWS GovCloud (US) Regions. A public endpoint lets you connect to your cache from a serverless function or any application running outside a VPC, without setting up a VPN, a bastion host, or an SSH tunnel. With a public endpoint, ElastiCache Serverless gives you a fully managed cache with no VPC to configure and no infrastructure to provision, and you can create one in under a minute. Every connection uses IAM authentication over TLS 1.3, so there's no password to store or rotate. Connect using Valkey GLIDE 2.2 or lat",
+      "descriptionHtml": "&lt;p&gt;Amazon ElastiCache Serverless for Valkey now supports public endpoints in the AWS GovCloud (US) Regions. A public endpoint lets you connect to your cache from a serverless function or any application running outside a VPC, without setting up a VPN, a bastion host, or an SSH tunnel.&lt;/p&gt; \n&lt;p&gt;With a public endpoint, ElastiCache Serverless gives you a fully managed cache with no VPC to configure and no infrastructure to provision, and you can create one in under a minute. Every connection uses IAM authentication over TLS 1.3, so there's no password to store or rotate. Connect using Valkey GLIDE 2.2 or later, which has built-in IAM support, or another Valkey client paired with the Developer Toolkit for ElastiCache, an open-source library that generates and refreshes IAM authentication tokens for you.&lt;/p&gt; \n&lt;p&gt;With this expansion, public endpoints for ElastiCache Serverless are now available in all commercial AWS Regions, the AWS GovCloud (US) Regions, and the China Regions. There is no additional charge for using public endpoints beyond standard ElastiCache Serverless pricing.&lt;/p&gt; \n&lt;p&gt;To get started, create a Valkey 9.0 or later serverless cache with a public endpoint using the AWS Management Console, AWS SDK, or AWS CLI. To learn more about public endpoints, see &lt;a href=\"https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/serverless-public-endpoints-chapter.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Create a Valkey serverless cache with a public endpoint&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-public-endpoints-govcloud/",
+      "publishedAt": "2026-10-28T19:00:00.000Z",
+      "updatedAt": "2026-10-28T19:00:00.000Z",
+      "categories": [
+        "AWS Govcloud Us"
+      ],
+      "services": [
+        "ElastiCache"
+      ],
+      "tags": [
+        "aws govcloud us",
+        "elasticache"
+      ],
+      "isNew": true,
+      "securityScore": 75,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "TLS",
+        "authentication",
+        "VPC",
+        "Config"
+      ],
+      "source": "whats-new"
     },
     {
       "id": "2ed3fea838b1aed3",
@@ -3856,7 +3919,7 @@
       "tags": [
         "athena"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 60,
       "securityLevel": "high",
       "securityMatches": [
@@ -4383,6 +4446,26 @@
         "security"
       ],
       "source": "security-blog"
+    },
+    {
+      "id": "2ab79bd8f3e60c2e",
+      "title": "CVE-2026-119115 - Incorrect authorization in issuer resolution in AWS Private CA Connector for Kubernetes",
+      "description": "Bulletin ID: 2026-156-AWS Publication Date: 10/29/2026 09:30 AM PDT Description: We are aware of CVE-2026-119115, an incorrect authorization issue in the issuer resolution logic. In affected versions, under certain conditions, an authenticated user whose approval policy only authorizes a namespace-scoped issuer could obtain certificates, including subordinate CA certificates, signed by a cluster-scoped issuer they are not authorized to use. Impacted versions: - aws-privateca-issuer before v1.10.1 - AWS Private CA Connector for Kubernetes EKS add-on before v1.10.1-eksbuild.1 Please refer to the",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-156-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/29/2026 09:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We are aware of CVE-2026-119115, an incorrect authorization issue in the issuer resolution logic. In affected versions, under certain conditions, an authenticated user whose approval policy only authorizes a namespace-scoped issuer could obtain certificates, including subordinate CA certificates, signed by a cluster-scoped issuer they are not authorized to use.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;br&gt; - aws-privateca-issuer before v1.10.1&lt;br&gt; - AWS Private CA Connector for Kubernetes EKS add-on before v1.10.1-eksbuild.1&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-156-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-156-aws/",
+      "publishedAt": "2026-10-29T16:45:45.000Z",
+      "updatedAt": "2026-10-29T16:45:45.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 55,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "authorization",
+        "policy"
+      ],
+      "source": "security-bulletin"
     },
     {
       "id": "c809cd46f48ccf4a",
@@ -5451,6 +5534,36 @@
         "permission",
         "access",
         "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "8fc43b3d0efcc5fb",
+      "title": "Amazon Aurora now supports post-quantum TLS key exchange",
+      "description": "Starting today, Amazon Aurora PostgreSQL-Compatible Edition introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in transit. Amazon Aurora PostgreSQL versions 18 and higher support modification of the ssl_groups parameter. You can select cryptographic groups from the Amazon Aurora PostgreSQL allow list to align with your organization's security standards. Amazon Aurora is designed for high performance and availability at global scale with full PostgreSQL compatibility. It provides scale-to-zero serverless c",
+      "descriptionHtml": "&lt;p&gt;Starting today, &lt;a href=\"https://aws.amazon.com/rds/aurora/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Aurora PostgreSQL-Compatible Edition&lt;/a&gt;&amp;nbsp;introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in transit.&lt;/p&gt; \n&lt;p&gt;Amazon Aurora PostgreSQL versions 18 and higher support modification of the ssl_groups parameter. You can &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Security.html#PostgreSQL.Concepts.General.SSL.Groups\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;select cryptographic groups&lt;/a&gt; from the&amp;nbsp;Amazon Aurora PostgreSQL allow list to align with your organization's security standards.&lt;/p&gt; \n&lt;p&gt;Amazon Aurora is designed for high performance and availability at global scale with full PostgreSQL compatibility. It provides scale-to-zero serverless compute, Aurora Global Database for multi-Region resilience, Aurora I/O-Optimized for improved price performance on I/O-intensive workloads, and built-in security and continuous backups. To get started, take a look at our &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_GettingStartedAurora.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;getting started page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-postgresql-post-quantum-tls-key-exchange/",
+      "publishedAt": "2026-10-29T16:00:00.000Z",
+      "updatedAt": "2026-10-29T16:00:00.000Z",
+      "categories": [
+        "Amazon Aurora",
+        "Databases"
+      ],
+      "services": [
+        "Aurora"
+      ],
+      "tags": [
+        "amazon aurora",
+        "databases",
+        "aurora"
+      ],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "high",
+      "securityMatches": [
+        "encrypt",
+        "TLS",
+        "security"
       ],
       "source": "whats-new"
     },
@@ -6529,7 +6642,7 @@
       "tags": [
         "security identity and compliance"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -6549,7 +6662,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -6574,7 +6687,7 @@
         "sam",
         "terraform"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -7938,7 +8051,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -9614,7 +9727,7 @@
         "aws govcloud us",
         "amazon corretto"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 25,
       "securityLevel": "medium",
       "securityMatches": [
@@ -12081,6 +12194,93 @@
       "source": "whats-new"
     },
     {
+      "id": "bbd7d199a4807ed1",
+      "title": "AWS Marketplace now enables partners to list once and sell through multiple subsidiary accounts",
+      "description": "Today, AWS announces that AWS partners who operate multiple legal entities can publish a product listing once in their primary account and enable their local subsidiaries to sell it through direct private offers — eliminating the need to recreate and maintain duplicate listings across every account. From the primary account, which retains ownership of the listing, partners authorize which products each subsidiary can sell and which buyer countries it can extend private offers to. Each subsidiary transacts under its own local tax identity, selects the local currencies it supports, and sets its ",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces that AWS partners who operate multiple legal entities can publish a product listing once in their primary account and enable their local subsidiaries to sell it through direct private offers — eliminating the need to recreate and maintain duplicate listings across every account.&lt;/p&gt; \n&lt;p&gt;From the primary account, which retains ownership of the listing, partners authorize which products each subsidiary can sell and which buyer countries it can extend private offers to. Each subsidiary transacts under its own local tax identity, selects the local currencies it supports, and sets its own disbursement preferences and bank account. The AWS Marketplace insights report in the primary account provides a consolidated view of offers, agreements, and renewals across all connected subsidiary accounts. Partners can revoke a subsidiary authorization or a subsidiary connection at any time, which immediately stops that subsidiary from creating new offers — agreements and offers already extended to buyers remain unchanged.&lt;/p&gt; \n&lt;p&gt;This capability is available today at no additional cost in all AWS Regions where AWS Marketplace is available. To get started, see &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/partner-central/latest/getting-started/manage-subsidiary.html\"&gt;Managing subsidiary account connections&amp;nbsp;&lt;/a&gt; and &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/userguide/subsidiary-offers.html\"&gt;Creating private offers as a subsidiary account&amp;nbsp;&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization",
+      "publishedAt": "2026-10-29T20:12:00.000Z",
+      "updatedAt": "2026-10-29T20:12:00.000Z",
+      "categories": [
+        "AWS Marketplace And Partners"
+      ],
+      "services": [],
+      "tags": [
+        "aws marketplace and partners"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "fe62268d33d35d03",
+      "title": "Amazon MSK Connect now supports updating connector plugins and worker configurations",
+      "description": "Amazon MSK Connect (Amazon Managed Streaming for Apache Kafka Connect) now lets you update the custom plugin and worker configuration of an existing connector. This is useful when you need to update the custom plugin to run a new version of your connector code, for example one with updated dependencies. You can also update the worker configuration to change worker-level settings, such as switching key and value converters or tuning producer and consumer properties for throughput and latency. Amazon MSK Connect is a fully managed service that allows you to deploy, monitor, and scale Apache Kafk",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/msk/features/msk-connect/\"&gt;&lt;u&gt;Amazon MSK Connect&lt;/u&gt;&lt;/a&gt; (Amazon Managed Streaming for Apache Kafka Connect) now lets you update the custom plugin and worker configuration of an existing connector. This is useful when you need to update the custom plugin to run a new version of your connector code, for example one with updated dependencies. You can also update the worker configuration to change worker-level settings, such as switching key and value converters or tuning producer and consumer properties for throughput and latency.&lt;/p&gt; \n&lt;p&gt;Amazon MSK Connect is a fully managed service that allows you to deploy, monitor, and scale Apache Kafka Connect connectors with &lt;a href=\"https://aws.amazon.com/msk/\"&gt;&lt;u&gt;Amazon MSK&lt;/u&gt;&lt;/a&gt; (Managed Streaming for Apache Kafka). Previously, updating a connector's plugin or worker configuration meant deleting the connector and recreating it - a disruptive operation that added risk and operational overhead. With this launch, you can update a connector's plugin and worker configuration in place. The connector keeps its committed offsets, so its tasks continue processing from where they left off once the update completes.&lt;/p&gt; \n&lt;p&gt;This capability is available at no additional cost in all AWS Regions where Amazon MSK Connect is supported. To learn more, visit &lt;a href=\"https://docs.aws.amazon.com/msk/latest/developerguide/msk-connect.html\"&gt;&lt;u&gt;Amazon MSK Connect developer guide&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-connect-update-plugin-worker-configurations",
+      "publishedAt": "2026-10-29T15:00:00.000Z",
+      "updatedAt": "2026-10-29T15:00:00.000Z",
+      "categories": [
+        "Amazon Msk",
+        "Analytics"
+      ],
+      "services": [
+        "MSK",
+        "Connect"
+      ],
+      "tags": [
+        "amazon msk",
+        "analytics",
+        "msk",
+        "connect"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "a39be66c5a0cd62f",
+      "title": "AWS Backup now supports cross-account management and cross-account backup in the AWS European Sovereign Cloud",
+      "description": "AWS Backup now supports cross-account management, cross-account backup, and delegated administrators in the AWS European Sovereign Cloud (Germany) Region. These capabilities help you centrally manage, monitor, and copy backups across the accounts in your organization using AWS Organizations. With cross-account management, you can deploy organization-wide backup policies from your AWS Organizations management account or a delegated administrator account. You can also monitor backup, copy, and restore jobs across all of your organization accounts from one place. With cross-account backup, you ca",
+      "descriptionHtml": "&lt;p&gt;AWS Backup now supports cross-account management, cross-account backup, and delegated administrators in the AWS European Sovereign Cloud (Germany) Region. These capabilities help you centrally manage, monitor, and copy backups across the accounts in your organization using AWS Organizations.&lt;/p&gt; \n&lt;p&gt;With cross-account management, you can deploy organization-wide backup policies from your AWS Organizations management account or a delegated administrator account. You can also monitor backup, copy, and restore jobs across all of your organization accounts from one place. With cross-account backup, you can copy recovery points to a backup vault in another account in your organization, which adds protection against accidental or malicious deletion in the source account. You can also register a member account as a delegated administrator, so your teams can manage backups across your organization without needing access to your management account.&lt;/p&gt; \n&lt;p&gt;There is no additional charge to use these capabilities; standard AWS Backup pricing applies. To learn more, see the AWS Backup documentation at &lt;a href=\"https://docs.aws.amazon.com/aws-backup/\"&gt;https://docs.aws.amazon.com/aws-backup/&lt;/a&gt;. To get started, visit the AWS Backup console at &lt;a href=\"https://console.aws.amazon.com/backup\"&gt;https://console.aws.amazon.com/backup&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-cross-account-esc/",
+      "publishedAt": "2026-10-29T08:00:00.000Z",
+      "updatedAt": "2026-10-29T08:00:00.000Z",
+      "categories": [
+        "AWS Organizations",
+        "AWS Backup",
+        "Management And Governance",
+        "Storage"
+      ],
+      "services": [
+        "Backup",
+        "Organizations"
+      ],
+      "tags": [
+        "aws organizations",
+        "aws backup",
+        "management and governance",
+        "storage",
+        "backup",
+        "organizations"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Organizations"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "02bf3705d3d86c18",
       "title": "Amazon Bedrock AgentCore CLI version 1.0 is now available",
       "description": "AWS announces the general availability of Amazon Bedrock AgentCore CLI version 1.0 (@aws/agentcore 1.0.0), rebuilt with faster startup, a consistent command structure, and support for more AgentCore resources. The CLI helps developers create, develop, deploy, and operate AI agents and supporting resources from the terminal. With version 1.0, developers can use the project workflow or work directly with harnesses, runtimes, memory, identity, gateways, and payments without first adding them to a project. Developers can invoke existing resources by ID or ARN, open an interactive shell, export a h",
@@ -12194,6 +12394,32 @@
       "source": "whats-new"
     },
     {
+      "id": "8ed4a83dec810817",
+      "title": "AWS Agent Registry is now available in four additional AWS Regions",
+      "description": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in four additional AWS Regions: Europe (London) eu-west-2, Europe (Frankfurt) eu-central-1, US East (Ohio) us-east-2, and Canada (Central) ca-central-1. AWS Agent Registry is a fully managed discovery service that provides a centralized catalog for organizing, curating, and discovering resources across your organization. With AWS Agent Registry, you can publish MCP servers, tools, agents, agent skills, and custom resources into a searchable registry, control access through an approval workflow, and enable both hum",
+      "descriptionHtml": "&lt;p&gt;AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in four additional AWS Regions: Europe (London) eu-west-2, Europe (Frankfurt) eu-central-1, US East (Ohio) us-east-2, and Canada (Central) ca-central-1.&lt;/p&gt;\n&lt;p&gt;AWS Agent Registry is a fully managed discovery service that provides a centralized catalog for organizing, curating, and discovering resources across your organization. With AWS Agent Registry, you can publish MCP servers, tools, agents, agent skills, and custom resources into a searchable registry, control access through an approval workflow, and enable both human users and AI agents to discover the right tools and agents through hybrid search, catalog browsing, and a native MCP endpoint.&lt;/p&gt;\n&lt;p&gt;AWS Agent Registry is now available in nine AWS Regions. For a complete list of Region availability, see the AWS Regional Services List.&lt;/p&gt;\n&lt;p&gt;To get started, see the AWS Agent Registry documentation: &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/registry.html\"&gt;https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/registry.html&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-agent-registry-four-regions/",
+      "publishedAt": "2026-10-28T08:00:00.000Z",
+      "updatedAt": "2026-10-28T08:00:00.000Z",
+      "categories": [
+        "Amazon Bedrock"
+      ],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "amazon bedrock",
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "ec4053628a648a22",
       "title": "Amazon ElastiCache for Valkey now supports changing durability on existing clusters",
       "description": "Amazon ElastiCache for Valkey now lets you enable or disable durability on your existing node-based clusters. Previously, you couldn't change the durability configuration of an existing cluster in place. This made it harder to move from caching to persistent data store use cases, or to adapt as your application requirements change. Now you can change durability at any point in your application's lifecycle. You can choose between two durability options: synchronous and asynchronous writes. Synchronous writes persist data across at least two AZs before responding to the client, designed for zero",
@@ -12218,6 +12444,36 @@
       "securityLevel": "low",
       "securityMatches": [
         "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "ee52e5993b6b329f",
+      "title": "Amazon Bedrock now offers Canada cross-Region inference for Claude Haiku 5.5",
+      "description": "Amazon Bedrock now offers Canada cross-Region inference (CRIS) for Anthropic's Claude Haiku 5.5. Customers with strict data residency requirements can now keep inference processing entirely within Canada. Canada CRIS routes requests only between ca-central-1 (Canada Central) and ca-west-1 (Canada West, Calgary). This helps organizations in financial services, healthcare, the public sector, and other regulated industries meet federal and provincial data residency requirements. Canada CRIS adds to the inference options already available to customers in Canada. US CRIS and global CRIS remain full",
+      "descriptionHtml": "&lt;p&gt;Amazon Bedrock now offers Canada cross-Region inference (CRIS) for Anthropic's Claude Haiku 5.5. Customers with strict data residency requirements can now keep inference processing entirely within Canada. Canada CRIS routes requests only between ca-central-1 (Canada Central) and ca-west-1 (Canada West, Calgary). This helps organizations in financial services, healthcare, the public sector, and other regulated industries meet federal and provincial data residency requirements.&lt;/p&gt;\n&lt;p&gt;Canada CRIS adds to the inference options already available to customers in Canada. US CRIS and global CRIS remain fully supported for Claude Haiku 5.5. Both route requests across a broader set of AWS Regions, and global CRIS also offers cost savings, which makes these options a good fit for workloads that don't require inference processing to stay in Canada.&lt;/p&gt;\n&lt;p&gt;Canada CRIS is designated as an inference profile with limited model selection. Future models and model versions might not be released for this profile. We recommend Canada CRIS for workloads that must keep inference processing within Canada. For more details, see &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/inference-profiles-limited-model-selection.html\"&gt;Inference profiles with limited model selection&lt;/a&gt; in the Amazon Bedrock User Guide.&lt;/p&gt;\n&lt;p&gt;For the most current information about model availability in each Region, see &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html\"&gt;Regional availability&lt;/a&gt; by models in the Amazon Bedrock User Guide. To get started with Claude models on Amazon Bedrock, visit the Amazon Bedrock console.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-canada-cris/",
+      "publishedAt": "2026-10-27T08:00:00.000Z",
+      "updatedAt": "2026-10-27T08:00:00.000Z",
+      "categories": [
+        "Amazon Bedrock",
+        "Artificial Intelligence"
+      ],
+      "services": [
+        "Bedrock",
+        "Claude"
+      ],
+      "tags": [
+        "amazon bedrock",
+        "artificial intelligence",
+        "bedrock",
+        "claude"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Organizations"
       ],
       "source": "whats-new"
     },
@@ -12355,7 +12611,7 @@
         "analytics",
         "opensearch"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -12385,7 +12641,7 @@
         "direct connect",
         "connect"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -13943,272 +14199,6 @@
       "securityLevel": "low",
       "securityMatches": [
         "Organizations"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "16cbbe0e099c8bdf",
-      "title": "Amazon Bedrock AgentCore Memory now supports direct ingestion to long-term memory",
-      "description": "Amazon Bedrock AgentCore Memory now lets developers submit content directly for long-term memory extraction without persisting it as a short-term memory event. The new IngestData API accepts content, fans it out to the memory's configured long-term memory strategies, and makes the resulting memory records available through the same retrieval operations used for any other long-term memory records, all without creating a short-term event. Until now, all content had to be stored as a short-term memory event before extraction strategies could process it into long-term memory records. IngestData re",
-      "descriptionHtml": "&lt;p&gt;Amazon Bedrock AgentCore Memory now lets developers submit content directly for long-term memory extraction without persisting it as a short-term memory event. The new IngestData API accepts content, fans it out to the memory's configured long-term memory strategies, and makes the resulting memory records available through the same retrieval operations used for any other long-term memory records, all without creating a short-term event.\n &lt;br&gt;\n &lt;br&gt;\n Until now, all content had to be stored as a short-term memory event before extraction strategies could process it into long-term memory records. IngestData removes this requirement, enabling developers to adopt long-term memory independently of short-term memory.\n &lt;br&gt;\n &lt;br&gt;\n IngestData supports both conversational payloads (messages with USER/ASSISTANT roles) and JSON payloads (behavioral events, activity logs, system events), and accepts optional metadata that feeds the same extraction pipeline as CreateEvent. After processing, developers can verify extraction results with ListMemoryRecords or RetrieveMemoryRecords, stream real-time notifications via Kinesis, and redrive failed extractions with ListMemoryExtractionJobs. To get started, see &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/long-term-ingest-data.html\"&gt;Direct ingestion to long-term memory&lt;/a&gt; in the Amazon Bedrock AgentCore Developer Guide. IngestData is available in all AWS Regions where Amazon Bedrock AgentCore Memory is supported.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentcore-memory-direct-ingest",
-      "publishedAt": "2026-09-08T16:00:00.000Z",
-      "updatedAt": "2026-09-08T16:00:00.000Z",
-      "categories": [
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "11c1a10eaf90014e",
-      "title": "Dynamic Image Transformation for Amazon CloudFront adds four new features",
-      "description": "Today, AWS announced four new features for Dynamic Image Transformation for Amazon CloudFront (DIT). Customers can now use enhanced smart cropping with custom label detection and advanced composition controls that preserve products, text, logos, and custom objects within cropped images. In addition, customers benefit from enhanced automatic image optimization that delivers appropriately sized images across every browser and device type, from phones and tablets to smart TVs, using CloudFront's multi-tier device detection to maximize optimization reach regardless of how users access content. DIT",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announced four new features for Dynamic Image Transformation for Amazon CloudFront (DIT). Customers can now use enhanced smart cropping with custom label detection and advanced composition controls that preserve products, text, logos, and custom objects within cropped images. In addition, customers benefit from enhanced automatic image optimization that delivers appropriately sized images across every browser and device type, from phones and tablets to smart TVs, using CloudFront's multi-tier device detection to maximize optimization reach regardless of how users access content. DIT also introduces an interactive image transformation playground for testing and validating transformations, and achieves full feature parity between it's ECS and Lambda architectures.&lt;/p&gt; \n&lt;p&gt;DIT's expanded smart cropping enables customers to combine multiple detection methods including faces, labels, text, logos, and custom Amazon Rekognition models, in a single request with configurable aspect ratios, padding, and gravity constraints prioritized by business need. Enhanced automatic optimization now uses a tiered detection approach, layering CloudFront's device classification headers and configurable fallbacks behind Client Hints, to eliminate the browser-support gap that left ~30% of traffic previously served unoptimized and extend right-sized image delivery beyond browsers to all device types. The image transformation playground displays transformed images with extended metrics including original and output dimensions, format, file size, compression ratios, and processing time, enabling customers to validate the performance of their transformation policies.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transfromation-adds-new-features/",
-      "publishedAt": "2026-09-08T14:32:00.000Z",
-      "updatedAt": "2026-09-08T14:32:00.000Z",
-      "categories": [
-        "Content Delivery",
-        "Amazon Cloudfront"
-      ],
-      "services": [
-        "CloudFront"
-      ],
-      "tags": [
-        "content delivery",
-        "amazon cloudfront",
-        "cloudfront"
-      ],
-      "isNew": true,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "ad51dd5101954569",
-      "title": "Amazon Bedrock Managed Knowledge Base now supports automatic sync scheduling for data source connectors",
-      "description": "AWS announces automatic sync scheduling for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service that handles data ingestion, storage optimization, and advanced retrieval without requiring you to manage vector databases or data pipelines. Previously, keeping your knowledge base current required manually triggering a sync each time your source data changed or building a custom solution. Now, you can configure daily, weekly, or monthly sync schedules for all native data source connectors, so your AI agents always retrieve the most up-to-date informa",
-      "descriptionHtml": "&lt;p&gt;AWS announces automatic sync scheduling for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service that handles data ingestion, storage optimization, and advanced retrieval without requiring you to manage vector databases or data pipelines. Previously, keeping your knowledge base current required manually triggering a sync each time your source data changed or building a custom solution. Now, you can configure daily, weekly, or monthly sync schedules for all native data source connectors, so your AI agents always retrieve the most up-to-date information.&lt;br&gt; With automatic sync scheduling, you can match your sync frequency to how often your source content changes. For example, set a daily sync for a rapidly evolving customer support knowledge base in Confluence, a weekly sync for SharePoint policy documents that update periodically, or a monthly sync for reference materials stored in Amazon S3. This eliminates the need to build and maintain custom scheduling workarounds, reducing operational overhead while ensuring your retrieval-augmented generation applications stay grounded in current enterprise data.&lt;br&gt; To learn more, see &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/kb-managed-sync.html#kb-managed-sync-schedule\"&gt;Sync scheduling for data sources&lt;/a&gt; in the Amazon Bedrock User Guide. For more information about Amazon Bedrock Managed Knowledge Base, visit the &lt;a href=\"https://aws.amazon.com/bedrock/knowledge-bases/\" target=\"_blank\"&gt;Amazon Bedrock Knowledge Bases product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-automatic-sync-scheduling-data-source-connectors/",
-      "publishedAt": "2026-09-04T21:01:00.000Z",
-      "updatedAt": "2026-09-04T21:01:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Business Productivity",
-        "Aiml"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "business productivity",
-        "aiml",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "950d7b9c7a6a788f",
-      "title": "Amazon ECS introduces Early Success Criteria for service deployments",
-      "description": "Amazon Elastic Container Service (Amazon ECS) now supports Early Success Criteria for rolling service deployments, giving you the flexibility to define when a deployment is considered successful based on your confidence level and the operational needs of your workload. This can help you complete deployments sooner and unblock subsequent deployments, CI/CD pipelines, and other dependent operations. With Early Success Criteria, you configure the healthy percent - the proportion of desired tasks that must be running and healthy on the target service revision before the deployment is marked succes",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/ecs/\" target=\"_blank\"&gt;Amazon Elastic Container Service&lt;/a&gt; (Amazon ECS)&amp;nbsp;now supports Early Success Criteria for rolling service deployments, giving you the flexibility to define when a deployment is considered successful based on your confidence level and the operational needs of your workload. This can help you complete deployments sooner and unblock subsequent deployments, CI/CD pipelines, and other dependent operations.&lt;/p&gt; \n&lt;p&gt;With Early Success Criteria, you configure the healthy percent - the proportion of desired tasks that must be running and healthy on the target service revision before the deployment is marked successful. For example, with a desired count of 100 and a healthy percent of 90%, Amazon ECS marks the deployment successful after 90 tasks are healthy and continues launching the remaining tasks through regular service scaling, outside the deployment lifecycle. This can benefit workloads running on specialized or constrained capacity, such as GPU-accelerated inference workloads, where hardware availability can extend task launch times. Early Success Criteria also gives you more control over how long deployment rollback monitoring applies, allowing it to protect the deployment until your configured success criteria are met while subsequent scale-out continues through regular service scaling. You can also choose how Amazon ECS handles source service revision cleanup using BLOCKING or DEFERRED. With BLOCKING, Amazon ECS completes source revision cleanup before declaring success. With DEFERRED, Amazon ECS declares success when the criteria are met and drains source revision tasks asynchronously outside the deployment. This benefits services with active long-lived connections or task scale-in protection, where source revision tasks may need to remain running without holding the deployment open.&lt;/p&gt; \n&lt;p&gt;The feature is available with the rolling deployment strategy in all AWS Commercial and AWS GovCloud (US)&amp;nbsp;&lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\"&gt;Regions&lt;/a&gt;. You can configure Early Success Criteria for new and existing Amazon ECS services using the AWS Management Console, AWS CLI, AWS SDKs, and infrastructure as code (IaC) tools. To learn more, see our &lt;a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/early-success-criteria.html\" target=\"_blank\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
-      "publishedAt": "2026-09-04T17:00:00.000Z",
-      "updatedAt": "2026-09-04T17:00:00.000Z",
-      "categories": [
-        "Containers",
-        "Amazon Ecs",
-        "AWS Govcloud Us",
-        "AWS Fargate",
-        "Serverless"
-      ],
-      "services": [
-        "ECS",
-        "Fargate"
-      ],
-      "tags": [
-        "containers",
-        "amazon ecs",
-        "aws govcloud us",
-        "aws fargate",
-        "serverless",
-        "ecs",
-        "fargate"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "ba859f440081749d",
-      "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions",
-      "description": "Today, AWS Model Context Protocol Server (AWS MCP Server) added a serverless capability so that coding agents such as Claude Code and Kiro can efficiently diagnose issues with your Lambda functions. The serverless capability helps you troubleshoot your running Lambda functions and their connected resources. The AWS MCP Server, available through the Agent Toolkit for AWS or as a standalone installation, is a managed service that gives AI coding agents secure access to AWS services. With the new serverless capability in the AWS MCP Server, your coding agent inspects your Lambda function and its ",
-      "descriptionHtml": "&lt;p&gt;Today, &lt;a href=\"https://docs.aws.amazon.com/agent-toolkit/latest/userguide/mcp-server.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Model Context Protocol Server&lt;/a&gt; (AWS MCP Server) added a serverless capability so that coding agents such as Claude Code and Kiro can efficiently diagnose issues with your Lambda functions. The serverless capability helps you troubleshoot your running Lambda functions and their connected resources.&lt;/p&gt; \n&lt;p&gt;The AWS MCP Server, available through the &lt;a href=\"https://aws.amazon.com/products/developer-tools/agent-toolkit-for-aws/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Agent Toolkit for AWS&lt;/a&gt; or as a standalone installation, is a managed service that gives AI coding agents secure access to AWS services. With the new serverless capability in the AWS MCP Server, your coding agent inspects your Lambda function and its connected resources across Amazon API Gateway, Amazon EventBridge, Amazon S3, Amazon DynamoDB, Amazon SNS, Amazon SQS, and AWS Step Functions. The agent can correlate error signals against a 7-day baseline to pinpoint what changed, surface recurring errors to identify trends, retrieve the deployed configuration of your function and connected resources, provide a timeline of recent changes to track what happened, and analyze service latency across connected resources. As the agent gets comprehensive data in a single call, it consumes fewer tokens compared to orchestrating multiple API calls.&lt;/p&gt; \n&lt;p&gt;To get started, configure the &lt;a href=\"https://aws.amazon.com/products/developer-tools/agent-toolkit-for-aws/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Agent toolkit for AWS&lt;/a&gt; by running ‘aws configure agent-toolkit’ from the AWS CLI, or enable the &lt;a href=\"https://docs.aws.amazon.com/agent-toolkit/latest/userguide/getting-started-aws-mcp-server.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS MCP Server&lt;/a&gt; directly.&lt;/p&gt; \n&lt;p&gt;The AWS MCP Server can access services in all commercial &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions&lt;/a&gt;, while the AWS MCP Server itself runs in the US East (N. Virginia) and Europe (Frankfurt) Regions. The serverless diagnostic capabilities in the AWS MCP Server are available at no additional cost. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/agent-toolkit/latest/userguide/capabilities.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;user guide&lt;/a&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
-      "publishedAt": "2026-09-04T16:31:00.000Z",
-      "updatedAt": "2026-09-04T16:31:00.000Z",
-      "categories": [
-        "Serverless",
-        "AWS Developer Tools"
-      ],
-      "services": [
-        "Lambda"
-      ],
-      "tags": [
-        "serverless",
-        "aws developer tools",
-        "lambda"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "7486b8ba59d33e04",
-      "title": "Amazon Redshift rg.large instances now support single-node clusters",
-      "description": "Amazon Redshift rg.large instances, powered by AWS Graviton processors, now support single-node clusters. Single-node support for rg.large clusters is available on P204 or later patch versions. Customers can now create a single-node rg.large cluster for smaller workloads that do not require high availability, offering a cost-effective option to conduct proofs of concept and tests quickly. RG instances deliver up to 2.4x faster performance running data warehouse and data lake workloads when compared to previous generation RA3 instances, at 30% lower price per vCPU. RG instances include Redshift",
-      "descriptionHtml": "&lt;p&gt;Amazon Redshift rg.large instances, powered by AWS Graviton processors, now support single-node clusters. Single-node support for rg.large clusters is available on P204 or later patch versions. Customers can now create a single-node rg.large cluster for smaller workloads that do not require high availability, offering a cost-effective option to conduct proofs of concept and tests quickly.&lt;/p&gt; \n&lt;p&gt;RG instances deliver up to 2.4x faster performance running data warehouse and data lake workloads when compared to previous generation RA3 instances, at 30% lower price per vCPU. RG instances include Redshift's custom-built vectorized data lake query engine that processes Apache Iceberg and Parquet data on your cluster nodes, turning on SQL analytics across your data warehouse and data lake using a single engine.&lt;/p&gt; \n&lt;p&gt;These RG instances are available in the following AWS Regions: Africa (Cape Town), Asia Pacific (Hong Kong), Asia Pacific (Tokyo), Asia Pacific (Seoul), Asia Pacific (Osaka), Asia Pacific (Mumbai), Asia Pacific (Hyderabad), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Jakarta), Asia Pacific (Melbourne), Asia Pacific (Malaysia), Asia Pacific (Taipei), Asia Pacific (Thailand), Canada (Central), Europe (Frankfurt), Europe (Stockholm), Europe (Spain), Europe (Ireland), Europe (London), Europe (Paris), South America (São Paulo), US East (N. Virginia), US East (Ohio), US West (N. California), US West (Oregon), AWS GovCloud (US-East), AWS GovCloud (US-West) and Mexico (Central).&lt;/p&gt; \n&lt;p&gt;To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-clusters.html#rs-rg-nodes-table\"&gt;Amazon Redshift RG Instance Documentation&lt;/a&gt;, the &lt;a href=\"https://docs.aws.amazon.com/redshift/latest/mgmt/managing-cluster-considerations.html#rs-upgrading-to-ra3\"&gt;RA3 to RG Upgrade Guide&lt;/a&gt;, and the &lt;a href=\"https://aws.amazon.com/redshift/pricing/\"&gt;Amazon Redshift pricing page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-rg-large-single-node",
-      "publishedAt": "2026-09-03T16:03:00.000Z",
-      "updatedAt": "2026-09-03T16:03:00.000Z",
-      "categories": [
-        "Analytics",
-        "Amazon Redshift"
-      ],
-      "services": [
-        "Redshift"
-      ],
-      "tags": [
-        "analytics",
-        "amazon redshift",
-        "redshift"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "patch"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "794a794e54cbd389",
-      "title": "Amazon MWAA adds built-in monitoring with Amazon CloudWatch",
-      "description": "Amazon Managed Workflows for Apache Airflow (MWAA) now includes a built-in monitoring experience on the environment detail page in the AWS Management Console . A new metrics dashboard displays key Amazon CloudWatch metrics for your environment in one place, and each graph includes an optional toggle to overlay suggested warning ranges, helping you quickly identify conditions that may affect your environment's health and performance. The environment detail page also now shows an alarms table that lists all Amazon CloudWatch alarms associated with your MWAA environment. You can use the one-click",
-      "descriptionHtml": "&lt;p&gt;Amazon Managed Workflows for Apache Airflow (MWAA) now includes a built-in monitoring experience on the environment detail page in the &lt;a href=\"https://console.aws.amazon.com/mwaa/home\"&gt;AWS Management Console&lt;/a&gt;. A new metrics dashboard displays key Amazon CloudWatch metrics for your environment in one place, and each graph includes an optional toggle to overlay suggested warning ranges, helping you quickly identify conditions that may affect your environment's health and performance.&lt;/p&gt; \n&lt;p&gt;The environment detail page also now shows an alarms table that lists all Amazon CloudWatch alarms associated with your MWAA environment. You can use the one-click Create Recommended Alarms action to provision a curated set of alarms from an AWS-managed template, so you can start monitoring critical metrics without having to configure each alarm manually. This feature is available for Amazon MWAA Provisioned environments in all regions where &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;Amazon MWAA is available&lt;/a&gt;. Standard Amazon CloudWatch pricing applies for metric queries and alarms.&lt;/p&gt; \n&lt;p&gt;To get started, open the &lt;a href=\"https://console.aws.amazon.com/mwaa/home\"&gt;AWS Management Console&lt;/a&gt;, review the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;Amazon MWAA supported regions&lt;/a&gt;, or visit the &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/userguide/monitoring-dashboard.html\"&gt;Amazon MWAA documentation&lt;/a&gt; to learn more.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring/",
-      "publishedAt": "2026-09-03T15:00:00.000Z",
-      "updatedAt": "2026-09-03T15:00:00.000Z",
-      "categories": [
-        "Analytics",
-        "Management And Governance",
-        "Amazon Mwaa",
-        "Amazon Cloudwatch"
-      ],
-      "services": [
-        "CloudWatch",
-        "MWAA"
-      ],
-      "tags": [
-        "analytics",
-        "management and governance",
-        "amazon mwaa",
-        "amazon cloudwatch",
-        "cloudwatch",
-        "mwaa"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "monitoring"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "efe322ccf45b8f38",
-      "title": "Amazon Quick adds new tool settings and Model Context Protocol (MCP) sync support for connectors",
-      "description": "Amazon Quick connectors let users leverage tools and services such as Outlook, Slack, Salesforce, Jira, and homegrown MCP servers directly into their workflows across chat, agents, apps, flows, and deep research. Today, Amazon Quick introduces new tool settings and MCP sync support that give admins and connector owners more control over how connectors are deployed and kept up to date. Connector owners and admins can now selectively enable or disable individual tools within a connector to ensure only approved tools are available to end users. Additionally, new tool permission settings let conne",
-      "descriptionHtml": "&lt;p&gt;Amazon Quick connectors let users leverage tools and services such as Outlook, Slack, Salesforce, Jira, and homegrown MCP servers directly into their workflows across chat, agents, apps, flows, and deep research. Today, Amazon Quick introduces new tool settings and MCP sync support that give admins and connector owners more control over how connectors are deployed and kept up to date.&lt;/p&gt; \n&lt;p&gt;Connector owners and admins can now selectively enable or disable individual tools within a connector to ensure only approved tools are available to end users. Additionally, new tool permission settings let connector owners decide which tools require consent before proceeding or give end users the flexibility to decide for themselves. Lastly, MCP sync keeps connectors current as external MCP servers add new tools, update descriptions, and evolve their capabilities, ensuring users always have the latest information to get their work done.&lt;/p&gt; \n&lt;p&gt;These features are available in all AWS Regions where Amazon Quick is available. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/quicksight/latest/user/welcome.html\" target=\"_blank\"&gt;Amazon Quick User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/",
-      "publishedAt": "2026-09-02T16:54:00.000Z",
-      "updatedAt": "2026-09-02T16:54:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Business Productivity",
-        "Developer Tools",
-        "AWS Developer Tools"
-      ],
-      "services": [],
-      "tags": [
-        "artificial intelligence",
-        "business productivity",
-        "developer tools",
-        "aws developer tools"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "permission"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "9ad08f8e1d9d47a6",
-      "title": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions",
-      "description": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions. UXC enables account administrators to set a custom account color and control which services and Regions appear in the AWS Management Console. Previously, UXC was available only in US East (N. Virginia), requiring customers who manage these settings programmatically to direct API calls to that single Region. With today's expansion, customers can manage account customizations from any commercial AWS Region using the AWS CLI, AWS SDKs, or AWS CloudFormation — making it easier to configure the console experienc",
-      "descriptionHtml": "&lt;p&gt;AWS User Experience Customization (UXC) is now available in all commercial AWS Regions. UXC enables account administrators to set a custom account color and control which services and Regions appear in the AWS Management Console.&lt;/p&gt; \n&lt;p&gt;Previously, UXC was available only in US East (N. Virginia), requiring customers who manage these settings programmatically to direct API calls to that single Region. With today's expansion, customers can manage account customizations from any commercial AWS Region using the AWS CLI, AWS SDKs, or AWS CloudFormation — making it easier to configure the console experience alongside existing infrastructure automation.&lt;/p&gt; \n&lt;p&gt;UXC is available at no additional charge. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/uxc.html\"&gt;AWS User Experience Customization documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-uxc-aws-regions",
-      "publishedAt": "2026-09-02T13:00:00.000Z",
-      "updatedAt": "2026-09-02T13:00:00.000Z",
-      "categories": [
-        "Management And Administration",
-        "Management And Governance",
-        "Management Tools"
-      ],
-      "services": [],
-      "tags": [
-        "management and administration",
-        "management and governance",
-        "management tools"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
       ],
       "source": "whats-new"
     }
