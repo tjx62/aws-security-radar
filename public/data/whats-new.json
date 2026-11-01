@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T14:22:14.788Z",
+  "lastUpdated": "2026-11-01T14:47:47.656Z",
   "itemCount": 500,
   "items": [
     {
@@ -5724,7 +5724,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "medium",
       "securityMatches": [
