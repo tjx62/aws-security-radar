@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T14:47:47.656Z",
+  "lastUpdated": "2026-11-02T17:55:34.927Z",
   "itemCount": 500,
   "items": [
     {
@@ -102,7 +102,7 @@
         "iam",
         "iam identity center"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2967,7 +2967,7 @@
         "security identity and compliance",
         "kms"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 75,
       "securityLevel": "critical",
       "securityMatches": [
@@ -3070,6 +3070,27 @@
         "identity"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "d0fd7f3c542a04c5",
+      "title": "CVE-2026-119085 - Template injection in the publishing component of Virtual Engineering Workbench",
+      "description": "Bulletin ID: 2026-162-AWS Publication Date: 11/02/2026 09:30 AM PST Description: Virtual Engineering Workbench (VEW) is an open-source platform where platform engineers define and publish development environments, and developers provision them on demand through a web portal. We identified CVE-2026-119085, where improper neutralization of special elements used in a template engine in the publishing component of Amazon Virtual Engineering Workbench (VEW) could allow a remote authenticated third party to run arbitrary code with the permissions of the publishing Lambda's IAM role. Impacted version",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-162-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/02/2026 09:30 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Virtual Engineering Workbench (VEW) is an open-source platform where platform engineers define and publish development environments, and developers provision them on demand through a web portal. We identified CVE-2026-119085, where improper neutralization of special elements used in a template engine in the publishing component of Amazon Virtual Engineering Workbench (VEW) could allow a remote authenticated third party to run arbitrary code with the permissions of the publishing Lambda's IAM role.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; All commits before c146486 (PR #31, merged 2026-05-04)&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-162-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-162-aws/",
+      "publishedAt": "2026-11-02T17:41:34.000Z",
+      "updatedAt": "2026-11-02T17:41:34.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 70,
+      "securityLevel": "high",
+      "securityMatches": [
+        "IAM",
+        "permission",
+        "role"
+      ],
+      "source": "security-bulletin"
     },
     {
       "id": "cb3f3524737bfa14",
@@ -5237,6 +5258,26 @@
       "source": "security-blog"
     },
     {
+      "id": "c003691193e2b97d",
+      "title": "CVE-2026-119301 - Improper neutralization of quoting syntax in Apache Iceberg SQL identifier generation in AWS SDK for pandas",
+      "description": "Bulletin ID: 2026-161-AWS Publication Date: 11/02/2026 08:30 AM PST Description: We are aware of CVE-2026-119301 in the Apache Iceberg write component, where improper neutralization of quoting syntax in SQL identifier construction could allow an authenticated user with permission to modify AWS Glue Data Catalog metadata to read any table that a separate, more privileged principal can access and write to the table that principal is updating via a crafted column name. Impacted versions: awswrangler >= 3.5.2, Please refer to the article below for the most up-to-date and complete information relat",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-161-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/02/2026 08:30 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We are aware of CVE-2026-119301 in the Apache Iceberg write component, where improper neutralization of quoting syntax in SQL identifier construction could allow an authenticated user with permission to modify AWS Glue Data Catalog metadata to read any table that a separate, more privileged principal can access and write to the table that principal is updating via a crafted column name.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; awswrangler &amp;gt;= 3.5.2, &amp;lt; 3.17.1&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-161-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-161-aws/",
+      "publishedAt": "2026-11-02T16:40:57.000Z",
+      "updatedAt": "2026-11-02T16:40:57.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "permission",
+        "access"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "5a40b33f50c33656",
       "title": "CVE-2026-119116 and CVE-2026-119148 - Issues in AWS Nitro Enclaves SDK for C",
       "description": "Bulletin ID: 2026-157-AWS Publication Date: 10/30/2026 09:00 AM PDT Description: We identified CVE-2026-119116, a use-after-free in the SetClient command handler of the kmstool-enclave example application, where an application that executes on the parent EC2 instance could send crafted messages over vsock to corrupt heap memory inside the enclave and execute arbitrary code within it. Only enclave images that include kmstool-enclave, or code derived from it, are affected. We also identified CVE-2026-119148, an input validation issue in the SDK library where the AWS KMS server name is built from",
@@ -5658,6 +5699,37 @@
         "identity"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "9a4f4d04fb08d5f6",
+      "title": "Inside a successful AWS European Sovereign Cloud exercise to demonstrate independent operation",
+      "description": "On Saturday, October 24, 2026 we conducted a successful exercise demonstrating that the AWS European Sovereign Cloud can operate without depending on any infrastructure outside the European Union (EU). This was the first public technical exercise demonstrating the independence of a sovereign cloud Region. The AWS European Sovereign Cloud is a new, independent cloud partition […]",
+      "descriptionHtml": "On Saturday, October 24, 2026 we conducted a successful exercise demonstrating that the AWS European Sovereign Cloud can operate without depending on any infrastructure outside the European Union (EU). This was the first public technical exercise demonstrating the independence of a sovereign cloud Region. The AWS European Sovereign Cloud is a new, independent cloud partition […]",
+      "url": "https://aws.amazon.com/blogs/security/inside-a-successful-aws-european-sovereign-cloud-exercise-to-demonstrate-independent-operation/",
+      "publishedAt": "2026-11-02T03:37:30.000Z",
+      "updatedAt": "2026-11-02T03:37:30.000Z",
+      "categories": [
+        "Announcements",
+        "Europe",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "announcements",
+        "europe",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [],
+      "source": "security-blog"
     },
     {
       "id": "d6b5331f86a7af0f",
@@ -6693,7 +6765,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -6721,7 +6793,7 @@
         "analytics",
         "sagemaker"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -8041,7 +8113,7 @@
         "media services",
         "elemental"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [
@@ -8070,7 +8142,7 @@
         "analytics",
         "glue"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [
@@ -12512,6 +12584,36 @@
       "source": "whats-new"
     },
     {
+      "id": "de31fb12a1d882ad",
+      "title": "Amazon Quick Introduces Quick Essentials",
+      "description": "Amazon Quick introduces Quick Essentials for enterprises. The plan makes it easier for organizations to get started with all the features of Quick such as AI-powered chat, Research, Flows, and Apps, and lets users view and interact with Quick Sight dashboards and reports and then manage adoption at the desired pace. In AWS Regions where Amazon Quick is available, Quick Sight Reader users are upgraded to Quick Essentials at no additional per-user cost. With Quick Essentials, Quick Sight Readers can ask their dashboards questions in plain language, like what drove a revenue dip in March, and dig",
+      "descriptionHtml": "&lt;p&gt;Amazon Quick introduces Quick Essentials for enterprises. The plan makes it easier for organizations to get started with all the features of Quick such as AI-powered chat, Research, Flows, and Apps, and lets users view and interact with Quick Sight dashboards and reports and then manage adoption at the desired pace.&lt;/p&gt; \n&lt;p&gt;In AWS Regions where Amazon Quick is available, Quick Sight Reader users are upgraded to Quick Essentials at no additional per-user cost. With Quick Essentials, Quick Sight Readers can ask their dashboards questions in plain language, like what drove a revenue dip in March, and dig into the details with follow-up questions. They can turn the answer into a document, presentation, or spreadsheet for their team. When they need more context, Research pulls from their data, files, and the web into a detailed report with citations. If they need the same update every week, Flows can build it and send it automatically. When they need a tool that doesn't exist yet, like a request tracker, they can describe it and Apps builds it, without writing code.&lt;/p&gt; \n&lt;p&gt;Existing dashboards, Favorites, and Recents stay in place. Row-level and column-level security apply to every answer, and data is not shared across customers or used to train shared models. Administrators continue to manage the capabilities with &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/custom-permissions.html\" target=\"_blank\"&gt;custom permission&lt;/a&gt; profiles that can be applied to any user or a role.&lt;/p&gt; \n&lt;p&gt;Quick Essentials is enabled in a phased rollout across &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html#regions-qs\" target=\"_blank\"&gt;&lt;u&gt;AWS Regions where Quick AI features are available&lt;/u&gt;&lt;/a&gt;. To learn more, read the &lt;a href=\"https://community.amazonquick.com/t/every-reader-gets-professional-capabilities/53958\" target=\"_blank\"&gt;&lt;u&gt;Amazon Quick Community blog post&lt;/u&gt;&lt;/a&gt;. For pricing details, visit the &lt;a href=\"https://aws.amazon.com/quick/pricing/\" target=\"_blank\"&gt;Amazon Quick pricing page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-essentials/",
+      "publishedAt": "2026-10-30T08:00:00.000Z",
+      "updatedAt": "2026-10-30T08:00:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Amazon Quicksight",
+        "Analytics"
+      ],
+      "services": [
+        "QuickSight"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "amazon quicksight",
+        "analytics",
+        "quicksight"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Organizations"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "bbd7d199a4807ed1",
       "title": "AWS Marketplace now enables partners to list once and sell through multiple subsidiary accounts",
       "description": "Today, AWS announces that AWS partners who operate multiple legal entities can publish a product listing once in their primary account and enable their local subsidiaries to sell it through direct private offers — eliminating the need to recreate and maintain duplicate listings across every account. From the primary account, which retains ownership of the listing, partners authorize which products each subsidiary can sell and which buyer countries it can extend private offers to. Each subsidiary transacts under its own local tax identity, selects the local currencies it supports, and sets its ",
@@ -12871,7 +12973,7 @@
         "amazon ec2 auto scaling",
         "ec2"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -14040,140 +14142,6 @@
       "securityLevel": "low",
       "securityMatches": [
         "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "6f0d31ce36d224ef",
-      "title": "Amazon EMR on EKS now supports IPv6 Amazon EKS clusters",
-      "description": "Today, AWS announces that Amazon EMR on EKS now supports running workloads on IPv6 Amazon Elastic Kubernetes Service (Amazon EKS) clusters. Amazon EMR on EKS enables data platform and analytics teams to run open-source big data frameworks such as Apache Spark and Apache Flink on Amazon EKS. With IPv6 support, teams operating at scale can now run these workloads on IPv6 Amazon EKS clusters, giving them access to the vastly larger address space of IPv6 as their analytics workloads grow. You can now scale large Spark and Flink workloads using the expanded IPv6 address space, which removes the nee",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announces that Amazon EMR on EKS now supports running workloads on IPv6 Amazon Elastic Kubernetes Service (Amazon EKS) clusters. Amazon EMR on EKS enables data platform and analytics teams to run open-source big data frameworks such as Apache Spark and Apache Flink on Amazon EKS. With IPv6 support, teams operating at scale can now run these workloads on IPv6 Amazon EKS clusters, giving them access to the vastly larger address space of IPv6 as their analytics workloads grow.&lt;/p&gt;\n&lt;p&gt;You can now scale large Spark and Flink workloads using the expanded IPv6 address space, which removes the need for IPv4 conservation workarounds such as secondary CIDR ranges or prefix delegation. High-executor jobs, such as 500-executor Spark jobs, can run concurrently without planning around address limits. To submit workloads, use StartJobRun, Spark Connect Interactive Endpoints, and Amazon SageMaker Unified Studio with no additional configuration, while the Flink, Livy, and Spark Operators are also supported. This capability is available at no additional cost, starting with Amazon EMR releases emr-7.14.0 and emr-spark-8.0.0.&lt;/p&gt;\n&lt;p&gt;IPv6 cluster support is available in all AWS Regions where Amazon EMR on EKS and IPv6 Amazon EKS clusters are available.&lt;/p&gt;\n&lt;p&gt;Amazon EMR on EKS IPv6 cluster support includes detailed setup instructions and documentation on supported submission models. Visit the &lt;a href=\"https://aws.amazon.com/emr/features/eks/\"&gt;Amazon EMR on EKS product page&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/emr-eks-ipv6.html\"&gt;IPv6 documentation&lt;/a&gt; to learn more.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-emr-eks-ipv6-support",
-      "publishedAt": "2026-09-23T15:00:00.000Z",
-      "updatedAt": "2026-09-23T15:00:00.000Z",
-      "categories": [
-        "Analytics",
-        "Amazon Emr",
-        "Networking"
-      ],
-      "services": [
-        "EKS",
-        "EMR"
-      ],
-      "tags": [
-        "analytics",
-        "amazon emr",
-        "networking",
-        "eks",
-        "emr"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "2a6d2d6cc35bf1ca",
-      "title": "Amazon DynamoDB global tables with multi-Region strong consistency now supports additional AWS Regions and cross-continent configurations",
-      "description": "Starting today, Amazon DynamoDB global tables with multi-Region strong consistency (MRSC) is available in five additional AWS Regions: Canada (Central), Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and Asia Pacific (Singapore), bringing the total number of supported Regions to 15. You can now create an MRSC global table in any three-Region configuration across the 15 supported AWS Regions, configured with either three replicas or two replicas and one witness Region. This includes configurations that span North America, Europe, and Asia Pacific. MRSC lets you build highly availabl",
-      "descriptionHtml": "&lt;p&gt;Starting today, Amazon DynamoDB global tables with multi-Region strong consistency (MRSC) is available in five additional AWS Regions: Canada (Central), Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and Asia Pacific (Singapore), bringing the total number of supported Regions to 15. You can now create an MRSC global table in any three-Region configuration across the 15 supported AWS Regions, configured with either three replicas or two replicas and one witness Region. This includes configurations that span North America, Europe, and Asia Pacific.&lt;/p&gt;\n&lt;p&gt;MRSC lets you build highly available multi-Region applications with a recovery point objective (RPO) of zero. By choosing replica Regions closer to your users in more geographies, you can route applications to nearby DynamoDB endpoints for strongly consistent reads while keeping your application available during Regional impairments. MRSC is ideal for global applications with strict consistency requirements, such as user profile management, inventory tracking, order state, and entitlement management.&lt;/p&gt;\n&lt;p&gt;To get started and view the complete list of supported Regions and configuration options, see the &lt;a href=\"https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables_HowItWorks.html#V2globaltables_HowItWorks.consistency-modes.mrsc\"&gt;DynamoDB Developer Guide&lt;/a&gt;. To learn more about building resilient multi-Region applications, visit the &lt;a href=\"https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables.tutorial.html#create-gt-mrsc\"&gt;DynamoDB global tables page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/dynamodb-mrsc-additional-regions/",
-      "publishedAt": "2026-09-23T08:00:00.000Z",
-      "updatedAt": "2026-09-23T08:00:00.000Z",
-      "categories": [
-        "Better Performance",
-        "Amazon Dynamodb",
-        "Global Infrastructure",
-        "Databases",
-        "Availabililty"
-      ],
-      "services": [
-        "DynamoDB"
-      ],
-      "tags": [
-        "better performance",
-        "amazon dynamodb",
-        "global infrastructure",
-        "databases",
-        "availabililty",
-        "dynamodb"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "d201aed55aaecf5e",
-      "title": "Billing Transfer now supports automatic billing group creation for two-level transfers",
-      "description": "AWS Billing Transfer users can now enable the Auto-Billing Transfer Billing Group Creation, a new AWS Billing Conductor preference that eliminates the manual billing group configuration in two-level billing transfer arrangements. Designed for AWS Distributors managing billing for downstream seller Partners and their end customers, this feature automatically creates billing groups when an end customer accepts a billing transfer from a downstream seller Partner, ensuring pro forma cost data is immediately available to the Partner, with no extra manual configuration. Auto-Billing Transfer Billing",
-      "descriptionHtml": "&lt;p&gt;AWS Billing Transfer users can now enable the Auto-Billing Transfer Billing Group Creation, a new AWS Billing Conductor preference that eliminates the manual billing group configuration in two-level billing transfer arrangements. Designed for AWS Distributors managing billing for downstream seller Partners and their end customers, this feature automatically creates billing groups when an end customer accepts a billing transfer from a downstream seller Partner, ensuring pro forma cost data is immediately available to the Partner, with no extra manual configuration.&lt;/p&gt;\n&lt;p&gt;Auto-Billing Transfer Billing Group Creation is a one-time preference configuration per inbound transfer relationship, enabling you to request the creation of a billing group for any new indirect transfer coming through your Partners' account, as well as being able to specify an AWS Billing Conductor pricing plan for the billing groups created automatically.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;The preference is accessible through two new API operations and through the AWS Management Console in the Billing Transfer details page.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;To learn more about Auto-Billing Transfer Billing Group Creation and how to configure your billing transfer preferences, visit the &lt;a href=\"https://docs.aws.amazon.com/billingconductor/latest/userguide/create-billing-group.html\"&gt;AWS Billing Conductor documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-transfer-supports-automatic-billing-group-creation/",
-      "publishedAt": "2026-09-22T20:08:00.000Z",
-      "updatedAt": "2026-09-22T20:08:00.000Z",
-      "categories": [
-        "Cloud Financial Management",
-        "Cost Management",
-        "AWS Organizations",
-        "AWS Account Billing",
-        "Business Productivity"
-      ],
-      "services": [
-        "Organizations"
-      ],
-      "tags": [
-        "cloud financial management",
-        "cost management",
-        "aws organizations",
-        "aws account billing",
-        "business productivity",
-        "organizations"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "3799e5d9f621a1a8",
-      "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
-      "description": "Amazon Elastic Container Service (Amazon ECS) now provides real-time service deployment observability in the Amazon ECS Console for native Linear, Canary, and Blue/Green deployment strategies. With this launch, deployment monitoring and troubleshooting come together in one place in the console, so you can track deployment progress, monitor health, and diagnose failures without switching between tools. Real-time service deployment observability includes a live deployment timeline that narrates each service deployment as it happens, showing every deployment phase, service events, and task launch",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/ecs/\"&gt;Amazon Elastic Container Service&lt;/a&gt; (Amazon ECS) now provides real-time service deployment observability in the Amazon ECS Console for native Linear, Canary, and Blue/Green deployment strategies. With this launch, deployment monitoring and troubleshooting come together in one place in the console, so you can track deployment progress, monitor health, and diagnose failures without switching between tools.&lt;/p&gt;\n&lt;p&gt;Real-time service deployment observability includes a live deployment timeline that narrates each service deployment as it happens, showing every deployment phase, service events, and task launch and termination progress, always reflecting the current state. As a deployment moves forward, you can follow the traffic shift distribution across your source and target revisions and see the current lifecycle stage at a glance, whether it is scaling up green tasks, waiting on a lifecycle hook, or sitting through bake time. Deployment health signals that you would otherwise gather from separate tools now sit alongside the timeline: circuit breaker status with live task failure and threshold tracking, deployment alarm state, container and load-balancer health checks, and lifecycle hook status. When something goes wrong, failed tasks surface right in the timeline with diagnostic context and deep links to services such as AWS CloudTrail, so you can pinpoint the root cause and act on it quickly.\n &lt;br&gt;\n &lt;br&gt;\n These capabilities are available at no additional charge in all AWS commercial Regions, and AWS GovCloud (US) &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;Regions&lt;/a&gt; for all Amazon ECS services using the Amazon ECS native Linear, Canary, and Blue/Green deployment types. To get started, navigate to any Amazon ECS service in the &lt;a href=\"https://console.aws.amazon.com/ecs\"&gt;Amazon ECS Console&lt;/a&gt; and select the Deployments tab.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
-      "publishedAt": "2026-09-21T20:05:00.000Z",
-      "updatedAt": "2026-09-21T20:05:00.000Z",
-      "categories": [
-        "Containers And Deployment",
-        "Amazon Ecs",
-        "AWS Fargate",
-        "Containers"
-      ],
-      "services": [
-        "ECS",
-        "Fargate"
-      ],
-      "tags": [
-        "containers and deployment",
-        "amazon ecs",
-        "aws fargate",
-        "containers",
-        "ecs",
-        "fargate"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "monitoring"
       ],
       "source": "whats-new"
     }
