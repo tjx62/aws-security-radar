@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T17:55:34.927Z",
+  "lastUpdated": "2026-11-03T15:55:01.593Z",
   "itemCount": 500,
   "items": [
     {
@@ -3072,6 +3072,48 @@
       "source": "whats-new"
     },
     {
+      "id": "55c608bbd8f2b660",
+      "title": "Beyond DKIM key rotation: understanding email replay attacks",
+      "description": "As the email administrator for your organization’s domain, you receive a Domain-based Message Authentication, Reporting, and Conformance (DMARC) aggregate report showing email passing DomainKeys Identified Mail (DKIM) verification as though it came from your domain, sent from IP addresses you don’t recognize to recipients you didn’t contact. To clear the issue, you rotate your DKIM […]",
+      "descriptionHtml": "As the email administrator for your organization’s domain, you receive a Domain-based Message Authentication, Reporting, and Conformance (DMARC) aggregate report showing email passing DomainKeys Identified Mail (DKIM) verification as though it came from your domain, sent from IP addresses you don’t recognize to recipients you didn’t contact. To clear the issue, you rotate your DKIM […]",
+      "url": "https://aws.amazon.com/blogs/security/beyond-dkim-key-rotation-understanding-email-replay-attacks/",
+      "publishedAt": "2026-11-02T18:06:28.000Z",
+      "updatedAt": "2026-11-02T18:06:28.000Z",
+      "categories": [
+        "Advanced (300)",
+        "Amazon Simple Email Service (SES)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Amazon SES",
+        "Security Blog"
+      ],
+      "services": [
+        "SES"
+      ],
+      "tags": [
+        "advanced (300)",
+        "amazon simple email service (ses)",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "amazon ses",
+        "security blog",
+        "ses"
+      ],
+      "isNew": true,
+      "securityScore": 70,
+      "securityLevel": "high",
+      "securityMatches": [
+        "authentication",
+        "key rotation",
+        "attack"
+      ],
+      "source": "security-blog"
+    },
+    {
       "id": "d0fd7f3c542a04c5",
       "title": "CVE-2026-119085 - Template injection in the publishing component of Virtual Engineering Workbench",
       "description": "Bulletin ID: 2026-162-AWS Publication Date: 11/02/2026 09:30 AM PST Description: Virtual Engineering Workbench (VEW) is an open-source platform where platform engineers define and publish development environments, and developers provision them on demand through a web portal. We identified CVE-2026-119085, where improper neutralization of special elements used in a template engine in the publishing component of Amazon Virtual Engineering Workbench (VEW) could allow a remote authenticated third party to run arbitrary code with the permissions of the publishing Lambda's IAM role. Impacted version",
@@ -3540,6 +3582,45 @@
       "source": "security-blog"
     },
     {
+      "id": "ca919141e797b7e6",
+      "title": "EC2 Amazon Machine Images can now be scanned for vulnerabilities through Amazon Inspector",
+      "description": "Amazon Inspector now extends its vulnerability scanning to EC2 Amazon Machine Images (AMIs), enabling you to identify software vulnerabilities in your AMIs without launching instances or installing additional software. This helps you fix issues at the source before AMIs are used to launch instances across your fleet. With this capability, you can run continuous evaluations to monitor your AMI catalog for newly discovered vulnerabilities, or perform targeted one-time scans for specific AMIs directly from the EC2 Console. You can enable AMI scanning for an account or across your entire organizat",
+      "descriptionHtml": "&lt;p&gt;Amazon Inspector now extends its vulnerability scanning to EC2 Amazon Machine Images (AMIs), enabling you to identify software vulnerabilities in your AMIs without launching instances or installing additional software. This helps you fix issues at the source before AMIs are used to launch instances across your fleet.&lt;/p&gt; \n&lt;p&gt;With this capability, you can run continuous evaluations to monitor your AMI catalog for newly discovered vulnerabilities, or perform targeted one-time scans for specific AMIs directly from the EC2 Console. You can enable AMI scanning for an account or across your entire organization in Amazon Inspector. For AWS Security Hub customers, you can enable AMI scanning as an add-on across your organization, and findings are also delivered to Security Hub. Based on the scan results, you can enable the &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-allowed-amis.html\"&gt;Allowed AMIs&lt;/a&gt; setting and specify security criteria that AMIs must meet to be available within your account and enforce this setting across the entire organization using Declarative Policies. Customers building AMIs with &lt;a href=\"https://docs.aws.amazon.com/imagebuilder/latest/userguide/integ-inspector.html#integ-inspector-ami-scan\"&gt;EC2 Image Builder&lt;/a&gt; can integrate scanning directly into their pipelines and restrict distribution of AMIs that do not meet their security standards.&lt;/p&gt; \n&lt;p&gt;AMI Scanning helps you detect and remediate vulnerabilities earlier in your deployment pipeline, reducing the risk of deploying compromised compute resources. Security teams can now establish a consistent vulnerability scanning process across all AMIs improving their security posture before instances are launched.&lt;/p&gt; \n&lt;p&gt;This capability is available in all commercial AWS Regions where Amazon Inspector is available. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ami-scanning.html\"&gt;EC2 User Guide&lt;/a&gt;,&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/inspector/latest/user/what-is-inspector.html\"&gt;Amazon Inspector User Guide&lt;/a&gt;,&amp;nbsp;the &lt;a href=\"https://aws.amazon.com/inspector/pricing/\"&gt;Amazon Inspector pricing page&lt;/a&gt;, and the &lt;a href=\"https://aws.amazon.com/inspector/\"&gt;Amazon Inspector product page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-amis-scanned-through-inspector/",
+      "publishedAt": "2026-11-02T08:00:00.000Z",
+      "updatedAt": "2026-11-02T08:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "Amazon Ec2",
+        "Amazon Inspector",
+        "AWS Security Hub",
+        "Compute",
+        "Ami"
+      ],
+      "services": [
+        "EC2",
+        "Inspector"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "amazon ec2",
+        "amazon inspector",
+        "aws security hub",
+        "compute",
+        "ami",
+        "ec2",
+        "inspector"
+      ],
+      "isNew": true,
+      "securityScore": 65,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Inspector",
+        "vulnerability"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "fe41f57c2bf5fe86",
       "title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
       "description": "Amazon Threat Intelligence identified a PHP2Shell exploitation attempt dating to Oct. 17, 2026, in MadPot telemetry, four days before public disclosure of CVE-2026-109618 and CVE-2026-109619. The exploit attempt originated from an IP address associated with a commercial anonymization network. While the vulnerability was under embargo, the targeting of a honeypot from an anonymized IP address […]",
@@ -3696,32 +3777,6 @@
         "security"
       ],
       "source": "whats-new"
-    },
-    {
-      "id": "bdd4ba231abed7c1",
-      "title": "CVE-2026-107352 - Missing authorization checks in Amazon Athena engine version 3 request handling",
-      "description": "Bulletin ID: 2026-128-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/07/2026 13:00 PM PDT Description: Missing authorization checks in Amazon Athena engine version 3 request handling could have allowed an authenticated user to read limited query metadata (AWS account identifiers and SQL statement text) from other AWS accounts. AWS remediated the issue on September 1, 2026, and has confirmed no customer metadata was accessed. Query results, credentials, and Amazon S3 data were not affected. No customer action is required. Resolution: This issue was addressed se",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-128-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/07/2026 13:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Missing authorization checks in Amazon Athena engine version 3 request handling could have allowed an authenticated user to read limited query metadata (AWS account identifiers and SQL statement text) from other AWS accounts. AWS remediated the issue on September 1, 2026, and has confirmed no customer metadata was accessed. Query results, credentials, and Amazon S3 data were not affected. No customer action is required.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Resolution:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;This issue was addressed service-side on September 1, 2026.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-128-aws/",
-      "publishedAt": "2026-10-07T20:19:18.000Z",
-      "updatedAt": "2026-10-07T20:19:18.000Z",
-      "categories": [],
-      "services": [
-        "Athena"
-      ],
-      "tags": [
-        "athena"
-      ],
-      "isNew": false,
-      "securityScore": 65,
-      "securityLevel": "high",
-      "securityMatches": [
-        "authorization",
-        "access",
-        "S3",
-        "credential"
-      ],
-      "source": "security-bulletin"
     },
     {
       "id": "8cf01c27cfc9c9e6",
@@ -3897,6 +3952,32 @@
         "Secret"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "1f8f37ef6b080e72",
+      "title": "CVE-2026-105811 - Authorization bypass through a user-controlled key in the Amazon Q Business Lambda hook sample in QnABot on AWS",
+      "description": "Read this article Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-126-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-126-aws/",
+      "publishedAt": "2026-11-02T21:40:44.000Z",
+      "updatedAt": "2026-11-02T21:40:44.000Z",
+      "categories": [],
+      "services": [
+        "Lambda",
+        "Q"
+      ],
+      "tags": [
+        "lambda",
+        "q"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "high",
+      "securityMatches": [
+        "authorization",
+        "security"
+      ],
+      "source": "security-bulletin"
     },
     {
       "id": "68c37105a25991b7",
@@ -4177,6 +4258,30 @@
         "vulnerability"
       ],
       "source": "security-blog"
+    },
+    {
+      "id": "bdd4ba231abed7c1",
+      "title": "CVE-2026-107352 - Missing authorization checks in Amazon Athena engine version 3 request handling",
+      "description": "Read this article Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-128-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-128-aws/",
+      "publishedAt": "2026-10-07T20:19:18.000Z",
+      "updatedAt": "2026-10-07T20:19:18.000Z",
+      "categories": [],
+      "services": [
+        "Athena"
+      ],
+      "tags": [
+        "athena"
+      ],
+      "isNew": false,
+      "securityScore": 60,
+      "securityLevel": "high",
+      "securityMatches": [
+        "authorization",
+        "security"
+      ],
+      "source": "security-bulletin"
     },
     {
       "id": "88dd0c0e4cc92b60",
@@ -5258,6 +5363,25 @@
       "source": "security-blog"
     },
     {
+      "id": "bc02b194a92fd393",
+      "title": "CVE-2026-120497 - Stored cross-site scripting in the HTML report generator of aidlc-traceability in AWS AI-DLC Workflows",
+      "description": "Bulletin ID: 2026-163-AWS Publication Date: 11/02/2026 11:00 AM PST Description: aidlc-traceability is an open source command-line tool, formerly published in the awslabs/aidlc-workflows repository, that generates traceability-matrix reports from a project's AI-DLC artifact files. We identified CVE-2026-120497, where stored cross-site scripting (XSS) in the HTML report generator in the aidlc-traceability CLI could allow an actor who can modify a project's AI-DLC artifact files to execute arbitrary script in the browser of a user who opens a generated HTML traceability report via crafted artifa",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-163-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/02/2026 11:00 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;aidlc-traceability is an open source command-line tool, formerly published in the awslabs/aidlc-workflows repository, that generates traceability-matrix reports from a project's AI-DLC artifact files. We identified CVE-2026-120497, where stored cross-site scripting (XSS) in the HTML report generator in the aidlc-traceability CLI could allow an actor who can modify a project's AI-DLC artifact files to execute arbitrary script in the browser of a user who opens a generated HTML traceability report via crafted artifact titles or descriptions.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;=0.1.0 AND &amp;lt;commit 96cf0ea (fixed 2026-07-03)&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-163-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-163-aws/",
+      "publishedAt": "2026-11-02T19:19:50.000Z",
+      "updatedAt": "2026-11-02T19:19:50.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Artifact"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "c003691193e2b97d",
       "title": "CVE-2026-119301 - Improper neutralization of quoting syntax in Apache Iceberg SQL identifier generation in AWS SDK for pandas",
       "description": "Bulletin ID: 2026-161-AWS Publication Date: 11/02/2026 08:30 AM PST Description: We are aware of CVE-2026-119301 in the Apache Iceberg write component, where improper neutralization of quoting syntax in SQL identifier construction could allow an authenticated user with permission to modify AWS Glue Data Catalog metadata to read any table that a separate, more privileged principal can access and write to the table that principal is updating via a crafted column name. Impacted versions: awswrangler >= 3.5.2, Please refer to the article below for the most up-to-date and complete information relat",
@@ -5500,27 +5624,6 @@
         "encrypt"
       ],
       "source": "whats-new"
-    },
-    {
-      "id": "0a930818b7ded66a",
-      "title": "CVE-2026-107332 - Insecure default file permissions on cached credentials in AWS Toolkit for Visual Studio Code",
-      "description": "Bulletin ID: 2026-129-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/08/2026 10:30 PM PDT Description: AWS Toolkit for Visual Studio Code is an open source extension that lets developers work with AWS services, including Amazon CodeCatalyst, from within Visual Studio Code. We identified CVE-2026-107332, an issue in the CodeCatalyst connection handler. When a user connected to a CodeCatalyst Dev Environment, the extension cached the user's CodeCatalyst bearer token to a file with world-readable permissions and did not remove the file after the session ended. A ",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-129-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/08/2026 10:30 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS Toolkit for Visual Studio Code is an open source extension that lets developers work with AWS services, including Amazon CodeCatalyst, from within Visual Studio Code. We identified CVE-2026-107332, an issue in the CodeCatalyst connection handler. When a user connected to a CodeCatalyst Dev Environment, the extension cached the user's CodeCatalyst bearer token to a file with world-readable permissions and did not remove the file after the session ended. A local user or process on the same machine with access to the file system was able to read this file and obtain the bearer token.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt; 4.10.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-129-aws/",
-      "publishedAt": "2026-10-08T17:43:09.000Z",
-      "updatedAt": "2026-10-08T17:43:09.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 50,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "permission",
-        "token",
-        "credential"
-      ],
-      "source": "security-bulletin"
     },
     {
       "id": "53f19282ed74deb5",
@@ -6137,27 +6240,45 @@
       "source": "security-bulletin"
     },
     {
-      "id": "1f8f37ef6b080e72",
-      "title": "CVE-2026-105811 - Authorization bypass through a user-controlled key in the Amazon Q Business Lambda hook sample in QnABot on AWS",
-      "description": "Bulletin ID: 2026-126-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/06/2026 13:00 PM PDT Description: QnABot on AWS is a sample solution of a multi-channel, multi-language conversational interface (chatbot) that responds to your customer's questions, answers, and feedback. We identified CVE-2026-105811 in the optional Amazon Q Business Lambda hook sample of QnABot on AWS. The Amazon Q Business Lambda hook sample (q-business-lambda-hook) is an optional integration sample included in the QnABot on AWS repository. It requires separate, manual deployment and addi",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-126-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/06/2026 13:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;QnABot on AWS is a sample solution of a multi-channel, multi-language conversational interface (chatbot) that responds to your customer's questions, answers, and feedback. We identified CVE-2026-105811 in the optional Amazon Q Business Lambda hook sample of QnABot on AWS. The Amazon Q Business Lambda hook sample (q-business-lambda-hook) is an optional integration sample included in the QnABot on AWS repository. It requires separate, manual deployment and additional setup; it is not deployed automatically with QnABot. Customers who have not deployed this sample are not affected and do not need to take action.&lt;/p&gt; \n&lt;p&gt;Authorization bypass through a user-controlled key in the sample included with QnABot on AWS versions 7.0.0 through 7.4.5 might allow an authenticated remote user to read arbitrary Amazon S3 objects in the deploying AWS account.&lt;/p&gt; \n&lt;p&gt;To remediate this issue, affected customers should update the QnABot on AWS stack to version 7.4.6 or later and then redeploy the Amazon Q Business Lambda hook sample stack. Updating the QnABot on AWS stack alone does not deliver the fix.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;=7.0.0, &amp;lt;7.4.6&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-126-aws/",
-      "publishedAt": "2026-10-07T18:25:26.000Z",
-      "updatedAt": "2026-10-07T18:25:26.000Z",
+      "id": "0a930818b7ded66a",
+      "title": "CVE-2026-107332 - Insecure default file permissions on cached credentials in AWS Toolkit for Visual Studio Code",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-129-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-129-aws/",
+      "publishedAt": "2026-10-08T17:43:09.000Z",
+      "updatedAt": "2026-10-08T17:43:09.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": false,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "permission",
+        "credential"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "0d12d9da9901afda",
+      "title": "CVE-2026-105812 and CVE-2026-106032: Issue with Bedrock AgentCore Starter Toolkit - Import Agent Code Injection and SSRF",
+      "description": "Read this article Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-127-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-127-aws/",
+      "publishedAt": "2026-10-06T20:41:24.000Z",
+      "updatedAt": "2026-10-06T20:41:24.000Z",
       "categories": [],
       "services": [
-        "Lambda",
-        "Q"
+        "Bedrock"
       ],
       "tags": [
-        "lambda",
-        "q"
+        "bedrock"
       ],
       "isNew": false,
       "securityScore": 45,
       "securityLevel": "medium",
       "securityMatches": [
-        "authorization"
+        "security"
       ],
       "source": "security-bulletin"
     },
@@ -6709,6 +6830,25 @@
       "securityLevel": "medium",
       "securityMatches": [],
       "source": "security-blog"
+    },
+    {
+      "id": "616cd41be7263aa0",
+      "title": "CVE-2026-116635 - Improper limitation of a pathname to a restricted directory in the deployment status component of the AWS Serverless MCP Server",
+      "description": "Bulletin ID: 2026-164-AWS Publication Date: 11/02/2026 13:30 PM PST Description: We identified CVE-2026-116635. Under certain conditions, improper limitation of a pathname to a restricted directory in the deployment status component of the MCP server might allow an actor who can influence the MCP agent to read the contents of JSON files outside the intended deployment status directory. Where write access has been enabled, to create or overwrite JSON files outside that directory. Impacted versions: Please refer to the article below for the most up-to-date and complete information related to thi",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-164-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/02/2026 13:30 PM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-116635. Under certain conditions, improper limitation of a pathname to a restricted directory in the deployment status component of the MCP server might allow an actor who can influence the MCP agent to read the contents of JSON files outside the intended deployment status directory. Where write access has been enabled, to create or overwrite JSON files outside that directory.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt; v0.2.1 of awslabs.aws-serverless-mcp-server&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-164-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-164-aws/",
+      "publishedAt": "2026-11-02T21:43:24.000Z",
+      "updatedAt": "2026-11-02T21:43:24.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "security-bulletin"
     },
     {
       "id": "567534bb7ce121bd",
@@ -8035,6 +8175,62 @@
         "security",
         "Config",
         "access"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "e8096676fcdf2b30",
+      "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
+      "description": "For organizations that use Amazon Quick, the desktop application now signs users in with the same sign-in method the organization already uses for Quick on the web. Administrators no longer need to register an OIDC application in their identity provider or set up separate desktop sign-in before users can get started. If a user can sign in to Quick on the web, that user can sign in to the desktop application. To turn on desktop access, an administrator adds the desktop connector once in the Amazon Quick console. Users then enter their Quick account name, choose Sign In, and finish signing in th",
+      "descriptionHtml": "&lt;p&gt;For organizations that use Amazon Quick, the desktop application now signs users in with the same sign-in method the organization already uses for Quick on the web. Administrators no longer need to register an OIDC application in their identity provider or set up separate desktop sign-in before users can get started. If a user can sign in to Quick on the web, that user can sign in to the desktop application.&lt;/p&gt; \n&lt;p&gt;To turn on desktop access, an administrator adds the desktop connector once in the Amazon Quick console. Users then enter their Quick account name, choose Sign In, and finish signing in through their browser. This works for accounts that use IAM Identity Center, IAM federation, or native Amazon Quick users. If your organization wants to manage desktop sign-in separately, you can still set up a dedicated identity provider configuration with providers such as Microsoft Entra ID, Google Workspace, Okta, or Ping Identity.&lt;/p&gt; \n&lt;p&gt;Amazon Quick on desktop is available in &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html#regions-qs\" target=\"_blank\"&gt;AWS Regions that support the full Amazon Quick feature set&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;To get started, see &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/amazon-quick-desktop.html\"&gt;Amazon Quick on desktop&lt;/a&gt; in the Amazon Quick User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
+      "publishedAt": "2026-11-02T18:36:00.000Z",
+      "updatedAt": "2026-11-02T18:36:00.000Z",
+      "categories": [
+        "Business Productivity",
+        "Artificial Intelligence"
+      ],
+      "services": [],
+      "tags": [
+        "business productivity",
+        "artificial intelligence"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Organizations",
+        "access",
+        "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "ffd68c265483a73e",
+      "title": "Amazon Aurora MySQL 3.14 (compatible with MySQL 8.0.46) is generally available",
+      "description": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.46, which includes community MySQL fixes and Aurora-specific improvements. In addition to operational improvements, Aurora MySQL 3.14 introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. For detailed information on this release, refer to Aurora MySQL 3 and MySQL 8.0.46 release notes. You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To ",
+      "descriptionHtml": "&lt;p&gt;Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.46, which includes community MySQL fixes and Aurora-specific improvements. In addition to operational improvements, Aurora MySQL 3.14 introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. For detailed information on this release, refer to &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraMySQLReleaseNotes/AuroraMySQL.Updates.30Updates.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Aurora MySQL 3&lt;/a&gt; and &lt;a href=\"https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-46.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;MySQL 8.0.46&lt;/a&gt; release notes.&lt;/p&gt; \n&lt;p&gt;You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at scale, enable &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.AMVU.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;automatic minor version upgrades&lt;/a&gt; and use the AWS Organizations &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Maintenance.AMVU.UpgradeRollout.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Upgrade Rollout Policy&lt;/a&gt; to orchestrate upgrades across your clusters in phases. You can perform minor version upgrades in-place or via snapshot restore. This release is supported in all &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.RegionsAndAvailabilityZones.html#Aurora.Overview.Availability.MySQL\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions&lt;/a&gt; where Aurora MySQL is available.&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/aurora/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Aurora&lt;/a&gt; is designed for high performance and availability at global scale with full MySQL compatibility. It provides scale-to-zero serverless compute, Aurora Global Database for multi-Region resilience, Aurora I/O-Optimized for improved price performance on I/O-intensive workloads, and built-in security and continuous backups. To get started, take a look at Aurora’s &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;getting started page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-314-available/",
+      "publishedAt": "2026-11-02T17:00:00.000Z",
+      "updatedAt": "2026-11-02T17:00:00.000Z",
+      "categories": [
+        "Amazon Aurora",
+        "Databases"
+      ],
+      "services": [
+        "Aurora"
+      ],
+      "tags": [
+        "amazon aurora",
+        "databases",
+        "aurora"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "encrypt",
+        "TLS"
       ],
       "source": "whats-new"
     },
@@ -9379,35 +9575,14 @@
     {
       "id": "7b2fbfb42940026a",
       "title": "CVE-2026-107322 - OS command injection in Amazon Agent Plugins for AWS databases-on-aws",
-      "description": "Bulletin ID: 2026-130-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/08/2026 11:30 AM PDT Description: Amazon Agent Plugins for AWS is an open source collection of plugins that extends supported AI coding agents with AWS-focused workflows and tool integrations. The databases-on-aws plugin provides database design, development, migration, and operational guidance, including Aurora DSQL helper scripts. We identified CVE-2026-107322, where an incomplete list of disallowed inputs in databases-on-aws versions before 1.7.1 could allow a remote unauthenticated actor ",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-130-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/08/2026 11:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Amazon Agent Plugins for AWS is an open source collection of plugins that extends supported AI coding agents with AWS-focused workflows and tool integrations. The databases-on-aws plugin provides database design, development, migration, and operational guidance, including Aurora DSQL helper scripts.&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-107322, where an incomplete list of disallowed inputs in databases-on-aws versions before 1.7.1 could allow a remote unauthenticated actor to supply crafted content that an agent ingests. The affected code is not a listening network service; operating-system command execution on the host is possible only if the agent subsequently invokes the local helper with the crafted database command value. Any resulting command runs with the permissions of the process running the helper. This issue does not affect the Aurora DSQL service or bypass database privileges.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; databases-on-aws versions 1.0.0 through 1.7.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-130-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-130-aws/",
-      "publishedAt": "2026-10-08T19:29:19.000Z",
-      "updatedAt": "2026-10-08T19:29:19.000Z",
+      "publishedAt": "2026-10-08T19:54:58.000Z",
+      "updatedAt": "2026-10-08T19:54:58.000Z",
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "0d12d9da9901afda",
-      "title": "CVE-2026-105812 and CVE-2026-106032: Issue with Bedrock AgentCore Starter Toolkit - Import Agent Code Injection and SSRF",
-      "description": "Bulletin ID: 2026-127-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/06/2026 13:30 PM PDT Description: bedrock-agentcore-starter-toolkit is an AWS-maintained open-source Python package, distributed via GitHub and PyPI, that provides a command-line interface for importing Amazon Bedrock Agents into local development environments. We identified CVE-2026-105812, a code injection issue that could allow arbitrary code execution when a specially crafted agent is imported and subsequently run or deployed, and CVE-2026-106032, an external reference handling issue that",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-127-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/06/2026 13:30 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;bedrock-agentcore-starter-toolkit is an AWS-maintained open-source Python package, distributed via GitHub and PyPI, that provides a command-line interface for importing Amazon Bedrock Agents into local development environments. We identified CVE-2026-105812, a code injection issue that could allow arbitrary code execution when a specially crafted agent is imported and subsequently run or deployed, and CVE-2026-106032, an external reference handling issue that could cause unintended network requests or local file access during agent import.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Affected versions:&lt;/b&gt; &amp;gt;= 0.1.4 and &amp;lt;= 0.3.13&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-127-aws/",
-      "publishedAt": "2026-10-06T20:41:24.000Z",
-      "updatedAt": "2026-10-06T20:41:24.000Z",
-      "categories": [],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "bedrock"
-      ],
       "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
@@ -10540,7 +10715,7 @@
         "aws govcloud us",
         "amazon corretto"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -11497,6 +11672,41 @@
       "securityMatches": [
         "Config",
         "access"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "ea05669f6d829be1",
+      "title": "Announcing AWS for Fluent Bit 3.0.0 based on Fluent Bit 4.1.1",
+      "description": "AWS for Fluent Bit announces version 3.0.0 , based on Fluent Bit version 4.1.1 and Amazon Linux 2023. Container logging using AWS for Fluent Bit is now more performant and more feature-rich for AWS customers, including those using Amazon Elastic Container Services (Amazon ECS) and Amazon Elastic Kubernetes Service (Amazon EKS). AWS for Fluent Bit enables Amazon ECS and Amazon EKS customers to collect, process, and route container logs to destinations including Amazon CloudWatch Logs, Amazon Data Firehose, Amazon Kinesis Data Streams, and Amazon S3 without changing application code. AWS for Flu",
+      "descriptionHtml": "&lt;p&gt;AWS for Fluent Bit announces version &lt;a href=\"https://github.com/aws/aws-for-fluent-bit/releases/tag/v3.0.0\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;3.0.0&lt;/a&gt;, based on Fluent Bit version 4.1.1 and Amazon Linux 2023. Container logging using AWS for Fluent Bit is now more performant and more feature-rich for AWS customers, including those using &lt;a href=\"https://aws.amazon.com/ecs/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Elastic Container Services&lt;/a&gt; (Amazon ECS) and &lt;a href=\"https://aws.amazon.com/eks/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Elastic Kubernetes Service&lt;/a&gt; (Amazon EKS).&lt;br&gt; &lt;br&gt; AWS for Fluent Bit enables Amazon ECS and Amazon EKS customers to collect, process, and route container logs to destinations including Amazon CloudWatch Logs, Amazon Data Firehose, Amazon Kinesis Data Streams, and Amazon S3 without changing application code. AWS for Fluent Bit 3.0.0 upgrades the Fluent Bit version to 4.1.1, and upgrades the base image to Amazon Linux 2023. These updates deliver access to the latest Fluent Bit features, significant performance improvements, and enhanced security. New features include native OpenTelemetry (OTel) support for ingesting and forwarding OTLP logs, metrics, and traces with AWS SigV4 authentication. Performance improvements include faster JSON parsing, processing more logs per vCPU with lower latency. Security enhancements include TLS min version and cipher controls, which enforce your TLS policy on outputs from AWS for Fluent Bit for stronger protocol posture.&lt;br&gt; &lt;br&gt; You can use AWS for Fluent Bit 3.0.0 on both ECS and EKS. On ECS, update the FireLens log-router container image in your task definition to the 3.0.0 tag from the Amazon ECR Public Gallery. On EKS, upgrade by either updating the Helm release or setting the DaemonSet image to the 3.0.0 version.&lt;br&gt; &lt;br&gt; The &lt;a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/firelens-using-fluentbit.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS for Fluent Bit image&lt;/a&gt; is available in the &lt;a href=\"https://gallery.ecr.aws/aws-observability/aws-for-fluent-bit\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon ECR Public Gallery&lt;/a&gt; and in the Amazon ECR repository. You can also find it on &lt;a href=\"https://github.com/aws/aws-for-fluent-bit\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;GitHub&lt;/a&gt; for source code and additional guidance.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;&lt;i&gt;10/29/2025 - This post has been updated to accurately reflect the Fluent Bit version at launch.&lt;br&gt; 11/02/2026 - This post has been updated to clarify the scope of OpenTelemetry support.&lt;/i&gt;&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-fluent-bit-3-0-0-based-4-1-1",
+      "publishedAt": "2026-11-02T08:00:00.000Z",
+      "updatedAt": "2026-11-02T08:00:00.000Z",
+      "categories": [
+        "Amazon Eks",
+        "Containers",
+        "Amazon Ecs",
+        "AWS Govcloud Us"
+      ],
+      "services": [
+        "ECS",
+        "EKS"
+      ],
+      "tags": [
+        "amazon eks",
+        "containers",
+        "amazon ecs",
+        "aws govcloud us",
+        "ecs",
+        "eks"
+      ],
+      "isNew": true,
+      "securityScore": 15,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "logging",
+        "S3"
       ],
       "source": "whats-new"
     },
@@ -12885,7 +13095,7 @@
         "amazon elasticache",
         "elasticache"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -12915,7 +13125,7 @@
         "bedrock",
         "claude"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -12943,7 +13153,7 @@
         "amazon ecr",
         "ecr"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -13943,198 +14153,6 @@
         "aws govcloud us",
         "contact center",
         "business productivity",
-        "connect"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "4fa1e68a1aaa2566",
-      "title": "Amazon Aurora now supports PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24",
-      "description": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.6, 17.11, 16.15, 15.19, and 14.24, which include bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to benefit from these improvements and address Common Vulnerabilities and Exposures (CVEs), as detailed in the release notes . You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at scale, enable automatic minor version upgrades and use the AWS Organizations Upgrade",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/aurora/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Aurora PostgreSQL-Compatible Edition&lt;/a&gt; now supports PostgreSQL versions 18.6, 17.11, 16.15, 15.19, and 14.24, which include bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versions to benefit from these improvements and address Common Vulnerabilities and Exposures (CVEs), as detailed in the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/AuroraPostgreSQL.Updates.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;release notes&lt;/a&gt;.\n &lt;br&gt;\n &lt;br&gt;\n You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at scale, enable automatic minor version upgrades and use the AWS Organizations &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Maintenance.AMVU.UpgradeRollout.html\" target=\"_blank\"&gt;Upgrade Rollout Policy&lt;/a&gt; to orchestrate multiple upgrades in phases, validating on lower-priority environments before upgrading your most critical ones. For more information, see &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_UpgradeDBInstance.PostgreSQL.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Upgrading Amazon Aurora PostgreSQL DB clusters&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Amazon Aurora is designed for high performance and availability at global scale with full PostgreSQL compatibility. It provides scale-to-zero serverless compute, Aurora Global Database for multi-Region resilience, Aurora I/O-Optimized for improved price performance on I/O-intensive workloads, and built-in security and continuous backups. To get started, take a look at our &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_GettingStartedAurora.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;getting started page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-postgresql-18-6-17-11-16-15-15-19-14-24/",
-      "publishedAt": "2026-09-29T16:00:00.000Z",
-      "updatedAt": "2026-09-29T16:00:00.000Z",
-      "categories": [
-        "Amazon Rds",
-        "Databases",
-        "Amazon Aurora"
-      ],
-      "services": [
-        "RDS",
-        "Aurora"
-      ],
-      "tags": [
-        "amazon rds",
-        "databases",
-        "amazon aurora",
-        "rds",
-        "aurora"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Organizations"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "c1b29286e4e26670",
-      "title": "Amazon Bedrock expands Claude model availability to India, South Korea, and Singapore",
-      "description": "We're excited to announce the availability of Anthropic's Claude Opus 5, Claude Sonnet 5 , and Claude Haiku 4.5 on Amazon Bedrock in India, Claude Opus 5 and Claude Sonnet 5 in South Korea, as well as Claude Sonnet 5 in Singapore. Customers who need to process data within a specific geography, including those in financial services, healthcare, and the public sector, can now use these models at scale while keeping inference in-country. In India, the regional endpoint is served through geographic cross-Region inference across the Mumbai and Hyderabad Regions. Customers in India can access these ",
-      "descriptionHtml": "&lt;p&gt;We're excited to announce the availability of Anthropic's &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Claude Opus 5,&lt;/a&gt; &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Claude Sonnet 5&lt;/a&gt;, and &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-4-5.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Claude Haiku 4.5&lt;/a&gt; on Amazon Bedrock in India, Claude Opus 5 and Claude Sonnet 5 in South Korea, as well as Claude Sonnet 5 in Singapore. Customers who need to process data within a specific geography, including those in financial services, healthcare, and the public sector, can now use these models at scale while keeping inference in-country.&lt;/p&gt;\n&lt;p&gt;In India, the regional endpoint is served through geographic cross-Region inference across the Mumbai and Hyderabad Regions. Customers in India can access these models while processing data in India Regions, in addition to the already supported global cross-Region inference.&lt;/p&gt;\n&lt;p&gt;In South Korea, Amazon Bedrock supports Claude Opus 5 and Claude Sonnet 5 models with in-region inference on the bedrock-runtime endpoint in the Seoul (ap-northeast-2) Region. In Singapore (ap-southeast-1), Amazon Bedrock supports Claude Sonnet 5 with in-region inference on the bedrock-runtime endpoint. Amazon Bedrock processes inference requests and data within the Region you call, and the processing never leaves that Region.&lt;/p&gt;\n&lt;p&gt;For the most current information about model availability in each Region, &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html#model-regions-anthropic\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;see Regional availability by models&lt;/a&gt; in the Amazon Bedrock User Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-in-sk/",
-      "publishedAt": "2026-09-29T15:41:00.000Z",
-      "updatedAt": "2026-09-29T15:41:00.000Z",
-      "categories": [
-        "Amazon Bedrock",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "Bedrock",
-        "Claude"
-      ],
-      "tags": [
-        "amazon bedrock",
-        "artificial intelligence",
-        "bedrock",
-        "claude"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "324aecd31ca16023",
-      "title": "Amazon DocumentDB (with MongoDB compatibility) adds support for 5 MongoDB aggregation stages and change stream capabilities in version 8.0.2",
-      "description": "Amazon DocumentDB (with MongoDB compatibility) now supports retryable writes, 5 new aggregation stages, and change stream enhancements starting from minor version 8.0.2. This release expands MongoDB API compatibility and improves query performance, making it easier to migrate MongoDB workloads to Amazon DocumentDB without application code changes. Key new capabilities in version 8.0.2 include: - Retryable Writes — insert, update, and delete operations automatically retry on transient network errors, improving application resilience during failovers. - New aggregation stages — $setWindowFields ",
-      "descriptionHtml": "&lt;p&gt;Amazon DocumentDB (with MongoDB compatibility) now supports&amp;nbsp;retryable writes, 5 new aggregation stages, and change stream enhancements starting from minor version 8.0.2. This release expands MongoDB API compatibility and improves query performance, making it easier to migrate MongoDB workloads to Amazon DocumentDB without application code changes.&lt;/p&gt;\n&lt;p&gt;Key new capabilities in version 8.0.2 include:&lt;/p&gt;\n&lt;p&gt;- Retryable Writes — insert, update, and delete operations automatically retry on transient network errors, improving application resilience during failovers.\n &lt;br&gt;\n - New aggregation stages — $setWindowFields (with its full set of window operators), $bucketAuto, $facet, $graphLookup, and correlated $lookup, enabling advanced analytics, faceted search, and hierarchical queries.\n &lt;br&gt;\n - Change stream enhancements — the $changeStreamSplitLargeEvent stage splits change events larger than the 16 MB limit into fragments, and change streams now emit events for createCollection and createIndex operations.\n &lt;br&gt;\n - Query performance improvements — enhancements to the query planner add index-only scans for find and aggregation queries, index scans on $expr predicates, incremental sort, and faster count and countDocuments() operations.\n &lt;br&gt;\n - Index management — support for the reIndex command on partial indexes.&lt;/p&gt;\n&lt;p&gt;These capabilities are available starting from Amazon DocumentDB 8.0.2 in all regions where Amazon DocumentDB is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/documentdb/latest/developerguide/mongo-apis.html\"&gt;Supported MongoDB APIs, operations, and data types&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/documentdb/latest/developerguide/release-notes.html\"&gt;Amazon DocumentDB release notes&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-documentdb-8-0-2/",
-      "publishedAt": "2026-09-28T08:00:00.000Z",
-      "updatedAt": "2026-09-28T08:00:00.000Z",
-      "categories": [
-        "Amazon Documentdb"
-      ],
-      "services": [
-        "DocumentDB"
-      ],
-      "tags": [
-        "amazon documentdb",
-        "documentdb"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "migrate"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "b2a7b19f0d48a529",
-      "title": "AWS DataSync launches a monitoring dashboard for tracking task executions across your account",
-      "description": "AWS DataSync now provides a monitoring dashboard in the DataSync console that gives you visibility into your data transfers across your account. For each task execution, you can see its status, data and file transfer rates, duration, and the total data and files transferred. You can filter executions by status, task, task mode, execution ID, or start time to focus on a specific set of runs. The dashboard summarizes the filtered results, including the number of successful and failed executions, and the cumulative data and files transferred, grouped by task. To troubleshoot issues, you can selec",
-      "descriptionHtml": "&lt;p&gt;AWS DataSync now provides a monitoring dashboard in the DataSync console that gives you visibility into your data transfers across your account. For each task execution, you can see its status, data and file transfer rates, duration, and the total data and files transferred.&amp;nbsp;You can filter executions by status, task, task mode, execution ID, or start time to focus on a specific set of runs. The dashboard summarizes the filtered results, including the number of successful and failed executions, and the cumulative data and files transferred, grouped by task. To troubleshoot issues, you can select a failed execution to view its errors. The dashboard also displays counts of your configured tasks, locations, and agents, along with real-time total transfer rates.&lt;/p&gt;\n&lt;p&gt;Previously, monitoring multiple transfers required reviewing each execution individually or building custom Amazon CloudWatch dashboards. Now you can monitor the health, performance, and progress of concurrent transfers from a single view. This is useful for large migrations and recurring transfers that run many tasks at once.&lt;/p&gt;\n&lt;p&gt;The AWS DataSync dashboard is available at no additional cost in all commercial AWS Regions and the AWS GovCloud (US) Regions where AWS DataSync is available. To view your dashboard, go to the &lt;a href=\"https://www.google.com/url?sa=t&amp;amp;source=web&amp;amp;rct=j&amp;amp;opi=89978449&amp;amp;url=CAESVwHrOzAV20j8Wk9vTsmbIbYkRAmlzPqFHALrq6V60lbYjxzHw5x2zbIj319NQT3Omkeu_ddZIwedAWPfNk9FCqq2KWuwOIO-dn4eS5n6lZZW4uQyV6vV9w&amp;amp;ved=2ahUKEwjR4Z__g4qXAxV7FDQIHVs0I7EQFnoECB4QAQ&amp;amp;uoh=2&amp;amp;usg=AOvVaw3L5ZM1L-1k3SwMWi6qm9p5\"&gt;AWS DataSync console&lt;/a&gt;. To learn more about DataSync, visit the &lt;a href=\"https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html\"&gt;AWS DataSync User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard",
-      "publishedAt": "2026-09-25T15:24:00.000Z",
-      "updatedAt": "2026-09-25T15:24:00.000Z",
-      "categories": [],
-      "services": [
-        "DataSync"
-      ],
-      "tags": [
-        "datasync"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "monitoring"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "649fff65e691c4b1",
-      "title": "AWS End User Messaging now supports voice calling on WhatsApp",
-      "description": "AWS End User Messaging now lets businesses place and receive voice calls with their customers directly inside WhatsApp, using the same verified business identity they already use for messaging. With WhatsApp voice calling, a conversation can move seamlessly from a chat thread to a voice call without switching to a separate channel or application, so context is never lost and customers stay in the message thread where the conversation started. Voice calling works in both directions. Customers can call a business from within a WhatsApp chat, and businesses can call customers who have granted per",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/end-user-messaging/\"&gt;AWS End User Messaging&lt;/a&gt; now lets businesses place and receive voice calls with their customers directly inside WhatsApp, using the same verified business identity they already use for messaging. With WhatsApp voice calling, a conversation can move seamlessly from a chat thread to a voice call without switching to a separate channel or application, so context is never lost and customers stay in the message thread where the conversation started.&lt;/p&gt;\n&lt;p&gt;Voice calling works in both directions. Customers can call a business from within a WhatsApp chat, and businesses can call customers who have granted permission to be contacted. You can enable and manage WhatsApp voice calling on a registered WhatsApp business phone number using either the AWS End User Messaging console or the API.&lt;/p&gt;\n&lt;p&gt;WhatsApp voice calling is available in all Regions where AWS End User Messaging Social is available.&lt;/p&gt;\n&lt;p&gt;To learn more and get started, see the &lt;a href=\"https://docs.aws.amazon.com/social-messaging/latest/userguide/what-is-service.html\"&gt;AWS End User Messaging Social User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-voice-calling-whatsapp",
-      "publishedAt": "2026-09-25T07:00:00.000Z",
-      "updatedAt": "2026-09-25T07:00:00.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "identity"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "d1f5b5458a78540e",
-      "title": "Amazon RDS supports Multi-AZ for SQL Server Developer Edition",
-      "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a synchronous standby replica in a different Availability Zone and provide automatic failover during infrastructure failure. You can use this capability to build and test high availability configurations in non-production environments using Developer Edition, which includes all the functionality of Enterprise Edition at no license cost. You can use this feature to validate your high availability arch",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/sqlserver/\" target=\"_blank\"&gt;Amazon Relational Database Service (Amazon RDS) for SQL Server&lt;/a&gt; now supports Multi-AZ deployments using Always On Availability Groups for SQL Server Developer Edition. Multi-AZ deployments maintain a synchronous standby replica in a different Availability Zone and provide automatic failover during infrastructure failure. You can use this capability to build and test high availability configurations in non-production environments using Developer Edition, which includes all the functionality of Enterprise Edition at no license cost.\n &lt;br&gt;\n &lt;br&gt;\n You can use this feature to validate your high availability architecture, test failover behavior, and develop against production-equivalent configurations without incurring Enterprise Edition licensing costs. Multi-AZ with Always On Availability Groups is available on SQL Server Developer Edition major versions 2019 and 2022, and on SQL Server 2025 Enterprise Developer Edition. SQL Server 2025 Standard Developer Edition does not support this feature.\n &lt;br&gt;\n &lt;br&gt;\n For more information about the AWS Regions where this feature is available, see &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/sqlserver-dev-edition.html\" target=\"_blank\"&gt;Working with SQL Server Developer Edition on RDS for SQL Server&lt;/a&gt;. For pricing details, see &lt;a href=\"https://aws.amazon.com/rds/sqlserver/pricing/\" target=\"_blank\"&gt;Amazon RDS for SQL Server Pricing&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-sql-server-multi-az-developer-edition/",
-      "publishedAt": "2026-09-24T07:00:00.000Z",
-      "updatedAt": "2026-09-24T07:00:00.000Z",
-      "categories": [
-        "AWS Govcloud Us",
-        "Amazon Rds For Sql Server",
-        "Databases"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "aws govcloud us",
-        "amazon rds for sql server",
-        "databases",
-        "rds"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "1a2591c4b9d1e21c",
-      "title": "Amazon Connect Customer now provides routing step data in the analytics data lake",
-      "description": "Amazon Connect Customer now provides routing step data in the analytics data lake, making it easier for customers to generate insights from routing decisions. Using the data lake, customers can leverage Amazon Athena and Amazon Quick to analyze trends, such as contacts queued and contacts joined at each routing step, without complex data pipelines. For example, an analyst can now report on how contacts progressed through each routing step, identify where agent matching criteria were relaxed, and measure the impact of routing step configurations on wait times and agent utilization. Routing step",
-      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now provides routing step data in the analytics data lake, making it easier for customers to generate insights from routing decisions. Using the data lake, customers can leverage Amazon Athena and Amazon Quick to analyze trends, such as contacts queued and contacts joined at each routing step, without complex data pipelines. For example,&amp;nbsp;an analyst can now report on how contacts progressed through each routing step, identify where agent matching criteria were relaxed, and measure the impact of routing step configurations on wait times and agent utilization.&lt;/p&gt;\n&lt;p&gt;Routing step data is available in all AWS &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#analytics_datalake_region\"&gt;regions&lt;/a&gt; where Amazon Connect Customer data lake is offered. To learn more about Amazon Connect Customer data lake, see the &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/data-lake-contact-data.html\"&gt;Amazon Connect Customer Administrator Guide&lt;/a&gt;.&amp;nbsp; To learn more about Amazon Connect Customer, visit the &lt;a href=\"https://aws.amazon.com/connect/\"&gt;Amazon Connect Customer website&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/",
-      "publishedAt": "2026-09-23T16:00:00.000Z",
-      "updatedAt": "2026-09-23T16:00:00.000Z",
-      "categories": [
-        "Business Productivity",
-        "Contact Center",
-        "Amazon Connect",
-        "AWS Govcloud Us"
-      ],
-      "services": [
-        "Connect"
-      ],
-      "tags": [
-        "business productivity",
-        "contact center",
-        "amazon connect",
-        "aws govcloud us",
         "connect"
       ],
       "isNew": false,
