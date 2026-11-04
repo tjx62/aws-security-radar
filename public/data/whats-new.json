@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T15:55:01.593Z",
+  "lastUpdated": "2026-11-04T15:59:42.477Z",
   "itemCount": 500,
   "items": [
     {
@@ -67,7 +67,7 @@
         "iam identity center",
         "eventbridge"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2003,7 +2003,7 @@
         "technical how to",
         "route 53"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 85,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2529,28 +2529,6 @@
       "source": "security-blog"
     },
     {
-      "id": "0f720091ce52f20d",
-      "title": "PHP web runtimes (CVE-2026-109618 and CVE-2026-109619)",
-      "description": "Bulletin ID: 2026-143-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/21/2026 14:30 PM PDT Summary: Two critical vulnerabilities in PHP (CVE-2026-109618 and CVE-2026-109619) allow an unauthenticated remote actor to execute code, access process-accessible data, or cause denial of service on affected PHP workers. Customers running affected PHP versions (8.2–8.5 below the fixed releases, and end-of-life 5.4–8.1) should upgrade immediately to a patched release (8.5.12, 8.4.27, 8.3.36, or 8.2.35); configuration changes alone are not complete mitigations. AWS has ide",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-143-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/21/2026 14:30 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Summary:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Two critical vulnerabilities in PHP (CVE-2026-109618 and CVE-2026-109619) allow an unauthenticated remote actor to execute code, access process-accessible data, or cause denial of service on affected PHP workers. Customers running affected PHP versions (8.2–8.5 below the fixed releases, and end-of-life 5.4–8.1) should upgrade immediately to a patched release (8.5.12, 8.4.27, 8.3.36, or 8.2.35); configuration changes alone are not complete mitigations. AWS has identified a limited set of services that run affected PHP versions and is actively deploying mitigations and updates. Review the full bulletin for per-service status, mitigation guidance, and AWS WAF compensating controls.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-143-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-143-aws/",
-      "publishedAt": "2026-10-21T21:34:50.000Z",
-      "updatedAt": "2026-10-21T21:34:50.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 80,
-      "securityLevel": "critical",
-      "securityMatches": [
-        "Config",
-        "patch",
-        "access",
-        "end-of-life"
-      ],
-      "source": "security-bulletin"
-    },
-    {
       "id": "0b9e8f67e6b4c756",
       "title": "Amazon Braket now in scope for FedRAMP Class C",
       "description": "Amazon Braket is now in scope for FedRAMP Class C in AWS US Regions where Braket is available. The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard approach to the security assessment, authorization, and continuous monitoring of cloud products and services. With FedRAMP Class C authorization, government customers and the organizations that serve them can use Amazon Braket to explore quantum computing within an authorized boundary. The AWS-operated components of Braket, including the API and SDK, job orchestration and managemen",
@@ -3013,33 +2991,6 @@
       "source": "security-blog"
     },
     {
-      "id": "fb50ef66d1614669",
-      "title": "CVE-2026-110310 - RSA PKCS#1 v1.5 padding oracle via legacy envelope key format downgrade in Amazon S3 Encryption Client for .NET",
-      "description": "Bulletin ID: 2026-135-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/14/2026 12:30 PM PDT Description: We identified CVE-2026-110310, an issue in Amazon S3 encryption client for .NET that could allow a remote user who can read encrypted objects in the S3 bucket can force a padding downgrade by altering the padding scheme recorded in an object's metadata to legacy PKCS#1 v1.5. Since this padding scheme is susceptible to the Bleichenbacher attack, the user can use a PKCS#1 v1.5 padding oracle to recover the RSA-wrapped envelope key and decrypt the object. Impact",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-135-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/14/2026 12:30 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-110310, an issue in Amazon S3 encryption client for .NET that could allow a remote user who can read encrypted objects in the S3 bucket can force a padding downgrade by altering the padding scheme recorded in an object's metadata to legacy PKCS#1 v1.5. Since this padding scheme is susceptible to the Bleichenbacher attack, the user can use a PKCS#1 v1.5 padding oracle to recover the RSA-wrapped envelope key and decrypt the object.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;= 2.1.0; 3.0.0 to 3.2.1; 4.0.0 to 4.0.2&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-135-aws/",
-      "publishedAt": "2026-10-14T19:48:49.000Z",
-      "updatedAt": "2026-10-14T19:48:49.000Z",
-      "categories": [],
-      "services": [
-        "S3"
-      ],
-      "tags": [
-        "s3"
-      ],
-      "isNew": false,
-      "securityScore": 75,
-      "securityLevel": "high",
-      "securityMatches": [
-        "encryption",
-        "encrypt",
-        "S3",
-        "Bucket",
-        "attack"
-      ],
-      "source": "security-bulletin"
-    },
-    {
       "id": "b1508cbab9351e07",
       "title": "AWS IAM now supports 20 managed policies per role by default",
       "description": "AWS Identity and Access Management (IAM) has increased the default quota for managed policies per role from 10 to 20. This higher default quota reduces the need to make Service Quota requests when following IAM best practices like separating permissions into purpose-specific policies or when onboarding to AWS Partner products that require attaching additional managed policies. If you need more than 20 managed policies per role, you can request a quota increase up to 25 using Service Quotas. This change is available in all commercial AWS Regions, AWS GovCloud (US) and China Regions and applies ",
@@ -3160,27 +3111,6 @@
       "source": "security-bulletin"
     },
     {
-      "id": "400ebd7092e44615",
-      "title": "CVE-2026-112407 - Incorrect privilege assignment in AWS CICD-toolchain-for-serverless-applications",
-      "description": "Bulletin ID: 2026-141-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/20/2026 13:30 PM PDT Description: CICD-toolchain-for-serverless-applications is an AWS sample application that provisions a CI/CD pipeline for serverless applications through the AWS Serverless Application Repository. We identified CVE-2026-112407, an incorrect privilege assignment in the IAM policy of AWS CICD-toolchain-for-serverless-applications before 1.0.11 that allows remote authenticated users with push access to the application source repository to escalate privileges and access or mo",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-141-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/20/2026 13:30 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;CICD-toolchain-for-serverless-applications is an AWS sample application that provisions a CI/CD pipeline for serverless applications through the AWS Serverless Application Repository. We identified CVE-2026-112407, an incorrect privilege assignment in the IAM policy of AWS CICD-toolchain-for-serverless-applications before 1.0.11 that allows remote authenticated users with push access to the application source repository to escalate privileges and access or modify resources outside the application stack in the same AWS account via application templates deployed by the toolchain pipeline.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; =1.0.7 AND &amp;lt;=1.0.10&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-141-aws/\"&gt;Read the article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-141-aws/",
-      "publishedAt": "2026-10-20T20:39:30.000Z",
-      "updatedAt": "2026-10-20T20:39:30.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 70,
-      "securityLevel": "high",
-      "securityMatches": [
-        "IAM",
-        "policy",
-        "access"
-      ],
-      "source": "security-bulletin"
-    },
-    {
       "id": "4b6b34eb1e7308f2",
       "title": "AWS HealthOmics now supports shared VPCs",
       "description": "AWS HealthOmics now supports sharing VPCs across accounts, enabling your workflows to access resources in Amazon Virtual Private Clouds (VPCs) managed by other AWS accounts with AWS Resource Access Manager (RAM). AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. With shared VPCs, customers can centralize networking administration by sharing subnets and security groups from a single VPC across multiple accounts in their organization, and HealthOmics then places e",
@@ -3232,26 +3162,6 @@
         "encryption",
         "encrypt",
         "policy"
-      ],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "091786eb1e65d4e3",
-      "title": "CVE-2026-107783 - Insertion of sensitive information into log file in AWS Tools for PowerShell",
-      "description": "Bulletin ID: 2026-132-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/09/2026 08:30 AM PDT Description: AWS Tools for PowerShell V5 lets developers and administrators manage their AWS services from the PowerShell scripting environment. We identified CVE-2026-107783, where insertion of sensitive information into log file in AWS Tools for PowerShell before 5.0.306 might allow local users to recover an IAM user's cleartext AWS Management Console password from command output and log artifacts. Impacted versions: Please refer to the article below for the most up-to-",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-132-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/09/2026 08:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS Tools for PowerShell V5 lets developers and administrators manage their AWS services from the PowerShell scripting environment. We identified CVE-2026-107783, where insertion of sensitive information into log file in AWS Tools for PowerShell before 5.0.306 might allow local users to recover an IAM user's cleartext AWS Management Console password from command output and log artifacts.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt;= v5.0.305&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-132-aws/",
-      "publishedAt": "2026-10-09T15:56:44.000Z",
-      "updatedAt": "2026-10-09T15:56:44.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 70,
-      "securityLevel": "high",
-      "securityMatches": [
-        "IAM",
-        "Artifact"
       ],
       "source": "security-bulletin"
     },
@@ -3653,53 +3563,6 @@
       "source": "security-blog"
     },
     {
-      "id": "099889d3735735a0",
-      "title": "CVE-2026-112408 - Missing bucket ownership verification in Amazon SageMaker Python SDK default_bucket()",
-      "description": "Bulletin ID: 2026-142-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/21/2026 12:30 PM PDT Description: The Amazon SageMaker Python SDK is an open-source library for training and deploying machine learning models on Amazon SageMaker. We identified CVE-2026-112408, an issue in the default_bucket() function. The SDK uses a predictably named Amazon S3 bucket and does not check that the caller's AWS account owns it. A remote actor who creates that bucket first could achieve code execution in a remote SageMaker execution environment and obtain IAM credentials. Impac",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-142-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/21/2026 12:30 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;The Amazon SageMaker Python SDK is an open-source library for training and deploying machine learning models on Amazon SageMaker. We identified CVE-2026-112408, an issue in the default_bucket() function. The SDK uses a predictably named Amazon S3 bucket and does not check that the caller's AWS account owns it. A remote actor who creates that bucket first could achieve code execution in a remote SageMaker execution environment and obtain IAM credentials.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;br&gt; - V2: &amp;lt; 2.257.3&lt;br&gt; - V3: &amp;gt;= 3.0.0 and &amp;lt; 3.10.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-142-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-142-aws/",
-      "publishedAt": "2026-10-21T21:32:10.000Z",
-      "updatedAt": "2026-10-21T21:32:10.000Z",
-      "categories": [],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 65,
-      "securityLevel": "high",
-      "securityMatches": [
-        "IAM",
-        "S3",
-        "Bucket",
-        "credential"
-      ],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "b647cdeb8b460fce",
-      "title": "CVE-2026-112380 - Missing authorization in the WhatsApp channel in Kiro Crew",
-      "description": "Bulletin ID: 2026-140-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/20/2026 13:00 PM PDT Description: Kiro Crew is an open-source personal AI agent that can be reached from a web dashboard, a CLI, or messaging channels such as WhatsApp, and that runs tools on the operator's machine. We identified CVE-2026-112380, an authorization issue in the WhatsApp channel and the internal subagent run-control endpoints. In certain configurations where a WhatsApp group was added to an operator's allowed groups, or where the direct-message policy was set to open, a member o",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-140-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/20/2026 13:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Kiro Crew is an open-source personal AI agent that can be reached from a web dashboard, a CLI, or messaging channels such as WhatsApp, and that runs tools on the operator's machine.&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-112380, an authorization issue in the WhatsApp channel and the internal subagent run-control endpoints. In certain configurations where a WhatsApp group was added to an operator's allowed groups, or where the direct-message policy was set to open, a member of that WhatsApp group could send instructions to another session's subagent. The subagent then executed those instructions on the operator's machine under that session's approval policy, and the resulting audit trail was attributed to the operator rather than the actual sender.&lt;/p&gt; \n&lt;p&gt;The default configuration is not affected: whatsapp.groups defaults to empty and whatsapp.dm_policy defaults to self, so a group that is not explicitly listed is dropped before dispatch.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;=0.4.0 AND &amp;lt;0.7.2&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-140-aws/\"&gt;Read the article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-140-aws/",
-      "publishedAt": "2026-10-20T20:19:42.000Z",
-      "updatedAt": "2026-10-20T20:19:42.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 65,
-      "securityLevel": "high",
-      "securityMatches": [
-        "authorization",
-        "Config",
-        "policy"
-      ],
-      "source": "security-bulletin"
-    },
-    {
       "id": "79ab97da000c8572",
       "title": "CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF",
       "description": "",
@@ -3777,6 +3640,31 @@
         "security"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "fb50ef66d1614669",
+      "title": "CVE-2026-110310 - RSA PKCS#1 v1.5 padding oracle via legacy envelope key format downgrade in Amazon S3 Encryption Client for .NET",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-135-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-135-aws/",
+      "publishedAt": "2026-10-14T19:49:20.000Z",
+      "updatedAt": "2026-10-14T19:49:20.000Z",
+      "categories": [],
+      "services": [
+        "S3"
+      ],
+      "tags": [
+        "s3"
+      ],
+      "isNew": false,
+      "securityScore": 65,
+      "securityLevel": "high",
+      "securityMatches": [
+        "encryption",
+        "encrypt",
+        "S3"
+      ],
+      "source": "security-bulletin"
     },
     {
       "id": "8cf01c27cfc9c9e6",
@@ -4038,7 +3926,7 @@
         "aws canada (central) region",
         "canada"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 60,
       "securityLevel": "high",
       "securityMatches": [
@@ -4067,38 +3955,13 @@
         "& compliance",
         "thought leadership"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 60,
       "securityLevel": "high",
       "securityMatches": [
         "security"
       ],
       "source": "security-blog"
-    },
-    {
-      "id": "97da6e6577dbae88",
-      "title": "CVE-2026-115416 - Incorrect authorization checks in Amazon Athena engine version 3 query processing",
-      "description": "Bulletin ID: 2026-144-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/22/2026 09:30 AM PDT Description: Amazon Athena is an interactive query service that allows you to analyze data in Amazon S3 using standard SQL. We identified CVE-2026-115416, an issue in Amazon Athena engine version 3 query processing where incorrect authorization checks could have allowed an authenticated user to read AWS account identifiers and SQL statement text query metadata from other AWS accounts. Query results, and data stored in Amazon S3 or other data sources, were not accessible t",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-144-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/22/2026 09:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Amazon Athena is an interactive query service that allows you to analyze data in Amazon S3 using standard SQL. We identified CVE-2026-115416, an issue in Amazon Athena engine version 3 query processing where incorrect authorization checks could have allowed an authenticated user to read AWS account identifiers and SQL statement text query metadata from other AWS accounts. Query results, and data stored in Amazon S3 or other data sources, were not accessible through this issue.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; Amazon Athena engine version 3&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-144-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-144-aws/",
-      "publishedAt": "2026-10-22T16:58:02.000Z",
-      "updatedAt": "2026-10-22T16:58:02.000Z",
-      "categories": [],
-      "services": [
-        "Athena"
-      ],
-      "tags": [
-        "athena"
-      ],
-      "isNew": false,
-      "securityScore": 60,
-      "securityLevel": "high",
-      "securityMatches": [
-        "authorization",
-        "access",
-        "S3"
-      ],
-      "source": "security-bulletin"
     },
     {
       "id": "c3f9e3269f729740",
@@ -4643,13 +4506,13 @@
       "source": "security-blog"
     },
     {
-      "id": "2ab79bd8f3e60c2e",
-      "title": "CVE-2026-119115 - Incorrect authorization in issuer resolution in AWS Private CA Connector for Kubernetes",
-      "description": "Bulletin ID: 2026-156-AWS Publication Date: 10/29/2026 09:30 AM PDT Description: We are aware of CVE-2026-119115, an incorrect authorization issue in the issuer resolution logic. In affected versions, under certain conditions, an authenticated user whose approval policy only authorizes a namespace-scoped issuer could obtain certificates, including subordinate CA certificates, signed by a cluster-scoped issuer they are not authorized to use. Impacted versions: - aws-privateca-issuer before v1.10.1 - AWS Private CA Connector for Kubernetes EKS add-on before v1.10.1-eksbuild.1 Please refer to the",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-156-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/29/2026 09:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We are aware of CVE-2026-119115, an incorrect authorization issue in the issuer resolution logic. In affected versions, under certain conditions, an authenticated user whose approval policy only authorizes a namespace-scoped issuer could obtain certificates, including subordinate CA certificates, signed by a cluster-scoped issuer they are not authorized to use.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;br&gt; - aws-privateca-issuer before v1.10.1&lt;br&gt; - AWS Private CA Connector for Kubernetes EKS add-on before v1.10.1-eksbuild.1&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-156-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-156-aws/",
-      "publishedAt": "2026-10-29T16:45:45.000Z",
-      "updatedAt": "2026-10-29T16:45:45.000Z",
+      "id": "a554797993c9e9bd",
+      "title": "CVE-2026-119922 - Babelfish for PostgreSQL Privilege Escalation",
+      "description": "Bulletin ID: 2026-165-AWS Publication Date: 11/03/2026 10:00 AM PST Description: Improper access control in the Babelfish for PostgreSQL extension versions 1.2-1.5, 2.1-2.15, 3.1-3.12, 4.0-4.8, 5.1-5.4 allows remote authenticated users to elevate their privileges. We recommend you upgrade to Babelfish for PostgreSQL extension versions Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin. Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-165-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/03/2026 10:00 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Improper access control in the Babelfish for PostgreSQL extension versions 1.2-1.5, 2.1-2.15, 3.1-3.12, 4.0-4.8, 5.1-5.4 allows remote authenticated users to elevate their privileges. We recommend you upgrade to Babelfish for PostgreSQL extension versions&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-165-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-165-aws/",
+      "publishedAt": "2026-11-03T18:26:54.000Z",
+      "updatedAt": "2026-11-03T18:26:54.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -4657,8 +4520,8 @@
       "securityScore": 55,
       "securityLevel": "medium",
       "securityMatches": [
-        "authorization",
-        "policy"
+        "security",
+        "access"
       ],
       "source": "security-bulletin"
     },
@@ -5363,6 +5226,30 @@
       "source": "security-blog"
     },
     {
+      "id": "5e0a7c0709098eb2",
+      "title": "CVE-2026-119084 - Remote Code Execution via Unsafe Class Loading in Amazon Redshift JDBC Driver Connection Parameters",
+      "description": "Bulletin ID: 2026-168-AWS Publication Date: 11/03/2026 13:00 PM PST Description: We identified CVE-2026-119084, an issue in Amazon Redshift JDBC Driver versions prior to 2.3.0. Under certain conditions, the driver could load and execute arbitrary classes when processing JDBC connection URL parameters or AWS credentials profile fields. Impacted versions: Amazon Redshift JDBC Driver Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin. Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-168-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/03/2026 13:00 PM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-119084, an issue in Amazon Redshift JDBC Driver versions prior to 2.3.0. Under certain conditions, the driver could load and execute arbitrary classes when processing JDBC connection URL parameters or AWS credentials profile fields.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; Amazon Redshift JDBC Driver &amp;lt; 2.3.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-168-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-168-aws/",
+      "publishedAt": "2026-11-03T21:32:29.000Z",
+      "updatedAt": "2026-11-03T21:32:29.000Z",
+      "categories": [],
+      "services": [
+        "Redshift"
+      ],
+      "tags": [
+        "redshift"
+      ],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "security",
+        "credential"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "bc02b194a92fd393",
       "title": "CVE-2026-120497 - Stored cross-site scripting in the HTML report generator of aidlc-traceability in AWS AI-DLC Workflows",
       "description": "Bulletin ID: 2026-163-AWS Publication Date: 11/02/2026 11:00 AM PST Description: aidlc-traceability is an open source command-line tool, formerly published in the awslabs/aidlc-workflows repository, that generates traceability-matrix reports from a project's AI-DLC artifact files. We identified CVE-2026-120497, where stored cross-site scripting (XSS) in the HTML report generator in the aidlc-traceability CLI could allow an actor who can modify a project's AI-DLC artifact files to execute arbitrary script in the browser of a user who opens a generated HTML traceability report via crafted artifa",
@@ -5402,25 +5289,6 @@
       "source": "security-bulletin"
     },
     {
-      "id": "5a40b33f50c33656",
-      "title": "CVE-2026-119116 and CVE-2026-119148 - Issues in AWS Nitro Enclaves SDK for C",
-      "description": "Bulletin ID: 2026-157-AWS Publication Date: 10/30/2026 09:00 AM PDT Description: We identified CVE-2026-119116, a use-after-free in the SetClient command handler of the kmstool-enclave example application, where an application that executes on the parent EC2 instance could send crafted messages over vsock to corrupt heap memory inside the enclave and execute arbitrary code within it. Only enclave images that include kmstool-enclave, or code derived from it, are affected. We also identified CVE-2026-119148, an input validation issue in the SDK library where the AWS KMS server name is built from",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-157-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/30/2026 09:00 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-119116, a use-after-free in the SetClient command handler of the kmstool-enclave example application, where an application that executes on the parent EC2 instance could send crafted messages over vsock to corrupt heap memory inside the enclave and execute arbitrary code within it. Only enclave images that include kmstool-enclave, or code derived from it, are affected.&lt;/p&gt; \n&lt;p&gt;We also identified CVE-2026-119148, an input validation issue in the SDK library where the AWS KMS server name is built from a caller-supplied region string. A third party could supply a crafted region to impersonate KMS to the enclave and inject forged responses, such as actor-chosen key material.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; aws-nitro-enclaves-sdk-c &amp;lt;= v0.4.5 (CVE-2026-119116 affects kmstool-enclave only; CVE-2026-119148 affects the library)&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-157-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-157-aws/",
-      "publishedAt": "2026-10-30T16:34:46.000Z",
-      "updatedAt": "2026-10-30T16:34:46.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 50,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "KMS"
-      ],
-      "source": "security-bulletin"
-    },
-    {
       "id": "048d1694ca1137da",
       "title": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions",
       "description": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions. When you enable it, CloudFront adds the script tag for the AWS WAF JavaScript SDK to the HTML it serves, with no change to your application code, build process, or deployment. The SDK supplies the client-side signals used by three AWS WAF managed rule groups: Bot Control at the targeted inspection level, Fraud Control account takeover prevention (ATP), and Fraud Control account creation fraud prevention (ACFP). Previously, supplying those signals required you to add a script tag to every page of every application ",
@@ -5453,25 +5321,6 @@
         "WAF"
       ],
       "source": "whats-new"
-    },
-    {
-      "id": "1a3e5d2a8ad41632",
-      "title": "CVE-2026-115812 and CVE-2026-115813: Issue in Amazon Web Services Multi Model Server",
-      "description": "Bulletin ID: 2026-148-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/23/2026 10:30 AM PDT Description: Amazon Web Services Multi Model Server (MMS) is an open source tool for serving machine learning models for inference. It was published by AWS on GitHub, PyPI, and Docker Hub, and reached end of life; its source repository has been archived and read-only since November 20, 2025. CVE-2026-115812: An issue in model archive extraction could allow a crafted model archive to write files outside the intended directory, potentially resulting in code execution with t",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-148-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/23/2026 10:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Amazon Web Services Multi Model Server (MMS) is an open source tool for serving machine learning models for inference. It was published by AWS on GitHub, PyPI, and Docker Hub, and reached end of life; its source repository has been archived and read-only since November 20, 2025.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;CVE-2026-115812:&lt;/b&gt; An issue in model archive extraction could allow a crafted model archive to write files outside the intended directory, potentially resulting in code execution with the privileges of the MMS process.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;CVE-2026-115813:&lt;/b&gt; An issue in the model download path could allow the MMS management interface to be directed to make requests to unintended network destinations.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt;=1.1.11 (all released versions)&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-148-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-148-aws/",
-      "publishedAt": "2026-10-23T17:45:37.000Z",
-      "updatedAt": "2026-10-23T17:45:37.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 50,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "end of life"
-      ],
-      "source": "security-bulletin"
     },
     {
       "id": "156c6239387ce106",
@@ -5537,26 +5386,6 @@
       "securityLevel": "medium",
       "securityMatches": [
         "permission",
-        "access"
-      ],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "de66877a8ec1db33",
-      "title": "Issue in the Linux kernel virtio-net/TAP networking path affecting KVM-based hypervisors",
-      "description": "Bulletin ID: 2026-137-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/15/2026 10:30 AM PDT Description: AWS is aware of an issue in the Linux kernel's virtio-net/TAP networking path (CVE-2026-99999) that affects KVM-based hypervisors running unpatched Linux kernel versions 4.4 through 6.18. This issue could allow an actor with privileged access inside a guest virtual machine to send specially crafted network packets that corrupt host kernel memory that could result in disclosure of host memory or a denial of service. AWS-managed compute and container services, ",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-137-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/15/2026 10:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS is aware of an issue in the Linux kernel's virtio-net/TAP networking path (CVE-2026-99999) that affects KVM-based hypervisors running unpatched Linux kernel versions 4.4 through 6.18. This issue could allow an actor with privileged access inside a guest virtual machine to send specially crafted network packets that corrupt host kernel memory that could result in disclosure of host memory or a denial of service.&lt;/p&gt; \n&lt;p&gt;AWS-managed compute and container services, including Amazon EC2 instances, AWS Lambda, and AWS Fargate, are not affected. There is no action required for customers using these services.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Affected products &amp;amp; versions:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Customers who self-manage virtual machines using virtio-net and KVM, including those using virtual machine monitors such as Firecracker, on hosts running affected, unpatched Linux kernel versions.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-137-aws/",
-      "publishedAt": "2026-10-15T19:03:20.000Z",
-      "updatedAt": "2026-10-15T19:03:20.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 50,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "patch",
         "access"
       ],
       "source": "security-bulletin"
@@ -5804,6 +5633,29 @@
       "source": "whats-new"
     },
     {
+      "id": "8f2d8911a630fb72",
+      "title": "CVE-2026-121652 - Stored cross-site scripting (XSS) in AWS Amplify maplibre-gl-js-amplify popup rendering",
+      "description": "Bulletin ID: 2026-167-AWS Publication Date: 11/03/2026 10:30 AM PST Description: maplibre-gl-js-amplify is an open-source AWS Amplify library that integrates Amazon Location Service with MapLibre GL JS to render maps, markers, popups, and geofencing controls in web applications. We identified CVE-2026-121652, where a stored cross-site scripting (XSS) issue in the library's popup and geofence-control rendering. Impacted versions: Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin. Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-167-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/03/2026 10:30 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;maplibre-gl-js-amplify is an open-source AWS Amplify library that integrates Amazon Location Service with MapLibre GL JS to render maps, markers, popups, and geofencing controls in web applications. We identified CVE-2026-121652, where a stored cross-site scripting (XSS) issue in the library's popup and geofence-control rendering.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt;= 4.0.2&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-167-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-167-aws/",
+      "publishedAt": "2026-11-03T18:54:53.000Z",
+      "updatedAt": "2026-11-03T18:54:53.000Z",
+      "categories": [],
+      "services": [
+        "Amplify"
+      ],
+      "tags": [
+        "amplify"
+      ],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "security"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "9a4f4d04fb08d5f6",
       "title": "Inside a successful AWS European Sovereign Cloud exercise to demonstrate independent operation",
       "description": "On Saturday, October 24, 2026 we conducted a successful exercise demonstrating that the AWS European Sovereign Cloud can operate without depending on any infrastructure outside the European Union (EU). This was the first public technical exercise demonstrating the independence of a sovereign cloud Region. The AWS European Sovereign Cloud is a new, independent cloud partition […]",
@@ -5859,6 +5711,25 @@
       "source": "security-bulletin"
     },
     {
+      "id": "2ab79bd8f3e60c2e",
+      "title": "CVE-2026-119115 - Incorrect authorization in issuer resolution in AWS Private CA Connector for Kubernetes",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-156-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-156-aws/",
+      "publishedAt": "2026-10-29T16:58:55.000Z",
+      "updatedAt": "2026-10-29T16:58:55.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "authorization"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "8fc43b3d0efcc5fb",
       "title": "Amazon Aurora now supports post-quantum TLS key exchange",
       "description": "Starting today, Amazon Aurora PostgreSQL-Compatible Edition introduces support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in transit. Amazon Aurora PostgreSQL versions 18 and higher support modification of the ssl_groups parameter. You can select cryptographic groups from the Amazon Aurora PostgreSQL allow list to align with your organization's security standards. Amazon Aurora is designed for high performance and availability at global scale with full PostgreSQL compatibility. It provides scale-to-zero serverless c",
@@ -5889,21 +5760,25 @@
       "source": "whats-new"
     },
     {
-      "id": "93fd69a0e8808c94",
-      "title": "CVE-2026-111943: eMudhra intermediate CA key recovery in AWS trust bundles",
-      "description": "Bulletin ID: 2026-150-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/24/2026 20:00 PM PDT Summary: AWS identified CVE-2026-111943, a key-generation flaw at external CA eMudhra/emSign that made intermediate CA private keys recoverable. Three roots are affected: AAA Certificate Services, emSign Root TLS CA - G3, and emSign ECC Root CA - G3. They shipped in AWS-owned trust bundles, exposing soft-fail TLS clients to man-in-the-middle risk. AWS is removing the roots. Customers using CloudFront custom origins or ALB OIDC/JWT auth should check whether their certifica",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-150-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/24/2026 20:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Summary:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS identified CVE-2026-111943, a key-generation flaw at external CA eMudhra/emSign that made intermediate CA private keys recoverable. Three roots are affected: AAA Certificate Services, emSign Root TLS CA - G3, and emSign ECC Root CA - G3. They shipped in AWS-owned trust bundles, exposing soft-fail TLS clients to man-in-the-middle risk. AWS is removing the roots. Customers using CloudFront custom origins or ALB OIDC/JWT auth should check whether their certificates chain to an affected root and reissue from a different CA before enforcement.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-150-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-150-aws/",
-      "publishedAt": "2026-10-25T03:07:57.000Z",
-      "updatedAt": "2026-10-25T03:07:57.000Z",
+      "id": "97da6e6577dbae88",
+      "title": "CVE-2026-115416 - Incorrect authorization checks in Amazon Athena engine version 3 query processing",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-144-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-144-aws/",
+      "publishedAt": "2026-10-22T16:58:02.000Z",
+      "updatedAt": "2026-10-22T16:58:02.000Z",
       "categories": [],
-      "services": [],
-      "tags": [],
+      "services": [
+        "Athena"
+      ],
+      "tags": [
+        "athena"
+      ],
       "isNew": false,
       "securityScore": 45,
       "securityLevel": "medium",
       "securityMatches": [
-        "TLS"
+        "authorization"
       ],
       "source": "security-bulletin"
     },
@@ -5996,6 +5871,25 @@
       "source": "security-bulletin"
     },
     {
+      "id": "b647cdeb8b460fce",
+      "title": "CVE-2026-112380 - Missing authorization in the WhatsApp channel in Kiro Crew",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-140-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-140-aws/",
+      "publishedAt": "2026-10-20T20:23:08.000Z",
+      "updatedAt": "2026-10-20T20:23:08.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": false,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "authorization"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "61671c9aac485bf1",
       "title": "CVE-2026-18394 - Incorrect authorization in Strands Agents Tools http_request tool",
       "description": "",
@@ -6068,25 +5962,6 @@
       "securityLevel": "medium",
       "securityMatches": [
         "PCI"
-      ],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "1db3d218ac5b206c",
-      "title": "CVE-2026-109587 &amp; CVE-2026-109588 - Issue with FreeRTOS-Kernel",
-      "description": "Bulletin ID: 2026-138-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/16/2026 10:00 AM PDT Description: FreeRTOS-Kernel is a real-time operating system kernel for microcontrollers and small microprocessors, distributed by Amazon. AWS identified two issues with the FreeRTOS-Kernel Arm Cortex-R82 (Armv8-R AArch64) MPU port, affecting multiple versions. CVE-2026-109587: incorrect authorization in the Arm Cortex-R82 MPU port. On MPU-enabled builds, the port does not correctly enforce the memory-region boundaries assigned to an unprivileged task when it passes a buf",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-138-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/16/2026 10:00 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;FreeRTOS-Kernel is a real-time operating system kernel for microcontrollers and small microprocessors, distributed by Amazon. AWS identified two issues with the FreeRTOS-Kernel Arm Cortex-R82 (Armv8-R AArch64) MPU port, affecting multiple versions.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;CVE-2026-109587:&lt;/b&gt; incorrect authorization in the Arm Cortex-R82 MPU port. On MPU-enabled builds, the port does not correctly enforce the memory-region boundaries assigned to an unprivileged task when it passes a buffer argument to an MPU system call. Under certain conditions, an unprivileged task might read and write privileged kernel memory outside the regions assigned to it. This issue affects Arm Cortex-R82 builds with configENABLE_MPU=1; applications that do not use the FreeRTOS MPU are not affected.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;CVE-2026-109588:&lt;/b&gt; numeric truncation in the MPU buffer authorization check on the Arm Cortex-R82 MPU port. On MPU-enabled builds, the buffer-length validation does not correctly account for the full length of a buffer passed to a stream buffer system call. Under certain conditions, an unprivileged task might read or write privileged kernel memory beyond the validated buffer window. This issue affects Arm Cortex-R82 builds with configENABLE_MPU=1; applications that do not use the FreeRTOS MPU are not affected.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;- CVE-2026-109587 (MPU region authorization): V11.3.0 and V11.3.1 (Arm Cortex-R82 builds with configENABLE_MPU=1)&lt;br&gt; - CVE-2026-109588 (MPU buffer length truncation): V11.3.0 and V11.3.1 (Arm Cortex-R82 builds with configENABLE_MPU=1)&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-138-aws/",
-      "publishedAt": "2026-10-16T17:34:49.000Z",
-      "updatedAt": "2026-10-16T17:34:49.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 45,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "authorization"
       ],
       "source": "security-bulletin"
     },
@@ -6165,30 +6040,6 @@
       "source": "whats-new"
     },
     {
-      "id": "bc78bb6705a8d632",
-      "title": "CVE-2026-110248 - Insertion of sensitive information into log files in Amazon SageMaker Python SDK",
-      "description": "Bulletin ID: 2026-134-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/14/2026 11:30 AM PDT Description: Amazon SageMaker Python SDK is an open source library for training and deploying machine learning models on Amazon SageMaker. We identified CVE-2026-110248, an issue in the git_utils.py component of Amazon SageMaker Python SDK. When a Git clone operation fails, repository credentials in subprocess error output are written to CloudWatch Logs without redaction. An authenticated remote user with access to those logs is able to obtain the plaintext credentials. I",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-134-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/14/2026 11:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Amazon SageMaker Python SDK is an open source library for training and deploying machine learning models on Amazon SageMaker.&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-110248, an issue in the git_utils.py component of Amazon SageMaker Python SDK. When a Git clone operation fails, repository credentials in subprocess error output are written to CloudWatch Logs without redaction. An authenticated remote user with access to those logs is able to obtain the plaintext credentials.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;br&gt; - Amazon SageMaker Python SDK V2 versions before 2.257.3&lt;br&gt; - Amazon SageMaker Python SDK V3 versions before 3.10.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-134-aws/",
-      "publishedAt": "2026-10-14T18:38:55.000Z",
-      "updatedAt": "2026-10-14T18:38:55.000Z",
-      "categories": [],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 45,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "access",
-        "credential"
-      ],
-      "source": "security-bulletin"
-    },
-    {
       "id": "a8a33738f39273c7",
       "title": "AWS Secrets Manager adds managed external secrets support for Databricks and Twilio",
       "description": "AWS Secrets Manager now extends its managed external secrets capability to include Databricks and Twilio, enabling you to automatically rotate the credentials that your data pipelines and messaging applications use to call these services. You set up rotation directly from the AWS Management Console or API without writing or maintaining any custom rotation Lambda functions. Long-lived credentials often stay unrotated because rotation is hard to set up and hard to distribute safely to the applications that use the updated credential. With managed external secrets, you can use Secrets Manager to ",
@@ -6219,11 +6070,11 @@
     {
       "id": "e61c76b349b129e0",
       "title": "CVE-2026-108096: Improper authorization in query resolvers for SQL-backed models in AWS Amplify API Category",
-      "description": "Bulletin ID: 2026-133-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/09/2026 11:00 AM PDT Description: AWS Amplify API Category is a CDK Construct library for defining GraphQL data models with authorization rules as AWS AppSync APIs. We identified CVE-2026-108096, where improper authorization in the query resolvers generated by @aws-amplify/graphql-index-transformer might allow an authenticated remote user to read records owned by other users of the same application via crafted queries. Impacted versions: - @aws-amplify/graphql-index-transformer >=2.2.0, - @aw",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-133-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/09/2026 11:00 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS Amplify API Category is a CDK Construct library for defining GraphQL data models with authorization rules as AWS AppSync APIs. We identified CVE-2026-108096, where improper authorization in the query resolvers generated by @aws-amplify/graphql-index-transformer might allow an authenticated remote user to read records owned by other users of the same application via crafted queries.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;br&gt; - @aws-amplify/graphql-index-transformer &amp;gt;=2.2.0, &amp;lt;3.1.2;&lt;br&gt; - @aws-amplify/graphql-api-construct &amp;gt;=1.4.0, &amp;lt;1.21.4;&lt;br&gt; - @aws-amplify/data-construct &amp;lt;1.17.4&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-133-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-133-aws/",
-      "publishedAt": "2026-10-09T18:13:24.000Z",
-      "updatedAt": "2026-10-09T18:13:24.000Z",
+      "publishedAt": "2026-10-09T18:19:40.000Z",
+      "updatedAt": "2026-10-09T18:19:40.000Z",
       "categories": [],
       "services": [
         "Amplify"
@@ -6851,69 +6702,6 @@
       "source": "security-bulletin"
     },
     {
-      "id": "567534bb7ce121bd",
-      "title": "CVE-2026-115415 - Secret masking bypass in the environment tool in Strands Agents Tools",
-      "description": "Bulletin ID: 2026-154-AWS Publication Date: 10/28/2026 12:30 PM PDT Description: We identified CVE-2026-115415, an issue where the environment tool accepted a masking parameter from the large language model (LLM) through its tool schema. A crafted prompt, delivered through content the agent is asked to process, could instruct the model to call the tool with masking turned off. The tool would then return the agent host's environment variables in cleartext, including cloud credentials and API keys, without prompting the operator for consent. Impacted versions: >= 0.1.0 AND Please refer to the ar",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-154-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/28/2026 12:30 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-115415, an issue where the environment tool accepted a masking parameter from the large language model (LLM) through its tool schema. A crafted prompt, delivered through content the agent is asked to process, could instruct the model to call the tool with masking turned off. The tool would then return the agent host's environment variables in cleartext, including cloud credentials and API keys, without prompting the operator for consent.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;= 0.1.0 AND &amp;lt; 0.8.6&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-154-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-154-aws/",
-      "publishedAt": "2026-10-28T19:39:08.000Z",
-      "updatedAt": "2026-10-28T19:39:08.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 40,
-      "securityLevel": "high",
-      "securityMatches": [
-        "credential",
-        "Secret"
-      ],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "226a4732404897fa",
-      "title": "CVE-2026-118029 - Unverified ownership of the default Athena query result location in AWS SDK for pandas",
-      "description": "Bulletin ID: 2026-153-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/28/2026 08:30 AM PDT Description: AWS SDK for pandas (awswrangler) is an open-source Python library that integrates pandas with AWS data services such as Amazon Athena, Amazon S3, and AWS Glue. We identified CVE-2026-118029 in the Athena module, where unverified ownership of the default query result location could allow a remote user to read Athena query results and tamper with result sets returned to the caller via a pre-created S3 bucket. Impacted versions: awswrangler Please refer to the a",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-153-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/28/2026 08:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS SDK for pandas (awswrangler) is an open-source Python library that integrates pandas with AWS data services such as Amazon Athena, Amazon S3, and AWS Glue. We identified CVE-2026-118029 in the Athena module, where unverified ownership of the default query result location could allow a remote user to read Athena query results and tamper with result sets returned to the caller via a pre-created S3 bucket.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; awswrangler &amp;lt; 3.16.1&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-153-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-153-aws/",
-      "publishedAt": "2026-10-28T15:40:38.000Z",
-      "updatedAt": "2026-10-28T15:40:38.000Z",
-      "categories": [],
-      "services": [
-        "Athena"
-      ],
-      "tags": [
-        "athena"
-      ],
-      "isNew": true,
-      "securityScore": 40,
-      "securityLevel": "high",
-      "securityMatches": [
-        "S3",
-        "Bucket"
-      ],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "7d865b8818844dcd",
-      "title": "CVE-2026-115418 - SQL injection in the database-query custom resource handlers in Amazon Web Services (AWS)",
-      "description": "Bulletin ID: 2026-151-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/26/2026 09:30 AM PDT Description: The AWS Cloud Development Kit (CDK) @aws-cdk/aws-redshift-alpha module provides experimental constructs that manage Amazon Redshift users, tables and privileges. We identified CVE-2026-115418, an issue where crafted user names, comments or passwords set in these constructs could change the SQL that runs with Amazon Redshift superuser privileges at deployment, including granting access to all cluster users. Exploiting the issue requires the ability to influenc",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-151-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/26/2026 09:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;The AWS Cloud Development Kit (CDK) @aws-cdk/aws-redshift-alpha module provides experimental constructs that manage Amazon Redshift users, tables and privileges. We identified CVE-2026-115418, an issue where crafted user names, comments or passwords set in these constructs could change the SQL that runs with Amazon Redshift superuser privileges at deployment, including granting access to all cluster users. Exploiting the issue requires the ability to influence the CDK application's construct property values.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt;2.274.0-alpha.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-151-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-151-aws/",
-      "publishedAt": "2026-10-26T16:50:46.000Z",
-      "updatedAt": "2026-10-26T16:50:46.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 40,
-      "securityLevel": "high",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "security-bulletin"
-    },
-    {
       "id": "34e23abf9f11be99",
       "title": "Amazon SageMaker Unified Studio adds light mode support for IDC-based domains",
       "description": "Today, AWS announces light mode support in Amazon SageMaker Unified Studio for Identity Center (IDC) based domains. Customers can now configure the visual interface mode to match their preference, choosing between dark and light themes. With this launch, customers can set this visual preference in both IAM-based and IDC-based domains. Light mode helps improve readability in bright environments and provides a familiar visual experience for customers who prefer lighter interfaces. Combined with the existing dark mode, this update gives you full control over the appearance of your development env",
@@ -6967,25 +6755,6 @@
       "source": "security-bulletin"
     },
     {
-      "id": "ebc89964e953de08",
-      "title": "CVE-2026-115845 - Incomplete validation in the run_script Python sandbox in AWS MCP Server",
-      "description": "Bulletin ID: 2026-149-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/23/2026 12:00 PM PDT Description: AWS MCP Server is a managed server that gives AI agents access to AWS through the Model Context Protocol (MCP), including a run_script tool that runs Python scripts in a sandboxed environment. We identified CVE-2026-115845, an issue in the Python code validator of the run_script tool in AWS MCP Server. An incomplete list of disallowed inputs might allow an authenticated remote user to execute arbitrary code within their own isolated session environment via a ",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-149-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/23/2026 12:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS MCP Server is a managed server that gives AI agents access to AWS through the Model Context Protocol (MCP), including a run_script tool that runs Python scripts in a sandboxed environment.&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-115845, an issue in the Python code validator of the run_script tool in AWS MCP Server. An incomplete list of disallowed inputs might allow an authenticated remote user to execute arbitrary code within their own isolated session environment via a crafted script.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; N/A (managed service, exclusively hosted)&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-149-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-149-aws/",
-      "publishedAt": "2026-10-23T19:09:22.000Z",
-      "updatedAt": "2026-10-23T19:09:22.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 40,
-      "securityLevel": "high",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "security-bulletin"
-    },
-    {
       "id": "0239b32c5400547b",
       "title": "AWS Continuum for code vulnerabilities is now generally available",
       "description": "Today, AWS announces the general availability of AWS Continuum for code vulnerabilities. Continuum for code vulnerabilities discovers, validates, prioritizes, and remediates code vulnerabilities at machine speed. Continuum for code vulnerabilities builds a context graph from your AWS environment, including resource topology, identity relationships, and network reachability. It knows which resources are part of your application, and which findings carry real business risk. It ingests your existing vulnerability findings, scans your code, and then confirms which findings are exploitable by testi",
@@ -7008,50 +6777,6 @@
         "identity"
       ],
       "source": "whats-new"
-    },
-    {
-      "id": "39f1b4404e7fcfc4",
-      "title": "CVE-2026-115419 - Unintended disclosure of data element to wrong session in Strands Agents SDK A2A Server",
-      "description": "Bulletin ID: 2026-146-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/22/2026 13:00 PM PDT Description: Strands Agents is an open-source SDK, available for Python and TypeScript, for building AI agents. The SDK includes an Agent2Agent (A2A) server component that exposes an agent over HTTP so other agents and clients can call it. We identified CVE-2026-115419, an issue where the A2A server did not properly isolate conversation state between callers. An authenticated remote user could access another caller's conversation history or influence model behavior for ot",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-146-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/22/2026 13:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Strands Agents is an open-source SDK, available for Python and TypeScript, for building AI agents. The SDK includes an Agent2Agent (A2A) server component that exposes an agent over HTTP so other agents and clients can call it. We identified CVE-2026-115419, an issue where the A2A server did not properly isolate conversation state between callers. An authenticated remote user could access another caller's conversation history or influence model behavior for other callers in multi-tenant deployments.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;br&gt; - strands-agents (Python): all versions containing the multiagent.a2a module, &amp;lt; 1.43.0&lt;br&gt; - @strands-agents/sdk (TypeScript): &amp;lt; 1.5.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-146-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-146-aws/",
-      "publishedAt": "2026-10-22T20:07:11.000Z",
-      "updatedAt": "2026-10-22T20:07:11.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 40,
-      "securityLevel": "high",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "6da231f7086f1060",
-      "title": "CVE-2026-115414 - OS Command Injection Issue in SAM CLI Terraform Hook",
-      "description": "Bulletin ID: 2026-145-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/22/2026 11:30 AM PDT Description: AWS SAM CLI is an open-source framework for building serverless applications. We identified CVE-2026-115414, an OS command injection issue in the Terraform hook (sam build --hook-name terraform) in AWS SAM CLI. The Terraform hook generates a Makefile recipe that interpolates a Terraform resource address without fully neutralizing shell metacharacters, which could allow an actor who can influence the Terraform configuration or plan file consumed by a build to ",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-145-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/22/2026 11:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS SAM CLI is an open-source framework for building serverless applications. We identified CVE-2026-115414, an OS command injection issue in the Terraform hook (sam build --hook-name terraform) in AWS SAM CLI. The Terraform hook generates a Makefile recipe that interpolates a Terraform resource address without fully neutralizing shell metacharacters, which could allow an actor who can influence the Terraform configuration or plan file consumed by a build to execute arbitrary commands as the build user on the host running the build.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;=1.63.0, &amp;lt;=1.166.1&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-145-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-145-aws/",
-      "publishedAt": "2026-10-22T18:50:58.000Z",
-      "updatedAt": "2026-10-22T18:50:58.000Z",
-      "categories": [],
-      "services": [
-        "SAM",
-        "Terraform"
-      ],
-      "tags": [
-        "sam",
-        "terraform"
-      ],
-      "isNew": false,
-      "securityScore": 40,
-      "securityLevel": "high",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "security-bulletin"
     },
     {
       "id": "5881a1d29252d0db",
@@ -7231,29 +6956,6 @@
       "source": "security-bulletin"
     },
     {
-      "id": "24f06b65292795af",
-      "title": "CVE-2026-110812 - Deserialization of untrusted data in the Gremlin graph-import path in Amazon Neptune",
-      "description": "Bulletin ID: 2026-136-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/15/2026 09:30 AM PDT Description: Amazon Neptune is a fully managed graph database service. We identified CVE-2026-110812, an issue in Apache TinkerPop related to Gremlin functionality used by Amazon Neptune. Under certain conditions, an authenticated principal with Neptune data-plane (query) permissions could submit a request that causes the query engine to process untrusted input unsafely, which could lead to unintended activity within the query engine environment. This issue has been addre",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-136-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/15/2026 09:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Amazon Neptune is a fully managed graph database service. We identified CVE-2026-110812, an issue in Apache TinkerPop related to Gremlin functionality used by Amazon Neptune. Under certain conditions, an authenticated principal with Neptune data-plane (query) permissions could submit a request that causes the query engine to process untrusted input unsafely, which could lead to unintended activity within the query engine environment. This issue has been addressed in the engine versions listed below; we recommend customers upgrade.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;=1.2.0.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-136-aws/",
-      "publishedAt": "2026-10-15T16:41:28.000Z",
-      "updatedAt": "2026-10-15T16:41:28.000Z",
-      "categories": [],
-      "services": [
-        "Neptune"
-      ],
-      "tags": [
-        "neptune"
-      ],
-      "isNew": false,
-      "securityScore": 40,
-      "securityLevel": "high",
-      "securityMatches": [
-        "permission"
-      ],
-      "source": "security-bulletin"
-    },
-    {
       "id": "736c5220fc00fdd9",
       "title": "AWS License Manager now supports license type conversions for Ubuntu Pro purchased through AWS Marketplace",
       "description": "AWS License Manager now supports in-place upgrades for EC2 Ubuntu LTS (Long Term Support) instances to Ubuntu Pro available on AWS Marketplace. This allows customers to strengthen their security posture and meet compliance requirements without rebuilding their fleet or migrating workloads to a new instance or AMI. With an Ubuntu Pro subscription, customers receive security patches for up to 10 years — extendable to 15 years with the Legacy add-on. This coverage extends beyond the base OS to thousands of additional packages, including widely used open-source applications such as NGINX, PostgreS",
@@ -7343,29 +7045,6 @@
         "role"
       ],
       "source": "whats-new"
-    },
-    {
-      "id": "ad5f44432b340c99",
-      "title": "CVE-2026-107608: Improper link resolution in asset bundling output handling in aws-cdk-lib",
-      "description": "Bulletin ID: 2026-131-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/08/2026 12:30 PM PDT Description: AWS CDK is an open source framework that allows customers to build cloud infrastructure using their favorite programming language (Python, Typescript, C#, Go). That infrastructure is then able to be deployed with AWS CDK command line commands to AWS CloudFormation. We identified CVE-2026-107608, which is an issue where Docker files could be configured to insert symlinked files into the output of the AWS CDK asset bundling process when it was invoked with a Do",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-131-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/08/2026 12:30 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS CDK is an open source framework that allows customers to build cloud infrastructure using their favorite programming language (Python, Typescript, C#, Go). That infrastructure is then able to be deployed with AWS CDK command line commands to AWS CloudFormation. We identified CVE-2026-107608, which is an issue where Docker files could be configured to insert symlinked files into the output of the AWS CDK asset bundling process when it was invoked with a Docker file. When bundling an asset using AWS CDK with a docker file, prior to 2.267.0, it was possible for a docker file to insert a symlinked file or directory into the output of asset bundling without the symlink having been provided as input to the bundling process.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; All aws-cdk-lib versions before 2.267.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-131-aws/",
-      "publishedAt": "2026-10-08T19:44:26.000Z",
-      "updatedAt": "2026-10-08T19:44:26.000Z",
-      "categories": [],
-      "services": [
-        "CDK"
-      ],
-      "tags": [
-        "cdk"
-      ],
-      "isNew": false,
-      "securityScore": 40,
-      "securityLevel": "high",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "security-bulletin"
     },
     {
       "id": "bb12278ed7739567",
@@ -7786,6 +7465,67 @@
       "source": "whats-new"
     },
     {
+      "id": "9b96ccb94085f8b4",
+      "title": "CVE-2026-115413 - AWS API MCP Server OAuth token audience validation bypass",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-152-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-152-aws/",
+      "publishedAt": "2026-11-03T18:58:52.000Z",
+      "updatedAt": "2026-11-03T18:58:52.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 35,
+      "securityLevel": "high",
+      "securityMatches": [
+        "token"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "567534bb7ce121bd",
+      "title": "CVE-2026-115415 - Secret masking bypass in the environment tool in Strands Agents Tools",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-154-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-154-aws/",
+      "publishedAt": "2026-10-28T19:39:08.000Z",
+      "updatedAt": "2026-10-28T19:39:08.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 35,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Secret"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "099889d3735735a0",
+      "title": "CVE-2026-112408 - Missing bucket ownership verification in Amazon SageMaker Python SDK default_bucket()",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-142-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-142-aws/",
+      "publishedAt": "2026-10-21T21:41:25.000Z",
+      "updatedAt": "2026-10-21T21:41:25.000Z",
+      "categories": [],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "sagemaker"
+      ],
+      "isNew": false,
+      "securityScore": 35,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Bucket"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "a38bfa46c758bfed",
       "title": "CVE-2026-77810 - Issue with Athena Federated Query Neptune Connector",
       "description": "Bulletin ID: 2026-087-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 08/21/2026 12:30 PM PDT Description: Amazon Athena is a serverless, interactive query service that lets you analyze data directly in Amazon S3 using standard SQL. Athena Query Federation is a feature that allows you to connect to data sources outside of Amazon S3 like DynamoDB, Azure Synapse, and custom connectors using standard SQL syntax. These connectors are open source and deployed to the Athena service on a regular basis. We identified CVE-2026-77810, in the Neptune connector where a user w",
@@ -8179,6 +7919,35 @@
       "source": "whats-new"
     },
     {
+      "id": "980ca816123c76ea",
+      "title": "Amazon EKS Capabilities now supports Argo CD Notifications",
+      "description": "The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports Argo CD Notifications, providing notifications when your applications sync, fail, or change health. You define triggers and message templates in your cluster and subscribe individual Applications with an annotation, the same way you do in upstream Argo CD. With this launch, you can deliver notifications to 16 notification services, including Slack, PagerDuty, Opsgenie, Amazon SQS, and Amazon EventBridge. The Amazon SQS and Amazon EventBridge services authenticate with your IAM Capability Role, so you can rou",
+      "descriptionHtml": "&lt;p&gt;The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports Argo CD Notifications, providing notifications when your applications sync, fail, or change health. You define triggers and message templates in your cluster and subscribe individual Applications with an annotation, the same way you do in upstream Argo CD.&lt;/p&gt; \n&lt;p&gt;With this launch, you can deliver notifications to 16 notification services, including Slack, PagerDuty, Opsgenie, Amazon SQS, and Amazon EventBridge. The Amazon SQS and Amazon EventBridge services authenticate with your IAM Capability Role, so you can route deployment events into your own event-driven workflows without storing credentials in your cluster. For a service that requires third-party credentials such as a Slack token, you can specify an AWS Secrets Manager ARN in place of the secret and EKS will automatically use it on your behalf.&lt;/p&gt; \n&lt;p&gt;Notifications are available in all AWS Regions where the EKS Capability for Argo CD is available, at no additional charge. Standard charges apply for resources related to the services your notifications use, for example Amazon SQS or Amazon EventBridge. To learn more, visit &lt;a href=\"https://aws.amazon.com/eks/features/\"&gt;Amazon EKS&lt;/a&gt;&amp;nbsp;and refer to the &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/argocd-notifications.html\"&gt;Amazon EKS User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-argo-cd-notifications",
+      "publishedAt": "2026-11-03T06:00:00.000Z",
+      "updatedAt": "2026-11-03T06:00:00.000Z",
+      "categories": [
+        "Amazon Eks",
+        "Containers"
+      ],
+      "services": [
+        "EKS"
+      ],
+      "tags": [
+        "amazon eks",
+        "containers",
+        "eks"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "IAM",
+        "role"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "e8096676fcdf2b30",
       "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
       "description": "For organizations that use Amazon Quick, the desktop application now signs users in with the same sign-in method the organization already uses for Quick on the web. Administrators no longer need to register an OIDC application in their identity provider or set up separate desktop sign-in before users can get started. If a user can sign in to Quick on the web, that user can sign in to the desktop application. To turn on desktop access, an administrator adds the desktop connector once in the Amazon Quick console. Users then enter their Quick account name, choose Sign In, and finish signing in th",
@@ -8254,8 +8023,8 @@
     {
       "id": "1c4343a3a5b60529",
       "title": "CVE-2026-119086 - Missing type validation in xQueueSelectFromSet in FreeRTOS-Kernel",
-      "description": "Bulletin ID: 2026-158-AWS Publication Date: 10/30/2026 10:30 AM PDT Description: FreeRTOS-Kernel is a real-time operating system kernel for microcontrollers and small microprocessors, distributed by Amazon. We identified CVE-2026-119086, the queue-set selection path does not fully validate that the referenced kernel object is a queue set before operating on it. On MPU-enabled builds with queue sets enabled, an unprivileged task can cause the kernel to write beyond the intended destination while executing in a privileged context, which affects the integrity of privileged execution. Applications",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-158-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/30/2026 10:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;FreeRTOS-Kernel is a real-time operating system kernel for microcontrollers and small microprocessors, distributed by Amazon. We identified CVE-2026-119086, the queue-set selection path does not fully validate that the referenced kernel object is a queue set before operating on it. On MPU-enabled builds with queue sets enabled, an unprivileged task can cause the kernel to write beyond the intended destination while executing in a privileged context, which affects the integrity of privileged execution. Applications that are built without queue sets are not affected.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;=V7.4.0 AND &amp;lt;=V11.3.2 (MPU-enabled ports with configUSE_QUEUE_SETS=1)&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-158-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-158-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-158-aws/",
       "publishedAt": "2026-10-30T17:39:33.000Z",
       "updatedAt": "2026-10-30T17:39:33.000Z",
@@ -8269,17 +8038,72 @@
       "source": "security-bulletin"
     },
     {
-      "id": "5f9d0643962de830",
-      "title": "CVE-2026-111497: Native Brotli Decoder Remote Code Execution and Memory Disclosure",
-      "description": "Bulletin ID: 2026-155-AWS Publication Date: 10/28/2026 15:00 PM PDT Description: AWS is aware of CVE-2026-111497, an issue in the native Brotli decompression library that could allow a third party to run code or read process memory in an affected application. AWS Lambda, AWS Amplify, AWS App Runner, Amazon CloudWatch Synthetics, AWS CodeBuild, AWS Elastic Beanstalk, and AWS Elemental MediaLive are addressing this issue. Some services require customer action. For details, see the bulletin. Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-155-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/28/2026 15:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS is aware of CVE-2026-111497, an issue in the native Brotli decompression library that could allow a third party to run code or read process memory in an affected application. AWS Lambda, AWS Amplify, AWS App Runner, Amazon CloudWatch Synthetics, AWS CodeBuild, AWS Elastic Beanstalk, and AWS Elemental MediaLive are addressing this issue. Some services require customer action. For details, see the bulletin.&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-155-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-155-aws/",
-      "publishedAt": "2026-10-28T21:58:12.000Z",
-      "updatedAt": "2026-10-28T21:58:12.000Z",
+      "id": "5a40b33f50c33656",
+      "title": "CVE-2026-119116 and CVE-2026-119148 - Issues in AWS Nitro Enclaves SDK for C",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-157-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-157-aws/",
+      "publishedAt": "2026-10-30T16:34:46.000Z",
+      "updatedAt": "2026-10-30T16:34:46.000Z",
       "categories": [],
       "services": [],
       "tags": [],
       "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "5f9d0643962de830",
+      "title": "CVE-2026-111497: Native Brotli Decoder Remote Code Execution and Memory Disclosure",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-155-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-155-aws/",
+      "publishedAt": "2026-10-28T21:58:13.000Z",
+      "updatedAt": "2026-10-28T21:58:13.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "226a4732404897fa",
+      "title": "CVE-2026-118029 - Unverified ownership of the default Athena query result location in AWS SDK for pandas",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-153-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-153-aws/",
+      "publishedAt": "2026-10-28T15:40:38.000Z",
+      "updatedAt": "2026-10-28T15:40:38.000Z",
+      "categories": [],
+      "services": [
+        "Athena"
+      ],
+      "tags": [
+        "athena"
+      ],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "7d865b8818844dcd",
+      "title": "CVE-2026-115418 - SQL injection in the database-query custom resource handlers in Amazon Web Services (AWS)",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-151-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-151-aws/",
+      "publishedAt": "2026-10-26T16:50:46.000Z",
+      "updatedAt": "2026-10-26T16:50:46.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -8417,6 +8241,23 @@
       "source": "security-bulletin"
     },
     {
+      "id": "93fd69a0e8808c94",
+      "title": "CVE-2026-111943: eMudhra intermediate CA key recovery in AWS trust bundles",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-150-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-150-aws/",
+      "publishedAt": "2026-10-25T03:11:55.000Z",
+      "updatedAt": "2026-10-25T03:11:55.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
       "id": "9d89458f235b2e01",
       "title": "CVE-2026-87911",
       "description": "Read this article",
@@ -8489,13 +8330,104 @@
       "source": "security-bulletin"
     },
     {
+      "id": "ebc89964e953de08",
+      "title": "CVE-2026-115845 - Incomplete validation in the run_script Python sandbox in AWS MCP Server",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-149-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-149-aws/",
+      "publishedAt": "2026-10-23T19:09:22.000Z",
+      "updatedAt": "2026-10-23T19:09:22.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "1a3e5d2a8ad41632",
+      "title": "CVE-2026-115812 and CVE-2026-115813: Issue in Amazon Web Services Multi Model Server",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-148-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-148-aws/",
+      "publishedAt": "2026-10-23T17:47:47.000Z",
+      "updatedAt": "2026-10-23T17:47:47.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
       "id": "d2ed338d9d365103",
       "title": "CVE-2026-115417 - Memory allocation with excessive size value in the MQTT 3.1.1 compatibility adapter in aws-c-mqtt",
-      "description": "Bulletin ID: 2026-147-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/22/2026 13:30 PM PDT Description: aws-c-mqtt is a C99 implementation of the MQTT 3.1.1 and MQTT5 specifications, distributed as part of the AWS Common Runtime (CRT) and bundled in the AWS IoT Device SDK for C++ v2. We identified CVE-2026-115417, a memory allocation with excessive size value (CWE-789) in the library's MQTT 3.1.1 compatibility adapter. Under certain conditions, a remote actor could cause a denial of service of the client process. Impacted versions: >= 0.9.1 AND Please refer to ",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-147-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/22/2026 13:30 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;aws-c-mqtt is a C99 implementation of the MQTT 3.1.1 and MQTT5 specifications, distributed as part of the AWS Common Runtime (CRT) and bundled in the AWS IoT Device SDK for C++ v2. We identified CVE-2026-115417, a memory allocation with excessive size value (CWE-789) in the library's MQTT 3.1.1 compatibility adapter. Under certain conditions, a remote actor could cause a denial of service of the client process.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;= 0.9.1 AND &amp;lt; 0.16.2&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-147-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-147-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-147-aws/",
       "publishedAt": "2026-10-22T20:40:51.000Z",
       "updatedAt": "2026-10-22T20:40:51.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "39f1b4404e7fcfc4",
+      "title": "CVE-2026-115419 - Unintended disclosure of data element to wrong session in Strands Agents SDK A2A Server",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-146-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-146-aws/",
+      "publishedAt": "2026-10-22T20:07:12.000Z",
+      "updatedAt": "2026-10-22T20:07:12.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "6da231f7086f1060",
+      "title": "CVE-2026-115414 - OS Command Injection Issue in SAM CLI Terraform Hook",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-145-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-145-aws/",
+      "publishedAt": "2026-10-22T18:56:14.000Z",
+      "updatedAt": "2026-10-22T18:56:14.000Z",
+      "categories": [],
+      "services": [
+        "SAM",
+        "Terraform"
+      ],
+      "tags": [
+        "sam",
+        "terraform"
+      ],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "0f720091ce52f20d",
+      "title": "PHP web runtimes (CVE-2026-109618 and CVE-2026-109619)",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-143-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-143-aws/",
+      "publishedAt": "2026-10-21T21:41:25.000Z",
+      "updatedAt": "2026-10-21T21:41:25.000Z",
       "categories": [],
       "services": [],
       "tags": [],
@@ -8777,6 +8709,23 @@
         "Security Group"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "400ebd7092e44615",
+      "title": "CVE-2026-112407 - Incorrect privilege assignment in AWS CICD-toolchain-for-serverless-applications",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-141-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-141-aws/",
+      "publishedAt": "2026-10-20T20:41:20.000Z",
+      "updatedAt": "2026-10-20T20:41:20.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
     },
     {
       "id": "cb73a985eeb8fd07",
@@ -9393,16 +9342,92 @@
       "source": "security-bulletin"
     },
     {
-      "id": "6b255564a9d124f0",
-      "title": "CVE-2026-102551 &amp; CVE-2026-102552 - Issue with FreeRTOS-Plus-TCP",
-      "description": "Bulletin ID: 2026-139-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/16/2026 10:15 AM PDT Description: FreeRTOS-Plus-TCP is an open-source, thread-safe TCP/IP stack for the FreeRTOS kernel, distributed by Amazon for use on embedded and IoT devices. AWS identified two issues with FreeRTOS-Plus-TCP, affecting multiple versions. CVE-2026-102551: improper verification of the source of a communication channel in the IPv6 Router Advertisement handler. The handler does not fully validate that a received Router Advertisement originates from an on-link source before ac",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-139-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/16/2026 10:15 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;FreeRTOS-Plus-TCP is an open-source, thread-safe TCP/IP stack for the FreeRTOS kernel, distributed by Amazon for use on embedded and IoT devices. AWS identified two issues with FreeRTOS-Plus-TCP, affecting multiple versions.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;CVE-2026-102551:&lt;/b&gt; improper verification of the source of a communication channel in the IPv6 Router Advertisement handler. The handler does not fully validate that a received Router Advertisement originates from an on-link source before acting on it. Under certain conditions, a remote third-party might influence an endpoint's IPv6 gateway, prefix, and address configuration, potentially enabling interception of the device's IPv6 traffic. This issue is reachable in the library's default configuration, where ipconfigUSE_IPv6 and ipconfigUSE_RA are both enabled.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;CVE-2026-102552:&lt;/b&gt; improper verification of the source of a communication channel in the DNS resolver. The resolver does not fully validate that a DNS reply originates from the server that was queried before accepting it. Under certain conditions, a remote third-party might insert a chosen address into the device's DNS cache, potentially redirecting the device's subsequent connections for the affected name.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;- CVE-2026-102551 (Router Advertisement): &amp;lt;= V4.4.1&lt;br&gt; - CVE-2026-102552 (DNS resolver): &amp;lt;= V4.4.1&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-139-aws/",
-      "publishedAt": "2026-10-16T17:34:49.000Z",
-      "updatedAt": "2026-10-16T17:34:49.000Z",
+      "id": "1db3d218ac5b206c",
+      "title": "CVE-2026-109587 &amp; CVE-2026-109588 - Issue with FreeRTOS-Kernel",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-138-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-138-aws/",
+      "publishedAt": "2026-10-16T17:37:47.000Z",
+      "updatedAt": "2026-10-16T17:37:47.000Z",
       "categories": [],
       "services": [],
       "tags": [],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "6b255564a9d124f0",
+      "title": "CVE-2026-102551 &amp; CVE-2026-102552 - Issue with FreeRTOS-Plus-TCP",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-139-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-139-aws/",
+      "publishedAt": "2026-10-16T17:37:47.000Z",
+      "updatedAt": "2026-10-16T17:37:47.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "de66877a8ec1db33",
+      "title": "Issue in the Linux kernel virtio-net/TAP networking path affecting KVM-based hypervisors",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-137-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-137-aws/",
+      "publishedAt": "2026-10-15T19:03:20.000Z",
+      "updatedAt": "2026-10-15T19:03:20.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "24f06b65292795af",
+      "title": "CVE-2026-110812 - Deserialization of untrusted data in the Gremlin graph-import path in Amazon Neptune",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-136-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-136-aws/",
+      "publishedAt": "2026-10-15T16:41:28.000Z",
+      "updatedAt": "2026-10-15T16:41:28.000Z",
+      "categories": [],
+      "services": [
+        "Neptune"
+      ],
+      "tags": [
+        "neptune"
+      ],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "bc78bb6705a8d632",
+      "title": "CVE-2026-110248 - Insertion of sensitive information into log files in Amazon SageMaker Python SDK",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-134-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-134-aws/",
+      "publishedAt": "2026-10-14T18:38:55.000Z",
+      "updatedAt": "2026-10-14T18:38:55.000Z",
+      "categories": [],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "sagemaker"
+      ],
       "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
@@ -9573,6 +9598,23 @@
       "source": "whats-new"
     },
     {
+      "id": "091786eb1e65d4e3",
+      "title": "CVE-2026-107783 - Insertion of sensitive information into log file in AWS Tools for PowerShell",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-132-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-132-aws/",
+      "publishedAt": "2026-10-09T16:15:39.000Z",
+      "updatedAt": "2026-10-09T16:15:39.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
       "id": "7b2fbfb42940026a",
       "title": "CVE-2026-107322 - OS command injection in Amazon Agent Plugins for AWS databases-on-aws",
       "description": "Read this article",
@@ -9583,6 +9625,27 @@
       "categories": [],
       "services": [],
       "tags": [],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "ad5f44432b340c99",
+      "title": "CVE-2026-107608: Improper link resolution in asset bundling output handling in aws-cdk-lib",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-131-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-131-aws/",
+      "publishedAt": "2026-10-08T19:44:26.000Z",
+      "updatedAt": "2026-10-08T19:44:26.000Z",
+      "categories": [],
+      "services": [
+        "CDK"
+      ],
+      "tags": [
+        "cdk"
+      ],
       "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
@@ -10107,6 +10170,35 @@
       "source": "whats-new"
     },
     {
+      "id": "f7538761740eda60",
+      "title": "Amazon WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops",
+      "description": "WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops, in addition to Windows Server. You can run each AI agent on the operating system that its workflows and applications require. Your agents can then work in the same environments that your workforce already uses, without re-platforming. Linux desktops give agents full root access to the operating system where many developers already build, test, and automate agentic workflows. Agents can take on developer tasks, such as running builds, tests, and scripts, within the enterprise-grade security and governance controls you al",
+      "descriptionHtml": "&lt;p&gt;WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops, in addition to Windows Server. You can run each AI agent on the operating system that its workflows and applications require. Your agents can then work in the same environments that your workforce already uses, without re-platforming.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Linux desktops give agents full root access to the operating system where many developers already build, test, and automate agentic workflows. Agents can take on developer tasks, such as running builds, tests, and scripts, within the enterprise-grade security and governance controls you already rely on. Windows 11 desktops let agents work in the enterprise applications your teams depend on every day.&lt;/p&gt; \n&lt;p&gt;Linux and Windows 11 desktops have the same security and governance controls as Windows Server desktops. These include network isolation, IAM-based access, and the compliance boundaries your organization already has in place.&lt;/p&gt; \n&lt;p&gt;To get started operating AI agents on WorkSpaces, visit: &lt;a href=\"https://docs.aws.amazon.com/appstream2/latest/developerguide/agent-access.html\"&gt;https://docs.aws.amazon.com/appstream2/latest/developerguide/agent-access.html&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11",
+      "publishedAt": "2026-11-03T18:00:00.000Z",
+      "updatedAt": "2026-11-03T18:00:00.000Z",
+      "categories": [
+        "Amazon Workspaces",
+        "Desktop And App Streaming"
+      ],
+      "services": [
+        "WorkSpaces"
+      ],
+      "tags": [
+        "amazon workspaces",
+        "desktop and app streaming",
+        "workspaces"
+      ],
+      "isNew": true,
+      "securityScore": 25,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "security",
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "d66ff784f191fe45",
       "title": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
       "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version that builds on a quarterly Release Update (RU), bundling Oracle's Critical Security Patch Update (CSPU) with additional Oracle-recommended fixes. The September 2026 MRP is applied on top of the July 2026 RU and includes the Oracle September CSPU . We recommend upgrading to the September 2026 MRP as it includes the latest security updates for Oracle Database. This release also includes the updated Or",
@@ -10610,6 +10702,54 @@
       "securityMatches": [
         "security",
         "patch"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "8772ad386e5b2c91",
+      "title": "AWS Config now supports 10 new resource types",
+      "description": "AWS Config now supports 10 additional AWS resource types across key services including Amazon ElastiCache and Amazon QuickSight. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources. With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators. You can now use AWS Config to monitor the following newly supported",
+      "descriptionHtml": "&lt;p&gt;AWS Config now supports 10 additional AWS resource types across key services including Amazon ElastiCache and Amazon QuickSight. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources.&lt;/p&gt; \n&lt;p&gt;With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators.&lt;/p&gt; \n&lt;p&gt;You can now use AWS Config to monitor the following newly supported resource types in all &lt;a href=\"https://docs.aws.amazon.com/config/latest/developerguide/what-is-resource-config-coverage.html\"&gt;AWS Regions&lt;/a&gt; where the resources are available:&lt;/p&gt; \n&lt;p&gt;&lt;br&gt; Resource Types:&lt;/p&gt; \n&lt;table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"174\"&gt; \n &lt;tbody&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\" width=\"87\"&gt;AWS::Billing::BillingView&lt;/td&gt; \n   &lt;td width=\"87\"&gt;AWS::MPA::IdentitySource&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Connect::HoursOfOperation&lt;/td&gt; \n   &lt;td&gt;AWS::Notifications::OrganizationalUnitAssociation&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ElastiCache::CacheCluster&lt;/td&gt; \n   &lt;td&gt;AWS::NotificationsContacts::EmailContact&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ElastiCache::ReplicationGroup&lt;/td&gt; \n   &lt;td&gt;AWS::Oam::Link&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::MediaLive::SignalMap&lt;/td&gt; \n   &lt;td&gt;AWS::QuickSight::Agent&lt;/td&gt; \n  &lt;/tr&gt;\n &lt;/tbody&gt;\n&lt;/table&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-config-new-resource-types",
+      "publishedAt": "2026-11-03T16:00:00.000Z",
+      "updatedAt": "2026-11-03T16:00:00.000Z",
+      "categories": [
+        "AWS Config",
+        "Management And Governance"
+      ],
+      "services": [
+        "Config"
+      ],
+      "tags": [
+        "aws config",
+        "management and governance",
+        "config"
+      ],
+      "isNew": true,
+      "securityScore": 20,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "audit"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "da66e3cbd236fe00",
+      "title": "AWS Transform for mainframe improves the reimagine modernization workflow",
+      "description": "AWS Transform for mainframe now discovers business functions with field-level precision and generates a new requirements coverage report in the assess and reimagine workflow. Previously, business functions that used the same table or file were grouped together, and you had to build your own traceability reporting from AWS Transform artifacts. With this launch, you can start modernizing z/OS COBOL and PL/I workloads from a more accurate catalog of business functions and verify requirements coverage before you build. Business functions are now grouped only when they affect the same data fields. ",
+      "descriptionHtml": "&lt;p&gt;AWS Transform for mainframe now discovers business functions with field-level precision and generates a new requirements coverage report in the assess and reimagine workflow. Previously, business functions that used the same table or file were grouped together, and you had to build your own traceability reporting from AWS Transform artifacts. With this launch, you can start modernizing z/OS COBOL and PL/I workloads from a more accurate catalog of business functions and verify requirements coverage before you build.&lt;/p&gt;\n&lt;p&gt;Business functions are now grouped only when they affect the same data fields. They also include screens and queues and carry clearer names and descriptions. The new requirements coverage report shows how every part of your application is accounted for in the generated requirements. Every line of source code is classified by how it was handled, every business rule links to the exact lines it came from, and every requirement is backed by the business rules that support it. You can review coverage from the full portfolio down to a single line before moving into forward engineering in Kiro and other IDEs.&lt;/p&gt;\n&lt;p&gt;These capabilities are available in all AWS Regions where AWS Transform for mainframe is available. For more information, see the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Region table&lt;/a&gt;. To learn more, visit &lt;a href=\"https://aws.amazon.com/transform/mainframe/\"&gt;AWS Transform for mainframe&lt;/a&gt; or see the &lt;a href=\"https://docs.aws.amazon.com/transform/\"&gt;AWS Transform for mainframe documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-mainframe-reimagine/",
+      "publishedAt": "2026-11-03T08:00:00.000Z",
+      "updatedAt": "2026-11-03T08:00:00.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 20,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Artifact"
       ],
       "source": "whats-new"
     },
@@ -13041,7 +13181,7 @@
       "tags": [
         "aws marketplace"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -13067,7 +13207,7 @@
         "amazon bedrock",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -13934,232 +14074,6 @@
       "securityMatches": [
         "S3",
         "Bucket"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "fcdd8e4e91d6b07e",
-      "title": "Amazon OpenSearch Service introduces validation advisory for domain configuration changes",
-      "description": "Amazon OpenSearch Service now provides validation advisory for domain configuration changes, which helps you make informed decisions about changes that carry risk but can still be applied. Each configuration validation is now classified as either Critical, which blocks the change, or Warning, which gives advisory guidance that you can acknowledge before you proceed. Previously, validation results were limited to pass or block. There was no way to flag changes that would succeed but carry risk. Validation advisory helps you find potential issues without blocking deployments. Examples include de",
-      "descriptionHtml": "&lt;p&gt;Amazon OpenSearch Service now provides validation advisory for domain configuration changes, which helps you make informed decisions about changes that carry risk but can still be applied. Each configuration validation is now classified as either Critical, which blocks the change, or Warning, which gives advisory guidance that you can acknowledge before you proceed.&lt;/p&gt;\n&lt;p&gt;Previously, validation results were limited to pass or block. There was no way to flag changes that would succeed but carry risk. Validation advisory helps you find potential issues without blocking deployments. Examples include dedicated coordinator nodes that may be too small for the data node configuration, or a shard count that exceeds the recommended limit for the cluster. You can acknowledge warnings when you first submit a change, review severity in dry-run results before applying changes, set acknowledgments directly in AWS CloudFormation templates, and see severity in API responses and Amazon EventBridge notifications.&lt;/p&gt;\n&lt;p&gt;Validation advisory supports all Amazon OpenSearch Service domains running either OpenSearch or Elasticsearch versions. It is available in all AWS Regions where Amazon OpenSearch Service is available. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/managedomains-configuration-changes.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-validation-advisory/",
-      "publishedAt": "2026-10-02T09:35:00.000Z",
-      "updatedAt": "2026-10-02T09:35:00.000Z",
-      "categories": [
-        "Databases",
-        "Analytics",
-        "Amazon Opensearch Service"
-      ],
-      "services": [
-        "OpenSearch"
-      ],
-      "tags": [
-        "databases",
-        "analytics",
-        "amazon opensearch service",
-        "opensearch"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "f30e21eb0a319aa8",
-      "title": "Amazon ElastiCache for Valkey now supports OpenTelemetry metrics and detailed monitoring",
-      "description": "Amazon ElastiCache for Valkey now publishes OpenTelemetry metrics to Amazon CloudWatch for your node-based clusters, and each metric carries attributes you can filter and aggregate on with Prometheus Query Language (PromQL) expressions. ElastiCache now offers two monitoring modes. Standard monitoring, the existing experience, continues to publish CloudWatch Metrics (Classic) every 60 seconds and now also publishes a core set of OpenTelemetry metrics at the same interval at no additional charge. Detailed monitoring, the new mode, lets you select from the full set of OpenTelemetry metrics and pu",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/elasticache/\"&gt;Amazon ElastiCache&lt;/a&gt; for Valkey now publishes OpenTelemetry metrics to Amazon CloudWatch for your node-based clusters, and each metric carries attributes you can filter and aggregate on with Prometheus Query Language (PromQL) expressions. ElastiCache now offers two monitoring modes. Standard monitoring, the existing experience, continues to publish CloudWatch Metrics (Classic) every 60 seconds and now also publishes a core set of OpenTelemetry metrics at the same interval at no additional charge. Detailed monitoring, the new mode, lets you select from the full set of OpenTelemetry metrics and publish them every 15 seconds.&lt;/p&gt;\n&lt;p&gt;With OpenTelemetry metrics, you can detect any node in a cluster nearing its connection limit, break errors down by type during an incident, or forecast if a node will run out of memory. You can run these queries in CloudWatch and Grafana, keeping PromQL skills your team already has. With detailed monitoring, you can balance diagnostic depth and cost, with 15-second metrics enabling detection of short-lived events like latency spikes. The core set of OpenTelemetry metrics also powers &lt;a href=\"https://console.aws.amazon.com/cloudwatch/home#dashboards/insights/elasticache\"&gt;ElastiCache Insights&lt;/a&gt;, a pre-built dashboard in Amazon CloudWatch.&lt;/p&gt;\n&lt;p&gt;To get started, open the Metrics tab for a cluster in the &lt;a href=\"https://console.aws.amazon.com/elasticache/\"&gt;Amazon ElastiCache console&lt;/a&gt;, select Detailed, and choose Configure detailed metrics.&lt;/p&gt;\n&lt;p&gt;OpenTelemetry metrics and detailed monitoring are available for node-based Valkey clusters in all AWS Regions where Amazon CloudWatch supports OpenTelemetry metrics. There is no additional charge from ElastiCache for detailed monitoring. &lt;a href=\"https://aws.amazon.com/cloudwatch/pricing/\"&gt;CloudWatch pricing for OpenTelemetry metrics&lt;/a&gt; applies to the detailed monitoring metrics you select, alarms you create, and PromQL API queries you run.&lt;/p&gt;\n&lt;p&gt;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/otel-metrics.html\"&gt;Monitoring ElastiCache with OpenTelemetry metrics&lt;/a&gt; in the Amazon ElastiCache User Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-opentelemetry-metrics-detailed-monitoring",
-      "publishedAt": "2026-10-02T07:00:00.000Z",
-      "updatedAt": "2026-10-02T07:00:00.000Z",
-      "categories": [
-        "Amazon Elasticache",
-        "Databases"
-      ],
-      "services": [
-        "ElastiCache"
-      ],
-      "tags": [
-        "amazon elasticache",
-        "databases",
-        "elasticache"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "monitoring"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "814beb8fc3b07bf3",
-      "title": "Serverless Storage on Amazon EMR Serverless now supports terabyte-scale shuffle",
-      "description": "Amazon EMR Serverless now offers enhanced serverless storage capabilities with support for up to 1TB shuffle operations, raising the previous 200 GB per-job limit. Amazon EMR Serverless makes it simple for data engineers and data scientists to run open-source big data analytics frameworks without configuring, managing, and scaling clusters or servers. This enhancement enables enterprise customers to run production-scale Apache Spark workloads that require processing large volumes of shuffle data during complex operations such as joins, aggregations, and sorting. Enterprise data teams can now c",
-      "descriptionHtml": "&lt;p&gt;Amazon EMR Serverless now offers enhanced serverless storage capabilities with support for up to 1TB shuffle operations, raising the previous 200 GB per-job limit. Amazon EMR Serverless makes it simple for data engineers and data scientists to run open-source big data analytics frameworks without configuring, managing, and scaling clusters or servers. This enhancement enables enterprise customers to run production-scale Apache Spark workloads that require processing large volumes of shuffle data during complex operations such as joins, aggregations, and sorting.&lt;/p&gt;\n&lt;p&gt;Enterprise data teams can now confidently migrate production workloads that routinely process terabyte-scale datasets without worrying about storage constraints. This enhancement is particularly valuable for workloads involving large table joins across multi-terabyte datasets, and complex aggregations on high-cardinality data that require extensive data shuffling. The addition of spill support ensures that jobs can seamlessly handle memory-intensive operations by offloading data to disk when necessary, improving job reliability and success rates for demanding analytical workloads.&lt;/p&gt;\n&lt;p&gt;This feature is available with Amazon emr-7.14, emr-spark-8.1 and later, in 18 AWS Regions where Amazon EMR Serverless is available. See the &lt;a href=\"https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/jobs-serverless-storage.html\"&gt;Amazon EMR documentation&lt;/a&gt; for the full list of supported Regions and their applicable limits.&lt;/p&gt;\n&lt;p&gt;To learn more about Amazon EMR Serverless and get started with terabyte-scale shuffle support, visit the &lt;a href=\"https://aws.amazon.com/emr/serverless/\"&gt;Amazon EMR Serverless page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-serverless-terabyte-scale-shuffle/",
-      "publishedAt": "2026-10-01T08:00:00.000Z",
-      "updatedAt": "2026-10-01T08:00:00.000Z",
-      "categories": [
-        "Amazon Emr",
-        "Analytics"
-      ],
-      "services": [
-        "EMR"
-      ],
-      "tags": [
-        "amazon emr",
-        "analytics",
-        "emr"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "b25dda95a033bf00",
-      "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
-      "description": "Today, AWS expanded the AWS Command Line Interface (CLI) commands for the Agent Toolkit for AWS with two new capabilities that make it easier to keep agent skills up to date. Customers can now run aws agent-toolkit check-skill-updates to compare all installed skills against the latest versions available in the registry, and use aws agent-toolkit update-skill --all to update every outdated skill in a single command. The Agent Toolkit for AWS consists of the AWS MCP Server (which provides a secure, auditable agent interface to 15,000+ AWS APIs), agent skills (which give agents expert guidance ac",
-      "descriptionHtml": "&lt;p&gt;Today, AWS expanded the AWS Command Line Interface (CLI) commands for the &lt;a href=\"https://docs.aws.amazon.com/agent-toolkit/latest/userguide/what-is-agent-toolkit.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Agent Toolkit for AWS&lt;/a&gt; with two new capabilities that make it easier to keep agent skills up to date. Customers can now run aws agent-toolkit check-skill-updates to compare all installed skills against the latest versions available in the registry, and use aws agent-toolkit update-skill --all to update every outdated skill in a single command.&lt;/p&gt;\n&lt;p&gt;The Agent Toolkit for AWS consists of the AWS MCP Server (which provides a secure, auditable agent interface to 15,000+ AWS APIs), agent skills (which give agents expert guidance across storage, networking, analytics, and more), and plugins (which bundle the MCP server and curate sets of skills into a single install). Previously, customers needed to check and update each skill individually. With these additions to AWS CLI, developers can quickly identify which skills have newer versions available and bring their entire skill set current without managing updates one at a time. This is especially useful for teams that have installed many skills across serverless, storage, networking, analytics, and other domains, and want to ensure their coding agents always operate with the latest guidance. These new commands are added to the existing set of AWS CLI capabilities for the Agent Toolkit, which already allows customers to install, search, and configure the AWS MCP Server and agent skills across Kiro, Claude Code, Codex, Cursor, and other popular coding agents.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;To get started, see &lt;a href=\"https://docs.aws.amazon.com/agent-toolkit/latest/userguide/aws-cli.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS CLI&lt;/a&gt; in the Agent Toolkit for AWS user guide. Make sure you have AWS CLI version 2.37.0 or later installed. The AWS MCP Server is available in the US East (N. Virginia) and Europe (Frankfurt) Regions.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/",
-      "publishedAt": "2026-09-30T20:16:00.000Z",
-      "updatedAt": "2026-09-30T20:16:00.000Z",
-      "categories": [
-        "Developer Tools",
-        "AWS Developer Tools"
-      ],
-      "services": [],
-      "tags": [
-        "developer tools",
-        "aws developer tools"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "audit"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "4ec323ff56405148",
-      "title": "Aurora PostgreSQL now supports querying of Apache Iceberg and Parquet data",
-      "description": "Starting today, you can directly query operational data together with data stored in data lakes in Apache Iceberg and Parquet formats using your existing PostgreSQL applications and tools, without extract, transform, and load (ETL) pipelines or data duplication. Applications increasingly need access to data from data lakes, often stored in Apache Iceberg and Parquet formats, to make more informed decisions and automate business processes. Accessing it has typically required pipelines that copy data from your data lake into Aurora, driving up costs and engineering work as schemas evolve. With t",
-      "descriptionHtml": "&lt;p&gt;Starting today, you can directly query operational data together with data stored in data lakes in Apache Iceberg and Parquet formats using your existing PostgreSQL applications and tools, without extract, transform, and load (ETL) pipelines or data duplication.&lt;/p&gt;\n&lt;p&gt;Applications increasingly need access to data from data lakes, often stored in Apache Iceberg and Parquet formats, to make more informed decisions and automate business processes. Accessing it has typically required pipelines that copy data from your data lake into Aurora, driving up costs and engineering work as schemas evolve. With this launch, you can create PostgreSQL foreign tables that reference your Iceberg or Parquet data in Amazon S3, Amazon S3 Tables, or AWS Glue Data Catalog. When customers query these foreign tables, Aurora uses DuckDB’s high-performance query engine, embedded in PostgreSQL, to execute the query against the underlying Iceberg and Parquet data. Your existing applications and BI tools continue to use the same PostgreSQL interface.&lt;/p&gt;\n&lt;p&gt;You can also query tables from external Iceberg REST Catalog (IRC)-compatible catalogs federated through AWS Glue Data Catalog, without moving or duplicating data. For latency-sensitive workloads, you can materialize Iceberg or Parquet data into native Aurora PostgreSQL tables using standard SQL statements, without an ETL pipeline.&lt;/p&gt;\n&lt;p&gt;The capability is generally available on Aurora PostgreSQL starting 17.11, 18.6 and higher in all AWS commercial and GovCloud (US) Regions, at no additional charge. To get started, use the &lt;a href=\"https://console.aws.amazon.com/rds/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS console&lt;/a&gt; or any PostgreSQL client. To learn more, see the &lt;a href=\"https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;blog post&lt;/a&gt; or&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/query-iceberg-and-parquet-data.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-postgresql-query-apache-iceberg-and-parquet/",
-      "publishedAt": "2026-09-30T16:00:00.000Z",
-      "updatedAt": "2026-09-30T16:00:00.000Z",
-      "categories": [
-        "Amazon Aurora",
-        "Databases"
-      ],
-      "services": [
-        "Aurora"
-      ],
-      "tags": [
-        "amazon aurora",
-        "databases",
-        "aurora"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "84a49f207c6e607b",
-      "title": "AWS Marketplace launches an AI agent skill for usage-based metering integration",
-      "description": "AWS announces the general availability of the AWS Marketplace metering agent skill, an AI-guided experience that helps sellers build, deploy, and validate a usage-based (pay-as-you-go) SaaS metering integration from within their AI coding assistant. The skill guides sellers through the complete integration journey — gathering their product type, pricing model, and usage dimensions; recommending the correct metering API; generating integration code and a customized AWS CloudFormation stack tailored to their configuration; and running an end-to-end test against AWS Marketplace before any product",
-      "descriptionHtml": "&lt;p&gt;AWS announces the general availability of the AWS Marketplace metering agent skill, an AI-guided experience that helps sellers build, deploy, and validate a usage-based (pay-as-you-go) SaaS metering integration from within their AI coding assistant. The skill guides sellers through the complete integration journey — gathering their product type, pricing model, and usage dimensions; recommending the correct metering API; generating integration code and a customized AWS CloudFormation stack tailored to their configuration; and running an end-to-end test against AWS Marketplace before any production code ships.&lt;/p&gt;\n&lt;p&gt;Previously, sellers integrating metering navigated documentation, workshops, and trial-and-error API calls, where common mistakes such as mismatched dimension names or invalid timestamps create billing gaps discovered days later. The metering agent skill cross-validates dimensions against the seller's actual product configuration, applies built-in guardrails, deploys a serverless metering pipeline (using ResolveCustomer API, BatchMeterUsage API, and Amazon EventBridge for subscription events), and verifies the integration with a live test. It also supports &lt;a href=\"https://aws.amazon.com/blogs/awsmarketplace/complete-guide-to-upgrading-your-saas-product-to-aws-marketplace-concurrent-agreements/\"&gt;Concurrent Agreements&lt;/a&gt; and helps existing sellers inspect, debug, and analyze their metering records.&lt;/p&gt;\n&lt;p&gt;The skill is available through the &lt;a href=\"https://docs.aws.amazon.com/agent-toolkit/latest/userguide/getting-started-aws-mcp-server.html\"&gt;&lt;u&gt;AWS MCP Server&lt;/u&gt;&lt;/a&gt;&amp;nbsp;in any AI coding assistant that supports MCP, including Amazon Q Developer, Kiro, and other MCP-compatible clients, with no plugin installation required.&lt;/p&gt;\n&lt;p&gt;To get started, visit&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/userguide/metering-for-usage.html#configure-application-for-meter-usage\"&gt;Configuring metering for usage with SaaS subscriptions&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/marketplace-ai-agent-metering/",
-      "publishedAt": "2026-09-30T05:00:00.000Z",
-      "updatedAt": "2026-09-30T05:00:00.000Z",
-      "categories": [
-        "Partner Network",
-        "AWS Marketplace",
-        "AWS Marketplace And Partners"
-      ],
-      "services": [],
-      "tags": [
-        "partner network",
-        "aws marketplace",
-        "aws marketplace and partners"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "6f1d6b1199800100",
-      "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
-      "description": "Developed jointly by AWS and OpenAI, Bedrock Managed Agents (BMA) is built on a customized version of OpenAI's Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you already use. BMA manages how the model preserves state, selects and uses tools, executes code, and coordinates work across multiple steps and decisions. Durable sessions retain messages, tool calls, and intermediate results so you can return later, provide new informatio",
-      "descriptionHtml": "&lt;p&gt;Developed jointly by AWS and OpenAI, Bedrock Managed Agents (BMA) is built on a customized version of&amp;nbsp;OpenAI's Agents API engineered to be AWS-native and integrated with AWS resources.&amp;nbsp;You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you already use.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;BMA manages how the model preserves state, selects and uses tools, executes code, and coordinates work across multiple steps and decisions. Durable sessions retain messages, tool calls, and intermediate results so you can return later, provide new information, and continue from the progress already made. You can add reusable skills for specialized procedures and connect agents to tools, including via Model Context Protocol (MCP) servers. Each agent operates with its own IAM role, supports human approval before consequential actions, and records supported API activity with AWS CloudTrail.&lt;/p&gt;\n&lt;p&gt;During preview, there is no additional charge for BMA beyond the underlying AWS resources your agents consume. Pricing is subject to change at general availability.&lt;/p&gt;\n&lt;p&gt;Get started with Amazon Bedrock Managed Agents today through supported APIs. BMA is available in preview in US East (N. Virginia), US West (Oregon), and US East (Ohio). For details, see the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-managed-agents-openai.html\"&gt;Amazon Bedrock documentation&lt;/a&gt;. &amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
-      "publishedAt": "2026-09-29T21:10:00.000Z",
-      "updatedAt": "2026-09-29T21:10:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Amazon Bedrock"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "amazon bedrock",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "permission"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "40517f3ec81d8aa4",
-      "title": "Amazon Connect Customer now lets business users manage more reference data to adjust contact center configurations in real time",
-      "description": "Amazon Connect Customer now lets administrators store more of the reference data that drives their contact center configurations. Administrators can now use data tables to hold up to 20,000 values per table for defining configurations such as operating hours, escalation rules, AI agent prompts or queue assignments that drive contact flows. Administrators can now also export tables, edit hundreds of records, move tables between Connect Customer instances, or load reference data from external systems using tools and sources such as Excel and DynamoDB. Business teams can keep this data current th",
-      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now lets administrators store more of the reference data that drives their contact center configurations. Administrators can now use data tables to hold up to 20,000 values per table for defining configurations such as operating hours, escalation rules, AI agent prompts or queue assignments that drive contact flows. Administrators can now also export tables, edit hundreds of records, move tables between Connect Customer instances, or load reference data from external systems using tools and sources such as Excel and DynamoDB. Business teams can keep this data current themselves, adjusting their contact center configurations as conditions change without depending on technical resources.&lt;/p&gt;\n&lt;p&gt;This feature is available in all AWS commercial and AWS GovCloud (US-West)&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#amazonconnect_region\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;regions&lt;/a&gt;&amp;nbsp;where Amazon Connect Customer is offered. To learn more, see&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/data-tables.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Create and configure data tables&lt;/a&gt;&amp;nbsp;in the Amazon Connect Administrator Guide. To learn more about Amazon Connect, visit the&amp;nbsp;&lt;a href=\"https://aws.amazon.com/products/connect/customer/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Connect Customer website&amp;nbsp;&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-manage-data-tables/",
-      "publishedAt": "2026-09-29T17:00:00.000Z",
-      "updatedAt": "2026-09-29T17:00:00.000Z",
-      "categories": [
-        "Amazon Connect",
-        "AWS Govcloud Us",
-        "Contact Center",
-        "Business Productivity"
-      ],
-      "services": [
-        "Connect"
-      ],
-      "tags": [
-        "amazon connect",
-        "aws govcloud us",
-        "contact center",
-        "business productivity",
-        "connect"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
       ],
       "source": "whats-new"
     }
