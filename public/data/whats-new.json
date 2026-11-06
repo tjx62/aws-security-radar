@@ -1,7 +1,51 @@
 {
-  "lastUpdated": "2026-11-05T16:13:59.795Z",
+  "lastUpdated": "2026-11-06T15:44:01.376Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "f5f83e103db1afbd",
+      "title": "Introducing AWS account access manager: IAM role flexibility with centralized workforce access",
+      "description": "AWS Identity and Access Management (IAM) is introducing account access manager, a flexible new way to manage workforce access to your Amazon Web Services (AWS) accounts. This combines the IAM role flexibility your teams already rely on, delivered through the centralized federation of AWS IAM Identity Center, with user-level visibility built-in. Account access manager streamlines […]",
+      "descriptionHtml": "AWS Identity and Access Management (IAM) is introducing account access manager, a flexible new way to manage workforce access to your Amazon Web Services (AWS) accounts. This combines the IAM role flexibility your teams already rely on, delivered through the centralized federation of AWS IAM Identity Center, with user-level visibility built-in. Account access manager streamlines […]",
+      "url": "https://aws.amazon.com/blogs/security/introducing-aws-account-access-manager-iam-role-flexibility-with-centralized-workforce-access/",
+      "publishedAt": "2026-11-05T19:21:56.000Z",
+      "updatedAt": "2026-11-05T19:21:56.000Z",
+      "categories": [
+        "AWS Identity And Access Management (IAM)",
+        "Intermediate (200)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "AWS IAM",
+        "Security Blog"
+      ],
+      "services": [
+        "IAM"
+      ],
+      "tags": [
+        "aws identity and access management (iam)",
+        "intermediate (200)",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "aws iam",
+        "security blog",
+        "iam"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "IAM Identity Center",
+        "role",
+        "access",
+        "identity"
+      ],
+      "source": "security-blog"
+    },
     {
       "id": "4c968204a488b73f",
       "title": "Amazon MSK now supports TLS 1.3 for data in transit",
@@ -1531,6 +1575,70 @@
       "source": "security-blog"
     },
     {
+      "id": "98a1527c43d7a943",
+      "title": "AWS Security Hub now provides an SBOM inventory for your compute resources",
+      "description": "Today, AWS announces that AWS Security Hub now provides a Software Bill of Materials (SBOM) inventory, giving central security teams a continuously updated, organization-wide view of the software packages and applications installed on their compute resources. Security Hub builds the inventory from the SBOMs that Amazon Inspector generates for Amazon EC2 instances, Amazon ECR container images, and AWS Lambda functions, with no additional configuration. The SBOM page lists each package with its version, type, and the number of resources where it is installed. You can filter and group the list by",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces that AWS Security Hub now provides a Software Bill of Materials (SBOM) inventory, giving central security teams a continuously updated, organization-wide view of the software packages and applications installed on their compute resources.&lt;/p&gt; \n&lt;p&gt;Security Hub builds the inventory from the SBOMs that Amazon Inspector generates for Amazon EC2 instances, Amazon ECR container images, and AWS Lambda functions, with no additional configuration. The SBOM page lists each package with its version, type, and the number of resources where it is installed. You can filter and group the list by package attributes, account, and region. On the resource detail page, the Installed software tab lists every package on that resource, so you can judge its function and criticality while triaging any finding. You can also query the inventory through the Security Hub API.&lt;/p&gt; \n&lt;p&gt;The SBOM inventory is included with Security Hub Essentials at no additional cost. It requires no new enablement and populates automatically where Amazon Inspector is enabled. It is available in all AWS Regions where Security Hub is available. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/securityhub/latest/userguide/\"&gt;AWS Security Hub User Guide&lt;/a&gt; and the &lt;a href=\"https://aws.amazon.com/security-hub/\"&gt;AWS Security Hub product page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
+      "publishedAt": "2026-11-06T00:30:00.000Z",
+      "updatedAt": "2026-11-06T00:30:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "AWS Security Hub"
+      ],
+      "services": [
+        "Security Hub"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "aws security hub",
+        "security hub"
+      ],
+      "isNew": true,
+      "securityScore": 95,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Security Hub",
+        "Inspector",
+        "security",
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "41b330d67647b912",
+      "title": "Amazon SageMaker AI Studio Now Supports IAM Identity Center Multi-Region Replication",
+      "description": "Amazon SageMaker AI now supports IAM Identity Center (IdC) multi-region replication, enabling you to deploy SageMaker AI Studio domains in different regions from your IdC instance's primary region. Previously, the primary IdC instance had to reside in the same region as the SageMaker AI Studio domain; now customers can replicate their primary IdC instance into the region where they wish to use SageMaker AI Studio domains. This capability helps customers maintain compliance while utilizing centralized workforce identity management. As an Amazon SageMaker AI Studio administrator, you can deploy ",
+      "descriptionHtml": "&lt;p&gt;Amazon SageMaker AI now supports IAM Identity Center (IdC) multi-region replication, enabling you to deploy SageMaker AI Studio domains in different regions from your IdC instance's primary region. Previously, the primary IdC instance had to reside in the same region as the SageMaker AI Studio domain; now customers can replicate their primary IdC instance into the region where they wish to use SageMaker AI Studio domains. This capability helps customers maintain compliance while utilizing centralized workforce identity management.&lt;/p&gt; \n&lt;p&gt;As an Amazon SageMaker AI Studio administrator, you can deploy SageMaker AI domains that align with your workforce's location and data residency requirements, independent of where your primary IdC instance is set up. Organizations can retain their primary IdC instance in one region while operating SageMaker AI Studio workloads in compliance-mandated regions, support global operations through centralized identity management, and satisfy data sovereignty requirements without compromising single sign-on (SSO) capabilities.&lt;/p&gt; \n&lt;p&gt;To get started see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/onboard-custom.html\"&gt;SageMaker AI documentation&lt;/a&gt; and to learn about setting up IAM Identity Center multi-region support see the &lt;a href=\"https://docs.aws.amazon.com/singlesignon/latest/userguide/multi-region-iam-identity-center.html\"&gt;IAM Identity Center User Guide&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Multi-region IdC replication is available in all standard &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where Amazon SageMaker AI Studio is supported, including: Asia Pacific (Tokyo), Europe (Ireland), US East (N. Virginia), US East (Ohio), US West (Oregon), Europe (Frankfurt), South America (São Paulo), Asia Pacific (Seoul), Europe (London), Asia Pacific (Singapore), Asia Pacific (Sydney), Canada (Central), Asia Pacific (Mumbai), Europe (Paris), Europe (Stockholm).&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-ai-studio-iam/",
+      "publishedAt": "2026-11-05T08:00:00.000Z",
+      "updatedAt": "2026-11-05T08:00:00.000Z",
+      "categories": [
+        "Amazon Sagemaker Studio"
+      ],
+      "services": [
+        "IAM",
+        "IAM Identity Center",
+        "SageMaker"
+      ],
+      "tags": [
+        "amazon sagemaker studio",
+        "iam",
+        "iam identity center",
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 95,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "IAM Identity Center",
+        "compliance",
+        "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "279c4a835cdf7fae",
       "title": "Identity-aware AI data agents with AWS Lake Formation and Trusted Identity Propagation",
       "description": "You’re building a data agent that lets business users ask questions about lakehouse data in natural language. You’ve already built governance policies that control who can access which datasets. The challenge is making the agent respect those rules without rebuilding them in your application code. When a user asks a question, the agent maps it […]",
@@ -1764,6 +1872,40 @@
         "TLS"
       ],
       "source": "security-blog"
+    },
+    {
+      "id": "0475308a51633b28",
+      "title": "IAM Roles Anywhere now supports automatic certificate revocation checking",
+      "description": "AWS Identity and Access Management (IAM) Roles Anywhere now supports automatic revocation checking using certificate revocation list (CRL) distribution points (CDPs). This helps keep revocation checks in sync with your certificate authority (CA) and can help improve your security posture. When you enable this capability on a trust anchor, IAM Roles Anywhere reads the CDP URLs embedded in authenticating certificates, downloads the corresponding CRLs, and denies credential requests that use revoked certificates. Previously, to check revocation status, you had to import CRLs into IAM Roles Anywhe",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/iam/roles-anywhere\"&gt;AWS Identity and Access Management (IAM) Roles Anywhere&lt;/a&gt; now supports automatic revocation checking using certificate revocation list (CRL) distribution points (CDPs). This helps keep revocation checks in sync with your certificate authority (CA) and can help improve your security posture. When you enable this capability on a trust anchor, IAM Roles Anywhere reads the CDP URLs embedded in authenticating certificates, downloads the corresponding CRLs, and denies credential requests that use revoked certificates.&lt;/p&gt; \n&lt;p&gt;Previously, to check revocation status, you had to import CRLs into IAM Roles Anywhere and re-import them each time your CA published an update, which added operational overhead. With this launch, IAM Roles Anywhere downloads CRLs from your CDPs and refreshes them periodically, so you no longer need to re-import them. You can use this capability with &lt;a href=\"https://aws.amazon.com/private-ca/\"&gt;AWS Private Certificate Authority&lt;/a&gt; or your own public key infrastructure (PKI), provided your certificates include publicly accessible CDP URLs that meet the &lt;a href=\"https://docs.aws.amazon.com/rolesanywhere/latest/userguide/trust-model.html#crl-distribution-point-revocation\"&gt;distribution point requirements&lt;/a&gt;. To enable it on a trust anchor, use the IAM Roles Anywhere console, AWS SDKs, or AWS CLI.&lt;/p&gt; \n&lt;p&gt;This feature is available at no additional cost in all commercial AWS Regions. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/rolesanywhere/latest/userguide/trust-model.html#crl-distribution-point-revocation\"&gt;Automatic revocation checking with CRL distribution points&lt;/a&gt; in the IAM Roles Anywhere User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-cdp/",
+      "publishedAt": "2026-11-05T17:38:00.000Z",
+      "updatedAt": "2026-11-05T17:38:00.000Z",
+      "categories": [
+        "AWS Iam",
+        "Security Identity And Compliance",
+        "AWS Identity And Access Management"
+      ],
+      "services": [
+        "IAM"
+      ],
+      "tags": [
+        "aws iam",
+        "security identity and compliance",
+        "aws identity and access management",
+        "iam"
+      ],
+      "isNew": true,
+      "securityScore": 90,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "security",
+        "access",
+        "identity",
+        "credential"
+      ],
+      "source": "whats-new"
     },
     {
       "id": "0072af5efe2a8bfc",
@@ -2564,6 +2706,41 @@
         "Bucket"
       ],
       "source": "security-blog"
+    },
+    {
+      "id": "f0a17685baff9d76",
+      "title": "AWS Security Hub Network Scanning now available in AWS GovCloud (US)",
+      "description": "AWS Security Hub Network Scanning feature is now supported in AWS GovCloud (US). Network Scanning probes your resources from the internet to detect actual reachability, not just what could be reachable based on security group rules and route tables. It discovers public IP addresses, virtual machines, and load balancers across your AWS environments, identifies reachable ports, and determines what services are running behind them. This complements Security Hub's existing network reachability findings, which identify configurations that could make a resource reachable from the internet. Network S",
+      "descriptionHtml": "&lt;p&gt;AWS Security Hub Network Scanning feature is now supported in AWS GovCloud (US).&lt;/p&gt; \n&lt;p&gt;Network Scanning probes your resources from the internet to detect actual reachability, not just what could be reachable based on security group rules and route tables. It discovers public IP addresses, virtual machines, and load balancers across your AWS environments, identifies reachable ports, and determines what services are running behind them. This complements Security Hub's existing network reachability findings, which identify configurations that could make a resource reachable from the internet. Network Scanning confirms that configurations do exist which make a resource reachable from the internet. Each reachable port generates a Security Hub finding with evidence of the port and service discovered. Security Hub Exposures then automatically correlates these findings with other findings and resource configurations to determine broader risk.&lt;/p&gt; \n&lt;p&gt;Existing customers can enable Network Scanning in individual accounts and regions, or across an organization via a configuration policy. For new Security Hub customers, Network Scanning is on by default. Network Scanning is included with Security Hub Essentials at no additional cost in all AWS commercial and GovCloud (US) Regions that support Security Hub. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-v2-network-scanning.html\"&gt;AWS Security Hub User Guide&lt;/a&gt; and the &lt;a href=\"https://aws.amazon.com/security-hub/\"&gt;AWS Security Hub product page&lt;/a&gt;. For the full list of Regions, see the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regional Services List&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-network-scanning-govcloud/",
+      "publishedAt": "2026-11-05T09:00:00.000Z",
+      "updatedAt": "2026-11-05T09:00:00.000Z",
+      "categories": [
+        "AWS Govcloud Us",
+        "Public Sector Government",
+        "AWS Security Hub",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "Security Hub"
+      ],
+      "tags": [
+        "aws govcloud us",
+        "public sector government",
+        "aws security hub",
+        "security identity and compliance",
+        "security hub"
+      ],
+      "isNew": true,
+      "securityScore": 80,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Security Hub",
+        "security",
+        "Config",
+        "Security Group"
+      ],
+      "source": "whats-new"
     },
     {
       "id": "0b9e8f67e6b4c756",
@@ -5287,6 +5464,34 @@
       "source": "security-blog"
     },
     {
+      "id": "4933e4615bcbfb2a",
+      "title": "Amazon Cognito announces 99.99% Service Level Agreement for the Plus feature plan",
+      "description": "Starting November 1, 2026, the Amazon Cognito Service Level Agreement (SLA) commits to a Monthly Uptime Percentage of 99.99% for user pools on the Plus feature plan, up from 99.9%. User pools already on Plus are automatically covered by the new Service Commitment. User pools on Essentials and Lite stay at the 99.9% Service Commitment with no change to their terms. To qualify for the 99.99% Service Commitment, you can switch a user pool to the Plus feature plan using the AWS Management Console, AWS Command Line Interface (CLI), or AWS Software Development Kits (SDKs). The Plus feature plan also",
+      "descriptionHtml": "&lt;p&gt;Starting November 1, 2026, the Amazon Cognito Service Level Agreement (SLA) commits to a Monthly Uptime Percentage of 99.99% for user pools on the Plus feature plan, up from 99.9%. User pools already on Plus are automatically covered by the new Service Commitment. User pools on Essentials and Lite stay at the 99.9% Service Commitment with no change to their terms.&lt;/p&gt; \n&lt;p&gt;To qualify for the 99.99% Service Commitment, you can switch a user pool to the Plus feature plan using the AWS Management Console, AWS Command Line Interface (CLI), or AWS Software Development Kits (SDKs). The Plus feature plan also includes threat protection features such as adaptive authentication, compromised credentials detection, and threat and user activity logging and export.&lt;/p&gt; \n&lt;p&gt;For full terms and exclusions, see the &lt;a href=\"https://aws.amazon.com/cognito/sla/\"&gt;Amazon Cognito SLA&lt;/a&gt;.&amp;nbsp;To learn more about feature plans, see &lt;a href=\"https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-sign-in-feature-plans.html\"&gt;user pool feature plans&lt;/a&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-sla-update/",
+      "publishedAt": "2026-11-05T18:00:00.000Z",
+      "updatedAt": "2026-11-05T18:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "Amazon Cognito"
+      ],
+      "services": [
+        "Cognito"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "amazon cognito",
+        "cognito"
+      ],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Cognito"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "5e0a7c0709098eb2",
       "title": "CVE-2026-119084 - Remote Code Execution via Unsafe Class Loading in Amazon Redshift JDBC Driver Connection Parameters",
       "description": "Bulletin ID: 2026-168-AWS Publication Date: 11/03/2026 13:00 PM PST Description: We identified CVE-2026-119084, an issue in Amazon Redshift JDBC Driver versions prior to 2.3.0. Under certain conditions, the driver could load and execute arbitrary classes when processing JDBC connection URL parameters or AWS credentials profile fields. Impacted versions: Amazon Redshift JDBC Driver Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin. Read this article",
@@ -5694,6 +5899,37 @@
       "source": "whats-new"
     },
     {
+      "id": "08359c65650dd3b9",
+      "title": "AWS WAF AI traffic monetization now supports fiat payouts through Stripe",
+      "description": "AWS WAF AI traffic monetization now integrates with Stripe. Publishers, content owners, and API providers can collect stablecoin payments from AI bots and agents that settle in local currency directly to their Stripe balance. With this launch, customers can monetize agent access without holding stablecoins or managing a crypto wallet. Stripe is now available as a new payout method alongside existing stablecoin payouts. To get started, connect your Stripe account to AWS WAF through Stripe Connect in the AWS WAF console. Your existing pricing and agent policies work unchanged. When an agent requ",
+      "descriptionHtml": "&lt;p&gt;AWS WAF AI traffic monetization now integrates with Stripe. Publishers, content owners, and API providers can collect stablecoin payments from AI bots and agents that settle in local currency directly to their Stripe balance. With this launch, customers can monetize agent access without holding stablecoins or managing a crypto wallet. Stripe is now available as a new payout method alongside existing stablecoin payouts.&lt;/p&gt; \n&lt;p&gt;To get started, connect your Stripe account to AWS WAF through Stripe Connect in the AWS WAF console. Your existing pricing and agent policies work unchanged. When an agent requests protected content, AWS WAF returns an HTTP 402 response with the valid payment credential types that it accepts. Once the agent returns with a valid payment credential and makes the request again, the content is returned ungated. Revenue from all payment providers appears in the AWS WAF console revenue analytics.&lt;/p&gt; \n&lt;p&gt;The Stripe integration is available at no additional charge to all AWS WAF customers using Amazon CloudFront, in all edge locations where AWS WAF web ACLs are associated with CloudFront distributions. Standard AWS WAF and Stripe processing fees apply. See &lt;a href=\"https://aws.amazon.com/waf/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS WAF pricing&lt;/a&gt; for details.&lt;/p&gt; \n&lt;p&gt;To get started, visit the &lt;a href=\"https://aws.amazon.com/console/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS WAF console&lt;/a&gt; or explore the &lt;a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-ai-traffic-monetization-getting-started.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS WAF Developer Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-stripe-fiat-payouts/",
+      "publishedAt": "2026-11-05T08:00:00.000Z",
+      "updatedAt": "2026-11-05T08:00:00.000Z",
+      "categories": [
+        "AWS Waf",
+        "Amazon Cloudfront"
+      ],
+      "services": [
+        "CloudFront",
+        "WAF"
+      ],
+      "tags": [
+        "aws waf",
+        "amazon cloudfront",
+        "cloudfront",
+        "waf"
+      ],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "high",
+      "securityMatches": [
+        "WAF",
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "063fa34b1a782035",
       "title": "Amazon EC2 and VPC now display related resources for all resource types",
       "description": "Amazon Elastic Compute Cloud (Amazon EC2), Amazon Virtual Private Cloud (Amazon VPC), and AWS Global View now display related resources for all resource types in their consoles. Previously, only security groups had an option to view related resources. Now you can see relationships for all EC2 and VPC resource types, including EC2 instances, Amazon Elastic Block Store (Amazon EBS) volumes, Launch Templates, Auto Scaling groups, subnets, route tables, and more. The Related Resources tab has also been moved to the console toolbar for easier access. This capability helps you better understand your",
@@ -5819,7 +6055,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "medium",
       "securityMatches": [
@@ -6779,6 +7015,25 @@
       "securityLevel": "medium",
       "securityMatches": [],
       "source": "security-blog"
+    },
+    {
+      "id": "65bc709aab5dc61e",
+      "title": "CVE-2026-109518 - APT package manager that affects Ubuntu and Debian operating systems",
+      "description": "Bulletin ID: 2026-172-AWS Publication Date: 11/05/2026 20:00 PM PST Description: An issue in the APT package manager (CVE-2026-109518) affects Ubuntu and Debian operating systems. Under specific conditions, when APT is configured to use HTTP package sources with retry settings enabled, a third party with a network position between the host and the package mirror could cause APT to install a package that did not pass verification. Updated APT packages are available from Canonical (USN-8996-1) and Debian (DSA-6607-1). The following fixed versions address this issue: - Ubuntu 22.04 LTS: apt 2.4.1",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-172-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/05/2026 20:00 PM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;An issue in the APT package manager (CVE-2026-109518) affects Ubuntu and Debian operating systems. Under specific conditions, when APT is configured to use HTTP package sources with retry settings enabled, a third party with a network position between the host and the package mirror could cause APT to install a package that did not pass verification. Updated APT packages are available from Canonical (USN-8996-1) and Debian (DSA-6607-1). The following fixed versions address this issue:&lt;br&gt; - Ubuntu 22.04 LTS: apt 2.4.15ubuntu0.1&lt;br&gt; - Ubuntu 24.04 LTS: apt 2.8.4ubuntu0.1&lt;br&gt; - Ubuntu 26.04 LTS: apt 3.2.1ubuntu0.1&lt;br&gt; - Debian (DSA-6607-1): See Debian Security Advisory for version details&lt;/p&gt; \n&lt;p&gt;Customers running Ubuntu or Debian-based Amazon EC2 instances or container images should apply the updates. For details, see the full AWS Security Bulletin.&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-172-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-172-aws/",
+      "publishedAt": "2026-11-06T04:00:35.000Z",
+      "updatedAt": "2026-11-06T04:00:35.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "security-bulletin"
     },
     {
       "id": "5000080fc7478fb6",
@@ -8065,6 +8320,53 @@
         "security",
         "Config",
         "access"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "5641486f1d7c0aa6",
+      "title": "CVE-2026-119083 - GluonTS arbitrary file write during archive extraction",
+      "description": "Bulletin ID: 2026-171-AWS Publication Date: 11/05/2026 08:30 AM PST Description: GluonTS is an open-source Python library for probabilistic time series modeling. We identified CVE-2026-119083, an issue in the archive extraction utility in GluonTS before 0.17.0. An actor who supplies a crafted tar archive containing symbolic or hard links might be able to write arbitrary files outside the intended extraction directory with the privileges of the extracting process. Impacted versions: Refer to the article below for the most up-to-date and complete information. Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-171-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/05/2026 08:30 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;GluonTS is an open-source Python library for probabilistic time series modeling. We identified CVE-2026-119083, an issue in the archive extraction utility in GluonTS before 0.17.0. An actor who supplies a crafted tar archive containing symbolic or hard links might be able to write arbitrary files outside the intended extraction directory with the privileges of the extracting process.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt; 0.17.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Refer to the article below for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-171-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-171-aws/",
+      "publishedAt": "2026-11-05T16:43:41.000Z",
+      "updatedAt": "2026-11-05T16:43:41.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "2efcc1bd9fac2e7d",
+      "title": "Amazon RDS for Oracle now supports Kerberos authentication with self-managed Active Directory",
+      "description": "Amazon Relational Database Service (Amazon RDS) for Oracle ( Amazon Relational Database Service (Amazon RDS) for Oracle ) now allows customers to join their RDS for Oracle DB instances directly to their self-managed Microsoft Active Directory (AD) domain. Your self-managed AD can run on premises, on Amazon EC2, or with another cloud provider. Users in your AD domain can authenticate to RDS for Oracle DB instances using Kerberos. Previously, in order to use Kerberos authentication with self-managed AD for their RDS for Oracle instances, customers were required to deploy AWS Managed Microsoft AD",
+      "descriptionHtml": "&lt;p&gt;Amazon Relational Database Service (Amazon RDS) for Oracle (&lt;a href=\"https://aws.amazon.com/rds/oracle/\"&gt;Amazon Relational Database Service (Amazon RDS) for Oracle&lt;/a&gt;) now allows customers to join their RDS for Oracle DB instances directly to their self-managed Microsoft Active Directory (AD) domain. Your self-managed AD can run on premises, on Amazon EC2, or with another cloud provider. Users in your AD domain can authenticate to RDS for Oracle DB instances using Kerberos.&lt;/p&gt; \n&lt;p&gt;Previously, in order to use Kerberos authentication with self-managed AD for their RDS for Oracle instances, customers were required to deploy AWS Managed Microsoft AD and establish trust between AWS managed domain and self-managed domain. Now, customers can join their existing self-managed AD directly to authenticate and authorize users without setting up an additional directory or trust relationship. You can set this up using the AWS Management Console, AWS CLI, or AWS SDK. You can use self-managed AD without any additional charge.&lt;/p&gt; \n&lt;p&gt;Kerberos authentication with self-managed Active Directory in Amazon RDS for Oracle is available in &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;all commercial AWS Regions&lt;/a&gt; where Amazon RDS for Oracle is available. To learn more about Kerberos authentication with self-managed Active Directory, visit &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/oracle-smad.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Working with self-managed Active Directory with an Amazon RDS for Oracle DB instance&lt;/a&gt; in the Amazon RDS User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-kerberos-self-managed-ad/",
+      "publishedAt": "2026-11-05T10:30:00.000Z",
+      "updatedAt": "2026-11-05T10:30:00.000Z",
+      "categories": [
+        "Amazon Rds For Oracle",
+        "Databases",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "RDS"
+      ],
+      "tags": [
+        "amazon rds for oracle",
+        "databases",
+        "security identity and compliance",
+        "rds"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "authentication"
       ],
       "source": "whats-new"
     },
@@ -10883,6 +11185,33 @@
       "source": "whats-new"
     },
     {
+      "id": "9d4b54033d209b2b",
+      "title": "AWS Systems Manager Parameter Store now allows organization and validation with built-in data types",
+      "description": "AWS Systems Manager Parameter Store now supports 13 new parameter data types that automatically validate parameter values when you create or update a parameter. With built-in validation, you can stop malformed configuration values, such as an invalid IP address, AWS account ID, or JSON document, before your applications read them, without writing your own validation logic. These types allow you to better organize your parameters across your workloads. You can filter by type when calling the DescribeParameters API or when browsing parameters in the Parameter Store console. The following data ty",
+      "descriptionHtml": "&lt;p&gt;AWS Systems Manager Parameter Store now supports 13 new parameter data types that automatically validate parameter values when you create or update a parameter. With built-in validation, you can stop malformed configuration values, such as an invalid IP address, AWS account ID, or JSON document, before your applications read them, without writing your own validation logic.&amp;nbsp;These types allow you to better organize your parameters across your workloads. You can filter by type when calling the DescribeParameters API or when browsing parameters in the Parameter Store console.&lt;br&gt; &lt;br&gt; The following data types are available for both standard and advanced parameters:&amp;nbsp; aws:region, aws:account:id, boolean, integer, float, binary, hostname, email, ipv4-address, and ipv6-address. Three more data types, url, json, and jsonc, are available for advanced parameters. Parameter Store checks the value when you call PutParameter and rejects any value that doesn't match its data type. New data types work with String and SecureString parameters, and several also support StringList parameters, where each item in the list is validated. You can combine a data type with an AllowedPattern for additional constraints, and you can change the data type of an existing text parameter.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-ssm-parameter-store-allows-organization-validation-with-new-data-types/",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "updatedAt": "2026-11-05T05:00:00.000Z",
+      "categories": [
+        "AWS Systems Manager"
+      ],
+      "services": [
+        "Systems Manager"
+      ],
+      "tags": [
+        "aws systems manager",
+        "systems manager"
+      ],
+      "isNew": true,
+      "securityScore": 20,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "Systems Manager"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "8772ad386e5b2c91",
       "title": "AWS Config now supports 10 new resource types",
       "description": "AWS Config now supports 10 additional AWS resource types across key services including Amazon ElastiCache and Amazon QuickSight. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources. With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators. You can now use AWS Config to monitor the following newly supported",
@@ -11993,6 +12322,30 @@
       "source": "whats-new"
     },
     {
+      "id": "f22f5d0bc3aa61b8",
+      "title": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region",
+      "description": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region, in addition to AWS GovCloud (US-East). CodeConnections lets you connect AWS services such as AWS CodePipeline and AWS CodeBuild to source code repositories hosted with third-party providers such as Bitbucket. With this launch, customers running workloads in AWS GovCloud (US-West) can create connections to their source repositories in the same Region as their pipelines. For example, a team can configure a connection so that a commit to their repository automatically starts a release in AWS CodePipeline, without managing ",
+      "descriptionHtml": "&lt;p&gt;AWS CodeConnections is now available in the AWS GovCloud (US-West) Region, in addition to AWS GovCloud (US-East). CodeConnections lets you connect AWS services such as AWS CodePipeline and AWS CodeBuild to source code repositories hosted with third-party providers such as Bitbucket.&lt;/p&gt;\n&lt;p&gt;With this launch, customers running workloads in AWS GovCloud (US-West) can create connections to their source repositories in the same Region as their pipelines. For example, a team can configure a connection so that a commit to their repository automatically starts a release in AWS CodePipeline, without managing provider credentials for each integration.&lt;/p&gt;\n&lt;p&gt;To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/dtconsole/latest/userguide/welcome-connections.html\"&gt;AWS CodeConnections User Guide&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/CodeStar-connections.html\"&gt;AWS GovCloud User Guide&lt;/a&gt;. To get started, visit the AWS GovCloud (US) console.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codeconnections-govcloud-west/",
+      "publishedAt": "2026-11-05T08:00:00.000Z",
+      "updatedAt": "2026-11-05T08:00:00.000Z",
+      "categories": [
+        "AWS Govcloud Us"
+      ],
+      "services": [],
+      "tags": [
+        "aws govcloud us"
+      ],
+      "isNew": true,
+      "securityScore": 15,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "Bucket"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "ea05669f6d829be1",
       "title": "Announcing AWS for Fluent Bit 3.0.0 based on Fluent Bit 4.1.1",
       "description": "AWS for Fluent Bit announces version 3.0.0 , based on Fluent Bit version 4.1.1 and Amazon Linux 2023. Container logging using AWS for Fluent Bit is now more performant and more feature-rich for AWS customers, including those using Amazon Elastic Container Services (Amazon ECS) and Amazon Elastic Kubernetes Service (Amazon EKS). AWS for Fluent Bit enables Amazon ECS and Amazon EKS customers to collect, process, and route container logs to destinations including Amazon CloudWatch Logs, Amazon Data Firehose, Amazon Kinesis Data Streams, and Amazon S3 without changing application code. AWS for Flu",
@@ -13083,6 +13436,34 @@
       "source": "whats-new"
     },
     {
+      "id": "91579e5cb3810703",
+      "title": "AWS Interconnect - last mile announces new metro in Northern Virginia, USA",
+      "description": "Today, AWS announced a new AWS Interconnect - last mile metro in Northern Virginia, USA. Northern Virginia joins New York as the second metro where you can connect your data center, branch office, or colocation facility to AWS. AWS Interconnect - last mile gives you managed, private, resilient connections to AWS, so you don't have to order cross-connects or configure routers. Every connection is provisioned by default across two physically diverse locations with four redundant links, providing maximum resilience out of the box and backed by a 99.99% availability SLA up to the Direct Connect po",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announced a new AWS Interconnect - last mile metro in Northern Virginia, USA. Northern Virginia joins New York as the second metro where you can connect your data center, branch office, or colocation facility to AWS.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;AWS Interconnect - last mile gives you managed, private, resilient connections to AWS, so you don't have to order cross-connects or configure routers. Every connection is provisioned by default across two physically diverse locations with four redundant links, providing maximum resilience out of the box and backed by a 99.99% availability SLA up to the Direct Connect port. Traffic between AWS and partner edge devices is encrypted with MACsec by default.&lt;/p&gt; \n&lt;p&gt;Lumen customers anywhere in the continental United States can order generally available connections through the Northern Virginia metro to reach all public AWS Regions (except those in China) and AWS Local Zones. AWS Interconnect - last mile is also available in preview through Megaport and Equinix in the Northern Virginia metro. You can create connections using the AWS Management Console, AWS CLI, or AWS Interconnect API. For pricing, see &lt;a href=\"https://aws.amazon.com/interconnect/lastmile/pricing/\"&gt;AWS Interconnect - last mile pricing&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/interconnect-last-mile-northern-virginia/",
+      "publishedAt": "2026-11-05T21:30:00.000Z",
+      "updatedAt": "2026-11-05T21:30:00.000Z",
+      "categories": [
+        "AWS Direct Connect",
+        "Networking And Content Delivery"
+      ],
+      "services": [
+        "Connect"
+      ],
+      "tags": [
+        "aws direct connect",
+        "networking and content delivery",
+        "connect"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "d600785138fcfb01",
       "title": "Amazon RDS for Oracle now supports copying option groups during cross-Region snapshot copy",
       "description": "Amazon RDS for Oracle now lets you copy the option group associated with a DB snapshot when you copy that snapshot to another AWS Region. Amazon RDS for Oracle uses option groups to enable and configure features that make it simple to manage your databases. Option groups are specific to the AWS Region where you create them. Previously, customers wanting to replicate RDS backups that had option groups to a different AWS Region had to copy the snapshot without the option group and then recreate the option group in the target Region before restoring the snapshot. Now, you no longer need to separa",
@@ -13220,7 +13601,7 @@
         "analytics",
         "quicksight"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -13243,7 +13624,7 @@
       "tags": [
         "aws marketplace and partners"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -13748,339 +14129,6 @@
         "contact center",
         "amazon connect",
         "connect"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "dccaec21a473442e",
-      "title": "Amazon SageMaker AI now supports custom sequence lengths for serverless model customization jobs",
-      "description": "Today, Amazon SageMaker AI announces the ability to configure the sequence length used during your serverless model customization job. Amazon SageMaker AI serverless model customization supports fine-tuning for many open-weight models, including models from popular families including gpt-oss, Gemma, Llama, Nemotron, and Qwen. Previously, each fine-tuning recipe ran at a fixed sequence length that customers could not modify. Customers sometimes need to modify these parameters to achieve better results for their use case. Customers also asked for longer sequence lengths than the static defaults ",
-      "descriptionHtml": "&lt;p&gt;Today, Amazon SageMaker AI announces the ability to configure the sequence length used during your serverless model customization job. Amazon SageMaker AI serverless model customization supports fine-tuning for many open-weight models, including models from popular families including gpt-oss, Gemma, Llama, Nemotron, and Qwen. Previously, each fine-tuning recipe ran at a fixed sequence length that customers could not modify. Customers sometimes need to modify these parameters to achieve better results for their use case. Customers also asked for longer sequence lengths than the static defaults we supported on some models.&lt;/p&gt;\n&lt;p&gt;Now, you can set sequence length parameters as part of the customization job's hyperparameters, anywhere up to the published maximum for your chosen model and technique. You can set the dataset_max_len hyperparameter for SFT and DPO jobs or set max_prompt_length and max_response_length hyperparameters for RFT jobs. This gives you more control to match your training data characteristics, whether you are working with short question-answer pairs or multi-page documents. Published maximums are up to 16K tokens for many models depending on model and technique.&lt;/p&gt;\n&lt;p&gt;Serverless model customization on SageMaker AI is available in US East (N. Virginia), US West (Oregon), Asia Pacific (Tokyo), and Europe (Ireland). To get started, navigate to the Models page in Amazon SageMaker Studio to launch a customization job, use the &lt;a href=\"https://sagemaker.readthedocs.io/en/stable/model_customization/index.html\"&gt;SageMaker Python SDK&lt;/a&gt; or use our &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/model-customize-agent-skills.html\"&gt;Agent skills&lt;/a&gt; with your choice of coding assistant. To learn more, and see the list of models and supported sequence lengths per technique, see the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/customizing-models-sequence-lengths.html\"&gt;SageMaker AI documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-sequence-lengths/",
-      "publishedAt": "2026-10-21T08:00:00.000Z",
-      "updatedAt": "2026-10-21T08:00:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Amazon Sagemaker"
-      ],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "amazon sagemaker",
-        "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "bbcb78be34041e7f",
-      "title": "Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
-      "description": "AWS announces Amazon Elastic Container Service (Amazon ECS) Gateway, a new resource that simplifies ingress networking for containerized applications by dynamically provisioning and managing Application Load Balancers (ALBs) and their supporting resources directly in your account. With ECS Gateway, platform teams define organizational networking standards once on a gateway and associate it with one or more clusters, giving organizations a centralized way to govern how traffic reaches their ECS services. Application teams simply opt in to inherit those standards without requiring networking exp",
-      "descriptionHtml": "&lt;p&gt;AWS announces Amazon Elastic Container Service (Amazon ECS) Gateway, a new resource that simplifies ingress networking for containerized applications by dynamically provisioning and managing Application Load Balancers (ALBs) and their supporting resources directly in your account.&lt;/p&gt; \n&lt;p&gt;With ECS Gateway, platform teams define organizational networking standards once on a gateway and associate it with one or more clusters, giving organizations a centralized way to govern how traffic reaches their ECS services. Application teams simply opt in to inherit those standards without requiring networking expertise. ECS Gateway offers host-based routing, allows up to 25 services to share an ALB to optimize infrastructure costs, and gives each service a unique Domain Name System (DNS) hostname. ECS manages the full lifecycle of the underlying infrastructure, provisioning the first ALB when your first service connects, adding more ALBs when capacity is reached, and removing them when no longer needed. You can inspect these resources and the gateway route to each service to see exactly how requests reach your applications. For traffic and health monitoring, you can use standard ALB metrics in Amazon CloudWatch and target health information from Elastic Load Balancing.&lt;/p&gt; \n&lt;p&gt;To get started, create an ECS Gateway, associate it with a cluster, and opt in your ECS service by adding the gateway connector parameter using the AWS Management Console, AWS CLI, API, AWS SDKs, or AWS CloudFormation. ECS Gateway is available for ECS services using the awsvpc network mode across all launch types. It is available now in all commercial AWS Regions at no additional charge. You pay only for the underlying infrastructure provisioned in your account when your services connect to the gateway. To learn more, refer to the &lt;a href=\"https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services\"&gt;AWS News blog&lt;/a&gt; and our &lt;a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/gateway-overview.html\"&gt;documentation&lt;/a&gt; page.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
-      "publishedAt": "2026-10-20T23:26:00.000Z",
-      "updatedAt": "2026-10-20T23:26:00.000Z",
-      "categories": [
-        "Amazon Ecs",
-        "AWS Fargate",
-        "Containers"
-      ],
-      "services": [
-        "ECS",
-        "Fargate"
-      ],
-      "tags": [
-        "amazon ecs",
-        "aws fargate",
-        "containers",
-        "ecs",
-        "fargate"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Organizations"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "ae9b88747265af9a",
-      "title": "Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages",
-      "description": "Today, we are introducing a new model behind the Amazon Polly Generative engine that delivers more natural-sounding, accurate speech output with low latency. With this upgrade, you get access to an enhanced voice portfolio with higher overall quality, 14 new voices across nine locales, and two new languages—Hindi and Finnish—now generally available on the Generative engine for the first time. New voices include Kenneth and Nate (US English), Russell and Curtis (Australian English), Kiara and Arjun (Hindi and Indian English), Tina (German), Carlos (US Spanish), Leo and Carolina (Brazilian Portu",
-      "descriptionHtml": "&lt;p&gt;Today, we are introducing a new model behind the Amazon Polly Generative engine that delivers more natural-sounding, accurate speech output with low latency. With this upgrade, you get access to an enhanced voice portfolio with higher overall quality, 14 new voices across nine locales, and two new languages—Hindi and Finnish—now generally available on the Generative engine for the first time. New voices include Kenneth and Nate (US English), Russell and Curtis (Australian English), Kiara and Arjun (Hindi and Indian English), Tina (German), Carlos (US Spanish), Leo and Carolina (Brazilian Portuguese), Hyunduk (Korean), and Suvi (Finnish).&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/polly\"&gt;&lt;u&gt;Amazon Polly&lt;/u&gt;&lt;/a&gt; is a fully managed service that turns text into natural-sounding speech. This drop-in model upgrade makes Generative voices more natural and accurate. Complex content such as numbers, email addresses, and street addresses is designed to sound more reliable, reducing the need to fine-tune speech output. You can continue to use Speech Synthesis Markup Language (SSML) tags to control speech output on the Generative engine, just as before. The low-latency streaming API makes it easy to build contact center experiences, chatbots, and large language model (LLM) based agentic voice applications for real-time conversations. The richness and variety of voice options are also well suited for news, media, entertainment, e-learning, and accessibility use cases. This launch also expands the Amazon Polly Generative offering to AWS GovCloud, providing more options for public sector and regulated industries.&lt;/p&gt; \n&lt;p&gt;All new Generative voices are now available in the following AWS Regions: US East (N. Virginia), US West (Oregon), Europe (Frankfurt), Europe (Zurich), Europe (London), Asia Pacific (Sydney), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Tokyo), Canada (Central), and AWS GovCloud (US-West).&lt;/p&gt; \n&lt;p&gt;To hear how Polly voices sound, go to &lt;a href=\"https://aws.amazon.com/polly/features/?nc=sn&amp;amp;loc=3\"&gt;&lt;u&gt;Amazon Polly Features&lt;/u&gt;&lt;/a&gt;. For more details on the Polly offerings and use, see the &lt;a href=\"https://docs.aws.amazon.com/polly/latest/dg/what-is.html\"&gt;&lt;u&gt;Amazon Polly documentation&lt;/u&gt;&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/polly/pricing/?nc=sn&amp;amp;loc=4\"&gt;&lt;u&gt;pricing page&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/",
-      "publishedAt": "2026-10-20T15:32:00.000Z",
-      "updatedAt": "2026-10-20T15:32:00.000Z",
-      "categories": [],
-      "services": [
-        "Polly"
-      ],
-      "tags": [
-        "polly"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "3801a6b1288d1ea6",
-      "title": "Amazon Bedrock Guardrails now supports Standard tier for contextual grounding checks",
-      "description": "Amazon Bedrock Guardrails now offers a Standard tier for contextual grounding checks, which detect and filter hallucinations by checking whether a model response is grounded in your reference source and relevant to the user's query. The Standard tier is more robust than the Classic tier. It supports responses that include reasoning or conversational content, scores differently worded responses with the same meaning more consistently, and provides more comprehensive language support, matching the Standard tier for content filters and denied topics. Amazon Bedrock Guardrails provides configurabl",
-      "descriptionHtml": "&lt;p&gt;Amazon Bedrock Guardrails now offers a Standard tier for contextual grounding checks, which detect and filter hallucinations by checking whether a model response is grounded in your reference source and relevant to the user's query. The Standard tier is more robust than the Classic tier. It supports responses that include reasoning or conversational content, scores differently worded responses with the same meaning more consistently, and provides more comprehensive language support, matching the Standard tier for content filters and denied topics. Amazon Bedrock Guardrails provides configurable safeguards for generative AI applications on any foundation model through the ApplyGuardrail API.&lt;/p&gt;\n&lt;p&gt;Until now, contextual grounding checks applied strict grounding suited to summarization, paraphrasing, and question answering. With the Standard tier, you can also apply contextual grounding checks to conversational applications and to responses that reason over the source. You choose the tier for each guardrail in the Amazon Bedrock console or API. Existing guardrails keep the Classic tier until you change them. Pricing is the same for both tiers. To use the Standard tier, your guardrail must use cross-Region inference with a guardrail profile.&lt;/p&gt;\n&lt;p&gt;The Standard tier for contextual grounding checks is available in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (N. California), US West (Oregon), Europe (Frankfurt), Europe (Ireland), Europe (Milan), Europe (Paris), Europe (Spain), Europe (Stockholm), and Asia Pacific (Tokyo). To learn more, see the Amazon Bedrock Guardrails documentation on &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-contextual-grounding-check.html\"&gt;contextual grounding checks&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-tiers.html\"&gt;safeguard tiers&lt;/a&gt;, or visit the &lt;a href=\"https://aws.amazon.com/bedrock/guardrails\"&gt;Amazon Bedrock Guardrails product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
-      "publishedAt": "2026-10-20T08:00:00.000Z",
-      "updatedAt": "2026-10-20T08:00:00.000Z",
-      "categories": [
-        "Amazon Bedrock",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "amazon bedrock",
-        "artificial intelligence",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "11f3a0e23abd07c4",
-      "title": "EC2 Image Builder now integrates with ASG for faster image builds",
-      "description": "EC2 Image Builder now supports using existing instances from an Auto Scaling Group (ASG) for building images, enabling faster builds by eliminating the time spent in launching and bootstrapping new instances and reusing already running EC2 instances. With this feature, you can provide an ASG in your Image Builder infrastructure configuration. Instead of launching a new instance at the build time, Image Builder selects an already-running instance from this ASG, applies your build components, and creates the image. The ASG continuously replenishes the pool as instances are used for builds, ensur",
-      "descriptionHtml": "&lt;p&gt;EC2 Image Builder now supports using existing instances from an Auto Scaling Group (ASG) for building images, enabling faster builds by eliminating the time spent in launching and bootstrapping new instances and reusing already running EC2 instances.&lt;/p&gt; \n&lt;p&gt;With this feature, you can provide an ASG in your Image Builder infrastructure configuration. Instead of launching a new instance at the build time, Image Builder selects an already-running instance from this ASG, applies your build components, and creates the image. The ASG continuously replenishes the pool as instances are used for builds, ensuring instances are always available for subsequent pipeline runs.&lt;/p&gt; \n&lt;p&gt;This feature is fully opt-in and does not affect existing pipelines. Pipelines without an ASG configured continue to use the default launch path with no behavior change.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions at no additional cost. To configure ASG integration in your Image Builder pipelines, see the &lt;a href=\"https://docs.aws.amazon.com/imagebuilder/latest/userguide/infra-config-parent-instance.html\"&gt;EC2 Image Builder documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-image-builder-asg-faster-builds/",
-      "publishedAt": "2026-10-19T17:30:00.000Z",
-      "updatedAt": "2026-10-19T17:30:00.000Z",
-      "categories": [
-        "Amazon Ec2 Auto Scaling",
-        "Amazon Ec2",
-        "Compute",
-        "AWS Govcloud Us"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "amazon ec2 auto scaling",
-        "amazon ec2",
-        "compute",
-        "aws govcloud us",
-        "ec2"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "17c27779ad2e56c5",
-      "title": "Amazon RDS for SQL Server now supports snapshots on read replicas",
-      "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports creating DB snapshots directly on read replica instances. Previously, you could create snapshots only on standalone and primary DB instances. You can now snapshot a read replica without promoting it first, giving you more flexibility in your backup and disaster recovery (DR) workflows. Previously, enabling Multi-AZ on a promoted read replica meant waiting for an initial full snapshot to finish before the conversion could begin. On larger storage configurations—such as io2 volumes up to 64 TiB—that first snapshot could ",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/sqlserver/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Relational Database Service (Amazon RDS) for SQL Server&lt;/a&gt; now supports creating DB snapshots directly on read replica instances. Previously, you could create snapshots only on standalone and primary DB instances. You can now snapshot a read replica without promoting it first, giving you more flexibility in your backup and disaster recovery (DR) workflows.&lt;/p&gt; \n&lt;p&gt;Previously, enabling Multi-AZ on a promoted read replica meant waiting for an initial full snapshot to finish before the conversion could begin. On larger storage configurations—such as io2 volumes up to 64 TiB—that first snapshot could take a long time, making DR timelines hard to predict. Now, Amazon RDS for SQL Server maintains snapshot data on the read replica throughout its lifecycle, so the first snapshot after promotion completes faster. This shortens the time to enable Multi-AZ and helps you plan DR exercises with more predictable recovery timelines. You can take manual snapshots of a read replica, turn on automated backups by setting a backup retention period greater than zero, and retain automated backups when you delete the replica; however, point-in-time recovery (PITR) from a read replica isn't supported.&lt;/p&gt; \n&lt;p&gt;This feature works for both in-region and cross-region read replicas. It's available for SQL Server Enterprise Edition on all SQL Server versions that support read replicas, in all AWS Regions where Amazon RDS for SQL Server read replicas are available, including the AWS GovCloud (US) Regions.&lt;/p&gt; \n&lt;p&gt;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/SQLServer.ReadReplicas.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Working with read replicas for Microsoft SQL Server&lt;/a&gt;. For pricing details, see &lt;a href=\"https://aws.amazon.com/rds/sqlserver/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for SQL Server Pricing&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/rds-sqlserver-supports-snapshots-on-read-replicas",
-      "publishedAt": "2026-10-19T07:01:00.000Z",
-      "updatedAt": "2026-10-19T07:01:00.000Z",
-      "categories": [
-        "Databases",
-        "Amazon Rds For Sql Server",
-        "AWS Govcloud Us"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "databases",
-        "amazon rds for sql server",
-        "aws govcloud us",
-        "rds"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "755bcc9a933a9514",
-      "title": "AWS Transform announces Azure-to-AWS cloud-native code conversion",
-      "description": "Today, AWS announced the general availability of application code conversion from Azure SDK to AWS SDK in AWS Transform, giving you an accelerated path to migrate Microsoft Azure cloud-native .NET applications to AWS. The AWS Transform .NET modernization agent identifies Azure service code and converts it to equivalent AWS service code. For example, an Azure Functions serverless function that uses Azure Cosmos DB can be converted to an AWS Lambda function that uses Amazon DynamoDB. AWS Transform discovers the Azure SDK in your submitted source code and presents the conversion options in the as",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announced the general availability of application code conversion from Azure SDK to AWS SDK in AWS Transform, giving you an accelerated path to migrate Microsoft Azure cloud-native .NET applications to AWS. The AWS Transform .NET modernization agent identifies Azure service code and converts it to equivalent AWS service code. For example, an Azure Functions serverless function that uses Azure Cosmos DB can be converted to an AWS Lambda function that uses Amazon DynamoDB.&lt;/p&gt; \n&lt;p&gt;AWS Transform discovers the Azure SDK in your submitted source code and presents the conversion options in the assessment report and modernization plan. You can accept the options provided or adjust them based on your preferences before running the modernization. AWS Transform then converts the identified Azure service code to the equivalent AWS SDK calls, and validates that the changes are incorporated into the transformed code. The feature supports conversion of Azure Functions to AWS Lambda functions, Azure Blob Storage to Amazon S3, and Azure Queue Storage to Amazon SQS, with Azure Cosmos DB to Amazon DynamoDB conversion available in preview.&lt;/p&gt; \n&lt;p&gt;AWS Transform is available in eight AWS Regions: US East (N. Virginia), Asia Pacific (Mumbai, Tokyo, Seoul, Sydney), Canada (Central), and Europe (Frankfurt, London).&lt;/p&gt; \n&lt;p&gt;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/dotnet-azure-to-aws.html\"&gt;Convert cloud-native code to AWS&lt;/a&gt; in the AWS Transform User Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-azure-to-aws-code-conversion/",
-      "publishedAt": "2026-10-16T13:50:00.000Z",
-      "updatedAt": "2026-10-16T13:50:00.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "migrate"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "2d3813cd947b216b",
-      "title": "Second-generation AWS Outposts racks now supported in the AWS Mexico (Central) Region",
-      "description": "Second-generation AWS Outposts racks are now supported in the AWS Mexico (Central) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid experience. Organizations of every size, from startups to enterprises to public sector agencies, can now order Outposts racks connected to this newly supported Region to optimize for latency and data residency needs. This regional expansion provides additional flexibility in the number of AWS Regions that customers’ Outposts can connect to. To ",
-      "descriptionHtml": "&lt;p&gt;Second-generation AWS Outposts racks are now supported in the AWS Mexico (Central) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid experience.&amp;nbsp;&lt;br&gt; &amp;nbsp;&lt;br&gt; Organizations of every size, from startups to enterprises to public sector agencies, can now order Outposts racks connected to this newly supported Region to optimize for latency and data residency needs. This regional expansion provides additional flexibility in the number of AWS Regions that customers’ Outposts can connect to.&lt;/p&gt; \n&lt;p&gt;To learn more about second-generation Outposts racks, read the&amp;nbsp;&lt;a href=\"https://aws.amazon.com/blogs/aws/announcing-second-generation-aws-outposts-racks-with-breakthrough-performance-and-scalability-on-premises/\" style=\"background-color: rgb(255,255,255);\"&gt;blog post&lt;/a&gt; and the&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/outposts/latest/network-userguide/what-is-outposts.html\" style=\"background-color: rgb(255,255,255);\"&gt;user guide&lt;/a&gt;. For the latest list of countries and territories and the AWS Regions where second-generation Outposts racks are supported, see the &lt;a href=\"https://aws.amazon.com/outposts/rack/faqs/\" style=\"background-color: rgb(255,255,255);\"&gt;Outposts rack FAQs page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-outposts-racks-mexico-central/",
-      "publishedAt": "2026-10-16T08:00:00.000Z",
-      "updatedAt": "2026-10-16T08:00:00.000Z",
-      "categories": [
-        "Networking And Content Delivery",
-        "Storage",
-        "Compute",
-        "AWS Outposts"
-      ],
-      "services": [
-        "Outposts"
-      ],
-      "tags": [
-        "networking and content delivery",
-        "storage",
-        "compute",
-        "aws outposts",
-        "outposts"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Organizations"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "ef7e820962cbd53c",
-      "title": "AWS Transform for migrations is now available in Asia Pacific (Singapore)",
-      "description": "AWS Transform for migrations is now available in the Asia Pacific (Singapore) Region, giving customers data residency within the region and lower latency to local source infrastructure as they migrate. AWS Transform is a collaborative enterprise IT transformation service powered by agentic AI that accelerates cloud migration, application modernization, and continuous tech debt reduction. With AWS Transform for migrations, enterprise IT teams can automate the entire migration lifecycle, from discovery and wave planning through network conversion and launching test and cutover instances, using p",
-      "descriptionHtml": "&lt;p&gt;AWS Transform for migrations is now available in the Asia Pacific (Singapore) Region, giving customers data residency within the region and lower latency to local source infrastructure as they migrate. &lt;a href=\"https://aws.amazon.com/transform/\"&gt;AWS Transform&lt;/a&gt; is a collaborative enterprise IT transformation service powered by agentic AI that accelerates cloud migration, application modernization, and continuous tech debt reduction.&lt;br&gt; &lt;br&gt; With AWS Transform for migrations, enterprise IT teams can automate the entire migration lifecycle, from discovery and wave planning through network conversion and launching test and cutover instances, using purpose-built AI agents. The service supports infrastructure migration for workloads from virtually any source, including VMware, Hyper-V, KVM, bare metal, and hybrid environments, unifying teams, tools, and workflows in a single collaborative workbench.&lt;br&gt; &lt;br&gt; To get started, see the AWS Transform &lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/\"&gt;documentation&lt;/a&gt; or visit the AWS Transform &lt;a href=\"https://aws.amazon.com/transform/\"&gt;product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-singapore",
-      "publishedAt": "2026-10-15T19:24:00.000Z",
-      "updatedAt": "2026-10-15T19:24:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Migration"
-      ],
-      "services": [],
-      "tags": [
-        "artificial intelligence",
-        "migration"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "migrate"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "e1b28050eeeafcbb",
-      "title": "Amazon Managed Service for Prometheus Collector now available in Asia Pacific (New Zealand) Region",
-      "description": "Amazon Managed Service for Prometheus collector, a fully-managed agentless collector for Prometheus metrics, is now available in Asia Pacific (New Zealand). Customers in New Zealand can now run their Prometheus-compatible monitoring workloads in-region, with lower latency for local workloads and the ability to keep their data in-country. Amazon Managed Service for Prometheus collector discovers and collects Prometheus metrics from your container workloads without the need to run and operate collection agents yourself. Customers ingest the collected metrics into an Amazon Managed Service for Pr",
-      "descriptionHtml": "&lt;p&gt;Amazon Managed Service for Prometheus collector, a fully-managed agentless collector for Prometheus metrics, is now available in Asia Pacific (New Zealand). Customers in New Zealand can now run their Prometheus-compatible monitoring workloads in-region, with lower latency for local workloads and the ability to keep their data in-country.&lt;/p&gt;\n&lt;p&gt;Amazon Managed Service for Prometheus collector discovers and collects Prometheus metrics from your container workloads without the need to run and operate collection agents yourself. Customers ingest the collected metrics into an Amazon Managed Service for Prometheus workspace, where they query and analyze the metrics. This fully-managed approach simplifies operational overhead by eliminating the need to maintain and scale collection infrastructure.&lt;/p&gt;\n&lt;p&gt;To learn more about Amazon Managed Service for Prometheus collector, visit the &lt;a href=\"https://docs.aws.amazon.com/prometheus/latest/userguide/AMP-collector.html\"&gt;user guide&lt;/a&gt; or &lt;a href=\"https://aws.amazon.com/prometheus\"&gt;product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ams-prometheus-collector-apac-nz/",
-      "publishedAt": "2026-10-15T08:00:00.000Z",
-      "updatedAt": "2026-10-15T08:00:00.000Z",
-      "categories": [
-        "Management And Governance"
-      ],
-      "services": [],
-      "tags": [
-        "management and governance"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "monitoring"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "b2cfe0b4d5207411",
-      "title": "ARC Region switch adds four new capabilities",
-      "description": "Amazon Application Recovery Controller (ARC) Region switch helps you orchestrate the failover of multi-Region applications to achieve a bounded recovery time during a Regional impairment. Today, Region switch adds four new capabilities: AWS Systems Manager Run Command execution block, payloads for custom action Lambda execution block, service quota parity checks, and wait for target group health feature for compute scaling actions. AWS Systems Manager Run Command execution block. During failover, you often need to run commands on managed instances and VMs. This execution block lets you invoke ",
-      "descriptionHtml": "&lt;p&gt;Amazon Application Recovery Controller (ARC) Region switch helps you orchestrate the failover of multi-Region applications to achieve a bounded recovery time during a Regional impairment. Today, Region switch adds four new capabilities: AWS Systems Manager Run Command execution block, payloads for custom action Lambda execution block, service quota parity checks, and wait for target group health feature for compute scaling actions.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;AWS Systems Manager Run Command execution block.&lt;/b&gt; During failover, you often need to run commands on managed instances and VMs. This execution block lets you invoke Run Command actions on managed instances during failover, with plan evaluation verifying that command documents target valid instances and that IAM permissions are correctly configured.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Payloads for custom action Lambda execution block.&lt;/b&gt; ARC Region switch now lets you pass payloads to your custom action Lambda execution block, allowing reusability of your Lambda functions across recovery plans.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Service quota checks.&lt;/b&gt; Service quota limits are a common failure mode during recovery. Region switch now verifies quota parity between your primary and standby Region, and automatically submits quota limit increases, reducing the risk of insufficient service quotas during recovery.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Wait for target group health.&lt;/b&gt; Amazon ECS service scaling and Amazon EC2 Auto Scaling group execution blocks help you provision compute capacity during recovery, but provisioned capacity may not be ready to serve traffic. The optional wait for target group health feature verifies that your provisioned capacity is ready to serve traffic.&lt;/p&gt; \n&lt;p&gt;To get started, see the documentation for &lt;a href=\"https://docs.aws.amazon.com/r53recovery/latest/dg/ssm-send-command-block.html\"&gt;AWS Systems Manager Run Command execution block&amp;nbsp;&lt;/a&gt;,&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/r53recovery/latest/dg/custom-action-lambda-block.html\"&gt;custom action Lambda execution block&amp;nbsp;&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/r53recovery/latest/dg/working-with-rs-service-quota-checks.html\"&gt;Service quota checks&amp;nbsp;&lt;/a&gt; and the Wait for target group health for &lt;a href=\"https://docs.aws.amazon.com/r53recovery/latest/dg/ecs-service-scaling-block.html\"&gt;Amazon ECS service scaling execution block&amp;nbsp;&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/r53recovery/latest/dg/ec2-auto-scaling-block.html\"&gt;Amazon EC2 Auto Scaling group execution block&amp;nbsp;&lt;/a&gt;.&amp;nbsp;&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/region-switch-target-health-ssm-lambda/",
-      "publishedAt": "2026-10-14T17:38:00.000Z",
-      "updatedAt": "2026-10-14T17:38:00.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Systems Manager"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "ea07bc9e1fc479af",
-      "title": "AWS Agent Registry now supports custom metadata for registry records",
-      "description": "AWS Agent Registry is the centralized, governed catalog for agents, MCP servers, agent skills, gateways, and custom resources within your organization. As organizations scale to hundreds of such resources, a name and description alone are insufficient for effective governance and discovery. Custom metadata lets you extend every registry record with your organization's own structured fields, so both people and automated systems can find and govern resources consistently. With custom metadata, publishers can record fields like team ownership, data classification, or review status directly on eac",
-      "descriptionHtml": "&lt;p&gt;AWS Agent Registry is the centralized, governed catalog for agents, MCP servers, agent skills, gateways, and custom resources within your organization. As organizations scale to hundreds of such resources, a name and description alone are insufficient for effective governance and discovery. Custom metadata lets you extend every registry record with your organization's own structured fields, so both people and automated systems can find and govern resources consistently.&lt;br&gt; &lt;br&gt; With custom metadata, publishers can record fields like team ownership, data classification, or review status directly on each registry record. You define a schema once per registry with common attributes, then extend it with type-specific fields — such as a model family for agent records. Each field supports free text, a URL, a Boolean, or a choice from a list of allowed values, and the registry validates required fields and values on every record creation or update. You can then filter search results on any custom metadata field from the AWS Management Console, the AWS CLI, the AWS SDKs, or the registry's MCP endpoint.&lt;br&gt; &lt;br&gt; Custom metadata is available in all AWS Regions where AWS Agent Registry is available: US East (N. Virginia), US West (Oregon), Asia Pacific (Sydney), Asia Pacific (Tokyo), and Europe (Ireland).&lt;br&gt; &lt;br&gt; To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/registry.html\"&gt;AWS Agent Registry documentation&lt;/a&gt;. For detailed setup guidance, see &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/registry-custom-metadata-schema.html\"&gt;Define a custom metadata schema&lt;/a&gt; and&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/registry-custom-metadata-values.html\"&gt;Set custom metadata values on a record&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-agent-registry-custom-metadata-registry-records",
-      "publishedAt": "2026-10-13T21:00:00.000Z",
-      "updatedAt": "2026-10-13T21:00:00.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Organizations"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "1f076240946adff9",
-      "title": "Amazon DCV releases version 2026.0 with RHEL 10 support and new clients",
-      "description": "Amazon DCV 2026.0 is now available, adding support for RHEL 10, Rocky Linux 10, CentOS 10, and Ubuntu 26.04 along with a new macOS client and updated Windows and Linux clients. Amazon DCV is a high-performance remote display protocol that enables customers to securely access remote desktops and application sessions across Windows, Linux, and macOS. Amazon DCV 2026.0 includes the following key features and improvements: Support for RHEL 10, Rocky Linux 10, CentOS 10, and Ubuntu 26.04, with Linux hosts and sessions running on the modern Wayland display server A new macOS client with gamepad supp",
-      "descriptionHtml": "&lt;p&gt;Amazon DCV 2026.0 is now available, adding support for RHEL 10, Rocky Linux 10, CentOS 10, and Ubuntu 26.04 along with a new macOS client and updated Windows and Linux clients. Amazon DCV is a high-performance remote display protocol that enables customers to securely access remote desktops and application sessions across Windows, Linux, and macOS.&lt;/p&gt; \n&lt;p&gt;Amazon DCV 2026.0 includes the following key features and improvements:&lt;/p&gt; \n&lt;ul&gt; \n &lt;li&gt;&lt;p&gt;Support for RHEL 10, Rocky Linux 10, CentOS 10, and Ubuntu 26.04, with Linux hosts and sessions running on the modern Wayland display server&lt;/p&gt; &lt;/li&gt; \n &lt;li&gt;&lt;p&gt;A new macOS client with gamepad support, and updated Windows and Linux clients&lt;/p&gt; &lt;/li&gt; \n &lt;li&gt;&lt;p&gt;URL redirection on Windows hosts, so configured links opened in a remote session launch in the local browser on the client device&lt;/p&gt; &lt;/li&gt; \n &lt;li&gt;&lt;p&gt;Printer preferences redirection on Windows, giving remote sessions access to client-side printer settings&lt;/p&gt; &lt;/li&gt; \n &lt;li&gt;&lt;p&gt;Performance improvements, including H.264 frame slice support and slice-based multithreaded decoding on the Linux and macOS clients for lower latency&lt;/p&gt; &lt;/li&gt; \n &lt;li&gt;&lt;p&gt;Support for new macOS server versions on Amazon EC2&lt;/p&gt; &lt;/li&gt; \n&lt;/ul&gt; \n&lt;p&gt;For more information about the new features and enhancements in Amazon DCV 2026.0, see the &lt;a href=\"https://docs.aws.amazon.com/dcv/latest/adminguide/doc-history-release-notes.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;release notes&lt;/a&gt; or visit the &lt;a href=\"https://aws.amazon.com/hpc/dcv/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon DCV webpage&lt;/a&gt; to learn more and get started.&lt;/p&gt; \n&lt;h2&gt;&amp;nbsp;&lt;/h2&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dcv-2026-0/",
-      "publishedAt": "2026-10-13T19:35:00.000Z",
-      "updatedAt": "2026-10-13T19:35:00.000Z",
-      "categories": [
-        "Marketing:Marchitecture"
-      ],
-      "services": [],
-      "tags": [
-        "marketing:marchitecture"
       ],
       "isNew": false,
       "securityScore": 10,
