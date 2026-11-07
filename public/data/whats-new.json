@@ -1,7 +1,51 @@
 {
-  "lastUpdated": "2026-11-06T15:44:01.376Z",
+  "lastUpdated": "2026-11-07T14:43:49.157Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "2bc104a8bd9ecaab",
+      "title": "Addressing protocol security gaps in multi-tenant Kubernetes",
+      "description": "Protocols like Android Debug Bridge (ADB) and Web Real-Time Communication (WebRTC), by default, use unencrypted channels for network communications and don’t support enterprise authentication mechanisms like JSON Web Tokens (JWTs). In a multi-tenant Kubernetes cluster—including Amazon Elastic Kubernetes Service (Amazon EKS)—pods can reach other tenants’ open ports by default unless you configure network policies to […]",
+      "descriptionHtml": "Protocols like Android Debug Bridge (ADB) and Web Real-Time Communication (WebRTC), by default, use unencrypted channels for network communications and don’t support enterprise authentication mechanisms like JSON Web Tokens (JWTs). In a multi-tenant Kubernetes cluster—including Amazon Elastic Kubernetes Service (Amazon EKS)—pods can reach other tenants’ open ports by default unless you configure network policies to […]",
+      "url": "https://aws.amazon.com/blogs/security/addressing-protocol-security-gaps-in-multi-tenant-kubernetes/",
+      "publishedAt": "2026-11-06T21:08:50.000Z",
+      "updatedAt": "2026-11-06T21:08:50.000Z",
+      "categories": [
+        "Amazon Elastic Kubernetes Service",
+        "Intermediate (200)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Amazon EKS",
+        "Security Blog"
+      ],
+      "services": [
+        "EKS"
+      ],
+      "tags": [
+        "amazon elastic kubernetes service",
+        "intermediate (200)",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "amazon eks",
+        "security blog",
+        "eks"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "encrypt",
+        "authentication",
+        "security",
+        "Config",
+        "token"
+      ],
+      "source": "security-blog"
+    },
     {
       "id": "f5f83e103db1afbd",
       "title": "Introducing AWS account access manager: IAM role flexibility with centralized workforce access",
@@ -68,7 +112,7 @@
         "analytics",
         "msk"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -3706,6 +3750,50 @@
       "source": "security-blog"
     },
     {
+      "id": "702f8f42d6bfa93b",
+      "title": "AWS Glue Data Catalog now supports catalog-vended credentials with Apache Iceberg REST catalog federation",
+      "description": "AWS Glue Data Catalog now supports external catalog's vended credentials in Apache Iceberg REST catalog federation. You can now read external Iceberg tables from Amazon Athena, Amazon EMR, Amazon Redshift, and AWS Glue using coarse-grained table grants in your external Iceberg catalog. Glue Data Catalog already federates to external Iceberg REST catalogs through an AWS IAM role that you configure with access to your Amazon S3 buckets. This enhancement in Glue Data Catalog provides another way to connect to an external Iceberg catalog and read only the tables that the external catalog authorize",
+      "descriptionHtml": "&lt;p&gt;AWS Glue Data Catalog now supports external catalog's vended credentials in Apache Iceberg REST catalog federation. You can now read external Iceberg tables from Amazon Athena, Amazon EMR, Amazon Redshift, and AWS Glue using coarse-grained table grants in your external Iceberg catalog.&lt;/p&gt; \n&lt;p&gt;Glue Data Catalog already federates to external Iceberg REST catalogs through an AWS IAM role that you configure with access to your Amazon S3 buckets. This enhancement in Glue Data Catalog provides another way to connect to an external Iceberg catalog and read only the tables that the external catalog authorizes. It uses temporary security credentials that are scoped to the Amazon S3 storage prefix and vended by your external Iceberg catalog. AWS Lake Formation manages access control when you query an external table using any AWS analytics engine, letting you restrict access further down to specific rows and columns and share external Iceberg tables across AWS accounts.&lt;/p&gt; \n&lt;p&gt;This feature is available through the AWS Lake Formation Management Console, AWS CLI, and the AWS Glue and Lake Formation SDKs. This feature is available in all commercial AWS Regions where Glue and Lake Formation are supported. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/lake-formation/latest/dg/catalog-federation.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-catalog-vended-credentials-iceberg/",
+      "publishedAt": "2026-11-06T08:00:00.000Z",
+      "updatedAt": "2026-11-06T08:00:00.000Z",
+      "categories": [
+        "AWS Glue",
+        "Analytics",
+        "Amazon Emr",
+        "AWS Lake Formation",
+        "Amazon Athena"
+      ],
+      "services": [
+        "Athena",
+        "EMR",
+        "Glue"
+      ],
+      "tags": [
+        "aws glue",
+        "analytics",
+        "amazon emr",
+        "aws lake formation",
+        "amazon athena",
+        "athena",
+        "emr",
+        "glue"
+      ],
+      "isNew": true,
+      "securityScore": 65,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "Config",
+        "role",
+        "access",
+        "S3",
+        "Bucket",
+        "credential"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "ca919141e797b7e6",
       "title": "EC2 Amazon Machine Images can now be scanned for vulnerabilities through Amazon Inspector",
       "description": "Amazon Inspector now extends its vulnerability scanning to EC2 Amazon Machine Images (AMIs), enabling you to identify software vulnerabilities in your AMIs without launching instances or installing additional software. This helps you fix issues at the source before AMIs are used to launch instances across your fleet. With this capability, you can run continuous evaluations to monitor your AMI catalog for newly discovered vulnerabilities, or perform targeted one-time scans for specific AMIs directly from the EC2 Console. You can enable AMI scanning for an account or across your entire organizat",
@@ -4101,7 +4189,7 @@
         "aws govcloud us",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 60,
       "securityLevel": "critical",
       "securityMatches": [
@@ -5464,6 +5552,30 @@
       "source": "security-blog"
     },
     {
+      "id": "cbddaac0bdf77b01",
+      "title": "CVE-2026-122193 - Issue with Trusted Remote Execution Setup Guide - OS command injection in the example SSM documents in Trusted Remote Execution (REX)",
+      "description": "Bulletin ID: 2026-173-AWS Publication Date: 11/06/2026 09:00 AM PST Description: We identified CVE-2026-122193, an OS command injection issue in an example provided in the set-up documentation. The example included a script that creates AWS Systems Manager (SSM) documents (Rex-RO and Rex-RW) for running scripts on managed instances. Due to how the example script handled input parameters, a user with permissions to invoke the SSM document could supply crafted input that would run unintended operating system commands on the managed instance, outside of the REX sandbox. The scriptArgs parameter i",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-173-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/06/2026 09:00 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-122193, an OS command injection issue in an example provided in the set-up documentation. The example included a script that creates AWS Systems Manager (SSM) documents (Rex-RO and Rex-RW) for running scripts on managed instances. Due to how the example script handled input parameters, a user with permissions to invoke the SSM document could supply crafted input that would run unintended operating system commands on the managed instance, outside of the REX sandbox. The scriptArgs parameter is affected by the same class of issue.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;This is not an issue in a shipped REX artifact version.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Refer to the article below for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-173-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-173-aws/",
+      "publishedAt": "2026-11-06T17:19:55.000Z",
+      "updatedAt": "2026-11-06T17:19:55.000Z",
+      "categories": [],
+      "services": [
+        "SSM"
+      ],
+      "tags": [
+        "ssm"
+      ],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Systems Manager",
+        "permission"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "4933e4615bcbfb2a",
       "title": "Amazon Cognito announces 99.99% Service Level Agreement for the Plus feature plan",
       "description": "Starting November 1, 2026, the Amazon Cognito Service Level Agreement (SLA) commits to a Monthly Uptime Percentage of 99.99% for user pools on the Plus feature plan, up from 99.9%. User pools already on Plus are automatically covered by the new Service Commitment. User pools on Essentials and Lite stay at the 99.9% Service Commitment with no change to their terms. To qualify for the 99.99% Service Commitment, you can switch a user pool to the Plus feature plan using the AWS Management Console, AWS Command Line Interface (CLI), or AWS Software Development Kits (SDKs). The Plus feature plan also",
@@ -5580,7 +5692,7 @@
         "cloudfront",
         "waf"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 50,
       "securityLevel": "critical",
       "securityMatches": [
@@ -6019,30 +6131,6 @@
       "securityLevel": "medium",
       "securityMatches": [],
       "source": "security-blog"
-    },
-    {
-      "id": "d6b5331f86a7af0f",
-      "title": "CVE-2026-119117 - Insertion of sensitive information into a log file and process argument list in the Amazon Kinesis Producer Library for Java",
-      "description": "Bulletin ID: 2026-159-AWS Publication Date: 10/30/2026 11:00 AM PDT Description: We published CVE-2026-119117. Insertion of sensitive information into a log file in Amazon Kinesis Producer Library for Java before 1.0.8, when the library's logger is configured at DEBUG log level, might allow local users to obtain the AWS credentials that the library resolved for the application. Separately, affected versions of the library pass these credentials to the native child process as command-line arguments, where a local user can read them from the process argument list. Impacted versions: - com.amazon",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-159-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/30/2026 11:00 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We published CVE-2026-119117. Insertion of sensitive information into a log file in Amazon Kinesis Producer Library for Java before 1.0.8, when the library's logger is configured at DEBUG log level, might allow local users to obtain the AWS credentials that the library resolved for the application. Separately, affected versions of the library pass these credentials to the native child process as command-line arguments, where a local user can read them from the process argument list.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;br&gt; - com.amazonaws:amazon-kinesis-producer &amp;lt;= 0.15.12&lt;br&gt; - oftware.amazon.kinesis:amazon-kinesis-producer &amp;lt; 1.0.8&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-159-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-159-aws/",
-      "publishedAt": "2026-10-30T18:18:40.000Z",
-      "updatedAt": "2026-10-30T18:18:40.000Z",
-      "categories": [],
-      "services": [
-        "Kinesis"
-      ],
-      "tags": [
-        "kinesis"
-      ],
-      "isNew": true,
-      "securityScore": 45,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "credential"
-      ],
-      "source": "security-bulletin"
     },
     {
       "id": "2ab79bd8f3e60c2e",
@@ -8324,6 +8412,27 @@
       "source": "whats-new"
     },
     {
+      "id": "7f2b199c1b1ed511",
+      "title": "CVE-2026-119923 and CVE-2026-119924: Issues with Babelfish for Aurora PostgreSQL",
+      "description": "Bulletin ID: 2026-166-AWS Publication Date: 11/06/2026 10:00 AM PST Description: We identified two issues in the Babelfish TDS protocol layer: - CVE-2026-119923: A memory-safety issue in the TDS connection-handshake handling could allow a remote, unauthenticated actor to affect the database process. - CVE-2026-119924: A memory-safety issue in the TDS remote-procedure-call request handling could allow a remote, authenticated actor to read adjacent process memory or cause a denial of service. Refer to the article below for the most up-to-date and complete information. Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-166-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/06/2026 10:00 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We identified two issues in the Babelfish TDS protocol layer:&lt;br&gt; - CVE-2026-119923: A memory-safety issue in the TDS connection-handshake handling could allow a remote, unauthenticated actor to affect the database process.&lt;br&gt; - CVE-2026-119924: A memory-safety issue in the TDS remote-procedure-call request handling could allow a remote, authenticated actor to read adjacent process memory or cause a denial of service.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Refer to the article below for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-166-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-166-aws/",
+      "publishedAt": "2026-11-06T18:46:27.000Z",
+      "updatedAt": "2026-11-06T18:46:27.000Z",
+      "categories": [],
+      "services": [
+        "Aurora"
+      ],
+      "tags": [
+        "aurora"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
       "id": "5641486f1d7c0aa6",
       "title": "CVE-2026-119083 - GluonTS arbitrary file write during archive extraction",
       "description": "Bulletin ID: 2026-171-AWS Publication Date: 11/05/2026 08:30 AM PST Description: GluonTS is an open-source Python library for probabilistic time series modeling. We identified CVE-2026-119083, an issue in the archive extraction utility in GluonTS before 0.17.0. An actor who supplies a crafted tar archive containing symbolic or hard links might be able to write arbitrary files outside the intended extraction directory with the privileges of the extracting process. Impacted versions: Refer to the article below for the most up-to-date and complete information. Read this article",
@@ -8458,15 +8567,36 @@
     {
       "id": "794651888b4eeda3",
       "title": "CVE-2026-98432 - Linux kernel IPv4 TCP use-after-free Issue",
-      "description": "Bulletin ID: 2026-160-AWS Publication Date: 10/30/2026 22:15 PM PDT Description: AWS is aware of CVE-2026-98432, a memory issue in the Linux kernel IPv4 TCP handshake path affecting kernel versions 4.4 and later that could result in remote code execution. Updated kernel packages are available for Amazon Linux 2 and Amazon Linux 2023, and we recommend customers running self-managed Linux instances update and reboot. AWS is applying updates to managed services and no customer action is required for those services. For full details and per-service guidance, see the complete bulletin at https://aw",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-160-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/30/2026 22:15 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS is aware of CVE-2026-98432, a memory issue in the Linux kernel IPv4 TCP handshake path affecting kernel versions 4.4 and later that could result in remote code execution. Updated kernel packages are available for Amazon Linux 2 and Amazon Linux 2023, and we recommend customers running self-managed Linux instances update and reboot. AWS is applying updates to managed services and no customer action is required for those services. For full details and per-service guidance, see the complete bulletin at &lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-160-aws/\"&gt;https://aws.amazon.com/security/security-bulletins/2026-160-aws/&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-160-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-160-aws/",
-      "publishedAt": "2026-10-31T05:21:05.000Z",
-      "updatedAt": "2026-10-31T05:21:05.000Z",
+      "publishedAt": "2026-10-31T05:21:49.000Z",
+      "updatedAt": "2026-10-31T05:21:49.000Z",
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "d6b5331f86a7af0f",
+      "title": "CVE-2026-119117 - Insertion of sensitive information into a log file and process argument list in the Amazon Kinesis Producer Library for Java",
+      "description": "Read this article",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-159-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-159-aws/",
+      "publishedAt": "2026-10-30T18:18:40.000Z",
+      "updatedAt": "2026-10-30T18:18:40.000Z",
+      "categories": [],
+      "services": [
+        "Kinesis"
+      ],
+      "tags": [
+        "kinesis"
+      ],
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -8483,7 +8613,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -8500,7 +8630,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -11185,6 +11315,35 @@
       "source": "whats-new"
     },
     {
+      "id": "9579730c1ffa66dd",
+      "title": "Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
+      "description": "Today, Kimi K3.1 Pro from Moonshot AI is available on Amazon Bedrock, expanding our open weight model portfolio with the security and governance that customers rely on. Customers using Amazon Bedrock can now run agentic use cases such as coding and document processing on Kimi K3.1 Pro (Highspeed), which delivers high output tokens per second (OTPS) for faster, more responsive results. According to Moonshot AI, Kimi K3.1 Pro is an open-weight, natively multimodal agentic model with a 1-million-token context window, and its most capable 3-trillion-parameter-class model to date. Moonshot AI repor",
+      "descriptionHtml": "&lt;p&gt;Today, Kimi K3.1 Pro from Moonshot AI is available on Amazon Bedrock, expanding our open weight model portfolio with the security and governance that customers rely on. Customers using Amazon Bedrock can now run agentic use cases such as coding and document processing on Kimi K3.1 Pro (Highspeed), which delivers high output tokens per second (OTPS) for faster, more responsive results.&lt;/p&gt; \n&lt;p&gt;According to Moonshot AI, Kimi K3.1 Pro is an open-weight, natively multimodal agentic model with a 1-million-token context window, and its most capable 3-trillion-parameter-class model to date. Moonshot AI reports improvements in coding, 3D creation, financial research, and other agentic work. On Amazon Bedrock, it runs within the same security boundary as proprietary models and supports &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html\"&gt;explicit prompt caching&lt;/a&gt; to reduce latency and input costs.&lt;/p&gt; \n&lt;p&gt;Kimi K3.1 Pro is available in all &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html\"&gt;AWS Regions&lt;/a&gt; where Amazon Bedrock is available through cross-Region inference. To get started, visit the &lt;a href=\"https://console.aws.amazon.com/bedrock/\"&gt;Amazon Bedrock console&lt;/a&gt;. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3-1-highspeed.html\"&gt;Amazon Bedrock documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock",
+      "publishedAt": "2026-11-06T22:47:00.000Z",
+      "updatedAt": "2026-11-06T22:47:00.000Z",
+      "categories": [
+        "Amazon Bedrock",
+        "Artificial Intelligence"
+      ],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "amazon bedrock",
+        "artificial intelligence",
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 20,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "security",
+        "token"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "9d4b54033d209b2b",
       "title": "AWS Systems Manager Parameter Store now allows organization and validation with built-in data types",
       "description": "AWS Systems Manager Parameter Store now supports 13 new parameter data types that automatically validate parameter values when you create or update a parameter. With built-in validation, you can stop malformed configuration values, such as an invalid IP address, AWS account ID, or JSON document, before your applications read them, without writing your own validation logic. These types allow you to better organize your parameters across your workloads. You can filter by type when calling the DescribeParameters API or when browsing parameters in the Parameter Store console. The following data ty",
@@ -11274,7 +11433,7 @@
       "tags": [
         "aws govcloud us"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -11303,7 +11462,7 @@
         "amazon connect",
         "connect"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -12400,7 +12559,7 @@
         "amazon cloudfront",
         "cloudfront"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -12428,7 +12587,7 @@
         "databases",
         "rds"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -13436,6 +13595,34 @@
       "source": "whats-new"
     },
     {
+      "id": "dc5e8c3d96aeb276",
+      "title": "Amazon MSK Replicator is now available in AWS GovCloud (US-East, US-West) Regions",
+      "description": "You can now use Amazon MSK Replicator in the AWS GovCloud (US-East, US-West) Regions to replicate streaming data across Amazon MSK clusters and from external Apache Kafka clusters including on-premises, self-managed on AWS, or other cloud providers to Amazon MSK Provisioned clusters. MSK Replicator is a feature of Amazon MSK that automates data replication between Kafka clusters, eliminating the need to manage custom replication infrastructure or configure open-source tools. With MSK Replicator, you can easily build regionally resilient streaming applications for increased availability and bus",
+      "descriptionHtml": "&lt;p&gt;You can now use Amazon MSK Replicator in the AWS GovCloud (US-East, US-West) Regions to replicate streaming data across &lt;a href=\"https://aws.amazon.com/msk/\"&gt;Amazon MSK&lt;/a&gt; clusters and from external Apache Kafka clusters including on-premises, self-managed on AWS, or other cloud providers to Amazon MSK Provisioned clusters.&lt;/p&gt; \n&lt;p&gt;MSK Replicator is a feature of Amazon MSK that automates data replication between Kafka clusters, eliminating the need to manage custom replication infrastructure or configure open-source tools. With MSK Replicator, you can easily build regionally resilient streaming applications for increased availability and business continuity. MSK Replicator provides automatic asynchronous replication across Kafka clusters, eliminating the need to write custom code, manage infrastructure, or setup cross-region networking. MSK Replicator automatically scales the underlying resources so that you can replicate data on-demand without having to monitor or scale capacity. MSK Replicator also replicates the necessary Kafka metadata including topic configurations, Access Control Lists (ACLs), and consumer group offsets. If an unexpected event occurs in a region, you can failover to the other AWS Region and seamlessly resume processing.&lt;/p&gt; \n&lt;p&gt;You can get started with MSK Replicator from the Amazon MSK console or the Amazon CLI. To learn more, visit the MSK Replicator &lt;a href=\"https://docs.aws.amazon.com/msk/latest/developerguide/msk-replicator.html\"&gt;&lt;u&gt;documentation&lt;/u&gt;&lt;/a&gt;, &lt;a href=\"https://aws.amazon.com/msk/features/msk-replicator/\"&gt;&lt;u&gt;product page&lt;/u&gt;&lt;/a&gt;, and &lt;a href=\"https://aws.amazon.com/msk/pricing/\"&gt;&lt;u&gt;pricing page&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-replicator-additional-aws-regions",
+      "publishedAt": "2026-11-06T16:00:00.000Z",
+      "updatedAt": "2026-11-06T16:00:00.000Z",
+      "categories": [
+        "Amazon Msk",
+        "Analytics"
+      ],
+      "services": [
+        "MSK"
+      ],
+      "tags": [
+        "amazon msk",
+        "analytics",
+        "msk"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "91579e5cb3810703",
       "title": "AWS Interconnect - last mile announces new metro in Northern Virginia, USA",
       "description": "Today, AWS announced a new AWS Interconnect - last mile metro in Northern Virginia, USA. Northern Virginia joins New York as the second metro where you can connect your data center, branch office, or colocation facility to AWS. AWS Interconnect - last mile gives you managed, private, resilient connections to AWS, so you don't have to order cross-connects or configure routers. Every connection is provisioned by default across two physically diverse locations with four redundant links, providing maximum resilience out of the box and backed by a 99.99% availability SLA up to the Direct Connect po",
@@ -13454,6 +13641,38 @@
         "aws direct connect",
         "networking and content delivery",
         "connect"
+      ],
+      "isNew": true,
+      "securityScore": 10,
+      "securityLevel": "low",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "20abdd1966496c44",
+      "title": "Amazon EC2 now publishes ImdsV1Enabled CloudWatch metric",
+      "description": "Amazon EC2 now supports an ImdsV1Enabled CloudWatch metric, giving customers visibility into which of their EC2 instances still have Instance Metadata Service Version 1 (IMDSv1) enabled. You can use this metric to track your migration to IMDSv2 across your accounts and Regions, at scale. With the ImdsV1Enabled metric, you can configure CloudWatch dashboards and alarms to track instances that still allow IMDSv1, identify migration gaps, and prioritize remediation, without building your own tooling to check the metadata options of instances across accounts and Regions. This gives you a reliable,",
+      "descriptionHtml": "&lt;p&gt;Amazon EC2 now supports an ImdsV1Enabled CloudWatch metric, giving customers visibility into which of their EC2 instances still have Instance Metadata Service Version 1 (IMDSv1) enabled. You can use this metric to track your migration to IMDSv2 across your accounts and Regions, at scale.&lt;/p&gt; \n&lt;p&gt;With the ImdsV1Enabled metric, you can configure CloudWatch dashboards and alarms to track instances that still allow IMDSv1, identify migration gaps, and prioritize remediation, without building your own tooling to check the metadata options of instances across accounts and Regions. This gives you a reliable, ongoing signal to track and complete your IMDSv2 migration.&lt;/p&gt; \n&lt;p&gt;The ImdsV1Enabled CloudWatch metric is available in all AWS Regions at no additional cost.&lt;/p&gt; \n&lt;p&gt;To learn more, see the ImdsV1Enabled CloudWatch metric in the &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/viewing_metrics_with_cloudwatch.html#ec2-cloudwatch-metrics\"&gt;Amazon EC2 User Guide&lt;/a&gt;. For step-by-step migration instructions, see &lt;a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-transition-to-version-2.html\"&gt;Transition to IMDSv2 in the Amazon EC2 User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-imdsv1enabled-cloudwatch-metric/",
+      "publishedAt": "2026-11-05T08:00:00.000Z",
+      "updatedAt": "2026-11-05T08:00:00.000Z",
+      "categories": [
+        "Amazon Cloudwatch",
+        "Compute",
+        "Amazon Ec2"
+      ],
+      "services": [
+        "EC2",
+        "CloudWatch"
+      ],
+      "tags": [
+        "amazon cloudwatch",
+        "compute",
+        "amazon ec2",
+        "ec2",
+        "cloudwatch"
       ],
       "isNew": true,
       "securityScore": 10,
@@ -13571,7 +13790,7 @@
         "amazon bedrock",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 10,
       "securityLevel": "low",
       "securityMatches": [
@@ -13944,197 +14163,6 @@
       "securityLevel": "low",
       "securityMatches": [
         "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "06e217f59690a1a5",
-      "title": "AWS EC2 Auto Scaling now supports Launch Before Terminate at account-level to replace instances",
-      "description": "AWS EC2 Auto Scaling now lets you enable Launch Before Terminate as the default replacement behavior across all Auto Scaling groups in your account. When enabled, Auto Scaling launches a replacement instance and waits for it to pass health checks before terminating the instance it replaces, helping your applications maintain full capacity and availability during instance replacement events. This applies to replacement events such as instance refreshes, rebalancing, health checks, and maximum-instance-lifetime replacements. You can enable Launch Before Terminate through AWS EC2 Auto Scaling acc",
-      "descriptionHtml": "&lt;p&gt;AWS EC2 Auto Scaling now lets you enable Launch Before Terminate as the default replacement behavior across all Auto Scaling groups in your account. When enabled, Auto Scaling launches a replacement instance and waits for it to pass health checks before terminating the instance it replaces, helping your applications maintain full capacity and availability during instance replacement events. This applies to replacement events such as instance refreshes, rebalancing, health checks, and maximum-instance-lifetime replacements.&lt;/p&gt; \n&lt;p&gt;You can enable Launch Before Terminate through AWS EC2 Auto Scaling account settings, which let you configure the behavior once at the account level instead of on each Auto Scaling group individually. You can manage the setting with the new `PutAccountSetting` and `DescribeAccountSettings` APIs, available through the AWS Management Console, AWS CLI, or AWS SDKs.&lt;/p&gt; \n&lt;p&gt;Launch Before Terminate is available in all AWS Regions at no additional cost.&lt;/p&gt; \n&lt;p&gt;To learn more, see Launch Before Terminate in the &lt;a href=\"https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-account-settings.html\"&gt;AWS EC2 Auto Scaling User Guide&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/autoscaling/ec2/APIReference/API_Operations.html\"&gt;AWS EC2 Auto Scaling API Reference Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-auto-scaling-launch-before-terminate/",
-      "publishedAt": "2026-10-26T08:00:00.000Z",
-      "updatedAt": "2026-10-26T08:00:00.000Z",
-      "categories": [
-        "Compute",
-        "Amazon Ec2",
-        "Amazon Ec2 Auto Scaling"
-      ],
-      "services": [
-        "EC2"
-      ],
-      "tags": [
-        "compute",
-        "amazon ec2",
-        "amazon ec2 auto scaling",
-        "ec2"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "replacement"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "5767ee5c982d745e",
-      "title": "Web Search on Amazon Bedrock now supports domain filtering and user location controls",
-      "description": "Web Search on Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses API request. With domain filtering, you can restrict Web Search results to a set of domains you choose. Using the filters parameter, you specify up to 100 allowed_domains to limit results to trusted sources, or up to 100 blocked_domains to exclude sources you don't want. This is useful when you want responses grounded only in specific site",
-      "descriptionHtml": "&lt;p&gt;Web Search on&amp;nbsp;Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing OpenAI Responses API request.&lt;/p&gt; \n&lt;p&gt;With domain filtering, you can restrict Web Search results to a set of domains you choose. Using the filters parameter, you specify up to 100 allowed_domains to limit results to trusted sources, or up to 100 blocked_domains to exclude sources you don't want. This is useful when you want responses grounded only in specific sites, or when you need to keep certain domains out of results.&lt;/p&gt; \n&lt;p&gt;With user location, you can optionally specify location parameters so that Web Search can return results relevant to that geography. This helps with location-dependent questions, such as regional availability or local services.&lt;/p&gt; \n&lt;p&gt;Domain filtering and user location are available in all AWS Regions where Web Search is supported: US East (N. Virginia), US East (Ohio), US West (Oregon), and AWS GovCloud (US-West). To get started, see the Web Search section in the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/web-search.html\"&gt;Amazon Bedrock User Guide&lt;/a&gt;. For pricing, see the &lt;a href=\"https://aws.amazon.com/bedrock/pricing/\"&gt;Amazon Bedrock pricing page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/",
-      "publishedAt": "2026-10-23T21:04:00.000Z",
-      "updatedAt": "2026-10-23T21:04:00.000Z",
-      "categories": [
-        "Amazon Bedrock"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "amazon bedrock",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "f8afc739c8009e27",
-      "title": "Amazon Connect Customer Global Resiliency now supports persistent chat across linked AWS Regions",
-      "description": "Amazon Connect Customer Global Resiliency now provides customers a mechanism to deliver long, persistent chat experiences across linked AWS Regions. With this capability, end users can resume previous conversations with full context, metadata, and transcripts carried over across Regions, eliminating the need for end users to repeat information and allowing agents to provide personalized service with access to the entire conversation history across AWS Regions. For example, an end user can start a chat in US-East (N. Virginia) and later come back to it in the linked US-West (Oregon) Region, con",
-      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer Global Resiliency now provides customers a mechanism to deliver long, persistent chat experiences across linked AWS Regions. With this capability, end users can resume previous conversations with full context, metadata, and transcripts carried over across Regions, eliminating the need for end users to repeat information and allowing agents to provide personalized service with access to the entire conversation history across AWS Regions.&lt;/p&gt; \n&lt;p&gt;For example, an end user can start a chat in US-East (N. Virginia) and later come back to it in the linked US-West (Oregon) Region, continuing the same conversation with an agent with full conversation history&amp;nbsp;and&amp;nbsp;chat attachment. To adopt this capability, onboard to &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/global-routing-across-acgr-regions.html\"&gt;Global routing&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/get-started-connect-global-resiliency.html\"&gt;Amazon Connect Customer Global Resiliency&lt;/a&gt; is supported. To learn more, visit &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/setup-connect-global-resiliency.html\"&gt;Amazon Connect Customer Admin Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-persistent-chat",
-      "publishedAt": "2026-10-23T17:00:00.000Z",
-      "updatedAt": "2026-10-23T17:00:00.000Z",
-      "categories": [
-        "Contact Center",
-        "Amazon Connect"
-      ],
-      "services": [
-        "Connect"
-      ],
-      "tags": [
-        "contact center",
-        "amazon connect",
-        "connect"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "8e3fe4f2728b4af9",
-      "title": "Amazon OpenSearch Serverless now supports a 5-second default refresh interval",
-      "description": "Starting today, Amazon OpenSearch Serverless reduces the default refresh interval to 5 seconds for both search and vector collections. The refresh interval controls how quickly newly ingested documents become available for search. By lowering the default from 10 seconds to 5 seconds, newly written data becomes searchable faster, giving applications quicker read-after-write visibility automatically, with no configuration changes and no action required on your part. This improvement applies to the next generation of Amazon OpenSearch Serverless and takes effect by default on both search and vect",
-      "descriptionHtml": "&lt;p&gt;Starting today, Amazon OpenSearch Serverless reduces the default refresh interval to 5 seconds for both search and vector collections. The refresh interval controls how quickly newly ingested documents become available for search. By lowering the default from 10 seconds to 5 seconds, newly written data becomes searchable faster, giving applications quicker read-after-write visibility automatically, with no configuration changes and no action required on your part.&lt;/p&gt; \n&lt;p&gt;This improvement applies to the next generation of Amazon OpenSearch Serverless and takes effect by default on both search and vector collections. Faster refresh is valuable for workloads that continuously ingest data and need near real-time retrieval, including full-text search over frequently updated content as well as vector use cases such as retrieval-augmented generation (RAG), semantic search, and recommendation and personalization systems. This means applications and AI agents can retrieve and act on the most recently ingested data sooner, improving the relevance and accuracy of search results and RAG responses for datasets that change frequently.&lt;/p&gt; \n&lt;p&gt;The 5-second default refresh interval is available in all&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/general/latest/gr/opensearch-service.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;24 regions&lt;/a&gt;&amp;nbsp;where Amazon OpenSearch Serverless is available today. To learn more, see the Amazon OpenSearch Serverless &lt;a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-serverless-supports-5-second-refresh-interval/",
-      "publishedAt": "2026-10-22T18:34:00.000Z",
-      "updatedAt": "2026-10-22T18:34:00.000Z",
-      "categories": [
-        "Serverless",
-        "Amazon Opensearch Service",
-        "Analytics"
-      ],
-      "services": [
-        "OpenSearch"
-      ],
-      "tags": [
-        "serverless",
-        "amazon opensearch service",
-        "analytics",
-        "opensearch"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "b19d4267dd308428",
-      "title": "AWS Direct Connect announces 100G expansion in Bangalore, India",
-      "description": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location in the Netmagic DC2 data center near Bangalore, India. You can now establish private, direct network access to all public AWS Regions (except those in China), AWS GovCloud Regions, and AWS Local Zones from this location. The Direct Connect service enables you to establish a private, physical network connection between AWS and your data center, office, or colocation environment. These private connections can provide a more consistent network experience than those made over the public",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing &lt;a href=\"https://aws.amazon.com/directconnect\"&gt;AWS Direct Connect&lt;/a&gt; location in the Netmagic DC2 data center near Bangalore, India. You can now establish private, direct network access to all public AWS Regions (except those in China), AWS GovCloud Regions, and &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/localzones/\"&gt;AWS Local Zones&lt;/a&gt; from this location.&lt;/p&gt; \n&lt;p&gt;The Direct Connect service enables you to establish a private, physical network connection between AWS and your data center, office, or colocation environment. These private connections can provide a more consistent network experience than those made over the public internet.&lt;/p&gt; \n&lt;p&gt;For more information on the over 150 Direct Connect locations worldwide, visit the &lt;a href=\"https://aws.amazon.com/directconnect/locations/\"&gt;locations&lt;/a&gt; section of the Direct Connect &lt;a href=\"https://aws.amazon.com/directconnect\"&gt;product detail pages&lt;/a&gt;. Or, visit our &lt;a href=\"https://aws.amazon.com/directconnect/getting-started/\"&gt;getting started&lt;/a&gt; page to learn more about how to purchase and deploy Direct Connect.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-bangalore/",
-      "publishedAt": "2026-10-22T16:00:00.000Z",
-      "updatedAt": "2026-10-22T16:00:00.000Z",
-      "categories": [
-        "AWS Direct Connect",
-        "Networking And Content Delivery"
-      ],
-      "services": [
-        "Direct Connect",
-        "Connect"
-      ],
-      "tags": [
-        "aws direct connect",
-        "networking and content delivery",
-        "direct connect",
-        "connect"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "9b855d6ccc453f25",
-      "title": "Amazon Quick Now Available in the AWS Singapore Region",
-      "description": "Amazon Quick is now available in the AWS Asia Pacific (Singapore) region (ap-southeast-1). This launch allows customers in Singapore to access the full power of Amazon Quick while meeting local requirements for data sovereignty. Amazon Quick provides business users an agentic teammate that quickly answers questions at work and turns those answers into actions. With Amazon Quick, every user is empowered to make better decisions faster and take actions without switching applications using AI they can trust. Today’s launch allows customers to take advantage of Amazon Quick’s capabilities includin",
-      "descriptionHtml": "&lt;p&gt;Amazon Quick is now available in the AWS Asia Pacific (Singapore) region (ap-southeast-1). This launch allows customers in Singapore to access the full power of Amazon Quick while meeting local requirements for data sovereignty.&lt;/p&gt; \n&lt;p&gt;Amazon Quick provides business users an agentic teammate that quickly answers questions at work and turns those answers into actions. With Amazon Quick, every user is empowered to make better decisions faster and take actions without switching applications using AI they can trust. Today’s launch allows customers to take advantage of Amazon Quick’s capabilities including AI-powered chat, Research, Spaces, and QuickSight dashboards — with their data stored and processed locally within the AWS Singapore region.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;For a full list of AWS regions where Amazon Quick is available, visit the &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html\"&gt;Quick regional availability page.&lt;/a&gt; To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/quick/\"&gt;Amazon Quick documentation&lt;/a&gt; or &lt;a href=\"https://aws.amazon.com/quick/\"&gt;product detail page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-now-available-in-the-aws-singapore-region/",
-      "publishedAt": "2026-10-22T07:00:00.000Z",
-      "updatedAt": "2026-10-22T07:00:00.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "a8a623a5a83b5599",
-      "title": "Amazon Connect Customer launches two new layouts for agent workspace",
-      "description": "Amazon Connect Customer now offers two different layouts that optimize screen space on the agent workspace. Contact center agents spend hours each day in the agent workspace, which includes all of the contact controls and applications they need to resolve customer issues. Agents who handle different channels and workflows want the workspace arranged differently, so that they can quickly read, respond, and access their tools. Now, administrators can choose the best layout for each team, maximizing agent efficiency and satisfaction. On the Modern layout, contact controls are at the top of the wo",
-      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now offers two different layouts that optimize screen space on the agent workspace. Contact center agents spend hours each day in the agent workspace, which includes all of the contact controls and applications they need to resolve customer issues. Agents who handle different channels and workflows want the workspace arranged differently, so that they can quickly read, respond, and access their tools. Now, administrators can choose the best layout for each team, maximizing agent efficiency and satisfaction.&lt;/p&gt; \n&lt;p&gt;On the Modern layout, contact controls are at the top of the workspace, maximizing screen space for the applications beneath during voice calls. When agents handle chat, email, and task contacts on the Modern layout, they now have a taller, wider area to read and respond. The Classic layout offers a familiar experience for agents already using the agent workspace, now with contact controls that expand and contract by channel and a resizable agent assist application. Administrators can assign the Modern layout to a team migrating from another agent desktop with controls at the top, while teams already familiar with the agent workspace can use the Classic layout.&lt;/p&gt; \n&lt;p&gt;You can use the new layouts for the Amazon Connect Customer agent workspace in the following AWS regions: US East (N. Virginia), US West (Oregon), Africa (Cape Town), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Canada (Central), Europe (Frankfurt), and Europe (London).&lt;/p&gt; \n&lt;p&gt;To learn more and get started, see the &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/agent-workspace.html\"&gt;agent workspace&lt;/a&gt; in the Amazon Connect Customer administrator guide.&lt;b&gt;&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-new-layouts-agent-workspace",
-      "publishedAt": "2026-10-21T13:48:00.000Z",
-      "updatedAt": "2026-10-21T13:48:00.000Z",
-      "categories": [
-        "Contact Center",
-        "Amazon Connect"
-      ],
-      "services": [
-        "Connect"
-      ],
-      "tags": [
-        "contact center",
-        "amazon connect",
-        "connect"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "access"
       ],
       "source": "whats-new"
     }
