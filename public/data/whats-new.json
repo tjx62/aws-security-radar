@@ -1,7 +1,50 @@
 {
-  "lastUpdated": "2026-11-08T14:49:42.234Z",
+  "lastUpdated": "2026-11-09T18:27:12.103Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "02970bea606f1eda",
+      "title": "Simplify cross-partition access with AWS IAM outbound identity federation",
+      "description": "You can now use tokens from AWS Identity and Access Management (IAM) outbound federation to assume roles in other Amazon Web Services (AWS) partitions. When your workloads run across AWS partitions such as Commercial, China, GovCloud (US), and European Sovereign Cloud, a workload in one partition might need to access resources or communicate with AWS […]",
+      "descriptionHtml": "You can now use tokens from AWS Identity and Access Management (IAM) outbound federation to assume roles in other Amazon Web Services (AWS) partitions. When your workloads run across AWS partitions such as Commercial, China, GovCloud (US), and European Sovereign Cloud, a workload in one partition might need to access resources or communicate with AWS […]",
+      "url": "https://aws.amazon.com/blogs/security/simplify-cross-partition-access-with-aws-iam-outbound-identity-federation/",
+      "publishedAt": "2026-11-09T16:08:30.000Z",
+      "updatedAt": "2026-11-09T16:08:30.000Z",
+      "categories": [
+        "Advanced (300)",
+        "AWS Identity And Access Management (IAM)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "AWS IAM",
+        "Security Blog"
+      ],
+      "services": [
+        "IAM"
+      ],
+      "tags": [
+        "advanced (300)",
+        "aws identity and access management (iam)",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "aws iam",
+        "security blog",
+        "iam"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "access",
+        "identity",
+        "token"
+      ],
+      "source": "security-blog"
+    },
     {
       "id": "2bc104a8bd9ecaab",
       "title": "Addressing protocol security gaps in multi-tenant Kubernetes",
@@ -3281,6 +3324,40 @@
       "source": "whats-new"
     },
     {
+      "id": "b2aa107e57f73150",
+      "title": "Amazon MWAA Serverless supports Apache Airflow connections and variables",
+      "description": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports Apache Airflow connections and variables, so your workflows can reach databases, APIs, and other external systems. You can manage credentials and configuration outside your workflow code. You store sensitive connections and variables in the secrets backend of your choice, such as AWS Secrets Manager, AWS Systems Manager Parameter Store, or your own custom backend, configure it on your workflow, and grant your workflow execution role access. Tasks retrieve them at run time through standard Apache Airflow methods. ",
+      "descriptionHtml": "&lt;p&gt;Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports Apache Airflow connections and variables, so your workflows can reach databases, APIs, and other external systems. You can manage credentials and configuration outside your workflow code.&lt;/p&gt;\n&lt;p&gt;You store sensitive connections and variables in the secrets backend of your choice, such as AWS Secrets Manager, AWS Systems Manager Parameter Store, or your own custom backend, configure it on your workflow, and grant your workflow execution role access. Tasks retrieve them at run time through standard Apache Airflow methods. You can define non-secret values as environment variables on the workflow.&lt;/p&gt;\n&lt;p&gt;This feature is available in all AWS Regions where Amazon MWAA Serverless is available. For more information, see &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/what-is-mwaa-serverless.html#regions\" target=\"_blank\"&gt;Amazon MWAA Serverless Regions&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/connections.html\" target=\"_blank\"&gt;Managing connections and variables&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/workflows-environment-variables.html\" target=\"_blank\"&gt;Using environment variables in Amazon MWAA Serverless workflows&lt;/a&gt; in the Amazon MWAA Serverless User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-serverless-connections-variables/",
+      "publishedAt": "2026-11-06T18:00:00.000Z",
+      "updatedAt": "2026-11-06T18:00:00.000Z",
+      "categories": [
+        "Analytics",
+        "Amazon Mwaa"
+      ],
+      "services": [
+        "MWAA"
+      ],
+      "tags": [
+        "analytics",
+        "amazon mwaa",
+        "mwaa"
+      ],
+      "isNew": true,
+      "securityScore": 70,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Secrets Manager",
+        "Config",
+        "Systems Manager",
+        "role",
+        "access",
+        "credential",
+        "Secret"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "55c608bbd8f2b660",
       "title": "Beyond DKIM key rotation: understanding email replay attacks",
       "description": "As the email administrator for your organization’s domain, you receive a Domain-based Message Authentication, Reporting, and Conformance (DMARC) aggregate report showing email passing DomainKeys Identified Mail (DKIM) verification as though it came from your domain, sent from IP addresses you don’t recognize to recipients you didn’t contact. To clear the issue, you rotate your DKIM […]",
@@ -3312,7 +3389,7 @@
         "security blog",
         "ses"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 70,
       "securityLevel": "high",
       "securityMatches": [
@@ -3333,7 +3410,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 70,
       "securityLevel": "high",
       "securityMatches": [
@@ -3823,7 +3900,7 @@
         "ec2",
         "inspector"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 65,
       "securityLevel": "critical",
       "securityMatches": [
@@ -5657,7 +5734,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 50,
       "securityLevel": "medium",
       "securityMatches": [
@@ -6126,7 +6203,7 @@
         "& compliance",
         "security blog"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "medium",
       "securityMatches": [],
@@ -8555,7 +8632,7 @@
         "databases",
         "aurora"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [
@@ -12530,7 +12607,7 @@
         "ecs",
         "eks"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -14099,64 +14176,6 @@
         "databases",
         "amazon elasticache",
         "elasticache"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "ee52e5993b6b329f",
-      "title": "Amazon Bedrock now offers Canada cross-Region inference for Claude Haiku 5.5",
-      "description": "Amazon Bedrock now offers Canada cross-Region inference (CRIS) for Anthropic's Claude Haiku 5.5. Customers with strict data residency requirements can now keep inference processing entirely within Canada. Canada CRIS routes requests only between ca-central-1 (Canada Central) and ca-west-1 (Canada West, Calgary). This helps organizations in financial services, healthcare, the public sector, and other regulated industries meet federal and provincial data residency requirements. Canada CRIS adds to the inference options already available to customers in Canada. US CRIS and global CRIS remain full",
-      "descriptionHtml": "&lt;p&gt;Amazon Bedrock now offers Canada cross-Region inference (CRIS) for Anthropic's Claude Haiku 5.5. Customers with strict data residency requirements can now keep inference processing entirely within Canada. Canada CRIS routes requests only between ca-central-1 (Canada Central) and ca-west-1 (Canada West, Calgary). This helps organizations in financial services, healthcare, the public sector, and other regulated industries meet federal and provincial data residency requirements.&lt;/p&gt;\n&lt;p&gt;Canada CRIS adds to the inference options already available to customers in Canada. US CRIS and global CRIS remain fully supported for Claude Haiku 5.5. Both route requests across a broader set of AWS Regions, and global CRIS also offers cost savings, which makes these options a good fit for workloads that don't require inference processing to stay in Canada.&lt;/p&gt;\n&lt;p&gt;Canada CRIS is designated as an inference profile with limited model selection. Future models and model versions might not be released for this profile. We recommend Canada CRIS for workloads that must keep inference processing within Canada. For more details, see &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/inference-profiles-limited-model-selection.html\"&gt;Inference profiles with limited model selection&lt;/a&gt; in the Amazon Bedrock User Guide.&lt;/p&gt;\n&lt;p&gt;For the most current information about model availability in each Region, see &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html\"&gt;Regional availability&lt;/a&gt; by models in the Amazon Bedrock User Guide. To get started with Claude models on Amazon Bedrock, visit the Amazon Bedrock console.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-canada-cris/",
-      "publishedAt": "2026-10-27T08:00:00.000Z",
-      "updatedAt": "2026-10-27T08:00:00.000Z",
-      "categories": [
-        "Amazon Bedrock",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "Bedrock",
-        "Claude"
-      ],
-      "tags": [
-        "amazon bedrock",
-        "artificial intelligence",
-        "bedrock",
-        "claude"
-      ],
-      "isNew": false,
-      "securityScore": 10,
-      "securityLevel": "low",
-      "securityMatches": [
-        "Organizations"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "0b5e0e34b5f4a94c",
-      "title": "Amazon ECR now supports replication backfill for existing container images",
-      "description": "Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destinations. Previously, replication only applied to images pushed after the replication configuration was enabled, requiring customers to manually retag images to trigger replication of preexisting images. With replication backfill, you can now replicate your full image catalog to new or existing destinations with a single API call. Replication backfill is useful when expanding to a new AWS Region, validat",
-      "descriptionHtml": "&lt;p&gt;Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destinations. Previously, replication only applied to images pushed after the replication configuration was enabled, requiring customers to manually retag images to trigger replication of preexisting images. With replication backfill, you can now replicate your full image catalog to new or existing destinations with a single API call.&lt;/p&gt; \n&lt;p&gt;Replication backfill is useful when expanding to a new AWS Region, validating disaster recovery readiness, updating replication rules, or ensuring complete image catalogs exist across Regions for compliance purposes. You can run up to ten backfill jobs concurrently, monitor progress and per-image results through new APIs, and stop a job at any time without deleting images that have already been replicated.&lt;/p&gt; \n&lt;p&gt;Replication backfill is available in all AWS Regions where Amazon ECR is available. To learn more, refer to the &lt;a href=\"https://docs.aws.amazon.com/AmazonECR/latest/userguide/replication-backfill.html\"&gt;Amazon ECR user guide&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
-      "publishedAt": "2026-10-26T20:24:00.000Z",
-      "updatedAt": "2026-10-26T20:24:00.000Z",
-      "categories": [
-        "Containers",
-        "Amazon Ecr"
-      ],
-      "services": [
-        "ECR"
-      ],
-      "tags": [
-        "containers",
-        "amazon ecr",
-        "ecr"
       ],
       "isNew": false,
       "securityScore": 10,
