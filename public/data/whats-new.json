@@ -1,7 +1,44 @@
 {
-  "lastUpdated": "2026-11-12T16:38:03.831Z",
+  "lastUpdated": "2026-11-13T15:57:30.394Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "0cc835dd792227a0",
+      "title": "Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments",
+      "description": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports fine-grained access control, giving administrators precise control over who can access which workflows and resources in an Apache Airflow environment. Fine-grained access control is delivered through two new capabilities: IAM Identity Center integration and multi-team environments. With IAM Identity Center integration, users sign in to the Apache Airflow UI with their corporate identity provider. Authorization is evaluated per request using IAM policies attached to IAM Identity Center Permission Sets, with condition keys th",
+      "descriptionHtml": "&lt;p&gt;Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports fine-grained access control, giving administrators precise control over who can access which workflows and resources in an Apache Airflow environment. Fine-grained access control is delivered through two new capabilities: IAM Identity Center integration and multi-team environments.&lt;/p&gt;\n&lt;p&gt;With IAM Identity Center integration, users sign in to the Apache Airflow UI with their corporate identity provider. Authorization is evaluated per request using IAM policies attached to IAM Identity Center Permission Sets, with condition keys that scope access by resource type (DAGs, connections, variables, pools, and more), action, and specific resource ID.&lt;/p&gt;\n&lt;p&gt;With multi-team environments, several teams can share a single MWAA environment. Each team gets its own DAG folder in Amazon S3, and users see only shared DAGs plus their own teams' DAGs based on IAM Identity Center group membership. Teams reduce cost through shared infrastructure and simplify management by configuring environment settings once. Multi-team environments are based on the Apache Airflow multi-team feature, which is currently in preview.&lt;/p&gt;\n&lt;p&gt;These features are available in all &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/userguide/get-started.html#regions\" target=\"_blank\"&gt;AWS Regions&lt;/a&gt; where Amazon MWAA is available.&lt;/p&gt;\n&lt;p&gt;To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/userguide/identity-center-integration.html\" target=\"_blank\"&gt;IAM Identity Center integration documentation&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/userguide/multi-team-environments.html\" target=\"_blank\"&gt;multi-team environments documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-fine-grained-access-control/",
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "updatedAt": "2026-11-12T18:00:00.000Z",
+      "categories": [
+        "Amazon Mwaa",
+        "Analytics"
+      ],
+      "services": [
+        "IAM",
+        "IAM Identity Center",
+        "MWAA"
+      ],
+      "tags": [
+        "amazon mwaa",
+        "analytics",
+        "iam",
+        "iam identity center",
+        "mwaa"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "IAM Identity Center",
+        "authorization",
+        "permission",
+        "access",
+        "identity"
+      ],
+      "source": "whats-new"
+    },
     {
       "id": "09a35824fb5fc54e",
       "title": "Reduce alert fatigue by customizing threat detection features in Amazon GuardDuty",
@@ -200,7 +237,7 @@
         "security blog",
         "iam"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -1832,7 +1869,7 @@
         "aws security hub",
         "security hub"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 95,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2133,7 +2170,7 @@
         "aws identity and access management",
         "iam"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 90,
       "securityLevel": "critical",
       "securityMatches": [
@@ -4022,6 +4059,36 @@
       "source": "security-blog"
     },
     {
+      "id": "317db2d05b4bd26c",
+      "title": "Amazon Cognito now supports OAuth 2.0 token exchange",
+      "description": "Amazon Cognito now supports OAuth 2.0 token exchange (RFC 8693). Amazon Cognito helps you add sign-up, sign-in, and access control to your web applications, mobile applications, and AI agents. With token exchange, a service or AI agent acting on a user's behalf can exchange the user's token for a new token scoped to a specific downstream service. Previously, a service that called another service on a user's behalf had to forward the user's original token or build and maintain its own token minting logic. With token exchange, you can issue a new token that has a narrower scope than the original",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/cognito/\"&gt;Amazon Cognito&lt;/a&gt; now supports OAuth 2.0 token exchange (RFC 8693). Amazon Cognito helps you add sign-up, sign-in, and access control to your web applications, mobile applications, and AI agents. With token exchange, a service or AI agent acting on a user's behalf can exchange the user's token for a new token scoped to a specific downstream service. Previously, a service that called another service on a user's behalf had to forward the user's original token or build and maintain its own token minting logic.&lt;/p&gt; \n&lt;p&gt;With token exchange, you can issue a new token that has a narrower scope than the original token, is bound to a single audience, and comes without a refresh token. When you include an actor token, Cognito adds an act claim that identifies the intermediary, so downstream services can tell a request that an agent made on a user's behalf from one the user made directly. For example, a Model Context Protocol (MCP) server can exchange a user's token for a narrowly scoped token to call a backend API, with the act&amp;nbsp;claim recording the MCP server as the actor.&lt;/p&gt; \n&lt;p&gt;You can exchange tokens through the token endpoint or with the new &lt;a href=\"https://docs.aws.amazon.com/cognito-user-identity-pools/latest/APIReference/API_GetDerivedToken.html\"&gt;GetDerivedToken API&lt;/a&gt;. Token exchange is available on the Essentials and Plus feature plans in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where Amazon Cognito is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-token-exchange.html\"&gt;exchanging tokens for downstream services&lt;/a&gt; in the Amazon Cognito Developer Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-token-exchange/",
+      "publishedAt": "2026-11-12T22:00:00.000Z",
+      "updatedAt": "2026-11-12T22:00:00.000Z",
+      "categories": [
+        "Amazon Cognito",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "Cognito"
+      ],
+      "tags": [
+        "amazon cognito",
+        "security identity and compliance",
+        "cognito"
+      ],
+      "isNew": true,
+      "securityScore": 65,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Cognito",
+        "access",
+        "token"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "40e0720d56f094aa",
       "title": "CVE-2026-125271 - AWS API MCP Server Security Policy Bypass via Incorrect Operation Name Normalization",
       "description": "Bulletin ID: 2026-176-AWS Publication Date: 11/10/2026 08:30 AM PST Description: We identified CVE-2026-125271 of AWS API MCP Server. The server normalized operation names incorrectly before comparing them to the operator ' s security policy, so operations whose names contain consecutive capital letters never matched a correctly written denyList or elicitList entry. This might allow an actor to execute AWS API operations that the operator's security policy was configured to deny or require elicitation for. Impacted versions: >= 0.2.13 AND Refer to the article for the most up-to-date and comple",
@@ -4105,7 +4172,7 @@
         "emr",
         "glue"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 65,
       "securityLevel": "critical",
       "securityMatches": [
@@ -5967,6 +6034,41 @@
       "source": "security-blog"
     },
     {
+      "id": "b3d1d63ef431e0e7",
+      "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
+      "description": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS Organizations, supporting direct restore to reduce recovery time from a data loss event. You can now archive Amazon EBS backups held in a logically air-gapped vault to Amazon EBS Snapshots Archive, a low-cost tier for snapshots you rarely access. A logically air-gapped vault stores immutable backups that are locked by default, and isolated with encryption using AWS owned keys or customer-managed",
+      "descriptionHtml": "&lt;p&gt;AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS Organizations, supporting direct restore to reduce recovery time from a data loss event.&lt;/p&gt; \n&lt;p&gt;You can now archive Amazon EBS backups held in a logically air-gapped vault to Amazon EBS Snapshots Archive, a low-cost tier for snapshots you rarely access. A logically air-gapped vault stores immutable backups that are locked by default, and isolated with encryption using AWS owned keys or customer-managed keys. This helps you meet long-term retention and compliance requirements at lower storage cost.&lt;/p&gt; \n&lt;p&gt;You can get started using the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. In a backup plan rule that runs monthly or less often, specify a logically air-gapped vault as the primary backup destination or copy destination. Then enable Archive Amazon EBS snapshots in the backup rule lifecycle or copy lifecycle and set the time in warm storage before the backup transitions.&lt;/p&gt; \n&lt;p&gt;This support is available in all AWS Regions where both logically air-gapped vault and Amazon EBS Snapshots Archive are available. For more information and detailed regional availability, visit the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#features-by-region\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Backup documentation&lt;/a&gt;. To learn more about logically air-gapped vaults, visit the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;product documentation&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/backup/pricing/\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
+      "publishedAt": "2026-11-12T08:00:00.000Z",
+      "updatedAt": "2026-11-12T08:00:00.000Z",
+      "categories": [
+        "AWS Backup",
+        "Amazon Elastic Block Store",
+        "Storage"
+      ],
+      "services": [
+        "EBS",
+        "Backup"
+      ],
+      "tags": [
+        "aws backup",
+        "amazon elastic block store",
+        "storage",
+        "ebs",
+        "backup"
+      ],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "encryption",
+        "encrypt",
+        "Organizations",
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "009a90b0a88046ec",
       "title": "Amazon EKS Auto Mode now supports security groups for Pods",
       "description": "Amazon EKS Auto Mode now supports security groups for Pods, letting you apply dedicated Amazon EC2 security group rules to individual Pods. Different workloads on the same node can carry different security groups, giving your Pods network-level segmentation without creating separate node pools for each application. Security groups for Pods extends your existing AWS network controls to the Pod level, so your Pods can reach resources such as Amazon RDS and Amazon ElastiCache databases that authorize connections by security group under the same rules the rest of your VPC uses. You define which Po",
@@ -6067,7 +6169,7 @@
         "amazon cognito",
         "cognito"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 50,
       "securityLevel": "critical",
       "securityMatches": [
@@ -7668,6 +7770,89 @@
       "source": "security-blog"
     },
     {
+      "id": "19bad2d08da7b6e6",
+      "title": "CVE-2026-126793 - Privilege escalation in Aurora PostgreSQL dialect detection in AWS Advanced Go Wrapper",
+      "description": "Bulletin ID: 2026-182-AWS Publication Date: 11/12/2026 13:00 PM PST Description: An untrusted search path issue in Aurora PostgreSQL dialect detection in the AWS Advanced Go Wrapper from release 2026-04-06 (awssql/v2.0.0) and before release 2026-07-29 (awssql/v2.0.3) could allow a remote authenticated user to escalate privileges to those of another database user, including a member of the rds_superuser role, via a crafted function that runs when that user connects to an Aurora PostgreSQL cluster through an affected version of the wrapper. Impacted versions: AWS Advanced Go Wrapper >=2026-04-06",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-182-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/12/2026 13:00 PM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;An untrusted search path issue in Aurora PostgreSQL dialect detection in the AWS Advanced Go Wrapper from release 2026-04-06 (awssql/v2.0.0) and before release 2026-07-29 (awssql/v2.0.3) could allow a remote authenticated user to escalate privileges to those of another database user, including a member of the rds_superuser role, via a crafted function that runs when that user connects to an Aurora PostgreSQL cluster through an affected version of the wrapper.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; AWS Advanced Go Wrapper &amp;gt;=2026-04-06, &amp;lt;2026-07-29&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-182-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-182-aws/",
+      "publishedAt": "2026-11-12T21:11:28.000Z",
+      "updatedAt": "2026-11-12T21:11:28.000Z",
+      "categories": [],
+      "services": [
+        "Aurora"
+      ],
+      "tags": [
+        "aurora"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "role"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "d1d15da9deb999d3",
+      "title": "CVE-2026-127119 - Unverified ownership of the default EMR cluster log location in AWS SDK for pandas",
+      "description": "Bulletin ID: 2026-181-AWS Publication Date: 11/12/2026 13:00 PM PST Description: We identified CVE-2026-127119, an issue in the EMR module of AWS SDK for pandas (awswrangler) from version 1.1.0 before 3.18.0. When a cluster is created without an explicit log location, the library uses a predictable default S3 bucket name for the cluster logs without verifying that the caller's account owns that bucket. A remote actor who creates that bucket first could read the cluster's logs, including job step output. Impacted versions: >= 1.1.0 AND Refer to the article for the most up-to-date and complete i",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-181-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/12/2026 13:00 PM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-127119, an issue in the EMR module of AWS SDK for pandas (awswrangler) from version 1.1.0 before 3.18.0. When a cluster is created without an explicit log location, the library uses a predictable default S3 bucket name for the cluster logs without verifying that the caller's account owns that bucket. A remote actor who creates that bucket first could read the cluster's logs, including job step output.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;= 1.1.0 AND &amp;lt; 3.18.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-181-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-181-aws/",
+      "publishedAt": "2026-11-12T19:07:08.000Z",
+      "updatedAt": "2026-11-12T19:07:08.000Z",
+      "categories": [],
+      "services": [
+        "EMR"
+      ],
+      "tags": [
+        "emr"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "S3",
+        "Bucket"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "e198c66e30180ae3",
+      "title": "Amazon MWAA Serverless supports DuckDB operators",
+      "description": "Amazon MWAA Serverless now supports DuckDB operators, enabling you to analyze and transform data with high-performance in-memory analytics directly in your workflows. You can query data in Amazon S3 or run analytics locally, without manual credential configuration. DuckDB operators are also supported in SageMaker Unified Studio visual workflows. To get started in MWAA Serverless, add a DuckDB task to your workflow definition. A pre-created default connection automatically uses your workflow's execution role credentials for S3 access, so you can start analyzing data immediately. In SageMaker Un",
+      "descriptionHtml": "&lt;p&gt;Amazon MWAA Serverless now supports DuckDB operators, enabling you to analyze and transform data with high-performance in-memory analytics directly in your workflows. You can query data in Amazon S3 or run analytics locally, without manual credential configuration. DuckDB operators are also supported in SageMaker Unified Studio visual workflows.&lt;/p&gt;\n&lt;p&gt;To get started in MWAA Serverless, add a DuckDB task to your workflow definition. A pre-created default connection automatically uses your workflow's execution role credentials for S3 access, so you can start analyzing data immediately. In SageMaker Unified Studio, add DuckDB operators from the task panel to your visual workflow canvas.&lt;/p&gt;\n&lt;p&gt;DuckDB operators are available in all &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/what-is-mwaa-serverless.html#regions\" target=\"_blank\"&gt;Regions&lt;/a&gt; where Amazon MWAA Serverless is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/code-examples-duckdb.html\" target=\"_blank\"&gt;Using DuckDB in Amazon MWAA Serverless workflows&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/serverless-visual-workflows.html\" target=\"_blank\"&gt;Using serverless visual workflows&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-serverless-duckdb-operators/",
+      "publishedAt": "2026-11-10T18:00:00.000Z",
+      "updatedAt": "2026-11-10T18:00:00.000Z",
+      "categories": [
+        "Analytics",
+        "Amazon Mwaa",
+        "Amazon Sagemaker"
+      ],
+      "services": [
+        "SageMaker",
+        "MWAA"
+      ],
+      "tags": [
+        "analytics",
+        "amazon mwaa",
+        "amazon sagemaker",
+        "sagemaker",
+        "mwaa"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Config",
+        "role",
+        "access",
+        "S3",
+        "credential"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "eed4836e7cfb5ee4",
       "title": "Amazon Athena introduces system tables for observability, auditing, and usage analytics",
       "description": "Amazon Athena now offers system tables which automatically capture your usage data and make it available for observability, usage analysis, and audit use cases. When you enable system tables, usage data is available within minutes of query completion across your workgroups and stored as service-managed, read-only Iceberg tables on Amazon S3 Tables with configurable retention. You can query it directly with Athena, while AWS manages the tables for you, including schema definition, partitioning, compaction, and snapshot maintenance, removing all operational burden. Athena provides usage data thr",
@@ -7712,7 +7897,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -9044,6 +9229,31 @@
       "source": "whats-new"
     },
     {
+      "id": "8dbbab512d1530fc",
+      "title": "AWS Quick enhances granular governance with the ability to restrict structured data sources",
+      "description": "Today, AWS Quick is announcing the general availability of structured data connector restrictions through custom permissions. This capability gives administrators granular control over which types of data sources users can create, update, or share, helping organizations enforce data governance requirements while enabling self-service analytics. With this feature, administrators can configure custom permissions profiles in Enterprise edition through the Quick UI, APIs, or AWS Command Line Interface. For example, an organization can allow users to create Amazon Redshift data sources while restri",
+      "descriptionHtml": "&lt;p&gt;Today, AWS Quick is announcing the general availability of structured data connector restrictions through custom permissions. This capability gives administrators granular control over which types of data sources users can create, update, or share, helping organizations enforce data governance requirements while enabling self-service analytics.&lt;br&gt; &lt;br&gt; With this feature, administrators can configure &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/custom-permissions.html\"&gt;custom permissions profiles&lt;/a&gt; in Enterprise edition through the Quick UI, APIs, or AWS Command Line Interface. For example, an organization can allow users to create Amazon Redshift data sources while restricting the creation of file-upload data sources. Administrators can also prevent users from sharing data sources for a particular connector. Create, update, and share restrictions can be configured independently, providing more precise controls than restrictions that apply to all data source types.&lt;br&gt; &lt;br&gt; This feature is now available in all supported AWS Quick Regions listed &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html\"&gt;here&lt;/a&gt;. To learn more, check our documentation &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/custom-permissions.html\"&gt;here&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-structured-data-source-restrictions/",
+      "publishedAt": "2026-11-12T09:00:00.000Z",
+      "updatedAt": "2026-11-12T09:00:00.000Z",
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "services": [],
+      "tags": [
+        "artificial intelligence"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Config",
+        "Organizations",
+        "permission"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "d64fa341a1fd75be",
       "title": "CVE-2026-125926 - Server-side request forgery in the server registration and update API in mcp-gateway-registry",
       "description": "Bulletin ID: 2026-180-AWS Publication Date: 11/11/2026 13:00 PM PST Description: MServer-side request forgery (SSRF) in the server registration and update API in Amazon mcp-gateway-registry before 1.35.0 might allow an authenticated remote user to send requests from the gateway to internal network services and cloud instance metadata endpoints and read the responses via a crafted request Impacted versions: >= v1.0.3 AND Refer to the article for the most up-to-date and complete information.",
@@ -9113,7 +9323,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -11549,6 +11759,33 @@
       "source": "whats-new"
     },
     {
+      "id": "aab79edf09c1bdfe",
+      "title": "AWS Glue announces automatic version upgrades for Apache Spark jobs",
+      "description": "AWS Glue introduces automatic version upgrades, a capability that keeps your Apache Spark jobs current on the latest AWS Glue runtime without manual coordination. Staying current on supported runtimes gives your jobs the latest security patches, performance improvements, and support for evolving table formats such as Apache Iceberg. Auto upgrades include multiple levels of validations including assessing jobs for compatibility with the upgraded runtime, obtaining your consent before executing jobs on a newer version, and validating upgraded job runs against each job's established output profil",
+      "descriptionHtml": "&lt;p&gt;AWS Glue introduces automatic version upgrades, a capability that keeps your Apache Spark jobs current on the latest AWS Glue runtime without manual coordination. Staying current on supported runtimes gives your jobs the latest security patches, performance improvements, and support for evolving table formats such as Apache Iceberg. Auto upgrades include multiple levels of validations including assessing jobs for compatibility with the upgraded runtime, obtaining your consent before executing jobs on a newer version, and validating upgraded job runs against each job's established output profile, so your jobs upgrade with the right guardrails in place.&lt;/p&gt;\n&lt;p&gt;By setting a job's version to \"Auto\", upgrades that once required weeks of planning and execution now happen automatically. Platform teams can standardize runtime versions across large fleets without chasing individual job owners, and business units without a central upgrade team can keep their jobs current hands-free. Each job is validated against its established output schema, data volume, latency, and format before it upgrades, so you can advance with confidence. Jobs that need code changes keep running safely on their current version, and AWS Glue provides an upgrade analysis with specific fixes you can apply directly or with the Apache Spark upgrade agent.&lt;/p&gt;\n&lt;p&gt;Auto upgrades for AWS Glue are available in all AWS Commercial Regions.&lt;/p&gt;\n&lt;p&gt;To get started, select \"Auto\" as the AWS Glue version when creating or updating an Apache Spark job using the AWS Glue Studio or AWS CLI, API, and SDKs. Alternatively, you can update multiple jobs at once using the AWS Glue &lt;a href=\"https://github.com/aws-samples/aws-glue-samples/blob/8d52b2c004d48b4d15c20cb1b0bd161da0c98a0d/utilities/skills/managing-glue-jobs/README.md\" target=\"_blank\"&gt;skill to manage your jobs&lt;/a&gt;. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/auto-version-upgrades.html\" target=\"_blank\"&gt;AWS Glue documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-spark-auto-upgrades/",
+      "publishedAt": "2026-11-12T08:00:00.000Z",
+      "updatedAt": "2026-11-12T08:00:00.000Z",
+      "categories": [
+        "AWS Glue"
+      ],
+      "services": [
+        "Glue"
+      ],
+      "tags": [
+        "aws glue",
+        "glue"
+      ],
+      "isNew": true,
+      "securityScore": 25,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "security",
+        "patch"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "d595528fc5aea5dc",
       "title": "AWS Cloud WAN now supports Flow Logs",
       "description": "AWS Cloud WAN now supports VPC Flow Logs, giving you central visibility into IP traffic across your global network. Flow Logs capture detailed information for each flow, so you can understand how traffic moves across your core network without leaving your AWS Cloud WAN account. Until now, network administrators had to stitch together VPC Flow Logs from many VPCs, accounts, and Regions to see traffic across their global network. They often depended on other teams for access to those logs. Cloud WAN Flow Logs give core network owners one consolidated view of traffic between VPCs, Regions, and on",
@@ -12222,6 +12459,40 @@
       "securityMatches": [
         "security",
         "patch"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "23913feb764f7342",
+      "title": "AWS Backup now supports resource modifiers for Amazon EKS restores",
+      "description": "Today, AWS Backup announces support for resource modifiers when restoring Amazon Elastic Kubernetes Service (Amazon EKS) backups. Resource modifiers let you transform Kubernetes resources during a restore, so you can adapt a restored cluster to its target environment. When you restore an EKS backup that has been copied across accounts or across AWS Regions, the restored cluster can carry references tied to the source environment, such as IAM roles, database endpoints, and Amazon ECR registry URIs. Previously, you had to locate and update these references manually after every restore, which was",
+      "descriptionHtml": "&lt;p&gt;Today, AWS Backup announces support for resource modifiers when restoring Amazon Elastic Kubernetes Service (Amazon EKS) backups. Resource modifiers let you transform Kubernetes resources during a restore, so you can adapt a restored cluster to its target environment.&lt;/p&gt; \n&lt;p&gt;When you restore an EKS backup that has been copied across accounts or across AWS Regions, the restored cluster can carry references tied to the source environment, such as IAM roles, database endpoints, and Amazon ECR registry URIs. Previously, you had to locate and update these references manually after every restore, which was time consuming and error prone. With resource modifiers, you can define transformation rules once via a YAML file, and AWS Backup applies them automatically as part of the restore, improving the reliability of your cross-account and cross-Region disaster recovery workflows.&lt;/p&gt; \n&lt;p&gt;AWS Backup support for resource modifiers for Amazon EKS backups is available in all commercial AWS Regions and AWS GovCloud (US) Regions. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/restoring-eks.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Backup Documentation&lt;/a&gt; and read the &lt;a href=\"https://aws.amazon.com/blogs/storage/remap-amazon-eks-namespaces-on-restore-with-aws-backup-resource-modifiers/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;launch blog&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-resource-modifiers-eks/",
+      "publishedAt": "2026-11-12T08:00:00.000Z",
+      "updatedAt": "2026-11-12T08:00:00.000Z",
+      "categories": [
+        "Storage",
+        "AWS Backup",
+        "Containers",
+        "Amazon Eks"
+      ],
+      "services": [
+        "EKS",
+        "Backup"
+      ],
+      "tags": [
+        "storage",
+        "aws backup",
+        "containers",
+        "amazon eks",
+        "eks",
+        "backup"
+      ],
+      "isNew": true,
+      "securityScore": 20,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "IAM"
       ],
       "source": "whats-new"
     },
@@ -13961,247 +14232,6 @@
       "securityMatches": [
         "access",
         "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "6a57ab554bced622",
-      "title": "OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
-      "description": "Today, AWS announces the availability of Ultrafast mode for GPT-6.1 Sol from OpenAI on Amazon Bedrock. Ultrafast mode provides faster inference for workloads where speed matters most. The Amazon Bedrock inference engine delivers the performance, security, and reliability required for production workloads. Use GPT-6.1 Sol Ultrafast for latency-sensitive applications such as real-time coding assistants, interactive agents, and customer-facing experiences that require fast, high-quality responses. GPT-6.1 Sol helps developers build features, debug issues, investigate complex codebases, and comple",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announces the availability of Ultrafast mode for GPT-6.1 Sol from OpenAI on Amazon Bedrock.&amp;nbsp;Ultrafast mode provides faster inference for workloads where speed matters most. The Amazon Bedrock inference engine delivers the performance, security, and reliability required for production workloads.&lt;/p&gt;\n&lt;p&gt;Use GPT-6.1 Sol&amp;nbsp;Ultrafast for latency-sensitive applications such as real-time coding assistants, interactive agents, and customer-facing experiences that require fast, high-quality responses. GPT-6.1 Sol helps developers build features, debug issues, investigate complex codebases, and complete multistep workflows. Established AWS controls help you secure workloads, govern access, and audit model invocation activity.&lt;/p&gt;\n&lt;p&gt;You can get started in the &lt;a href=\"https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/\"&gt;Amazon Bedrock console&lt;/a&gt; or programmatically through supported Amazon Bedrock APIs. For information about supported AWS Regions, endpoints, APIs, features, inference profiles, and pricing, see the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-1-sol.html\"&gt;Amazon Bedrock documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/",
-      "publishedAt": "2026-10-08T19:41:00.000Z",
-      "updatedAt": "2026-10-08T19:41:00.000Z",
-      "categories": [],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "7e067d20acc3b3a9",
-      "title": "AWS Continuum for Penetration Testing now supports continuous penetration testing integrated directly into your CI/CD pipeline",
-      "description": "AWS Continuum for Penetration Testing now integrates continuous penetration testing directly into your CI/CD pipeline (public preview) AWS Continuum for Penetration Testing (formerly AWS Security Agent) already provides continuous, on-demand penetration testing without the need to contract third-party pentest vendors. Now, in public preview, Continuum for Penetration Testing shifts security testing even further left by integrating directly into your existing CI/CD systems, making penetration testing a deploy-time event. Development teams ship code daily, but even with on-demand penetration tes",
-      "descriptionHtml": "&lt;p&gt;AWS Continuum for Penetration Testing now integrates continuous penetration testing directly into your CI/CD pipeline (public preview)&lt;/p&gt;\n&lt;p&gt;AWS Continuum for Penetration Testing (formerly AWS Security Agent) already provides continuous, on-demand penetration testing without the need to contract third-party pentest vendors. Now, in public preview, Continuum for Penetration Testing shifts security testing even further left by integrating directly into your existing CI/CD systems, making penetration testing a deploy-time event.&lt;/p&gt;\n&lt;p&gt;Development teams ship code daily, but even with on-demand penetration testing available, security validation often happens outside the deployment workflow. CI/CD integration closes this gap. Developers receive findings, including severity, affected endpoints, and remediation guidance, directly in pipeline output. Non-security changes complete with no meaningful delay, and the pipeline automatically re-tests and verifies fixes after remediation without requiring manual re-triggers.&lt;/p&gt;\n&lt;p&gt;Getting started requires no security expertise. An auto-generated pipeline snippet can be pasted into any existing pipeline and is completable in under five minutes. Application context bootstraps automatically on the first run, with no prior full penetration test required.&lt;/p&gt;\n&lt;p&gt;Continuous penetration testing is available today. To get started, visit our &lt;a href=\"https://docs.aws.amazon.com/securityagent/latest/userguide/cicd-pentest.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
-      "publishedAt": "2026-10-05T18:32:00.000Z",
-      "updatedAt": "2026-10-05T18:32:00.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "49e0bd1a32097a2c",
-      "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
-      "description": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies for ECS services using Amazon VPC Lattice . Applications that use VPC Lattice for service-to-service communication across VPCs and AWS accounts can now take advantage of managed traffic shifting natively from Amazon ECS when rolling out updates. With this launch, ECS customers using VPC Lattice can shift traffic in a controlled manner during deployments, choosing how quickly traffic moves based on their confidence in each release: all at once with blue/green, in equal increm",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/ecs/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Elastic Container Service&lt;/a&gt; (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies for ECS services using &lt;a href=\"https://aws.amazon.com/vpc/lattice/\" target=\"_blank\"&gt;Amazon VPC Lattice&lt;/a&gt;. Applications that use VPC Lattice for service-to-service communication across VPCs and AWS accounts can now take advantage of managed traffic shifting natively from Amazon ECS when rolling out updates.&lt;/p&gt;\n&lt;p&gt;With this launch, ECS customers using VPC Lattice can shift traffic in a controlled manner during deployments, choosing how quickly traffic moves based on their confidence in each release: all at once with blue/green, in equal increments with linear, or starting with a small percentage with canary. Teams can validate new versions with test traffic before shifting production traffic, and run custom validation steps or manual approvals with deployment lifecycle hooks, including Lambda and pause hooks. These services can also use Amazon CloudWatch alarms and the Amazon ECS deployment circuit breaker to automatically roll back deployments if issues are detected, with bake time keeping the previous version ready for a quick rollback without downtime.&lt;/p&gt;\n&lt;p&gt;To get started, select your VPC Lattice target groups, listener rule, and preferred deployment strategy in the ECS service configuration using the AWS Management Console, AWS CLI, AWS SDKs, or Infrastructure-as-Code tools. This functionality can be enabled for both new and existing ECS services in all AWS &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Regions&lt;/a&gt; where VPC Lattice is available. For more information, see &lt;a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/vpc-lattice-resources-for-blue-green.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon ECS deployments with VPC Lattice&lt;/a&gt;.\n &lt;br&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
-      "publishedAt": "2026-10-02T20:18:00.000Z",
-      "updatedAt": "2026-10-02T20:18:00.000Z",
-      "categories": [
-        "AWS Fargate",
-        "Containers",
-        "Amazon Ecs",
-        "Serverless"
-      ],
-      "services": [
-        "ECS",
-        "Fargate",
-        "VPC"
-      ],
-      "tags": [
-        "aws fargate",
-        "containers",
-        "amazon ecs",
-        "serverless",
-        "ecs",
-        "fargate",
-        "vpc"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "VPC"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "9527aeff89630720",
-      "title": "AWS Brazil automates distribution of non-Brazilian software product licenses to Brazilian customers",
-      "description": "AWS Brazil now provides an automated distribution workflow through the AWS Brazil 2P Distribution Program. Eligible non-Brazilian independent software vendors (ISVs) grant AWS Brazil the right to distribute their Software-as-a-Service (SaaS) product licenses, and AWS Brazil distributes them to customers in Brazil. AWS Brazil is the seller of record, invoicing Brazilian customers in Brazilian Reais (BRL) with applicable Brazilian taxes. The distribution authorizations, seller disbursements, withholding tax calculation, invoicing, and seller reporting are automated. Eligible ISVs agree to the ap",
-      "descriptionHtml": "&lt;p&gt;AWS Brazil now provides an automated distribution workflow through the AWS Brazil 2P Distribution Program. Eligible non-Brazilian independent software vendors (ISVs) grant AWS Brazil the right to distribute their Software-as-a-Service (SaaS) product licenses, and AWS Brazil distributes them to customers in Brazil. AWS Brazil is the seller of record, invoicing Brazilian customers in Brazilian Reais (BRL) with applicable Brazilian taxes. The distribution authorizations, seller disbursements, withholding tax calculation, invoicing, and seller reporting are automated.&lt;/p&gt;\n&lt;p&gt;Eligible ISVs agree to the applicable Brazil 2P distribution terms to grant AWS Brazil the right to distribute SaaS product licenses locally by creating distribution authorizations through AWS Partner Central or public APIs. AWS Brazil, as the seller of record, creates private offers for Brazilian buyers, determines the buyer-facing price, and automatically generates invoices, calculates and withholds taxes, and disburses payments. ISVs track transactions and payment status through the Seller Insights dashboard.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Buyers in Brazil see private offers priced in USD and invoiced in BRL by AWS Brazil, using the exchange rate on the invoice date. Buyers can pay by credit card (Visa, Mastercard, American Express) or Pay by Invoice (PBI), add a purchase order number, and access invoices in the AWS Billing Console.&lt;/p&gt;\n&lt;p&gt;To learn more about the AWS Brazil 2P Distribution Program, visit the &lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/userguide/brazil-2p-getting-started.html\"&gt;AWS Marketplace Seller Guide&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/marketplace/latest/buyerguide/brazil-2p-buyer-faq.html\"&gt;AWS Marketplace Buyer Guide&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/",
-      "publishedAt": "2026-10-02T16:30:00.000Z",
-      "updatedAt": "2026-10-02T16:30:00.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "authorization"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "461cd26f73604f2b",
-      "title": "Amazon S3 Object Lock variable retention with event holds is now available in AWS GovCloud (US) Regions",
-      "description": "Amazon S3 Object Lock support for variable retention with event holds is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). Amazon S3 Object Lock variable retention allows you to apply write-once-read-many (WORM) protection to objects whose required retention period starts with a future event, such as a contract closing or an audit completing. You place an event hold with a retention duration on an object and S3 protects the object while the hold is in place. When you release the hold, S3 retains the object for the duration you specified. Unlike legal holds, which end protecti",
-      "descriptionHtml": "&lt;p&gt;Amazon S3 Object Lock support for variable retention with event holds is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West).&lt;/p&gt;\n&lt;p&gt;Amazon S3 Object Lock variable retention allows you to apply write-once-read-many (WORM) protection to objects whose required retention period starts with a future event, such as a contract closing or an audit completing. You place an event hold with a retention duration on an object and S3 protects the object while the hold is in place. When you release the hold, S3 retains the object for the duration you specified. Unlike legal holds, which end protection immediately upon removal, event holds provide WORM compliance for the required retention period after the triggering event, so you can meet event-based retention requirements without retaining data longer than your policy requires.\n &lt;br&gt;\n &lt;br&gt;\n To learn more, read the &lt;a href=\"https://aws.amazon.com/blogs/storage/flexibly-control-amazon-s3-object-lock-retention-based-on-real-business-events\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Storage Blog post&lt;/a&gt;, the &lt;a href=\"https://aws.amazon.com/s3/features/object-lock/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;S3 Object Lock overview page&lt;/a&gt;, and the &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;S3 documentation&lt;/a&gt;. This capability has been &lt;a href=\"https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/whitepapers/compliance/Amazon-S3-Compliance-Assessment-2026.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;assessed by Cohasset Associates&lt;/a&gt; for use in environments subject to SEC Rule 17a-4(f), FINRA Rule 4511, and CFTC Regulation 1.31.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-object-lock-variable-retention-event-holds-aws-govcloud/",
-      "publishedAt": "2026-10-01T13:00:00.000Z",
-      "updatedAt": "2026-10-01T13:00:00.000Z",
-      "categories": [
-        "Storage",
-        "Amazon S3"
-      ],
-      "services": [
-        "S3"
-      ],
-      "tags": [
-        "storage",
-        "amazon s3",
-        "s3"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "audit",
-        "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "42bea7c0190b8731",
-      "title": "Apache Iceberg materialized views now support system-managed write protection",
-      "description": "Today, AWS announces system-managed materialized views for Apache Iceberg. Materialized views let you precompute an expensive query once and reuse the result across engines. Because this result is an open Iceberg table in your data lake, anyone with write access can change it, either through the catalog or by writing to the files in Amazon S3. System-managed materialized views close this gap by only allowing AWS Glue to write the materialized view's data and definition, so the result stays exactly as computed regardless of who has write access to the table or the underlying S3 files . To get s",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announces system-managed materialized views for Apache Iceberg. Materialized views let you precompute an expensive query once and reuse the result across engines. Because this result is an open Iceberg table in your data lake, anyone with write access can change it, either through the catalog or by writing to the files in Amazon S3. System-managed materialized views close this gap by only allowing AWS Glue to write the materialized view's data and definition, so the result stays exactly as computed regardless of who has write access to the table or the underlying S3 files&lt;b&gt;&lt;i&gt;.&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;To get started, write the SQL that defines the materialized view and, optionally, a refresh schedule. AWS Glue then computes the results, stores them as a standard Apache Iceberg table in your Amazon S3 Tables bucket, and keeps them current on your schedule. Because the result is an ordinary Iceberg table in the AWS Glue Data Catalog, any Iceberg-compatible engine can read it directly, while the service guarantees no other writer can alter it. You get a governed, always-consistent dataset that you can confidently share. You can still refresh, reschedule, or drop the view whenever you need to.&lt;/p&gt;\n&lt;p&gt;System-managed Apache Iceberg materialized views are available in all regions where Apache Iceberg materialized views are supported. To learn more, see &lt;a title=\"System-managed MVs user guide\" href=\"https://docs.aws.amazon.com/glue/latest/dg/materialized-views.html#materialized-views-system-managed\"&gt;System-managed materialized views&lt;/a&gt;&amp;nbsp;in the &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html\"&gt;AWS Glue Developer Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/system-managed-iceberg-materialized-views",
-      "publishedAt": "2026-09-30T21:19:00.000Z",
-      "updatedAt": "2026-09-30T21:19:00.000Z",
-      "categories": [
-        "Amazon Emr",
-        "AWS Glue"
-      ],
-      "services": [
-        "EMR",
-        "Glue"
-      ],
-      "tags": [
-        "amazon emr",
-        "aws glue",
-        "emr",
-        "glue"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "access",
-        "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "305bbee3e1b4d350",
-      "title": "AWS accounts now support phone number verification",
-      "description": "AWS Accounts now support phone number verification for primary contact phone numbers. Previously, phone numbers in AWS account contact information were validated for format but never verified through an out-of-band mechanism. Now, customers can verify their phone numbers via SMS one-time passcode (OTP). To verify a phone number, customers initiate verification through the AWS Management Console or programmatically via the new SendPhoneNumberVerification API, which sends a 6-digit OTP. After entering the code, the VerifyPhoneNumber API validates and persists the verified status. When a phone nu",
-      "descriptionHtml": "&lt;p&gt;AWS Accounts now support phone number verification for primary contact phone numbers. Previously, phone numbers in AWS account contact information were validated for format but never verified through an out-of-band mechanism. Now, customers can verify their phone numbers via SMS one-time passcode (OTP).&lt;/p&gt;\n&lt;p&gt;To verify a phone number, customers initiate verification through the AWS Management Console or programmatically via the new SendPhoneNumberVerification API, which sends a 6-digit OTP. After entering the code, the VerifyPhoneNumber API validates and persists the verified status. When a phone number is changed through the PutContactInformation API, customers will be prompted to complete verification again. The GetContactInformation API now exposes verification status, enabling customers to confirm which phone numbers have been verified.&lt;/p&gt;\n&lt;p&gt;For AWS Organizations customers, phone number verification supports inheritance from the management account. When a verified phone number is applied to member accounts from the management account, those member accounts inherit the verified status if the number matches the management account, eliminating the need to verify the same number across thousands of accounts. Member accounts that independently change their own phone numbers will need to complete verification separately.&lt;/p&gt;\n&lt;p&gt;This feature is available in all AWS commercial regions. To learn more about phone number verification, visit the &lt;a href=\"https://docs.aws.amazon.com/accounts/latest/reference/\"&gt;AWS Account Management documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-accounts-phone-number-verification/",
-      "publishedAt": "2026-09-30T08:00:00.000Z",
-      "updatedAt": "2026-09-30T08:00:00.000Z",
-      "categories": [
-        "Management And Governance",
-        "Security Identity And Compliance",
-        "AWS Organizations"
-      ],
-      "services": [
-        "Organizations"
-      ],
-      "tags": [
-        "management and governance",
-        "security identity and compliance",
-        "aws organizations",
-        "organizations"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "fc3974fe27d5adb4",
-      "title": "AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
-      "description": "AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file transfer needs grow without waiting for manual approval. The default quota remains 100 SFTP connectors per AWS account in each AWS Region, and you continue to request increases in the AWS Service Quotas console. Previously, all quota increases required manual approval. Automatic approval applies to connectors using either service-managed or Amazon VPC Lattice egress. If you need more than 1,000 connecto",
-      "descriptionHtml": "&lt;p&gt;AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file transfer needs grow without waiting for manual approval.&lt;/p&gt;\n&lt;p&gt;The default quota remains 100 SFTP connectors per AWS account in each AWS Region, and you continue to request increases in the AWS Service Quotas console. Previously, all quota increases required manual approval. Automatic approval applies to connectors using either service-managed or Amazon VPC Lattice egress. If you need more than 1,000 connectors, submit a higher quota request in the Service Quotas console.&lt;/p&gt;\n&lt;p&gt;This feature is available in all AWS Regions where Transfer Family SFTP connectors are offered. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/transfer/latest/userguide/creating-connectors.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Transfer Family SFTP connectors documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
-      "publishedAt": "2026-09-30T08:00:00.000Z",
-      "updatedAt": "2026-09-30T08:00:00.000Z",
-      "categories": [
-        "Storage",
-        "AWS Transfer Family"
-      ],
-      "services": [
-        "Transfer Family"
-      ],
-      "tags": [
-        "storage",
-        "aws transfer family",
-        "transfer family"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "VPC"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "079913c37a6a04ce",
-      "title": "OpenAI GPT-6.1 Sol is now generally available on Amazon Bedrock",
-      "description": "Today, AWS announces the general availability of GPT-6.1 Sol from OpenAI on Amazon Bedrock. An upgrade to GPT-6 Sol, GPT-6.1 Sol delivers exceptionally strong performance on agentic coding, computer use, and professional work. According to OpenAI, it approaches GPT-6 Astra across demanding evaluations at roughly one-fifth of the cost, giving developers more room to build and run capable agents at scale. The Amazon Bedrock inference engine delivers the performance, security, and reliability required for production workloads. Use GPT-6.1 Sol to build features, debug issues, iterate on solutions,",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announces the general availability of GPT-6.1 Sol from OpenAI on Amazon Bedrock. An upgrade to GPT-6 Sol, GPT-6.1 Sol delivers exceptionally strong performance on agentic coding, computer use, and professional work. According to OpenAI, it approaches GPT-6 Astra across demanding evaluations at roughly one-fifth of the cost, giving developers more room to build and run capable agents at scale.&amp;nbsp;The Amazon Bedrock inference engine delivers the performance, security, and reliability required for production workloads.&lt;/p&gt;\n&lt;p&gt;Use GPT-6.1 Sol to build features, debug issues, iterate on solutions, carry out multistep workflows, and investigate complex codebases. It also supports explicit prompt caching on Amazon Bedrock, making it practical for agentic workloads that reuse context across repeated requests. Established AWS controls help you secure workloads, govern access, and audit model invocation activity.&lt;/p&gt;\n&lt;p&gt;You can get started in the&lt;a href=\"https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/\"&gt; Amazon Bedrock console&lt;/a&gt; or programmatically through supported Amazon Bedrock APIs. For information about supported&lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html\"&gt; AWS Regions&lt;/a&gt;, endpoints, APIs, features, inference profiles and pricing, see the&lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html\"&gt; Amazon Bedrock documentation&lt;/a&gt;. To learn more, &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/\"&gt;read the blog.&lt;/a&gt;&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-1-sol-on-amazon-bedrock/",
-      "publishedAt": "2026-09-29T20:17:00.000Z",
-      "updatedAt": "2026-09-29T20:17:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Amazon Bedrock"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "amazon bedrock",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security"
       ],
       "source": "whats-new"
     }
