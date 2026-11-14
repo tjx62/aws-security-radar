@@ -1,7 +1,42 @@
 {
-  "lastUpdated": "2026-11-13T15:57:30.394Z",
+  "lastUpdated": "2026-11-14T14:50:22.267Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "7d2dd5f9b3c87c86",
+      "title": "AWS Secrets Manager now supports cross-account replication",
+      "description": "AWS Secrets Manager now supports cross-account replication, enabling you to maintain a synchronized copy of a primary secret in a secondary AWS account for cross-account access, backup, and disaster recovery. Cross-account replication extends the existing multi-Region replication capability across account boundaries. With cross-account replication, platform or security teams can own and rotate a secret centrally, and each consuming account gets a local, always-current copy without any shared KMS keys or cross-account secret policies. The replica secret is a full, independent resource, encrypte",
+      "descriptionHtml": "&lt;p&gt;AWS Secrets Manager now supports cross-account replication, enabling you to maintain a synchronized copy of a primary secret in a secondary AWS account for cross-account access, backup, and disaster recovery. Cross-account replication extends the existing multi-Region replication capability across account boundaries.&lt;/p&gt; \n&lt;p&gt;With cross-account replication, platform or security teams can own and rotate a secret centrally, and each consuming account gets a local, always-current copy without any shared KMS keys or cross-account secret policies. The replica secret is a full, independent resource, encrypted with a customer managed KMS key owned by the replica account. Secrets Manager updates it automatically whenever the primary secret's value changes, including rotations.&lt;/p&gt; \n&lt;p&gt;You can keep a live copy of critical secrets in a dedicated recovery or failover account, isolated from ransomware or a compromised primary account. If needed, the replica can be promoted to a standalone secret.&lt;/p&gt; \n&lt;p&gt;Cross-account replication is available in all AWS Regions where Secrets Manager is available. For a list of regions where Secrets Manager is available, see the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Region table&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/secretsmanager/latest/userguide/cross-account-replicate-secrets.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Replicate secrets across AWS accounts in the Secrets Manager User Guide&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/secretsmanager/latest/apireference/API_AssociateCrossAccountReplica.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AssociateCrossAccountReplica API reference&lt;/a&gt;. For pricing details, see &lt;a href=\"https://aws.amazon.com/secrets-manager/pricing/\"&gt;AWS Secrets Manager pricing&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "updatedAt": "2026-11-13T08:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "Disaster Recovery",
+        "AWS Secrets Manager"
+      ],
+      "services": [
+        "Secrets Manager"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "disaster recovery",
+        "aws secrets manager",
+        "secrets manager"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "KMS",
+        "Secrets Manager",
+        "encrypt",
+        "security",
+        "access",
+        "Secret"
+      ],
+      "source": "whats-new"
+    },
     {
       "id": "0cc835dd792227a0",
       "title": "Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments",
@@ -193,7 +228,7 @@
         "security blog",
         "eks"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -1776,6 +1811,40 @@
         "Organizations"
       ],
       "source": "security-blog"
+    },
+    {
+      "id": "dc1b9586a95b04a0",
+      "title": "AWS Security Hub CSPM now supports centralized configuration with AWS Organizations declarative policies",
+      "description": "AWS Security Hub CSPM now supports AWS Organizations declarative policies. You can use them to enable Security Hub CSPM across all accounts and Regions in your organization and to define which security standards and controls are enabled. Policies can apply broadly to every account and Region, or target specific account and Region combinations. Declarative policies help keep each account's configuration aligned with its attached policy, which helps prevent configuration drift. You can also apply them automatically to new accounts, so each account starts with a baseline configuration as soon as ",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security-hub/cspm/\"&gt;AWS Security Hub CSPM&lt;/a&gt; now supports AWS Organizations declarative policies. You can use them to enable Security Hub CSPM across all accounts and Regions in your organization and to define which security standards and controls are enabled.&lt;/p&gt;\n&lt;p&gt;Policies can apply broadly to every account and Region, or target specific account and Region combinations. Declarative policies help keep each account's configuration aligned with its attached policy, which helps prevent configuration drift. You can also apply them automatically to new accounts, so each account starts with a baseline configuration as soon as it's created.&lt;/p&gt;\n&lt;p&gt;Declarative policies are now the recommended way to manage Security Hub CSPM across an organization. They align with how other security services, such as Amazon GuardDuty, Amazon Inspector, and AWS Security Hub allow customers to manage configuration of the service. They also provide more flexibility, such as configuring Region-specific settings. You can continue to use central configuration until you're ready to migrate. When you are, use the migration process in the Security Hub CSPM console. It converts your existing central configuration policies into declarative policies and applies them to the appropriate accounts and regions.&lt;/p&gt;\n&lt;p&gt;Declarative policies for Security Hub CSPM are available in all commercial, AWS GovCloud (US), and China Regions. To get started, see &lt;a href=\"https://docs.aws.amazon.com/securityhub/latest/userguide/orgs-policies-and-central-config.html#orgs-policies-import-tool\" target=\"_blank\"&gt;Migrating central configuration policies&lt;/a&gt;. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/securityhub/latest/userguide/accounts-orgs-policies.html\" target=\"_blank\"&gt;Declarative policies&lt;/a&gt; in the AWS Security Hub CSPM User Guide and &lt;a href=\"https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_security_hub_cspm.html\" target=\"_blank\"&gt;Security Hub CSPM policies&lt;/a&gt; in the AWS Organizations User Guide. To receive notifications about new Security Hub CSPM features and controls, subscribe to the &lt;a href=\"https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-announcements.html\" target=\"_blank\"&gt;Security Hub SNS topic&lt;/a&gt;. You can also &lt;a href=\"https://aws.amazon.com/security-hub/cspm/pricing/\"&gt;try Security Hub CSPM at no cost for 30 days&lt;/a&gt; with the AWS Free Tier offering.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-cspm-org-policies/",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "updatedAt": "2026-11-13T08:00:00.000Z",
+      "categories": [
+        "AWS Organizations",
+        "AWS Security Hub"
+      ],
+      "services": [
+        "Security Hub",
+        "Organizations"
+      ],
+      "tags": [
+        "aws organizations",
+        "aws security hub",
+        "security hub",
+        "organizations"
+      ],
+      "isNew": true,
+      "securityScore": 95,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Security Hub",
+        "security",
+        "Config",
+        "Organizations",
+        "policy"
+      ],
+      "source": "whats-new"
     },
     {
       "id": "7d8cc8220b67c747",
@@ -3596,7 +3665,7 @@
         "amazon mwaa",
         "mwaa"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 70,
       "securityLevel": "critical",
       "securityMatches": [
@@ -4533,6 +4602,104 @@
         "token",
         "credential",
         "Secret"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "46ae3908161ccde7",
+      "title": "Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents",
+      "description": "From Oct. 3 to Nov. 5, 2026, Amazon’s MadPot, a globally distributed network of decoy threat sensors, captured requests from AI agents that included operating memory from offensive campaigns that threat actors ran on ARTEX, an open-source agentic AI penetration testing framework. The ARTEX agents sent these requests to MadPot sensors configured to present as […]",
+      "descriptionHtml": "From Oct. 3 to Nov. 5, 2026, Amazon’s MadPot, a globally distributed network of decoy threat sensors, captured requests from AI agents that included operating memory from offensive campaigns that threat actors ran on ARTEX, an open-source agentic AI penetration testing framework. The ARTEX agents sent these requests to MadPot sensors configured to present as […]",
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/",
+      "publishedAt": "2026-11-13T20:26:42.000Z",
+      "updatedAt": "2026-11-13T20:26:42.000Z",
+      "categories": [
+        "Announcements",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "announcements",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Config",
+        "threat"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "323014b554567573",
+      "title": "Apache Airflow UI available in Amazon MWAA Serverless",
+      "description": "Amazon MWAA Serverless provides the native Apache Airflow UI for your workflows. You can browse workflows, inspect workflow runs and task instances, read task logs, view a workflow's source and versions, and start a workflow run. The UI uses the permissions of the IAM identity that opens it and shows only what that identity can read, so read-only access is possible. AWS CloudTrail records the calls the UI makes under your identity. You can open the Airflow UI from the Amazon MWAA console, the AWS CLI, or the API. Teams already familiar with Airflow can use the interface they know to work with ",
+      "descriptionHtml": "&lt;p&gt;Amazon MWAA Serverless provides the native Apache Airflow UI for your workflows. You can browse workflows, inspect workflow runs and task instances, read task logs, view a workflow's source and versions, and start a workflow run. The UI uses the permissions of the IAM identity that opens it and shows only what that identity can read, so read-only access is possible. AWS CloudTrail records the calls the UI makes under your identity.&lt;/p&gt;\n&lt;p&gt;You can open the Airflow UI from the Amazon MWAA console, the AWS CLI, or the API. Teams already familiar with Airflow can use the interface they know to work with their workflows.&lt;/p&gt;\n&lt;p&gt;This feature is available in all AWS Regions where Amazon MWAA Serverless is available. For more information, see the &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/what-is-mwaa-serverless.html#regions\" target=\"_blank\"&gt;AWS Region table&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;To get started, see &lt;a href=\"https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/workflows-airflow-ui.html\" target=\"_blank\"&gt;Access the Airflow UI&lt;/a&gt;. Apache Airflow is a trademark of the &lt;a href=\"https://www.apache.org/\" target=\"_blank\"&gt;Apache Software Foundation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/airflow-ui-for-mwaa-serverless/",
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "updatedAt": "2026-11-12T18:00:00.000Z",
+      "categories": [
+        "Analytics",
+        "Amazon Mwaa"
+      ],
+      "services": [
+        "MWAA"
+      ],
+      "tags": [
+        "analytics",
+        "amazon mwaa",
+        "mwaa"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "CloudTrail",
+        "permission",
+        "access",
+        "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "c99d721ade4451ce",
+      "title": "Amazon Route 53 now supports record set protection",
+      "description": "Amazon Route 53 now supports record set protection, which helps DNS administrators prevent accidental changes to critical DNS records in their hosted zones. This feature allows you to protect records such as those at the zone apex, MX records, and production endpoints directly in the hosted zone. Any change to a protected record is blocked until the protection is removed by an authorized user. Previously, to lock specific records, you had to write record-level conditions into the IAM policies of every user and role that could change your hosted zones. When those policies blocked a change, the ",
+      "descriptionHtml": "&lt;p&gt;Amazon Route 53 now supports record set protection, which helps DNS administrators prevent accidental changes to critical DNS records in their hosted zones. This feature allows you to protect records such as those at the zone apex, MX records, and production endpoints directly in the hosted zone. Any change to a protected record is blocked until the protection is removed by an authorized user.&lt;/p&gt;\n&lt;p&gt;Previously, to lock specific records, you had to write record-level conditions into the IAM policies of every user and role that could change your hosted zones. When those policies blocked a change, the caller had no indication of whether the record was protected or why. Now you can protect records by name and type directly in the hosted zone. A single protection covers all records with that name and type, including records with different set identifiers; weighted, latency, and other routing policy records are protected together. You can also create a protection proactively before the record exists, preventing records from being created for that name and type. Each protection can include an optional comment of up to 256 characters, allowing you to indicate the reason for the protection. You can manage protections using the Route 53 console, AWS CLI, or AWS SDKs through the CreateResourceRecordSetProtections, DeleteResourceRecordSetProtections, and ListResourceRecordSetProtections API actions. To control who can remove protections, restrict the DeleteResourceRecordSetProtections permission in IAM policies.&lt;/p&gt;\n&lt;p&gt;Record set protection is available in all AWS commercial Regions where public and private hosted zones are available today. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/rrset-protection.html\" target=\"_blank\"&gt;Protecting records from changes&lt;/a&gt; in the Amazon Route 53 Developer Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-route-53-record-set-protection/",
+      "publishedAt": "2026-11-12T08:00:00.000Z",
+      "updatedAt": "2026-11-12T08:00:00.000Z",
+      "categories": [
+        "Networking And Content Delivery",
+        "Amazon Route 53",
+        "Security",
+        "Ease Of Use"
+      ],
+      "services": [
+        "Route 53"
+      ],
+      "tags": [
+        "networking and content delivery",
+        "amazon route 53",
+        "security",
+        "ease of use",
+        "route 53"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "role",
+        "removed"
       ],
       "source": "whats-new"
     },
@@ -6140,7 +6307,7 @@
       "tags": [
         "ssm"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 50,
       "securityLevel": "medium",
       "securityMatches": [
@@ -7770,6 +7937,35 @@
       "source": "security-blog"
     },
     {
+      "id": "ae8a0763b8fe5fd1",
+      "title": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 discovery URLs",
+      "description": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 authorization server discovery URLs for both inbound JWT authorization and outbound OAuth credential providers. This update enables developers to configure AgentCore with OAuth 2.0 authorization servers that do not use OpenID Connect (OIDC). Previously, AgentCore Identity accepted only OIDC discovery URLs. Authorization servers that implement OAuth 2.0 without OIDC publish their metadata at a different well-known path and could not be used with AgentCore. With this launch, you can use either OIDC or OAuth 2.0 authorization server discove",
+      "descriptionHtml": "&lt;p&gt;Amazon Bedrock AgentCore Identity now supports OAuth 2.0 authorization server discovery URLs for both inbound JWT authorization and outbound OAuth credential providers. This update enables developers to configure AgentCore with OAuth 2.0 authorization servers that do not use OpenID Connect (OIDC).&lt;/p&gt; \n&lt;p&gt;Previously, AgentCore Identity accepted only OIDC discovery URLs. Authorization servers that implement OAuth 2.0 without OIDC publish their metadata at a different well-known path and could not be used with AgentCore. With this launch, you can use either OIDC or OAuth 2.0 authorization server discovery URLs when you configure a JWT authorizer or a custom OAuth credential provider on AgentCore.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where Amazon Bedrock AgentCore is available, at no additional cost. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/inbound-jwt-authorizer.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Configure inbound JWT authorizer&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/identity-add-oauth-client-custom.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Add OAuth client using custom provider&lt;/a&gt; in the &lt;i&gt;Amazon Bedrock AgentCore Developer Guide&lt;/i&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-oauth2-discovery/",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "updatedAt": "2026-11-13T08:00:00.000Z",
+      "categories": [
+        "Amazon Bedrock"
+      ],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "amazon bedrock",
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "authorization",
+        "Config",
+        "identity",
+        "credential"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "19bad2d08da7b6e6",
       "title": "CVE-2026-126793 - Privilege escalation in Aurora PostgreSQL dialect detection in AWS Advanced Go Wrapper",
       "description": "Bulletin ID: 2026-182-AWS Publication Date: 11/12/2026 13:00 PM PST Description: An untrusted search path issue in Aurora PostgreSQL dialect detection in the AWS Advanced Go Wrapper from release 2026-04-06 (awssql/v2.0.0) and before release 2026-07-29 (awssql/v2.0.3) could allow a remote authenticated user to escalate privileges to those of another database user, including a member of the rds_superuser role, via a crafted function that runs when that user connects to an Aurora PostgreSQL cluster through an affected version of the wrapper. Impacted versions: AWS Advanced Go Wrapper >=2026-04-06",
@@ -9229,6 +9425,34 @@
       "source": "whats-new"
     },
     {
+      "id": "6846f8359699b5ce",
+      "title": "Amazon SageMaker Unified Studio now supports layout customization for designations",
+      "description": "Amazon SageMaker Unified Studio now supports layout customization, a new capability that gives domain administrators control over which tools and left navigation items project members see based on their designation. Organizations with data engineering, analytics, and machine learning teams on a single platform can configure a layout within each designation definition, and that layout applies across every project in the domain without per-project configuration. Previously, all project members saw the same interface regardless of their role, creating confusion and potential governance issues. Wi",
+      "descriptionHtml": "&lt;p&gt;Amazon SageMaker Unified Studio now supports layout customization, a new capability that gives domain administrators control over which tools and left navigation items project members see based on their designation. Organizations with data engineering, analytics, and machine learning teams on a single platform can configure a layout within each designation definition, and that layout applies across every project in the domain without per-project configuration.&lt;/p&gt; \n&lt;p&gt;Previously, all project members saw the same interface regardless of their role, creating confusion and potential governance issues. With layout customization, administrators define a layout as part of a designation that specifies which left navigation items are visible for project members assigned to that designation. When a project member opens a project, SageMaker Unified Studio resolves the member's designation and renders only the tools included in their designation's layout. For example, a SQL analyst designation can be configured to show only the Query Editor, while an ML engineer designation shows notebooks, training jobs, and model endpoints. Navigation items are configurable across categories including Data Analytics, artificial intelligence and machine learning (AI/ML), Generative AI, and IDEs. If a project member navigates directly to a hidden page, they see an access-denied page. For members with multiple designations, visible tools are the union of all their designations' layouts. New navigation items added to SageMaker Unified Studio remain hidden for designations with a configured layout until an administrator adds them.&lt;/p&gt; \n&lt;p&gt;This feature is available in all &lt;a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/supported-regions.html\"&gt;AWS Regions&lt;/a&gt; where Amazon SageMaker Unified Studio is available. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/designations.html\"&gt;Designations&lt;/a&gt; documentation.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-layout-customization/",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "updatedAt": "2026-11-13T08:00:00.000Z",
+      "categories": [
+        "Amazon Sagemaker"
+      ],
+      "services": [
+        "SageMaker"
+      ],
+      "tags": [
+        "amazon sagemaker",
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Config",
+        "Organizations",
+        "role"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "8dbbab512d1530fc",
       "title": "AWS Quick enhances granular governance with the ability to restrict structured data sources",
       "description": "Today, AWS Quick is announcing the general availability of structured data connector restrictions through custom permissions. This capability gives administrators granular control over which types of data sources users can create, update, or share, helping organizations enforce data governance requirements while enabling self-service analytics. With this feature, administrators can configure custom permissions profiles in Enterprise edition through the Quick UI, APIs, or AWS Command Line Interface. For example, an organization can allow users to create Amazon Redshift data sources while restri",
@@ -9292,6 +9516,31 @@
       "source": "security-bulletin"
     },
     {
+      "id": "4f8ed1a84f156a7b",
+      "title": "AWS DMS Schema Conversion expands offline source conversion to Oracle",
+      "description": "AWS Database Migration Service (DMS) Schema Conversion now supports offline source conversion for Oracle Database. You can convert Oracle schemas and code without direct connectivity to your source databases. You can extract metadata using standard database commands in your own environment, then upload it to DMS Schema Conversion for processing. This removes the need for security reviews, firewall changes, and VPN setup that delay migration projects, and delivers the same conversion results as the connected approach. Offline Source suits organizations whose security policies restrict external ",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/dms/\"&gt;AWS Database Migration Service (DMS) Schema Conversion&lt;/a&gt; now supports offline source conversion for Oracle Database. You can convert Oracle schemas and code without direct connectivity to your source databases. You can extract metadata using standard database commands in your own environment, then upload it to DMS Schema Conversion for processing. This removes the need for security reviews, firewall changes, and VPN setup that delay migration projects, and delivers the same conversion results as the connected approach.&lt;/p&gt; \n&lt;p&gt;Offline Source suits organizations whose security policies restrict external tool access to production Oracle databases. Database administrators can generate human-readable metadata files within their existing environment. Security teams can review the commands and output before upload, simplifying approval. By removing the connectivity requirement, Offline Source turns weeks of security reviews into a simple command-and-upload workflow.&lt;/p&gt; \n&lt;p&gt;Offline Source supports all DMS Schema Conversion targets at no additional conversion charge. For regional availability, see the &lt;a href=\"https://docs.aws.amazon.com/dms/latest/userguide/CHAP_SchemaConversion.html#schema-conversion-supported-regions\"&gt;Supported AWS Regions&lt;/a&gt; page. To get started, see &lt;a href=\"https://docs.aws.amazon.com/dms/latest/userguide/virtual-data-provider.html\"&gt;Using Offline Source&lt;/a&gt; in the DMS Schema Conversion documentation.&amp;nbsp;To learn how to run offline assessment and conversion with AI agents, read the launch &lt;a href=\"https://aws.amazon.com/blogs/database/offline-assessment-and-conversion-with-ai-agents-in-aws-dms/\"&gt;blog post&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-dms-schema-conversion-expands-offline-source-conversion-to-oracle/",
+      "publishedAt": "2026-11-06T23:53:00.000Z",
+      "updatedAt": "2026-11-06T23:53:00.000Z",
+      "categories": [],
+      "services": [
+        "DMS"
+      ],
+      "tags": [
+        "dms"
+      ],
+      "isNew": false,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "security",
+        "Organizations",
+        "firewall"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "7f2b199c1b1ed511",
       "title": "CVE-2026-119923 and CVE-2026-119924: Issues with Babelfish for Aurora PostgreSQL",
       "description": "Read this article",
@@ -9306,7 +9555,7 @@
       "tags": [
         "aurora"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -12463,6 +12712,37 @@
       "source": "whats-new"
     },
     {
+      "id": "a7f36f312d592ec7",
+      "title": "AWS Systems Manager simplifies onboarding of Google Cloud VMs for centralized management",
+      "description": "AWS Systems Manager Cloud Connector now extends simplified multicloud onboarding support to Google Cloud, making it easy to connect your existing Google Cloud VMs to Systems Manager for centralized management alongside AWS, on-premises, and Azure resources without manual agent installation. Previously, managing virtual machines across multiple cloud providers often required coordinating and setting up configurations separately in each environment. With Cloud Connector for Google Cloud, you can automatically deploy the SSM Agent to Google Cloud VMs at scale. Once connected, Google Cloud VMs app",
+      "descriptionHtml": "&lt;p&gt;AWS Systems Manager Cloud Connector now extends simplified multicloud onboarding support to Google Cloud, making it easy to connect your existing Google Cloud VMs to Systems Manager for centralized management alongside AWS, on-premises, and Azure resources without manual agent installation. Previously, managing virtual machines across multiple cloud providers often required coordinating and setting up configurations separately in each environment.&lt;/p&gt; \n&lt;p&gt;With Cloud Connector for Google Cloud, you can automatically deploy the SSM Agent to Google Cloud VMs at scale. Once connected, Google Cloud VMs appear alongside EC2 instances, on-premises servers, and other multicloud resources in a unified view, enabling you to use Session Manager, Automation runbooks, Run Command, State Manager, Patch Manager, and Inventory across AWS, on-premises, Azure, and Google Cloud from a single workflow. This simplifies operations for teams managing infrastructure across multiple clouds, enabling them to standardize management practices and reduce operational complexity.&lt;/p&gt; \n&lt;p&gt;Cloud Connector for Google Cloud is available in Africa (Cape Town), Asia Pacific (Hong Kong, Hyderabad, Jakarta, Malaysia, Melbourne, Mumbai, New Zealand, Osaka, Seoul, Singapore, Sydney, Taipei, Thailand, Tokyo), Canada (Central, Calgary), Europe (Frankfurt, Ireland, London, Milan, Paris, Spain, Stockholm, Zurich), Israel (Tel Aviv), Mexico (Central), South America (Sao Paulo), US East (N. Virginia, Ohio), and US West (N. California, Oregon).&lt;/p&gt; \n&lt;p&gt;To learn more, visit the AWS Systems Manager documentation.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/systems-manager-google-cloud-support/",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "updatedAt": "2026-11-13T08:00:00.000Z",
+      "categories": [
+        "Compute",
+        "Management And Governance",
+        "AWS Systems Manager"
+      ],
+      "services": [
+        "Systems Manager"
+      ],
+      "tags": [
+        "compute",
+        "management and governance",
+        "aws systems manager",
+        "systems manager"
+      ],
+      "isNew": true,
+      "securityScore": 20,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "Systems Manager"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "23913feb764f7342",
       "title": "AWS Backup now supports resource modifiers for Amazon EKS restores",
       "description": "Today, AWS Backup announces support for resource modifiers when restoring Amazon Elastic Kubernetes Service (Amazon EKS) backups. Resource modifiers let you transform Kubernetes resources during a restore, so you can adapt a restored cluster to its target environment. When you restore an EKS backup that has been copied across accounts or across AWS Regions, the restored cluster can carry references tied to the source environment, such as IAM roles, database endpoints, and Amazon ECR registry URIs. Previously, you had to locate and update these references manually after every restore, which was",
@@ -12603,7 +12883,7 @@
         "artificial intelligence",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -13750,6 +14030,65 @@
       "source": "whats-new"
     },
     {
+      "id": "38dcab5f94a69a90",
+      "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
+      "description": "AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings. For EKS clusters that enforce the Kubernetes Pod Security Standards restricted profile, you can now run AWS Batch jobs with only the privileges and system calls they require. To get started, use the RegisterJobDefinition API to set capabilities and seccompProfile in a container's securityContext , or set securityContext in podProperties to define pod-wide settings such as fsGroup . Container-level settings override pod-lev",
+      "descriptionHtml": "&lt;p&gt;AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings.&amp;nbsp;For EKS clusters that enforce the Kubernetes Pod Security Standards restricted profile, you can now run AWS Batch jobs with only the privileges and system calls they require.&lt;/p&gt; \n&lt;p&gt;To get started, use the &lt;i&gt;RegisterJobDefinition&lt;/i&gt; API to set &lt;i&gt;capabilities&lt;/i&gt; and &lt;i&gt;seccompProfile&lt;/i&gt; in a container's &lt;i&gt;securityContext&lt;/i&gt;, or set &lt;i&gt;securityContext&lt;/i&gt; in &lt;i&gt;podProperties&lt;/i&gt; to define pod-wide settings such as &lt;i&gt;fsGroup&lt;/i&gt;. Container-level settings override pod-level defaults. You can configure these settings through the AWS Management Console, AWS CLI, AWS SDKs, or AWS CloudFormation.&lt;/p&gt; \n&lt;p&gt;The additional security context settings for AWS Batch on Amazon EKS are now supported in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions&lt;/a&gt; where AWS Batch is available. For more information, see the Amazon EKS properties section in the &lt;a href=\"https://docs.aws.amazon.com/batch/latest/userguide/job_definition_parameters.html#job-definition-parameters-eks-properties\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Batch User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "updatedAt": "2026-11-13T08:00:00.000Z",
+      "categories": [
+        "AWS Govcloud Us"
+      ],
+      "services": [
+        "Batch",
+        "EKS"
+      ],
+      "tags": [
+        "aws govcloud us",
+        "batch",
+        "eks"
+      ],
+      "isNew": true,
+      "securityScore": 15,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "security"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "bf5901cc785264d3",
+      "title": "Announcing Accelerated Compute Insights for Amazon CloudWatch",
+      "description": "Amazon CloudWatch now offers accelerated compute insights, a capability that provides monitoring and observability for self-hosted AI inference workloads running in Amazon EKS clusters. Previously, platform and AI teams lacked fleet-level visibility into their accelerators, whether workloads were running efficiently, and what was causing performance issues. Accelerated compute insights collects telemetry from across the inference stack to help teams identify idle accelerators, optimize workloads to reduce costs, and troubleshoot common inference issues such as high time to first token. Getting",
+      "descriptionHtml": "&lt;p&gt;Amazon CloudWatch now offers accelerated compute insights, a capability that provides monitoring and observability for self-hosted AI inference workloads running in Amazon EKS clusters. Previously, platform and AI teams lacked fleet-level visibility into their accelerators, whether workloads were running efficiently, and what was causing performance issues. Accelerated compute insights collects telemetry from across the inference stack to help teams identify idle accelerators, optimize workloads to reduce costs, and troubleshoot common inference issues such as high time to first token.&lt;/p&gt; \n&lt;p&gt;Getting started is as simple as enabling the Amazon CloudWatch Observability add-on for Amazon EKS, which discovers every NVIDIA GPU in the cluster automatically. Curated views in the CloudWatch console let you monitor from the fleet level down to an individual workload or accelerator. Teams can see which workloads are idle, which are underutilized, and the estimated cost per token for each inference workload. The feature is also available on CloudWatch Omni, where it includes an agentic experience that makes answering questions about inference workloads easy.&lt;/p&gt; \n&lt;p&gt;There is no additional charge for accelerated compute insights. Standard &amp;nbsp;&lt;a href=\"https://aws.amazon.com/cloudwatch/pricing/\"&gt;CloudWatch pricing&amp;nbsp;&lt;/a&gt; applies to the telemetry you collect from your AI workloads.&lt;/p&gt; \n&lt;p&gt;For more information about the AWS Regions where Accelerated Compute Insights is available, see the &amp;nbsp;&lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Region table&amp;nbsp;&lt;/a&gt;. To get started, see &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Accelerated-Compute-Insights.html\"&gt;Accelerated Compute Insights&amp;nbsp;&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/accelerated-compute-insights-cloudwatch/",
+      "publishedAt": "2026-11-10T08:00:00.000Z",
+      "updatedAt": "2026-11-10T08:00:00.000Z",
+      "categories": [
+        "Amazon Eks",
+        "Amazon Cloudwatch"
+      ],
+      "services": [
+        "EKS",
+        "CloudWatch"
+      ],
+      "tags": [
+        "amazon eks",
+        "amazon cloudwatch",
+        "eks",
+        "cloudwatch"
+      ],
+      "isNew": true,
+      "securityScore": 15,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "monitoring",
+        "token"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "46885685e963227d",
       "title": "Amazon DocumentDB (with MongoDB compatibility) now supports post-quantum TLS, wildcard indexes, and $unionWith in version 8.0.3",
       "description": "Amazon DocumentDB (with MongoDB compatibility) 8.0.3 adds hybrid post-quantum key exchange for TLS, wildcard indexes, the $unionWith aggregation stage, and new change stream events. Post-quantum TLS protects data in transit from traffic that is recorded today and decrypted later with a quantum computer. The new MongoDB APIs let you move more MongoDB workloads to Amazon DocumentDB without changing application code. What's new in 8.0.3: Post-quantum TLS: TLS 1.3 connections use hybrid key exchange based on the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) when the client supports it.",
@@ -13927,311 +14266,6 @@
       "securityLevel": "medium",
       "securityMatches": [
         "security"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "2b58815d7b96bd90",
-      "title": "Amazon S3 Access Points for Amazon FSx are now available in additional AWS Regions",
-      "description": "You can now attach Amazon S3 Access Points to your Amazon FSx for NetApp ONTAP file systems in 4 additional AWS Regions, and to your Amazon FSx for OpenZFS file systems in 20 additional AWS Regions. With this capability, your file data in Amazon FSx is accessible for use with the broad range of artificial intelligence, machine learning, and analytics services and applications that work with S3, while your data continues to reside on your FSx file system. An S3 Access Point for Amazon FSx is an S3 endpoint that gives S3-based applications and services access to the data on your FSx file system ",
-      "descriptionHtml": "&lt;p&gt;You can now attach Amazon S3 Access Points to your Amazon FSx for NetApp ONTAP file systems in 4 additional AWS Regions, and to your Amazon FSx for OpenZFS file systems in 20 additional AWS Regions. With this capability, your file data in Amazon FSx is accessible for use with the broad range of artificial intelligence, machine learning, and analytics services and applications that work with S3, while your data continues to reside on your FSx file system.&lt;/p&gt; \n&lt;p&gt;An S3 Access Point for Amazon FSx is an S3 endpoint that gives S3-based applications and services access to the data on your FSx file system through the Amazon S3 API, without copying or moving that data. For example, you can connect generative AI applications and agents to your file data with Amazon Bedrock Knowledge Bases so they deliver relevant, contextual responses. Users can query the same data in place with Amazon Athena or transform it with AWS Glue, and you can share files with partners over SFTP, FTPS, and FTP using AWS Transfer Family. You can also access your files from serverless compute such as Amazon ECS and AWS Fargate, or from your own S3-based applications.&lt;/p&gt; \n&lt;p&gt;Amazon S3 Access Points for FSx for ONTAP and FSx for OpenZFS are now available in additional AWS Regions across North America, South America, Europe, Asia Pacific, and Africa. For the full list of AWS Regions supported for each file system, see the &lt;a href=\"https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/accessing-data-via-s3-access-points.html#access-points-for-fsx-ontap-supported-regions\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;FSx for ONTAP&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/fsx/latest/OpenZFSGuide/s3accesspoints-for-FSx.html#access-points-for-fsx-openzfs-supported-regions\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;FSx for OpenZFS&lt;/a&gt; user guides. Get started by creating and attaching S3 Access Points using the Amazon FSx console, the AWS Command Line Interface (AWS CLI), or the AWS Software Development Kit (AWS SDK). To learn more, visit the &lt;a href=\"https://aws.amazon.com/fsx/netapp-ontap/\"&gt;Amazon FSx for NetApp ONTAP&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/fsx/openzfs/\"&gt;Amazon FSx for OpenZFS&lt;/a&gt; product pages, the &lt;a href=\"https://aws.amazon.com/s3/features/access-points/\"&gt;Amazon S3 Access Points page&lt;/a&gt;, and the FSx for &lt;a href=\"https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/accessing-data-via-s3-access-points.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;ONTAP&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/fsx/latest/OpenZFSGuide/s3accesspoints-for-FSx.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;OpenZFS&lt;/a&gt; user guides.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-access-points-fsx-regions/",
-      "publishedAt": "2026-11-09T08:00:00.000Z",
-      "updatedAt": "2026-11-09T08:00:00.000Z",
-      "categories": [
-        "Amazon Fsx For Openzfs",
-        "Amazon Fsx Netapp Ontap"
-      ],
-      "services": [
-        "S3",
-        "FSx"
-      ],
-      "tags": [
-        "amazon fsx for openzfs",
-        "amazon fsx netapp ontap",
-        "s3",
-        "fsx"
-      ],
-      "isNew": true,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "access",
-        "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "f22f5d0bc3aa61b8",
-      "title": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region",
-      "description": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region, in addition to AWS GovCloud (US-East). CodeConnections lets you connect AWS services such as AWS CodePipeline and AWS CodeBuild to source code repositories hosted with third-party providers such as Bitbucket. With this launch, customers running workloads in AWS GovCloud (US-West) can create connections to their source repositories in the same Region as their pipelines. For example, a team can configure a connection so that a commit to their repository automatically starts a release in AWS CodePipeline, without managing ",
-      "descriptionHtml": "&lt;p&gt;AWS CodeConnections is now available in the AWS GovCloud (US-West) Region, in addition to AWS GovCloud (US-East). CodeConnections lets you connect AWS services such as AWS CodePipeline and AWS CodeBuild to source code repositories hosted with third-party providers such as Bitbucket.&lt;/p&gt;\n&lt;p&gt;With this launch, customers running workloads in AWS GovCloud (US-West) can create connections to their source repositories in the same Region as their pipelines. For example, a team can configure a connection so that a commit to their repository automatically starts a release in AWS CodePipeline, without managing provider credentials for each integration.&lt;/p&gt;\n&lt;p&gt;To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/dtconsole/latest/userguide/welcome-connections.html\"&gt;AWS CodeConnections User Guide&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/CodeStar-connections.html\"&gt;AWS GovCloud User Guide&lt;/a&gt;. To get started, visit the AWS GovCloud (US) console.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codeconnections-govcloud-west/",
-      "publishedAt": "2026-11-05T08:00:00.000Z",
-      "updatedAt": "2026-11-05T08:00:00.000Z",
-      "categories": [
-        "AWS Govcloud Us"
-      ],
-      "services": [],
-      "tags": [
-        "aws govcloud us"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "Bucket"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "ea05669f6d829be1",
-      "title": "Announcing AWS for Fluent Bit 3.0.0 based on Fluent Bit 4.1.1",
-      "description": "AWS for Fluent Bit announces version 3.0.0 , based on Fluent Bit version 4.1.1 and Amazon Linux 2023. Container logging using AWS for Fluent Bit is now more performant and more feature-rich for AWS customers, including those using Amazon Elastic Container Services (Amazon ECS) and Amazon Elastic Kubernetes Service (Amazon EKS). AWS for Fluent Bit enables Amazon ECS and Amazon EKS customers to collect, process, and route container logs to destinations including Amazon CloudWatch Logs, Amazon Data Firehose, Amazon Kinesis Data Streams, and Amazon S3 without changing application code. AWS for Flu",
-      "descriptionHtml": "&lt;p&gt;AWS for Fluent Bit announces version &lt;a href=\"https://github.com/aws/aws-for-fluent-bit/releases/tag/v3.0.0\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;3.0.0&lt;/a&gt;, based on Fluent Bit version 4.1.1 and Amazon Linux 2023. Container logging using AWS for Fluent Bit is now more performant and more feature-rich for AWS customers, including those using &lt;a href=\"https://aws.amazon.com/ecs/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Elastic Container Services&lt;/a&gt; (Amazon ECS) and &lt;a href=\"https://aws.amazon.com/eks/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Elastic Kubernetes Service&lt;/a&gt; (Amazon EKS).&lt;br&gt; &lt;br&gt; AWS for Fluent Bit enables Amazon ECS and Amazon EKS customers to collect, process, and route container logs to destinations including Amazon CloudWatch Logs, Amazon Data Firehose, Amazon Kinesis Data Streams, and Amazon S3 without changing application code. AWS for Fluent Bit 3.0.0 upgrades the Fluent Bit version to 4.1.1, and upgrades the base image to Amazon Linux 2023. These updates deliver access to the latest Fluent Bit features, significant performance improvements, and enhanced security. New features include native OpenTelemetry (OTel) support for ingesting and forwarding OTLP logs, metrics, and traces with AWS SigV4 authentication. Performance improvements include faster JSON parsing, processing more logs per vCPU with lower latency. Security enhancements include TLS min version and cipher controls, which enforce your TLS policy on outputs from AWS for Fluent Bit for stronger protocol posture.&lt;br&gt; &lt;br&gt; You can use AWS for Fluent Bit 3.0.0 on both ECS and EKS. On ECS, update the FireLens log-router container image in your task definition to the 3.0.0 tag from the Amazon ECR Public Gallery. On EKS, upgrade by either updating the Helm release or setting the DaemonSet image to the 3.0.0 version.&lt;br&gt; &lt;br&gt; The &lt;a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/firelens-using-fluentbit.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS for Fluent Bit image&lt;/a&gt; is available in the &lt;a href=\"https://gallery.ecr.aws/aws-observability/aws-for-fluent-bit\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon ECR Public Gallery&lt;/a&gt; and in the Amazon ECR repository. You can also find it on &lt;a href=\"https://github.com/aws/aws-for-fluent-bit\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;GitHub&lt;/a&gt; for source code and additional guidance.&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;&lt;i&gt;10/29/2025 - This post has been updated to accurately reflect the Fluent Bit version at launch.&lt;br&gt; 11/02/2026 - This post has been updated to clarify the scope of OpenTelemetry support.&lt;/i&gt;&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-fluent-bit-3-0-0-based-4-1-1",
-      "publishedAt": "2026-11-02T08:00:00.000Z",
-      "updatedAt": "2026-11-02T08:00:00.000Z",
-      "categories": [
-        "Amazon Eks",
-        "Containers",
-        "Amazon Ecs",
-        "AWS Govcloud Us"
-      ],
-      "services": [
-        "ECS",
-        "EKS"
-      ],
-      "tags": [
-        "amazon eks",
-        "containers",
-        "amazon ecs",
-        "aws govcloud us",
-        "ecs",
-        "eks"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "logging",
-        "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "5f339602e97edb0f",
-      "title": "Amazon CloudFront now provides viewer ISP and post-quantum TLS details",
-      "description": "Amazon CloudFront can now forward two new optional headers to your origin. The CloudFront-Viewer-ISP header contains the name of the viewer's internet service provider (ISP), so you can see which network a request came from. The CloudFront-Viewer-TLS-Details header describes the cryptography used on each viewer's TLS connection, so you can see whether a connection used post-quantum cryptography (PQC). With CloudFront-Viewer-ISP, you can break down traffic and performance by network. You can also isolate unusual traffic from a single provider. CloudFront-Viewer-TLS-Details includes the key exch",
-      "descriptionHtml": "&lt;p&gt;Amazon CloudFront can now forward two new optional headers to your origin. The CloudFront-Viewer-ISP header contains the name of the viewer's internet service provider (ISP), so you can see which network a request came from. The CloudFront-Viewer-TLS-Details header describes the cryptography used on each viewer's TLS connection, so you can see whether a connection used post-quantum cryptography (PQC).&lt;/p&gt; \n&lt;p&gt;With CloudFront-Viewer-ISP, you can break down traffic and performance by network. You can also isolate unusual traffic from a single provider. CloudFront-Viewer-TLS-Details includes the key exchange, signature scheme, and signature public key type for each connection. You can use it to measure the share of viewers that actually connect with PQC and identify clients that do not yet do so. To forward either header to your origin, add it to an origin request policy and attach the policy to your distribution.&lt;/p&gt; \n&lt;p&gt;To get started, see &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/adding-cloudfront-headers.html\"&gt;adding CloudFront headers&lt;/a&gt; and&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/controlling-origin-requests.html\"&gt;controlling origin requests with a policy&lt;/a&gt; in the Amazon CloudFront Developer Guide&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-viewer-isp-post-quantum-visbility/",
-      "publishedAt": "2026-10-30T18:15:00.000Z",
-      "updatedAt": "2026-10-30T18:15:00.000Z",
-      "categories": [
-        "Networking And Content Delivery",
-        "Amazon Cloudfront"
-      ],
-      "services": [
-        "CloudFront"
-      ],
-      "tags": [
-        "networking and content delivery",
-        "amazon cloudfront",
-        "cloudfront"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "TLS"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "f57e6666fba2f939",
-      "title": "Amazon RDS for Oracle no longer requires automatic minor version upgrades for JVM, Spatial, Locator, and OLAP options",
-      "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you turn off automatic minor version upgrades on new and existing DB instances that use the JVM, Spatial, Locator, or OLAP option. Previously, these options required automatic minor version upgrades to be enabled. With this change, you decide when to apply minor version upgrades to DB instances using these options. If you turn off automatic minor version upgrades, we recommend that you apply new minor versions regularly so your DB instances keep the latest Oracle security fixes. To keep automatic minor version upgrades turned ",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/oracle/\"&gt;Amazon Relational Database Service (Amazon RDS) for Oracle&lt;/a&gt; now lets you turn off automatic minor version upgrades on new and existing DB instances that use the JVM, Spatial, Locator, or OLAP option. Previously, these options required automatic minor version upgrades to be enabled.&lt;/p&gt; \n&lt;p&gt;With this change, you decide when to apply minor version upgrades to DB instances using these options. If you turn off automatic minor version upgrades, we recommend that you apply new minor versions regularly so your DB instances keep the latest Oracle security fixes. To keep automatic minor version upgrades turned on and still control the order in which your environments are upgraded, you can use &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/RDS.Maintenance.AMVU.UpgradeRollout.html\"&gt;AWS Organizations upgrade rollout policy&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;This change is available in &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;all commercial AWS Regions and the AWS GovCloud (US) Regions&lt;/a&gt; where Amazon RDS for Oracle is available. To learn more about options available in Amazon RDS for Oracle, see &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Appendix.Oracle.Options.html\"&gt;Adding options to Oracle DB instances&lt;/a&gt; in the Amazon RDS User Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-jvm-spatial-locator-olap-options-amvu-optional/",
-      "publishedAt": "2026-10-30T17:00:00.000Z",
-      "updatedAt": "2026-10-30T17:00:00.000Z",
-      "categories": [
-        "Amazon Rds For Oracle",
-        "Databases"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "amazon rds for oracle",
-        "databases",
-        "rds"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "368aa69eadc53400",
-      "title": "Amazon EKS Dashboard now provides fleet-wide visibility into certificate authority (CA) rotation",
-      "description": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announces certificate authority (CA) rotation visibility in the Amazon EKS Dashboard, giving you a consolidated view of CA rotation across your clusters. The Amazon EKS Dashboard already provides centralized visibility into your clusters across AWS Regions and accounts, and it now includes CA rotation, so you can see where action is needed without checking each cluster individually. Each Amazon EKS cluster has its own CA, and clusters created since 2018 have CAs with a 10-year validity period that are now approaching the point where rotatio",
-      "descriptionHtml": "&lt;p&gt;Today, Amazon Elastic Kubernetes Service (Amazon EKS) announces certificate authority (CA) rotation visibility in the Amazon EKS Dashboard, giving you a consolidated view of CA rotation across your clusters. The Amazon EKS Dashboard already provides centralized visibility into your clusters across AWS Regions and accounts, and it now includes CA rotation, so you can see where action is needed without checking each cluster individually.&lt;/p&gt; \n&lt;p&gt;Each Amazon EKS cluster has its own CA, and clusters created since 2018 have CAs with a 10-year validity period that are now approaching the point where rotation activities should begin. In the EKS Dashboard, you can now see your clusters and their CA rotation status, which clusters have CAs approaching expiration, and upcoming automated rotation events, so platform teams who operate many clusters can prioritize action across their fleet from one place.&lt;/p&gt; \n&lt;p&gt;The Amazon EKS Dashboard aggregates data across your accounts and Regions through AWS Organizations, so you enable trusted access for the dashboard in your organization’s management account to use this capability. You view the dashboard from the US East region (us-east-1), and it is available at no additional cost. CA rotation support extends to all commercial AWS Regions, and the dashboard brings that rotation status together in one fleet-wide view. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/certificate-authority-rotation.html\"&gt;Amazon EKS documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-dashboard-fleet-wide-visibility-certificate-authority-ca-rotation/",
-      "publishedAt": "2026-10-28T18:07:00.000Z",
-      "updatedAt": "2026-10-28T18:07:00.000Z",
-      "categories": [
-        "Security Identity And Compliance",
-        "Amazon Eks",
-        "Compute",
-        "Containers"
-      ],
-      "services": [
-        "EKS"
-      ],
-      "tags": [
-        "security identity and compliance",
-        "amazon eks",
-        "compute",
-        "containers",
-        "eks"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [],
-      "source": "whats-new"
-    },
-    {
-      "id": "ed5ad04bed3ca04a",
-      "title": "Amazon EMR Serverless now supports IPv6 and dual-stack connectivity",
-      "description": "Amazon EMR Serverless now supports IPv6 and dual-stack connectivity, expanding beyond the IPv4-only connectivity that was previously available. You can now run your Apache Spark and Apache Hive jobs over IPv6 in your Amazon Virtual Private Cloud (VPC) by supplying dual-stack (IPv4 and IPv6) or IPv6-only subnets. This gives you greater flexibility in how your applications connect to data stores and services, while maintaining full backward compatibility with your existing IPv4 workloads. As Spark and Hive workloads scale to many workers, the IPv4 address space in your VPCs and subnets can becom",
-      "descriptionHtml": "&lt;p&gt;Amazon EMR Serverless now supports IPv6 and dual-stack connectivity, expanding beyond the IPv4-only connectivity that was previously available. You can now run your Apache Spark and Apache Hive jobs over IPv6 in your Amazon Virtual Private Cloud (VPC) by supplying dual-stack (IPv4 and IPv6) or IPv6-only subnets. This gives you greater flexibility in how your applications connect to data stores and services, while maintaining full backward compatibility with your existing IPv4 workloads.&lt;/p&gt; \n&lt;p&gt;As Spark and Hive workloads scale to many workers, the IPv4 address space in your VPCs and subnets can become a constraint, and a growing number of organizations face compliance mandates that require IPv6 adoption. With dual-stack connectivity, your EMR Serverless applications accept both IPv4 and IPv6, making it easy to adopt IPv6 gradually while maintaining backward compatibility with your existing IPv4 workloads. With IPv6-only subnets, you can eliminate the need for IPv4 addresses entirely, overcoming IPv4 address exhaustion and meeting the networking standards and compliance requirements that call for IPv6, while your jobs reach IPv6 endpoints and services both inside and outside your VPC.&lt;/p&gt; \n&lt;p&gt;IPv6 and dual-stack connectivity for Amazon EMR Serverless is available at no additional cost in all AWS Regions where Amazon EMR Serverless is available. IPv6 and dual-stack subnets are supported on all EMR Serverless release versions. To get started, see &lt;a href=\"https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/ipv6-subnets.html\"&gt;Configure IPv6 subnets for EMR Serverless applications&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/vpc-access.html\"&gt;Configuring VPC access for EMR Serverless applications&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-emr-serverless/",
-      "publishedAt": "2026-10-16T19:20:00.000Z",
-      "updatedAt": "2026-10-16T19:20:00.000Z",
-      "categories": [
-        "Analytics",
-        "Amazon Emr"
-      ],
-      "services": [
-        "EMR"
-      ],
-      "tags": [
-        "analytics",
-        "amazon emr",
-        "emr"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "VPC"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "5bf9f3ca25ed2ed4",
-      "title": "AWS End User Messaging adds registration improvements for faster, higher-quality submissions",
-      "description": "AWS End User Messaging now makes it easier to complete messaging registrations correctly the first time, with clearer guidance, explicit field requirements, and help avoiding the most common rejection reasons. Registrations ask for compliance evidence such as opt-in proof and sample messages, and submissions are often delayed or denied when that evidence is incomplete or a required field is missed. These improvements give you worked examples, surface exactly which fields you must provide, and walk you through the content that most often causes denials. First, example mock-ups of a compliant op",
-      "descriptionHtml": "&lt;p&gt;AWS End User Messaging now makes it easier to complete messaging registrations correctly the first time, with clearer guidance, explicit field requirements, and help avoiding the most common rejection reasons. Registrations ask for compliance evidence such as opt-in proof and sample messages, and submissions are often delayed or denied when that evidence is incomplete or a required field is missed. These improvements give you worked examples, surface exactly which fields you must provide, and walk you through the content that most often causes denials.&lt;br&gt; &lt;br&gt; First, example mock-ups of a compliant opt-in and sample messages are now included for US 10DLC, US short code, US toll-free and RCS registrations, so you can see what a compliant submission looks like before you build your own. Second, the registration API response now surfaces conditional logic, so you and your AI agents no longer have to guess which fields are required based on other field values. The response tells you which fields are required for your specific registration. Third, RCS registration now includes a walkthrough for recording the compliant video that agent registrations require.&lt;br&gt; &lt;br&gt; These improvements are available in all Regions where AWS End User Messaging registrations are available.&lt;br&gt; &lt;br&gt; To learn more and get started, see the End User Messaging &lt;a href=\"https://docs.aws.amazon.com/end-user-messaging/latest/userguide/nx-overview.html\"&gt;User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-registration-improvements-for-faster-higher-quality-submissions",
-      "publishedAt": "2026-10-16T07:00:00.000Z",
-      "updatedAt": "2026-10-16T07:00:00.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "compliance"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "4fffd484a06b14d4",
-      "title": "Amazon CloudFront announces dual-stack support for VPC origins",
-      "description": "Amazon CloudFront now supports end-to-end IPv6 delivery to origins inside your Amazon Virtual Private Cloud (Amazon VPC), with the new dual-stack VPC origins. With VPC origins, customers keep their Application Load Balancers (ALB), Network Load Balancers (NLB), and EC2 instances in private subnets that only their CloudFront distributions can reach. With dual-stack support, customers can now send IPv6 traffic all the way to these private origins to meet their IPv6 architecture and regulatory requirements, without exposing origins to the internet. Previously, CloudFront supported dual-stack for ",
-      "descriptionHtml": "&lt;p&gt;Amazon CloudFront now supports end-to-end IPv6 delivery to origins inside your Amazon Virtual Private Cloud (Amazon VPC), with the new dual-stack VPC origins. With VPC origins, customers keep their Application Load Balancers (ALB), Network Load Balancers (NLB), and EC2 instances in private subnets that only their CloudFront distributions can reach. With dual-stack support, customers can now send IPv6 traffic all the way to these private origins to meet their IPv6 architecture and regulatory requirements, without exposing origins to the internet.&lt;/p&gt; \n&lt;p&gt;Previously, CloudFront supported dual-stack for public origins but connected to VPC origins over IPv4 only. Customers faced a tradeoff: move origins to public subnets for IPv6 and give up VPC origin security or keep them private and stay on IPv4. Now, with this launch, customers can configure their VPC origins as dual-stack and get end-to-end IPv6 without sacrificing security.&lt;/p&gt; \n&lt;p&gt;Dual-stack VPC origins are available in all AWS Commercial Regions where VPC origins are supported. The full list of supported Regions is available &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-vpc-origins.html#vpc-origins-supported-regions\"&gt;here&lt;/a&gt;. There is no additional cost for using dual-stack VPC origins. To learn more, visit &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-vpc-origins.html\"&gt;CloudFront VPC origins.&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-vpc-origin-dualstack/",
-      "publishedAt": "2026-10-15T16:00:00.000Z",
-      "updatedAt": "2026-10-15T16:00:00.000Z",
-      "categories": [
-        "Amazon Cloudfront",
-        "Networking And Content Delivery"
-      ],
-      "services": [
-        "VPC",
-        "CloudFront"
-      ],
-      "tags": [
-        "amazon cloudfront",
-        "networking and content delivery",
-        "vpc",
-        "cloudfront"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "VPC"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "c64254aae4140394",
-      "title": "AWS HealthOmics introduces resource fallback order for Nextflow workflows",
-      "description": "Today, AWS HealthOmics introduces the resource fallback directive for tasks in your Nextflow workflows, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances. Researchers and bioinformaticians can use this directive to reduce time spent diagnosing and resubmitting runs due to accelerator constraints and keep production workflows running. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. With resou",
-      "descriptionHtml": "&lt;p&gt;Today, AWS HealthOmics introduces the resource fallback directive for tasks in your Nextflow workflows, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances. Researchers and bioinformaticians can use this directive to reduce time spent diagnosing and resubmitting runs due to accelerator constraints and keep production workflows running. &lt;a href=\"https://aws.amazon.com/healthomics/\"&gt;AWS HealthOmics&lt;/a&gt; is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. &lt;/p&gt; \n&lt;p&gt;With resource fallback for Nextflow workflows, you can prioritize your preferred accelerator for your task. When your preferred accelerator is unavailable, HealthOmics automatically moves through your specified alternatives in the fallback without resubmission. Each accelerator profile has a configurable timeout, giving you control over how long HealthOmics searches for that accelerator before moving to the next. Shorter timeouts help you move quickly through the fallback order, while longer timeouts increase the probability of reserving your preferred accelerator. You can also include a CPU profile as a final fallback to increase the likelihood of your task reserving an instance. &lt;/p&gt; \n&lt;p&gt;You can now use resource fallback for Nextflow workflows in all AWS HealthOmics Regions: US East (N. Virginia, Ohio), US West (Oregon), Europe (Frankfurt, Ireland, London), Israel (Tel Aviv), and Asia Pacific (Seoul, Singapore, Tokyo). To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/omics/latest/dev/advanced-resource-configuration.html\"&gt;advanced resource configuration&lt;/a&gt;&amp;nbsp;and &lt;a href=\"https://docs.aws.amazon.com/omics/latest/dev/workflow-definition-nextflow.html#workflow-nextflow-directive-fallback\"&gt;Nextflow specifics&lt;/a&gt; documentation. &lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-resource-fallback-for-Nextflow/",
-      "publishedAt": "2026-10-14T16:00:00.000Z",
-      "updatedAt": "2026-10-14T16:00:00.000Z",
-      "categories": [
-        "Artificial Intelligence"
-      ],
-      "services": [],
-      "tags": [
-        "artificial intelligence"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "HIPAA"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "8282dbce7df1c339",
-      "title": "Amazon S3 Express One Zone is now available in 4 additional AWS Regions",
-      "description": "The Amazon S3 Express One Zone storage class is now available in 4 additional AWS Regions: Europe (London), Asia Pacific (Jakarta), Asia Pacific (Hong Kong), and Africa (Cape Town). Amazon S3 Express One Zone is a high-performance, single-Availability Zone storage class purpose-built to deliver consistent single-digit millisecond data access for your most frequently accessed data and latency-sensitive applications. S3 Express One Zone delivers data access speed up to 10x faster and request costs up to 80% lower than S3 Standard. It enables workloads such as machine learning training, interacti",
-      "descriptionHtml": "&lt;p&gt;The Amazon S3 Express One Zone storage class is now available in 4 additional AWS Regions: Europe (London), Asia Pacific (Jakarta), Asia Pacific (Hong Kong), and Africa (Cape Town).&lt;/p&gt; \n&lt;p&gt;Amazon S3 Express One Zone is a high-performance, single-Availability Zone storage class purpose-built to deliver consistent single-digit millisecond data access for your most frequently accessed data and latency-sensitive applications. S3 Express One Zone delivers data access speed up to 10x faster and request costs up to 80% lower than S3 Standard. It enables workloads such as machine learning training, interactive analytics, and key-value caching in AI search engines to achieve fast data access with high durability and availability.&lt;/p&gt; \n&lt;p&gt;With this expansion, S3 Express One Zone is now available in &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-express-Endpoints.html\"&gt;19 AWS Regions&lt;/a&gt;. For pricing details, visit the &lt;a href=\"https://aws.amazon.com/s3/pricing/\"&gt;S3 pricing page&lt;/a&gt;. To learn more, visit the &lt;a href=\"https://aws.amazon.com/s3/storage-classes/express-one-zone/\"&gt;product page&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-express-getting-started.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-express-one-zone-4-additional-regions/",
-      "publishedAt": "2026-10-12T08:00:00.000Z",
-      "updatedAt": "2026-10-12T08:00:00.000Z",
-      "categories": [
-        "Storage",
-        "Amazon Simple Storage Service"
-      ],
-      "services": [
-        "S3"
-      ],
-      "tags": [
-        "storage",
-        "amazon simple storage service",
-        "s3"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "access",
-        "S3"
       ],
       "source": "whats-new"
     }
