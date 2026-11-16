@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T15:25:50.339Z",
+  "lastUpdated": "2026-11-16T18:01:35.514Z",
   "itemCount": 500,
   "items": [
     {
@@ -185,7 +185,7 @@
         "security blog",
         "iam"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -6854,7 +6854,7 @@
         "vpc",
         "route 53"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "high",
       "securityMatches": [
@@ -8072,7 +8072,7 @@
         "security and compliance",
         "athena"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -8959,7 +8959,7 @@
         "amazon mwaa",
         "mwaa"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 35,
       "securityLevel": "high",
       "securityMatches": [
@@ -14223,7 +14223,7 @@
         "bedrock",
         "claude"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
@@ -14261,7 +14261,7 @@
         "athena",
         "glue"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 15,
       "securityLevel": "medium",
       "securityMatches": [
