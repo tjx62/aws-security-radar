@@ -1,7 +1,170 @@
 {
-  "lastUpdated": "2026-11-16T18:01:35.514Z",
+  "lastUpdated": "2026-11-17T17:26:33.761Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "22eb7762f1aa472d",
+      "title": "Using the AWS RMiT workbook and ISO Compliance Guides to support your BNM submissions",
+      "description": "Your next Bank Negara Malaysia (BNM) notification submission needs auditable evidence of how Amazon Web Services (AWS) controls align with Risk Management in Technology (RMiT) requirements. Two resources now exist to support that work: the AWS Workbook for BNM RMiT and the compliance guides published by AWS Security Assurance Services (AWS SAS). The AWS Workbook […]",
+      "descriptionHtml": "Your next Bank Negara Malaysia (BNM) notification submission needs auditable evidence of how Amazon Web Services (AWS) controls align with Risk Management in Technology (RMiT) requirements. Two resources now exist to support that work: the AWS Workbook for BNM RMiT and the compliance guides published by AWS Security Assurance Services (AWS SAS). The AWS Workbook […]",
+      "url": "https://aws.amazon.com/blogs/security/using-the-aws-rmit-workbook-and-iso-compliance-guides-to-support-your-bnm-submissions/",
+      "publishedAt": "2026-11-17T17:12:08.000Z",
+      "updatedAt": "2026-11-17T17:12:08.000Z",
+      "categories": [
+        "Announcements",
+        "Compliance",
+        "Foundational (100)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "AWS Artifact",
+        "Financial Services",
+        "ISO",
+        "Security Blog"
+      ],
+      "services": [
+        "Artifact"
+      ],
+      "tags": [
+        "announcements",
+        "compliance",
+        "foundational (100)",
+        "security",
+        "identity",
+        "& compliance",
+        "aws artifact",
+        "financial services",
+        "iso",
+        "security blog",
+        "artifact"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "security",
+        "compliance",
+        "audit",
+        "Artifact"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "5d07a905a6ca92cd",
+      "title": "AWS Security Hub extends unified security management to Google Cloud Platform",
+      "description": "Today, AWS announces that AWS Security Hub now monitors Google Cloud Platform (GCP) resources, extending risk analytics, cloud security posture management, vulnerability management, and security response management across both clouds. Many AWS customers running workloads in AWS and GCP have had to operate separate security tools for each environment, making it difficult to prioritize risks holistically or respond consistently. Security Hub now provides a single, unified experience to detect and respond to risks across your AWS and GCP environments in addition to existing support for monitoring",
+      "descriptionHtml": "&lt;p&gt;Today, AWS announces that AWS Security Hub now monitors Google Cloud Platform (GCP) resources, extending risk analytics, cloud security posture management, vulnerability management, and security response management across both clouds. Many AWS customers running workloads in AWS and GCP have had to operate separate security tools for each environment, making it difficult to prioritize risks holistically or respond consistently. Security Hub now provides a single, unified experience to detect and respond to risks across your AWS and GCP environments in addition to existing support for monitoring Microsoft Azure environments.&lt;/p&gt; \n&lt;p&gt;Security Hub automatically discovers GCP resources, including GCP Virtual Machines (VMs), GCP Google Artifact Registry (GAR) container images, GCP Cloud Run functions, and GCP identities, and evaluates them for misconfigurations, internet exposure, and software vulnerabilities. You receive posture checks against security standards including the CIS Benchmarks™ for Google Cloud Platform Foundations, unified resource inventory, risk and exposure analysis, and automated response through existing EventBridge integrations. AWS and GCP findings appear in the same prioritized view with the same finding formats and automation workflows, so security teams can operate from one console rather than switching between tools.&lt;/p&gt; \n&lt;p&gt;Security Hub includes an independent 30-day free trial to monitor GCP resources that begins once you create your integration with Google Cloud Platform. After the trial, you pay the same price for monitoring GCP resources and equivalent AWS resources. You can create an integration to GCP from all AWS Regions where Security Hub is available except Middle East (UAE), Middle East (Bahrain), Asia Pacific (Taipei), and Asia Pacific (New Zealand). You can also create integrations to Google Cloud Platform for AWS Security Hub CSPM for posture management checks and Amazon Inspector for vulnerability management independently from AWS Security Hub. To learn more, see &lt;a href=\"https://aws.amazon.com/security-hub/pricing/\" target=\"_blank\"&gt;AWS Security Hub Pricing&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub-v2.html\" target=\"_blank\"&gt;AWS Security Hub documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-gcp/",
+      "publishedAt": "2026-11-17T08:00:00.000Z",
+      "updatedAt": "2026-11-17T08:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "Amazon Inspector",
+        "AWS Security Hub"
+      ],
+      "services": [
+        "Inspector",
+        "Security Hub"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "amazon inspector",
+        "aws security hub",
+        "inspector",
+        "security hub"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Security Hub",
+        "security",
+        "vulnerability",
+        "monitoring",
+        "Inspector"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "f22db454553a9cc7",
+      "title": "IAM Identity Center now supports VPC endpoints and network access controls",
+      "description": "AWS IAM Identity Center now supports interface VPC endpoints powered by AWS PrivateLink and network access controls, enabling you to keep IAM Identity Center traffic private and restrict which networks can reach your IAM Identity Center services. Previously, IAM Identity Center rejected traffic arriving through VPC endpoints, requiring all sign-in and API traffic to use public endpoints. With this launch, you can create interface VPC endpoints for AWS access portal and service APIs to route traffic over the AWS private network. IAM Identity Center sign-in traffic flows through the AWS Sign-in ",
+      "descriptionHtml": "&lt;p&gt;AWS IAM Identity Center now supports interface VPC endpoints powered by AWS PrivateLink and network access controls, enabling you to keep IAM Identity Center traffic private and restrict which networks can reach your&amp;nbsp;IAM Identity Center services.&lt;/p&gt; \n&lt;p&gt;Previously, IAM Identity Center rejected traffic arriving through VPC endpoints, requiring all sign-in and API traffic to use public endpoints. With this launch, you can create interface VPC endpoints for&amp;nbsp;AWS access portal and service APIs to route traffic over the AWS private network. IAM Identity Center sign-in traffic flows through the AWS Sign-in VPC endpoint. You can attach VPC endpoint policies to each endpoint to scope which AWS organizations, accounts and resources are reachable through your private connection.&lt;/p&gt; \n&lt;p&gt;Network access controls add a second layer of enforcement at the IAM Identity Center instance level. When enabled, you can require that all access arrive through a VPC endpoint, allow specific IP address ranges or VPCs as trusted sources, and exclude individual applications from enforcement to accommodate services that connect from outside your VPC. SCIM provisioning traffic from your external identity provider can be independently restricted to known IP address ranges. Network access controls are configured through the IAM Identity Center API and are disabled by default.&lt;/p&gt; \n&lt;p&gt;This capability is available in all commercial AWS Regions and the AWS GovCloud (US) Regions at no additional cost. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/singlesignon/latest/userguide/vpc-interface-endpoints.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Interface VPC endpoints&lt;/a&gt; in the IAM Identity Center User Guide.&amp;nbsp;For more information, visit the &lt;a href=\"https://aws.amazon.com/iam/identity-center/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;IAM Identity Center product page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-identity-center-vpc-endpoints/",
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "updatedAt": "2026-11-16T08:00:00.000Z",
+      "categories": [
+        "AWS Privatelink",
+        "Networking And Content Delivery",
+        "Security Identity And Compliance",
+        "AWS Iam Identity Center"
+      ],
+      "services": [
+        "VPC",
+        "PrivateLink",
+        "IAM",
+        "IAM Identity Center"
+      ],
+      "tags": [
+        "aws privatelink",
+        "networking and content delivery",
+        "security identity and compliance",
+        "aws iam identity center",
+        "vpc",
+        "privatelink",
+        "iam",
+        "iam identity center"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "IAM Identity Center",
+        "VPC",
+        "PrivateLink",
+        "access",
+        "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "848784f3aac1dffb",
+      "title": "AWS IAM Identity Center now supports ForceAuthn in SAML requests",
+      "description": "AWS IAM Identity Center now gives you the option to require workforce users to re-authenticate with your external identity provider (IdP) each time their user interactive session expires. By default, when a user's session expires, IAM Identity Center renews it through the user's existing IdP session, and the user isn't prompted to sign in again. For organizations with strict security or compliance requirements that mandate explicit user verification at regular intervals, this automatic renewal may not meet policy requirements. When you set user re-authentication to Required and a user's user i",
+      "descriptionHtml": "&lt;p&gt;AWS IAM Identity Center now gives you the option to require workforce users to re-authenticate with your external identity provider (IdP) each time their user interactive session expires. By default, when a user's session expires, IAM Identity Center renews it through the user's existing IdP session, and the user isn't prompted to sign in again. For organizations with strict security or compliance requirements that mandate explicit user verification at regular intervals, this automatic renewal may not meet policy requirements.&lt;/p&gt; \n&lt;p&gt;When you set user re-authentication to Required and a user's user interactive session expires, IAM Identity Center prompts the user to re-authenticate with your external IdP. This helps you enforce stronger sign-in controls for regulated workloads. IAM Identity Center implements this by adding the SAML 2.0 ForceAuthn attribute to the SAML request sent to your IdP.&lt;/p&gt; \n&lt;p&gt;You can configure user re-authentication for any IAM Identity Center instance (organization or account) that's connected to an external IdP as its identity source. The setting applies only to service provider initiated sign-ins, where users sign in through your AWS access portal URL. Changes to the user re-authentication setting are logged in AWS CloudTrail, so you can audit when it was turned on or off.&lt;/p&gt; \n&lt;p&gt;User re-authentication is available in all AWS Regions where IAM Identity Center is available at no additional cost. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/singlesignon/latest/userguide/require-user-reauthentication.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Require user re-authentication&lt;/a&gt; in the AWS IAM Identity Center User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-identity-center-reauth/",
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "updatedAt": "2026-11-16T08:00:00.000Z",
+      "categories": [
+        "AWS Iam Identity Center",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "IAM",
+        "IAM Identity Center"
+      ],
+      "tags": [
+        "aws iam identity center",
+        "security identity and compliance",
+        "iam",
+        "iam identity center"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "IAM Identity Center",
+        "authentication",
+        "security",
+        "compliance",
+        "Organizations",
+        "policy",
+        "identity"
+      ],
+      "source": "whats-new"
+    },
     {
       "id": "7d2dd5f9b3c87c86",
       "title": "AWS Secrets Manager now supports cross-account replication",
@@ -138,7 +301,7 @@
         "aws iam",
         "iam"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -1813,6 +1976,34 @@
       "source": "security-blog"
     },
     {
+      "id": "9abb074eac371e86",
+      "title": "AWS KMS now supports key sharing with AWS Resource Access Manager",
+      "description": "AWS Key Management Service (KMS) now integrates with AWS Resource Access Manager (RAM), giving you a simpler and more consistent way to share KMS keys across your AWS accounts, within your organization in AWS Organizations, and with specific IAM roles and users. You can now let trusted parties define the access they need through reusable managed permissions in RAM, while keeping full control of your keys and key policies. To share a key, create a resource share by selecting the keys to share, choosing a managed permission, and specifying the principals. You can use AWS managed permissions for ",
+      "descriptionHtml": "&lt;p&gt;AWS Key Management Service (KMS) now integrates with AWS Resource Access Manager (RAM), giving you a simpler and more consistent way to share KMS keys across your AWS accounts, within your organization in AWS Organizations, and with specific IAM roles and users. You can now let trusted parties define the access they need through reusable managed permissions in RAM, while keeping full control of your keys and key policies. To share a key, create a resource share by selecting the keys to share, choosing a managed permission, and specifying the principals. You can use AWS managed permissions for common scenarios, or customer managed permissions (CMPs) authored by you or by trusted parties such as SaaS providers and central security teams.&lt;/p&gt; \n&lt;p&gt;Sharing KMS keys through RAM makes enabling cross-account access faster to set up and safer to maintain. The trusted parties who need access to your keys can publish the policy once as a CMP, without the need for you to modify the key policies by hand. You simply fill in the values that scope it to your environment and attach it to the resource share. Your existing key policy is untouched, so you are always in control of your key as your environment grows. When a new policy version is available via an updated CMP, you decide when to apply it to your resource shares.&lt;/p&gt; \n&lt;p&gt;This enhancement is built on new AWS RAM capabilities that are available for every resource type RAM supports. CMPs now support multiple policy statements and additional IAM condition operators, including StringNotEquals, BoolIfExists, and ArnLike, along with the ForAnyValue and ForAllValues prefixes, so you can express precise, least-privilege access. The&amp;nbsp;parameterized managed permissions lets you place a temporary placeholder in CMPs that allows each resource share owner to customize and scope down CMPs to their environment, enabling CMPs to be reused and serve many accounts. CMPs can now be published and shared across accounts, so the authors can maintain one permission, manage its versions centrally, and see every resource share that uses it, while other accounts can use it directly without keeping their own copy.&lt;/p&gt; \n&lt;p&gt;KMS key sharing with RAM is available in all AWS Regions where both services are available, except the Middle East (UAE) and Middle East (Bahrain).&amp;nbsp;For more information, see &lt;a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-sharing-ram.html\"&gt;Sharing KMS keys with AWS RAM&lt;/a&gt; in the AWS KMS Developer Guide and &lt;a href=\"https://docs.aws.amazon.com/ram/latest/userguide/working-with.html\"&gt;Working with shared AWS resources&lt;/a&gt; in the AWS RAM Developer Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kms-key-sharing-resource-access-manager/",
+      "publishedAt": "2026-11-16T18:00:00.000Z",
+      "updatedAt": "2026-11-16T18:00:00.000Z",
+      "categories": [],
+      "services": [
+        "KMS"
+      ],
+      "tags": [
+        "kms"
+      ],
+      "isNew": true,
+      "securityScore": 95,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "KMS",
+        "IAM",
+        "Organizations",
+        "Resource Access Manager",
+        "permission",
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "dc1b9586a95b04a0",
       "title": "AWS Security Hub CSPM now supports centralized configuration with AWS Organizations declarative policies",
       "description": "AWS Security Hub CSPM now supports AWS Organizations declarative policies. You can use them to enable Security Hub CSPM across all accounts and Regions in your organization and to define which security standards and controls are enabled. Policies can apply broadly to every account and Region, or target specific account and Region combinations. Declarative policies help keep each account's configuration aligned with its attached policy, which helps prevent configuration drift. You can also apply them automatically to new accounts, so each account starts with a baseline configuration as soon as ",
@@ -1904,7 +2095,7 @@
         "security identity and compliance",
         "vpc"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 95,
       "securityLevel": "critical",
       "securityMatches": [
@@ -4168,7 +4359,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 65,
       "securityLevel": "high",
       "securityMatches": [
@@ -4198,7 +4389,7 @@
         "amazon bedrock",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 65,
       "securityLevel": "critical",
       "securityMatches": [
@@ -5448,6 +5639,35 @@
       "source": "security-blog"
     },
     {
+      "id": "31178f6870da4afd",
+      "title": "AWS Secrets Manager adds managed external secrets support for Auth0, Okta, and Palo Alto Networks",
+      "description": "AWS Secrets Manager now supports managed external secrets for Auth0, Okta, and Palo Alto Networks. Long-lived credentials that are not rotated increase the risk of unauthorized access if exposed. Rotating a third-party credential requires coordinated updates to the external service and every application that uses it. You set a rotation schedule from the AWS Management Console or API. Secrets Manager rotates the credential and stores the current value without a custom rotation Lambda function. Secrets Manager offers self-rotation and administrator-assisted rotation for Auth0 credentials. With s",
+      "descriptionHtml": "&lt;p&gt;AWS Secrets Manager now supports managed external secrets for Auth0, Okta, and Palo Alto Networks. Long-lived credentials that are not rotated increase the risk of unauthorized access if exposed. Rotating a third-party credential requires coordinated updates to the external service and every application that uses it. You set a rotation schedule from the AWS Management Console or API. Secrets Manager rotates the credential and stores the current value without a custom rotation Lambda function.&lt;/p&gt; \n&lt;p&gt;Secrets Manager offers self-rotation and administrator-assisted rotation for Auth0 credentials. With self-rotation, the target application replaces its own secret. With administrator-assisted rotation, a separate Auth0 application with Management API permissions replaces the target application's secret. For Okta, Secrets Manager offers administrator-assisted rotation with a separate administrator JSON Web Token (JWT) key and validates the replacement before deactivating the old secret. For Palo Alto Networks, Secrets Manager offers self-rotation, in which the current API key authorizes its replacement.&lt;/p&gt; \n&lt;p&gt;Applications that already retrieve credentials from Secrets Manager receive the rotated value without a code change or deployment. &lt;/p&gt; \n&lt;p&gt;These integrations join existing managed external secrets support for BigID, Cisco Security Platform, Confluent Cloud, Databricks, Datadog, GitLab, Jenkins, MongoDB Atlas, Netskope, Paddle, Salesforce, Snowflake, SonarQube, and Twilio.&lt;/p&gt; \n&lt;p&gt;Auth0, Okta, and Palo Alto Networks managed external secrets are available in all AWS Regions where AWS Secrets Manager managed external secrets is supported. To learn more, visit the &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/secretsmanager/latest/userguide/managed-external-secrets.html\"&gt;AWS Secrets Manager managed external secrets documentation&amp;nbsp;&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-managed-external-secrets-auth0-okta-palo-alto/",
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "updatedAt": "2026-11-16T08:00:00.000Z",
+      "categories": [
+        "AWS Secrets Manager"
+      ],
+      "services": [
+        "Secrets Manager"
+      ],
+      "tags": [
+        "aws secrets manager",
+        "secrets manager"
+      ],
+      "isNew": true,
+      "securityScore": 55,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Secrets Manager",
+        "access",
+        "credential",
+        "Secret"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "86f4be2ae38f2e6d",
       "title": "CVE-2026-100307 - Missing authorization on the external management API in mcp-gateway-registry enables privilege escalation to registry administrator",
       "description": "Bulletin ID: 2026-179-AWS Publication Date: 11/11/2026 12:30 PM PST Description: Missing authorization in the external management API in Amazon mcp-gateway-registry 1.0.9 through 1.24.7 might allow an authenticated remote user to assign the registry administrator scope to their own identity group and obtain administrative control of every registered gateway asset via a crafted group import request. Impacted versions: >= 1.0.9 AND Refer to the article for the most up-to-date and complete information.",
@@ -5487,7 +5707,7 @@
         "amazon simple storage service",
         "s3"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 55,
       "securityLevel": "critical",
       "securityMatches": [
@@ -6201,6 +6421,65 @@
       "source": "security-blog"
     },
     {
+      "id": "1de7dad2a17c1ebd",
+      "title": "Amazon EBS now supports associating additional KMS keys with snapshots",
+      "description": "Amazon Elastic Block Store (EBS) now supports associating additional AWS Key Management Service (KMS) keys with EBS snapshots. This new capability enables you to share and copy encrypted snapshots across accounts without first re-encrypting them, simplifying your disaster recovery and backup workflows. Customers use EBS snapshots as durable, point-in-time backups of EBS volumes. By associating an additional customer-managed KMS key (CMK) with a snapshot encrypted with an AWS managed key (AMK), for example, you enable cross-account sharing for that snapshot without re-encrypting its data. This ",
+      "descriptionHtml": "&lt;div&gt;\n &lt;p&gt;Amazon Elastic Block Store (EBS) now supports associating additional AWS Key Management Service (KMS) keys with EBS snapshots. This new capability enables you to share and copy encrypted snapshots across accounts without first re-encrypting them, simplifying your disaster recovery and backup workflows.&lt;/p&gt; \n&lt;/div&gt; \n&lt;div&gt;\n &lt;p&gt;Customers use EBS snapshots as durable, point-in-time backups of EBS volumes. By associating an additional customer-managed KMS key (CMK) with a snapshot encrypted with an AWS managed key (AMK), for example, you enable cross-account sharing for that snapshot without re-encrypting its data. This feature accelerates your disaster recovery workflows and enhances operational efficiency for enterprise backup administrators and disaster recovery teams.&lt;/p&gt; \n&lt;/div&gt; \n&lt;div&gt;\n &lt;p&gt;Support for associating additional KMS keys with Amazon EBS snapshots is available in all AWS commercial, China, AWS GovCloud (US), and AWS European Sovereign Cloud (Germany) Regions, plus AWS Local Zones and AWS Outposts. You can access this capability through the AWS Console, AWS Command Line Interface (CLI), and AWS SDKs. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/ebs/latest/userguide/associated-kms-keys.html\" target=\"_blank\"&gt;Amazon EBS documentation&lt;/a&gt;.&lt;/p&gt; \n&lt;/div&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/",
+      "publishedAt": "2026-11-16T22:00:00.000Z",
+      "updatedAt": "2026-11-16T22:00:00.000Z",
+      "categories": [
+        "AWS Kms",
+        "Amazon Elastic Block Store"
+      ],
+      "services": [
+        "EBS",
+        "KMS"
+      ],
+      "tags": [
+        "aws kms",
+        "amazon elastic block store",
+        "ebs",
+        "kms"
+      ],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "KMS",
+        "encrypt"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "fdf1d8c8b3ea58b3",
+      "title": "AWS WAF advanced rate-based rules are now available in AWS GovCloud (US), Thailand, and Mexico",
+      "description": "AWS WAF advanced rate-based rules are now available in the Asia Pacific (Thailand), Mexico (Central), AWS GovCloud (US-East), and AWS GovCloud (US-West) Regions. Customers in these Regions can now aggregate requests using custom keys and choose a 1 or 2 minute evaluation window in addition to the existing 5 and 10 minute options, the same capabilities already available in other AWS Regions. A rate-based rule counts requests and applies an action, such as Block or CAPTCHA, when the request rate exceeds a limit you set. Previously, rate-based rules in these Regions could aggregate requests only ",
+      "descriptionHtml": "&lt;p&gt;AWS WAF advanced rate-based rules are now available in the Asia Pacific (Thailand), Mexico (Central), AWS GovCloud (US-East), and AWS GovCloud (US-West) Regions. Customers in these Regions can now aggregate requests using custom keys and choose a 1 or 2 minute evaluation window in addition to the existing 5 and 10 minute options, the same capabilities already available in other AWS Regions.&lt;/p&gt;\n&lt;p&gt;A rate-based rule counts requests and applies an action, such as Block or CAPTCHA, when the request rate exceeds a limit you set. Previously, rate-based rules in these Regions could aggregate requests only by IP address and used a 5 or 10 minute evaluation window. Now you can aggregate by request components such as HTTP headers, cookies, query strings, URI paths, HTTP methods, and label namespaces, and combine up to five of them into a composite key. For example, you can limit login attempts per IP address and User-Agent pair, or per session cookie, which helps against attacks spread across many IP addresses. A shorter evaluation window detects request floods sooner, and a longer window catches slower, sustained attacks.&lt;/p&gt;\n&lt;p&gt;You can configure these options in the AWS WAF console, the AWS CLI and SDKs, and AWS CloudFormation. There is no additional charge for these capabilities, and standard AWS WAF pricing applies. Advanced rate-based rules are now available in all commercial AWS Regions where AWS WAF is available and in the AWS GovCloud (US) Regions. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-rule-statement-type-rate-based.html\" target=\"_blank\"&gt;Using rate-based rule statements&lt;/a&gt; in the AWS WAF Developer Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-advanced-rate-rules-available/",
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "updatedAt": "2026-11-16T08:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "AWS Waf"
+      ],
+      "services": [
+        "WAF"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "aws waf",
+        "waf"
+      ],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "WAF"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "b3d1d63ef431e0e7",
       "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
       "description": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS Organizations, supporting direct restore to reduce recovery time from a data loss event. You can now archive Amazon EBS backups held in a logically air-gapped vault to Amazon EBS Snapshots Archive, a low-cost tier for snapshots you rarely access. A logically air-gapped vault stores immutable backups that are locked by default, and isolated with encryption using AWS owned keys or customer-managed",
@@ -6282,7 +6561,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 50,
       "securityLevel": "medium",
       "securityMatches": [
@@ -6689,6 +6968,30 @@
       "source": "whats-new"
     },
     {
+      "id": "dba41c2b928bedae",
+      "title": "CVE-2026-126681 - Improper restriction of intended endpoints in AWS Labs Timestream for InfluxDB MCP Server",
+      "description": "Bulletin ID: 2026-185-AWS Publication Date: 11/16/2026 12:30 PM PST Description: Improper restriction of intended endpoints in the connection configuration handling of the AWS Labs Timestream for InfluxDB MCP Server (awslabs.timestream-for-influxdb-mcp-server) before 0.0.19 might allow a remote unauthenticated actor (via prompt injection) to obtain the InfluxDB API token configured on the server, sent to a crafted endpoint controlled through an InfluxDB URL introduced in the MCP client context. Impacted versions: >=0.0.12 AND Refer to the article for the most up-to-date and complete informatio",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-185-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/16/2026 12:30 PM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Improper restriction of intended endpoints in the connection configuration handling of the AWS Labs Timestream for InfluxDB MCP Server (awslabs.timestream-for-influxdb-mcp-server) before 0.0.19 might allow a remote unauthenticated actor (via prompt injection) to obtain the InfluxDB API token configured on the server, sent to a crafted endpoint controlled through an InfluxDB URL introduced in the MCP client context.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;=0.0.12 AND &amp;lt;0.0.19&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-185-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-185-aws/",
+      "publishedAt": "2026-11-16T21:03:04.000Z",
+      "updatedAt": "2026-11-16T21:03:04.000Z",
+      "categories": [],
+      "services": [
+        "Timestream"
+      ],
+      "tags": [
+        "timestream"
+      ],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "token"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "56ef829353af53a2",
       "title": "AWS refreshes ProcessUnity Global Risk Exchange assessment to enhance customer’s third-party due diligence",
       "description": "Amazon Web Services (AWS) is pleased to announce renewal of the AWS ProcessUnity Global Risk Exchange assessment. This validated assessment report helps customers perform effective cloud supplier due diligence on AWS and enhances their third-party risk management process. What is the AWS ProcessUnity Global Risk Exchange assessment Many customers use third-party cyber risk management (TPCRM) […]",
@@ -6775,6 +7078,11 @@
         "Security",
         "Identity",
         "& Compliance",
+        "AWS Digital Sovereignty Pledge",
+        "Digital Sovereignty",
+        "EU Data Protection",
+        "Europe",
+        "European Union",
         "Security Blog"
       ],
       "services": [],
@@ -6786,6 +7094,11 @@
         "security",
         "identity",
         "& compliance",
+        "aws digital sovereignty pledge",
+        "digital sovereignty",
+        "eu data protection",
+        "europe",
+        "european union",
         "security blog"
       ],
       "isNew": true,
@@ -6828,7 +7141,7 @@
         "security blog",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "medium",
       "securityMatches": [],
@@ -6947,6 +7260,10 @@
         "Security",
         "Identity",
         "& Compliance",
+        "AWS Digital Sovereignty Pledge",
+        "Digital Sovereignty",
+        "EU Data Protection",
+        "European Union",
         "Security Blog"
       ],
       "services": [],
@@ -6956,6 +7273,10 @@
         "security",
         "identity",
         "& compliance",
+        "aws digital sovereignty pledge",
+        "digital sovereignty",
+        "eu data protection",
+        "european union",
         "security blog"
       ],
       "isNew": false,
@@ -7935,6 +8256,59 @@
       "securityLevel": "medium",
       "securityMatches": [],
       "source": "security-blog"
+    },
+    {
+      "id": "4fd76b2560c3bfc0",
+      "title": "CVE-2026-129266 - Arbitrary local file read via unvalidated resource location in model archive metadata in Deep Java Library",
+      "description": "Bulletin ID: 2026-183-AWS Publication Date: 11/16/2026 10:30 AM PST Description: External control of a file path in Amazon Deep Java Library (DJL) versions 0.7.0 through 0.38.0 might allow a remote unauthenticated third party to read arbitrary files that the library process can access. To do this, the third party supplies a crafted model archive. Impacted versions: >=0.7.0, Refer to the article for the most up-to-date and complete information.",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-183-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/16/2026 10:30 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;External control of a file path in Amazon Deep Java Library (DJL) versions 0.7.0 through 0.38.0 might allow a remote unauthenticated third party to read arbitrary files that the library process can access. To do this, the third party supplies a crafted model archive.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;=0.7.0, &amp;lt;=0.38.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-183-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-183-aws/",
+      "publishedAt": "2026-11-16T18:37:04.000Z",
+      "updatedAt": "2026-11-16T18:37:04.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "92a3064d9b509f27",
+      "title": "AWS Backup adds logically air-gapped vault support for Amazon RDS",
+      "description": "AWS Backup logically air-gapped vault now supports Amazon Relational Database Service (Amazon RDS) DB instances. Logically air-gapped vaults are a type of AWS Backup vault that stores immutable, isolated backups, which are locked by default with AWS Backup Vault Lock in compliance mode. Secure sharing across accounts and AWS Organizations enables direct restore, reducing recovery time from a data loss event. You can now protect your Amazon RDS DB instances in logically air-gapped vaults. A logically air-gapped vault stores immutable backups that are locked by default, and isolated with encrypt",
+      "descriptionHtml": "&lt;p&gt;AWS Backup logically air-gapped vault now supports Amazon Relational Database Service (Amazon RDS) DB instances. Logically air-gapped vaults are a type of AWS Backup vault that stores immutable, isolated backups, which are locked by default with AWS Backup Vault Lock in compliance mode. Secure sharing across accounts and AWS Organizations enables direct restore, reducing recovery time from a data loss event.&lt;/p&gt; \n&lt;p&gt;You can now protect your Amazon RDS DB instances in logically air-gapped vaults. A logically air-gapped vault stores immutable backups that are locked by default, and isolated with encryption using AWS owned keys or customer-managed keys. This helps reduce the risk of downtime, ensure business continuity, and meet compliance requirements.&lt;/p&gt; \n&lt;p&gt;To get started, use the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. Assign your RDS DB instances to a backup plan and specify a logically air-gapped vault in the same AWS Region as the copy destination. Share the vault for recovery or restore testing with other accounts using AWS Resource Access Manager (RAM), or safeguard vault access during account compromise using &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/multipartyapproval.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Multi-party approval&lt;/a&gt;. Once shared, you can initiate direct restore jobs from that account.&lt;/p&gt; \n&lt;p&gt;This support is available in most AWS Regions where both logically air-gapped vault and Amazon RDS are available. For more information and detailed regional availability, visit the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#features-by-resource\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Backup documentation&lt;/a&gt;. To learn more about logically air-gapped vaults for RDS, read the &lt;a href=\"https://aws.amazon.com/blogs/storage/introducing-aws-backup-logically-air-gapped-vault-support-for-amazon-rds/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;launch blog&lt;/a&gt; and visit the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/logicallyairgappedvault.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;feature documentation&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/backup/pricing/\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-air-gapped-vault-rds/",
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "updatedAt": "2026-11-16T08:00:00.000Z",
+      "categories": [
+        "Amazon Rds",
+        "AWS Backup",
+        "Storage"
+      ],
+      "services": [
+        "Backup",
+        "RDS"
+      ],
+      "tags": [
+        "amazon rds",
+        "aws backup",
+        "storage",
+        "backup",
+        "rds"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "encrypt",
+        "compliance",
+        "Organizations"
+      ],
+      "source": "whats-new"
     },
     {
       "id": "ae8a0763b8fe5fd1",
@@ -9425,6 +9799,23 @@
       "source": "whats-new"
     },
     {
+      "id": "af298544b31ef883",
+      "title": "CVE-2026-126816 - Path traversal and arbitrary file write in the cost report generator of aws-pricing-mcp-server",
+      "description": "Bulletin ID: 2026-184-AWS Publication Date: 11/16/2026 12:00 PM PST Description: Improper limitation of a pathname to a restricted directory in the cost report generation tool in AWS Pricing MCP Server (aws-pricing-mcp-server) before 1.0.31 might allow an actor who can influence the MCP agent to write actor controlled content to arbitrary locations outside the intended output directory via absolute paths or directory traversal sequences in the report output path. Impacted versions: - awslabs.aws-pricing-mcp-server - awslabs.cost-analysis-mcp-server Refer to the article for the most up-to-date ",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-184-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/16/2026 12:00 PM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Improper limitation of a pathname to a restricted directory in the cost report generation tool in AWS Pricing MCP Server (aws-pricing-mcp-server) before 1.0.31 might allow an actor who can influence the MCP agent to write actor controlled content to arbitrary locations outside the intended output directory via absolute paths or directory traversal sequences in the report output path.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;br&gt; - awslabs.aws-pricing-mcp-server &amp;lt; 1.0.31&lt;br&gt; - awslabs.cost-analysis-mcp-server &amp;lt;= 1.0.5&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-184-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-184-aws/",
+      "publishedAt": "2026-11-16T20:12:51.000Z",
+      "updatedAt": "2026-11-16T20:12:51.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
       "id": "6846f8359699b5ce",
       "title": "Amazon SageMaker Unified Studio now supports layout customization for designations",
       "description": "Amazon SageMaker Unified Studio now supports layout customization, a new capability that gives domain administrators control over which tools and left navigation items project members see based on their designation. Organizations with data engineering, analytics, and machine learning teams on a single platform can configure a layout within each designation definition, and that layout applies across every project in the domain without per-project configuration. Previously, all project members saw the same interface regardless of their role, creating confusion and potential governance issues. Wi",
@@ -9509,7 +9900,7 @@
       "tags": [
         "braket"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -12085,7 +12476,7 @@
         "databases",
         "rds"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 25,
       "securityLevel": "medium",
       "securityMatches": [
@@ -12114,7 +12505,7 @@
         "amazon s3",
         "s3"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 25,
       "securityLevel": "medium",
       "securityMatches": [
@@ -12139,7 +12530,7 @@
       "tags": [
         "cloudwatch"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 25,
       "securityLevel": "medium",
       "securityMatches": [
@@ -12825,7 +13216,7 @@
         "ec2",
         "cloudwatch"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -12854,7 +13245,7 @@
         "analytics",
         "glue"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
@@ -13904,368 +14295,6 @@
       "securityMatches": [
         "Organizations",
         "policy"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "f5e8ccda087bcb29",
-      "title": "Amazon GameLift Servers enhanced DDoS Protection now available",
-      "description": "Amazon GameLift Servers now offers Enhanced DDoS Protection, a new layer of protection that defends game servers from common network and transport layer DDoS attacks with no configuration required. Enhanced DDoS Protection is active from the moment you start running game servers on Amazon GameLift Servers , with nothing to enable or opt in to. Enhanced DDoS Protection provides proactive, gaming-optimized traffic shaping mitigations tuned from experience protecting some of the world's largest games, defending against common volumetric attacks at layers 3 and 4 including UDP reflection, SYN floo",
-      "descriptionHtml": "&lt;p&gt;Amazon GameLift Servers now offers Enhanced DDoS Protection, a new layer of protection that defends game servers from common network and transport layer DDoS attacks with no configuration required.&lt;/p&gt; \n&lt;p&gt;Enhanced DDoS Protection is active from the moment you start running game servers on Amazon GameLift Servers , with nothing to enable or opt in to.&lt;/p&gt; \n&lt;p&gt;Enhanced DDoS Protection provides proactive, gaming-optimized traffic shaping mitigations tuned from experience protecting some of the world's largest games, defending against common volumetric attacks at layers 3 and 4 including UDP reflection, SYN floods, and other common DDoS attack vectors. This builds on the baseline network-level protection that AWS Shield Standard provides to all AWS services. For games that require stronger protection against sophisticated or targeted attacks, Amazon GameLift Servers &lt;a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/ddos-protection-player-gateway.html\"&gt;Player Gateway&lt;/a&gt;&amp;nbsp;&amp;nbsp;provides our maximum level of DDoS defense through a relay-based network architecture. These layers work together, when you enable Player Gateway, your fleets continue to benefit from Enhanced DDoS Protection traffic shaping in addition to the relay-based protections.&lt;/p&gt; \n&lt;p&gt;Enhanced DDoS Protection is available at no additional cost to Amazon GameLift Servers customers in all supported Amazon GameLift Servers Regions, except the China (Beijing) and China (Ningxia) Regions, and applies to fleets using Amazon GameLift Servers Server SDK 5 (SDKv5). Check out the Amazon GameLift Servers &lt;a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/ddos-protection-intro.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt;&amp;nbsp;to learn more.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-gamelift-servers-enhanced-ddos-protection",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "updatedAt": "2026-08-25T00:00:00.000Z",
-      "categories": [
-        "Game Development",
-        "Amazon Gamelift"
-      ],
-      "services": [],
-      "tags": [
-        "game development",
-        "amazon gamelift"
-      ],
-      "isNew": false,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "attack",
-        "DDoS"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "f0936361c9b55596",
-      "title": "Amazon EKS now supports multiple external OIDC identity providers per cluster",
-      "description": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports multiple external OpenID Connect (OIDC) identity providers per cluster. You can associate up to 10 OIDC identity providers with a single cluster, giving you more flexibility in how you authenticate users and workloads to your Kubernetes clusters. Many organizations use different identity providers for different user populations, such as employees, contractors, and CI/CD systems. You can now associate each of these providers directly with your cluster, without consolidating users into a single provider or running an intermediary identi",
-      "descriptionHtml": "&lt;p&gt;Amazon Elastic Kubernetes Service (Amazon EKS) now supports multiple external OpenID Connect (OIDC) identity providers per cluster. You can associate up to 10 OIDC identity providers with a single cluster, giving you more flexibility in how you authenticate users and workloads to your Kubernetes clusters.&lt;br&gt; &lt;br&gt; Many organizations use different identity providers for different user populations, such as employees, contractors, and CI/CD systems. You can now associate each of these providers directly with your cluster, without consolidating users into a single provider or running an intermediary identity broker. Each provider is configured and managed independently, so each population authenticates through its own provider and identity mapping. Your existing IAM authentication continues to work alongside every configured provider. You add each provider the same way as before, using the AWS Management Console or the AssociateIdentityProviderConfig API through the AWS CLI and AWS SDKs.&lt;br&gt; &lt;br&gt; This capability is available at no additional cost in all AWS Regions where Amazon EKS is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/authenticate-oidc-identity-provider.html\"&gt;Grant users access to Kubernetes with an external OIDC provider&lt;/a&gt; in the Amazon EKS User Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers",
-      "publishedAt": "2026-08-24T18:29:00.000Z",
-      "updatedAt": "2026-08-24T18:29:00.000Z",
-      "categories": [
-        "AWS Govcloud Us",
-        "Containers",
-        "Amazon Eks"
-      ],
-      "services": [
-        "EKS"
-      ],
-      "tags": [
-        "aws govcloud us",
-        "containers",
-        "amazon eks",
-        "eks"
-      ],
-      "isNew": false,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Organizations",
-        "identity"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "5ccd3e95045cc6f2",
-      "title": "OpenAI GPT-5.6 Terra and Luna now available on Amazon Bedrock in AWS GovCloud (US)",
-      "description": "GPT-5.6 Terra and Luna are now generally available on Amazon Bedrock in AWS GovCloud (US-West) and AWS GovCloud (US-East), bringing the smartest family of models from OpenAI yet to Bedrock's next-generation inference engine built for high-performance, security and reliability. GPT-5.6 sets a new standard for intelligence and efficiency, allowing you to solve harder problems in less time and with more intelligence per token. The two models span capability tiers from balanced performance (Terra) to fast, cost-efficient inference (Luna). With GPT-5.6, you can build autonomous coding agents, run l",
-      "descriptionHtml": "&lt;p&gt;GPT-5.6 Terra and Luna are now generally available on Amazon Bedrock in AWS GovCloud (US-West) and AWS GovCloud (US-East), bringing the smartest family of models from OpenAI yet to Bedrock's next-generation inference engine built for high-performance, security and reliability. GPT-5.6 sets a new standard for intelligence and efficiency, allowing you to solve harder problems in less time and with more intelligence per token. The two models span capability tiers from balanced performance (Terra) to fast, cost-efficient inference (Luna).&lt;/p&gt; \n&lt;p&gt;With GPT-5.6, you can build autonomous coding agents, run long-horizon genomics and biology analyses, and perform advanced cybersecurity research. Terra provides GPT-5.5-level performance at half the cost and Luna brings fast, affordable inference at the lowest price point. GPT-5.6 also supports prompt caching with explicit cache breakpoints, so repeated context across agentic workflows is billed at a 90% discount and doesn't compound cost as you scale.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;GPT-5.6 Terra and Luna support 1 million token context windows on Amazon Bedrock, enabling you to process full codebases, lengthy documents, and multi-turn agent histories in a single request. Models reason over broader context and return more accurate, coherent responses without chunking or information loss.&lt;/p&gt; \n&lt;p&gt;For regional availability, please see the Amazon Bedrock &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html#model-regions-openai\"&gt;regional availability page&lt;/a&gt;.&amp;nbsp; Get started with Terra and Luna using the &lt;a href=\"https://console.amazonaws-us-gov.com/bedrock/\"&gt;Amazon Bedrock Console&lt;/a&gt; or the Responses API on the bedrock-mantle endpoint. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html\"&gt;Amazon Bedrock documentation&lt;/a&gt; and read the &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock/\"&gt;launch blog post&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-gpt-terra-luna-govcloud/",
-      "publishedAt": "2026-08-24T13:00:00.000Z",
-      "updatedAt": "2026-08-24T13:00:00.000Z",
-      "categories": [
-        "AWS Govcloud Us",
-        "Amazon Bedrock"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "aws govcloud us",
-        "amazon bedrock",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "token"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "b2a8063c44998666",
-      "title": "Generative AI Inference Recommendation for Amazon SageMaker now available in the SageMaker AI Studio",
-      "description": "Amazon SageMaker AI now offers Generative AI Inference Recommendations in SageMaker AI Studio, giving customers a guided, low-code, no-code path to find the best inference configuration for their workload. This builds on the API-based launch in April 2026, extending the same benchmarking infrastructure to teams that prefer a visual workflow over programmatic access. Deploying generative AI models in production requires finding the right combination of instance type, serving container, and optimization strategy. Getting this right typically involves weeks of manual benchmarking, configuration t",
-      "descriptionHtml": "&lt;p&gt;Amazon SageMaker AI now offers Generative AI Inference Recommendations in SageMaker AI Studio, giving customers a guided, low-code, no-code path to find the best inference configuration for their workload. This builds on the API-based launch in April 2026, extending the same benchmarking infrastructure to teams that prefer a visual workflow over programmatic access.&lt;/p&gt; \n&lt;p&gt;Deploying generative AI models in production requires finding the right combination of instance type, serving container, and optimization strategy. Getting this right typically involves weeks of manual benchmarking, configuration tuning, and trial-and-error, with no easy way to know if the final setup is actually optimal. With the new experience, customers describe their workload and what matters most, whether that's latency, throughput, or cost, and SageMaker AI does the rest. It benchmarks multiple configurations on real GPU infrastructure using NVIDIA AIPerf, applies goal-aligned techniques like speculative decoding for throughput or kernel tuning for latency, and returns ranked, production-ready recommendations with measured performance data. Teams get to a validated configuration in hours instead of weeks, without needing to decide which techniques to apply or how to configure them.&lt;/p&gt; \n&lt;p&gt;With the new experience, customers describe their workload and what matters most, whether that's latency, throughput, or cost, and SageMaker AI does the rest. It benchmarks multiple configurations on real GPU infrastructure using NVIDIA AIPerf, applies goal-aligned techniques like speculative decoding for throughput or kernel tuning for latency, and returns ranked, production-ready recommendations with measured performance data. Teams get to a validated configuration in hours instead of weeks, without needing to decide which techniques to apply or how to configure them.&lt;/p&gt; \n&lt;p&gt;In SageMaker AI Studio under Jobs, Inference optimization, customers select a use-case profile (Interact, Generate, Summarize, or Custom), choose an optimization goal (minimize latency, maximize throughput, or minimize cost), and pick their model from JumpStart, S3, Model Registry, or an existing SageMaker model. Recommendations are ranked by TTFT, inter-token latency, throughput, and cost, and can be compared visually before deploying to a SageMaker real-time endpoint directly from Studio.&lt;/p&gt; \n&lt;p&gt;There is no additional cost for generating recommendations. Standard compute costs apply for optimization jobs and endpoints provisioned during benchmarking. This capability is available in US East (N. Virginia), US West (Oregon), US East (Ohio), Europe (Ireland), Europe (Frankfurt), Asia Pacific (Singapore), Asia Pacific (Tokyo). To learn more, visit the &lt;a href=\"https://aws.amazon.com/blogs/machine-learning/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai/\"&gt;blog post&lt;/a&gt; or the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/generative-ai-inference-recommendations.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/generative-ai-inference-recommendation-for-amazon-sagemaker-now-available-in-the-sagemaker-ai-studio",
-      "publishedAt": "2026-08-20T17:25:00.000Z",
-      "updatedAt": "2026-08-20T17:25:00.000Z",
-      "categories": [
-        "Artificial Intelligence",
-        "Amazon Sagemaker Deploy",
-        "Aiml",
-        "Amazon Sagemaker",
-        "Amazon Sagemaker Studio"
-      ],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "artificial intelligence",
-        "amazon sagemaker deploy",
-        "aiml",
-        "amazon sagemaker",
-        "amazon sagemaker studio",
-        "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "38dcab5f94a69a90",
-      "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
-      "description": "AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings. For EKS clusters that enforce the Kubernetes Pod Security Standards restricted profile, you can now run AWS Batch jobs with only the privileges and system calls they require. To get started, use the RegisterJobDefinition API to set capabilities and seccompProfile in a container's securityContext , or set securityContext in podProperties to define pod-wide settings such as fsGroup . Container-level settings override pod-lev",
-      "descriptionHtml": "&lt;p&gt;AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings.&amp;nbsp;For EKS clusters that enforce the Kubernetes Pod Security Standards restricted profile, you can now run AWS Batch jobs with only the privileges and system calls they require.&lt;/p&gt; \n&lt;p&gt;To get started, use the &lt;i&gt;RegisterJobDefinition&lt;/i&gt; API to set &lt;i&gt;capabilities&lt;/i&gt; and &lt;i&gt;seccompProfile&lt;/i&gt; in a container's &lt;i&gt;securityContext&lt;/i&gt;, or set &lt;i&gt;securityContext&lt;/i&gt; in &lt;i&gt;podProperties&lt;/i&gt; to define pod-wide settings such as &lt;i&gt;fsGroup&lt;/i&gt;. Container-level settings override pod-level defaults. You can configure these settings through the AWS Management Console, AWS CLI, AWS SDKs, or AWS CloudFormation.&lt;/p&gt; \n&lt;p&gt;The additional security context settings for AWS Batch on Amazon EKS are now supported in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions&lt;/a&gt; where AWS Batch is available. For more information, see the Amazon EKS properties section in the &lt;a href=\"https://docs.aws.amazon.com/batch/latest/userguide/job_definition_parameters.html#job-definition-parameters-eks-properties\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Batch User Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
-      "publishedAt": "2026-11-13T08:00:00.000Z",
-      "updatedAt": "2026-11-13T08:00:00.000Z",
-      "categories": [
-        "AWS Govcloud Us"
-      ],
-      "services": [
-        "Batch",
-        "EKS"
-      ],
-      "tags": [
-        "aws govcloud us",
-        "batch",
-        "eks"
-      ],
-      "isNew": true,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "bf5901cc785264d3",
-      "title": "Announcing Accelerated Compute Insights for Amazon CloudWatch",
-      "description": "Amazon CloudWatch now offers accelerated compute insights, a capability that provides monitoring and observability for self-hosted AI inference workloads running in Amazon EKS clusters. Previously, platform and AI teams lacked fleet-level visibility into their accelerators, whether workloads were running efficiently, and what was causing performance issues. Accelerated compute insights collects telemetry from across the inference stack to help teams identify idle accelerators, optimize workloads to reduce costs, and troubleshoot common inference issues such as high time to first token. Getting",
-      "descriptionHtml": "&lt;p&gt;Amazon CloudWatch now offers accelerated compute insights, a capability that provides monitoring and observability for self-hosted AI inference workloads running in Amazon EKS clusters. Previously, platform and AI teams lacked fleet-level visibility into their accelerators, whether workloads were running efficiently, and what was causing performance issues. Accelerated compute insights collects telemetry from across the inference stack to help teams identify idle accelerators, optimize workloads to reduce costs, and troubleshoot common inference issues such as high time to first token.&lt;/p&gt; \n&lt;p&gt;Getting started is as simple as enabling the Amazon CloudWatch Observability add-on for Amazon EKS, which discovers every NVIDIA GPU in the cluster automatically. Curated views in the CloudWatch console let you monitor from the fleet level down to an individual workload or accelerator. Teams can see which workloads are idle, which are underutilized, and the estimated cost per token for each inference workload. The feature is also available on CloudWatch Omni, where it includes an agentic experience that makes answering questions about inference workloads easy.&lt;/p&gt; \n&lt;p&gt;There is no additional charge for accelerated compute insights. Standard &amp;nbsp;&lt;a href=\"https://aws.amazon.com/cloudwatch/pricing/\"&gt;CloudWatch pricing&amp;nbsp;&lt;/a&gt; applies to the telemetry you collect from your AI workloads.&lt;/p&gt; \n&lt;p&gt;For more information about the AWS Regions where Accelerated Compute Insights is available, see the &amp;nbsp;&lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Region table&amp;nbsp;&lt;/a&gt;. To get started, see &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Accelerated-Compute-Insights.html\"&gt;Accelerated Compute Insights&amp;nbsp;&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/accelerated-compute-insights-cloudwatch/",
-      "publishedAt": "2026-11-10T08:00:00.000Z",
-      "updatedAt": "2026-11-10T08:00:00.000Z",
-      "categories": [
-        "Amazon Eks",
-        "Amazon Cloudwatch"
-      ],
-      "services": [
-        "EKS",
-        "CloudWatch"
-      ],
-      "tags": [
-        "amazon eks",
-        "amazon cloudwatch",
-        "eks",
-        "cloudwatch"
-      ],
-      "isNew": true,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "monitoring",
-        "token"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "46885685e963227d",
-      "title": "Amazon DocumentDB (with MongoDB compatibility) now supports post-quantum TLS, wildcard indexes, and $unionWith in version 8.0.3",
-      "description": "Amazon DocumentDB (with MongoDB compatibility) 8.0.3 adds hybrid post-quantum key exchange for TLS, wildcard indexes, the $unionWith aggregation stage, and new change stream events. Post-quantum TLS protects data in transit from traffic that is recorded today and decrypted later with a quantum computer. The new MongoDB APIs let you move more MongoDB workloads to Amazon DocumentDB without changing application code. What's new in 8.0.3: Post-quantum TLS: TLS 1.3 connections use hybrid key exchange based on the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) when the client supports it.",
-      "descriptionHtml": "&lt;p&gt;Amazon DocumentDB (with MongoDB compatibility) 8.0.3 adds hybrid post-quantum key exchange for TLS, wildcard indexes, the $unionWith aggregation stage, and new change stream events. Post-quantum TLS protects data in transit from traffic that is recorded today and decrypted later with a quantum computer. The new MongoDB APIs let you move more MongoDB workloads to Amazon DocumentDB without changing application code.&lt;/p&gt; \n&lt;p&gt;What's new in 8.0.3:&lt;/p&gt; \n&lt;ul&gt; \n &lt;li&gt;&lt;p&gt;Post-quantum TLS: TLS 1.3 connections use hybrid key exchange based on the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) when the client supports it. Other clients keep using classical key exchange. Two new Amazon CloudWatch metrics, TLSHandshakesClassical and TLSHandshakesPostQuantum, count the handshakes of each type.&lt;/p&gt; &lt;/li&gt; \n&lt;/ul&gt; \n&lt;ul&gt; \n &lt;li&gt;&lt;p&gt;Wildcard indexes: index every field, or every field under a path, to query documents with dynamic schemas.&lt;/p&gt; &lt;/li&gt; \n&lt;/ul&gt; \n&lt;ul&gt; \n &lt;li&gt;&lt;p&gt;Aggregation: $unionWith combines results from multiple collections in one pipeline. $lookup and $graphLookup work in views, and correlated $lookup sub-pipelines accept $unionWith and $facet.&lt;/p&gt; &lt;/li&gt; \n&lt;/ul&gt; \n&lt;ul&gt; \n &lt;li&gt;&lt;p&gt;Change streams: dropIndex() and dropIndexes() now emit dropIndexes events.&lt;/p&gt; &lt;/li&gt; \n&lt;/ul&gt; \n&lt;ul&gt; \n &lt;li&gt;&lt;p&gt;Compression metrics: collStats and stats() report per-collection input bytes, output bytes, and compression ratio.&lt;/p&gt; &lt;/li&gt; \n&lt;/ul&gt; \n&lt;p&gt;Amazon DocumentDB 8.0.3 is available in all AWS Regions where Amazon DocumentDB is offered. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/documentdb/latest/developerguide/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon DocumentDB Developer Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-documentdb-8-0-3/",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "updatedAt": "2026-11-10T00:00:00.000Z",
-      "categories": [
-        "Amazon Documentdb"
-      ],
-      "services": [
-        "DocumentDB"
-      ],
-      "tags": [
-        "amazon documentdb",
-        "documentdb"
-      ],
-      "isNew": true,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "TLS"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "ee24d13083c9f833",
-      "title": "Amazon Quick is now AWS Quick",
-      "description": "Amazon Quick, the AI workspace built only for work, is now AWS Quick, a name that reflects the enterprise security and governance built into Quick from the start as an AWS service. The new name now appears across the Quick website, the web, desktop, and mobile apps, and AWS documentation. Existing customers don't need to take any action, and Quick works the same way it did before. Amazon Quick Sight, the business intelligence capability in Quick, is now AWS Quick Sight. Quick Sight customers can keep using their dashboards, datasets, and analyses just as they do today, with no changes to their",
-      "descriptionHtml": "&lt;p&gt;Amazon Quick, the AI workspace built only for work, is now AWS Quick, a name that reflects the enterprise security and governance built into Quick from the start as an AWS service. The new name now appears across the Quick website, the web, desktop, and mobile apps, and AWS documentation. Existing customers don't need to take any action, and Quick works the same way it did before.&lt;/p&gt; \n&lt;p&gt;Amazon Quick Sight, the business intelligence capability in Quick, is now AWS Quick Sight. Quick Sight customers&amp;nbsp;can keep using their dashboards, datasets, and analyses just as they do today, with no changes to their data, settings, or pricing.&lt;/p&gt; \n&lt;p&gt;With Quick, teams use AI agents to research, analyze, and act across the data and applications they already use, regardless of vendor. Quick understands your role, your team, and how your work connects, and anyone can build agents, apps, and automations in plain language that become shared assets for the whole team. Quick is HIPAA eligible and holds compliance certifications including FedRAMP, SOC 2, and ISO 27001. Your data stays in your environment and never trains&amp;nbsp;someone else's models.&lt;/p&gt; \n&lt;p&gt;AWS Quick is available in many AWS Regions. For more information, see the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Region table&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;To learn more, see &lt;a href=\"https://aws.amazon.com/quick/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Quick&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-aws-quick/",
-      "publishedAt": "2026-11-09T19:00:00.000Z",
-      "updatedAt": "2026-11-09T19:00:00.000Z",
-      "categories": [
-        "Business Productivity",
-        "Aiml",
-        "Artificial Intelligence"
-      ],
-      "services": [],
-      "tags": [
-        "business productivity",
-        "aiml",
-        "artificial intelligence"
-      ],
-      "isNew": true,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "5be3fada6d027f7e",
-      "title": "Claude Fable 5.2 is now available on AWS GovCloud (US)",
-      "description": "Claude Fable 5.2 is now available on AWS GovCloud (US) and brings Anthropic's most capable generally available model for technical work to regulated customers. Fable 5.2 sets a new standard on the hardest projects in coding, math, and science, and Anthropic recommends it for fields like software engineering, scientific research, and finance, where judgment, iteration, and accuracy are critical. Claude Mythos 5.2, the same underlying model as Claude Fable 5.2, with its full cyber and bio capabilities retained for cybersecurity and biology research, is available through Anthropic’s verification ",
-      "descriptionHtml": "&lt;p&gt;Claude Fable 5.2 is now available on AWS GovCloud (US) and brings Anthropic's most capable generally available model for technical work&amp;nbsp;to regulated customers. Fable 5.2 sets a new standard on the hardest projects in coding, math, and science, and Anthropic recommends it for fields like software engineering, scientific research, and finance, where judgment, iteration, and accuracy are critical. Claude Mythos 5.2, the same underlying model as Claude Fable 5.2, with its full cyber and bio capabilities retained for cybersecurity and biology research, is available through Anthropic’s verification programs.&lt;/p&gt; \n&lt;p&gt;Claude Fable 5.2 can work for hours and up to days unattended, driving autonomous work and taking on bigger, more challenging projects. It takes on large, loosely defined engineering problems across multiple repositories and monorepos, tests its own work as it goes, and is more willing to question inherited conclusions, so it finds root causes previous Claude models miss. In Anthropic’s testing, it coordinated hundreds of subagents as a lead agent and flagged results that don't reproduce. Beyond coding, it develops new analytical methods for scientific research and brings frontier reasoning to quantitative finance.&lt;/p&gt; \n&lt;p&gt;Anthropic has designated Fable 5.2 and Mythos 5.2 as covered models, which require data retention for safety monitoring. Until Enterprise Frontier Safeguards is available, eligible customers can use Fable 5.2 with zero data retention. Visit the Amazon Bedrock &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/abuse-detection.html\"&gt;abuse detection&lt;/a&gt; page to learn more about details regarding data retention for these models.&lt;/p&gt; \n&lt;p&gt;To learn more, see the Amazon Bedrock &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5-2.html\"&gt;documentation&lt;/a&gt;, and&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html#model-regions-anthropic\"&gt;regional availability&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws-govcloud/",
-      "publishedAt": "2026-11-09T18:30:00.000Z",
-      "updatedAt": "2026-11-09T18:30:00.000Z",
-      "categories": [
-        "Amazon Bedrock",
-        "AWS Govcloud Us"
-      ],
-      "services": [
-        "Bedrock",
-        "Claude"
-      ],
-      "tags": [
-        "amazon bedrock",
-        "aws govcloud us",
-        "bedrock",
-        "claude"
-      ],
-      "isNew": true,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "e1dbdeab5bae8929",
-      "title": "Amazon Bedrock now offers Claude Mythos 5.2 to Eligible Customers in AWS GovCloud (US)",
-      "description": "Amazon Bedrock, the platform for building generative AI applications and agents at production scale, now offers Claude Mythos 5.2 to eligible customers in AWS GovCloud (US). Claude Mythos 5.2 is Anthropic's most advanced AI model to date for use cases across cybersecurity, software coding, and complex reasoning tasks. The model can identify sophisticated security vulnerabilities in software and demonstrate exploitability. It can also comprehend large codebases and deliver actionable findings with less manual guidance than previous AI models. This enables security teams to accelerate defensive ",
-      "descriptionHtml": "&lt;p&gt;Amazon Bedrock, the platform for building generative AI applications and agents at production scale, now offers Claude Mythos 5.2 to eligible customers in AWS GovCloud (US). Claude Mythos 5.2 is Anthropic's most advanced AI model to date for use cases across cybersecurity, software coding, and complex reasoning tasks. The model can identify sophisticated security vulnerabilities in software and demonstrate exploitability. It can also comprehend large codebases and deliver actionable findings with less manual guidance than previous AI models. This enables security teams to accelerate defensive cybersecurity work, find and fix security vulnerabilities in the world's most critical software, and address them before threats emerge. Claude Mythos 5.2 is the first of Anthropic's AI models with powerful cybersecurity capabilities to be available in AWS GovCloud (US).&lt;/p&gt; \n&lt;p&gt;Claude Mythos 5.2 is available to eligible customers in AWS GovCloud (US) Regions through &lt;a href=\"https://aws.amazon.com/bedrock/anthropic/\"&gt;Amazon Bedrock&lt;/a&gt;. Access is limited to allow-listed organizations; to get started, visit &lt;a href=\"https://support.claude.com/en/articles/14604842-cyber-verification-program\"&gt;Anthropic's Cyber Verification Program&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-claude-mythos-5-2-govcloud/",
-      "publishedAt": "2026-11-09T18:30:00.000Z",
-      "updatedAt": "2026-11-09T18:30:00.000Z",
-      "categories": [
-        "AWS Govcloud Us",
-        "Amazon Bedrock"
-      ],
-      "services": [
-        "Bedrock",
-        "Claude"
-      ],
-      "tags": [
-        "aws govcloud us",
-        "amazon bedrock",
-        "bedrock",
-        "claude"
-      ],
-      "isNew": true,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "a816e2f39785f302",
-      "title": "Claude Fable 5.2 is now available on AWS",
-      "description": "Claude Fable 5.2 is now available on AWS and brings Anthropic's most capable generally available model for technical work to all customers. Fable 5.2 sets a new standard on the hardest projects in coding, math, and science, and Anthropic recommends it for fields like software engineering, scientific research, and finance, where judgment, iteration, and accuracy are critical. Claude Mythos 5.2, the same underlying model as Claude Fable 5.2 with its full cyber and bio capabilities retained for cybersecurity and biology research, is available through Anthropic’s verification programs. Claude Fabl",
-      "descriptionHtml": "&lt;p&gt;Claude Fable 5.2 is now available on AWS and brings Anthropic's most capable generally available model for technical work&amp;nbsp;to all customers. Fable 5.2 sets a new standard on the hardest projects in coding, math, and science, and Anthropic recommends it for fields like software engineering, scientific research, and finance, where judgment, iteration, and accuracy are critical. Claude Mythos 5.2, the same underlying model as Claude Fable 5.2 with its full cyber and bio capabilities retained for cybersecurity and biology research, is available through Anthropic’s verification programs.&lt;/p&gt; \n&lt;p&gt;Claude Fable 5.2 can work for hours and up to days unattended, driving autonomous work and taking on bigger, more challenging projects. It takes on large, loosely defined engineering problems across multiple repositories and monorepos, tests its own work as it goes, and is more willing to question inherited conclusions, so it finds root causes previous Claude models miss. In Anthropic’s testing, it coordinated hundreds of subagents as a lead agent and flagged results that don't reproduce. Beyond coding, it develops new analytical methods for scientific research and brings frontier reasoning to quantitative finance.&lt;/p&gt; \n&lt;p&gt;Anthropic has designated Fable 5.2 and Mythos 5.2 as covered models, which require data retention for safety monitoring. Until Enterprise Frontier Safeguards is available, eligible customers can use Fable 5.2 with zero data retention. Visit the Amazon Bedrock &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/abuse-detection.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;abuse detection&lt;/a&gt; page to learn more about details regarding data retention for these models.&lt;/p&gt; \n&lt;p&gt;Customers have two ways to access Claude Fable 5.2: Amazon Bedrock and Claude Platform on AWS. To learn more, see the Amazon Bedrock &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5-2.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;documentation&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html#model-regions-anthropic\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;regional availability&lt;/a&gt;, and &lt;a href=\"https://docs.aws.amazon.com/claude-platform/latest/userguide/welcome.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Claude Platform on AWS&lt;/a&gt; documentation.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws/",
-      "publishedAt": "2026-11-09T15:00:00.000Z",
-      "updatedAt": "2026-11-09T15:00:00.000Z",
-      "categories": [
-        "Amazon Bedrock",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "Bedrock",
-        "Claude"
-      ],
-      "tags": [
-        "amazon bedrock",
-        "artificial intelligence",
-        "bedrock",
-        "claude"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "7f14c6dbd459dc1f",
-      "title": "AWS Analytics services now support Workday Data Cloud integration",
-      "description": "Today, AWS announces a new bi-directional, zero-copy integration between AWS Analytics services and Workday Data Cloud. Instead of building and maintaining ETL pipelines to replicate data between systems, joint customers can now query across their AWS and Workday datasets in place, without moving or copying data, while retaining existing security controls in both environments. From AWS, you can use Amazon SageMaker Unified Studio, Amazon EMR, AWS Glue, Amazon Redshift, and Amazon Athena to query Workday data through Workday Live Data Query or federate to Apache Iceberg tables in Workday Data C",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announces a new bi-directional, zero-copy integration between AWS Analytics services and Workday Data Cloud. Instead of building and maintaining ETL pipelines to replicate data between systems, joint customers can now query across their AWS and Workday datasets in place, without moving or copying data, while retaining existing security controls in both environments.&lt;/p&gt;\n&lt;p&gt;From AWS, you can use Amazon SageMaker Unified Studio, Amazon EMR, AWS Glue, Amazon Redshift, and Amazon Athena to query Workday data through Workday Live Data Query or federate to Apache Iceberg tables in Workday Data Cloud through catalog federation. Configure a connection in SageMaker Unified Studio, AWS Glue, or AWS Lake Formation consoles and begin querying immediately. Access is governed by AWS and Workday permissions.&lt;/p&gt;\n&lt;p&gt;From Workday, you can register your AWS Glue Data Catalog Iceberg REST endpoint as an external catalog in Workday Analytics and query your AWS Iceberg tables directly. Common use cases include joining workforce data with business data for talent analytics, workforce planning, and machine learning.&lt;/p&gt;\n&lt;p&gt;This integration is available in all AWS commercial regions where AWS Glue is available. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/connecting-to-data-workday.html\" target=\"_blank\"&gt;AWS Glue User Guide&lt;/a&gt;, the &lt;a href=\"https://doc.workday.com/admin-guide/en-us/workday-data-cloud/data-out/workday-data-lake/workday-data-lake.html\" target=\"_blank\"&gt;Workday Data Cloud integration with AWS on Workday Data Cloud&lt;/a&gt;, and the &lt;a href=\"https://aws.amazon.com/blogs/big-data/introducing-the-workday-data-cloud-integration-with-aws/\" target=\"_blank\"&gt;AWS Big Data Blog post&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-analytics-workday-data-cloud/",
-      "publishedAt": "2026-11-09T08:00:00.000Z",
-      "updatedAt": "2026-11-09T08:00:00.000Z",
-      "categories": [
-        "Amazon Redshift",
-        "AWS Glue",
-        "Amazon Athena",
-        "Amazon Sagemaker"
-      ],
-      "services": [
-        "Redshift",
-        "SageMaker",
-        "Athena",
-        "Glue"
-      ],
-      "tags": [
-        "amazon redshift",
-        "aws glue",
-        "amazon athena",
-        "amazon sagemaker",
-        "redshift",
-        "sagemaker",
-        "athena",
-        "glue"
-      ],
-      "isNew": false,
-      "securityScore": 15,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security"
       ],
       "source": "whats-new"
     }
