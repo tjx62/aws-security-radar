@@ -1,7 +1,114 @@
 {
-  "lastUpdated": "2026-11-18T16:59:18.763Z",
+  "lastUpdated": "2026-11-19T17:08:02.736Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "5739ab8ab82d2e60",
+      "title": "Detecting cross-cloud lateral movement with AWS Security Hub",
+      "description": "Most organizations run a multicloud estate, and so do the attackers targeting them. An adversary who compromises an identity in one provider follows that identity wherever it leads, including across a federated trust into a second cloud service provider. The signals enumerating this scenario are rarely missing; the problem is that they live in separate […]",
+      "descriptionHtml": "Most organizations run a multicloud estate, and so do the attackers targeting them. An adversary who compromises an identity in one provider follows that identity wherever it leads, including across a federated trust into a second cloud service provider. The signals enumerating this scenario are rarely missing; the problem is that they live in separate […]",
+      "url": "https://aws.amazon.com/blogs/security/detecting-cross-cloud-lateral-movement-with-aws-security-hub/",
+      "publishedAt": "2026-11-18T22:28:45.000Z",
+      "updatedAt": "2026-11-18T22:28:45.000Z",
+      "categories": [
+        "Advanced (300)",
+        "AWS Security Hub",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Security Blog"
+      ],
+      "services": [
+        "Security Hub"
+      ],
+      "tags": [
+        "advanced (300)",
+        "aws security hub",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "security blog",
+        "security hub"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Security Hub",
+        "security",
+        "Organizations",
+        "identity",
+        "attack"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "7c4dc19276121b67",
+      "title": "AWS IAM account access manager is now even easier to deploy and use",
+      "description": "Deploying and using AWS Identity and Access Management (IAM) account access manager is now even easier: you can use AWS managed policies to enable and administer it; you can include it in your infrastructure-as-code (IaC) configurations; and its role assignments are integrated in a growing number of third-party identity and entitlement management solutions. Administering workforce access with account access manager requires permissions across several services, including AWS IAM Identity Center, AWS Organizations, AWS KMS, and AWS IAM. Previously, defining administrative access required hand-as",
+      "descriptionHtml": "&lt;p&gt;Deploying and using AWS Identity and Access Management (IAM) account access manager is now even easier: you can use AWS managed policies to enable and administer it; you can include it in your infrastructure-as-code (IaC) configurations; and its role assignments are integrated in a growing number of third-party identity and entitlement management solutions.&lt;/p&gt; \n&lt;p&gt;Administering workforce access with account access manager requires permissions across several services, including AWS IAM Identity Center, AWS Organizations, AWS KMS, and AWS IAM. Previously, defining administrative access required hand-assembling multi-service IAM policies. The new AWS managed policies enable faster ramp up with broadly scoped job-aligned permissions for: 1/ Full administrator (AWSAccountAccessManagerAdministrator) - used to enable and manage account access manager in the AWS organization management account and to map users/groups to IAM roles; 2/ Entitlement Manager (AWSAccountAccessManagerEntitlementManager) - used to assign and remove user access without the ability to change service configuration; and 3/ ReadOnly (AWSAccountAccessManagerReadOnlyAccess) - used by auditors and compliance reviewers for visibility into user access.&lt;/p&gt; \n&lt;p&gt;Account access manager streamlines assignment of IAM roles to workforce users and groups in IAM Identity Center, bringing together access management flexibility, user awareness, and a single point of federation. You can include account access manager in your IaC configurations managed through Terraform, Pulumi, or AWS CloudFormation. The entitlements that you assign with account access manager are reflected in your identity provider (IdP) and entitlements management system, including those offered by AWS partners Okta, PingIdentity, Cisco Duo, Apono, BeyondTrust, Britive, Sonrai Security, C1.ai, Lumos, and SailPoint.&lt;/p&gt; \n&lt;p&gt;IAM account access manager is provided at no additional cost and available in all AWS Commercial Regions enabled by default. To learn more and get started, visit the &lt;a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/account-access-manager.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Identity and Access Management User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-account-access-manager-easier/",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "updatedAt": "2026-11-18T08:00:00.000Z",
+      "categories": [],
+      "services": [
+        "IAM"
+      ],
+      "tags": [
+        "iam"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "KMS",
+        "IAM",
+        "IAM Identity Center",
+        "Config",
+        "Organizations",
+        "permission",
+        "role",
+        "access",
+        "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "6545a0b0b0b65966",
+      "title": "Amazon Cognito now supports authentication level and method token claims",
+      "description": "Amazon Cognito now supports authentication context class reference (ACR) and authentication methods reference (AMR), by adding ACR and AMR claims to access, ID, and refresh tokens. Your application can use the authentication level (ACR) to make authorization decisions, such as requiring additional factors for sensitive operations. It can also use completed methods (AMR), such as time-based one-time password (TOTP), for auditing and compliance. Amazon Cognito defines four authentication levels based on the factors a user completes, from password-only (level 1) to a password with a TOTP (level 4",
+      "descriptionHtml": "&lt;p&gt;Amazon Cognito now supports authentication context class reference (ACR) and authentication methods reference (AMR), by adding ACR and AMR claims to access, ID, and refresh tokens. Your application can use the authentication level (ACR) to make authorization decisions, such as requiring additional factors for sensitive operations. It can also use completed methods (AMR), such as time-based one-time password (TOTP), for auditing and compliance.&lt;/p&gt; \n&lt;p&gt;Amazon Cognito defines four authentication levels based on the factors a user completes, from password-only (level 1) to a password with a TOTP (level 4). Each token reflects the level achieved during sign-in, so your application can make authorization decisions based on how a user authenticated. If your application requires a stronger level, you can request a target level in your application's sign-in flow or through managed login, and Amazon Cognito issues new tokens once the user completes the required factors. You can also customize ACR level URIs for your user pool. For federated users from an OpenID Connect (OIDC) provider, Amazon Cognito maps the provider's ACR and AMR values to your levels.&lt;/p&gt; \n&lt;p&gt;ACR and AMR token claims are available in all AWS Regions where Amazon Cognito is offered. Every user pool includes ACR and AMR token claims, regardless of feature plan. Requesting a target authentication level and configuring custom ACR level URIs are available with the Essentials or Plus feature plan. To get started, configure ACR and AMR using the AWS Management Console, AWS CLI, or AWS SDKs. See &lt;a href=\"https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-step-up-authentication.html\"&gt;developer guide&lt;/a&gt; for details.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-acr-amr-token/",
+      "publishedAt": "2026-11-17T19:00:00.000Z",
+      "updatedAt": "2026-11-17T19:00:00.000Z",
+      "categories": [
+        "Amazon Cognito",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "Cognito"
+      ],
+      "tags": [
+        "amazon cognito",
+        "security identity and compliance",
+        "cognito"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Cognito",
+        "authentication",
+        "authorization",
+        "compliance",
+        "audit",
+        "access",
+        "token"
+      ],
+      "source": "whats-new"
+    },
     {
       "id": "22eb7762f1aa472d",
       "title": "Using the AWS RMiT workbook and ISO Compliance Guides to support your BNM submissions",
@@ -2736,6 +2843,84 @@
       "source": "whats-new"
     },
     {
+      "id": "d4671e4886574cb8",
+      "title": "Step-up authentication: how to right-size authentication to risk",
+      "description": "Not every action a user takes in an application carries the same risk. Viewing an account balance in a banking application isn’t the same as wiring several thousand dollars to a new payee. In practice, though, many applications ask users to prove their identity once at sign-in and then treat every action the same from […]",
+      "descriptionHtml": "Not every action a user takes in an application carries the same risk. Viewing an account balance in a banking application isn’t the same as wiring several thousand dollars to a new payee. In practice, though, many applications ask users to prove their identity once at sign-in and then treat every action the same from […]",
+      "url": "https://aws.amazon.com/blogs/security/step-up-authentication-how-to-right-size-authentication-to-risk/",
+      "publishedAt": "2026-11-18T23:49:07.000Z",
+      "updatedAt": "2026-11-18T23:49:07.000Z",
+      "categories": [
+        "Amazon Cognito",
+        "Intermediate (200)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Security Blog"
+      ],
+      "services": [
+        "Cognito"
+      ],
+      "tags": [
+        "amazon cognito",
+        "intermediate (200)",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "security blog",
+        "cognito"
+      ],
+      "isNew": true,
+      "securityScore": 85,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "authentication",
+        "identity",
+        "Cognito"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "750050bb0f8920c2",
+      "title": "Amazon Aurora DSQL now supports audit logging",
+      "description": "Amazon Aurora DSQL now supports database-internal audit logging, a fully managed capability that captures SQL statements executed on your cluster. Previously, AWS CloudTrail recorded who connected to a DSQL cluster, but not what they did once inside it. Now, financial institutions and regulated enterprises can meet production compliance requirements by capturing DDL, DML, DCL, and SELECT statements with full statement text, bind parameters, acting principal (both PostgreSQL role and AWS IAM identity), timestamp, table name, and transaction identifier. With audit logging, you can feed SIEM syst",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/aurora/dsql/?refid=f1097432-a884-4027-abe8-3dbd6d9c5cdc\"&gt;Amazon Aurora DSQL&lt;/a&gt; now supports database-internal audit logging, a fully managed capability that captures SQL statements executed on your cluster. Previously, AWS CloudTrail recorded who connected to a DSQL cluster, but not what they did once inside it. Now, financial institutions and regulated enterprises can meet production compliance requirements by capturing DDL, DML, DCL, and SELECT statements with full statement text, bind parameters, acting principal (both PostgreSQL role and AWS IAM identity), timestamp, table name, and transaction identifier.&lt;/p&gt; \n&lt;p&gt;With audit logging, you can feed SIEM systems directly from Amazon S3, satisfy auditor requirements for change accountability, and reconstruct events after security incidents. Logs are delivered as structured JSON to your S3 bucket via CloudWatch Vended Logs. Configuration requires a single SQL setting—no extension to load and no log-shipping pipeline to build.&lt;/p&gt; \n&lt;p&gt;Audit logging is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions&lt;/a&gt; where Aurora DSQL is available. Audit logging will incur Aurora DSQL DPU charges, charges for log delivery through CloudWatch Logs, and charges for storing audit records in Amazon S3. For pricing information, see &lt;a href=\"https://aws.amazon.com/rds/aurora/dsql/pricing/\"&gt;Aurora DSQL pricing&lt;/a&gt;. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/aurora-dsql/latest/userguide/audit-logging.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;audit logging&lt;/a&gt; in the Aurora DSQL User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-dsql-audit-logging/",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "updatedAt": "2026-11-18T08:00:00.000Z",
+      "categories": [
+        "Amazon S3",
+        "Amazon Cloudwatch Logs"
+      ],
+      "services": [
+        "S3",
+        "Aurora",
+        "CloudWatch"
+      ],
+      "tags": [
+        "amazon s3",
+        "amazon cloudwatch logs",
+        "s3",
+        "aurora",
+        "cloudwatch"
+      ],
+      "isNew": true,
+      "securityScore": 85,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "compliance",
+        "CloudTrail",
+        "audit",
+        "logging",
+        "role",
+        "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "17db122bdbacd05b",
       "title": "AWS Security Hub Network Scanning now supports scanning Amazon Relational Database Service (Amazon RDS) database instances",
       "description": "AWS Security Hub Network Scanning now scans Amazon RDS DB instances to identify those that are reachable from the internet. Network Scanning automatically discovers existing and new RDS DB instances in your accounts and scans each instance that has Public Access configured. For each reachable port associated with a DB instance, Security Hub creates a finding with details about the instance and the reachable port. RDS scanning gives you more visibility into which resources in your environment are reachable from the internet. You can then investigate and update their access settings as needed. R",
@@ -3853,6 +4038,36 @@
         "audit"
       ],
       "source": "security-blog"
+    },
+    {
+      "id": "1f71442543214bb1",
+      "title": "Amazon Cognito now supports point-in-time recovery",
+      "description": "Amazon Cognito now supports point-in-time recovery (PITR), so you can restore the user data in a user pool to an earlier time. Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices. Previously, you had to build and maintain your own export and restore process, and restored users received new identifiers and had to reset their passwords. With PITR, you choose a recovery point, preview how many users, groups, multi-factor authentication (MFA) settings, and passkeys the recovery will create, update, or delete, and then start or cancel the rec",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/cognito/\"&gt;Amazon Cognito&lt;/a&gt; now supports point-in-time recovery (PITR), so you can restore the user data in a user pool to an earlier time. Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices. Previously, you had to build and maintain your own export and restore process, and restored users received new identifiers and had to reset their passwords.&lt;/p&gt; \n&lt;p&gt;With PITR, you choose a recovery point, preview how many users, groups, multi-factor authentication (MFA) settings, and passkeys the recovery will create, update, or delete, and then start or cancel the recovery. Recovered users keep their identifiers, passwords, MFA settings, and passkeys, so they can sign in without resetting their credentials. For example, if a script deletes or modifies users by mistake, you can restore the user data to the moment before it ran.&lt;/p&gt; \n&lt;p&gt;PITR is enabled automatically for user pools on the Essentials and Plus feature plans at no additional charge. The recovery window is up to 1 day on Essentials and up to 14 days on Plus. You can initiate and manage a recovery using the AWS Management Console, the Amazon Cognito API, AWS Command Line Interface (AWS CLI), or AWS SDKs. PITR is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where Amazon Cognito is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-point-in-time-recovery.html\"&gt;Point-in-time recovery&lt;/a&gt; in the Amazon Cognito Developer Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-point-in-time-recovery/",
+      "publishedAt": "2026-11-18T17:00:00.000Z",
+      "updatedAt": "2026-11-18T17:00:00.000Z",
+      "categories": [
+        "Amazon Cognito",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "Cognito"
+      ],
+      "tags": [
+        "amazon cognito",
+        "security identity and compliance",
+        "cognito"
+      ],
+      "isNew": true,
+      "securityScore": 75,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Cognito",
+        "authentication",
+        "access"
+      ],
+      "source": "whats-new"
     },
     {
       "id": "254d80c788a5da22",
@@ -5404,7 +5619,7 @@
         "security blog",
         "organizations"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 60,
       "securityLevel": "high",
       "securityMatches": [
@@ -5439,7 +5654,7 @@
         "aws security profiles",
         "security blog"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 60,
       "securityLevel": "high",
       "securityMatches": [
@@ -6151,7 +6366,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 55,
       "securityLevel": "medium",
       "securityMatches": [
@@ -6937,6 +7152,34 @@
       "source": "whats-new"
     },
     {
+      "id": "d68912b0efac87be",
+      "title": "Amazon SageMaker HyperPod now supports higher pod density on EKS-orchestrated clusters",
+      "description": "Amazon SageMaker HyperPod now supports higher pod density per node on EKS-orchestrated clusters, allowing you to get more out of every instance. This leaves more room for your applications alongside system DaemonSets for monitoring, logging, and security, and helps increase GPU, CPU and memory utilization on nodes, allowing you to run the same work using fewer instances. As you schedule more pods, the Amazon VPC CNI automatically adds network capacity to the node. Autoscaling with Karpenter also supports the higher pod capacity, so new nodes take on more pods as your cluster scales out. Here a",
+      "descriptionHtml": "&lt;p&gt;Amazon SageMaker HyperPod now supports higher pod density per node on EKS-orchestrated clusters, allowing you to get more out of every instance. This leaves more room for your applications alongside system DaemonSets for monitoring, logging, and security, and helps increase GPU, CPU and memory utilization on nodes, allowing you to run the same work using fewer instances.&lt;/p&gt; \n&lt;p&gt;As you schedule more pods, the Amazon VPC CNI automatically adds network capacity to the node. Autoscaling with Karpenter also supports the higher pod capacity, so new nodes take on more pods as your cluster scales out.&lt;/p&gt; \n&lt;p&gt;Here are a few examples of workloads that benefit from higher pod density:&lt;/p&gt; \n&lt;ul&gt; \n &lt;li&gt;&lt;p&gt;Model inference - Serve more model replicas or more models from each GPU instance, including on smaller types such as ml.g5 and ml.g6.&lt;/p&gt; &lt;/li&gt; \n &lt;li&gt;&lt;p&gt;Interactive development - Host more notebooks, IDEs, and data science environments on each node.&lt;/p&gt; &lt;/li&gt; \n &lt;li&gt;&lt;p&gt;GPU partitioning - Use all the Multi-Instance GPU (MIG) slices on instances such as ml.p5en.48xlarge, where each slice runs its own pod.&lt;/p&gt; &lt;/li&gt; \n &lt;li&gt;&lt;p&gt;Operators and Controllers - Run operators, controllers, and observability agents on CPU nodes alongside your workloads, without crowding them out.&lt;/p&gt; &lt;/li&gt; \n&lt;/ul&gt; \n&lt;p&gt;This feature is available for HyperPod EKS-orchestrated clusters in all AWS Regions where SageMaker HyperPod is available. To get started, update your cluster's IAM permissions, cluster software, and Amazon VPC CNI add-on. To learn more, please check the &lt;a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-eks-dynamic-eni-attachment.html\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-higher-pod-density/",
+      "publishedAt": "2026-11-18T01:45:00.000Z",
+      "updatedAt": "2026-11-18T01:45:00.000Z",
+      "categories": [],
+      "services": [
+        "EKS",
+        "SageMaker"
+      ],
+      "tags": [
+        "eks",
+        "sagemaker"
+      ],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "VPC",
+        "security",
+        "logging",
+        "monitoring"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "357f505c8e2088d6",
       "title": "Amazon S3 now provides post-quantum TLS visibility in AWS CloudTrail",
       "description": "Amazon S3 now records the TLS key exchange algorithm in AWS CloudTrail for S3 requests, so you can see which requests and clients use post-quantum TLS (PQ-TLS). With this visibility, you can measure the share of your S3 traffic that is protected with post-quantum cryptography, and identify the applications, SDK versions, and IAM principals that still connect with classical key exchange and need to be upgraded. The new keyExchange value in the tlsDetails field of CloudTrail management and data events shows the key exchange negotiated on each TLS connection, such as the hybrid post-quantum algor",
@@ -7513,6 +7756,36 @@
         "permission",
         "access",
         "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "afd4192908050a99",
+      "title": "Amazon CloudFront Announces WebSocket and gRPC Support for Origin Mutual TLS",
+      "description": "Amazon CloudFront (CF) now supports WebSocket and gRPC traffic to application origins in AWS regions, with mutual TLS authentication between CF and the application origin (origin mTLS). Customers can now use TLS certificates to authenticate requests from CloudFront while setting up WebSocket or gRPC connections to their origins. Origin mTLS protects internet facing applications that need persistent, bidirectional or streaming connections, such as chat platforms, collaborative editing tools or live dashboards from unauthenticated requests. Previously, customers serving WebSocket or gRPC traffic",
+      "descriptionHtml": "&lt;p&gt;Amazon CloudFront (CF) now supports WebSocket and gRPC traffic to application origins in AWS regions, with mutual TLS authentication between CF and the application origin (origin mTLS). Customers can now use TLS certificates to authenticate requests from CloudFront while setting up WebSocket or gRPC connections to their origins. Origin mTLS protects internet facing applications that need persistent, bidirectional or streaming connections, such as chat platforms, collaborative editing tools or live dashboards from unauthenticated requests.&lt;/p&gt; \n&lt;p&gt;Previously, customers serving WebSocket or gRPC traffic through CloudFront had to use shared secrets or IP allow-lists to identify requests originating from CloudFront. This was operationally complex and did not provide strong authentication. With Origin mTLS, customers can use one TLS based authentication for HTTP, WebSocket and gRPC traffic to an application origin. This works with application origins within AWS such as Application Load Balancer and API Gateway, on-premises origins, and origins hosted outside AWS.&lt;/p&gt; \n&lt;p&gt;There is no additional charge for origin mTLS, and it is available with pay-as-you-go pricing and in the Business and Premium flat-rate pricing plans. To learn more, visit the CloudFront &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/origin-mtls-authentication.html\"&gt;origin mutual TLS documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudfront-origin-mtls-websockets-grpc/",
+      "publishedAt": "2026-11-18T18:00:00.000Z",
+      "updatedAt": "2026-11-18T18:00:00.000Z",
+      "categories": [
+        "Networking And Content Delivery",
+        "Amazon Cloudfront"
+      ],
+      "services": [
+        "CloudFront"
+      ],
+      "tags": [
+        "networking and content delivery",
+        "amazon cloudfront",
+        "cloudfront"
+      ],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "high",
+      "securityMatches": [
+        "TLS",
+        "mTLS",
+        "authentication"
       ],
       "source": "whats-new"
     },
@@ -8907,6 +9180,37 @@
       "source": "security-blog"
     },
     {
+      "id": "2f1fcdbad2595d28",
+      "title": "Amazon S3 Replication adds exclusions and Multi-Region key resolution",
+      "description": "You can now replicate data in Amazon S3 buckets with fewer replication rules using two new S3 Replication capabilities, exclusions and Multi-Region key resolution. Buckets that many tenants or applications share often need many rules to skip certain data or to match encryption keys in each AWS Region. With these capabilities, customers who manage multi-tenant and shared buckets can replace many replication rules with a single rule. With exclusions, you can replicate an entire bucket while skipping specific prefixes or tagged objects, such as logs or experimental data. With Multi-Region key res",
+      "descriptionHtml": "&lt;p&gt;You can now replicate data in Amazon S3 buckets with fewer replication rules using two new S3 Replication capabilities, exclusions and Multi-Region key resolution. Buckets that many tenants or applications share often need many rules to skip certain data or to match encryption keys in each AWS Region. With these capabilities, customers who manage multi-tenant and shared buckets can replace many replication rules with a single rule.&lt;/p&gt; \n&lt;p&gt;With exclusions, you can replicate an entire bucket while skipping specific prefixes or tagged objects, such as logs or experimental data. With Multi-Region key resolution, S3 Replication encrypts each replica with the matching AWS Key Management Service (AWS KMS) Multi-Region key in the destination Region, so replicas meet the same encryption requirements as their source objects. For example, a bucket that stores data for hundreds of tenants, each with its own Multi-Region key, can replicate with a single rule, including tenants you add later.&lt;/p&gt; \n&lt;p&gt;Exclusions and Multi-Region key resolution are optional and available at no additional charge in all AWS Regions. To get started, use the AWS SDKs, AWS CLI, S3 API, or S3 console. To learn more, visit the &lt;a href=\"https://aws.amazon.com/s3/features/replication/\" target=\"_blank\"&gt;S3 Replication product page&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication.html\" target=\"_blank\"&gt;Replicating objects within and across Regions&lt;/a&gt; in the S3 User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-replication-exclusions-multi-region-key-resolution/",
+      "publishedAt": "2026-11-18T07:00:00.000Z",
+      "updatedAt": "2026-11-18T07:00:00.000Z",
+      "categories": [
+        "Amazon S3",
+        "Storage"
+      ],
+      "services": [
+        "S3"
+      ],
+      "tags": [
+        "amazon s3",
+        "storage",
+        "s3"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "encryption",
+        "encrypt",
+        "S3",
+        "Bucket"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "6711c7890aef9886",
       "title": "AWS Transit Gateway now shares resource context with firewalls for segmentation policies",
       "description": "AWS Transit Gateway now supports context sharing with security services, such as attached firewalls, allowing you to use Amazon Virtual Private Clouds (VPCs), VPC subnets, VPC security groups, and transit gateway attachments in firewall policies alongside IP addresses. Until now, attached firewalls segmented traffic by IP address, which is hard to plan and maintain, or by resource tags, which firewalls periodically synchronize with IP addresses and can miss new workloads in between. With this feature, you can enforce segmentation based on how workloads and attachments are defined in AWS. Trans",
@@ -10002,6 +10306,25 @@
       "source": "whats-new"
     },
     {
+      "id": "8c315f9e194e7fb4",
+      "title": "CVE-2026-130638 - Path traversal in the object detection dataset preparation tool in AutoGluon MultiModal",
+      "description": "Bulletin ID: 2026-188-AWS Publication Date: 11/18/2026 10:00 AM PST Description: Relative path traversal in the object detection dataset preparation tool in AutoGluon Multimodal before 1.6.0 might allow adversary-in-the-middle attackers to write arbitrary files with the privileges of the user running the tool via a crafted dataset archive substituted for a dataset downloaded over plaintext HTTP. Impacted versions: Refer to the article for the most up-to-date and complete information.",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-188-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/18/2026 10:00 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Relative path traversal in the object detection dataset preparation tool in AutoGluon Multimodal before 1.6.0 might allow adversary-in-the-middle attackers to write arbitrary files with the privileges of the user running the tool via a crafted dataset archive substituted for a dataset downloaded over plaintext HTTP.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt; 1.6.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-188-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-188-aws/",
+      "publishedAt": "2026-11-18T18:18:11.000Z",
+      "updatedAt": "2026-11-18T18:18:11.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 35,
+      "securityLevel": "high",
+      "securityMatches": [
+        "attack"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "04141d18d7908e34",
       "title": "Amazon Corretto November 2026 Critical Security Patch Updates",
       "description": "On Nov 17, 2026, Amazon announced critical security patch update (CSPU) for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 27.0.1.1.4, 25.0.5.1.2, 21.0.13.1.2, 17.0.21.1.2, 11.0.33.1.1, and 8u514 are now available for download . Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. Visit Corretto home page to download Corretto 27, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get the updates on your Linux system by configuring a Corretto Apt, Yum, or Apk repo . Feedback is welcom",
@@ -10516,6 +10839,52 @@
       "source": "whats-new"
     },
     {
+      "id": "6608d406df3f3887",
+      "title": "CVE-2026-114938 - OpenJDK Base64 Decoder Intrinsic Out-of-Bounds Write Issue",
+      "description": "Bulletin ID: 2026-189-AWS Publication Date: 11/18/2026 17:00 PM PST Description: AWS is aware of CVE-2026-114938, a memory issue in the Base64 decoder intrinsic of OpenJDK 17.0.6 and later on x86-64 processors that support AVX-512 VBMI. A fix is available in the November 2026 OpenJDK updates. AWS is working to deploy the fix to affected AWS services Refer to the article for the most up-to-date and complete information.",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-189-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/18/2026 17:00 PM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS is aware of CVE-2026-114938, a memory issue in the Base64 decoder intrinsic of OpenJDK 17.0.6 and later on x86-64 processors that support AVX-512 VBMI. A fix is available in the November 2026 OpenJDK updates. AWS is working to deploy the fix to affected AWS services&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-189-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-189-aws/",
+      "publishedAt": "2026-11-19T03:02:28.000Z",
+      "updatedAt": "2026-11-19T03:02:28.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "26c0a03bfcd0d7fa",
+      "title": "AWS Transform custom now supports cross-account sharing of transformation definitions",
+      "description": "AWS Transform custom now enables you to share transformation definitions (TDs) and their associated lessons across AWS accounts, organizational units (OUs), or your entire organization in AWS Organizations through AWS Resource Access Manager (AWS RAM). AWS Transform custom is a capability of AWS Transform that performs transformations across your technology stack, including API and framework upgrades, migrations, and language translations. With this launch, you can share TDs as live resources rather than static copies, so consumers run the owner's latest published version by default while the ",
+      "descriptionHtml": "&lt;p&gt;AWS Transform custom now enables you to share transformation definitions (TDs) and their associated lessons across AWS accounts, organizational units (OUs), or your entire organization in AWS Organizations through AWS Resource Access Manager (AWS RAM). AWS Transform custom is a capability of AWS Transform that performs transformations across your technology stack, including API and framework upgrades, migrations, and language translations.&lt;/p&gt; \n&lt;p&gt;With this launch, you can share TDs as live resources rather than static copies, so consumers run the owner's latest published version by default while the owner maintains full control. As the TD owner, you select from four managed permissions ranging from execute-only (the default) to permissions that allow consumers to use your lessons, contribute lessons back to you, or download the TD. Lessons flow back to the owner only when the permission allows it and the consumer opts in.&lt;/p&gt; \n&lt;p&gt;This capability is particularly valuable for platform engineering teams and AWS Partners who need to deploy standardized transformations across multiple accounts. A central team can create a TD once and share it organization-wide.&lt;/p&gt; \n&lt;p&gt;This feature is available via the AWS Transform CLI and AWS RAM in US East (N. Virginia), Europe (Frankfurt), Europe (London), Asia Pacific (Mumbai), Asia Pacific (Seoul), Asia Pacific (Sydney), Asia Pacific (Tokyo), and Canada (Central) Regions. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/custom-sharing.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Transform User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-custom-cross-account-td/",
+      "publishedAt": "2026-11-18T19:30:00.000Z",
+      "updatedAt": "2026-11-18T19:30:00.000Z",
+      "categories": [
+        "Developer Tools",
+        "Applications",
+        "Migration"
+      ],
+      "services": [],
+      "tags": [
+        "developer tools",
+        "applications",
+        "migration"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Organizations",
+        "Resource Access Manager",
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "134ae67fc9e4e62e",
       "title": "Amazon WorkSpaces Applications adds support for smart card redirection",
       "description": "Amazon WorkSpaces Applications now supports smart card redirection on single-session and multi-session fleets, so users can access the smart card connected to their local device from applications inside their streaming session. It also extends smart card sign-in, previously limited to single-session fleets, to multi-session fleets. This launch helps public sector, healthcare, and other regulated organizations that use Common Access Card (CAC) or Personal Identity Verification (PIV) cards run those workflows on multi-session fleets. Administrators can turn smart card sign-in for Active Director",
@@ -10621,7 +10990,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -13141,6 +13510,69 @@
       "source": "whats-new"
     },
     {
+      "id": "ffc43a874a8ba8cf",
+      "title": "Amazon CloudFront standard logging now supports CMCD and additional log fields",
+      "description": "Amazon CloudFront standard logging now supports additional access log fields that were previously available only in CloudFront real-time logs. You can now include these fields in your standard logs and deliver them to Amazon S3, Amazon CloudWatch Logs, or Amazon Data Firehose, without setting up an additional data stream for real-time logs. The new fields include the IP address of the CloudFront server that handled the request, identifiers that separate traffic on a primary distribution from traffic on a staging distribution, and a media quality confidence score. They also include Common Media",
+      "descriptionHtml": "&lt;p&gt;Amazon CloudFront standard logging now supports additional access log fields that were previously available only in CloudFront real-time logs. You can now include these fields in your standard logs and deliver them to Amazon S3, Amazon CloudWatch Logs, or Amazon Data Firehose, without setting up an additional data stream for real-time logs.&lt;/p&gt; \n&lt;p&gt;The new fields include the IP address of the CloudFront server that handled the request, identifiers that separate traffic on a primary distribution from traffic on a staging distribution, and a media quality confidence score. They also include Common Media Client Data (CMCD) fields, which video players send with each request to report details like bitrate, buffer length, and playback session ID. Streaming teams can use these fields to match playback problems that viewers see with CloudFront delivery data, which makes troubleshooting faster.&lt;/p&gt; \n&lt;p&gt;These fields are available in all CloudFront edge locations, and standard logging pricing applies. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/standard-logging.html\"&gt;Standard logging page in the Amazon CloudFront Developer Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-standard-logging-cmcd-fields",
+      "publishedAt": "2026-11-18T19:28:00.000Z",
+      "updatedAt": "2026-11-18T19:28:00.000Z",
+      "categories": [
+        "Amazon Cloudfront",
+        "Networking And Content Delivery"
+      ],
+      "services": [
+        "CloudFront"
+      ],
+      "tags": [
+        "amazon cloudfront",
+        "networking and content delivery",
+        "cloudfront"
+      ],
+      "isNew": true,
+      "securityScore": 25,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "logging",
+        "access",
+        "S3"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "683c06984b2f171f",
+      "title": "Amazon CloudWatch simplifies network performance monitoring for your Amazon Virtual Private Cloud (VPC)",
+      "description": "Amazon CloudWatch Network Monitoring now allows you to monitor the health of the AWS network paths that your workloads take by using performance monitors. Performance monitors provide near real-time visibility into whether the AWS network is healthy for your workloads, without installing any software. Performance monitors report per-path metrics such as latency, a network impact score that shows network health, and traffic volume across all flows in your VPCs. You simply select the VPCs you want to monitor, and metrics are available within minutes. Using telemetry AWS already collects, with no",
+      "descriptionHtml": "&lt;p&gt;Amazon CloudWatch Network Monitoring now allows you to monitor the health of the AWS network paths that your workloads take by using performance monitors. Performance monitors provide near real-time visibility into whether the AWS network is healthy for your workloads, without installing any software.&lt;/p&gt;\n&lt;p&gt;Performance monitors report per-path metrics such as latency, a network impact score that shows network health, and traffic volume across all flows in your VPCs. You simply select the VPCs you want to monitor, and metrics are available within minutes. Using telemetry AWS already collects, with no additional services to enable, performance monitors determine the paths your traffic takes, within and across Availability Zones, across AWS Regions, and to AWS services, for TCP, UDP, and ICMP traffic. They then score each path by comparing it with its own recent history and with all other paths AWS measures at the same time. For example, a path that suddenly degrades, or degrades with many other paths during an AWS network event, scores high. Metrics publish to Amazon CloudWatch for dashboards and alarms, and AWS Organizations integration lets you monitor VPCs across accounts and Regions.&lt;/p&gt;\n&lt;p&gt;Performance monitors complement flow monitors in CloudWatch Network Monitoring. When a checkout application slows down, a performance monitor shows whether the path from the web tier in one Availability Zone to the database in another is degraded. A high network impact score points to the AWS network, so your team can engage AWS Support instead of investigating your application. If the path is healthy, you can focus on your own stack, where flow monitors use software agents on Amazon EC2 and Amazon EKS to find affected connections, such as a payment pod retransmitting to the database.&lt;/p&gt;\n&lt;p&gt;For available AWS Regions, see the &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-PerformanceMonitor-Regions.html\" target=\"_blank\"&gt;Regions list&lt;/a&gt;. To learn more, visit the Amazon CloudWatch Network Monitoring &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-PerformanceMonitor.html\" target=\"_blank\"&gt;documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-network-path-monitoring/",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "updatedAt": "2026-11-18T08:00:00.000Z",
+      "categories": [
+        "Amazon Cloudwatch",
+        "Management And Governance",
+        "Networking And Content Delivery"
+      ],
+      "services": [
+        "VPC",
+        "CloudWatch"
+      ],
+      "tags": [
+        "amazon cloudwatch",
+        "management and governance",
+        "networking and content delivery",
+        "vpc",
+        "cloudwatch"
+      ],
+      "isNew": true,
+      "securityScore": 25,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "VPC",
+        "monitoring"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "4aa28792dc629a50",
       "title": "Amazon Bedrock AgentCore Memory now supports short-term memory retention of up to 10 years",
       "description": "Amazon Bedrock AgentCore Memory now lets you keep short-term memory events for up to 10 years, up from one year. Developers can now use short-term memory as a long-lived record of agent conversations and interactions. This helps when that history needs to stay available for a long time, such as for compliance and audit, for users who come back after months away, or for agents that need to look back at past sessions. You set retention on the memory resource, and it's applied to each event when the event is created, so existing events keep their original retention. Standard short-term memory sto",
@@ -13924,142 +14356,52 @@
       "source": "whats-new"
     },
     {
-      "id": "7556f3f0025e1149",
-      "title": "Introducing the Apache Spark Optimization Agent for Amazon EMR Serverless",
-      "description": "Amazon EMR Serverless now offers the Apache Spark optimization agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations in seconds. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and plain-language reasoning behind each suggestion. The agent can analyze a single run or compare it against a known-good baseline to pinpoint what changed. You access it from the EMR Serverless console or through the SageMaker Unified Studio MCP Server. The agent takes the job's configura",
-      "descriptionHtml": "&lt;p&gt;Amazon EMR Serverless now offers the Apache Spark optimization agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations in seconds. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and plain-language reasoning behind each suggestion. The agent can analyze a single run or compare it against a known-good baseline to pinpoint what changed. You access it from the EMR Serverless console or through the SageMaker Unified Studio MCP Server.&lt;/p&gt; \n&lt;p&gt;The agent takes the job's configuration, logs, and Spark telemetry together with your chosen intent and returns recommendations computed by a deterministic recommendation engine. The engine reads all job artifacts together to identify what is driving runtime and cost: too little parallelism, a skewed join key, memory pressure forcing spill, idle executors, or capacity provisioned beyond what the job uses. The configurations the engine targets are the settings most commonly tuned across millions of Spark jobs running on AWS. When cost and performance trade off, the recommendation improves the metric you asked for while keeping degradation of the other within defined limits. The engine also evaluates a best practices checklist covering platform-level improvements such as upgrading to a newer Spark version or using Graviton processors. Each recommendation is labeled by the surface it modifies: infrastructure, Spark configuration, code, or data layout. Data engineers can also use the agent during development to tune configurations before promoting to production. All access is authenticated with AWS IAM and logged in AWS CloudTrail.&lt;/p&gt; \n&lt;p&gt;The Apache Spark Optimization Agent is available at no additional charge in all Regions where EMR Serverless is available, except GovCloud (US) and China Regions, for EMR release versions 7.6 and later. To get started, see &lt;a href=\"https://docs.aws.amazon.com/emr/latest/ReleaseGuide/spark-optimization-agent.html\"&gt;Apache Spark Optimization Agent for Amazon EMR Serverless&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-optimization-agent/",
-      "publishedAt": "2026-11-17T22:25:00.000Z",
-      "updatedAt": "2026-11-17T22:25:00.000Z",
-      "categories": [
-        "Analytics",
-        "Amazon Emr"
-      ],
+      "id": "1d2ee75e594aaf33",
+      "title": "AWS Systems Manager Parameter Store raises API throughput limits",
+      "description": "AWS Systems Manager Parameter Store has increased the default throughput limits for five API operations. For accounts that have turned on the higher throughput setting, the quotas have changed as follows, in transactions per second (TPS): GetParametersByPath (from 100 to 500 TPS) PutParameter (10 to 50) DeleteParameter (5 to 50) DescribeParameters (10 to 100) GetParameterHistory (10 to 100) Parameter Store provides powerful, hierarchical storage for configuration data. The higher quotas give more headroom to workloads that call these operations in bursts. Examples include applications that loa",
+      "descriptionHtml": "&lt;p&gt;AWS Systems Manager &lt;a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html\"&gt;Parameter Store&lt;/a&gt;&amp;nbsp;has increased the default throughput limits for five API operations. For accounts that have turned on the higher throughput setting, the quotas have changed as follows, in transactions per second (TPS):&lt;/p&gt; \n&lt;ul&gt; \n &lt;li&gt;GetParametersByPath (from 100 to 500 TPS)&lt;/li&gt; \n &lt;li&gt;PutParameter (10 to 50)&lt;/li&gt; \n &lt;li&gt;DeleteParameter (5 to 50)&lt;/li&gt; \n &lt;li&gt;DescribeParameters (10 to 100)&lt;/li&gt; \n &lt;li&gt;GetParameterHistory (10 to 100)&lt;/li&gt; \n&lt;/ul&gt; \n&lt;p&gt;Parameter Store provides powerful, hierarchical storage for configuration data. The higher quotas give more headroom to workloads that call these operations in bursts. Examples include applications that load configuration by path when many AWS Lambda functions start at once, infrastructure as code deployments that create or update many parameters, and cleanup jobs that bulk-delete stale parameters.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/parameter-store-raises-api-throughput-limits/",
+      "publishedAt": "2026-11-19T09:00:00.000Z",
+      "updatedAt": "2026-11-19T09:00:00.000Z",
+      "categories": [],
       "services": [
-        "EMR"
+        "Systems Manager"
       ],
       "tags": [
-        "analytics",
-        "amazon emr",
-        "emr"
+        "systems manager"
       ],
       "isNew": true,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
         "Config",
-        "access"
+        "Systems Manager"
       ],
       "source": "whats-new"
     },
     {
-      "id": "3a5cf3ae11d19f1c",
-      "title": "Amazon ECR now supports global authentication tokens for private registries",
-      "description": "Amazon Elastic Container Registry (Amazon ECR) now supports global authentication tokens for private registries. Previously, you needed to request a separate authentication token in each AWS Region where you push or pull container images. Now, you can request a single token from the AWS Sign-In CreateBearerToken API and use it across all ECR private registries in the same AWS partition. Teams that run proxy services to route container pulls across Regions, a common pattern for optimizing latency or availability, previously had to request, refresh, and coordinate a separate token for every Regi",
-      "descriptionHtml": "&lt;p&gt;Amazon Elastic Container Registry (Amazon ECR) now supports global authentication tokens for private registries. Previously, you needed to request a separate authentication token in each AWS Region where you push or pull container images. Now, you can request a single token from the AWS Sign-In CreateBearerToken API and use it across all ECR private registries in the same AWS partition.&lt;/p&gt; \n&lt;p&gt;Teams that run proxy services to route container pulls across Regions, a common pattern for optimizing latency or availability, previously had to request, refresh, and coordinate a separate token for every Region behind the proxy. With global tokens, the proxy manages one token for all Regions in the AWS partition. Global tokens are valid for 12 hours by default, but can be configured to be as low as 5 minutes. These tokens work with the Docker CLI, and the Amazon ECR Docker Credential Helper. Existing regional authentication tokens continue to work as before.&lt;/p&gt; \n&lt;p&gt;Global authentication tokens are available in all commercial AWS Regions where Amazon ECR is supported. To learn more, see Private registry authentication in the &lt;a href=\"https://docs.aws.amazon.com/AmazonECR/latest/userguide/registry_auth.html\"&gt;Amazon ECR User Guide&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-authentication-amazon-ecr",
-      "publishedAt": "2026-11-17T21:37:00.000Z",
-      "updatedAt": "2026-11-17T21:37:00.000Z",
+      "id": "33c47c8a65d3fe0f",
+      "title": "AWS Transform supports optimized storage for server migration",
+      "description": "AWS Transform for migrations now recommends the optimized storage type and configuration for every server you migrate, so you no longer do it server by server. Building on recent storage assessment capabilities , AWS Transform's recommendations use each server's observed performance and capacity data to reduce overprovisioning costs and avoid performance issues after cutover. You see the expected cost before you migrate, and AWS Transform applies the approved settings automatically at launch. Recommendations cover Amazon EBS and Amazon FSx for NetApp ONTAP. For FSx for NetApp ONTAP, they inclu",
+      "descriptionHtml": "&lt;p&gt;AWS Transform for migrations now recommends the optimized storage type and configuration for every server you migrate, so you no longer do it server by server. Building on &lt;a href=\"https://aws.amazon.com/blogs/migration-and-modernization/assess-and-migrate-storage-to-the-cloud-with-aws-transform/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;recent storage assessment capabilities&lt;/a&gt;, AWS Transform's recommendations use each server's observed performance and capacity data to reduce overprovisioning costs and avoid performance issues after cutover. You see the expected cost before you migrate, and AWS Transform applies the approved settings automatically at launch.&lt;/p&gt; \n&lt;p&gt;Recommendations cover Amazon EBS and Amazon FSx for NetApp ONTAP. For FSx for NetApp ONTAP, they include the file system layout and sizing. You choose whether to optimize for cost or for performance, and recommendations stay consistent from assessment through launch.&lt;/p&gt; \n&lt;p&gt;This capability is available in all &lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/transform-vmware-connect-target-account.html#transform-vmware-cta-supported-regions\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions where AWS Transform for migrations is available&lt;/a&gt;. &lt;/p&gt; \n&lt;p&gt;To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/transform-vmware-migrate-servers.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Transform user guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-optimized-storage/",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "updatedAt": "2026-11-19T08:00:00.000Z",
       "categories": [
-        "Containers",
-        "Amazon Ecr"
-      ],
-      "services": [
-        "ECR"
-      ],
-      "tags": [
-        "containers",
-        "amazon ecr",
-        "ecr"
-      ],
-      "isNew": true,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "authentication",
-        "token"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "cdeca8fdd2ce0a11",
-      "title": "AWS announces consistent sharing controls for credits, Savings Plans, and Reserved Instances",
-      "description": "AWS Billing and Cost Management now gives customers symmetric, granular control over how credits, Reserved Instances, and Savings Plans are shared across their organization. Organizations with grant funding, regulatory obligations, or multi-entity structures can now automate benefit allocation that previously required manual chargeback reconciliation. With these new capabilities, customers can set default sharing preferences that automatically apply to all cost-saving benefits, and override those defaults for individual benefits when business requirements demand it. Customers configure Credit ",
-      "descriptionHtml": "&lt;p&gt;AWS Billing and Cost Management now gives customers symmetric, granular control over how credits, Reserved Instances, and Savings Plans are shared across their organization. Organizations with grant funding, regulatory obligations, or multi-entity structures can now automate benefit allocation that previously required manual chargeback reconciliation. With these new capabilities, customers can set default sharing preferences that automatically apply to all cost-saving benefits, and override those defaults for individual benefits when business requirements demand it.&lt;/p&gt; \n&lt;p&gt;Customers configure Credit Group Sharing through the Billing Preferences page to set a single default that every new credit inherits automatically, ending the cycle of per-credit manual configuration. For Reserved Instances and Savings Plans, customers configure sharing preferences at the individual commitment level through the Savings Plans or Reserved Instances inventory pages, whether purchased at a linked account or at the payer level. All sharing configurations use Cost Categories, the same grouping construct customers already use in Cost Explorer, AWS Budgets, and the Cost and Usage Report.&lt;/p&gt; \n&lt;p&gt;These capabilities are available starting November 17, 2026, in all AWS Regions through the AWS Billing and Cost Management Console and public APIs. There is no additional charge. To learn more, visit the for documentations for &lt;a href=\"https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-pref.html\" target=\"_blank\"&gt;Credit Group Sharing&lt;/a&gt;&amp;nbsp;and &lt;a href=\"https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ri-turn-off.html\"&gt;Savings Plan and Reserved Instances Level Sharing&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-benefits-sharing-capabilities/",
-      "publishedAt": "2026-11-17T08:00:00.000Z",
-      "updatedAt": "2026-11-17T08:00:00.000Z",
-      "categories": [
-        "Cost Management",
-        "AWS Account Billing"
-      ],
-      "services": [
-        "Savings Plans"
-      ],
-      "tags": [
-        "cost management",
-        "aws account billing",
-        "savings plans"
-      ],
-      "isNew": true,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "Organizations"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "b8a5957d4e4377ba",
-      "title": "AWS Split Cost Allocation Data now supports Amazon S3",
-      "description": "Starting today, you can allocate the storage and request costs of a shared Amazon S3 general purpose bucket to the prefixes in that bucket in the AWS Cost and Usage Report (CUR). Organizations often store data for many teams, applications, or tenants in one bucket under different prefixes, such as `marketing/` and `finance/`. Until now, attributing that bucket's bill to each prefix required custom pipelines built on S3 Inventory or Storage Lens reports and your own pricing logic. With Split Cost Allocation Data for Amazon S3, Amazon S3 Storage Lens publishes prefix-level storage and request me",
-      "descriptionHtml": "&lt;p&gt;Starting today, you can allocate the storage and request costs of a shared Amazon S3 general purpose bucket to the prefixes in that bucket in the AWS Cost and Usage Report (CUR). Organizations often store data for many teams, applications, or tenants in one bucket under different prefixes, such as `marketing/` and `finance/`. Until now, attributing that bucket's bill to each prefix required custom pipelines built on S3 Inventory or Storage Lens reports and your own pricing logic.&lt;/p&gt; \n&lt;p&gt;With Split Cost Allocation Data for Amazon S3, Amazon S3 Storage Lens publishes prefix-level storage and request metrics to AWS Billing and Cost Management, which allocates the bucket's storage and Tier 1 and Tier 2 request costs to the deepest matching prefix in the range of prefix levels you choose. Each prefix line item carries its full prefix path as AWS-generated cost allocation tags, so you can total cost by top-level prefix, team, or application, and reconcile it back to the bucket. You can use this data for chargeback, showback, and to see which prefixes drive your S3 spend.&lt;/p&gt; \n&lt;p&gt;To get started, enable AWS Billing and Cost Management publishing in an S3 Storage Lens advanced tier dashboard configuration, then enable split cost allocation data for Amazon S3 in the AWS Billing and Cost Management console. Prefix cost data appears in your CUR after the next daily Storage Lens metrics are published. Split Cost Allocation Data for Amazon S3 is available in all AWS commercial Regions where S3 Storage Lens advanced metrics are available, at no additional charge beyond S3 Storage Lens advanced tier pricing. To learn more, visit the &lt;a href=\"https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/\"&gt;AWS Cost and Usage Reports&lt;/a&gt; product page, &lt;a href=\"https://docs.aws.amazon.com/cur/latest/userguide/split-cost-allocation-data.html#split-cost-allocation-data-s3\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Understanding split cost allocation data&lt;/a&gt;, and &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-lens-cost-and-usage-reports.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Estimating Amazon S3 costs by prefix with S3 Storage Lens&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/split-cost-allocation-data-s3/",
-      "publishedAt": "2026-11-17T08:00:00.000Z",
-      "updatedAt": "2026-11-17T08:00:00.000Z",
-      "categories": [
-        "Cost Usage Reports",
-        "Storage",
-        "Amazon S3",
-        "Cost Management"
-      ],
-      "services": [
-        "S3"
-      ],
-      "tags": [
-        "cost usage reports",
-        "storage",
-        "amazon s3",
-        "cost management",
-        "s3"
-      ],
-      "isNew": true,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Organizations",
-        "S3",
-        "Bucket"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "7d2b49a032483790",
-      "title": "AWS Transform now provides F5 BIG-IP load balancer migration",
-      "description": "AWS Transform now migrates F5 BIG-IP load balancer configurations to Elastic Load Balancing as part of network migration. Applications cut over with Application Load Balancers (ALB) and Network Load Balancers (NLB) already in place allowing you to adopt cloud-native load balancing during migration rather than after it. Moving to ALB and NLB has typically been a separate post-migration project because of time and cost. Teams rebuilt each F5 BIG-IP virtual server by hand, a slow and error-prone process that could break when traffic moved. AWS Transform compresses that timeline and enables the F5",
-      "descriptionHtml": "&lt;p&gt;AWS Transform now migrates F5 BIG-IP load balancer configurations to Elastic Load Balancing as part of network migration. Applications cut over with Application Load Balancers (ALB) and Network Load Balancers (NLB) already in place allowing you to adopt cloud-native load balancing during migration rather than after it.&lt;/p&gt;\n&lt;p&gt;Moving to ALB and NLB has typically been a separate post-migration project because of time and cost. Teams rebuilt each F5 BIG-IP virtual server by hand, a slow and error-prone process that could break when traffic moved. AWS Transform compresses that timeline and enables the F5 to Elastic Load Balancing transition during migration, allowing you to run your cloud migration with network, load balancing, and compute moving as a coordinated unit.&lt;/p&gt;\n&lt;p&gt;You can migrate F5 BIG-IP load balancers in every &lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/transform-vmware-connect-target-account.html#transform-vmware-cta-supported-regions\" target=\"_blank\"&gt;AWS Transform for migrations target Region&lt;/a&gt;. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/transform-app-vmware.html\" target=\"_blank\"&gt;AWS Transform documentation&lt;/a&gt;, or visit the &lt;a href=\"https://aws.amazon.com/transform/\"&gt;AWS Transform product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-f5-big-ip-migration/",
-      "publishedAt": "2026-11-17T08:00:00.000Z",
-      "updatedAt": "2026-11-17T08:00:00.000Z",
-      "categories": [
+        "Amazon Elastic Block Store",
         "Migration",
-        "Amazon Elastic Load Balancing"
+        "Amazon Fsx Netapp Ontap",
+        "AWS Application Migration Service"
       ],
-      "services": [],
+      "services": [
+        "FSx"
+      ],
       "tags": [
+        "amazon elastic block store",
         "migration",
-        "amazon elastic load balancing"
+        "amazon fsx netapp ontap",
+        "aws application migration service",
+        "fsx"
       ],
       "isNew": true,
       "securityScore": 20,
@@ -14071,357 +14413,33 @@
       "source": "whats-new"
     },
     {
-      "id": "d26c467373dd8f68",
-      "title": "AWS Split Cost Allocation Data now supports Amazon S3",
-      "description": "You can now allocate the storage and request costs of a shared Amazon S3 general purpose bucket to its prefixes in the AWS Cost and Usage Report (CUR). Many organizations store data for multiple teams, applications, or tenants in one bucket under different prefixes such as \"marketing/\" and \"finance/\". Previously, splitting that bucket's bill by prefix required custom pipelines and your own pricing logic. With this new capability, S3 Storage Lens publishes prefix-level storage and request metrics to AWS Billing and Cost Management. Billing and Cost Management then allocates the bucket's storage",
-      "descriptionHtml": "&lt;p&gt;You can now allocate the storage and request costs of a shared Amazon S3 general purpose bucket to its prefixes in the AWS Cost and Usage Report (CUR). Many organizations store data for multiple teams, applications, or tenants in one bucket under different prefixes such as \"marketing/\" and \"finance/\". Previously, splitting that bucket's bill by prefix required custom pipelines and your own pricing logic.&lt;/p&gt;\n&lt;p&gt;With this new capability, S3 Storage Lens publishes prefix-level storage and request metrics to AWS Billing and Cost Management. Billing and Cost Management then allocates the bucket's storage and Tier 1 and Tier 2 request costs to the deepest matching prefix in the range of prefix levels you choose. Each prefix line item carries its full prefix path as AWS-generated cost allocation tags, so you can total costs by top-level prefix, team, or application, and reconcile it back to the bucket. You can use this data for chargeback and showback, and to see which prefixes drive your S3 spend.&lt;/p&gt;\n&lt;p&gt;To get started, enable AWS Billing and Cost Management publishing in your S3 Storage Lens advanced tier configuration, then enable split cost allocation data for S3 in the AWS Billing and Cost Management console. This feature is available in all AWS Regions, except the AWS China Regions and the AWS GovCloud (US) Regions, at no additional charge beyond S3 Storage Lens advanced tier pricing. To learn more, visit the AWS Cost and Usage Reports product page, Understanding split cost allocation data, and Estimating Amazon S3 costs by prefix with S3 Storage Lens.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-split-cost-allocation/",
-      "publishedAt": "2026-11-17T08:00:00.000Z",
-      "updatedAt": "2026-11-17T08:00:00.000Z",
+      "id": "7ea2104cf81a6d71",
+      "title": "AWS Lambda now supports customer-managed runtimes, giving platform teams centralized control over runtime contents and updates",
+      "description": "AWS Lambda now supports customer-managed runtimes for Lambda Event Functions (formerly Lambda functions). Customer-managed runtimes are a standalone resource type that fully decouples runtime management from function deployment. Platform teams gain centralized control over the runtime contents, updates, access, and lifecycle, including the ability to push updates to shared components without per-function redeployments. Application teams consume the runtime from their functions in the same way as a Lambda-managed runtime, preserving their familiar developer experience. Many organizations requir",
+      "descriptionHtml": "&lt;p&gt;AWS Lambda now supports customer-managed runtimes for Lambda Event Functions (formerly Lambda functions). Customer-managed runtimes are a standalone resource type that fully decouples runtime management from function deployment. Platform teams gain centralized control over the runtime contents,&amp;nbsp;updates, access, and lifecycle, including the ability to push updates to shared components without per-function redeployments. Application teams consume the runtime from their functions in the same way as a Lambda-managed runtime, preserving their familiar developer experience.&lt;/p&gt; \n&lt;p&gt;Many organizations require every function to include approved components, such as SDKs, certificates, and security or monitoring tools. Previously, sharing these through Lambda Layers or container images meant redeploying every function to pick up a change. With customer-managed runtimes, platform teams manage these components in a central runtime, packaged as OCI container images in Amazon ECR and compatible with existing Docker and CI/CD tooling. Functions pick up updates automatically as Lambda recycles execution environments, so there's no need to redeploy each function or coordinate rollouts. Updates can be scheduled and staged to match change control policies, with centralized health metrics and rapid rollback. With this launch, the existing custom runtimes feature is renamed \"bring your own language.\"&lt;/p&gt; \n&lt;p&gt;AWS Lambda customer-managed runtimes is now generally available in all commercial AWS Regions. There is no additional charge for customer-managed runtimes; functions are billed at standard Lambda rates and standard Amazon ECR pricing applies to runtime images.&lt;/p&gt; \n&lt;p&gt;To get started, build your runtime as a container image in Amazon ECR, starting from a Lambda base image or from scratch, then create a runtime, a version, and an alias. Application teams reference the runtime alias in their function configuration and keep deploying their code as .zip files. Share runtimes with other accounts or an AWS Organization by using a resource-based policy. You can create and manage customer-managed runtimes using the AWS CLI, AWS SDKs, CloudFormation, or AWS CDK. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/runtimes-customer-managed.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;customer-managed runtimes documentation&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/blogs/compute/control-your-aws-lambda-runtimes-with-customer-managed-runtimes/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;launch blog post&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-customer-managed-runtimes/",
+      "publishedAt": "2026-11-18T15:00:00.000Z",
+      "updatedAt": "2026-11-18T15:00:00.000Z",
       "categories": [
-        "Cost Usage Reports",
-        "Cost Management",
-        "Amazon S3"
+        "AWS Lambda",
+        "Serverless",
+        "Management And Governance"
       ],
       "services": [
-        "S3"
+        "Lambda"
       ],
       "tags": [
-        "cost usage reports",
-        "cost management",
-        "amazon s3",
-        "s3"
+        "aws lambda",
+        "serverless",
+        "management and governance",
+        "lambda"
       ],
       "isNew": true,
       "securityScore": 20,
       "securityLevel": "medium",
       "securityMatches": [
         "Organizations",
-        "S3",
-        "Bucket"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "79c22925fc0d8ed4",
-      "title": "Amazon Route 53 Global Resolver is now available over AWS Cloud WAN for hybrid networks",
-      "description": "Amazon Route 53 Global Resolver now supports anycast DNS resolution for private connections managed through your AWS Cloud WAN configuration. This enables organizations with hybrid networks to resolve DNS queries to public and private domains over existing AWS Direct Connect or AWS VPN connections, with automatic multi-region failover for high availability. Previously, customers had to either deploy and manage separate Resolver endpoints in each AWS Region and customer location, with no automatic failover between AWS Regions, or use Global Resolver with internet-reachable anycast IPs, making i",
-      "descriptionHtml": "&lt;p&gt;Amazon Route 53 Global Resolver now supports anycast DNS resolution for private connections managed through your AWS Cloud WAN configuration. This enables organizations with hybrid networks to resolve DNS queries to public and private domains over existing AWS Direct Connect or AWS VPN connections, with automatic multi-region failover for high availability.&lt;/p&gt; \n&lt;p&gt;Previously, customers had to either deploy and manage separate Resolver endpoints in each AWS Region and customer location, with no automatic failover between AWS Regions, or use Global Resolver with internet-reachable anycast IPs, making it hard for clients without internet access or those restricted by compliance requirements to take advantage of Global Resolver's anycast DNS resolution. With this launch, customers with clients configured with private connectivity over your Cloud WAN network get all the benefits of Global Resolver: automatic regional failover for higher availability, centralized DNS filtering with Route 53 DNS Firewall to prevent DNS-based data exfiltration, and simplified query resolution of both public internet domains and private domains (hosted on Route 53).&lt;/p&gt; \n&lt;p&gt;You can get started by enabling Global Resolver, for two or more AWS Regions, and associating it with your Cloud WAN network configuration. You can select one or more privately routable IP addresses (IPv4, IPv6) that do not conflict with addresses already in use in your Cloud WAN and define DNS Views to specify which private hosted zones and DNS filtering rules apply to your Cloud WAN segments. Then configure your on-premises clients to forward DNS queries to the private IP address configured with your Global Resolver.&lt;/p&gt; \n&lt;p&gt;This feature is available in AWS Regions where both Global Resolver and AWS Cloud WAN are available. To learn more about Global Resolver, see the &lt;a href=\"https://aws.amazon.com/route53/global-resolver/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;product page&lt;/a&gt;. To get started, see Route 53 Global Resolver &lt;a href=\"https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/gr-what-is-global-resolver.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Developer Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-global-resolver-cloud-wan/",
-      "publishedAt": "2026-11-17T08:00:00.000Z",
-      "updatedAt": "2026-11-17T08:00:00.000Z",
-      "categories": [
-        "Networking And Content Delivery",
-        "Amazon Route 53",
-        "AWS Cloud Wan",
-        "AWS Direct Connect"
-      ],
-      "services": [
-        "Route 53",
-        "Connect"
-      ],
-      "tags": [
-        "networking and content delivery",
-        "amazon route 53",
-        "aws cloud wan",
-        "aws direct connect",
-        "route 53",
-        "connect"
-      ],
-      "isNew": true,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "Organizations"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "96c089d3ad5d288e",
-      "title": "Amazon S3 Storage Lens now tracks S3 Intelligent-Tiering access tiers",
-      "description": "Amazon S3 Storage Lens now provides storage metrics for each S3 Intelligent-Tiering access tier. You can see object counts and storage bytes in every tier across your buckets. This helps you track how your data moves between tiers, estimate storage costs, and measure your savings. S3 Storage Lens gives you visibility across your organization into storage usage and activity to help you optimize costs and performance. Access tier metrics appear in your S3 Storage Lens dashboards and metrics exports alongside your existing metrics. S3 Storage Lens also now publishes prefix metrics to AWS Billing ",
-      "descriptionHtml": "&lt;p&gt;Amazon S3 Storage Lens now provides storage metrics for each S3 Intelligent-Tiering access tier. You can see object counts and storage bytes in every tier across your buckets. This helps you track how your data moves between tiers, estimate storage costs, and measure your savings.&lt;/p&gt; \n&lt;p&gt;S3 Storage Lens gives you visibility across your organization into storage usage and activity to help you optimize costs and performance. Access tier metrics appear in your S3 Storage Lens dashboards and metrics exports alongside your existing metrics. S3 Storage Lens also now publishes prefix metrics to AWS Billing and Cost Management, so you can allocate shared bucket costs to teams and applications with split cost allocation data for S3.&lt;/p&gt; \n&lt;p&gt;To get started, enable access tier metrics in your S3 Storage Lens advanced tier configuration. Access tier metrics are available in all AWS Regions, except the AWS China Regions and the AWS GovCloud (US) Regions. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage_lens.html\" target=\"_blank\"&gt;S3 Storage Lens documentation&lt;/a&gt;. For pricing, visit the &lt;a href=\"https://aws.amazon.com/s3/pricing/\" target=\"_blank\"&gt;S3 pricing page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-storage-lens-s3-intelligent-tiering-access-tiers/",
-      "publishedAt": "2026-11-17T07:00:00.000Z",
-      "updatedAt": "2026-11-17T07:00:00.000Z",
-      "categories": [
-        "Amazon S3",
-        "Storage"
-      ],
-      "services": [
-        "S3",
-        "S3 Intelligent-Tiering"
-      ],
-      "tags": [
-        "amazon s3",
-        "storage",
-        "s3",
-        "s3 intelligent-tiering"
-      ],
-      "isNew": true,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "access",
-        "S3",
-        "Bucket"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "a7f36f312d592ec7",
-      "title": "AWS Systems Manager simplifies onboarding of Google Cloud VMs for centralized management",
-      "description": "AWS Systems Manager Cloud Connector now extends simplified multicloud onboarding support to Google Cloud, making it easy to connect your existing Google Cloud VMs to Systems Manager for centralized management alongside AWS, on-premises, and Azure resources without manual agent installation. Previously, managing virtual machines across multiple cloud providers often required coordinating and setting up configurations separately in each environment. With Cloud Connector for Google Cloud, you can automatically deploy the SSM Agent to Google Cloud VMs at scale. Once connected, Google Cloud VMs app",
-      "descriptionHtml": "&lt;p&gt;AWS Systems Manager Cloud Connector now extends simplified multicloud onboarding support to Google Cloud, making it easy to connect your existing Google Cloud VMs to Systems Manager for centralized management alongside AWS, on-premises, and Azure resources without manual agent installation. Previously, managing virtual machines across multiple cloud providers often required coordinating and setting up configurations separately in each environment.&lt;/p&gt; \n&lt;p&gt;With Cloud Connector for Google Cloud, you can automatically deploy the SSM Agent to Google Cloud VMs at scale. Once connected, Google Cloud VMs appear alongside EC2 instances, on-premises servers, and other multicloud resources in a unified view, enabling you to use Session Manager, Automation runbooks, Run Command, State Manager, Patch Manager, and Inventory across AWS, on-premises, Azure, and Google Cloud from a single workflow. This simplifies operations for teams managing infrastructure across multiple clouds, enabling them to standardize management practices and reduce operational complexity.&lt;/p&gt; \n&lt;p&gt;Cloud Connector for Google Cloud is available in Africa (Cape Town), Asia Pacific (Hong Kong, Hyderabad, Jakarta, Malaysia, Melbourne, Mumbai, New Zealand, Osaka, Seoul, Singapore, Sydney, Taipei, Thailand, Tokyo), Canada (Central, Calgary), Europe (Frankfurt, Ireland, London, Milan, Paris, Spain, Stockholm, Zurich), Israel (Tel Aviv), Mexico (Central), South America (Sao Paulo), US East (N. Virginia, Ohio), and US West (N. California, Oregon).&lt;/p&gt; \n&lt;p&gt;To learn more, visit the AWS Systems Manager documentation.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/systems-manager-google-cloud-support/",
-      "publishedAt": "2026-11-13T08:00:00.000Z",
-      "updatedAt": "2026-11-13T08:00:00.000Z",
-      "categories": [
-        "Compute",
-        "Management And Governance",
-        "AWS Systems Manager"
-      ],
-      "services": [
-        "Systems Manager"
-      ],
-      "tags": [
-        "compute",
-        "management and governance",
-        "aws systems manager",
-        "systems manager"
-      ],
-      "isNew": true,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "Systems Manager"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "23913feb764f7342",
-      "title": "AWS Backup now supports resource modifiers for Amazon EKS restores",
-      "description": "Today, AWS Backup announces support for resource modifiers when restoring Amazon Elastic Kubernetes Service (Amazon EKS) backups. Resource modifiers let you transform Kubernetes resources during a restore, so you can adapt a restored cluster to its target environment. When you restore an EKS backup that has been copied across accounts or across AWS Regions, the restored cluster can carry references tied to the source environment, such as IAM roles, database endpoints, and Amazon ECR registry URIs. Previously, you had to locate and update these references manually after every restore, which was",
-      "descriptionHtml": "&lt;p&gt;Today, AWS Backup announces support for resource modifiers when restoring Amazon Elastic Kubernetes Service (Amazon EKS) backups. Resource modifiers let you transform Kubernetes resources during a restore, so you can adapt a restored cluster to its target environment.&lt;/p&gt; \n&lt;p&gt;When you restore an EKS backup that has been copied across accounts or across AWS Regions, the restored cluster can carry references tied to the source environment, such as IAM roles, database endpoints, and Amazon ECR registry URIs. Previously, you had to locate and update these references manually after every restore, which was time consuming and error prone. With resource modifiers, you can define transformation rules once via a YAML file, and AWS Backup applies them automatically as part of the restore, improving the reliability of your cross-account and cross-Region disaster recovery workflows.&lt;/p&gt; \n&lt;p&gt;AWS Backup support for resource modifiers for Amazon EKS backups is available in all commercial AWS Regions and AWS GovCloud (US) Regions. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/restoring-eks.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Backup Documentation&lt;/a&gt; and read the &lt;a href=\"https://aws.amazon.com/blogs/storage/remap-amazon-eks-namespaces-on-restore-with-aws-backup-resource-modifiers/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;launch blog&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-resource-modifiers-eks/",
-      "publishedAt": "2026-11-12T08:00:00.000Z",
-      "updatedAt": "2026-11-12T08:00:00.000Z",
-      "categories": [
-        "Storage",
-        "AWS Backup",
-        "Containers",
-        "Amazon Eks"
-      ],
-      "services": [
-        "EKS",
-        "Backup"
-      ],
-      "tags": [
-        "storage",
-        "aws backup",
-        "containers",
-        "amazon eks",
-        "eks",
-        "backup"
-      ],
-      "isNew": true,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "IAM"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "3b12cbb76bb339db",
-      "title": "Amazon SES now supports higher limits for email identities, tenants, and configuration sets",
-      "description": "Amazon Simple Email Service (Amazon SES) now supports higher limits for email identities, tenants, and configuration sets. You can view your current usage against each limit and request increases in the AWS Service Quotas console. A single account can now keep pace with your growth, so you no longer need to split email workloads across several accounts to stay within per-account limits. Customers running multi-tenant workloads often create a separate email identity, tenant, or configuration set for each customer, brand, or AI agent they serve. As you add more customers, brands, and AI agents, ",
-      "descriptionHtml": "&lt;p&gt;Amazon Simple Email Service (Amazon SES) now supports higher limits for email identities, tenants, and configuration sets. You can view your current usage against each limit and request increases in the AWS Service Quotas console. A single account can now keep pace with your growth, so you no longer need to split email workloads across several accounts to stay within per-account limits.&lt;/p&gt; \n&lt;p&gt;Customers running multi-tenant workloads often create a separate email identity, tenant, or configuration set for each customer, brand, or AI agent they serve. As you add more customers, brands, and AI agents, these resources can multiply quickly, and higher limits let all of these workloads grow in one account. To help you manage larger accounts, you can now also search these resources by name or status.&lt;/p&gt; \n&lt;p&gt;Higher limits for email identities, tenants, and configuration sets are available in all AWS Regions where Amazon SES is available.&lt;/p&gt; \n&lt;p&gt;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/ses/latest/dg/quotas.html\"&gt;Service quotas in Amazon SES&lt;/a&gt; in the &lt;i&gt;Amazon SES Developer Guide&lt;/i&gt; and the &lt;a href=\"https://aws.amazon.com/ses/\"&gt;Amazon SES&lt;/a&gt; product page.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ses-higher-resource-limits/",
-      "publishedAt": "2026-11-11T08:00:00.000Z",
-      "updatedAt": "2026-11-11T08:00:00.000Z",
-      "categories": [
-        "Amazon Ses"
-      ],
-      "services": [
-        "SES"
-      ],
-      "tags": [
-        "amazon ses",
-        "ses"
-      ],
-      "isNew": true,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "identity"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "c16ddce00acea593",
-      "title": "CloudWatch PromQL alarms now support EC2 and Application Auto Scaling",
-      "description": "Amazon CloudWatch alarms that use Prometheus Query Language (PromQL) can now trigger Amazon EC2 and Application Auto Scaling step and simple scaling policies. You can scale your EC2 Auto Scaling groups on CloudWatch OpenTelemetry metrics using the same kind of PromQL queries you use for dashboards and alerting. In this release, PromQL alarms also support EC2 Auto Scaling simple and step scaling policies. Target tracking is not currently a supported policy type for PromQL alarms. Teams moving to OpenTelemetry can scale capacity on the same metrics as the rest of their monitoring, instead of kee",
-      "descriptionHtml": "&lt;p&gt;Amazon CloudWatch alarms that use Prometheus Query Language (PromQL) can now trigger Amazon EC2 and Application Auto Scaling step and simple scaling policies. You can scale your EC2 Auto Scaling groups on CloudWatch OpenTelemetry metrics using the same kind of PromQL queries you use for dashboards and alerting.&lt;/p&gt; \n&lt;p&gt; &lt;/p&gt; \n&lt;p&gt;In this release, PromQL alarms also support EC2 Auto Scaling simple and step scaling policies. Target tracking is not currently a supported policy type for PromQL alarms. Teams moving to OpenTelemetry can scale capacity on the same metrics as the rest of their monitoring, instead of keeping separate classic metric alarms for scaling. For step scaling, how far the value is past the threshold in your PromQL query decides which step applies. The query must return a single series and compare it to a threshold.&lt;/p&gt; \n&lt;p&gt; &lt;/p&gt; \n&lt;p&gt;You can add EC2 Auto Scaling and Application Auto Scaling actions in the CloudWatch console when you create or edit an alarm, or with the PutMetricAlarm API, AWS CLI, AWS SDKs, or AWS CloudFormation. You can also use the PutMetricAlarm API, AWS CLI, AWS SDKs, or AWS CloudFormation.&lt;/p&gt; \n&lt;p&gt;This feature is available in all AWS Regions where CloudWatch PromQL alarms are available. Standard CloudWatch alarm pricing applies. To get started, see &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-PromQL-Alarms.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Using PromQL in alarms&amp;nbsp;&lt;/a&gt; and &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/alarm-actions.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Alarm actions&amp;nbsp;&lt;/a&gt; in the Amazon CloudWatch User Guide.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-alarms-autoscaling-group-actions",
-      "publishedAt": "2026-11-10T03:00:00.000Z",
-      "updatedAt": "2026-11-10T03:00:00.000Z",
-      "categories": [
-        "Amazon Cloudwatch",
-        "Management And Governance"
-      ],
-      "services": [
-        "EC2",
-        "CloudWatch"
-      ],
-      "tags": [
-        "amazon cloudwatch",
-        "management and governance",
-        "ec2",
-        "cloudwatch"
-      ],
-      "isNew": false,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "monitoring",
-        "policy"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "165081317a90e83e",
-      "title": "AWS Glue adds 100 new native connectors for popular SaaS applications",
-      "description": "AWS Glue now supports 100 new native connectors that simplify access to data in popular SaaS and REST API-based applications. Previously, bringing data from SaaS applications into AWS required writing custom code. Now, teams can create a connection once in the AWS Glue Data Catalog and reuse it across ETL jobs with the same permissions model they already use for AWS Glue. The new connectors span generative AI, finance, payments, marketing, product analytics, human resources, engineering, IT operations, and collaboration tools. AI teams can bring usage and cost data from model providers such as",
-      "descriptionHtml": "&lt;p&gt;AWS Glue now supports 100 new native connectors that simplify access to data in popular SaaS and REST API-based applications. Previously, bringing data from SaaS applications into AWS required writing custom code. Now, teams can create a connection once in the AWS Glue Data Catalog and reuse it across ETL jobs with the same permissions model they already use for AWS Glue.&lt;/p&gt; \n&lt;p&gt;The new connectors span generative AI, finance, payments, marketing, product analytics, human resources, engineering, IT operations, and collaboration tools. AI teams can bring usage and cost data from model providers such as Anthropic to track generative AI adoption and spend. Finance teams can consolidate transactions from applications such as Adyen, Square, and Xero for faster reporting. Product and marketing teams can combine billing, usage, and campaign data from tools such as Chargebee, Amplitude, and Klaviyo to understand customer lifetime value. HR teams can unify workforce data from systems such as BambooHR and Gusto for headcount planning. Engineering teams can join incident and deployment data from tools such as PagerDuty, Sentry, Jenkins, and Vercel to track reliability. You can load the integrated data into Amazon S3 or Amazon Redshift for analytics and reporting.&lt;/p&gt; \n&lt;p&gt;The 100 new AWS Glue connectors are available in all AWS Commercial Regions on Glue versions 5.0 and above.&lt;/p&gt; \n&lt;p&gt;To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/available-connections.html\"&gt;complete list of available connectors&lt;/a&gt; and learn about &lt;a href=\"https://docs.aws.amazon.com/glue/latest/dg/console-connections.html\"&gt;connecting to individual connectors&lt;/a&gt; in the AWS Glue documentation.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-glue-adds-100-new-native-connectors/",
-      "publishedAt": "2026-11-09T21:33:00.000Z",
-      "updatedAt": "2026-11-09T21:33:00.000Z",
-      "categories": [
-        "AWS Glue",
-        "Analytics"
-      ],
-      "services": [
-        "Glue"
-      ],
-      "tags": [
-        "aws glue",
-        "analytics",
-        "glue"
-      ],
-      "isNew": false,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "permission",
         "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "9579730c1ffa66dd",
-      "title": "Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
-      "description": "Today, Kimi K3.1 Pro from Moonshot AI is available on Amazon Bedrock, expanding our open weight model portfolio with the security and governance that customers rely on. Customers using Amazon Bedrock can now run agentic use cases such as coding and document processing on Kimi K3.1 Pro (Highspeed), which delivers high output tokens per second (OTPS) for faster, more responsive results. According to Moonshot AI, Kimi K3.1 Pro is an open-weight, natively multimodal agentic model with a 1-million-token context window, and its most capable 3-trillion-parameter-class model to date. Moonshot AI repor",
-      "descriptionHtml": "&lt;p&gt;Today, Kimi K3.1 Pro from Moonshot AI is available on Amazon Bedrock, expanding our open weight model portfolio with the security and governance that customers rely on. Customers using Amazon Bedrock can now run agentic use cases such as coding and document processing on Kimi K3.1 Pro (Highspeed), which delivers high output tokens per second (OTPS) for faster, more responsive results.&lt;/p&gt; \n&lt;p&gt;According to Moonshot AI, Kimi K3.1 Pro is an open-weight, natively multimodal agentic model with a 1-million-token context window, and its most capable 3-trillion-parameter-class model to date. Moonshot AI reports improvements in coding, 3D creation, financial research, and other agentic work. On Amazon Bedrock, it runs within the same security boundary as proprietary models and supports &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html\"&gt;explicit prompt caching&lt;/a&gt; to reduce latency and input costs.&lt;/p&gt; \n&lt;p&gt;Kimi K3.1 Pro is available in all &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html\"&gt;AWS Regions&lt;/a&gt; where Amazon Bedrock is available through cross-Region inference. To get started, visit the &lt;a href=\"https://console.aws.amazon.com/bedrock/\"&gt;Amazon Bedrock console&lt;/a&gt;. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3-1-highspeed.html\"&gt;Amazon Bedrock documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock",
-      "publishedAt": "2026-11-06T22:47:00.000Z",
-      "updatedAt": "2026-11-06T22:47:00.000Z",
-      "categories": [
-        "Amazon Bedrock",
-        "Artificial Intelligence"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "amazon bedrock",
-        "artificial intelligence",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "token"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "9d4b54033d209b2b",
-      "title": "AWS Systems Manager Parameter Store now allows organization and validation with built-in data types",
-      "description": "AWS Systems Manager Parameter Store now supports 13 new parameter data types that automatically validate parameter values when you create or update a parameter. With built-in validation, you can stop malformed configuration values, such as an invalid IP address, AWS account ID, or JSON document, before your applications read them, without writing your own validation logic. These types allow you to better organize your parameters across your workloads. You can filter by type when calling the DescribeParameters API or when browsing parameters in the Parameter Store console. The following data ty",
-      "descriptionHtml": "&lt;p&gt;AWS Systems Manager Parameter Store now supports 13 new parameter data types that automatically validate parameter values when you create or update a parameter. With built-in validation, you can stop malformed configuration values, such as an invalid IP address, AWS account ID, or JSON document, before your applications read them, without writing your own validation logic.&amp;nbsp;These types allow you to better organize your parameters across your workloads. You can filter by type when calling the DescribeParameters API or when browsing parameters in the Parameter Store console.&lt;br&gt; &lt;br&gt; The following data types are available for both standard and advanced parameters:&amp;nbsp; aws:region, aws:account:id, boolean, integer, float, binary, hostname, email, ipv4-address, and ipv6-address. Three more data types, url, json, and jsonc, are available for advanced parameters. Parameter Store checks the value when you call PutParameter and rejects any value that doesn't match its data type. New data types work with String and SecureString parameters, and several also support StringList parameters, where each item in the list is validated. You can combine a data type with an AllowedPattern for additional constraints, and you can change the data type of an existing text parameter.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-ssm-parameter-store-allows-organization-validation-with-new-data-types/",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "updatedAt": "2026-11-05T05:00:00.000Z",
-      "categories": [
-        "AWS Systems Manager"
-      ],
-      "services": [
-        "Systems Manager"
-      ],
-      "tags": [
-        "aws systems manager",
-        "systems manager"
-      ],
-      "isNew": false,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "Systems Manager"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "8772ad386e5b2c91",
-      "title": "AWS Config now supports 10 new resource types",
-      "description": "AWS Config now supports 10 additional AWS resource types across key services including Amazon ElastiCache and Amazon QuickSight. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources. With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators. You can now use AWS Config to monitor the following newly supported",
-      "descriptionHtml": "&lt;p&gt;AWS Config now supports 10 additional AWS resource types across key services including Amazon ElastiCache and Amazon QuickSight. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources.&lt;/p&gt; \n&lt;p&gt;With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators.&lt;/p&gt; \n&lt;p&gt;You can now use AWS Config to monitor the following newly supported resource types in all &lt;a href=\"https://docs.aws.amazon.com/config/latest/developerguide/what-is-resource-config-coverage.html\"&gt;AWS Regions&lt;/a&gt; where the resources are available:&lt;/p&gt; \n&lt;p&gt;&lt;br&gt; Resource Types:&lt;/p&gt; \n&lt;table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"174\"&gt; \n &lt;tbody&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\" width=\"87\"&gt;AWS::Billing::BillingView&lt;/td&gt; \n   &lt;td width=\"87\"&gt;AWS::MPA::IdentitySource&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Connect::HoursOfOperation&lt;/td&gt; \n   &lt;td&gt;AWS::Notifications::OrganizationalUnitAssociation&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ElastiCache::CacheCluster&lt;/td&gt; \n   &lt;td&gt;AWS::NotificationsContacts::EmailContact&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ElastiCache::ReplicationGroup&lt;/td&gt; \n   &lt;td&gt;AWS::Oam::Link&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::MediaLive::SignalMap&lt;/td&gt; \n   &lt;td&gt;AWS::QuickSight::Agent&lt;/td&gt; \n  &lt;/tr&gt;\n &lt;/tbody&gt;\n&lt;/table&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-config-new-resource-types",
-      "publishedAt": "2026-11-03T16:00:00.000Z",
-      "updatedAt": "2026-11-03T16:00:00.000Z",
-      "categories": [
-        "AWS Config",
-        "Management And Governance"
-      ],
-      "services": [
-        "Config"
-      ],
-      "tags": [
-        "aws config",
-        "management and governance",
-        "config"
-      ],
-      "isNew": false,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "audit"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "da66e3cbd236fe00",
-      "title": "AWS Transform for mainframe improves the reimagine modernization workflow",
-      "description": "AWS Transform for mainframe now discovers business functions with field-level precision and generates a new requirements coverage report in the assess and reimagine workflow. Previously, business functions that used the same table or file were grouped together, and you had to build your own traceability reporting from AWS Transform artifacts. With this launch, you can start modernizing z/OS COBOL and PL/I workloads from a more accurate catalog of business functions and verify requirements coverage before you build. Business functions are now grouped only when they affect the same data fields. ",
-      "descriptionHtml": "&lt;p&gt;AWS Transform for mainframe now discovers business functions with field-level precision and generates a new requirements coverage report in the assess and reimagine workflow. Previously, business functions that used the same table or file were grouped together, and you had to build your own traceability reporting from AWS Transform artifacts. With this launch, you can start modernizing z/OS COBOL and PL/I workloads from a more accurate catalog of business functions and verify requirements coverage before you build.&lt;/p&gt;\n&lt;p&gt;Business functions are now grouped only when they affect the same data fields. They also include screens and queues and carry clearer names and descriptions. The new requirements coverage report shows how every part of your application is accounted for in the generated requirements. Every line of source code is classified by how it was handled, every business rule links to the exact lines it came from, and every requirement is backed by the business rules that support it. You can review coverage from the full portfolio down to a single line before moving into forward engineering in Kiro and other IDEs.&lt;/p&gt;\n&lt;p&gt;These capabilities are available in all AWS Regions where AWS Transform for mainframe is available. For more information, see the &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Region table&lt;/a&gt;. To learn more, visit &lt;a href=\"https://aws.amazon.com/transform/mainframe/\"&gt;AWS Transform for mainframe&lt;/a&gt; or see the &lt;a href=\"https://docs.aws.amazon.com/transform/\"&gt;AWS Transform for mainframe documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-mainframe-reimagine/",
-      "publishedAt": "2026-11-03T08:00:00.000Z",
-      "updatedAt": "2026-11-03T08:00:00.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Artifact"
       ],
       "source": "whats-new"
     }
