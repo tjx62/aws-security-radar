@@ -1,7 +1,127 @@
 {
-  "lastUpdated": "2026-11-19T17:08:02.736Z",
+  "lastUpdated": "2026-11-20T16:46:02.092Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "e65cfa74774375b9",
+      "title": "How AWS Security Incident Response triages your security findings",
+      "description": "AWS Security Incident Response continuously triages the threat findings from Amazon GuardDuty and AWS Security Hub CSPM, but most of that work never shows up as a case. If cases are all you look at, it’s hard to tell whether the service is working at all, and that’s the question I hear most often when […]",
+      "descriptionHtml": "AWS Security Incident Response continuously triages the threat findings from Amazon GuardDuty and AWS Security Hub CSPM, but most of that work never shows up as a case. If cases are all you look at, it’s hard to tell whether the service is working at all, and that’s the question I hear most often when […]",
+      "url": "https://aws.amazon.com/blogs/security/how-aws-security-incident-response-triages-your-security-findings/",
+      "publishedAt": "2026-11-19T19:20:58.000Z",
+      "updatedAt": "2026-11-19T19:20:58.000Z",
+      "categories": [
+        "Advanced (300)",
+        "Amazon GuardDuty",
+        "AWS Security Hub",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Security Blog"
+      ],
+      "services": [
+        "GuardDuty",
+        "Security Hub"
+      ],
+      "tags": [
+        "advanced (300)",
+        "amazon guardduty",
+        "aws security hub",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "security blog",
+        "guardduty",
+        "security hub"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "GuardDuty",
+        "Security Hub",
+        "security",
+        "incident",
+        "threat"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "8e0c275b5fccac23",
+      "title": "Amazon Cognito now supports AWS Secrets Manager for app client secrets",
+      "description": "Amazon Cognito now integrates with AWS Secrets Manager , so you can store and manage your user pool app client secrets in Secrets Manager. Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes. An app client secret authenticates your application to Cognito. Previously, you had to manage and rotate these secrets in Cognito directly. With this integration, you can leverage Secrets Manager for capabilities including rotation, access control with AWS Identity and Access Management (IAM) policies, and encryption with an AWS managed k",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/cognito/\"&gt;Amazon Cognito&lt;/a&gt; now integrates with &lt;a href=\"https://aws.amazon.com/secrets-manager/\"&gt;AWS Secrets Manager&lt;/a&gt;, so you can store and manage your user pool app client secrets in Secrets Manager. Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes. An app client secret authenticates your application to Cognito. Previously, you had to manage and rotate these secrets in Cognito directly.&lt;/p&gt;\n&lt;p&gt;With this integration, you can leverage Secrets Manager for capabilities including rotation, access control with AWS Identity and Access Management (IAM) policies, and encryption with an AWS managed key or your own AWS Key Management Service (AWS KMS) customer managed key. This can help with periodic credential rotation or compliance requirements; this also helps with keeping secrets out of the console. You can enable this integration for either a new or an existing app client, and disable it at any time.&lt;/p&gt;\n&lt;p&gt;This integration is available in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where Amazon Cognito and AWS Secrets Manager are available, except AWS European Sovereign Cloud (Germany). Standard &lt;a href=\"https://aws.amazon.com/secrets-manager/pricing/\"&gt;AWS Secrets Manager charges&lt;/a&gt; apply. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-client-apps.html\" target=\"_blank\"&gt;Amazon Cognito Developer Guide&lt;/a&gt; for instructions.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-secrets-manager-integration/",
+      "publishedAt": "2026-11-19T18:00:00.000Z",
+      "updatedAt": "2026-11-19T18:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "Amazon Cognito",
+        "AWS Secrets Manager"
+      ],
+      "services": [
+        "Cognito",
+        "Secrets Manager"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "amazon cognito",
+        "aws secrets manager",
+        "cognito",
+        "secrets manager"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Secrets Manager",
+        "IAM",
+        "Cognito",
+        "encryption",
+        "encrypt",
+        "access",
+        "identity",
+        "Secret"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "49fb5e30c1000b7a",
+      "title": "Amazon Inspector Code Security adds GitHub Enterprise Server and private connectivity",
+      "description": "Amazon Inspector Code Security now supports GitHub Enterprise Server (GHES) integration and private network connectivity for GHES and GitLab Self-Managed. Code Security is also launching automatic fix pull requests in public preview. Organizations that host GHES or GitLab Self-Managed in private networks can now connect through Amazon Virtual Private Cloud (Amazon VPC) configurations or AWS CodeConnections, so they can scan repositories without opening their firewalls to the entire AWS IP address range. Amazon Inspector Code Security scans first-party application source code, third-party depen",
+      "descriptionHtml": "&lt;p&gt;Amazon Inspector Code Security now supports GitHub Enterprise Server (GHES) integration and private network connectivity for GHES and GitLab Self-Managed. Code Security is also launching automatic fix pull requests in public preview. Organizations that host GHES or GitLab Self-Managed in private networks can now connect through Amazon Virtual Private Cloud (Amazon VPC) configurations or AWS CodeConnections, so they can scan repositories without opening their firewalls to the entire AWS IP address range.&lt;/p&gt; \n&lt;p&gt;Amazon Inspector Code Security scans first-party application source code, third-party dependencies, and Infrastructure as Code for vulnerabilities in repositories on GitHub, GHES, and GitLab Self-Managed. With automatic fix pull requests, Amazon Inspector turns its suggested fix into a pull request that developers review and choose whether to merge, instead of applying the fix by hand. It opens pull requests only for high-confidence fixes to static application security testing (SAST) findings at or above a severity you set.&lt;/p&gt; \n&lt;p&gt;These features are available in all 10 AWS Regions where Amazon Inspector Code Security is available: US East (N. Virginia), US East (Ohio), US West (Oregon), Europe (Frankfurt), Europe (Ireland), Europe (London), Europe (Stockholm), Asia Pacific (Tokyo), Asia Pacific (Sydney), and Asia Pacific (Singapore). To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/inspector/latest/user/code-security-assessments.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Inspector User Guide&lt;/a&gt; and the &lt;a href=\"https://aws.amazon.com/inspector/\"&gt;Amazon Inspector product page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/inspector-code-ghes-private-network/",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "updatedAt": "2026-11-19T08:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "Developer Tools",
+        "Amazon Inspector"
+      ],
+      "services": [
+        "Inspector"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "developer tools",
+        "amazon inspector",
+        "inspector"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Inspector",
+        "VPC",
+        "security",
+        "Config",
+        "Organizations",
+        "firewall"
+      ],
+      "source": "whats-new"
+    },
     {
       "id": "5739ab8ab82d2e60",
       "title": "Detecting cross-cloud lateral movement with AWS Security Hub",
@@ -2128,6 +2248,41 @@
       "source": "security-blog"
     },
     {
+      "id": "921ed6cd588ef0ee",
+      "title": "Introducing the new AWS WAF security analytics dashboard",
+      "description": "When blocked requests spike or a customer reports being locked out, a security team has to work out what is happening, where it is happening, and if AWS WAF is making the right call. Currently, that usually means opening each protection pack (web ACL) in turn, across domains, AWS Regions, and Amazon CloudFront distributions, or […]",
+      "descriptionHtml": "When blocked requests spike or a customer reports being locked out, a security team has to work out what is happening, where it is happening, and if AWS WAF is making the right call. Currently, that usually means opening each protection pack (web ACL) in turn, across domains, AWS Regions, and Amazon CloudFront distributions, or […]",
+      "url": "https://aws.amazon.com/blogs/security/introducing-the-new-aws-waf-security-analytics-dashboard/",
+      "publishedAt": "2026-11-19T21:10:43.000Z",
+      "updatedAt": "2026-11-19T21:10:43.000Z",
+      "categories": [
+        "Announcements",
+        "AWS WAF",
+        "Best Practices",
+        "Network Security",
+        "Security Blog"
+      ],
+      "services": [
+        "WAF"
+      ],
+      "tags": [
+        "announcements",
+        "aws waf",
+        "best practices",
+        "network security",
+        "security blog",
+        "waf"
+      ],
+      "isNew": true,
+      "securityScore": 95,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "WAF",
+        "security"
+      ],
+      "source": "security-blog"
+    },
+    {
       "id": "64b330928e7cd105",
       "title": "AWS IAM announces Access Troubleshooter to debug access denied errors",
       "description": "AWS Identity and Access Management (IAM) introduces Access Troubleshooter , a new capability that gives you visibility into the full authorization context behind access denied errors so you can resolve them without trial-and-error. Previously, developers relied on the Amazon Resource Name (ARN) of the denying policy to debug a denial, with no visibility into the authorization context or other policies evaluated in the request that could contribute to the denial. This made troubleshooting access issues time-consuming and inefficient. Starting today, access denied error messages for supported se",
@@ -2591,6 +2746,55 @@
         "TLS"
       ],
       "source": "security-blog"
+    },
+    {
+      "id": "bd06bc1fb7be1d1b",
+      "title": "CVE-2026-133199 - Incorrect privilege assignment on reused e-mail addresses or group names in AWS ssosync",
+      "description": "Bulletin ID: 2026-194-AWS Publication Date: 11/20/2026 08:30 AM PST Description: Incorrect privilege assignment in the user and group reconciliation logic in AWS ssosync before 2.9.5 might allow an authenticated remote user who is assigned a reused Google Workspace e-mail address or group name to inherit the IAM Identity Center group memberships and permission set assignments of a previously synchronized, unrelated identity, via automatic synchronization of that Google Workspace account or group. Impacted versions: Refer to the article for the most up-to-date and complete information.",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-194-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/20/2026 08:30 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Incorrect privilege assignment in the user and group reconciliation logic in AWS ssosync before 2.9.5 might allow an authenticated remote user who is assigned a reused Google Workspace e-mail address or group name to inherit the IAM Identity Center group memberships and permission set assignments of a previously synchronized, unrelated identity, via automatic synchronization of that Google Workspace account or group.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt; 2.9.5&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-194-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-194-aws/",
+      "publishedAt": "2026-11-20T16:41:29.000Z",
+      "updatedAt": "2026-11-20T16:41:29.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 90,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "IAM Identity Center",
+        "permission",
+        "identity"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "eceff77d22ada03f",
+      "title": "CVE-2026-132607 - GCM authentication tag length downgrade in Amazon S3 Encryption Client for PHP",
+      "description": "Bulletin ID: 2026-191-AWS Publication Date: 11/19/2026 13:00 PM PST Description: We identified CVE-2026-132607, an issue in the decryption component of Amazon S3 Encryption Client for PHP in the AWS SDK for PHP. The client did not verify the length of the AES-GCM authentication tag recorded in an object's metadata. A user with read and write access to an encrypted object, who knows or can guess its plaintext, might craft a ciphertext that decrypts to plaintext of their choice of the same length. This requires repeated writes to the object. The issue does not disclose the plaintext or the encry",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-191-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/19/2026 13:00 PM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-132607, an issue in the decryption component of Amazon S3 Encryption Client for PHP in the AWS SDK for PHP. The client did not verify the length of the AES-GCM authentication tag recorded in an object's metadata. A user with read and write access to an encrypted object, who knows or can guess its plaintext, might craft a ciphertext that decrypts to plaintext of their choice of the same length. This requires repeated writes to the object. The issue does not disclose the plaintext or the encryption key.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-191-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-191-aws/",
+      "publishedAt": "2026-11-19T21:46:07.000Z",
+      "updatedAt": "2026-11-19T21:46:07.000Z",
+      "categories": [],
+      "services": [
+        "S3"
+      ],
+      "tags": [
+        "s3"
+      ],
+      "isNew": true,
+      "securityScore": 90,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "encryption",
+        "encrypt",
+        "authentication",
+        "access",
+        "S3"
+      ],
+      "source": "security-bulletin"
     },
     {
       "id": "0475308a51633b28",
@@ -3542,6 +3746,39 @@
       "source": "security-blog"
     },
     {
+      "id": "9957341752a37994",
+      "title": "AWS Network Firewall launches explicit proxy functionality and NAT Gateway association",
+      "description": "You can now associate AWS Network Firewall with NAT Gateway and use it both as an explicit proxy and a transparent firewall with native network address translation. You can use this capability with existing Network Firewall features to filter traffic to and from your applications and prevent data exfiltration and malware injection. AWS Network Firewall is a stateful, managed, network firewall and intrusion detection and prevention service for your VPC. Customers use it to filter their traffic and secure AWS resources. With this launch, you can configure Network Firewall with native NAT Gateway",
+      "descriptionHtml": "&lt;p&gt;You can now associate AWS Network Firewall with NAT Gateway and use it both as an explicit proxy and a transparent firewall with native network address translation. You can use this capability with existing Network Firewall features to filter traffic to and from your applications and prevent data exfiltration and malware injection.&lt;/p&gt;\n&lt;p&gt;AWS Network Firewall is a stateful, managed, network firewall and intrusion detection and prevention service for your VPC. Customers use it to filter their traffic and secure AWS resources. With this launch, you can configure Network Firewall with native NAT Gateway association and use it for both explicit proxy and routed filtering functionalities. Both these functionalities are governed by a single security policy that you maintain centrally. This capability works with existing Network Firewall features including managed rule groups from Amazon or Marketplace, active threat defense, Geo-IP filtering, URL and domain category filtering, container attribute-based rules for Amazon EKS and Amazon ECS, etc. You can access Network Firewall from any VPC in your environment, even the ones with overlapping IP CIDR space, using VPC endpoints. Your traffic reaches the firewall via the VPC endpoint and the filtered traffic exits directly from the NAT Gateway using its IP address.&lt;/p&gt;\n&lt;p&gt;This capability is available in US East (N. Virginia), US West (Oregon), US East (Ohio), US West (N. California), Europe (Ireland), Europe (London), Europe (Frankfurt), Asia Pacific (Hong Kong), Asia Pacific (Tokyo), Europe (Stockholm), Asia Pacific (Thailand), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Mumbai), Asia Pacific (Malaysia), Europe (Spain). To learn more about Network Firewall proxy and NAT Gateway association, please visit Network Firewall &lt;a href=\"https://docs.aws.amazon.com/network-firewall/latest/developerguide/what-is-aws-network-firewall.html\" target=\"_blank\"&gt;documentation&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/network-firewall/pricing/\"&gt;pricing page&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-proxy-nat-gateway/",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "updatedAt": "2026-11-19T08:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "AWS Network Firewall",
+        "Networking And Content Delivery"
+      ],
+      "services": [
+        "AWS Network Firewall"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "aws network firewall",
+        "networking and content delivery"
+      ],
+      "isNew": true,
+      "securityScore": 80,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Network Firewall",
+        "VPC",
+        "Config",
+        "firewall",
+        "AWS Network Firewall"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "e285b2200474597c",
       "title": "Introducing simplified onboarding for AWS WAF Bot Control at the targeted inspection level",
       "description": "Today, we’re announcing simplified onboarding and bot confidence levels for AWS WAF Bot Control at the targeted inspection level, which we refer to as Targeted bot control in this post, matching the console. Bot confidence levels and the new LATEST rule group version are available for the resource types that AWS WAF protects: you act […]",
@@ -4040,6 +4277,101 @@
       "source": "security-blog"
     },
     {
+      "id": "e52d70aad8b40dfd",
+      "title": "AWS WAF launches new Security Analytics Dashboard for real-time investigations",
+      "description": "AWS WAF now gives you one place to find and stop unwanted traffic across every application in your account. The new AWS WAF security analytics dashboard brings together traffic from all of your protection packs (web ACLs), whether they protect Regional resources or Amazon CloudFront distributions, into a single view. The dashboard also lets you search request logs right in the console, with no logging pipeline to build, and includes 21 days of full-fidelity request data at no additional cost. It is available alongside the existing dashboard for each protection pack (WebACL), which continues to",
+      "descriptionHtml": "&lt;p&gt;AWS WAF now gives you one place to find and stop unwanted traffic across every application in your account. The new AWS WAF security analytics dashboard brings together traffic from all of your protection packs (web ACLs), whether they protect Regional resources or Amazon CloudFront distributions, into a single view. The dashboard also lets you search request logs right in the console, with no logging pipeline to build, and includes 21 days of full-fidelity request data at no additional cost. It is available alongside the existing dashboard for each protection pack (WebACL), which continues to work as it does today.&lt;/p&gt; \n&lt;p&gt;Until now, spotting a trend across your applications, such as a bot campaign hitting several endpoints or a spike in blocked requests, meant opening each web ACL in turn or individually querying AWS WAF logs. With the AWS WAF security analytics dashboard, you can analyze traffic data from every protection pack (WebACL) at once. You can filter and group traffic by dimensions such as client IP address, country, ASN, user agent, JA4 fingerprint, host, path, rule triggered, and labels. You can see which endpoints are affected and how traffic is changing across all of them. The data is full-fidelity rather than sampled, and filters apply across the whole dashboard.&lt;/p&gt; \n&lt;p&gt;Investigating individual requests has also required delivering AWS WAF logs to Amazon CloudWatch Logs, Amazon S3, or Amazon Data Firehose and writing queries. AWS WAF Security analytics dashboard includes a logs widget that lets you search and explore raw request logs in the console, down to the full HTTP request, with no log delivery to configure. When you find unwanted traffic, you can block an IP address or a country directly from the page. You can also filter by the labels that managed rules attach to requests to see what a rule in Count mode would block before you enforce it.&lt;/p&gt; \n&lt;p&gt;The AWS WAF security analytics dashboard is available at no additional cost in all commercial AWS Regions where AWS WAF is available. This feature is not available in the AWS GovCloud (US) Regions and China Regions. To get started, open the AWS WAF console and choose Security analytics in the navigation pane.&amp;nbsp;To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/web-acl-security-analytics.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS WAF Developer Guide&lt;/a&gt;&amp;nbsp;and &lt;a href=\"https://aws.amazon.com/blogs/security/introducing-the-new-aws-waf-security-analytics-dashboard/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;launch blog post&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-waf-security-analytics-dashboard/",
+      "publishedAt": "2026-11-19T18:00:00.000Z",
+      "updatedAt": "2026-11-19T18:00:00.000Z",
+      "categories": [
+        "AWS Waf",
+        "Security And Compliance"
+      ],
+      "services": [
+        "WAF"
+      ],
+      "tags": [
+        "aws waf",
+        "security and compliance",
+        "waf"
+      ],
+      "isNew": true,
+      "securityScore": 75,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "WAF",
+        "security",
+        "logging"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "57e64292fd1254b4",
+      "title": "AWS STS announces GetScopedCredentials to scope down permissions at runtime",
+      "description": "AWS Security Token Service (AWS STS) announces GetScopedCredentials, a new API that lets you scope down the permissions of existing temporary security credentials. With GetScopedCredentials, you can give your agents, sub agents and workloads their own set of credentials with only the permissions they need. You can call GetScopedCredentials with the temporary security credentials you already use to reduce permissions, session duration, or both. The resulting credentials preserve the caller's original identity, and permissions and session duration are monotonically narrowed so they never exceed ",
+      "descriptionHtml": "&lt;p&gt;AWS Security Token Service (AWS STS) announces GetScopedCredentials, a new API that lets you scope down the permissions of existing temporary security credentials. With GetScopedCredentials, you can give your agents, sub agents and workloads their own set of credentials with only the permissions they need.&lt;/p&gt; \n&lt;p&gt;You can call GetScopedCredentials with the temporary security credentials you already use to reduce permissions, session duration, or both. The resulting credentials preserve the caller's original identity, and permissions and session duration are monotonically narrowed so they never exceed those of the caller. Access to the API is controlled with IAM policies, and each call is logged to AWS CloudTrail for traceability. These capabilities make it easier to scope down permissions at runtime without changing how you manage identities.&lt;/p&gt; \n&lt;p&gt;GetScopedCredentials is available in all AWS commercial Regions, AWS GovCloud (US) Regions, AWS European Sovereign Cloud (Germany) Regions and China Regions. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/STS/latest/APIReference/API_GetScopedCredentials.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;GetScopedCredentials API reference&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_getscopedcredentials.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Permissions for GetScopedCredentials&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sts-getscopedcredentials/",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "updatedAt": "2026-11-19T08:00:00.000Z",
+      "categories": [
+        "AWS Security Token Service",
+        "AWS Iam",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "IAM"
+      ],
+      "tags": [
+        "aws security token service",
+        "aws iam",
+        "security identity and compliance",
+        "iam"
+      ],
+      "isNew": true,
+      "securityScore": 75,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "security",
+        "permission",
+        "identity",
+        "token",
+        "credential",
+        "IAM"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "248b4eae7d18a685",
+      "title": "Amazon Cognito now supports dynamic client registration",
+      "description": "Amazon Cognito now supports OAuth dynamic client registration (DCR, RFC 7591). Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes. With DCR support, Model Context Protocol (MCP) clients and AI agents can register themselves at runtime. Previously, you had to create an application client in advance for each AI client before it could connect to an MCP server that uses Cognito for authorization. With DCR, Cognito advertises a registration endpoint in its OAuth authorization server metadata. MCP clients that support dynamic clien",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/cognito/\"&gt;Amazon Cognito&lt;/a&gt; now supports OAuth dynamic client registration (DCR, RFC 7591). Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes. With DCR support, Model Context Protocol (MCP) clients and AI agents can register themselves at runtime. Previously, you had to create an application client in advance for each AI client before it could connect to an MCP server that uses Cognito for authorization.&lt;/p&gt; \n&lt;p&gt;With DCR, Cognito advertises a registration endpoint in its OAuth authorization server metadata. MCP clients that support dynamic client registration discover the endpoint, register to receive a client ID, and then sign users in. You control who can register: either require registration requests to present an access token with a registration scope, or turn on open registration so that any client can register. Dynamically registered clients appear with your other app clients with a client ID prefix and a client type you can filter on, so you can manage them with the same console and APIs.&lt;/p&gt; \n&lt;p&gt;DCR is available on the Essentials and Plus feature plans in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where Amazon Cognito is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-dynamic-client-registration.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Dynamic client registration&lt;/a&gt; in the Amazon Cognito Developer Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-dynamic-client-registration/",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "updatedAt": "2026-11-19T08:00:00.000Z",
+      "categories": [
+        "Amazon Cognito",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "Cognito"
+      ],
+      "tags": [
+        "amazon cognito",
+        "security identity and compliance",
+        "cognito"
+      ],
+      "isNew": true,
+      "securityScore": 75,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Cognito",
+        "authorization",
+        "access"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "1f71442543214bb1",
       "title": "Amazon Cognito now supports point-in-time recovery",
       "description": "Amazon Cognito now supports point-in-time recovery (PITR), so you can restore the user data in a user pool to an earlier time. Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices. Previously, you had to build and maintain your own export and restore process, and restored users received new identifiers and had to reset their passwords. With PITR, you choose a recovery point, preview how many users, groups, multi-factor authentication (MFA) settings, and passkeys the recovery will create, update, or delete, and then start or cancel the rec",
@@ -4299,6 +4631,44 @@
         "identity"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "52dfa5fdb2d5c01c",
+      "title": "Your AWS Security, Identity, and Governance guide to re:Invent 2026",
+      "description": "The AWS Security, Identity, and Governance team invites you to join us at re:Invent in Las Vegas from November 30 to December 4, 2026. You know all too well that AI agents now act on their own across the systems you run, and that changes what identity, detection, network protection, and governance have to cover. […]",
+      "descriptionHtml": "The AWS Security, Identity, and Governance team invites you to join us at re:Invent in Las Vegas from November 30 to December 4, 2026. You know all too well that AI agents now act on their own across the systems you run, and that changes what identity, detection, network protection, and governance have to cover. […]",
+      "url": "https://aws.amazon.com/blogs/security/your-aws-security-identity-and-governance-guide-to-reinvent-2026/",
+      "publishedAt": "2026-11-19T22:31:34.000Z",
+      "updatedAt": "2026-11-19T22:31:34.000Z",
+      "categories": [
+        "Announcements",
+        "AWS Re:Invent",
+        "Events",
+        "Foundational (100)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "announcements",
+        "aws re:invent",
+        "events",
+        "foundational (100)",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 70,
+      "securityLevel": "high",
+      "securityMatches": [
+        "security",
+        "identity"
+      ],
+      "source": "security-blog"
     },
     {
       "id": "b2aa107e57f73150",
@@ -4781,6 +5151,46 @@
         "IAM"
       ],
       "source": "security-blog"
+    },
+    {
+      "id": "eedbd18fa94bc806",
+      "title": "Aurora PostgreSQL with express configuration now supports Amazon VPC",
+      "description": "Aurora PostgreSQL databases created with express configuration can now move into an Amazon Virtual Private Cloud (VPC) with a single API call or a modify action in the Amazon RDS console. This helps you take AI-built prototypes and other applications to production without migrating data, while meeting your security and compliance requirements. You can also create a new database cluster inside a VPC using express configuration. With express configuration, Aurora PostgreSQL lets you create and query a serverless database in seconds. Connectivity runs through an internet access gateway, which mak",
+      "descriptionHtml": "&lt;p&gt;Aurora PostgreSQL databases created with express configuration can now move into an Amazon Virtual Private Cloud (VPC) with a single API call or a modify action in the Amazon RDS console. This helps you take AI-built prototypes and other applications to production without migrating data, while meeting your security and compliance requirements. You can also create a new database cluster inside a VPC using express configuration.&lt;/p&gt; \n&lt;p&gt;With express configuration, Aurora PostgreSQL lets you create and query a serverless database in seconds. Connectivity runs through an internet access gateway, which makes this a good fit for rapid prototyping and AI agent-driven development. When your application is ready for production, a single ModifyDBCluster API call moves the cluster into a VPC and turns off the internet access gateway. That gives you security groups, private subnets, and features such as Aurora Global Database, Amazon RDS Blue/Green Deployments, and Amazon RDS Proxy. The move requires no data migration, keeps your cluster endpoint the same, and interrupts connectivity only briefly. You can also reverse it with the same API call.&lt;/p&gt; \n&lt;p&gt;This feature is available in all &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_GettingStartedAurora.AuroraPostgreSQL.ExpressConfig.html#CHAP_GettingStartedAurora.AuroraPostgreSQL.ExpressConfig.SupportedRegions\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions&lt;/a&gt; where Aurora PostgreSQL with express configuration is available. To get started, use the &lt;a href=\"https://console.aws.amazon.com/rds/home?refid=35100cff-4aaa-46ac-bc1d-71576bef47be\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS console&lt;/a&gt;, AWS CLI, or AWS SDKs. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_GettingStartedAurora.AuroraPostgreSQL.ExpressConfig.html#CHAP_GettingStartedAurora.AuroraPostgreSQL.ExpressConfig.MoveIntoVPC\" target=\"_blank\"&gt;Aurora User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-express-vpc/",
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "updatedAt": "2026-11-19T17:00:00.000Z",
+      "categories": [
+        "Databases",
+        "Amazon Vpc",
+        "Amazon Aurora",
+        "Amazon Rds"
+      ],
+      "services": [
+        "RDS",
+        "Aurora",
+        "VPC"
+      ],
+      "tags": [
+        "databases",
+        "amazon vpc",
+        "amazon aurora",
+        "amazon rds",
+        "rds",
+        "aurora",
+        "vpc"
+      ],
+      "isNew": true,
+      "securityScore": 65,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "VPC",
+        "security",
+        "compliance",
+        "Config",
+        "access"
+      ],
+      "source": "whats-new"
     },
     {
       "id": "03d2530a0e53d443",
@@ -5343,6 +5753,35 @@
         "token",
         "credential",
         "Secret"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "c533956efc4bdc4b",
+      "title": "Amazon Cognito now supports client ID metadata documents",
+      "description": "Amazon Cognito now supports OAuth client ID metadata documents (CIMD). Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes. With CIMD, Model Context Protocol (MCP) clients and AI agents can sign users in to your user pool without registering a separate app client. Previously, each external client needed its own app client, either created in advance or through dynamic client registration, and you had to manage and clean up those clients over time. With CIMD, a client uses an HTTPS URL as its client ID and publishes a JSON metad",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/cognito/\"&gt;Amazon Cognito&lt;/a&gt; now supports OAuth client ID metadata documents (CIMD). Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes. With CIMD, Model Context Protocol (MCP) clients and AI agents can sign users in to your user pool without registering a separate app client. Previously, each external client needed its own app client, either created in advance or through dynamic client registration, and you had to manage and clean up those clients over time.&lt;/p&gt;\n&lt;p&gt;With CIMD, a client uses an HTTPS URL as its client ID and publishes a JSON metadata document at that URL. When the client starts sign-in, Cognito fetches and validates the document and uses it to identify the client and validate its sign-in request. You decide which clients to accept with CIMD policies that map URL patterns to one of your app clients, and Cognito grants only the scopes and grant types that both the app client and the metadata document allow. For example, a company that runs an MCP server can accept an AI assistant by allowing the URL where that assistant publishes its metadata without creating or maintaining an app client for it.&lt;/p&gt;\n&lt;p&gt;CIMD is available on the Essentials and Plus feature plans in all &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt; where Amazon Cognito is available. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-client-id-metadata.html\" target=\"_blank\"&gt;Client ID metadata documents (CIMD)&lt;/a&gt; in the Amazon Cognito Developer Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-client-id-metadata-documents/",
+      "publishedAt": "2026-11-19T21:00:00.000Z",
+      "updatedAt": "2026-11-19T21:00:00.000Z",
+      "categories": [
+        "Amazon Cognito",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "Cognito"
+      ],
+      "tags": [
+        "amazon cognito",
+        "security identity and compliance",
+        "cognito"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Cognito",
+        "access"
       ],
       "source": "whats-new"
     },
@@ -6327,6 +6766,95 @@
       "source": "security-blog"
     },
     {
+      "id": "0d140051579b6a73",
+      "title": "PHP Foundation Security Releases – November 19, 2026",
+      "description": "Bulletin ID: 2026-190-AWS Publication Date: 11/19/2026 10:00 AM PST Description: AWS is aware of security releases that the PHP Foundation published on November 19, 2026. PHP versions 8.2.36, 8.3.37, 8.4.28, and 8.5.13 address 17 issues across the PHP 8.2, 8.3, 8.4, and 8.5 branches. The issues are in the following components: - The PHP engine - PHP-FPM and the PHP CGI binary - The SOAP, Phar, session, DOM, and date extensions - The HTTP and FTP stream wrappers - The PHP 8.5 RFC 3986 URI implementation Patching the affected software remains the only complete fix and should be the first priorit",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-190-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/19/2026 10:00 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS is aware of security releases that the PHP Foundation published on November 19, 2026. PHP versions 8.2.36, 8.3.37, 8.4.28, and 8.5.13 address 17 issues across the PHP 8.2, 8.3, 8.4, and 8.5 branches. The issues are in the following components:&lt;br&gt; - The PHP engine&lt;br&gt; - PHP-FPM and the PHP CGI binary&lt;br&gt; - The SOAP, Phar, session, DOM, and date extensions&lt;br&gt; - The HTTP and FTP stream wrappers&lt;br&gt; - The PHP 8.5 RFC 3986 URI implementation&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Patching the affected software remains the only complete fix and should be the first priority.&lt;/b&gt; We will update this bulletin as more information becomes available.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-190-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-190-aws/",
+      "publishedAt": "2026-11-19T18:30:09.000Z",
+      "updatedAt": "2026-11-19T18:30:09.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 55,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "security",
+        "patch"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "2f397494363d2098",
+      "title": "AWS Site-to-Site VPN now supports post-quantum key exchanges",
+      "description": "AWS Site-to-Site VPN now supports post-quantum key exchanges to help improve the security posture of your VPN tunnels. This feature supports your migration to post-quantum cryptography based on NIST guidelines. AWS Site-to-Site VPN is a fully managed service that creates an encrypted connection between your data center or branch office and your AWS resources using IPsec tunnels. With AWS Site-to-Site VPN, you can now configure post-quantum key exchange methods in your VPN tunnel options using the CreateVpnConnection and ModifyVpnTunnelOptions APIs. There is no additional charge for using post-",
+      "descriptionHtml": "&lt;p&gt;AWS Site-to-Site VPN now supports post-quantum key exchanges to help improve the security posture of your VPN tunnels. This feature supports your migration to post-quantum cryptography based on NIST guidelines.&lt;br&gt; &lt;br&gt; AWS Site-to-Site VPN is a fully managed service that creates an encrypted connection between your data center or branch office and your AWS resources using IPsec tunnels. With AWS Site-to-Site VPN, you can now configure post-quantum key exchange methods in your VPN tunnel options using the CreateVpnConnection and ModifyVpnTunnelOptions APIs.&lt;br&gt; &lt;br&gt; There is no additional charge for using post-quantum key exchanges. This capability is available in all AWS commercial Regions and AWS GovCloud (US) Regions where AWS Site-to-Site VPN is available. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/vpn/latest/s2svpn/data-protection.html\" target=\"_blank\"&gt;AWS Site-to-Site VPN documentation&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/site-to-site-vpn-post-quantum/",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "updatedAt": "2026-11-19T08:00:00.000Z",
+      "categories": [
+        "AWS Vpn",
+        "Networking And Content Delivery",
+        "Security And Compliance",
+        "Security Identity And Compliance"
+      ],
+      "services": [],
+      "tags": [
+        "aws vpn",
+        "networking and content delivery",
+        "security and compliance",
+        "security identity and compliance"
+      ],
+      "isNew": true,
+      "securityScore": 55,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "encrypt",
+        "security",
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "edc37f8867949683",
+      "title": "Amazon Bedrock AgentCore Identity adds private certificate authority support",
+      "description": "Amazon Bedrock AgentCore Identity now supports private certificate authorities (CAs) for custom OAuth 2.0 credential providers. If you already connect your agents to identity providers (IdPs) hosted in your VPC, you can now configure those connections to trust certificates issued by your own CA — including AWS Private CA, enterprise CAs, and self-signed root CAs. AgentCore Identity has supported private IdP connectivity through Amazon VPC Lattice, but until now the IdP still had to present a publicly trusted TLS certificate over that private connection. With private CA support, you store your ",
+      "descriptionHtml": "&lt;p&gt;Amazon Bedrock AgentCore Identity now supports private certificate authorities (CAs) for custom OAuth 2.0 credential providers. If you already connect your agents to identity providers (IdPs) hosted in your VPC, you can now configure those connections to trust certificates issued by your own CA — including AWS Private CA, enterprise CAs, and self-signed root CAs.&lt;/p&gt;\n&lt;p&gt;AgentCore Identity has supported private IdP connectivity through Amazon VPC Lattice, but until now the IdP still had to present a publicly trusted TLS certificate over that private connection. With private CA support, you store your CA certificate in AWS Secrets Manager or Amazon S3 and reference it from your credential provider configuration. AgentCore Identity uses it to verify the IdP's server certificate directly, removing the need for a publicly trusted certificate or additional infrastructure on the private network path.&lt;/p&gt;\n&lt;p&gt;You can rotate the CA certificate without downtime by combining the current and new certificates in a single PEM file, and remove private CA trust by updating the credential provider without the certificate reference.&lt;/p&gt;\n&lt;p&gt;Private CA support for AgentCore Identity is available in all AWS Regions where AgentCore Identity supports private IdP connectivity. To get started, see &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/identity-private-idp.html\" target=\"_blank\"&gt;Connect to private identity providers&lt;/a&gt; in the Amazon Bedrock AgentCore Developer Guide. To learn more, visit the &lt;a href=\"https://aws.amazon.com/bedrock/agentcore/\"&gt;Amazon Bedrock AgentCore product page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-identity-private-ca/",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "updatedAt": "2026-11-19T08:00:00.000Z",
+      "categories": [
+        "AWS Private Certificate Authority",
+        "AWS Secrets Manager",
+        "Amazon Bedrock",
+        "Amazon S3"
+      ],
+      "services": [
+        "S3",
+        "Bedrock"
+      ],
+      "tags": [
+        "aws private certificate authority",
+        "aws secrets manager",
+        "amazon bedrock",
+        "amazon s3",
+        "s3",
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 55,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "TLS",
+        "VPC",
+        "Config",
+        "identity",
+        "credential"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "31178f6870da4afd",
       "title": "AWS Secrets Manager adds managed external secrets support for Auth0, Okta, and Palo Alto Networks",
       "description": "AWS Secrets Manager now supports managed external secrets for Auth0, Okta, and Palo Alto Networks. Long-lived credentials that are not rotated increase the risk of unauthorized access if exposed. Rotating a third-party credential requires coordinated updates to the external service and every application that uses it. You set a rotation schedule from the AWS Management Console or API. Secrets Manager rotates the credential and stores the current value without a custom rotation Lambda function. Secrets Manager offers self-rotation and administrator-assisted rotation for Auth0 credentials. With s",
@@ -7109,6 +7637,25 @@
       "source": "security-blog"
     },
     {
+      "id": "8394b8a78c4f9e3f",
+      "title": "Issue with nginx HTTP/2 Implementation",
+      "description": "Bulletin ID: 2026-192-AWS Publication Date: 11/19/2026 15:00 PM PST Description: AWS is aware of the nginx issues published on November 18, 2026 (CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-113425, CVE-2026-121810 and CVE-2026-118899). These issues have been addressed in nginx version 1.30.7 (stable) and 1.31.9 (mainline). We recommend upgrading to the latest version. We are actively deploying mitigations worldwide to address these issues. Because these issues can be leveraged at the HTTP/2 protocol layer before a complete HTTP request is formed, AWS WAF managed and custom rule",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-192-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/19/2026 15:00 PM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS is aware of the nginx issues published on November 18, 2026 (CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-113425, CVE-2026-121810 and CVE-2026-118899). These issues have been addressed in nginx version 1.30.7 (stable) and 1.31.9 (mainline). We recommend upgrading to the latest version. We are actively deploying mitigations worldwide to address these issues.&lt;/p&gt; \n&lt;p&gt;Because these issues can be leveraged at the HTTP/2 protocol layer before a complete HTTP request is formed, AWS WAF managed and custom rules cannot effectively detect or block them.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-192-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-192-aws/",
+      "publishedAt": "2026-11-19T22:48:05.000Z",
+      "updatedAt": "2026-11-19T22:48:05.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "WAF"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "9469819a7a00d749",
       "title": "AWS Control Tower now supports existing Amazon S3 bucket for log delivery",
       "description": "AWS Control Tower now lets you use an existing Amazon S3 bucket in your landing zone to store AWS Config and AWS CloudTrail logs. Previously, AWS Control Tower required you to use the Amazon S3 bucket it creates and manages for log storage. Now, customers who want full control of bucket policies, lifecycle rules, and logging infrastructure can consolidate centralized logs in an Amazon S3 bucket they already manage. You can use your own Amazon S3 bucket for both AWS Config and AWS CloudTrail, giving you full control of bucket policies, lifecycle rules, and logging infrastructure. You can switch",
@@ -7756,6 +8303,69 @@
         "permission",
         "access",
         "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "48b90088a176bb2b",
+      "title": "Amazon Aurora now supports moving clusters to a different VPC",
+      "description": "Aurora PostgreSQL and Aurora MySQL clusters can now move from one Amazon Virtual Private Cloud (VPC) to another without data migration. You can move a cluster with a single API call or a modify action in the Amazon RDS console. This lets you move a cluster to a VPC with more IP address space or a non-overlapping CIDR range, consolidate your network architecture, or meet changing security and compliance requirements. Previously, moving an Aurora cluster to a different VPC meant creating a new cluster in the target VPC, migrating your data, and updating your applications with new connection stri",
+      "descriptionHtml": "&lt;p&gt;Aurora PostgreSQL and Aurora MySQL clusters can now move from one Amazon Virtual Private Cloud (VPC) to another without data migration. You can move a cluster with a single API call or a modify action in the Amazon RDS console. This lets you move a cluster to a VPC with more IP address space or a non-overlapping CIDR range, consolidate your network architecture, or meet changing security and compliance requirements.&lt;/p&gt; \n&lt;p&gt;Previously, moving an Aurora cluster to a different VPC meant creating a new cluster in the target VPC, migrating your data, and updating your applications with new connection strings. Now, a single ModifyDBCluster API call moves your existing cluster to the new VPC. Your data stays in place, your cluster endpoint stays the same, and connectivity is interrupted only briefly during the move. Before you start, turn off features that are tied to the cluster's current VPC, such as Aurora Global Database, Amazon RDS Proxy, and Amazon RDS Blue/Green Deployments. You can set them up again in the new VPC after the move.&lt;/p&gt; \n&lt;p&gt;This feature is available for Aurora PostgreSQL and Aurora MySQL in all &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_GettingStartedAurora.AuroraPostgreSQL.ExpressConfig.html#CHAP_GettingStartedAurora.AuroraPostgreSQL.ExpressConfig.SupportedRegions\" target=\"_blank\"&gt;AWS Regions&lt;/a&gt; where Aurora PostgreSQL with express configuration is available. To get started, use the &lt;a href=\"https://console.aws.amazon.com/rds/home\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS console&lt;/a&gt;, AWS CLI, or AWS SDKs. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html#USER_VPC.WorkingWithRDSInstanceinaVPC.UpdatingVPC\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Aurora User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-move-clusters-to-different-vpc/",
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "updatedAt": "2026-11-19T17:00:00.000Z",
+      "categories": [
+        "Amazon Aurora",
+        "Databases",
+        "Amazon Vpc",
+        "Networking"
+      ],
+      "services": [
+        "Aurora",
+        "VPC"
+      ],
+      "tags": [
+        "amazon aurora",
+        "databases",
+        "amazon vpc",
+        "networking",
+        "aurora",
+        "vpc"
+      ],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "high",
+      "securityMatches": [
+        "VPC",
+        "security",
+        "compliance"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "e68846ff34e3e0d8",
+      "title": "AWS Network Load Balancer now supports mutual TLS authentication",
+      "description": "AWS Network Load Balancer (NLB) now supports mutual TLS (mTLS) authentication for clients that present X.509 certificates. Until now, customers who needed mTLS with NLB built their own solutions or ran third-party proxies to authenticate clients. With this launch, NLB verifies client certificates on its TLS listeners, so only trusted clients can reach your targets. You can offload the compute-intensive processing required for mTLS authentication to NLB, without adding certificate logic to your backend applications. Mutual TLS is commonly used to secure communication between IoT devices, APIs, ",
+      "descriptionHtml": "&lt;p&gt;AWS Network Load Balancer (NLB) now supports mutual TLS (mTLS) authentication for clients that present X.509 certificates. Until now, customers who needed mTLS with NLB built their own solutions or ran third-party proxies to authenticate clients. With this launch, NLB verifies client certificates on its TLS listeners, so only trusted clients can reach your targets. You can offload the compute-intensive processing required for mTLS authentication to NLB, without adding certificate logic to your backend applications.&lt;/p&gt; \n&lt;p&gt;Mutual TLS is commonly used to secure communication between IoT devices, APIs, and microservices, and in regulated environments where both sides must prove their identity. To use mTLS, create a trust store with a certificate authority (CA) certificate bundle from a CA of your choice or AWS Private Certificate Authority, and attach it to a new or existing NLB TLS listener. To block certificates you no longer trust, add one or more certificate revocation lists (CRLs) to the trust store. To admit only specific clients, add client certificate filters that match the Common Name, Organizational Unit, or the DNS name or URI in the Subject Alternative Name, such as a SPIFFE ID. You can set up mTLS with the AWS Management Console, AWS Command Line Interface (AWS CLI), or APIs.&lt;/p&gt; \n&lt;p&gt;Mutual TLS for NLB is available in all AWS commercial and AWS GovCloud (US) Regions where NLB is available. To learn more, visit the &lt;a href=\"https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-mtls-for-network-load-balancer/\"&gt;AWS Blog&lt;/a&gt; and the NLB &lt;a href=\"https://docs.aws.amazon.com/elasticloadbalancing/latest/network/mutual-authentication.html\"&gt;User Guide.&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-load-balancer-mtls/",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "updatedAt": "2026-11-19T08:00:00.000Z",
+      "categories": [
+        "Amazon Elastic Load Balancing",
+        "Networking And Content Delivery"
+      ],
+      "services": [],
+      "tags": [
+        "amazon elastic load balancing",
+        "networking and content delivery"
+      ],
+      "isNew": true,
+      "securityScore": 45,
+      "securityLevel": "high",
+      "securityMatches": [
+        "TLS",
+        "mTLS",
+        "authentication"
       ],
       "source": "whats-new"
     },
@@ -9180,6 +9790,135 @@
       "source": "security-blog"
     },
     {
+      "id": "5ff299555893af36",
+      "title": "CVE-2026-132825 and related issues – Ruby regular expression engine and string case conversion",
+      "description": "Bulletin ID: 2026-193-AWS Publication Date: 11/19/2026 15:05 PM PST Description: On November 18, 2026, the Ruby maintainers published fixes for seven issues in CRuby's regular expression engine and string case conversion, including CVE-2026-132825. These issues affect Ruby versions before 4.0.10, 3.4.13, and 3.3.14 and could allow remote code execution in some configurations. These issues are memory-safety issues in Ruby's regular expression engine and in string case conversion on certain non-UTF-8 encodings. When an application processes third party-controlled input through these code paths, ",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-193-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/19/2026 15:05 PM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;On November 18, 2026, the Ruby maintainers published fixes for seven issues in CRuby's regular expression engine and string case conversion, including CVE-2026-132825. These issues affect Ruby versions before 4.0.10, 3.4.13, and 3.3.14 and could allow remote code execution in some configurations.&lt;/p&gt; \n&lt;p&gt;These issues are memory-safety issues in Ruby's regular expression engine and in string case conversion on certain non-UTF-8 encodings. When an application processes third party-controlled input through these code paths, a remote, unauthenticated actor might be able to crash the process, read memory, or run arbitrary code. Applications built on Rack, including Rails and Sinatra, might be reachable through default request handling.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-193-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-193-aws/",
+      "publishedAt": "2026-11-19T23:06:34.000Z",
+      "updatedAt": "2026-11-19T23:06:34.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Config"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "dbdfd815c05fff4c",
+      "title": "Amazon WorkSpaces Applications now supports WebAuthn redirection",
+      "description": "Amazon WorkSpaces Applications now supports WebAuthn redirection, so users can sign in to websites and applications in their streaming session with a FIDO2 authenticator on their local device, such as a security key, Windows Hello, or Touch ID. Previously, an authenticator attached to the user's computer was not available inside the streaming session, so organizations that require phishing-resistant multi-factor authentication (MFA) had to use weaker sign-in methods or keep those applications off WorkSpaces Applications. This helps organizations with FIDO2 requirements stream those application",
+      "descriptionHtml": "&lt;p&gt;Amazon WorkSpaces Applications now supports WebAuthn redirection, so users can sign in to websites and applications in their streaming session with a FIDO2 authenticator on their local device, such as a security key, Windows Hello, or Touch ID. Previously, an authenticator attached to the user's computer was not available inside the streaming session, so organizations that require phishing-resistant multi-factor authentication (MFA) had to use weaker sign-in methods or keep those applications off WorkSpaces Applications. This helps organizations with FIDO2 requirements stream those applications.&lt;/p&gt; \n&lt;p&gt;When an application in the session makes a WebAuthn request, WorkSpaces Applications forwards it to the user's device, where the authenticator signs it and returns the response. Private keys never leave the user's device. Administrators turn it on per stack in the console or API, and on Windows fleets can limit it to an allow list of processes. For example, a bank can let employees sign in to Microsoft 365 in their streaming session with the same security key they use on their laptop.&lt;/p&gt; \n&lt;p&gt;WebAuthn redirection is available at no additional charge in all AWS commercial Regions and AWS GovCloud (US) Regions where WorkSpaces Applications is available.&lt;/p&gt; \n&lt;p&gt;To get started, select Enable WebAuthn redirection under User Settings for your stack, use an image with the WorkSpaces Applications agent released on or after October 20, 2026, and connect with the WorkSpaces Applications client for Windows (1.5.0 or later) or macOS (1.6.0 or later). To learn more, see &lt;a href=\"https://docs.aws.amazon.com/appstream2/latest/developerguide/feature-support-webauthn-redirection.html\" target=\"_blank\"&gt;WebAuthn redirection&lt;/a&gt; in the Amazon WorkSpaces Applications Administration Guide, or visit the &lt;a href=\"https://aws.amazon.com/workspaces/applications/\" target=\"_blank\"&gt;Amazon WorkSpaces Applications&lt;/a&gt; product page.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-webauthn-redirection/",
+      "publishedAt": "2026-11-19T19:57:00.000Z",
+      "updatedAt": "2026-11-19T19:57:00.000Z",
+      "categories": [],
+      "services": [
+        "WorkSpaces"
+      ],
+      "tags": [
+        "workspaces"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "authentication",
+        "security",
+        "Organizations"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "3526240e705dd126",
+      "title": "AWS Revenue Measurement now supports Identity Tagging",
+      "description": "AWS Revenue Measurement (previously Partner Revenue Measurement) provides measurement of AWS consumption driven by Partner solutions. Today, AWS announces Identity Tagging in AWS Revenue Measurement, a new way for Partners to get attributed revenue visibility for the AWS usage their solutions drive. Partners can now tag the IAM user or role their solution uses instead of tagging individual resources or decorating individual SDK/API calls. This makes attribution simpler and needs no code changes. Until now, Partners using Resource Tagging had to apply tags to each resource their solution create",
+      "descriptionHtml": "&lt;p&gt;AWS Revenue Measurement (previously Partner Revenue Measurement) provides measurement of AWS consumption driven by Partner solutions. Today, AWS announces Identity Tagging in AWS Revenue Measurement, a new way for Partners to get attributed revenue visibility for the AWS usage their solutions drive. Partners can now tag the IAM user or role their solution uses instead of tagging individual resources or decorating individual SDK/API calls. This makes attribution simpler and needs no code changes.&lt;/p&gt; \n&lt;p&gt;Until now, Partners using Resource Tagging had to apply tags to each resource their solution created or managed. That could be hard to keep consistent across customer environments. With Identity Tagging, Partners apply a tag to the IAM role or user their solution uses in the AWS account. AWS Revenue Measurement then attributes usage from resources created by that identity to the Partner's product. Identity Tagging works alongside existing methods such as Resource Tagging, User Agent string, and SaaS Account Tagging, so Partners can pick the method that best fits their architecture.&lt;/p&gt; \n&lt;p&gt;AWS Revenue Measurement is generally available in all commercial regions. To learn more, review the AWS Revenue Measurement &lt;a href=\"https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/what-is-service.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;onboarding guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/revenue-measurement-identity-tagging/",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "updatedAt": "2026-11-19T08:00:00.000Z",
+      "categories": [
+        "AWS Marketplace"
+      ],
+      "services": [],
+      "tags": [
+        "aws marketplace"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "IAM",
+        "role",
+        "identity"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "7b024b425ec75bac",
+      "title": "AWS Continuum for Penetration Testing now supports pause and resume",
+      "description": "AWS Continuum for Penetration Testing (formerly AWS Security Agent) now lets you pause a running penetration test job and resume it later from its last saved checkpoint. Continuum for Penetration Testing runs on-demand, AI-driven penetration tests against your web applications and APIs. Previously, a pen test job that failed due to client configuration error could not continue, so security teams had to start a new pen test job and repeat work the agent had already done. When you resume a paused or failed pen test job, it keeps its findings and completed work and continues where it left off. Yo",
+      "descriptionHtml": "&lt;p&gt;AWS Continuum for Penetration Testing (formerly AWS Security Agent) now lets you pause a running penetration test job and resume it later from its last saved checkpoint. Continuum for Penetration Testing runs on-demand, AI-driven penetration tests against your web applications and APIs. Previously, a pen test job that failed due to client configuration error could not continue, so security teams had to start a new pen test job and repeat work the agent had already done.&lt;/p&gt;\n&lt;p&gt;When you resume a paused or failed pen test job, it keeps its findings and completed work and continues where it left off. You can pause a pen test job during a deployment or maintenance window, raise the task-hour limit of a pen test job that has reached it, or replace test credentials that expired mid-test. Before you resume, you can also update the network traffic settings or VPC configuration, while the pen test job's scope, including its target endpoints, stays the same.&lt;/p&gt;\n&lt;p&gt;You can pause and resume pen test jobs in the web application or with the StopPentestJob and ResumePentestJob APIs. You can resume a pen test job within 7 days of its creation. Pause and resume is available in all AWS Regions where AWS Continuum for Penetration Testing is available. To learn more, visit our &lt;a href=\"https://docs.aws.amazon.com/securityagent/latest/userguide/pause-resume-penetration-test.html\" target=\"_blank\"&gt;documentation page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/continuum-pentest-pause-resume/",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "updatedAt": "2026-11-19T08:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance"
+      ],
+      "services": [],
+      "tags": [
+        "security identity and compliance"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "security",
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "b10ad968e33e6596",
+      "title": "Amazon VPC Flow Logs now supports Amazon EKS metadata",
+      "description": "Amazon VPC Flow Logs now adds Amazon Elastic Kubernetes Service (Amazon EKS) metadata to flow log records. Each record identifies the pod that sent or received the traffic, along with its cluster, namespace and labels. This makes it faster to investigate security events, understand traffic patterns, and troubleshoot network issues in your EKS clusters, without running monitoring software on your nodes. Amazon EKS runs pods on Amazon EC2 instances, called nodes, and many pods can share one node's network interfaces. Previously, flow log records showed the network interface and IP address for ea",
+      "descriptionHtml": "&lt;p&gt;Amazon VPC Flow Logs now adds Amazon Elastic Kubernetes Service (Amazon EKS) metadata to flow log records. Each record identifies the pod that sent or received the traffic, along with its cluster, namespace and labels. This makes it faster to investigate security events, understand traffic patterns, and troubleshoot network issues in your EKS clusters, without running monitoring software on your nodes.&lt;/p&gt;\n&lt;p&gt;Amazon EKS runs pods on Amazon EC2 instances, called nodes, and many pods can share one node's network interfaces. Previously, flow log records showed the network interface and IP address for each flow, not the pod behind it. Pods are short-lived, so by the time you investigated unexpected traffic, that IP address could belong to a different pod. To trace traffic back to the right pod, teams built custom tools or ran monitoring software on every node. Now, each record names the pod that sent or received the traffic, so one log gives you both VPC and Kubernetes context. For example, if a pod sends unexpected traffic to a database in your VPC, the record shows the pod and its namespace, even after that pod is replaced.&lt;/p&gt;\n&lt;p&gt;To get started, create a flow log for your cluster's VPC or subnets, and add the EKS fields to the log format. You don't need to change your cluster or applications. The fields are available for pods on Amazon EC2 instances, including EKS Auto Mode, managed node groups and self-managed nodes, that use the Amazon VPC CNI plugin for Kubernetes. Logs go to the same destinations as before, so your existing analytics tools keep working. EKS metadata is available at no additional charge. Standard VPC Flow Logs charges for log delivery and storage still apply. This feature is supported in all AWS Regions where Amazon EKS is available. For more information, visit the &lt;a href=\"https://docs.aws.amazon.com/vpc/latest/userguide/flow-log-records.html\" target=\"_blank\"&gt;Amazon VPC Flow Logs&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-vpc-flow-logs-amazon-eks-metadata/",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "updatedAt": "2026-11-19T08:00:00.000Z",
+      "categories": [
+        "Networking And Content Delivery",
+        "Amazon Eks",
+        "Amazon Vpc",
+        "Containers"
+      ],
+      "services": [
+        "EKS",
+        "VPC"
+      ],
+      "tags": [
+        "networking and content delivery",
+        "amazon eks",
+        "amazon vpc",
+        "containers",
+        "eks",
+        "vpc"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "VPC",
+        "security",
+        "monitoring"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "2f1fcdbad2595d28",
       "title": "Amazon S3 Replication adds exclusions and Multi-Region key resolution",
       "description": "You can now replicate data in Amazon S3 buckets with fewer replication rules using two new S3 Replication capabilities, exclusions and Multi-Region key resolution. Buckets that many tenants or applications share often need many rules to skip certain data or to match encryption keys in each AWS Region. With these capabilities, customers who manage multi-tenant and shared buckets can replace many replication rules with a single rule. With exclusions, you can replicate an entire bucket while skipping specific prefixes or tagged objects, such as logs or experimental data. With Multi-Region key res",
@@ -9346,7 +10085,7 @@
       "tags": [
         "aurora"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -9369,7 +10108,7 @@
       "tags": [
         "emr"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -13510,6 +14249,35 @@
       "source": "whats-new"
     },
     {
+      "id": "6ff8205dc6f593f9",
+      "title": "Amazon CloudFront simplifies domain moves and onboarding for SaaS Manager",
+      "description": "Amazon CloudFront now lets web development platforms and SaaS providers move a customer's domain to their platform in a single request with no downtime, and serve requests to the domain while the TLS certificate is being configured. The CloudFront multi-tenant distributions allow these platforms to serve many customer domains from one shared configuration. Together, these features help move existing AWS customers to multi-tenant distributions without impacting their traffic. Previously, moving a domain that was already in use required disabling the original distribution, using a wildcard worka",
+      "descriptionHtml": "&lt;p&gt;Amazon CloudFront now lets web development platforms and SaaS providers move a customer's domain to their platform in a single request with no downtime, and serve requests to the domain while the TLS certificate is being configured. The CloudFront multi-tenant distributions allow these platforms to serve many customer domains from one shared configuration. Together, these features help move existing AWS customers to multi-tenant distributions without impacting their traffic.&lt;/p&gt; \n&lt;p&gt;Previously, moving a domain that was already in use required disabling the original distribution, using a wildcard workaround, or contacting AWS Support. Now you can bring customer domains onto your multi-tenant setup as part of creating or updating a tenant. With the new OnDomainTakeover option, CloudFront checks domain ownership through DNS records and then moves one or more domains in a single request. This works within an AWS account or across accounts. If you add a domain before its certificate is issued, CloudFront serves it over HTTP until you attach a certificate. That gives you time to validate the domain with AWS Certificate Manager (ACM) or another certificate authority and attach the certificate once it's issued.&lt;/p&gt; \n&lt;p&gt;These features are available in all edge locations at no additional cost. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/alternate-domain-names-move-options.html\"&gt;Move domains&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/tenant-domains-without-certificate.html\"&gt;Domains without a certificate&lt;/a&gt; in the Amazon CloudFront Developer Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-domain-moves-distribution-tenants",
+      "publishedAt": "2026-11-19T20:22:00.000Z",
+      "updatedAt": "2026-11-19T20:22:00.000Z",
+      "categories": [
+        "Amazon Cloudfront",
+        "Networking And Content Delivery"
+      ],
+      "services": [
+        "CloudFront"
+      ],
+      "tags": [
+        "amazon cloudfront",
+        "networking and content delivery",
+        "cloudfront"
+      ],
+      "isNew": true,
+      "securityScore": 25,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "TLS",
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "ffc43a874a8ba8cf",
       "title": "Amazon CloudFront standard logging now supports CMCD and additional log fields",
       "description": "Amazon CloudFront standard logging now supports additional access log fields that were previously available only in CloudFront real-time logs. You can now include these fields in your standard logs and deliver them to Amazon S3, Amazon CloudWatch Logs, or Amazon Data Firehose, without setting up an additional data stream for real-time logs. The new fields include the IP address of the CloudFront server that handled the request, identifiers that separate traffic on a primary distribution from traffic on a staging distribution, and a media quality confidence score. They also include Common Media",
@@ -13569,6 +14337,34 @@
       "securityMatches": [
         "VPC",
         "monitoring"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "b4733c935f003425",
+      "title": "AWS HealthOmics now supports Nextflow version 26.10",
+      "description": "AWS HealthOmics now supports Nextflow version 26.10, which adds enhancements such as static typing, pipeline composition, and configurable report directories. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. In Nextflow 26.10, static typing lets workflow developers declare types for parameters, inputs, and outputs, and the nextflow lint command reports type errors before any task is submitted. Pipeline composition lets developers include a statically typed pipe",
+      "descriptionHtml": "&lt;p&gt;AWS HealthOmics now supports Nextflow version 26.10, which adds enhancements such as static typing, pipeline composition, and configurable report directories. &lt;a href=\"https://aws.amazon.com/healthomics/\"&gt;AWS HealthOmics&lt;/a&gt; is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows.&lt;/p&gt; \n&lt;p&gt;In Nextflow 26.10, static typing lets workflow developers declare types for parameters, inputs, and outputs, and the nextflow lint command reports type errors before any task is submitted.&amp;nbsp;Pipeline composition lets developers include a statically typed pipeline from their workflow package and call it like a sub-workflow, so validated pipelines can be reused as building blocks. For example, you can include an alignment pipeline and a variant-calling pipeline in one workflow, and each sample moves to variant calling as soon as alignment finishes. Collection parameters can now be loaded directly from CSV, JSON, or YAML sample sheets into record types. Execution reports, timelines, and traces can be written to a directory inside the workflow output, and HealthOmics exports them with the run outputs.&lt;/p&gt; \n&lt;p&gt;You can use Nextflow 26.10 in the following AWS Regions: US East (N. Virginia, Ohio), US West (Oregon), Europe (Frankfurt, Ireland, London), Israel (Tel Aviv), and Asia Pacific (Singapore, Seoul, Tokyo). To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/omics/latest/dev/nextflow-version-release-notes.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Nextflow version release notes&lt;/a&gt; documentation.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-healthomics-nextflow-version-26-10/",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "updatedAt": "2026-11-18T08:00:00.000Z",
+      "categories": [
+        "Amazon Omics",
+        "Analytics",
+        "Life Sciences"
+      ],
+      "services": [],
+      "tags": [
+        "amazon omics",
+        "analytics",
+        "life sciences"
+      ],
+      "isNew": true,
+      "securityScore": 25,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "HIPAA",
+        "Config"
       ],
       "source": "whats-new"
     },
@@ -13675,771 +14471,6 @@
       "securityMatches": [
         "security",
         "patch"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "d595528fc5aea5dc",
-      "title": "AWS Cloud WAN now supports Flow Logs",
-      "description": "AWS Cloud WAN now supports VPC Flow Logs, giving you central visibility into IP traffic across your global network. Flow Logs capture detailed information for each flow, so you can understand how traffic moves across your core network without leaving your AWS Cloud WAN account. Until now, network administrators had to stitch together VPC Flow Logs from many VPCs, accounts, and Regions to see traffic across their global network. They often depended on other teams for access to those logs. Cloud WAN Flow Logs give core network owners one consolidated view of traffic between VPCs, Regions, and on",
-      "descriptionHtml": "&lt;p&gt;AWS Cloud WAN now supports VPC Flow Logs, giving you central visibility into IP traffic across your global network. Flow Logs capture detailed information for each flow, so you can understand how traffic moves across your core network without leaving your AWS Cloud WAN account.&lt;/p&gt; \n&lt;p&gt;Until now, network administrators had to stitch together VPC Flow Logs from many VPCs, accounts, and Regions to see traffic across their global network. They often depended on other teams for access to those logs. Cloud WAN Flow Logs give core network owners one consolidated view of traffic between VPCs, Regions, and on-premises networks connected over AWS Direct Connect, AWS Site-to-Site VPN, or SD-WAN. You can use this data to troubleshoot connectivity and performance problems, plan capacity from historical bandwidth trends, find unusual traffic patterns, and keep records for security and compliance. Flow log records include IP addresses, ports, protocol, traffic volume, and packet-loss counters, along with Cloud WAN metadata such as segment, Region, service insertion hops and attachment details. You can turn on Flow Logs for an entire core network, a single core network edge, or individual attachments. You can publish them to Amazon CloudWatch Logs, Amazon Simple Storage Service (Amazon S3), or Amazon Data Firehose. Cloud WAN adds no charge for Flow Logs. Standard charges apply for each destination.&lt;/p&gt; \n&lt;p&gt;Cloud WAN Flow Logs are available in all AWS Regions where AWS Cloud WAN is available. You can get started with the AWS Management Console, AWS CLI, or API. To learn more, see AWS Cloud WAN Flow Logs&amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/network-manager/latest/cloudwan/cwan-flow-logs\"&gt;user guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cloud-wan-flow-logs/",
-      "publishedAt": "2026-11-11T20:05:00.000Z",
-      "updatedAt": "2026-11-11T20:05:00.000Z",
-      "categories": [
-        "Networking And Content Delivery",
-        "AWS Cloud Wan",
-        "Amazon Vpc"
-      ],
-      "services": [
-        "VPC"
-      ],
-      "tags": [
-        "networking and content delivery",
-        "aws cloud wan",
-        "amazon vpc",
-        "vpc"
-      ],
-      "isNew": true,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "VPC",
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "51c15194998b444e",
-      "title": "Amazon RDS for MySQL 26.10 is now available in Amazon RDS Database Preview Environment",
-      "description": "Starting today, Amazon RDS for MySQL 26.10 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of MySQL 26.10 on Amazon RDS for MySQL. MySQL 26.10 includes bug fixes, security patches, and some improvements to READ COMMITTED workload performance and purge lag warnings in the error log. On busy READ COMMITTED workloads, NUMA systems performance could be impacted as each read view that closed required a global mutex. Read-view objects can now be reused which eliminates the global mutex on closure. The error log now reports warnings when the hist",
-      "descriptionHtml": "&lt;p&gt;Starting today, &lt;a href=\"https://aws.amazon.com/rds/mysql/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for MySQL&lt;/a&gt; 26.10 is available in the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/create-db-instance-in-preview-environment.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS Database Preview Environment&lt;/a&gt;, allowing you to evaluate the pre-release of MySQL 26.10 on Amazon RDS for MySQL.&lt;/p&gt; \n&lt;p&gt;MySQL 26.10 includes bug fixes, security patches, and some improvements to READ COMMITTED workload performance and purge lag warnings in the error log. On busy READ COMMITTED workloads, NUMA systems performance could be impacted as each read view that closed required a global mutex. Read-view objects can now be reused which eliminates the global mutex on closure. The error log now reports warnings when the history-list length (HLL) crosses innodb_max_purge_lag and when purge lag begins delaying DML, so you can detect purge backlogs before they affect performance. To learn more, please refer to the &lt;a href=\"https://dev.mysql.com/doc/refman/26.10/en/mysql-nutshell.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;MySQL 26.10 release notes&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Amazon RDS Database Preview Environment database instances are retained for a maximum period of 60 days and are automatically deleted after the retention period. Amazon RDS database snapshots that are created in the Preview Environment can only be used to create or restore database instances within the Preview Environment. Amazon RDS Database Preview Environment database instances are priced as per the &lt;a href=\"https://aws.amazon.com/rds/mysql/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;pricing&lt;/a&gt; in the US East (Ohio) Region.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-mysql-26-10-preview-environment/",
-      "publishedAt": "2026-11-10T17:00:00.000Z",
-      "updatedAt": "2026-11-10T17:00:00.000Z",
-      "categories": [
-        "Amazon Rds",
-        "Databases"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "amazon rds",
-        "databases",
-        "rds"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "patch"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "8cf6295a2f8c37b7",
-      "title": "Amazon S3 Access Grants now support listing grants across multiple AWS accounts",
-      "description": "Amazon S3 Access Grants can now discover and list all your grants across multiple AWS accounts with a single API call, eliminating the need to query each account separately. A single ListCallerAccessGrants call returns grants from your own S3 Access Grants instance and every instance shared with you, giving you a complete view of the S3 data you can access. By setting the new InstanceScope parameter to ALL in your ListCallerAccessGrants request, S3 Access Grants queries every instance shared with you through AWS Resource Access Manager (AWS RAM) and returns all the grants in one combined respo",
-      "descriptionHtml": "&lt;p&gt;Amazon S3 Access Grants can now discover and list all your grants across multiple AWS accounts with a single API call, eliminating the need to query each account separately. A single &lt;i&gt;ListCallerAccessGrants&lt;/i&gt; call returns grants from your own S3 Access Grants instance and every instance shared with you, giving you a complete view of the S3 data you can access.&lt;/p&gt; \n&lt;p&gt;By setting the new &lt;i&gt;InstanceScope&lt;/i&gt; parameter to &lt;i&gt;ALL&lt;/i&gt; in your &lt;i&gt;ListCallerAccessGrants&lt;/i&gt; request, S3 Access Grants queries every instance shared with you through AWS Resource Access Manager (AWS RAM) and returns all the grants in one combined response, each identifying the account that owns it. Additionally, when you request credentials with &lt;i&gt;GetDataAccess&lt;/i&gt; for an S3 path and set &lt;i&gt;InstanceScope&lt;/i&gt; to &lt;i&gt;ALL&lt;/i&gt;, S3 Access Grants locates the owning account for you, routes the request to its instance, and returns credentials for the matching grant.&lt;/p&gt; \n&lt;p&gt;This capability is now available in all AWS Regions where S3 Access Grants is available, at no additional cost. You can use the AWS SDK, API, or CLI to list and access grants across accounts. To learn more, visit the &lt;a href=\"https://aws.amazon.com/s3/features/access-grants/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;S3 Access Grants overview page&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-grants-list-grants.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;S3 documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-access-grants-list-across-regions/",
-      "publishedAt": "2026-11-10T14:00:00.000Z",
-      "updatedAt": "2026-11-10T14:00:00.000Z",
-      "categories": [
-        "Storage",
-        "Amazon S3"
-      ],
-      "services": [
-        "S3"
-      ],
-      "tags": [
-        "storage",
-        "amazon s3",
-        "s3"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Resource Access Manager",
-        "access",
-        "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "7e02f257e3ebcf5a",
-      "title": "Amazon CloudWatch Logs announces account-level retention policies",
-      "description": "Amazon CloudWatch Logs now supports account-level retention policies, so you can use a single policy to set how long log data is kept across all or subset of log groups in an AWS account. Account-level policies allow platform and security teams to bring each log group in line with their retention standards. With today's launch, you can create policies that cover all log groups in the account or apply to a specific set of log groups with names that start with a prefix, such as /aws/lambda. You can additionally choose whether it applies to existing log groups or only new ones. When more than one",
-      "descriptionHtml": "&lt;p&gt;Amazon CloudWatch Logs now supports account-level retention policies, so you can use a single policy to set how long log data is kept across all or subset of log groups in an AWS account. Account-level policies allow platform and security teams to bring each log group in line with their retention standards.&lt;/p&gt; \n&lt;p&gt;With today's launch, you can create policies that cover all log groups in the account or apply to a specific set of log groups with names that start with a prefix, such as /aws/lambda. You can additionally choose whether it applies to existing log groups or only new ones. When more than one policy matches a log group, the longest retention period applies. For example, a central platform team can set a 90-day baseline for the account and a 1-year policy for log groups that start with /security to meet audit requirements, without tracking individual log group names.&lt;/p&gt; \n&lt;p&gt;Account-level retention policies are available in all commercial AWS Regions except Middle East (Bahrain), and Middle East (UAE) at no additional cost . You can create and manage up to 20 policies per account and region using the AWS Management Console, AWS CLI, and AWS SDKs. Learn more in the &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Working-with-log-groups-and-streams.html#account-level-retention-policies\"&gt;CloudWatch Logs documentation&lt;/a&gt;, and the &amp;nbsp;&lt;a href=\"https://docs.aws.amazon.com/AmazonCloudWatchLogs/latest/APIReference/API_PutAccountPolicy.html\"&gt;API reference&amp;nbsp;&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-log-retention/",
-      "publishedAt": "2026-11-09T22:15:00.000Z",
-      "updatedAt": "2026-11-09T22:15:00.000Z",
-      "categories": [],
-      "services": [
-        "CloudWatch"
-      ],
-      "tags": [
-        "cloudwatch"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "policy"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "4fffdd71dcc90544",
-      "title": "RHEL 10, Rocky 10 and Ubuntu 26.04 Bundles for WorkSpaces",
-      "description": "AWS announces new Linux bundles for Amazon WorkSpaces Personal, including Rocky Linux 10, Red Hat Enterprise Linux 10, and Ubuntu 26.04 LTS. With these bundles, you can launch WorkSpaces on the latest enterprise Linux operating systems and use newer software packages that are only available in these releases. These new bundles feature modern Wayland display technology, giving you access to the latest Linux desktop capabilities. The new OS options also bring stronger security and longer support lifecycles from each distribution. While Rocky Linux 8 and 9, Red Hat Enterprise Linux 8 and 9, and U",
-      "descriptionHtml": "&lt;p&gt;AWS announces new Linux bundles for Amazon WorkSpaces Personal, including Rocky Linux 10, Red Hat Enterprise Linux 10, and Ubuntu 26.04 LTS. With these bundles, you can launch WorkSpaces on the latest enterprise Linux operating systems and use newer software packages that are only available in these releases. These new bundles feature modern Wayland display technology, giving you access to the latest Linux desktop capabilities. The new OS options also bring stronger security and longer support lifecycles from each distribution.&lt;/p&gt; \n&lt;p&gt;While Rocky Linux 8 and 9, Red Hat Enterprise Linux 8 and 9, and Ubuntu 22.04 LTS and 24.04 LTS powered WorkSpaces bundles remain available, the new bundles let you adopt the latest releases on your own timeline. Your existing WorkSpaces keep running with no changes. You can move users to the new operating systems once your applications and workflows are ready.&lt;/p&gt; \n&lt;p&gt;To get started, select a managed Rocky Linux 10, Red Hat Enterprise Linux 10, or Ubuntu 26.04 LTS bundle when you create a new Linux WorkSpace. These bundles are available in Standard, Performance, Power, and PowerPro sizes in all AWS Regions where Amazon WorkSpaces is available. For a full list of supported operating systems, see &lt;a href=\"https://docs.aws.amazon.com/workspaces/latest/adminguide/amazon-workspaces-bundles.html\" target=\"_blank\" style=\"background-color: rgb(255,255,255);\" rel=\"noopener noreferrer\"&gt;Bundles and images for WorkSpaces Personal&lt;/a&gt;. For pricing information, visit the Amazon WorkSpaces &lt;a href=\"https://aws.amazon.com/workspaces/desktop-as-a-service/pricing/\" style=\"background-color: rgb(255,255,255);\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rhel-10-rocky-10-ubuntu-26-04-workspaces/",
-      "publishedAt": "2026-11-04T08:00:00.000Z",
-      "updatedAt": "2026-11-04T08:00:00.000Z",
-      "categories": [
-        "Amazon Workspaces"
-      ],
-      "services": [
-        "WorkSpaces"
-      ],
-      "tags": [
-        "amazon workspaces",
-        "workspaces"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "f7538761740eda60",
-      "title": "Amazon WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops",
-      "description": "WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops, in addition to Windows Server. You can run each AI agent on the operating system that its workflows and applications require. Your agents can then work in the same environments that your workforce already uses, without re-platforming. Linux desktops give agents full root access to the operating system where many developers already build, test, and automate agentic workflows. Agents can take on developer tasks, such as running builds, tests, and scripts, within the enterprise-grade security and governance controls you al",
-      "descriptionHtml": "&lt;p&gt;WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops, in addition to Windows Server. You can run each AI agent on the operating system that its workflows and applications require. Your agents can then work in the same environments that your workforce already uses, without re-platforming.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Linux desktops give agents full root access to the operating system where many developers already build, test, and automate agentic workflows. Agents can take on developer tasks, such as running builds, tests, and scripts, within the enterprise-grade security and governance controls you already rely on. Windows 11 desktops let agents work in the enterprise applications your teams depend on every day.&lt;/p&gt; \n&lt;p&gt;Linux and Windows 11 desktops have the same security and governance controls as Windows Server desktops. These include network isolation, IAM-based access, and the compliance boundaries your organization already has in place.&lt;/p&gt; \n&lt;p&gt;To get started operating AI agents on WorkSpaces, visit: &lt;a href=\"https://docs.aws.amazon.com/appstream2/latest/developerguide/agent-access.html\"&gt;https://docs.aws.amazon.com/appstream2/latest/developerguide/agent-access.html&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11",
-      "publishedAt": "2026-11-03T18:00:00.000Z",
-      "updatedAt": "2026-11-03T18:00:00.000Z",
-      "categories": [
-        "Amazon Workspaces",
-        "Desktop And App Streaming"
-      ],
-      "services": [
-        "WorkSpaces"
-      ],
-      "tags": [
-        "amazon workspaces",
-        "desktop and app streaming",
-        "workspaces"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "access"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "d66ff784f191fe45",
-      "title": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
-      "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version that builds on a quarterly Release Update (RU), bundling Oracle's Critical Security Patch Update (CSPU) with additional Oracle-recommended fixes. The September 2026 MRP is applied on top of the July 2026 RU and includes the Oracle September CSPU . We recommend upgrading to the September 2026 MRP as it includes the latest security updates for Oracle Database. This release also includes the updated Or",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/oracle/\"&gt;Amazon Relational Database Service (Amazon RDS) for Oracle&lt;/a&gt; now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version that builds on a quarterly Release Update (RU), bundling Oracle's Critical Security Patch Update (CSPU) with additional Oracle-recommended fixes. The September 2026 MRP is applied on top of the July 2026 RU and includes the &lt;a href=\"https://www.oracle.com/security-alerts/cspusep2026.html#AppendixDB\"&gt;Oracle September CSPU&lt;/a&gt;. We recommend upgrading to the September 2026 MRP as it includes the latest security updates for Oracle Database.&lt;/p&gt; \n&lt;p&gt;This release also includes the updated Oracle time zone file (DST version 46), which reflects the latest daylight saving time rule changes in several regions, including British Columbia and Alberta in Canada (effective November 1, 2026) and Morocco and Western Sahara (effective September 20, 2026), which are moving to permanent UTC offsets. If you store timestamps that include time zone information for these areas, the updated time zone file keeps that data aligned with the new rules.&lt;/p&gt; \n&lt;p&gt;You can apply the September 2026 MRP for new database instances, or upgrade existing instances to engine version 19.0.0.0.ru-2026-07.mrp-2026-09.r2 or 26.0.0.0.ru-2026-07.mrp-2026-09.r2 from the Amazon RDS Management Console, or by using the AWS SDK or CLI. To learn more about Oracle MRPs supported on Amazon RDS for each engine version, see the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/OracleReleaseNotes/Welcome.html\"&gt;Amazon RDS for Oracle Release notes&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp",
-      "publishedAt": "2026-10-28T21:00:00.000Z",
-      "updatedAt": "2026-10-28T21:00:00.000Z",
-      "categories": [
-        "Databases",
-        "Amazon Rds"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "databases",
-        "amazon rds",
-        "rds"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "patch"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "723f7e9eaf9dadf7",
-      "title": "Amazon Corretto October 2026 Quarterly Updates",
-      "description": "On October 22, 2026 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 27.0.1.0.10, 25.0.5.0.9, 21.0.13.0.10, 17.0.21.0.10, 11.0.33.0.9, and 8u512 are now available for download . Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. Visit the Corretto home page to download Corretto 27, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get the updates on your Linux system by configuring a Corretto Apt, Yum, or Apk repo . Feedback is welcomed !",
-      "descriptionHtml": "&lt;p&gt;On October 22, 2026 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 27.0.1.0.10, 25.0.5.0.9, 21.0.13.0.10, 17.0.21.0.10, 11.0.33.0.9, and 8u512 are now available for &lt;a href=\"https://aws.amazon.com/corretto/\"&gt;download&lt;/a&gt;. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK.&lt;/p&gt; \n&lt;p&gt;Visit the Corretto &lt;a href=\"https://aws.amazon.com/corretto\"&gt;home page&lt;/a&gt; to download Corretto 27, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get the updates on your Linux system by configuring a &lt;a href=\"https://docs.aws.amazon.com/corretto/latest/corretto-25-ug/generic-linux-install.html\"&gt;Corretto Apt, Yum, or Apk repo&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;Feedback is &lt;a href=\"https://github.com/corretto\"&gt;welcomed&lt;/a&gt;!&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-october-2026-quarterly-updates",
-      "publishedAt": "2026-10-23T14:00:00.000Z",
-      "updatedAt": "2026-10-23T14:00:00.000Z",
-      "categories": [
-        "Developer Tools",
-        "AWS Govcloud Us",
-        "Amazon Corretto"
-      ],
-      "services": [],
-      "tags": [
-        "developer tools",
-        "aws govcloud us",
-        "amazon corretto"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "61d2062857e1a264",
-      "title": "Oracle Database@AWS supports aggregate and default routes for ODB peering",
-      "description": "Oracle Database@AWS (ODB) now supports advertising aggregate routes and a default route (0.0.0.0/0) when configuring ODB peering between applications in an Amazon VPC and databases in an ODB network. This simplifies network operations as customers extend new VPCs or on-premises networks to reach their databases, without updating the advertised CIDRs for each network that needs connectivity to the ODB network. Previously, customers had to advertise each network reaching the ODB network as a separate CIDR, and could not advertise a broad aggregate range or a default route. With this launch, cust",
-      "descriptionHtml": "&lt;p&gt;Oracle Database@AWS (ODB) now supports advertising aggregate routes and a default route (0.0.0.0/0) when configuring ODB peering between applications in an Amazon VPC and databases in an ODB network. This simplifies network operations as customers extend new VPCs or on-premises networks to reach their databases, without updating the advertised CIDRs for each network that needs connectivity to the ODB network.&lt;/p&gt; \n&lt;p&gt;Previously, customers had to advertise each network reaching the ODB network as a separate CIDR, and could not advertise a broad aggregate range or a default route. With this launch, customers can advertise any CIDR range, so a single aggregate or default route can cover all networks reachable through the peered VPC, such as those connected through an AWS Transit Gateway, without a separate entry for each one.&lt;/p&gt; \n&lt;p&gt;This capability is available on ODB networks that support multiple ODB peering connections, in all AWS Regions where Oracle Database@AWS is available. To learn more, visit &lt;a href=\"https://aws.amazon.com/marketplace/featured-seller/oracle/\" target=\"_blank\"&gt;Oracle Database@AWS&lt;/a&gt; and the &lt;a href=\"https://docs.aws.amazon.com/odb/latest/UserGuide/what-is-odb.html\" target=\"_blank\"&gt;Oracle Database@AWS User Guide&lt;/a&gt;. To get started, subscribe through &lt;a href=\"https://aws.amazon.com/marketplace/pp/prodview-qks5dl3hr7nfw?applicationId=AWSMPContessa&amp;amp;ref_=beagle&amp;amp;sr=0-1\" target=\"_blank\"&gt;AWS Marketplace&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-database-aws-aggregate-routes-odb/",
-      "publishedAt": "2026-10-15T08:00:00.000Z",
-      "updatedAt": "2026-10-15T08:00:00.000Z",
-      "categories": [
-        "Networking And Content Delivery",
-        "Amazon Vpc",
-        "Databases",
-        "AWS Transit Gateway"
-      ],
-      "services": [
-        "VPC"
-      ],
-      "tags": [
-        "networking and content delivery",
-        "amazon vpc",
-        "databases",
-        "aws transit gateway",
-        "vpc"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "VPC",
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "05e131969028bb90",
-      "title": "AWS Config now supports 77 new resource types",
-      "description": "AWS Config now supports 77 additional AWS resource types across key services including Amazon EC2, Amazon S3 Files, and Amazon Q Business. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources. With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators. You can now use AWS Config to monitor the following newly",
-      "descriptionHtml": "&lt;p&gt;AWS Config now supports 77 additional AWS resource types across key services including Amazon EC2, Amazon S3 Files, and Amazon Q Business. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources.&lt;/p&gt;\n&lt;p&gt;With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators.&lt;/p&gt;\n&lt;p&gt;You can now use AWS Config to monitor the following newly supported resource types in all &lt;a href=\"https://docs.aws.amazon.com/config/latest/developerguide/what-is-resource-config-coverage.html\"&gt;AWS Regions&lt;/a&gt; where the resources are available:&lt;/p&gt;\n&lt;p&gt;\n &lt;br&gt;\n Resource Types:\n&lt;/p&gt;\n&lt;table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"979\"&gt;\n &lt;tbody&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\" width=\"348\"&gt;AWS::ApplicationAutoScaling::ScalableTarget&lt;/td&gt;\n   &lt;td width=\"348\"&gt;AWS::GuardDuty::ThreatEntitySet&lt;/td&gt;\n   &lt;td width=\"283\"&gt;AWS::PCS::Queue&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ApplicationSignals::Discovery&lt;/td&gt;\n   &lt;td&gt;AWS::GuardDuty::TrustedEntitySet&lt;/td&gt;\n   &lt;td&gt;AWS::QBusiness::DataSource&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::APS::AnomalyDetector&lt;/td&gt;\n   &lt;td&gt;AWS::HealthLake::DataTransformationProfile&lt;/td&gt;\n   &lt;td&gt;AWS::QBusiness::Index&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::APS::ResourcePolicy&lt;/td&gt;\n   &lt;td&gt;AWS::InspectorV2::CodeSecurityScanConfiguration&lt;/td&gt;\n   &lt;td&gt;AWS::QBusiness::Permission&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ARCRegionSwitch::Plan&lt;/td&gt;\n   &lt;td&gt;AWS::IoT::Logging&lt;/td&gt;\n   &lt;td&gt;AWS::QBusiness::Plugin&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Batch::QuotaShare&lt;/td&gt;\n   &lt;td&gt;AWS::IoTWireless::WirelessDeviceImportTask&lt;/td&gt;\n   &lt;td&gt;AWS::QBusiness::Retriever&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Batch::ServiceEnvironment&lt;/td&gt;\n   &lt;td&gt;AWS::LicenseManager::Grant&lt;/td&gt;\n   &lt;td&gt;AWS::QBusiness::WebExperience&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::PaymentConnector&lt;/td&gt;\n   &lt;td&gt;AWS::LicenseManager::License&lt;/td&gt;\n   &lt;td&gt;AWS::QuickSight::OAuthClientApplication&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::ResourcePolicy&lt;/td&gt;\n   &lt;td&gt;AWS::Lightsail::DatabaseSnapshot&lt;/td&gt;\n   &lt;td&gt;AWS::RTBFabric::InboundExternalLink&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Braket::SpendingLimit&lt;/td&gt;\n   &lt;td&gt;AWS::MediaConnect::RouterInput&lt;/td&gt;\n   &lt;td&gt;AWS::RTBFabric::RequesterGateway&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::CleanRooms::IdMappingTable&lt;/td&gt;\n   &lt;td&gt;AWS::MediaConnect::RouterNetworkInterface&lt;/td&gt;\n   &lt;td&gt;AWS::S3Files::AccessPoint&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::CleanRoomsML::ConfiguredModelAlgorithm&lt;/td&gt;\n   &lt;td&gt;AWS::MediaLive::Multiplex&lt;/td&gt;\n   &lt;td&gt;AWS::S3Files::FileSystem&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::CloudWatch::AlarmMuteRule&lt;/td&gt;\n   &lt;td&gt;AWS::MediaLive::Node&lt;/td&gt;\n   &lt;td&gt;AWS::S3Files::FileSystemPolicy&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Connect::UserHierarchyStructure&lt;/td&gt;\n   &lt;td&gt;AWS::MediaLive::SdiSource&lt;/td&gt;\n   &lt;td&gt;AWS::S3Files::MountTarget&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ConnectCampaignsV2::Campaign&lt;/td&gt;\n   &lt;td&gt;AWS::MediaPackageV2::ChannelPolicy&lt;/td&gt;\n   &lt;td&gt;AWS::SecurityAgent::Application&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::CUR::ReportDefinition&lt;/td&gt;\n   &lt;td&gt;AWS::MediaPackageV2::OriginEndpointPolicy&lt;/td&gt;\n   &lt;td&gt;AWS::SecurityAgent::TargetDomain&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::DataSync::LocationAzureBlob&lt;/td&gt;\n   &lt;td&gt;AWS::MediaTailor::ChannelPolicy&lt;/td&gt;\n   &lt;td&gt;AWS::SES::MailManagerAddressList&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::DataSync::LocationFSxONTAP&lt;/td&gt;\n   &lt;td&gt;AWS::NeptuneGraph::GraphSnapshot&lt;/td&gt;\n   &lt;td&gt;AWS::SSM::MaintenanceWindow&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::DataSync::LocationFSxOpenZFS&lt;/td&gt;\n   &lt;td&gt;AWS::Notifications::EventRule&lt;/td&gt;\n   &lt;td&gt;AWS::SSO::Application&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::EC2::TransitGatewayMeteringPolicy&lt;/td&gt;\n   &lt;td&gt;AWS::Notifications::NotificationHub&lt;/td&gt;\n   &lt;td&gt;AWS::Timestream::InfluxDBCluster&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::EC2::VPCCidrBlock&lt;/td&gt;\n   &lt;td&gt;AWS::Omics::Configuration&lt;/td&gt;\n   &lt;td&gt;AWS::Timestream::InfluxDBInstance&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ECR::RegistryScanningConfiguration&lt;/td&gt;\n   &lt;td&gt;AWS::Omics::WorkflowVersion&lt;/td&gt;\n   &lt;td&gt;AWS::Transcribe::VocabularyFilter&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::EKS::Capability&lt;/td&gt;\n   &lt;td&gt;AWS::OpenSearchServerless::CollectionGroup&lt;/td&gt;\n   &lt;td&gt;AWS::Wisdom::AIGuardrail&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::ElementalInference::Feed&lt;/td&gt;\n   &lt;td&gt;AWS::PCAConnectorAD::ServicePrincipalName&lt;/td&gt;\n   &lt;td&gt;AWS::Wisdom::Assistant&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::EntityResolution::IdNamespace&lt;/td&gt;\n   &lt;td&gt;AWS::PCS::Cluster&lt;/td&gt;\n   &lt;td&gt;AWS::WorkSpacesWeb::NetworkSettings&lt;/td&gt;\n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Glue::Blueprint&lt;/td&gt;\n   &lt;td&gt;AWS::PCS::ComputeNodeGroup&lt;/td&gt;\n   &lt;td&gt;&amp;nbsp;&lt;/td&gt;\n  &lt;/tr&gt;\n &lt;/tbody&gt;\n&lt;/table&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-config-new-resource-types",
-      "publishedAt": "2026-10-07T15:00:00.000Z",
-      "updatedAt": "2026-10-07T15:00:00.000Z",
-      "categories": [
-        "Management And Governance",
-        "AWS Config"
-      ],
-      "services": [
-        "Config"
-      ],
-      "tags": [
-        "management and governance",
-        "aws config",
-        "config"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "audit",
-        "S3"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "954382e6cfd850f2",
-      "title": "AWS Well-Architected Agent is now available in preview",
-      "description": "AWS announces the preview of AWS Well-Architected Agent, an AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and optimizes AWS infrastructure across cost, security, performance, and reliability, delivering contextualized recommendations prioritized by business goals. It automatically correlates key metrics and application topology against Well-Architected best practices and analyzes Terraform, CDK templates and CloudFormation templates to deliver automation-ready fixes where applicable. With AWS Well-Architected Agen",
-      "descriptionHtml": "&lt;p&gt;AWS announces the preview of AWS Well-Architected Agent, an AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and optimizes AWS infrastructure across cost, security, performance, and reliability, delivering contextualized recommendations prioritized by business goals. It automatically correlates key metrics and application topology against Well-Architected best practices and analyzes Terraform, CDK templates and CloudFormation templates to deliver automation-ready fixes where applicable.&lt;/p&gt;\n&lt;p&gt;With AWS Well-Architected Agent, teams can define their business goals and get recommendations prioritized by impact and effort at the resource, application, and architecture levels. For example, a team prioritizing reliability can receive recommendations to add multi-AZ failover to a critical database, complete with an SSM runbook that automates the configuration change and a cross-pillar analysis showing how this change affects cost and performance before you commit. Where applicable, recommendations are delivered with SSM runbooks, prescriptive CLI scripts, and guided console walkthroughs so teams can move quickly. The agent can also conduct automated reviews of your IaC templates that include Terraform, CloudFormation, or CDK templates, identifying&amp;nbsp;gaps, and returning the IaC code changes needed to align with Well-Architected best practices.&lt;/p&gt;\n&lt;p&gt;Access to the AWS Well-Architected Agent and its recommendations is available in US East (N. Virginia), US East (Ohio), and US West (Oregon). You can onboard workloads from any AWS commercial Region. AWS Well-Architected Agent is delivered by AWS Support and available to AWS customers with an AWS Support plan.&lt;/p&gt;\n&lt;p&gt;Learn more about AWS Well-Architected Agent in the &lt;a href=\"https://docs.aws.amazon.com/wellarchitected/latest/userguide/agent.html\"&gt;User Guide&lt;/a&gt;. Get started &lt;a href=\"https://us-east-1.console.aws.amazon.com/wellarchitected/home?region=us-east-1#/\"&gt;here&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
-      "publishedAt": "2026-10-01T20:00:00.000Z",
-      "updatedAt": "2026-10-01T20:00:00.000Z",
-      "categories": [
-        "Management And Governance",
-        "AWS Systems Manager",
-        "AWS Cloudformation",
-        "AWS Cloud Development Kit",
-        "AWS Well Architected Tool",
-        "AWS Support",
-        "Cost Management",
-        "AWS Trusted Advisor"
-      ],
-      "services": [
-        "CloudFormation"
-      ],
-      "tags": [
-        "management and governance",
-        "aws systems manager",
-        "aws cloudformation",
-        "aws cloud development kit",
-        "aws well architected tool",
-        "aws support",
-        "cost management",
-        "aws trusted advisor",
-        "cloudformation"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "Trusted Advisor"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "afbbe71fbe006e9f",
-      "title": "AWS Continuum for Penetration Testing now available in 6 additional Regions",
-      "description": "AWS Continuum for Penetration Testing now available in 6 additional Regions AWS Continuum for Penetration Testing (AWS Security Agent) is a managed security service that enables AWS customers to conduct penetration testing against their web applications and APIs. Previously limited in geographic reach, the service now addresses the growing need for localized security testing by expanding into six additional AWS Regions: Asia Pacific (Seoul), Canada (Montreal), Europe (London), US East (Columbus), Europe (Paris), and Europe (Stockholm). This expansion helps organizations operating across these ",
-      "descriptionHtml": "&lt;p&gt;AWS Continuum for Penetration Testing now available in 6 additional Regions\n &lt;br&gt;\n AWS Continuum for Penetration Testing (AWS Security Agent) is a managed security service that enables AWS customers to conduct&amp;nbsp; penetration testing against their web applications and APIs. Previously limited in geographic reach, the service now addresses the growing need for localized security testing by expanding into six additional AWS Regions: Asia Pacific (Seoul), Canada (Montreal), Europe (London), US East (Columbus), Europe (Paris), and Europe (Stockholm). This expansion helps organizations operating across these geographies meet data residency requirements while maintaining robust security testing programs.\n &lt;br&gt;\n &lt;br&gt;\n With this regional expansion, customers can now run penetration testing workloads closer to their production environments. Security and compliance teams can leverage AWS Continuum for Penetration Testing for critical use cases including vulnerability assessments, compliance validation against frameworks such as PCI DSS and ISO 27001, and continuous security posture evaluations.\n &lt;br&gt;\n &lt;br&gt;\n This expansion is now generally available in Asia Pacific (Seoul), Canada (Montreal), Europe (London), US East (Ohio), Europe (Paris), and Europe (Stockholm), with existing supported Regions remaining fully operational. To learn more about AWS Continuum for Penetration Testing and how to get started in these newly supported Regions, visit https://aws.amazon.com/continuum/.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-continuum-penetration/",
-      "publishedAt": "2026-09-30T16:13:00.000Z",
-      "updatedAt": "2026-09-30T16:13:00.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "Organizations"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "4c3b15c2e394a509",
-      "title": "Amazon RDS for MySQL supports MySQL 26.7 in Amazon RDS Database Preview Environment",
-      "description": "Starting today, Amazon RDS for MySQL 26.7 is available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of MySQL 26.7 on Amazon RDS for MySQL. MySQL 26.7 is the first Innovation release to adopt the new YY.M (Year.Month) calendar versioning model. It includes bug fixes, security patches, and new features such as Change Stream Applier, a modular replication applier that improves apply throughput and backlog recovery in test workloads. For more details, refer to the MySQL 26.7 release notes . Amazon RDS Database Preview Environment database instances are ",
-      "descriptionHtml": "&lt;p&gt;Starting today, &lt;a href=\"https://aws.amazon.com/rds/mysql/\" target=\"_blank\"&gt;Amazon RDS for MySQL&lt;/a&gt; 26.7 is available in the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/create-db-instance-in-preview-environment.html\" target=\"_blank\"&gt;Amazon RDS Database Preview Environment&lt;/a&gt;, allowing you to evaluate the pre-release of MySQL 26.7 on Amazon RDS for MySQL.&lt;/p&gt;\n&lt;p&gt;MySQL 26.7 is the first Innovation release to adopt the new YY.M (Year.Month) calendar versioning model. It includes bug fixes, security patches, and new features such as Change Stream Applier, a modular replication applier that improves apply throughput and backlog recovery in test workloads. For more details, refer to the &lt;a href=\"https://dev.mysql.com/doc/refman/26.7/en/mysql-nutshell.html\" target=\"_blank\"&gt;MySQL 26.7 release notes&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Amazon RDS Database Preview Environment database instances are retained for a maximum of 60 days and are automatically deleted after the retention period. Database snapshots created in the Preview Environment can only be used within the Preview Environment. Preview Environment database instances are priced according to &lt;a href=\"https://aws.amazon.com/rds/postgresql/pricing/\" target=\"_blank\"&gt;pricing&lt;/a&gt; in the US East (Ohio) Region.&lt;/p&gt;\n&lt;p&gt;To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/create-db-instance-in-preview-environment.html\" target=\"_blank\"&gt;Amazon RDS Database Preview Environment documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-mysql-26-7-preview-environment/",
-      "publishedAt": "2026-09-30T16:00:00.000Z",
-      "updatedAt": "2026-09-30T16:00:00.000Z",
-      "categories": [
-        "Databases",
-        "Amazon Rds"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "databases",
-        "amazon rds",
-        "rds"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "patch"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "754c1a65d230b707",
-      "title": "Amazon Quick now supports live data from your datasets in apps",
-      "description": "Today, Amazon Quick adds support for building applications that use live data directly from your Quick datasets, so the KPIs, charts, tables, and insights in your application always reflect the latest data. These applications go beyond viewing data. They facilitate intelligent, data-driven business operations workflows where each person can act on what they see, from handling requests and approvals to triggering the next step. Each application user sees data under their own Amazon Quick permissions, so the row-level and column-level security you already set up is applied. To build one, give th",
-      "descriptionHtml": "&lt;p&gt;Today, Amazon Quick adds support for building applications that use live data directly from your Quick datasets, so the KPIs, charts, tables, and insights in your application always reflect the latest data. These applications go beyond viewing data. They facilitate intelligent, data-driven business operations workflows where each person can act on what they see, from handling requests and approvals to triggering the next step. Each application user sees data under their own Amazon Quick permissions, so the row-level and column-level security you already set up is applied.&lt;/p&gt;\n&lt;p&gt;To build one, give the app builder chat agent the name of the dataset you want to use and describe in plain language what you want to build. This lets you enrich an application, such as a team portal that handles requests and approvals and now also shows current pipeline numbers, where each application user sees only the data their permissions allow.&lt;/p&gt;\n&lt;p&gt;This feature is available in &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/apps-limitations.html#apps-regional-availability\"&gt;all supported regions of apps in Amazon Quick&lt;/a&gt;. To see how it works, read the&amp;nbsp;&lt;a href=\"https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/\" target=\"_blank\"&gt;blog post&lt;/a&gt;. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/connecting-datasets-apps.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Connecting to datasets&lt;/a&gt;&amp;nbsp;in the Amazon Quick User Guide.&lt;i&gt;&lt;/i&gt;&lt;/p&gt;\n&lt;h2&gt;&amp;nbsp;&lt;/h2&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/live-data-in-apps",
-      "publishedAt": "2026-09-30T15:00:00.000Z",
-      "updatedAt": "2026-09-30T15:00:00.000Z",
-      "categories": [
-        "Artificial Intelligence"
-      ],
-      "services": [],
-      "tags": [
-        "artificial intelligence"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "permission"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "04a58867ce2a83cd",
-      "title": "Amazon ElastiCache Serverless for Valkey now supports public endpoints",
-      "description": "Amazon ElastiCache Serverless for Valkey now supports public endpoints, letting you connect to your cache directly from a laptop, a serverless function, or any application running outside AWS, without setting up a VPN, a bastion host, or an SSH tunnel. With a public endpoint, ElastiCache Serverless gives you a fully managed cache reachable over the internet, with no VPC to configure and no infrastructure to provision, and you can create one in under a minute. Use it to rapidly prototype, connect AI coding tools and agents straight to your cache, or add caching to workloads that can't reach a V",
-      "descriptionHtml": "&lt;p&gt;Amazon ElastiCache Serverless for Valkey now supports public endpoints, letting you connect to your cache directly from a laptop, a serverless function, or any application running outside AWS, without setting up a VPN, a bastion host, or an SSH tunnel.&lt;/p&gt;\n&lt;p&gt;With a public endpoint, ElastiCache Serverless gives you a fully managed cache reachable over the internet, with no VPC to configure and no infrastructure to provision, and you can create one in under a minute. Use it to rapidly prototype, connect AI coding tools and agents straight to your cache, or add caching to workloads that can't reach a VPC. Every connection uses IAM authentication over TLS 1.3, so there's no password to store or rotate.&amp;nbsp;Connect using Valkey GLIDE 2.2 or later, which has built-in IAM support, or another Valkey client paired with the Developer Toolkit for ElastiCache, an open-source library that generates and refreshes IAM authentication tokens for you.&lt;/p&gt;\n&lt;p&gt;Public endpoints for ElastiCache Serverless are available in all commercial AWS Regions and the China Regions. There is no additional charge for using public endpoints beyond standard ElastiCache Serverless pricing.&amp;nbsp;To get started, create a Valkey 9.0 or later serverless cache with a public endpoint using the &lt;a href=\"https://console.aws.amazon.com/elasticache/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Management Console&lt;/a&gt;, AWS SDK, or AWS CLI. To learn more about public endpoints, see &lt;a href=\"https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/serverless-public-endpoints-chapter.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Create a Valkey serverless cache with a public endpoint&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-serverless-public-endpoints/",
-      "publishedAt": "2026-09-29T07:00:00.000Z",
-      "updatedAt": "2026-09-29T07:00:00.000Z",
-      "categories": [],
-      "services": [
-        "ElastiCache"
-      ],
-      "tags": [
-        "elasticache"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "VPC",
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "910029d26931fc24",
-      "title": "New AWS experience helps builders get started and ship faster",
-      "description": "Builders can now sign up for a new simplified experience that makes it faster to turn ideas into running code on AWS. AWS services provide an array of configuration options so that the largest enterprises can customize settings for their distinct needs. Until now, builders with a new project idea had to decide among these options and configure their AWS environment before beginning to build. The new experience reduces setup effort by simplifying sign-up and automatically configuring an initial project with sensible defaults so builders can begin implementing their idea immediately. When you si",
-      "descriptionHtml": "&lt;p&gt;Builders can now sign up for a new simplified experience that makes it faster to turn ideas into running code on AWS. AWS services provide an array of configuration options so that the largest enterprises can customize settings for their distinct needs. Until now, builders with a new project idea had to decide among these options and configure their AWS environment before beginning to build. The new experience reduces setup effort by simplifying sign-up and automatically configuring an initial project with sensible defaults so builders can begin implementing their idea immediately.&lt;/p&gt;\n&lt;p&gt;When you sign up, you can use your existing Google, GitHub, Apple, or Amazon credentials. For most new customers, no credit card is required and you will receive up to $200 in free credits as part of the &lt;a href=\"https://aws.amazon.com/free/\"&gt;AWS Free Tier&lt;/a&gt;. Once signup is complete, you can connect your coding agent to AWS with a single prompt that automatically installs the AWS CLI and the &lt;a href=\"https://aws.amazon.com/products/developer-tools/agent-toolkit-for-aws/\"&gt;Agent Toolkit for AWS&lt;/a&gt;. Your coding agent connects to your project and uses built-in guidance to deploy resources using best practices.&lt;/p&gt;\n&lt;p&gt;As your project expands, you can invite team members to collaborate with you by email. When a team member accepts your invitation, their project access is configured automatically. Similarly, many of the AWS resources you create can access resources in other AWS services automatically because the new &lt;a href=\"https://aws.amazon.com/blogs/security/how-aws-iam-role-manager-rethinks-the-starting-point-for-iam-roles/\"&gt;IAM role manager&lt;/a&gt; capability is enabled for your projects. When you're ready to upgrade to a paid plan, you can set a monthly spend limit for your project based on your usage patterns so that you stay within your budget. If a project's usage reaches its spend limit, your project is paused for that month. You can create additional projects with one click, each with its own spend limit and distinct team members. At any time, you can activate advanced features without migration or downtime, enabling you to use additional features such as multiple AWS Regions and custom governance controls.&lt;/p&gt;\n&lt;p&gt;To try the new experience, &lt;a href=\"https://signin.aws.amazon.com/signup?request_type=builderId\"&gt;create a new AWS account&lt;/a&gt;. To learn more, see&amp;nbsp;&lt;a href=\"http://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience\"&gt;AWS reimagines the getting started experience&lt;/a&gt; on the AWS News Blog.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience",
-      "publishedAt": "2026-09-16T17:45:00.000Z",
-      "updatedAt": "2026-09-16T17:45:00.000Z",
-      "categories": [
-        "Developers",
-        "Startups",
-        "AWS Iam",
-        "Developer Tools",
-        "AWS Account Billing"
-      ],
-      "services": [
-        "IAM"
-      ],
-      "tags": [
-        "developers",
-        "startups",
-        "aws iam",
-        "developer tools",
-        "aws account billing",
-        "iam"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "IAM"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "e3eee9be87e3329f",
-      "title": "AWS Private CA EKS add-on and Connector for AD now available in AWS GovCloud (US)",
-      "description": "AWS Private Certificate Authority (AWS Private CA) announces the availability of the AWS Private CA Connector for Kubernetes as a managed Amazon EKS add-on and the AWS Private CA Connector for Active Directory in AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. These launches expand certificate automation capabilities available to AWS GovCloud (US) customers managing government workloads. The AWS Private CA Connector for Kubernetes EKS add-on provides simplified installation, configuration, and lifecycle management through the EKS console, CLI, and API. The connector works with cert-",
-      "descriptionHtml": "&lt;p&gt;AWS Private Certificate Authority (AWS Private CA) announces the availability of the AWS Private CA Connector for Kubernetes as a managed Amazon EKS add-on and the AWS Private CA Connector for Active Directory in AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. These launches expand certificate automation capabilities available to AWS GovCloud (US) customers managing government workloads.&lt;/p&gt;\n&lt;p&gt;The AWS Private CA Connector for Kubernetes EKS add-on provides simplified installation, configuration, and lifecycle management through the EKS console, CLI, and API. The connector works with cert-manager to automate certificate requests, distribution to Kubernetes secrets, and renewal, enabling TLS for ingress controllers and securing service-to-service communication in service meshes such as Istio and Linkerd.&lt;/p&gt;\n&lt;p&gt;The AWS Private CA Connector for Active Directory enables AWS GovCloud (US) customers to use AWS Private CA as their certificate authority for Active Directory-enrolled objects. The connector provides automatic certificate issuance to domain-joined users, computers, and other objects through familiar Microsoft certificate enrollment interfaces, supporting enterprise scenarios including smart card authentication, LDAPS, and network device authentication (802.1x).&lt;/p&gt;\n&lt;p&gt;AWS Private CA secures private key material using FIPS 140-3 Level 3 hardware security modules (HSMs).&lt;/p&gt;\n&lt;p&gt;To get started, see the &lt;a href=\"https://aws.amazon.com/private-ca/\"&gt;AWS Private CA product page&lt;/a&gt;, the &lt;a href=\"https://docs.aws.amazon.com/eks/latest/userguide/eks-add-ons.html\"&gt;Amazon EKS add-ons user guide&lt;/a&gt;, and the &lt;a href=\"https://docs.aws.amazon.com/privateca/latest/userguide/connector-for-ad.html\"&gt;AWS Private CA Connector for Active Directory documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/private-ca-eks-addon-ad-govcloud/",
-      "publishedAt": "2026-09-09T08:00:00.000Z",
-      "updatedAt": "2026-09-09T08:00:00.000Z",
-      "categories": [
-        "Containers",
-        "Amazon Eks",
-        "AWS Private Certificate Authority",
-        "AWS Govcloud Us",
-        "AWS Directory Service",
-        "Security Identity And Compliance"
-      ],
-      "services": [
-        "EKS"
-      ],
-      "tags": [
-        "containers",
-        "amazon eks",
-        "aws private certificate authority",
-        "aws govcloud us",
-        "aws directory service",
-        "security identity and compliance",
-        "eks"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "c00f139beb2a3efa",
-      "title": "Amazon ECS Managed Daemons now support non-critical daemons",
-      "description": "Amazon Elastic Container Service (Amazon ECS) now support non-critical Managed Daemons for ECS Managed Instances . You can configure a daemon as non-critical so that your mission-critical application tasks continue running uninterrupted, even when a daemon fails, stops, or becomes unhealthy. Amazon ECS Managed Daemons lets you centrally deploy and manage software agents independently of application deployments to ensure consistent coverage and compliance across your container infrastructure. For some mission-critical applications, uninterrupted execution of application tasks may matter more th",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html\"&gt;Amazon Elastic Container Service&lt;/a&gt; (Amazon ECS) now support non-critical Managed Daemons for &lt;a href=\"https://aws.amazon.com/ecs/managed-instances/\"&gt;ECS Managed Instances&lt;/a&gt;. You can configure a daemon as non-critical so that your mission-critical application tasks continue running uninterrupted, even when a daemon fails, stops, or becomes unhealthy.&lt;/p&gt; \n&lt;p&gt;Amazon ECS Managed Daemons lets you centrally deploy and manage software agents independently of application deployments to ensure consistent coverage and compliance across your container infrastructure. For some mission-critical applications, uninterrupted execution of application tasks may matter more than auxiliary daemon functionality like logging or metrics collection. With this launch, you can now configure a managed daemon as non-critical so that its failure does not cause your application tasks to churn. When a non-critical daemon task fails, stops, or becomes unhealthy, the container instance remains active, your existing application tasks continue running uninterrupted, ECS continues placing new application tasks on it, and instance registration is never blocked, so your tasks launch immediately even when the daemon fails to start. Amazon ECS emits an EventBridge event when a daemon task fails to start and records service action logs for both critical and non-critical daemons, giving you full observability into daemon health.&lt;/p&gt; \n&lt;p&gt;To get started, you can use AWS Console, CLI, CloudFormation, or AWS SDKs to create a non-critical daemon by setting the critical parameter to false when creating or updating a daemon. Non-critical daemons are available in all AWS Regions where Amazon ECS Managed Daemons are supported. To learn more, refer to our &lt;a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/managed-daemons.html#managed-daemons-criticality\"&gt;documentation&lt;/a&gt; page.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/",
-      "publishedAt": "2026-09-03T22:01:00.000Z",
-      "updatedAt": "2026-09-03T22:01:00.000Z",
-      "categories": [
-        "Amazon Ecs",
-        "Containers",
-        "AWS Fargate"
-      ],
-      "services": [
-        "ECS",
-        "Fargate"
-      ],
-      "tags": [
-        "amazon ecs",
-        "containers",
-        "aws fargate",
-        "ecs",
-        "fargate"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "compliance",
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "748a709e2ffd7238",
-      "title": "Amazon Bedrock AgentCore Identity now offers a managed consent portal",
-      "description": "Amazon Bedrock AgentCore Identity now offers a managed consent portal that eliminates the need for custom OAuth callback infrastructure when connecting agents to third-party tools and services. Developers using AgentCore Gateway to connect agents with services such as GitHub, Salesforce, and Slack previously had to build, host, and maintain custom OAuth callback infrastructure to complete OAuth 2.0 three-legged authorization (3LO) flows. The new managed consent portal eliminates this undifferentiated heavy lifting for agent developers and platform administrators. Each AgentCore Gateway receive",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/identity-overview.html\"&gt;Amazon Bedrock AgentCore Identity&lt;/a&gt; now offers a managed consent portal that eliminates the need for custom OAuth callback infrastructure when connecting agents to third-party tools and services.&lt;/p&gt; \n&lt;p&gt;Developers using AgentCore Gateway to connect agents with services such as GitHub, Salesforce, and Slack previously had to build, host, and maintain custom OAuth callback infrastructure to complete OAuth 2.0 three-legged authorization (3LO) flows. The new managed consent portal eliminates this undifferentiated heavy lifting for agent developers and platform administrators.&lt;/p&gt; \n&lt;p&gt;Each AgentCore Gateway receives its own managed consent portal with a dedicated hosted web client and credential provider list. Platform admins can share a portal URL with their team before sessions begin, granting consent for agents to call external tools on their behalf. End users can view their connection status at any time through a self-service interface without contacting an administrator.&lt;/p&gt; \n&lt;p&gt;Developers using agent IDE-based clients, which cannot natively present OAuth consent URLs or handle post-consent session binding, can now use the managed consent portal as a dedicated authorization surface for these workflows.&lt;/p&gt; \n&lt;p&gt;This feature is available in all commercial regions where Bedrock AgentCore Identity is available.&lt;/p&gt; \n&lt;p&gt;To learn more, visit the &lt;a href=\"http://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/identity-consent-portal.html\"&gt;Amazon Bedrock AgentCore Identity documentation&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-agentcore/",
-      "publishedAt": "2026-09-01T21:29:00.000Z",
-      "updatedAt": "2026-09-01T21:29:00.000Z",
-      "categories": [
-        "Amazon Bedrock"
-      ],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "amazon bedrock",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "authorization",
-        "identity"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "17100a358b0d18a1",
-      "title": "AWS Elastic Beanstalk now supports Active Directory domain join for Windows Server environments",
-      "description": "AWS Elastic Beanstalk now automatically joins the Windows Server instances in your environment to an Active Directory domain that you manage with AWS Directory Service. Previously, running domain-joined Windows workloads on Elastic Beanstalk required custom join scripts that you had to maintain. With this launch, you set a few configuration options and every instance in the environment — including instances launched later by auto scaling — joins the domain at boot, before your application deploys, with no custom scripts. Domain-joined instances can use Windows-integrated authentication, apply ",
-      "descriptionHtml": "&lt;p&gt;AWS Elastic Beanstalk now automatically joins the Windows Server instances in your environment to an Active Directory domain that you manage with AWS Directory Service. Previously, running domain-joined Windows workloads on Elastic Beanstalk required custom join scripts that you had to maintain. With this launch, you set a few configuration options and every instance in the environment — including instances launched later by auto scaling — joins the domain at boot, before your application deploys, with no custom scripts.&lt;/p&gt; \n&lt;p&gt;Domain-joined instances can use Windows-integrated authentication, apply group policy, and reach domain resources such as file shares and SQL Server databases that use Windows authentication. You can place instances in an organizational unit that you want to target with a group policy, and each instance takes a predictable computer name derived from its instance ID. The feature is resilient by design: if an instance can't join the domain, your deployment still completes, and the environment reports the problem, so a join failure never blocks a deployment.&lt;/p&gt; \n&lt;p&gt;Active Directory domain join is available on Windows Server platform versions released on or after August 18, 2026, in all AWS Commercial Regions and the AWS GovCloud (US) Regions where Elastic Beanstalk is available. For a complete list of supported Regions, see &lt;a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"&gt;AWS Regions&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/dotnet-activedirectory.html\"&gt;Joining instances to an Active Directory domain&lt;/a&gt; in the &lt;i&gt;AWS Elastic Beanstalk Developer Guide&lt;/i&gt;. To learn more about Elastic Beanstalk, visit the &lt;a href=\"https://aws.amazon.com/elasticbeanstalk/\"&gt;AWS Elastic Beanstalk product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-beanstalk-active-directory-domain-join/",
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "updatedAt": "2026-08-31T04:00:00.000Z",
-      "categories": [
-        "Compute",
-        "AWS Elastic Beanstalk"
-      ],
-      "services": [
-        "Elastic Beanstalk"
-      ],
-      "tags": [
-        "compute",
-        "aws elastic beanstalk",
-        "elastic beanstalk"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "authentication",
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "3a069cf1ed163205",
-      "title": "Amazon Kinesis Data Streams announces data delivery to general purpose Amazon S3 buckets",
-      "description": "Amazon Kinesis Data Streams now delivers streaming data directly to general purpose Amazon S3 buckets, providing the easiest way to ingest and deliver streaming data to S3 without building or managing delivery pipelines. S3 general purpose delivery reduces data delivery costs by up to 60% compared to self-managed alternatives. Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. Customers commonly deliver streaming data to Amazon S3 for downstream batch analytics, log delivery, compliance retention, and ",
-      "descriptionHtml": "&lt;p&gt;Amazon Kinesis Data Streams now delivers streaming data directly to general purpose Amazon S3 buckets, providing the easiest way to ingest and deliver streaming data to S3 without building or managing delivery pipelines. S3 general purpose delivery reduces data delivery costs by up to 60% compared to self-managed alternatives.&lt;/p&gt; \n&lt;p&gt;Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. Customers commonly deliver streaming data to Amazon S3 for downstream batch analytics, log delivery, compliance retention, and replay. To do this today, customers either chain multiple serverless services together, adding cost and configuration complexity, or build custom consumer applications on self-managed compute, handling scaling, retries, and operating infrastructure that grows costly as workloads increase. With S3 general purpose delivery, customers configure delivery in a few clicks from the console or via APIs, with no additional services to chain, no custom applications, no self-managed compute, and no operational overhead. Kinesis Data Streams automatically handles scaling, retries, and delivery reliability, and delivers in minutes.&lt;/p&gt; \n&lt;p&gt;S3 general purpose delivery supports On Demand Advantage (ODA) and On Demand Standard (ODS) capacity modes with usage-based pricing, no setup fees or minimum commitments. You are only charged for successfully delivered data. S3 general purpose delivery is available in all AWS Regions where Amazon Kinesis Data Streams is available, including AWS GovCloud (US) and China regions. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/streams/latest/dev/\"&gt;Amazon Kinesis Data Streams User Guide&lt;/a&gt; and the &lt;a href=\"https://aws.amazon.com/kinesis/data-streams/pricing/\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/kinesis/data-delivery-general-purpose-s3-buckets",
-      "publishedAt": "2026-08-29T06:47:00.000Z",
-      "updatedAt": "2026-08-29T06:47:00.000Z",
-      "categories": [],
-      "services": [
-        "S3",
-        "Kinesis"
-      ],
-      "tags": [
-        "s3",
-        "kinesis"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "compliance",
-        "S3",
-        "Bucket"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "a9a7b910917e2f63",
-      "title": "Amazon Connect Customer now supports points-based scoring in performance evaluations",
-      "description": "Amazon Connect Customer now supports points-based scoring to evaluate human and AI agent performance, giving managers more flexibility in configuring evaluation scores. With points-based scoring, managers assign points to each criterion based on its importance to the business, and the score is the sum of the points earned. In contrast, with the existing percentage-based scoring, each question is assigned weights that need to add up to 100%. For example, a points-based evaluation might award 40 points for resolving the customer's problem, 20 for meeting compliance requirements, and 10 for a pro",
-      "descriptionHtml": "&lt;p&gt;Amazon Connect Customer now supports points-based scoring to evaluate human and AI agent performance, giving managers more flexibility in configuring evaluation scores. With points-based scoring, managers assign points to each criterion based on its importance to the business, and the score is the sum of the points earned. In contrast, with the existing percentage-based scoring, each question is assigned weights that need to add up to 100%. For example, a points-based evaluation might award 40 points for resolving the customer's problem, 20 for meeting compliance requirements, and 10 for a proper greeting – without the need for scores to add up to 100. Managers control how points are awarded: combining several compliance criteria into one multiple-choice question to shorten the form, excluding the call reason from scoring, or awarding bonus points for strong customer rapport. Managers decide what counts, how much it counts, and what earns extra credit, so the score reflects what the business values most.&lt;/p&gt; \n&lt;p&gt;This feature is available in all regions where Amazon Connect Customer is offered. To learn more, please visit our &lt;a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/about-pointbased-scoring.html\"&gt;documentation&lt;/a&gt; and our &lt;a href=\"https://aws.amazon.com/products/connect/customer/conversational-analytics/\"&gt;webpage&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-points-based-scoring-evaluations/",
-      "publishedAt": "2026-08-26T17:00:00.000Z",
-      "updatedAt": "2026-08-26T17:00:00.000Z",
-      "categories": [
-        "Applications",
-        "Contact Center",
-        "Amazon Connect"
-      ],
-      "services": [
-        "Connect"
-      ],
-      "tags": [
-        "applications",
-        "contact center",
-        "amazon connect",
-        "connect"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "compliance",
-        "Config"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "9d6bd0f55553f1d2",
-      "title": "Amazon RDS for Oracle now supports July 2026 Release Update",
-      "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Oracle July 2026 Release Update (RU) for Oracle Database versions 19c, 21c and 26ai. We recommend upgrading to the July 2026 RU as it includes security updates for Oracle database products. Starting with July 2026 releases, the naming format for an RU in Oracle Database 19c changes to .ru- .mrp- .r . For example, the RDS for Oracle July 2026 quarterly RU for Oracle Database 19c is named 19.0.0.0.ru-2026-07.mrp-2026-07.r1. When Oracle releases a monthly Critical Security Patch Update (CSPU) for Oracle Database 19c and 2",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/rds/oracle/\" target=\"_blank\"&gt;Amazon Relational Database Service (Amazon RDS) for Oracle&lt;/a&gt; now supports the &lt;a href=\"https://www.oracle.com/security-alerts/cpujul2026.html#AppendixDB\" target=\"_blank\"&gt;Oracle July 2026 Release Update&lt;/a&gt; (RU) for Oracle Database versions 19c, 21c and 26ai. We recommend upgrading to the July 2026 RU as it includes security updates for Oracle database products.&lt;/p&gt; \n&lt;p&gt;Starting with July 2026 releases, the naming format for an RU in Oracle Database 19c changes to &amp;lt;version&amp;gt;.ru-&amp;lt;YYYY-MM&amp;gt;.mrp-&amp;lt;YYYY-MM&amp;gt;.r&amp;lt;N&amp;gt;. For example, the RDS for Oracle July 2026 quarterly RU for Oracle Database 19c is named 19.0.0.0.ru-2026-07.mrp-2026-07.r1. When Oracle releases a monthly Critical Security Patch Update (CSPU) for Oracle Database 19c and 26ai, Amazon RDS will make it available as an MRP version that bundles the CSPU with additional Oracle-recommended fixes. Oracle Database 21c RUs retain their existing naming format. For details, see &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Oracle.Minor.html#RUs-and-MRPs\" target=\"_blank\"&gt;Release updates and monthly recommended patches&lt;/a&gt;.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;You can apply the July 2026 RU from the Amazon RDS Management Console, or by using the AWS SDK or CLI. To automatically apply updates to your database instance during your maintenance window, enable Automatic Minor Version Upgrade.&lt;/p&gt; \n&lt;p&gt;You can also use AWS Organizations upgrade rollout policy to stagger automatic minor version upgrades for your Amazon RDS database instances. This feature allows you to automatically apply updates to non-production environments, validate the updates, and then automatically apply the same update to production environments. For additional details about using AWS Organizations upgrade rollout policy for automatic minor version upgrades, refer to &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Oracle.Minor.html#oracle-minor-version-upgrade-rollout\" target=\"_blank\"&gt;Amazon RDS for Oracle documentation&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-july-2026-release-update",
-      "publishedAt": "2026-08-25T07:24:00.000Z",
-      "updatedAt": "2026-08-25T07:24:00.000Z",
-      "categories": [
-        "AWS Govcloud Us",
-        "Databases",
-        "Amazon Rds For Oracle"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "aws govcloud us",
-        "databases",
-        "amazon rds for oracle",
-        "rds"
-      ],
-      "isNew": false,
-      "securityScore": 25,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "security",
-        "patch"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "1d2ee75e594aaf33",
-      "title": "AWS Systems Manager Parameter Store raises API throughput limits",
-      "description": "AWS Systems Manager Parameter Store has increased the default throughput limits for five API operations. For accounts that have turned on the higher throughput setting, the quotas have changed as follows, in transactions per second (TPS): GetParametersByPath (from 100 to 500 TPS) PutParameter (10 to 50) DeleteParameter (5 to 50) DescribeParameters (10 to 100) GetParameterHistory (10 to 100) Parameter Store provides powerful, hierarchical storage for configuration data. The higher quotas give more headroom to workloads that call these operations in bursts. Examples include applications that loa",
-      "descriptionHtml": "&lt;p&gt;AWS Systems Manager &lt;a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html\"&gt;Parameter Store&lt;/a&gt;&amp;nbsp;has increased the default throughput limits for five API operations. For accounts that have turned on the higher throughput setting, the quotas have changed as follows, in transactions per second (TPS):&lt;/p&gt; \n&lt;ul&gt; \n &lt;li&gt;GetParametersByPath (from 100 to 500 TPS)&lt;/li&gt; \n &lt;li&gt;PutParameter (10 to 50)&lt;/li&gt; \n &lt;li&gt;DeleteParameter (5 to 50)&lt;/li&gt; \n &lt;li&gt;DescribeParameters (10 to 100)&lt;/li&gt; \n &lt;li&gt;GetParameterHistory (10 to 100)&lt;/li&gt; \n&lt;/ul&gt; \n&lt;p&gt;Parameter Store provides powerful, hierarchical storage for configuration data. The higher quotas give more headroom to workloads that call these operations in bursts. Examples include applications that load configuration by path when many AWS Lambda functions start at once, infrastructure as code deployments that create or update many parameters, and cleanup jobs that bulk-delete stale parameters.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/parameter-store-raises-api-throughput-limits/",
-      "publishedAt": "2026-11-19T09:00:00.000Z",
-      "updatedAt": "2026-11-19T09:00:00.000Z",
-      "categories": [],
-      "services": [
-        "Systems Manager"
-      ],
-      "tags": [
-        "systems manager"
-      ],
-      "isNew": true,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "Systems Manager"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "33c47c8a65d3fe0f",
-      "title": "AWS Transform supports optimized storage for server migration",
-      "description": "AWS Transform for migrations now recommends the optimized storage type and configuration for every server you migrate, so you no longer do it server by server. Building on recent storage assessment capabilities , AWS Transform's recommendations use each server's observed performance and capacity data to reduce overprovisioning costs and avoid performance issues after cutover. You see the expected cost before you migrate, and AWS Transform applies the approved settings automatically at launch. Recommendations cover Amazon EBS and Amazon FSx for NetApp ONTAP. For FSx for NetApp ONTAP, they inclu",
-      "descriptionHtml": "&lt;p&gt;AWS Transform for migrations now recommends the optimized storage type and configuration for every server you migrate, so you no longer do it server by server. Building on &lt;a href=\"https://aws.amazon.com/blogs/migration-and-modernization/assess-and-migrate-storage-to-the-cloud-with-aws-transform/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;recent storage assessment capabilities&lt;/a&gt;, AWS Transform's recommendations use each server's observed performance and capacity data to reduce overprovisioning costs and avoid performance issues after cutover. You see the expected cost before you migrate, and AWS Transform applies the approved settings automatically at launch.&lt;/p&gt; \n&lt;p&gt;Recommendations cover Amazon EBS and Amazon FSx for NetApp ONTAP. For FSx for NetApp ONTAP, they include the file system layout and sizing. You choose whether to optimize for cost or for performance, and recommendations stay consistent from assessment through launch.&lt;/p&gt; \n&lt;p&gt;This capability is available in all &lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/transform-vmware-connect-target-account.html#transform-vmware-cta-supported-regions\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions where AWS Transform for migrations is available&lt;/a&gt;. &lt;/p&gt; \n&lt;p&gt;To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/transform/latest/userguide/transform-vmware-migrate-servers.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Transform user guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-optimized-storage/",
-      "publishedAt": "2026-11-19T08:00:00.000Z",
-      "updatedAt": "2026-11-19T08:00:00.000Z",
-      "categories": [
-        "Amazon Elastic Block Store",
-        "Migration",
-        "Amazon Fsx Netapp Ontap",
-        "AWS Application Migration Service"
-      ],
-      "services": [
-        "FSx"
-      ],
-      "tags": [
-        "amazon elastic block store",
-        "migration",
-        "amazon fsx netapp ontap",
-        "aws application migration service",
-        "fsx"
-      ],
-      "isNew": true,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Config",
-        "migrate"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "7ea2104cf81a6d71",
-      "title": "AWS Lambda now supports customer-managed runtimes, giving platform teams centralized control over runtime contents and updates",
-      "description": "AWS Lambda now supports customer-managed runtimes for Lambda Event Functions (formerly Lambda functions). Customer-managed runtimes are a standalone resource type that fully decouples runtime management from function deployment. Platform teams gain centralized control over the runtime contents, updates, access, and lifecycle, including the ability to push updates to shared components without per-function redeployments. Application teams consume the runtime from their functions in the same way as a Lambda-managed runtime, preserving their familiar developer experience. Many organizations requir",
-      "descriptionHtml": "&lt;p&gt;AWS Lambda now supports customer-managed runtimes for Lambda Event Functions (formerly Lambda functions). Customer-managed runtimes are a standalone resource type that fully decouples runtime management from function deployment. Platform teams gain centralized control over the runtime contents,&amp;nbsp;updates, access, and lifecycle, including the ability to push updates to shared components without per-function redeployments. Application teams consume the runtime from their functions in the same way as a Lambda-managed runtime, preserving their familiar developer experience.&lt;/p&gt; \n&lt;p&gt;Many organizations require every function to include approved components, such as SDKs, certificates, and security or monitoring tools. Previously, sharing these through Lambda Layers or container images meant redeploying every function to pick up a change. With customer-managed runtimes, platform teams manage these components in a central runtime, packaged as OCI container images in Amazon ECR and compatible with existing Docker and CI/CD tooling. Functions pick up updates automatically as Lambda recycles execution environments, so there's no need to redeploy each function or coordinate rollouts. Updates can be scheduled and staged to match change control policies, with centralized health metrics and rapid rollback. With this launch, the existing custom runtimes feature is renamed \"bring your own language.\"&lt;/p&gt; \n&lt;p&gt;AWS Lambda customer-managed runtimes is now generally available in all commercial AWS Regions. There is no additional charge for customer-managed runtimes; functions are billed at standard Lambda rates and standard Amazon ECR pricing applies to runtime images.&lt;/p&gt; \n&lt;p&gt;To get started, build your runtime as a container image in Amazon ECR, starting from a Lambda base image or from scratch, then create a runtime, a version, and an alias. Application teams reference the runtime alias in their function configuration and keep deploying their code as .zip files. Share runtimes with other accounts or an AWS Organization by using a resource-based policy. You can create and manage customer-managed runtimes using the AWS CLI, AWS SDKs, CloudFormation, or AWS CDK. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/lambda/latest/dg/runtimes-customer-managed.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;customer-managed runtimes documentation&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/blogs/compute/control-your-aws-lambda-runtimes-with-customer-managed-runtimes/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;launch blog post&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-customer-managed-runtimes/",
-      "publishedAt": "2026-11-18T15:00:00.000Z",
-      "updatedAt": "2026-11-18T15:00:00.000Z",
-      "categories": [
-        "AWS Lambda",
-        "Serverless",
-        "Management And Governance"
-      ],
-      "services": [
-        "Lambda"
-      ],
-      "tags": [
-        "aws lambda",
-        "serverless",
-        "management and governance",
-        "lambda"
-      ],
-      "isNew": true,
-      "securityScore": 20,
-      "securityLevel": "medium",
-      "securityMatches": [
-        "Organizations",
-        "access"
       ],
       "source": "whats-new"
     }
