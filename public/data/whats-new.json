@@ -1,7 +1,74 @@
 {
-  "lastUpdated": "2026-11-22T15:59:23.196Z",
+  "lastUpdated": "2026-11-23T19:54:58.519Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "cd1215abe9627fc5",
+      "title": "Protect identity data with point-in-time recovery in Amazon Cognito",
+      "description": "Amazon Cognito helps you implement secure sign-in and access control for users, microservices, and AI agents in minutes. Many of you rely on it for some of the most critical data you operate: the identities and attributes your applications use to authenticate and authorize every request. Recently, we launched point-in-time recovery (PITR) for Amazon Cognito […]",
+      "descriptionHtml": "Amazon Cognito helps you implement secure sign-in and access control for users, microservices, and AI agents in minutes. Many of you rely on it for some of the most critical data you operate: the identities and attributes your applications use to authenticate and authorize every request. Recently, we launched point-in-time recovery (PITR) for Amazon Cognito […]",
+      "url": "https://aws.amazon.com/blogs/security/protect-identity-data-with-point-in-time-recovery-in-amazon-cognito/",
+      "publishedAt": "2026-11-23T16:43:50.000Z",
+      "updatedAt": "2026-11-23T16:43:50.000Z",
+      "categories": [
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [
+        "Cognito"
+      ],
+      "tags": [
+        "security",
+        "identity",
+        "& compliance",
+        "security blog",
+        "cognito"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Cognito",
+        "access",
+        "identity"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "e0d77eec0a56ad82",
+      "title": "AWS Certificate Manager now supports Amazon N2 certificates for mTLS",
+      "description": "AWS Certificate Manager (ACM) now issues Amazon N2 certificates for mutual TLS (mTLS) and other authentication outside web browsers. ACM public certificates no longer include client authentication, in line with WebPKI requirements, so teams that needed client certificates had to define their own trust governance models and apply them to their private PKI. With Amazon N2 certificates, you can authenticate to partners and other organizations, such as a partner's client calling your API, without building and governing your own CA for them to rely on. Amazon N2 certificates come from the Amazon N2",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/certificate-manager/\"&gt;AWS Certificate Manager&lt;/a&gt; (ACM) now issues Amazon N2 certificates for mutual TLS (mTLS) and other authentication outside web browsers. ACM public certificates no longer include client authentication, in line with WebPKI requirements, so teams that needed client certificates had to define their own trust governance models and apply them to their private PKI. With Amazon N2 certificates, you can authenticate to partners and other organizations, such as a partner's client calling your API, without building and governing your own CA for them to rely on.&lt;/p&gt; \n&lt;p&gt;Amazon N2 certificates come from the Amazon N2 certificate authorities (CAs), which are operated and governed by Amazon Trust Services, the same organization that operates the CAs issuing ACM public WebPKI certificates. Your peers add the &lt;a href=\"https://www.amazontrust.com/repository/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon N2 roots&lt;/a&gt; to their trust stores to verify your certificates. Certificates are valid for up to 395 days, and ACM renews them automatically: AWS integrated services use each renewed certificate, and you can also export them to your own clients and servers.&lt;/p&gt; \n&lt;p&gt;You pay for each domain name in an ACM-issued Amazon N2 certificate, including when you use it with AWS integrated services. For details, see &lt;a href=\"https://aws.amazon.com/certificate-manager/pricing/\"&gt;ACM pricing&lt;/a&gt;.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Amazon N2 certificates are available in all commercial AWS Regions where ACM is available. To learn more, see Amazon N2 certificates in the &lt;a href=\"https://docs.aws.amazon.com/acm/latest/userguide/acm-amazon-n2-certificates.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Certificate Manager User Guide&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/acm-amazon-n2-certificates/",
+      "publishedAt": "2026-11-21T04:00:00.000Z",
+      "updatedAt": "2026-11-21T04:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "AWS Certificate Manager"
+      ],
+      "services": [
+        "Certificate Manager"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "aws certificate manager",
+        "certificate manager"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Certificate Manager",
+        "ACM",
+        "TLS",
+        "mTLS",
+        "authentication",
+        "Organizations"
+      ],
+      "source": "whats-new"
+    },
     {
       "id": "44ebc3610de5ba5d",
       "title": "Amazon Cognito extends multi-Region replication to additional AWS Regions",
@@ -4850,6 +4917,39 @@
       "source": "whats-new"
     },
     {
+      "id": "c0889f019a085014",
+      "title": "AWS Global Accelerator now preserves client IPs for NLBs with TLS listeners",
+      "description": "AWS Global Accelerator now preserves the client IP address for traffic sent to Network Load Balancer (NLB) endpoints with TLS listeners. You can terminate TLS at your NLB and still see the original client IP address in your application. This means you can apply security groups, geo-blocking, rate limiting, fraud detection, audit logging, allowlists, and compliance controls based on the real client IP. Previously, you couldn't add an NLB with a TLS listener to an accelerator that had client IP address preservation enabled. You had to choose between terminating TLS at the NLB and seeing the real",
+      "descriptionHtml": "&lt;p&gt;AWS Global Accelerator now preserves the client IP address for traffic sent to Network Load Balancer (NLB) endpoints with TLS listeners. You can terminate TLS at your NLB and still see the original client IP address in your application. This means you can apply security groups, geo-blocking, rate limiting, fraud detection, audit logging, allowlists, and compliance controls based on the real client IP.&lt;/p&gt; \n&lt;p&gt;Previously, you couldn't add an NLB with a TLS listener to an accelerator that had client IP address preservation enabled. You had to choose between terminating TLS at the NLB and seeing the real client IP address. With this launch, you get both. This helps with workloads that need TLS termination at Layer 4, such as non-HTTP TCP protocols, applications that require static or Elastic IP addresses, and high-throughput traffic where a Layer 7 load balancer isn't a fit.&lt;/p&gt; \n&lt;p&gt;To enable this feature, add an NLB with a TLS listener as an endpoint to an accelerator with client IP address preservation setting turned on, the same way you add any NLB. No additional configuration is required! Client IP address preservation for NLBs with TLS listeners is available at no additional charge in all AWS commercial Regions, excluding the AWS GovCloud (US) and China Regions. Standard Global Accelerator pricing applies.&lt;/p&gt; \n&lt;p&gt;To learn more, see &lt;a href=\"https://docs.aws.amazon.com/global-accelerator/latest/dg/preserve-client-ip-address.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Client IP address preservation&lt;/a&gt; in the AWS Global Accelerator Developer Guide and &lt;a href=\"https://docs.aws.amazon.com/elasticloadbalancing/latest/network/create-listener.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Create a listener for your Network Load Balancer&lt;/a&gt; in the User Guide for Network Load Balancers.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-accelerator-client-ip-nlb-tls/",
+      "publishedAt": "2026-11-23T16:00:00.000Z",
+      "updatedAt": "2026-11-23T16:00:00.000Z",
+      "categories": [
+        "AWS Global Accelerator",
+        "Amazon Elastic Load Balancing"
+      ],
+      "services": [
+        "Global Accelerator"
+      ],
+      "tags": [
+        "aws global accelerator",
+        "amazon elastic load balancing",
+        "global accelerator"
+      ],
+      "isNew": true,
+      "securityScore": 70,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "TLS",
+        "security",
+        "compliance",
+        "audit",
+        "logging",
+        "Security Group"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "52dfa5fdb2d5c01c",
       "title": "Your AWS Security, Identity, and Governance guide to re:Invent 2026",
       "description": "The AWS Security, Identity, and Governance team invites you to join us at re:Invent in Las Vegas from November 30 to December 4, 2026. You know all too well that AI agents now act on their own across the systems you run, and that changes what identity, detection, network protection, and governance have to cover. […]",
@@ -7984,6 +8084,34 @@
       "source": "whats-new"
     },
     {
+      "id": "7113873229d52c39",
+      "title": "AWS Private CA now supports X.509 IAM condition keys",
+      "description": "AWS Private Certificate Authority (AWS Private CA) now supports IAM condition keys that describe the certificate being issued. You can write IAM policies that allow or deny a certificate request based on its subject, subject alternative names (SANs), public key, signature algorithm, validity period, key usage, extended key usage, and basic constraints. You can share one private CA across teams and accounts, and each team can issue only the certificates your policies allow. Previously, IAM policies could control who requests certificates from which CA, and with which certificate template, but n",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/private-ca/\"&gt;AWS Private Certificate Authority&lt;/a&gt; (AWS Private CA) now supports IAM condition keys that describe the certificate being issued. You can write IAM policies that allow or deny a certificate request based on its subject, subject alternative names (SANs), public key, signature algorithm, validity period, key usage, extended key usage, and basic constraints. You can share one private CA across teams and accounts, and each team can issue only the certificates your policies allow.&lt;/p&gt; \n&lt;p&gt;Previously, IAM policies could control who requests certificates from which CA, and with which certificate template, but not what the certificate contains. To keep each team to its own domain names, customers ran a separate CA for each team or built their own authorization layer in front of AWS Private CA. Now, AWS Private CA evaluates your policies against the certificate as it would be issued, before anything is signed, and denies requests that don't comply. For example, you can limit each account to DNS names in its own subdomain, cap certificate lifetimes, require specified key algorithms and key sizes across your organization, and reserve CA certificates for your PKI team.&lt;/p&gt; \n&lt;p&gt;You can use the condition keys in identity-based policies, service control policies (SCPs), resource control policies (RCPs), VPC endpoint policies, and customer managed permissions in AWS Resource Access Manager (AWS RAM). Each key takes its value from the final certificate, whether the attribute comes from the certificate signing request (CSR), the certificate template, or API passthrough, so moving an attribute to a different input doesn't get it past a policy.&lt;/p&gt; \n&lt;p&gt;X.509 IAM condition keys are available at no additional charge in all AWS Regions where AWS Private CA is available. AWS Private CA charges still apply. To get started, see &lt;a href=\"https://docs.aws.amazon.com/privateca/latest/userguide/certguard-condition-keys.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;X.509 certificate condition keys&lt;/a&gt; in the AWS Private CA User Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-private-ca-x509-iam-keys/",
+      "publishedAt": "2026-11-20T20:00:00.000Z",
+      "updatedAt": "2026-11-20T20:00:00.000Z",
+      "categories": [
+        "AWS Private Certificate Authority",
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "IAM"
+      ],
+      "tags": [
+        "aws private certificate authority",
+        "security identity and compliance",
+        "iam"
+      ],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "8394b8a78c4f9e3f",
       "title": "Issue with nginx HTTP/2 Implementation",
       "description": "Bulletin ID: 2026-192-AWS Publication Date: 11/19/2026 15:00 PM PST Description: AWS is aware of the nginx issues published on November 18, 2026 (CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-113425, CVE-2026-121810 and CVE-2026-118899). These issues have been addressed in nginx version 1.30.7 (stable) and 1.31.9 (mainline). We recommend upgrading to the latest version. We are actively deploying mitigations worldwide to address these issues. Because these issues can be leveraged at the HTTP/2 protocol layer before a complete HTTP request is formed, AWS WAF managed and custom rule",
@@ -10365,7 +10493,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -11411,6 +11539,33 @@
       "source": "whats-new"
     },
     {
+      "id": "0d19e28e15c673d4",
+      "title": "AWS DevOps Agent achieves FedRAMP Class D Certification in AWS GovCloud (US-West)",
+      "description": "AWS DevOps Agent is now certified at the Federal Risk and Authorization Management (FedRAMP) Class D level in AWS GovCloud (US). AWS DevOps Agent is your always-available operations teammate that resolves and proactively prevents incidents, optimizes application reliability and performance, and handles on-demand SRE tasks across AWS, multicloud, and on-prem environments. Cloud Service Providers achieve and maintain FedRAMP Certification by meeting NIST 800-53 Rev 5 controls, undergoing annual independent assessment by a FedRAMP Recognized Independent Assessment Service, performing continuous m",
+      "descriptionHtml": "&lt;p&gt;AWS DevOps Agent is now certified at the Federal Risk and Authorization Management (FedRAMP) Class D level in AWS GovCloud (US). AWS DevOps Agent is your always-available operations teammate that resolves and proactively prevents incidents, optimizes application reliability and performance, and handles on-demand SRE tasks across AWS, multicloud, and on-prem environments.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;Cloud Service Providers achieve and maintain FedRAMP Certification by meeting NIST 800-53 Rev 5 controls, undergoing annual independent assessment by a FedRAMP Recognized Independent Assessment Service, performing continuous monitoring and vulnerability management, publishing quarterly Ongoing Certification Reports, and issuing Significant Change Notifications to agencies for material changes to any AWS cloud service offerings the agency uses.&lt;/p&gt; \n&lt;p&gt;To learn more about AWS DevOps Agent, read the &lt;a href=\"https://aws.amazon.com/blogs/mt/announcing-general-availability-of-aws-devops-agent/\"&gt;launch blog&lt;/a&gt; and see&lt;a href=\"https://docs.aws.amazon.com/devopsagent/latest/userguide/\"&gt; getting started&lt;/a&gt;.&amp;nbsp;For information on FedRAMP Certification updates, including Significant Change Notifications, visit the &lt;a href=\"https://aws.amazon.com/compliance/fedramp/\"&gt;FedRAMP Compliance FAQ&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-fedramp-class-d/",
+      "publishedAt": "2026-11-20T21:11:00.000Z",
+      "updatedAt": "2026-11-20T21:11:00.000Z",
+      "categories": [
+        "AWS Developer Tools",
+        "AWS Govcloud Us"
+      ],
+      "services": [],
+      "tags": [
+        "aws developer tools",
+        "aws govcloud us"
+      ],
+      "isNew": true,
+      "securityScore": 35,
+      "securityLevel": "high",
+      "securityMatches": [
+        "authorization",
+        "FedRAMP",
+        "incident"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "070ca44fbcb0d5fa",
       "title": "AWS CloudFormation Service-Managed StackSets adds custom execution roles with nested stacks support",
       "description": "AWS CloudFormation StackSets now supports custom execution roles for service-managed stack sets, which enables you to scope the permissions StackSets uses in each target AWS account. StackSets deploys the same infrastructure, such as networking and security settings, across thousands of accounts and Regions in one operation. With a custom execution role, you can also use nested stacks, macros, and transforms in service-managed stack sets, which allows you to deploy the reusable templates you use for individual stacks across your organization. With a custom execution role, you define what Stack",
@@ -12006,6 +12161,35 @@
         "security",
         "Config",
         "access"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "43a6c4bf9895cdd0",
+      "title": "Amazon CloudFront Announces HTTP/2 Support for Connections to Origins",
+      "description": "Amazon CloudFront now supports HTTP/2 connections to custom origins and VPC origins. HTTP/2 lets CloudFront send many requests over fewer connections to your origin. This means fewer connections and TLS handshakes for your origin to handle, which improves performance for API and agentic workloads, such as AI agents calling MCP servers or mobile and web apps calling backend APIs. Until now, CloudFront connected to origins only over HTTP/1.1, which handles one request at a time per connection. When traffic spiked, for example when an AI agent made many tool calls at once, CloudFront had to open ",
+      "descriptionHtml": "&lt;p&gt;Amazon CloudFront now supports HTTP/2 connections to custom origins and VPC origins. HTTP/2 lets CloudFront send many requests over fewer connections to your origin. This means fewer connections and TLS handshakes for your origin to handle, which improves performance for API and agentic workloads, such as AI agents calling MCP servers or mobile and web apps calling backend APIs.&lt;/p&gt; \n&lt;p&gt;Until now, CloudFront connected to origins only over HTTP/1.1, which handles one request at a time per connection. When traffic spiked, for example when an AI agent made many tool calls at once, CloudFront had to open more origin connections. Each new connection added latency and load. With HTTP/2, those requests share connections, so your origin does less work and responds faster. HTTP/2 is also supported for WebSocket connections that support extended CONNECT. If your origin doesn't support HTTP/2, CloudFront automatically falls back to HTTP/1.1, so you don't need to change anything on your origin.&lt;/p&gt; \n&lt;p&gt;HTTP/2 to origins is available from all CloudFront edge locations. There is no additional cost for using HTTP/2 to origins. To learn more, visit &lt;a href=\"https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/DownloadDistValuesOrigin.html#DownloadDistValuesOriginHttpVersion\"&gt;Origin HTTP version&lt;/a&gt; in the CloudFront Developer Guide.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudfront-http2-origins/",
+      "publishedAt": "2026-11-23T17:00:00.000Z",
+      "updatedAt": "2026-11-23T17:00:00.000Z",
+      "categories": [
+        "Networking And Content Delivery",
+        "Amazon Cloudfront"
+      ],
+      "services": [
+        "CloudFront"
+      ],
+      "tags": [
+        "networking and content delivery",
+        "amazon cloudfront",
+        "cloudfront"
+      ],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [
+        "TLS",
+        "VPC"
       ],
       "source": "whats-new"
     },
@@ -14402,151 +14586,6 @@
       "securityLevel": "high",
       "securityMatches": [],
       "source": "security-bulletin"
-    },
-    {
-      "id": "6a954f339427ac13",
-      "title": "CVE-2026-11393 - Code Injection via Improper Triple-Quote Escaping in AgentCore CLI Bedrock Agent Import",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-040-aws/",
-      "publishedAt": "2026-09-22T19:49:28.000Z",
-      "updatedAt": "2026-09-22T19:49:28.000Z",
-      "categories": [],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "858a3625d8c3353f",
-      "title": "CVE-2026-15738 - Issue with AWS Load Balancer Controller Cross-Namespace Traffic Interception via HTTPRoute/GRPCRoute Priority Ordering",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-055-aws/",
-      "publishedAt": "2026-09-22T19:49:08.000Z",
-      "updatedAt": "2026-09-22T19:49:08.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "037d4c58cea2ac50",
-      "title": "CVE-2026-92943 - Improper validation of certificate with host mismatch in AWS IoT Device SDK for Python",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-114-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-114-aws/",
-      "publishedAt": "2026-09-17T19:18:01.000Z",
-      "updatedAt": "2026-09-17T19:18:01.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "f8defe010d5c482f",
-      "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
-      "description": "Starting today, Amazon Relational Database Service (Amazon RDS) for MariaDB now supports MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3, the latest minors released by community MariaDB. In addition to operational improvements, these minor versions introduce support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. We recommend upgrading to the newer minor versions to accept fixes for Common Vulnerabilities and Exposures (CVEs) in prior versions of MariaDB and to benefit from bug fixes, pe",
-      "descriptionHtml": "&lt;p&gt;Starting today, &lt;a href=\"https://aws.amazon.com/rds/mariadb/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon Relational Database Service (Amazon RDS) for MariaDB&lt;/a&gt; now supports MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3, the latest minors released by community MariaDB. In addition to operational improvements, these minor versions&amp;nbsp;introduce support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. We recommend upgrading to the newer minor versions to accept fixes for Common Vulnerabilities and Exposures (CVEs) in prior versions of MariaDB and to benefit from bug fixes, performance improvements, and new functionality added by the MariaDB community. Learn more about the enhancements in RDS for MariaDB in the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;RDS MariaDB release notes.&lt;/a&gt;​&lt;/p&gt;\n&lt;p&gt;You can upgrade your database using &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS Blue/Green Deployments&lt;/a&gt;, in-place upgrade, or restore from a snapshot. To simplify operations at scale, enable &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.MariaDB.Minor.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;automatic minor version upgrades&lt;/a&gt; and use the AWS Organizations &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/RDS.Maintenance.AMVU.UpgradeRollout.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Upgrade Rollout Policy&lt;/a&gt; to orchestrate upgrades across your clusters in phases. Learn more about performing version upgrades in the &lt;a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.MariaDB.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS User Guide&lt;/a&gt;. You can also migrate to RDS for MariaDB from external MariaDB sources using &lt;a href=\"https://aws.amazon.com/dms/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Database Migration Service&lt;/a&gt;. Learn more about pricing details and regional availability at &lt;a href=\"https://aws.amazon.com/rds/mariadb/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS for MariaDB&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Amazon RDS for MariaDB makes it simple to set up, operate, and scale MariaDB deployments in the cloud. Create or update a fully managed Amazon RDS for MariaDB database in the &lt;a href=\"https://console.aws.amazon.com/rds/home\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon RDS Management Console&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
-      "publishedAt": "2026-09-08T16:00:00.000Z",
-      "updatedAt": "2026-09-08T16:00:00.000Z",
-      "categories": [
-        "Amazon Rds",
-        "Databases"
-      ],
-      "services": [
-        "RDS"
-      ],
-      "tags": [
-        "amazon rds",
-        "databases",
-        "rds"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [
-        "encrypt",
-        "TLS"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "cc68b3cc137bd166",
-      "title": "Amazon Linux 2027 is now available in public preview",
-      "description": "Today, AWS announces the public preview of Amazon Linux 2027 (AL2027), the next version of the Amazon Linux operating system, purpose-built for cloud-native workloads on AWS with performance, scale, and security in mind. Built on AL2023's baseline, AL2027 is designed for customers running web applications, databases, containerized microservices, AI/ML workloads, and large-scale infrastructure who need a secure, stable, and AWS-native operating system. AL2027 runs on kernel 7.1+, enables SELinux in enforcing mode as default, accelerates cryptographic performance with AWS-LC, and keeps builders ",
-      "descriptionHtml": "&lt;p&gt;Today, AWS announces the public preview of Amazon Linux 2027 (AL2027), the next version of the Amazon Linux operating system, purpose-built for cloud-native workloads on AWS with performance, scale, and security in mind. Built on AL2023's baseline, AL2027 is designed for customers running web applications, databases, containerized microservices, AI/ML workloads, and large-scale infrastructure who need a secure, stable, and AWS-native operating system.&lt;/p&gt; \n&lt;p&gt;AL2027 runs on kernel 7.1+, enables SELinux in enforcing mode as default, accelerates cryptographic performance with AWS-LC, and keeps builders current with the latest toolchains and language runtimes. For AI and machine learning workloads, it delivers access to accelerator drivers, including AWS Neuron driver support. The public preview gives customers hands-on access before general availability (GA) to experiment with new features, validate their applications, and provide direct feedback to the Amazon Linux team.&lt;/p&gt; \n&lt;p&gt;AL2027 Preview AMIs are available through the AWS Management Console across all commercial AWS Regions, with both x86-64 and ARM variants. Container base images are available on Amazon ECR Public Gallery. Customers can submit feedback through the &lt;a href=\"https://github.com/amazonlinux/amazon-linux-2027\"&gt;AL2027 GitHub repository&lt;/a&gt;. For a full list of changes relative to AL2023, see the &lt;a href=\"https://docs.aws.amazon.com/linux/al2027/ug/what-is-amazon-linux.html\"&gt;AL2027 documentation&lt;/a&gt;. To learn more, visit the &lt;a href=\"https://aws.amazon.com/linux/\"&gt;Amazon Linux product page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/announcing-amazon-linux-2027/",
-      "publishedAt": "2026-09-03T08:00:00.000Z",
-      "updatedAt": "2026-09-03T08:00:00.000Z",
-      "categories": [
-        "Compute",
-        "Amazon Linux 2",
-        "Amazon Linux 2023",
-        "Security And Compliance",
-        "Ami"
-      ],
-      "services": [],
-      "tags": [
-        "compute",
-        "amazon linux 2",
-        "amazon linux 2023",
-        "security and compliance",
-        "ami"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [
-        "security"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "11d6a058e5c69feb",
-      "title": "AWS Config now supports 60 new resource types",
-      "description": "AWS Config now supports 60 additional AWS resource types across key services including Amazon Bedrock, Amazon EC2, Amazon SageMaker, and AWS Organizations. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources. With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators. You can now use AWS Config to monitor th",
-      "descriptionHtml": "&lt;p&gt;AWS Config now supports 60 additional AWS resource types across key services including Amazon Bedrock,&amp;nbsp; Amazon EC2, Amazon SageMaker, and AWS Organizations. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources.&lt;/p&gt; \n&lt;p&gt;With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators.&lt;/p&gt; \n&lt;p&gt;You can now use AWS Config to monitor the following newly supported resource types in all &lt;a href=\"https://docs.aws.amazon.com/config/latest/developerguide/what-is-resource-config-coverage.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Regions&lt;/a&gt; where the resources are available:&lt;/p&gt; \n&lt;p&gt;&lt;br&gt; Resource Types:&lt;/p&gt; \n&lt;table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"1045\"&gt; \n &lt;tbody&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\" width=\"355\"&gt;AWS::AppSync::ChannelNamespace&lt;/td&gt; \n   &lt;td width=\"345\"&gt;AWS::EC2::RouteServer&lt;/td&gt; \n   &lt;td width=\"345\"&gt;AWS::Organizations::Policy&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::AppSync::SourceApiAssociation&lt;/td&gt; \n   &lt;td&gt;AWS::EC2::RouteServerEndpoint&lt;/td&gt; \n   &lt;td&gt;AWS::Organizations::ResourcePolicy&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Bedrock::EnforcedGuardrailConfiguration&lt;/td&gt; \n   &lt;td&gt;AWS::EC2::RouteServerPeer&lt;/td&gt; \n   &lt;td&gt;AWS::QuickSight::RefreshSchedule&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Bedrock::Flow&lt;/td&gt; \n   &lt;td&gt;AWS::EKS::PodIdentityAssociation&lt;/td&gt; \n   &lt;td&gt;AWS::RDS::DBProxy&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Bedrock::FlowVersion&lt;/td&gt; \n   &lt;td&gt;AWS::ElasticLoadBalancingV2::ListenerRule&lt;/td&gt; \n   &lt;td&gt;AWS::S3Vectors::Index&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Bedrock::PromptVersion&lt;/td&gt; \n   &lt;td&gt;AWS::GameLiftStreams::Application&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::Action&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::OAuth2CredentialProvider&lt;/td&gt; \n   &lt;td&gt;AWS::GameLiftStreams::StreamGroup&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::Algorithm&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::PaymentManager&lt;/td&gt; \n   &lt;td&gt;AWS::IdentityStore::Group&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::App&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::Policy&lt;/td&gt; \n   &lt;td&gt;AWS::IoT::TopicRuleDestination&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::Context&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::PolicyEngine&lt;/td&gt; \n   &lt;td&gt;AWS::Lightsail::Container&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::Hub&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::BedrockAgentCore::TokenVault&lt;/td&gt; \n   &lt;td&gt;AWS::Lightsail::Database&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::MlflowApp&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Chime::AppInstance&lt;/td&gt; \n   &lt;td&gt;AWS::Lightsail::Distribution&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::ModelCard&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::CloudTrail::ResourcePolicy&lt;/td&gt; \n   &lt;td&gt;AWS::Lightsail::Domain&lt;/td&gt; \n   &lt;td&gt;AWS::SageMaker::ModelPackage&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::CodePipeline::Webhook&lt;/td&gt; \n   &lt;td&gt;AWS::Lightsail::Instance&lt;/td&gt; \n   &lt;td&gt;AWS::SES::MailManagerArchive&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Config::OrganizationConformancePack&lt;/td&gt; \n   &lt;td&gt;AWS::Lightsail::LoadBalancer&lt;/td&gt; \n   &lt;td&gt;AWS::Transfer::WebApp&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Connect::AgentStatus&lt;/td&gt; \n   &lt;td&gt;AWS::Logs::ResourcePolicy&lt;/td&gt; \n   &lt;td&gt;AWS::WorkSpacesWeb::TrustStore&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Connect::EvaluationForm&lt;/td&gt; \n   &lt;td&gt;AWS::MediaConnect::Bridge&lt;/td&gt; \n   &lt;td&gt;AWS::WorkSpacesWeb::UserAccessLoggingSettings&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Connect::View&lt;/td&gt; \n   &lt;td&gt;AWS::NetworkManager::CoreNetwork&lt;/td&gt; \n   &lt;td&gt;AWS::XRay::Group&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::Connect::ViewVersion&lt;/td&gt; \n   &lt;td&gt;AWS::Organizations::Account&lt;/td&gt; \n   &lt;td&gt;AWS::XRay::ResourcePolicy&lt;/td&gt; \n  &lt;/tr&gt;\n  &lt;tr&gt;\n   &lt;td height=\"21\"&gt;AWS::EC2::NetworkPerformanceMetricSubscription&lt;/td&gt; \n   &lt;td&gt;AWS::Organizations::Organization&lt;/td&gt; \n   &lt;td&gt;AWS::XRay::SamplingRule&lt;/td&gt; \n  &lt;/tr&gt;\n &lt;/tbody&gt;\n&lt;/table&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types/",
-      "publishedAt": "2026-09-02T15:00:00.000Z",
-      "updatedAt": "2026-09-02T15:00:00.000Z",
-      "categories": [
-        "Management And Governance",
-        "AWS Config"
-      ],
-      "services": [
-        "Config"
-      ],
-      "tags": [
-        "management and governance",
-        "aws config",
-        "config"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [
-        "Config",
-        "Organizations",
-        "audit"
-      ],
-      "source": "whats-new"
     }
   ]
 }
