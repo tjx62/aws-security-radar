@@ -1,7 +1,60 @@
 {
-  "lastUpdated": "2026-11-23T19:54:58.519Z",
+  "lastUpdated": "2026-11-24T19:23:24.610Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "84f78d7905e4a340",
+      "title": "Know the identity behind the role: Authorize and audit with trusted identity propagation",
+      "description": "Today, AWS is making it easier to grant access and audit activity based on the user or workload (a non-human caller, such as an application, service, or an automated workflow) behind an AWS Identity and Access Management (IAM) role. Trusted identity propagation (TIP) carries the identity of the user or workload with each AWS request, […]",
+      "descriptionHtml": "Today, AWS is making it easier to grant access and audit activity based on the user or workload (a non-human caller, such as an application, service, or an automated workflow) behind an AWS Identity and Access Management (IAM) role. Trusted identity propagation (TIP) carries the identity of the user or workload with each AWS request, […]",
+      "url": "https://aws.amazon.com/blogs/security/know-the-identity-behind-the-role-authorize-and-audit-with-trusted-identity-propagation/",
+      "publishedAt": "2026-11-24T02:52:38.000Z",
+      "updatedAt": "2026-11-24T02:52:38.000Z",
+      "categories": [
+        "AWS IAM Identity Center",
+        "AWS Identity And Access Management (IAM)",
+        "AWS Organizations",
+        "Intermediate (200)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "IAM",
+        "IAM Identity Center",
+        "Security Blog"
+      ],
+      "services": [
+        "IAM",
+        "IAM Identity Center",
+        "Organizations"
+      ],
+      "tags": [
+        "aws iam identity center",
+        "aws identity and access management (iam)",
+        "aws organizations",
+        "intermediate (200)",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "iam",
+        "iam identity center",
+        "security blog",
+        "organizations"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "audit",
+        "role",
+        "access",
+        "identity",
+        "IAM Identity Center"
+      ],
+      "source": "security-blog"
+    },
     {
       "id": "cd1215abe9627fc5",
       "title": "Protect identity data with point-in-time recovery in Amazon Cognito",
@@ -365,7 +418,7 @@
         "security blog",
         "artifact"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2888,6 +2941,40 @@
       "source": "security-blog"
     },
     {
+      "id": "901c5bf3df2b8a01",
+      "title": "AWS Sign-In introduces configurable Sign-in duration of up to 90 days",
+      "description": "AWS Sign-In now enables developers and AI agents to stay authenticated for up to 90 days without frequent sign-ins or consent prompts. With this launch, administrators can configure Sign-in duration , which controls how long an OAuth Sign-in session remains active, for individual IAM users and roles. This capability reduces authentication interruptions for long-running workflows and provides a more secure alternative to static access keys by using short-lived, renewable credentials. Existing session duration limits remain unchanged unless administrators explicitly configure longer durations. S",
+      "descriptionHtml": "&lt;p&gt;AWS Sign-In now enables developers and AI agents to stay authenticated for up to 90 days without frequent sign-ins or consent prompts. With this launch, administrators can configure &lt;b&gt;Sign-in duration&lt;/b&gt;, which controls how long an OAuth Sign-in session remains active, for individual IAM users and roles.&lt;/p&gt; \n&lt;p&gt;This capability reduces authentication interruptions for long-running workflows and provides a more secure alternative to static access keys by using short-lived, renewable credentials. Existing session duration limits remain unchanged unless administrators explicitly configure longer durations.&lt;/p&gt; \n&lt;p&gt;Sign-In Duration supports AWS CLI (aws login), AWS MCP Server, and other OAuth-enabled applications. It does not affect AWS Management Console sessions. Customers can configure the setting using the IAM console, AWS CLI, or IAM API in all AWS commercial Regions.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;To learn more&lt;/b&gt;, see the &lt;a href=\"https://docs.aws.amazon.com/signin/latest/userguide/oauth-sign-in-session-management.html\"&gt;AWS Sign-In session management User Guide&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_update-role-settings.html#id_roles_update-signin-duration\"&gt;Configure Sign-In duration on Role User Guid&lt;/a&gt;e, &lt;a href=\"https://docs.aws.amazon.com/signin/latest/userguide/reference-signin-condition-keys.html#reference-signin-condition-keys-oauth\"&gt;Condition Key User Guide&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/configurable-aws-sign-in-duration/",
+      "publishedAt": "2026-11-23T23:14:00.000Z",
+      "updatedAt": "2026-11-23T23:14:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "AWS Identity And Access Management",
+        "AWS Iam"
+      ],
+      "services": [
+        "IAM"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "aws identity and access management",
+        "aws iam",
+        "iam"
+      ],
+      "isNew": true,
+      "securityScore": 90,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "authentication",
+        "Config",
+        "access",
+        "credential"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "bd06bc1fb7be1d1b",
       "title": "CVE-2026-133199 - Incorrect privilege assignment on reused e-mail addresses or group names in AWS ssosync",
       "description": "Bulletin ID: 2026-194-AWS Publication Date: 11/20/2026 08:30 AM PST Description: Incorrect privilege assignment in the user and group reconciliation logic in AWS ssosync before 2.9.5 might allow an authenticated remote user who is assigned a reused Google Workspace e-mail address or group name to inherit the IAM Identity Center group memberships and permission set assignments of a previously synchronized, unrelated identity, via automatic synchronization of that Google Workspace account or group. Impacted versions: Refer to the article for the most up-to-date and complete information.",
@@ -3959,6 +4046,82 @@
       "source": "security-blog"
     },
     {
+      "id": "186773123d8dc0e9",
+      "title": "Introducing AWS WAF simplified pricing",
+      "description": "Starting today, AWS WAF pricing is easier to predict. Your bill is now based on three dimensions: the resources you protect, the traffic AWS WAF inspects, and the level of protection you apply to that traffic. Existing AWS WAF customers move to the new pricing on February 1, 2027. Until then, you keep your current […]",
+      "descriptionHtml": "Starting today, AWS WAF pricing is easier to predict. Your bill is now based on three dimensions: the resources you protect, the traffic AWS WAF inspects, and the level of protection you apply to that traffic. Existing AWS WAF customers move to the new pricing on February 1, 2027. Until then, you keep your current […]",
+      "url": "https://aws.amazon.com/blogs/security/introducing-aws-waf-simplified-pricing/",
+      "publishedAt": "2026-11-23T20:35:03.000Z",
+      "updatedAt": "2026-11-23T20:35:03.000Z",
+      "categories": [
+        "Announcements",
+        "AWS WAF",
+        "Intermediate (200)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [
+        "WAF"
+      ],
+      "tags": [
+        "announcements",
+        "aws waf",
+        "intermediate (200)",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog",
+        "waf"
+      ],
+      "isNew": true,
+      "securityScore": 80,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "WAF"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "f603898183266ef6",
+      "title": "Amazon Inspector expands runtime reachability analysis for ECR and EC2 findings",
+      "description": "Amazon Inspector has expanded its vulnerability management capabilities with runtime reachability analysis for findings originating from Amazon Elastic Container Registry (Amazon ECR) and Amazon Elastic Compute Cloud (Amazon EC2) instances. Previously, Inspector reported every vulnerability found in a resource, including packages that were never used by applications. Security teams had to manually assess which vulnerabilities actually posed risk in their deployed environments. Now, Inspector automatically identifies which vulnerabilities are potentially reachable by analyzing package placement",
+      "descriptionHtml": "&lt;p&gt;Amazon Inspector has expanded its vulnerability management capabilities with runtime reachability analysis for findings originating from Amazon Elastic Container Registry (Amazon ECR) and Amazon Elastic Compute Cloud (Amazon EC2) instances. Previously, Inspector reported every vulnerability found in a resource, including packages that were never used by applications. Security teams had to manually assess which vulnerabilities actually posed risk in their deployed environments. Now, Inspector automatically identifies which vulnerabilities are potentially reachable by analyzing package placement in container images and process activity on EC2 instances.&lt;/p&gt;\n&lt;p&gt;With runtime reachability analysis, you can focus remediation efforts on vulnerabilities that matter most to your security posture. For container images, Inspector determines whether a vulnerable package is within your application's dockerfile paths defined by WORKDIR, ENTRYPOINT, or CMD instructions. For EC2 instances, Inspector identifies whether a vulnerable package was observed running as a process during the most recent scan. For EC2, customers must use the &lt;a href=\"https://docs.aws.amazon.com/inspector/latest/user/inspector-vm-scanner.html\" target=\"_blank\"&gt;Inspector VM Scanner&lt;/a&gt; for agent-based scanning to get this capability. This helps organizations managing large container fleets or complex applications prioritize remediation by distinguishing between vulnerabilities that are potentially reachable versus those in unused dependencies, reducing noise and enabling development and security teams to work more efficiently. Newly generated findings will have runtime reachability analysis included, and backfill of existing findings will be completed over time.&lt;/p&gt;\n&lt;p&gt;Runtime reachability for Inspector findings is available at no additional charge and is available in all AWS Regions where Inspector is already available.&lt;/p&gt;\n&lt;p&gt;To learn more, visit the &lt;a href=\"https://aws.amazon.com/inspector/\"&gt;Amazon Inspector product page&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/inspector-runtime-reachability/",
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "updatedAt": "2026-11-23T08:00:00.000Z",
+      "categories": [
+        "Amazon Inspector",
+        "Amazon Ec2",
+        "Security Identity And Compliance",
+        "Amazon Ecr"
+      ],
+      "services": [
+        "EC2",
+        "ECR",
+        "Inspector"
+      ],
+      "tags": [
+        "amazon inspector",
+        "amazon ec2",
+        "security identity and compliance",
+        "amazon ecr",
+        "ec2",
+        "ecr",
+        "inspector"
+      ],
+      "isNew": true,
+      "securityScore": 80,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Inspector",
+        "security",
+        "vulnerability"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "f0e02320ca754358",
       "title": "Scope down permissions of existing sessions using AWS STS GetScopedCredentials",
       "description": "When you build AI agents, you often want each agent or sub-agent to have only the permissions its tasks require, rather than the full permissions of the session that started it. GetScopedCredentials is a new AWS Security Token Service (AWS STS) API that you can use to scope down the permissions of existing temporary security […]",
@@ -4561,6 +4724,111 @@
       "source": "security-blog"
     },
     {
+      "id": "47d9616689820810",
+      "title": "Introducing API and AI security on AWS, from discovery to protection",
+      "description": "APIs have run digital businesses for more than a decade. For a while, there seemed to be nothing new left to say about them. That changed in 2026, when AI endpoints joined them. Teams now run large language model (LLM) inference endpoints, Model Context Protocol (MCP) servers, and Agent2Agent (A2A) servers beside their REST APIs, […]",
+      "descriptionHtml": "APIs have run digital businesses for more than a decade. For a while, there seemed to be nothing new left to say about them. That changed in 2026, when AI endpoints joined them. Teams now run large language model (LLM) inference endpoints, Model Context Protocol (MCP) servers, and Agent2Agent (A2A) servers beside their REST APIs, […]",
+      "url": "https://aws.amazon.com/blogs/security/introducing-api-and-ai-security-on-aws-from-discovery-to-protection/",
+      "publishedAt": "2026-11-23T20:25:17.000Z",
+      "updatedAt": "2026-11-23T20:25:17.000Z",
+      "categories": [
+        "Announcements",
+        "Artificial Intelligence",
+        "AWS WAF",
+        "Intermediate (200)",
+        "Launch",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [
+        "WAF"
+      ],
+      "tags": [
+        "announcements",
+        "artificial intelligence",
+        "aws waf",
+        "intermediate (200)",
+        "launch",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog",
+        "waf"
+      ],
+      "isNew": true,
+      "securityScore": 75,
+      "securityLevel": "high",
+      "securityMatches": [
+        "security",
+        "WAF"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "90d8a2522077f46d",
+      "title": "AWS WAF introduces simplified pricing",
+      "description": "AWS WAF now offers simplified pricing that follows what you protect instead of how you configure it. Previously, you paid separate charges for each web ACL, rule, rule group subscription, and capacity tier, making every security decision a billing calculation. Now, your bill follows three dimensions: the resources you protect, the traffic AWS WAF inspects, and the level of protection you apply. This makes the cost-benefit trade-off easy to understand, and adding or changing rules no longer changes your rate. This new pricing goes into effect on Feb 1, 2027. The new model makes protection costs",
+      "descriptionHtml": "&lt;p&gt;AWS WAF now offers simplified pricing that follows what you protect instead of how you configure it. Previously, you paid separate charges for each web ACL, rule, rule group subscription, and capacity tier, making every security decision a billing calculation. Now, your bill follows three dimensions: the resources you protect, the traffic AWS WAF inspects, and the level of protection you apply. This makes the cost-benefit trade-off easy to understand, and adding or changing rules no longer changes your rate.&amp;nbsp;This new pricing goes into effect on Feb 1, 2027.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;The new model makes protection costs predictable before you deploy. Each web ACL now includes up to 2,500 WCU at no extra charge, up from 1,500, and you can add rules such as Bot Control common protections or the Anti-DDoS rule group without additional fees. You pay a resource fee for each protected resource, a base request fee for every request AWS WAF inspects, and a premium request fee only for traffic evaluated by advanced protections like Bot Control targeted protections, Fraud Control, API Security, and AI Security.&lt;/p&gt; \n&lt;p&gt;AWS WAF's new pricing is effective from Feb 1, 2027 in all AWS commercial Regions, including Cape Town, Hong Kong, Hyderabad, Jakarta, Malaysia, Melbourne, Mumbai, New Zealand, Osaka, Seoul, Singapore, Sydney, Taipei, Thailand, Tokyo, Calgary, Frankfurt, Ireland, London, Milan, Paris, Spain, Stockholm, Zurich, Tel Aviv, Sao Paulo, N. Virginia, Ohio, N. California, Oregon, as well as in AWS GovCloud, China Regions, and AWS Isolated Regions.&lt;/p&gt; \n&lt;p&gt;To learn more, visit the &lt;a href=\"https://aws.amazon.com/waf/pricing/\"&gt;AWS WAF pricing page&lt;/a&gt; and review the &lt;a href=\"https://docs.aws.amazon.com/waf/\"&gt;AWS WAF Developer Guide&lt;/a&gt;&amp;nbsp;as well as the blog post&amp;nbsp;&lt;a href=\"https://aws.amazon.com/blogs/security/introducing-aws-waf-simplified-pricing/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS WAF pricing now follows what you protect, not how you configure it&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-introduces-simplified-pricing/",
+      "publishedAt": "2026-11-23T18:51:00.000Z",
+      "updatedAt": "2026-11-23T18:51:00.000Z",
+      "categories": [
+        "Security Identity And Compliance",
+        "AWS Waf"
+      ],
+      "services": [
+        "WAF"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "aws waf",
+        "waf"
+      ],
+      "isNew": true,
+      "securityScore": 75,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "WAF",
+        "security",
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "90b6faecc0356247",
+      "title": "AWS WAF announces automated discovery and protection for API endpoints",
+      "description": "Automated API discovery and protection are now generally available, enabling you to discover every API behind Amazon API Gateway, Application Load Balancers, and Amazon CloudFront across your AWS Organization and protect them using AWS WAF. Discovery is available through the new API Gateway API Portal, which identifies the APIs automatically from traffic logs and service configuration records, with no agents to deploy or logs to forward. The API Portal classifies the APIs it finds, identifies zombie and shadow APIs, evaluates each API's security posture, and reports findings, including the one",
+      "descriptionHtml": "&lt;p&gt;Automated API discovery and protection are now generally available, enabling you to discover every API behind Amazon API Gateway, Application Load Balancers, and Amazon CloudFront across your AWS Organization and protect them using AWS WAF.&lt;/p&gt; \n&lt;p&gt;Discovery is available through the new API Gateway API Portal, which identifies the APIs automatically from traffic logs and service configuration records, with no agents to deploy or logs to forward. The API Portal classifies the APIs it finds, identifies zombie and shadow APIs, evaluates each API's security posture, and reports findings, including the ones that are missing WAF protections. For unprotected APIs, customers can enable protection using WAF.&lt;/p&gt; \n&lt;p&gt;Protection is available through the new AWS WAF API Security managed rule group, which protects your APIs against the most exploited API attack categories: Broken Object Level Authorization (BOLA), where the attackers change record IDs in requests to read other users' data, Broken Authentication and Credential Stuffing, where the attackers forge tokens or try stolen passwords at scale, and API Reconnaissance and Enumeration, where the attackers map an API by guessing hidden routes and probing for exposed docs. The events detected by WAF are consolidated into the API Portal findings to provide a complete security picture of your APIs. You can use API Security alongside other AWS Managed Rules or your own custom rules to protect your applications.&lt;/p&gt; \n&lt;p&gt;Together, API Portal and API Security provide you a complete solution from discovery of all APIs in your AWS environment to protecting them, without having to write any custom rules.&lt;/p&gt; \n&lt;p&gt;API Portal is available in 32 AWS Regions. See the &lt;a href=\"https://aws.amazon.com/api-gateway/faqs/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Amazon API Gateway FAQ&lt;/a&gt; for the list. API Security is available in all AWS Regions where AWS WAF is available, except the AWS GovCloud (US) Regions, the China Regions, and the AWS European Sovereign Cloud.&lt;/p&gt; \n&lt;p&gt;To get started, see the following resources:&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/waf/\"&gt;AWS WAF product page&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-api-security.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS WAF API Security in the AWS WAF Developer Guide&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/apigateway/latest/developerguide/apiportal.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;API Portal Developer Guide&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/blogs/security/introducing-api-and-ai-security-on-aws-from-discovery-to-protection/\"&gt;Introducing API and AI security on AWS, from discovery to protection blog post&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/api-security-with-waf/",
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "updatedAt": "2026-11-23T08:00:00.000Z",
+      "categories": [
+        "AWS Waf",
+        "Security Identity And Compliance",
+        "Amazon Api Gateway"
+      ],
+      "services": [
+        "WAF"
+      ],
+      "tags": [
+        "aws waf",
+        "security identity and compliance",
+        "amazon api gateway",
+        "waf"
+      ],
+      "isNew": true,
+      "securityScore": 75,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "WAF",
+        "security",
+        "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "e52d70aad8b40dfd",
       "title": "AWS WAF launches new Security Analytics Dashboard for real-time investigations",
       "description": "AWS WAF now gives you one place to find and stop unwanted traffic across every application in your account. The new AWS WAF security analytics dashboard brings together traffic from all of your protection packs (web ACLs), whether they protect Regional resources or Amazon CloudFront distributions, into a single view. The dashboard also lets you search request logs right in the console, with no logging pipeline to build, and includes 21 days of full-fidelity request data at no additional cost. It is available alongside the existing dashboard for each protection pack (WebACL), which continues to",
@@ -4700,7 +4968,7 @@
       "tags": [
         "efs"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 75,
       "securityLevel": "high",
       "securityMatches": [
@@ -5470,6 +5738,44 @@
       "source": "security-blog"
     },
     {
+      "id": "3f6d6d1d42014e73",
+      "title": "AWS achieves Spain’s national Limited Distribution (Difusión Limitada) and NATO Restricted accreditation in the AWS Europe (Spain) Region",
+      "description": "Spanish version » Amazon Web Services (AWS) is pleased to announce that AWS has achieved Spain’s national Limited Distribution (“Difusión Limitada”) and NATO Restricted accreditation for the AWS Europe (Spain) Region. The Difusión Limitada and NATO Restricted accreditation was granted by the Spanish Delegated Authority for the Security of Classified Information, the Secretary of State […]",
+      "descriptionHtml": "Spanish version » Amazon Web Services (AWS) is pleased to announce that AWS has achieved Spain’s national Limited Distribution (“Difusión Limitada”) and NATO Restricted accreditation for the AWS Europe (Spain) Region. The Difusión Limitada and NATO Restricted accreditation was granted by the Spanish Delegated Authority for the Security of Classified Information, the Secretary of State […]",
+      "url": "https://aws.amazon.com/blogs/security/aws-achieves-spains-national-limited-distribution-difusion-limitada-and-nato-restricted-accreditation-in-the-aws-europe-spain-region/",
+      "publishedAt": "2026-11-24T17:38:00.000Z",
+      "updatedAt": "2026-11-24T17:38:00.000Z",
+      "categories": [
+        "Announcements",
+        "AWS Spain",
+        "Foundational (100)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog",
+        "Spain"
+      ],
+      "services": [],
+      "tags": [
+        "announcements",
+        "aws spain",
+        "foundational (100)",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog",
+        "spain"
+      ],
+      "isNew": true,
+      "securityScore": 65,
+      "securityLevel": "high",
+      "securityMatches": [
+        "security",
+        "Secret"
+      ],
+      "source": "security-blog"
+    },
+    {
       "id": "a39f15289b90bace",
       "title": "AWS Network Firewall introduces automated Internet firewall in public preview",
       "description": "AWS Network Firewall announces the public preview of automated Internet firewall, a new centralized control that allows you to configure Network Firewall, with native network address translation (NAT) capability, on the internet gateways of all the Virtual Private Clouds (VPCs) in your environment. Using automated Internet firewall mode, you can centrally define your Network Firewall security rules and enforce them on all inbound and outbound traffic across the internet gateways of your VPCs. You are not required to make routing or architectural changes to deploy automated Internet firewall. Y",
@@ -6133,6 +6439,41 @@
         "token",
         "credential",
         "Secret"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "86f55511f44ad82c",
+      "title": "AWS WAF announces automated discovery and protection for LLM, MCP, and A2A endpoints using Amazon Bedrock Guardrails",
+      "description": "Automated AI endpoint discovery and protection are now generally available, enabling you to discover language model (LLM), Model Context Protocol (MCP), and Agent2Agent (A2A) endpoints behind Amazon API Gateway, Application Load Balancers, and Amazon CloudFront across your AWS Organization and protect them using AWS WAF. Discovery is available through the new API Gateway API Portal, which recognizes the AI endpoints among the APIs it discovers automatically from traffic logs and service configuration records, with no agents to deploy or logs to forward. An undocumented, public-facing MCP serve",
+      "descriptionHtml": "&lt;p&gt;Automated AI endpoint discovery and protection are now generally available, enabling you to discover language model (LLM), Model Context Protocol (MCP), and Agent2Agent (A2A) endpoints behind Amazon API Gateway, Application Load Balancers, and Amazon CloudFront across your AWS Organization and protect them using AWS WAF.&lt;/p&gt; \n&lt;p&gt;Discovery is available through the new API Gateway API Portal, which recognizes the AI endpoints among the APIs it discovers automatically from traffic logs and service configuration records, with no agents to deploy or logs to forward. An undocumented, public-facing MCP server appears as a shadow API. For unprotected AI endpoints, customers can enable protection using WAF.&lt;/p&gt; \n&lt;p&gt;Protection is available through the new AWS WAF AI Security managed rule group, which protects your AI endpoints. AWS WAF implements protocol recognition and compliance checks to block malformed MCP and A2A messages. When you enable content inspection, the rule group calls Amazon Bedrock Guardrails InvokeGuardrailsCheck API to detect prompt injection, jailbreak attempts, harmful content in requests, and sensitive information in responses. You can use AI Security alongside other AWS Managed Rules or your own custom rules to protect your applications. Additional fees apply, and Amazon Bedrock charges separately for content inspection calls.&lt;/p&gt; \n&lt;p&gt;Together, API Portal and AI Security provide you a complete solution from discovery of all AI endpoints in your AWS environment to protecting them, without having to write any custom rules.&lt;/p&gt; \n&lt;p&gt;API Portal is available in 32 AWS Regions. See the &lt;a href=\"https://aws.amazon.com/api-gateway/faqs/\"&gt;Amazon API Gateway FAQ&lt;/a&gt; for the list. AI Security is available in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (Oregon), Europe (London), Europe (Stockholm), Asia Pacific (Tokyo), and Asia Pacific (Sydney).&lt;/p&gt; \n&lt;p&gt;To get started, see the following resources:&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/waf/features/ai-security/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS WAF product page&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-ai-security.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS WAF AI Security in the AWS WAF Developer Guide&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/apigateway/latest/developerguide/apiportal.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;API Portal Developer Guide&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/blogs/security/introducing-api-and-ai-security-on-aws-from-discovery-to-protection/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Introducing API and AI security on AWS, from discovery to protection blog post&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-ai-endpoint-discovery-protection/",
+      "publishedAt": "2026-11-23T18:47:00.000Z",
+      "updatedAt": "2026-11-23T18:47:00.000Z",
+      "categories": [
+        "Amazon Api Gateway",
+        "Amazon Bedrock",
+        "Security Identity And Compliance",
+        "AWS Waf"
+      ],
+      "services": [
+        "WAF",
+        "Bedrock"
+      ],
+      "tags": [
+        "amazon api gateway",
+        "amazon bedrock",
+        "security identity and compliance",
+        "aws waf",
+        "waf",
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "WAF",
+        "Config"
       ],
       "source": "whats-new"
     },
@@ -7182,6 +7523,74 @@
       "source": "security-blog"
     },
     {
+      "id": "ab5b83d36efb0cf3",
+      "title": "AWS completed its second ISO/IEC 42001:2023 surveillance audit",
+      "description": "In November 2024, Amazon Web Services (AWS) was the first major cloud service provider to announce the ISO/IEC 42001 accredited certification for AI services, covering Amazon Bedrock, Amazon Q Business, Amazon Textract, and Amazon Transcribe. In November 2026, AWS successfully completed its second surveillance audit for ISO 42001:2023, Artificial Intelligence Management System (AIMS), with no […]",
+      "descriptionHtml": "In November 2024, Amazon Web Services (AWS) was the first major cloud service provider to announce the ISO/IEC 42001 accredited certification for AI services, covering Amazon Bedrock, Amazon Q Business, Amazon Textract, and Amazon Transcribe. In November 2026, AWS successfully completed its second surveillance audit for ISO 42001:2023, Artificial Intelligence Management System (AIMS), with no […]",
+      "url": "https://aws.amazon.com/blogs/security/aws-completed-its-second-iso-iec-420012023-surveillance-audit/",
+      "publishedAt": "2026-11-24T18:32:21.000Z",
+      "updatedAt": "2026-11-24T18:32:21.000Z",
+      "categories": [
+        "Announcements",
+        "Foundational (100)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "announcements",
+        "foundational (100)",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 55,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "audit"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "3dc1152e1f499045",
+      "title": "Amazon API Gateway announces API Portal",
+      "description": "Today, Amazon API Gateway announces API Portal , a new feature that discovers, governs, and documents the APIs and AI endpoints behind Amazon API Gateway, Application Load Balancer, and Amazon CloudFront across your AWS organization. Many organizations can't see which APIs are running, which were never registered, which are no longer maintained, and which lack protection. API Portal builds a continuously updated inventory using AWS-side traffic logs and service configuration records, with nothing to install, no logs to forward, and no traffic to reroute, for a single account or your entire AWS",
+      "descriptionHtml": "&lt;p&gt;Today, Amazon API Gateway announces &lt;a href=\"https://docs.aws.amazon.com/apigateway/latest/developerguide/apiportal.html\"&gt;API Portal&lt;/a&gt;, a new feature that discovers, governs, and documents the APIs and AI endpoints behind Amazon API Gateway, Application Load Balancer, and Amazon CloudFront across your AWS organization.&lt;/p&gt; \n&lt;p&gt;Many organizations can't see which APIs are running, which were never registered, which are no longer maintained, and which lack protection. API Portal builds a continuously updated inventory using AWS-side traffic logs and service configuration records, with nothing to install, no logs to forward, and no traffic to reroute,&amp;nbsp;for a single account or your entire AWS organization.&lt;/p&gt; \n&lt;p&gt;Every discovered API starts as a shadow API until you choose to manage it. API Portal labels each API as public or private and identifies AI endpoints, including MCP servers, A2A servers, and LLM endpoints. For managed APIs, it flags those that stop receiving traffic or lose their owner and evaluates security posture against best practices such as authentication, throttling, and AWS WAF protection. With &lt;a href=\"https://aws.amazon.com/waf/features/api-security/\"&gt;AWS WAF API Security&lt;/a&gt;, it also shows the security events detected per API.&lt;/p&gt; \n&lt;p&gt;You can publish any managed API in a documentation portal for internal teams or external partners, with your branding, Amazon Cognito access control, and interactive Try it pages. If you already use API Gateway Portals, your portals continue to work and are now managed from the Documentation Portals section of API Portal.&lt;/p&gt; \n&lt;p&gt;API Portal is available in 32 AWS Regions; see the Amazon API Gateway &lt;a href=\"https://aws.amazon.com/api-gateway/faqs/\"&gt;FAQ&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/api-gateway/pricing/\"&gt;pricing&lt;/a&gt; pages for details.&lt;/p&gt; \n&lt;p&gt;To get started, see the following resources:&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/api-gateway/\"&gt;Amazon API Gateway product page&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/blogs/security/introducing-api-and-ai-security-on-aws-from-discovery-to-protection/\"&gt;Introducing API and AI security on AWS blog&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/apigateway/latest/developerguide/apiportal.html\"&gt;API Portal documentation&lt;/a&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-api-security.html\"&gt;AWS WAF API Security documentation&lt;/a&gt;&lt;/p&gt; \n&lt;ul&gt; \n&lt;/ul&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-api-gateway-announces-api-portal/",
+      "publishedAt": "2026-11-23T20:00:00.000Z",
+      "updatedAt": "2026-11-23T20:00:00.000Z",
+      "categories": [
+        "AWS Waf",
+        "Networking And Content Delivery",
+        "Amazon Api Gateway"
+      ],
+      "services": [
+        "API Gateway",
+        "WAF"
+      ],
+      "tags": [
+        "aws waf",
+        "networking and content delivery",
+        "amazon api gateway",
+        "api gateway",
+        "waf"
+      ],
+      "isNew": true,
+      "securityScore": 55,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Config",
+        "Organizations",
+        "no longer maintained",
+        "WAF"
+      ],
+      "source": "whats-new"
+    },
+    {
       "id": "0d140051579b6a73",
       "title": "PHP Foundation Security Releases – November 19, 2026",
       "description": "Bulletin ID: 2026-190-AWS Publication Date: 11/19/2026 10:00 AM PST Description: AWS is aware of security releases that the PHP Foundation published on November 19, 2026. PHP versions 8.2.36, 8.3.37, 8.4.28, and 8.5.13 address 17 issues across the PHP 8.2, 8.3, 8.4, and 8.5 branches. The issues are in the following components: - The PHP engine - PHP-FPM and the PHP CGI binary - The SOAP, Phar, session, DOM, and date extensions - The HTTP and FTP stream wrappers - The PHP 8.5 RFC 3986 URI implementation Patching the affected software remains the only complete fix and should be the first priorit",
@@ -8051,6 +8460,61 @@
         "identity"
       ],
       "source": "security-blog"
+    },
+    {
+      "id": "e7dee3474024e74d",
+      "title": "CVE-2026-134069 - Use of a default cryptographic key in the instance registration of Amazon SSM Agent on AWS Windows Server AMIs",
+      "description": "Bulletin ID: 2026-197-AWS Publication Date: 11/23/2026 13:30 PM PST Description: Amazon SSM Agent is the AWS Systems Manager agent that runs on EC2 instances so they can be managed through Systems Manager. We identified CVE-2026-134069, an issue in Amazon SSM Agent on AWS-provided Windows Server AMIs released before 2026-09-09, where instances launched from the same AMI shared one instance registration key. On instances managed through Default Host Management Configuration, a local user without administrative privileges might be able to obtain the instance's Default Host Management Configurati",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-197-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/23/2026 13:30 PM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Amazon SSM Agent is the AWS Systems Manager agent that runs on EC2 instances so they can be managed through Systems Manager.&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-134069, an issue in Amazon SSM Agent on AWS-provided Windows Server AMIs released before 2026-09-09, where instances launched from the same AMI shared one instance registration key. On instances managed through Default Host Management Configuration, a local user without administrative privileges might be able to obtain the instance's Default Host Management Configuration role credentials.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Amazon SSM Agent &amp;lt; 3.3.5226.0 on AWS Windows Server AMIs released before 2026-09-09. Instances launched from these AMIs remain affected after an in-place agent upgrade.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-197-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-197-aws/",
+      "publishedAt": "2026-11-23T21:54:18.000Z",
+      "updatedAt": "2026-11-23T21:54:18.000Z",
+      "categories": [],
+      "services": [
+        "SSM"
+      ],
+      "tags": [
+        "ssm"
+      ],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Config",
+        "Systems Manager"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "8e7f912f4fd9d932",
+      "title": "Amazon CloudFront is now available in the AWS European Sovereign Cloud",
+      "description": "Amazon CloudFront is now available in the AWS European Sovereign Cloud. Organizations with strict EU sovereignty requirements can now deliver websites, applications, and APIs with the performance, security, and scale of CloudFront, all within the EU. Until now, customers had to build and run their own delivery and TLS termination infrastructure to keep traffic and data inside the EU. With CloudFront in the AWS European Sovereign Cloud, content delivery, TLS termination, logs, and customer configuration stay within the European Sovereign Cloud boundary. The AWS European Sovereign Cloud is physi",
+      "descriptionHtml": "&lt;p&gt;Amazon CloudFront is now available in the AWS European Sovereign Cloud. Organizations with strict EU sovereignty requirements can now deliver websites, applications, and APIs with the performance, security, and scale of CloudFront, all within the EU. Until now, customers had to build and run their own delivery and TLS termination infrastructure to keep traffic and data inside the EU.&lt;/p&gt; \n&lt;p&gt;With CloudFront in the AWS European Sovereign Cloud, content delivery, TLS termination, logs, and customer configuration stay within the European Sovereign Cloud boundary. The AWS European Sovereign Cloud is physically and logically separate from other AWS Regions, and only EU-resident personnel operate it. This helps governments, healthcare, financial services and other regulated industries meet data residency and operational sovereignty requirements without trading away performance and scale. Customers use the same CloudFront APIs and console experience they already know making it easy to transfer over existing deployments and automations.&amp;nbsp;If you plan to run media streaming or other high-volume workloads, contact your AWS account team and we can help you find the right solution, including options in AWS commercial Regions.&lt;/p&gt; \n&lt;p&gt;To get started, sign in to your AWS European Sovereign Cloud account and create a distribution in the CloudFront console. To learn more about available features and pricing, see the &lt;a href=\"https://docs.aws.eu/esc/latest/userguide/cloudfront.html\"&gt;CloudFront Developer Guide&lt;/a&gt;&amp;nbsp;and &lt;a href=\"https://www.aws.eu/cloudfront/pricing/\"&gt;CloudFront pricing page in ESC&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-european-sovereign-cloud",
+      "publishedAt": "2026-11-23T18:00:00.000Z",
+      "updatedAt": "2026-11-23T18:00:00.000Z",
+      "categories": [
+        "Networking And Content Delivery",
+        "Amazon Cloudfront"
+      ],
+      "services": [
+        "CloudFront"
+      ],
+      "tags": [
+        "networking and content delivery",
+        "amazon cloudfront",
+        "cloudfront"
+      ],
+      "isNew": true,
+      "securityScore": 50,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "TLS",
+        "security",
+        "Config",
+        "Organizations"
+      ],
+      "source": "whats-new"
     },
     {
       "id": "3adcb75ec5e9bc70",
@@ -8989,7 +9453,7 @@
       "tags": [
         "timestream"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "medium",
       "securityMatches": [
@@ -10263,6 +10727,25 @@
       "securityLevel": "medium",
       "securityMatches": [],
       "source": "security-blog"
+    },
+    {
+      "id": "bf10f01d83195e41",
+      "title": "CVE-2026-134066 - Query injection via schema-derived identifiers in Graph Explorer",
+      "description": "Bulletin ID: 2026-199-AWS Publication Date: 11/24/2026 10:30 AM PST Description: Graph Explorer is an open-source tool for browsing and searching graph data, which customers self-host against Amazon Neptune or other graph databases. We identified CVE-2026-134066, an issue in the query construction of Graph Explorer before version 3.2.1. Graph Explorer inserted property keys and labels read from the connected graph database into Gremlin, openCypher and SPARQL query text without escaping. A user with write access to the connected graph database could create a crafted property key or label that, ",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-199-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/24/2026 10:30 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Graph Explorer is an open-source tool for browsing and searching graph data, which customers self-host against Amazon Neptune or other graph databases.&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-134066, an issue in the query construction of Graph Explorer before version 3.2.1. Graph Explorer inserted property keys and labels read from the connected graph database into Gremlin, openCypher and SPARQL query text without escaping. A user with write access to the connected graph database could create a crafted property key or label that, when another user performs a search, causes Graph Explorer to run unintended query logic that accesses and modifies data in that database with Graph Explorer's privileges. On Amazon Neptune, the SPARQL path is not affected.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt; 3.2.1&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-199-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-199-aws/",
+      "publishedAt": "2026-11-24T18:44:47.000Z",
+      "updatedAt": "2026-11-24T18:44:47.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "access"
+      ],
+      "source": "security-bulletin"
     },
     {
       "id": "fd8898dedddf6c26",
@@ -12165,6 +12648,40 @@
       "source": "whats-new"
     },
     {
+      "id": "2022ac0ba21f6a1c",
+      "title": "CVE-2026-134068 - Stack-based buffer overflow in replication origin name parsing in AWS pgactive",
+      "description": "Bulletin ID: 2026-198-AWS Publication Date: 11/24/2026 10:00 AM PST Description: pgactive is an open source PostgreSQL extension from AWS that provides active-active replication between PostgreSQL databases. We identified CVE-2026-134068, an issue in the replication origin name parsing component of pgactive. Under certain circumstances, an authenticated database user with specific privileges might be able to execute arbitrary operating system commands as the database operating system user. Impacted versions: >= 2.1.0 AND Refer to the article for the most up-to-date and complete information.",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-198-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/24/2026 10:00 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;pgactive is an open source PostgreSQL extension from AWS that provides active-active replication between PostgreSQL databases.&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-134068, an issue in the replication origin name parsing component of pgactive. Under certain circumstances, an authenticated database user with specific privileges might be able to execute arbitrary operating system commands as the database operating system user.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;= 2.1.0 AND &amp;lt; 2.1.10&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-198-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-198-aws/",
+      "publishedAt": "2026-11-24T18:09:02.000Z",
+      "updatedAt": "2026-11-24T18:09:02.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "998fcd09900f24af",
+      "title": "CVE-2026-134056 - Out-of-bounds write in padded block cipher decryption in AWS-LC",
+      "description": "Bulletin ID: 2026-196-AWS Publication Date: 11/23/2026 12:00 PM PST Description: We identified CVE-2026-134056, an out-of-bounds write issue in AWS-LC's padded block cipher decryption. It affects applications that decrypt CBC or ECB ciphertext with PKCS7 padding over multiple update calls. If the output buffer is the minimum documented size, AWS-LC can write one byte past its end. This might crash the application or corrupt adjacent memory. This issue does not disclose data. The aws-lc-rs StreamingDecryptingKey API has a similar issue with cbc_pkcs7 and ecb_pkcs7. Its less_safe_update function",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-196-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/23/2026 12:00 PM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt; We identified CVE-2026-134056, an out-of-bounds write issue in AWS-LC's padded block cipher decryption. It affects applications that decrypt CBC or ECB ciphertext with PKCS7 padding over multiple update calls. If the output buffer is the minimum documented size, AWS-LC can write one byte past its end. This might crash the application or corrupt adjacent memory. This issue does not disclose data. The aws-lc-rs StreamingDecryptingKey API has a similar issue with cbc_pkcs7 and ecb_pkcs7. Its less_safe_update function can write up to one block (16 bytes for AES) past the buffer. Single-call decryption is not affected. Neither is decryption without padding, nor modes such as CTR, CFB, and GCM.&lt;/p&gt; \n&lt;p&gt;Customers of AWS services do not need to take action.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-196-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-196-aws/",
+      "publishedAt": "2026-11-23T20:29:41.000Z",
+      "updatedAt": "2026-11-23T20:29:41.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
+    },
+    {
       "id": "43a6c4bf9895cdd0",
       "title": "Amazon CloudFront Announces HTTP/2 Support for Connections to Origins",
       "description": "Amazon CloudFront now supports HTTP/2 connections to custom origins and VPC origins. HTTP/2 lets CloudFront send many requests over fewer connections to your origin. This means fewer connections and TLS handshakes for your origin to handle, which improves performance for API and agentic workloads, such as AI agents calling MCP servers or mobile and web apps calling backend APIs. Until now, CloudFront connected to origins only over HTTP/1.1, which handles one request at a time per connection. When traffic spiked, for example when an AI agent made many tool calls at once, CloudFront had to open ",
@@ -12352,7 +12869,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -14252,336 +14769,6 @@
       "services": [],
       "tags": [],
       "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "50ce914e270a9547",
-      "title": "CVE-2026-12530 - Improper neutralization of argument delimiters in AWS Bedrock AgentCore Python SDK install_packages()",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-044-aws/",
-      "publishedAt": "2026-10-14T18:38:30.000Z",
-      "updatedAt": "2026-10-14T18:38:30.000Z",
-      "categories": [],
-      "services": [
-        "Bedrock"
-      ],
-      "tags": [
-        "bedrock"
-      ],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "ac3e68fa655f8834",
-      "title": "CVE-2026-7791 - Local Privilege Escalation via TOCTOU Race Condition in Amazon WorkSpaces Skylight Agent",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-025-aws/",
-      "publishedAt": "2026-10-14T18:37:57.000Z",
-      "updatedAt": "2026-10-14T18:37:57.000Z",
-      "categories": [],
-      "services": [
-        "WorkSpaces"
-      ],
-      "tags": [
-        "workspaces"
-      ],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "6120f2eaa8bc980e",
-      "title": "Issue with FreeRTOS-Plus-TCP - IPv6 Router Advertisement Memory Safety Issues",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-023-aws/",
-      "publishedAt": "2026-10-14T18:37:57.000Z",
-      "updatedAt": "2026-10-14T18:37:57.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "cb3771cf832e909c",
-      "title": "CVE-2026-5429 - Kiro IDE Webview Cross-Site Scripting via Workspace Color Theme",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-012-aws/",
-      "publishedAt": "2026-10-14T18:37:56.000Z",
-      "updatedAt": "2026-10-14T18:37:56.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "33113657d4bc2ade",
-      "title": "AWS Backup now supports Amazon FSx file systems in the Asia Pacific (New Zealand) Region",
-      "description": "AWS Backup now supports Amazon FSx for Lustre, Amazon FSx for NetApp ONTAP, Amazon FSx for OpenZFS, and Amazon FSx for Windows File Server in the Asia Pacific (New Zealand) Region. With this launch, you can use AWS Backup to centrally automate and manage data protection for your Amazon FSx file systems in the Asia Pacific (New Zealand) Region, alongside your other supported AWS resources. You can create policy-based backup plans to schedule backups and apply retention rules, store backups in encrypted vaults, and restore file systems when needed. This helps you meet business continuity, disast",
-      "descriptionHtml": "&lt;p&gt;AWS Backup now supports Amazon FSx for Lustre, Amazon FSx for NetApp ONTAP, Amazon FSx for OpenZFS, and Amazon FSx for Windows File Server in the Asia Pacific (New Zealand) Region.&lt;/p&gt; \n&lt;p&gt;With this launch, you can use AWS Backup to centrally automate and manage data protection for your Amazon FSx file systems in the Asia Pacific (New Zealand) Region, alongside your other supported AWS resources. You can create policy-based backup plans to schedule backups and apply retention rules, store backups in encrypted vaults, and restore file systems when needed. This helps you meet business continuity, disaster recovery, and regulatory compliance requirements from a single, centralized service.&lt;/p&gt; \n&lt;p&gt;To get started, visit the AWS Backup console, AWS Command Line Interface (CLI), or AWS SDKs. For a complete list of supported Regions and features, visit the &lt;a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/backup-feature-availability.html#features-by-region\"&gt;AWS Backup documentation&lt;/a&gt;. To learn more about AWS Backup, visit the &lt;a href=\"https://aws.amazon.com/backup/\"&gt;product page&lt;/a&gt; and &lt;a href=\"https://aws.amazon.com/backup/pricing/\"&gt;pricing page&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-backup-fsx-asia-pacific-new-zealand/",
-      "publishedAt": "2026-10-14T08:00:00.000Z",
-      "updatedAt": "2026-10-14T08:00:00.000Z",
-      "categories": [
-        "Storage",
-        "Amazon Fsx For Lustre",
-        "Amazon Fsx Netapp Ontap",
-        "AWS Backup"
-      ],
-      "services": [
-        "FSx",
-        "Backup"
-      ],
-      "tags": [
-        "storage",
-        "amazon fsx for lustre",
-        "amazon fsx netapp ontap",
-        "aws backup",
-        "fsx",
-        "backup"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [
-        "encrypt",
-        "policy",
-        "data protection"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "091786eb1e65d4e3",
-      "title": "CVE-2026-107783 - Insertion of sensitive information into log file in AWS Tools for PowerShell",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-132-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-132-aws/",
-      "publishedAt": "2026-10-09T16:15:39.000Z",
-      "updatedAt": "2026-10-09T16:15:39.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "7b2fbfb42940026a",
-      "title": "CVE-2026-107322 - OS command injection in Amazon Agent Plugins for AWS databases-on-aws",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-130-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-130-aws/",
-      "publishedAt": "2026-10-08T19:54:58.000Z",
-      "updatedAt": "2026-10-08T19:54:58.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "ad5f44432b340c99",
-      "title": "CVE-2026-107608: Improper link resolution in asset bundling output handling in aws-cdk-lib",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-131-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-131-aws/",
-      "publishedAt": "2026-10-08T19:44:26.000Z",
-      "updatedAt": "2026-10-08T19:44:26.000Z",
-      "categories": [],
-      "services": [
-        "CDK"
-      ],
-      "tags": [
-        "cdk"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "8867bf736489e8df",
-      "title": "CVE-2026-103505 - Mount Option Injection in Amazon EFS CSI Driver",
-      "description": "Bulletin ID: 2026-120-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/01/2026 08:30 AM PDT Description: The Amazon EFS CSI Driver is a Container Storage Interface driver that allows Kubernetes clusters to use Amazon Elastic File System. We identified CVE-2026-103505, where an actor with PersistentVolume creation privileges can inject additional mount options through the mounttargetipmap volumeAttribute. Appending comma-separated values to a value inside that JSON map causes the mount utility to parse them as separate mount options. Impacted versions: >= v3.1.0 ",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-120-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/01/2026 08:30 AM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;The Amazon EFS CSI Driver is a Container Storage Interface driver that allows Kubernetes clusters to use Amazon Elastic File System. We identified CVE-2026-103505, where an actor with PersistentVolume creation privileges can inject additional mount options through the mounttargetipmap volumeAttribute. Appending comma-separated values to a value inside that JSON map causes the mount utility to parse them as separate mount options.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;= v3.1.0 AND &amp;lt;= v3.4.2&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-120-aws/",
-      "publishedAt": "2026-10-02T16:38:11.000Z",
-      "updatedAt": "2026-10-02T16:38:11.000Z",
-      "categories": [],
-      "services": [
-        "EFS"
-      ],
-      "tags": [
-        "efs"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "e15d1053d32652a5",
-      "title": "AgentCore Gateway supports private TLS certificates for VPC endpoints",
-      "description": "Amazon Bedrock AgentCore Gateway now supports TLS certificates signed by private certificate authorities (CAs) on MCP, OpenAPI, and HTTP proxy targets. This feature enables you to connect securely to gateway targets that use TLS certificates issued by your own private certificate authority. With this feature, you can establish native connections to private endpoints in your VPC without requiring an intermediate Application Load Balancer. You can register a private CA certificate with gateway targets that use private endpoints powered by Amazon VPC Lattice. The gateway fetches your PEM-encoded ",
-      "descriptionHtml": "&lt;p&gt;Amazon Bedrock AgentCore Gateway now supports TLS certificates signed by private certificate authorities (CAs) on MCP, OpenAPI, and HTTP proxy targets. This feature enables you to connect securely to gateway targets that use TLS certificates issued by your own private certificate authority. With this feature, you can establish native connections to private endpoints in your VPC without requiring an intermediate Application Load Balancer.&lt;/p&gt;\n&lt;p&gt;You can register a private CA certificate with gateway targets that use private endpoints powered by Amazon VPC Lattice. The gateway fetches your PEM-encoded CA certificate from Amazon S3 or AWS Secrets Manager and uses it as the trust anchor for outbound TLS connections. Private CA support is available for MCP server targets, OpenAPI targets, and HTTP proxy (passthrough) targets.&lt;/p&gt;\n&lt;p&gt;Support for private certificates on AgentCore Gateway is available in all Regions where both AgentCore Gateway and Amazon VPC Lattice are available. To learn more, see the &lt;a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway-vpc-egress.html#gateway-private-certificate\"&gt;AgentCore Developer Guide&lt;/a&gt;.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-private-tls-vpc/",
-      "publishedAt": "2026-10-02T08:00:00.000Z",
-      "updatedAt": "2026-10-02T08:00:00.000Z",
-      "categories": [
-        "Amazon Bedrock"
-      ],
-      "services": [
-        "VPC",
-        "Bedrock"
-      ],
-      "tags": [
-        "amazon bedrock",
-        "vpc",
-        "bedrock"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [
-        "TLS",
-        "VPC"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "5766f021291c234b",
-      "title": "CVE-2026-104002: Fail-open error handling in the data masking utility in Powertools for AWS Lambda (Python)",
-      "description": "Bulletin ID: 2026-123-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 10/01/2026 14:00 PM PDT Description: Powertools for AWS Lambda (Python) is a developer toolkit that implements serverless best practices and increases developer velocity. We identified CVE-2026-104002, a fail-open error handling issue within the data masking utility of Powertools for AWS Lambda (Python). This issue might allow actors to read sensitive field values that the application intended to mask. Impacted versions: >=3.6.0 AND Please refer to the article below for the most up-to-date and c",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-123-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 10/01/2026 14:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Powertools for AWS Lambda (Python) is a developer toolkit that implements serverless best practices and increases developer velocity. We identified CVE-2026-104002, a fail-open error handling issue within the data masking utility of Powertools for AWS Lambda (Python). This issue might allow actors to read sensitive field values that the application intended to mask.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;gt;=3.6.0 AND &amp;lt;=3.34.0&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-123-aws/",
-      "publishedAt": "2026-10-01T21:15:48.000Z",
-      "updatedAt": "2026-10-01T21:15:48.000Z",
-      "categories": [],
-      "services": [
-        "Lambda"
-      ],
-      "tags": [
-        "lambda"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "1454ff4546f36e1a",
-      "title": "AWS Service Availability Updates",
-      "description": "We're announcing availability changes to the following AWS services and features. Services moving to Maintenance Services moving to maintenance will no longer be accessible to new customers starting October 29, 2026. Customers already using these services and features can continue to do so. AWS will continue to operate and support these services and features. We recommend that customers learn about the changes in the product pages and documentation. · Amazon Chime SDK SIP Media Application · Amazon WorkSpaces Secure Browser Services entering Sunset The following services are entering sunset, a",
-      "descriptionHtml": "&lt;p&gt;We're announcing availability changes to the following AWS services and features.&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Services moving to Maintenance&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;Services moving to maintenance will no longer be accessible to new customers starting October 29, 2026. Customers already using these services and features can continue to do so. AWS will continue to operate and support these services and features. We recommend that customers learn about the changes in the product pages and documentation.&lt;/p&gt;\n&lt;p&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=\"https://docs.aws.amazon.com/chime-sdk/latest/ag/sip-applications-service-change.html\"&gt;Amazon Chime SDK SIP Media Application&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=\"https://docs.aws.amazon.com/workspaces-web/latest/adminguide/workspaces-secure-browser-maintenance-mode.html\"&gt;Amazon WorkSpaces Secure Browser&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Services entering Sunset&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;The following services are entering sunset, and we are announcing the date upon which we will end operations and support of the service. Customers using these services should click on the links below to understand the sunset timeline and begin planning migration to alternatives as recommended in the updated service web pages and documentation.&lt;/p&gt;\n&lt;p&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=\"https://docs.aws.amazon.com/managed-blockchain/latest/hyperledger-fabric-dev/managed-blockchain-end-of-support.html\"&gt;Amazon Managed Blockchain&lt;/a&gt; (end of support September 29, 2027)&lt;/p&gt;\n&lt;p&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=\"https://docs.aws.amazon.com/devops-guru/latest/userguide/devops-guru-end-of-support.html\"&gt;Amazon DevOps Guru&lt;/a&gt; (end of support September 30, 2027)&lt;/p&gt;\n&lt;p&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=\"https://docs.aws.amazon.com/sap/latest/sap-AnyDB/ase-backint-end-of-support.html\"&gt;AWS Backint Agent for SAP ASE&lt;/a&gt; (end of support September 29, 2027)&lt;/p&gt;\n&lt;p&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=\"https://docs.aws.amazon.com/infrastructure-composer/latest/dg/composer-availability-change.html\"&gt;AWS Infrastructure Composer&lt;/a&gt; (standalone console end of support December 7, 2026)&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Services reaching End of Support&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;The following services have reached end of support and are no longer available as of September 29, 2026.&lt;/p&gt;\n&lt;p&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Amazon Mechanical Turk&lt;/p&gt;\n&lt;p&gt;For customers affected by these changes, we've prepared comprehensive migration guides, and our support teams are ready to assist with your transition. Visit the AWS Product Lifecycle Page to learn more, and subscribe to the RSS feed for future updates.&lt;/p&gt;",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-service-availability/",
-      "publishedAt": "2026-09-29T16:21:00.000Z",
-      "updatedAt": "2026-09-29T16:21:00.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [
-        "access",
-        "sunset"
-      ],
-      "source": "whats-new"
-    },
-    {
-      "id": "83872b9bd672584c",
-      "title": "CVE-2026-96883 - Type confusion in AWS pgcollection allows remote code execution",
-      "description": "Bulletin ID: 2026-118-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 09/24/2026 12:00 PM PDT Description: pgcollection is an open source extension to PostgreSQL. We identified CVE-2026-96883, an issue in pgcollection's type coercion logic. When requesting a stored icollection value as a type incompatible with how it was actually stored causes the extension to misinterprets the datum's representation, allowing an authenticated database user to crash the PostgreSQL backend or execute arbitrary code. Impacted versions: pgcollection v2.0.0 through v2.1.1 Please refer",
-      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-118-AWS&lt;br&gt; &lt;b&gt;Scope:&lt;/b&gt; AWS&lt;br&gt; &lt;b&gt;Content Type:&lt;/b&gt; Important (requires attention)&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 09/24/2026 12:00 PM PDT&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;pgcollection is an open source extension to PostgreSQL. We identified CVE-2026-96883, an issue in pgcollection's type coercion logic. When requesting a stored icollection value as a type incompatible with how it was actually stored causes the extension to misinterprets the datum's representation, allowing an authenticated database user to crash the PostgreSQL backend or execute arbitrary code.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; pgcollection v2.0.0 through v2.1.1&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-118-aws/\"&gt;View article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-118-aws/",
-      "publishedAt": "2026-09-24T19:17:16.000Z",
-      "updatedAt": "2026-09-24T19:17:16.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "4d3c92565ea760f4",
-      "title": "CVE-2026-9133 - Arbitrary file read in rabbitmq-aws plugin",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-034-aws/",
-      "publishedAt": "2026-09-22T19:49:30.000Z",
-      "updatedAt": "2026-09-22T19:49:30.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "798a8eb492fb583b",
-      "title": "CVE-2026-9291 - Insecure Deserialization in Amazon Braket SDK Job Results Processing",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-036-aws/",
-      "publishedAt": "2026-09-22T19:49:30.000Z",
-      "updatedAt": "2026-09-22T19:49:30.000Z",
-      "categories": [],
-      "services": [
-        "Braket"
-      ],
-      "tags": [
-        "braket"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "263415012b61da02",
-      "title": "CVE-2026-10584 - HTTPS Fallback to HTTP in Graph Explorer",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-038-aws/",
-      "publishedAt": "2026-09-22T19:49:28.000Z",
-      "updatedAt": "2026-09-22T19:49:28.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
