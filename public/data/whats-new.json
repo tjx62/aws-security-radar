@@ -1,7 +1,206 @@
 {
-  "lastUpdated": "2026-11-24T19:23:24.610Z",
+  "lastUpdated": "2026-11-25T18:29:41.815Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "462e27eaa513c518",
+      "title": "Planning for 99.99 percent availability with the Amazon Cognito Plus feature plan",
+      "description": "Amazon Cognito handles sign-in and access control for users, AI agents, and microservices with managed user directories, social and enterprise federation, and passwordless sign-in with passkeys or one-time passwords. Sign-in is the front door to your application. If your customer identity and access management (CIAM) layer is unavailable, users can’t sign in or refresh their […]",
+      "descriptionHtml": "Amazon Cognito handles sign-in and access control for users, AI agents, and microservices with managed user directories, social and enterprise federation, and passwordless sign-in with passkeys or one-time passwords. Sign-in is the front door to your application. If your customer identity and access management (CIAM) layer is unavailable, users can’t sign in or refresh their […]",
+      "url": "https://aws.amazon.com/blogs/security/planning-for-99-99-percent-availability-with-the-amazon-cognito-plus-feature-plan/",
+      "publishedAt": "2026-11-25T17:50:39.000Z",
+      "updatedAt": "2026-11-25T17:50:39.000Z",
+      "categories": [
+        "Amazon Cognito",
+        "Intermediate (200)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Security Blog"
+      ],
+      "services": [
+        "Cognito"
+      ],
+      "tags": [
+        "amazon cognito",
+        "intermediate (200)",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "security blog",
+        "cognito"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Cognito",
+        "access",
+        "identity"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "e024a930d4118778",
+      "title": "AWS IAM extends trusted identity propagation to IAM federation and IAM Roles Anywhere, and simplifies it in IAM Identity Center",
+      "description": "Trusted identity propagation (TIP) carries the identity of a human user or workload with requests to supported AWS Services. Customers can use that identity in IAM policy conditions for access control and to identify the originating human user or workload in AWS CloudTrail. AWS is expanding TIP to AWS Identity and Access Management (IAM) federation and IAM Roles Anywhere , while simplifying the existing TIP experience in AWS IAM Identity Center. In addition, IAM outbound identity federation now enables customers to request an AWS-signed JSON Web Token (JWT) that includes identity information f",
+      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://docs.aws.amazon.com/singlesignon/latest/userguide/trustedidentitypropagation-overview.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Trusted identity propagation (TIP)&lt;/a&gt; carries the identity of a human user or workload with requests to supported AWS Services. Customers can use that identity in IAM policy conditions for access control and to identify the originating human user or workload in AWS CloudTrail. AWS is expanding TIP to &lt;a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers.html#id_roles_providers_federation\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;AWS Identity and Access Management (IAM) federation&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/rolesanywhere/latest/userguide/introduction.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;IAM Roles Anywhere&lt;/a&gt;, while simplifying the existing TIP experience in AWS IAM Identity Center. In addition, &lt;a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_outbound.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;IAM outbound identity federation&lt;/a&gt; now enables customers to request an AWS-signed JSON Web Token (JWT) that includes identity information from TIP sessions, allowing external services to identify the human user or workload that originated the request.&lt;/p&gt; \n&lt;p&gt;With TIP for IAM federation, customers can map the human or workload identity, along with optional runtime claims such as a risk score or a CI/CD workflow name, from the SAML assertion or OIDC token used for federation to the role session. IAM Roles Anywhere extends TIP to identities sourced from X.509 certificates. For IAM Identity Center, which supports workforce identities, the simplified experience adds the username, an identifier provided by your identity source, alongside the user ID that IAM Identity Center generates, and carries this information uniformly whether users access applications or AWS accounts. Across all supported paths, TIP preserves identity information as requests move between IAM roles and AWS services without requiring per-role trust policy updates.&amp;nbsp;&lt;/p&gt; \n&lt;p&gt;TIP for IAM federation, IAM Roles Anywhere, IAM outbound identity federation, and the simplified IAM Identity Center experience are available in all commercial AWS Regions, the AWS GovCloud (US) Regions, and the AWS European Sovereign Cloud (Germany) Region. To get started, see the &lt;a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_tip.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Trusted Identity Propagation for IAM documentation&lt;/a&gt;, &lt;a href=\"https://docs.aws.amazon.com/singlesignon/latest/userguide/simplified-tip-overview.html\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;Trusted Identity Propagation in IAM Identity Center documentation&lt;/a&gt;, and the&amp;nbsp;&lt;a href=\"https://aws.amazon.com/blogs/security/know-the-identity-behind-the-role-authorize-and-audit-with-trusted-identity-propagation/\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;TIP launch blog&lt;/a&gt;.&lt;/p&gt; \n&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iam/",
+      "publishedAt": "2026-11-25T06:00:00.000Z",
+      "updatedAt": "2026-11-25T06:00:00.000Z",
+      "categories": [
+        "Security Identity And Compliance"
+      ],
+      "services": [
+        "IAM",
+        "IAM Identity Center"
+      ],
+      "tags": [
+        "security identity and compliance",
+        "iam",
+        "iam identity center"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "IAM Identity Center",
+        "CloudTrail",
+        "policy",
+        "access",
+        "identity",
+        "token"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "08eacfed11d96293",
+      "title": "Introducing context-aware rules for AWS Network Firewall",
+      "description": "AWS Network Firewall now supports context-aware rules, which match traffic by the AWS resources that send and receive it instead of by IP address. A rule can name a virtual private cloud (VPC), a subnet, a security group, or a transit gateway attachment. Rules that match on IP addresses have to keep up with every […]",
+      "descriptionHtml": "AWS Network Firewall now supports context-aware rules, which match traffic by the AWS resources that send and receive it instead of by IP address. A rule can name a virtual private cloud (VPC), a subnet, a security group, or a transit gateway attachment. Rules that match on IP addresses have to keep up with every […]",
+      "url": "https://aws.amazon.com/blogs/security/introducing-context-aware-rules-for-aws-network-firewall/",
+      "publishedAt": "2026-11-25T01:19:20.000Z",
+      "updatedAt": "2026-11-25T01:19:20.000Z",
+      "categories": [
+        "Advanced (300)",
+        "Announcements",
+        "AWS Network Firewall",
+        "Launch",
+        "Technical How To",
+        "New Launch"
+      ],
+      "services": [
+        "AWS Network Firewall"
+      ],
+      "tags": [
+        "advanced (300)",
+        "announcements",
+        "aws network firewall",
+        "launch",
+        "technical how to",
+        "new launch"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Network Firewall",
+        "VPC",
+        "security",
+        "firewall",
+        "Security Group",
+        "AWS Network Firewall"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "9945b1a7d8ff2058",
+      "title": "Introducing AWS Network Firewall Next Generation policy",
+      "description": "When it comes to inspecting network traffic, many security teams want two things from a firewall. They want to allow only the traffic each application needs, and they want each allowed connection checked for known threats. Today, you can do both with AWS Network Firewall, a stateful, managed network firewall and intrusion detection and prevention […]",
+      "descriptionHtml": "When it comes to inspecting network traffic, many security teams want two things from a firewall. They want to allow only the traffic each application needs, and they want each allowed connection checked for known threats. Today, you can do both with AWS Network Firewall, a stateful, managed network firewall and intrusion detection and prevention […]",
+      "url": "https://aws.amazon.com/blogs/security/introducing-aws-network-firewall-next-generation-policy/",
+      "publishedAt": "2026-11-25T01:11:09.000Z",
+      "updatedAt": "2026-11-25T01:11:09.000Z",
+      "categories": [
+        "Advanced (300)",
+        "Announcements",
+        "AWS Network Firewall",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Security Blog"
+      ],
+      "services": [
+        "AWS Network Firewall"
+      ],
+      "tags": [
+        "advanced (300)",
+        "announcements",
+        "aws network firewall",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Network Firewall",
+        "security",
+        "policy",
+        "threat",
+        "firewall",
+        "AWS Network Firewall"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "d2ad5d9550502fba",
+      "title": "Delegate user access to AI agents with Amazon Cognito token exchange",
+      "description": "Suppose you use a restaurant review app to check reviews, book tables, and email invitations to your friends. With OAuth 2.0, the app sends you to the authorization server that your email provider trusts, where you sign in and approve only the access the app requested, such as the contacts.read and messages.send scopes. The review […]",
+      "descriptionHtml": "Suppose you use a restaurant review app to check reviews, book tables, and email invitations to your friends. With OAuth 2.0, the app sends you to the authorization server that your email provider trusts, where you sign in and approve only the access the app requested, such as the contacts.read and messages.send scopes. The review […]",
+      "url": "https://aws.amazon.com/blogs/security/delegate-user-access-to-ai-agents-with-amazon-cognito-token-exchange/",
+      "publishedAt": "2026-11-24T20:01:08.000Z",
+      "updatedAt": "2026-11-24T20:01:08.000Z",
+      "categories": [
+        "Amazon Cognito",
+        "Artificial Intelligence",
+        "Generative AI",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [
+        "Cognito"
+      ],
+      "tags": [
+        "amazon cognito",
+        "artificial intelligence",
+        "generative ai",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog",
+        "cognito"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Cognito",
+        "authorization",
+        "access",
+        "token"
+      ],
+      "source": "security-blog"
+    },
     {
       "id": "84f78d7905e4a340",
       "title": "Know the identity behind the role: Authorize and audit with trusted identity propagation",
@@ -3313,6 +3512,47 @@
       "source": "whats-new"
     },
     {
+      "id": "4cc3a305577f3c05",
+      "title": "AWS Network Firewall introduces automated internet firewall mode (Preview)",
+      "description": "AWS Network Firewall now offers automated internet firewall mode (Preview). In this mode, Network Firewall applies your centrally defined rules to traffic at the internet gateway of each of your virtual private clouds (VPCs). It also performs built-in network address translation (NAT) for outbound-only connections. A subnet that reaches the internet needs only one route, […]",
+      "descriptionHtml": "AWS Network Firewall now offers automated internet firewall mode (Preview). In this mode, Network Firewall applies your centrally defined rules to traffic at the internet gateway of each of your virtual private clouds (VPCs). It also performs built-in network address translation (NAT) for outbound-only connections. A subnet that reaches the internet needs only one route, […]",
+      "url": "https://aws.amazon.com/blogs/security/aws-network-firewall-introduces-automated-internet-firewall-mode-preview/",
+      "publishedAt": "2026-11-24T21:30:20.000Z",
+      "updatedAt": "2026-11-24T21:30:20.000Z",
+      "categories": [
+        "Announcements",
+        "AWS Network Firewall",
+        "Intermediate (200)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Security Blog"
+      ],
+      "services": [
+        "AWS Network Firewall"
+      ],
+      "tags": [
+        "announcements",
+        "aws network firewall",
+        "intermediate (200)",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 85,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "Network Firewall",
+        "firewall",
+        "AWS Network Firewall"
+      ],
+      "source": "security-blog"
+    },
+    {
       "id": "9c018097008a8a19",
       "title": "IAM Roles Anywhere now supports aliases to simplify workload configuration",
       "description": "AWS Identity and Access Management (IAM) Roles Anywhere now supports aliases, which are readable names that you assign to trust anchors, profiles, and certificate revocation lists (CRLs). Your workloads can request temporary credentials using a trust anchor or profile alias Amazon Resource Name (ARN) instead of an ARN with a system-generated ID, and you can use alias ARNs in many of the operations that manage these resources. Aliases make configurations easier to read and review: an alias ARN that ends in alias/trust-anchor/production-ca can show which certificate authority (CA) a workload use",
@@ -4255,7 +4495,7 @@
         "security blog",
         "waf"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 80,
       "securityLevel": "critical",
       "securityMatches": [
@@ -4825,6 +5065,42 @@
         "WAF",
         "security",
         "Config"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "aa732236f8de5b52",
+      "title": "AWS DevOps Agent adds Access Profiles and AWS Organizations",
+      "description": "AWS DevOps Agent now gives you more ways to govern and control your AWS DevOps Agent instances. With the new Access Profiles feature you can link IAM IDC users in your Agent Spaces to specific permission sets. For example, you can use Access Profiles to limit the ability to create or update skills and memories to a select set of users. AWS Organizations support allows you to more easily configure your Agent Space's AWS account access permissions by automatically aligning accounts in organizations with your Agent Spaces. For the list of AWS Regions where AWS DevOps Agent is available, see the s",
+      "descriptionHtml": "&lt;p&gt;AWS DevOps Agent now gives you more ways to govern and control your AWS DevOps Agent instances.&lt;/p&gt; \n&lt;p&gt;With the new Access Profiles feature you can link IAM IDC users in your Agent Spaces to specific permission sets. For example, you can use Access Profiles to limit the ability to create or update skills and memories to a select set of users. AWS Organizations support allows you to more easily configure your Agent Space's AWS account access permissions by automatically aligning accounts in organizations with your Agent Spaces.&lt;/p&gt; \n&lt;p&gt;For the list of AWS Regions where AWS DevOps Agent is available, see the &lt;a href=\"https://docs.aws.amazon.com/devopsagent/latest/userguide/about-aws-devops-agent-supported-regions.html\"&gt;&lt;u&gt;supported Regions table&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt; \n&lt;p&gt;See all the latest AWS DevOps Agent features on the &lt;a href=\"https://docs.aws.amazon.com/devopsagent/latest/userguide/whats-new.html\"&gt;&lt;u&gt;release history&lt;/u&gt;&lt;/a&gt; page.&amp;nbsp;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/devops-agent-access-profiles-orgs/",
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "updatedAt": "2026-11-23T08:00:00.000Z",
+      "categories": [
+        "AWS Organizations",
+        "AWS Govcloud Us",
+        "AWS Iam Identity Center"
+      ],
+      "services": [
+        "IAM",
+        "Organizations"
+      ],
+      "tags": [
+        "aws organizations",
+        "aws govcloud us",
+        "aws iam identity center",
+        "iam",
+        "organizations"
+      ],
+      "isNew": true,
+      "securityScore": 75,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "IAM",
+        "Config",
+        "Organizations",
+        "permission",
+        "access"
       ],
       "source": "whats-new"
     },
@@ -5777,9 +6053,9 @@
     },
     {
       "id": "a39f15289b90bace",
-      "title": "AWS Network Firewall introduces automated Internet firewall in public preview",
-      "description": "AWS Network Firewall announces the public preview of automated Internet firewall, a new centralized control that allows you to configure Network Firewall, with native network address translation (NAT) capability, on the internet gateways of all the Virtual Private Clouds (VPCs) in your environment. Using automated Internet firewall mode, you can centrally define your Network Firewall security rules and enforce them on all inbound and outbound traffic across the internet gateways of your VPCs. You are not required to make routing or architectural changes to deploy automated Internet firewall. Y",
-      "descriptionHtml": "&lt;p&gt;AWS Network Firewall announces the public preview of automated Internet firewall, a new centralized control that allows you to configure Network Firewall, with native network address translation (NAT) capability, on the internet gateways of all the Virtual Private Clouds (VPCs) in your environment. Using automated Internet firewall mode, you can centrally define your Network Firewall security rules and enforce them on all inbound and outbound traffic across the internet gateways of your VPCs. You are not required to make routing or architectural changes to deploy automated Internet firewall. You can deploy it across select VPCs or your entire account, organization or organization unit.&lt;/p&gt; \n&lt;p&gt;AWS Network Firewall is a stateful, managed, network firewall and intrusion detection and prevention service for your VPC. Customers use it to inspect their traffic and secure AWS resources. Prior to this launch, customers would configure AWS Network Firewalls inside their VPCs in the traffic path of all internet communication to achieve thorough security coverage against the threats on the internet. They deployed Network Firewall endpoints in dedicated subnets and made route updates for every subnet that needed internet access across all their VPCs. In addition, they monitored the environment to ensure that no new internet network paths bypassed these security controls. Automated Internet firewall makes this deployment and management simpler. You just define and maintain filtering rules, and AWS enforces it directly at the internet gateway of every VPC in scope, ensuring that all intended traffic entering or leaving your VPCs via the internet gateway is inspected. Automated Internet firewall comes with built-in NAT functionality for your egress-only internet connectivity needs. You can use it to filter traffic, perform NAT and log all internet activity across all internet gateways. You don't need to make architectural changes inside every VPC or monitor every internet network path. Automated Internet firewall allows you the option to automatically extend your organization's security policy to all future VPCs and subnets at creation.&lt;/p&gt; \n&lt;p&gt;To help you get started quickly, automated Internet firewall comes with a default security policy, which uses Amazon managed rule groups including active threat defense that uses AWS unique threat intelligence to protect your workloads against evolving threats on the internet. You can also create your own custom rule groups or use any of the managed rule groups from AWS Marketplace with automated Internet firewall.&lt;/p&gt; \n&lt;p&gt;AWS Network Firewall operating in automated Internet firewall mode is available in preview in all AWS Regions except AWS GovCloud and China. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/network-firewall/\"&gt;Network Firewall documentation&lt;/a&gt; and see the &lt;a href=\"https://aws.amazon.com/network-firewall/pricing\"&gt;AWS Network Firewall pricing page&lt;/a&gt;. To get started, visit the Amazon VPC or Network Security Manager console.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;",
+      "title": "AWS Network Firewall introduces automated Internet firewall (Preview)",
+      "description": "AWS Network Firewall announces the public preview of automated internet firewall (Preview), a new centralized control that allows you to configure Network Firewall, with native network address translation (NAT) capability, on the internet gateways of all the Virtual Private Clouds (VPCs) in your environment. Using automated internet firewall (Preview) mode, you can centrally define your Network Firewall security rules and enforce them on all inbound and outbound traffic across the internet gateways of your VPCs. You are not required to make routing or architectural changes to deploy automated ",
+      "descriptionHtml": "&lt;p&gt;AWS Network Firewall announces the public preview of automated internet firewall (Preview), a new centralized control that allows you to configure Network Firewall, with native network address translation (NAT) capability, on the internet gateways of all the Virtual Private Clouds (VPCs) in your environment. Using automated internet firewall (Preview) mode, you can centrally define your Network Firewall security rules and enforce them on all inbound and outbound traffic across the internet gateways of your VPCs. You are not required to make routing or architectural changes to deploy automated internet firewall (Preview). You can deploy it across select VPCs or your entire account, organization or organization unit.&lt;/p&gt; \n&lt;p&gt;AWS Network Firewall is a stateful, managed, network firewall and intrusion detection and prevention service for your VPC. Customers use it to inspect their traffic and secure AWS resources. Prior to this launch, customers would configure AWS Network Firewalls inside their VPCs in the traffic path of all internet communication to achieve thorough security coverage against the threats on the internet. They deployed Network Firewall endpoints in dedicated subnets and made route updates for every subnet that needed internet access across all their VPCs. In addition, they monitored the environment to ensure that no new internet network paths bypassed these security controls. Automated internet firewall (Preview) makes this deployment and management simpler. You just define and maintain filtering rules, and AWS enforces it directly at the internet gateway of every VPC in scope, ensuring that all intended traffic entering or leaving your VPCs via the internet gateway is inspected. Automated Internet firewall comes with built-in NAT functionality for your egress-only internet connectivity needs. You can use it to filter traffic, perform NAT and log all internet activity across all internet gateways. You don't need to make architectural changes inside every VPC or monitor every internet network path. Automated Internet firewall (Preview) allows you the option to automatically extend your organization's security policy to all future VPCs and subnets at creation.&lt;/p&gt; \n&lt;p&gt;To help you get started quickly, automated internet firewall comes with a default security policy, which uses Amazon managed rule groups including active threat defense that uses AWS unique threat intelligence to protect your workloads against evolving threats on the internet. You can also create your own custom rule groups or use any of the managed rule groups from AWS Marketplace with automated internet firewall.&lt;/p&gt; \n&lt;p&gt;AWS Network Firewall operating in automated internet firewall mode (Preview) is available in preview in all AWS Regions except MXP, AWS GovCloud, and China. To learn more, visit the &lt;a href=\"https://docs.aws.amazon.com/network-firewall/\"&gt;Network Firewall documentation&lt;/a&gt; and see the &lt;a href=\"https://aws.amazon.com/network-firewall/pricing\"&gt;AWS Network Firewall pricing page&lt;/a&gt;. To get started, visit the Amazon VPC or Network Security Manager console.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-automated-internet/",
       "publishedAt": "2026-11-20T22:38:00.000Z",
       "updatedAt": "2026-11-20T22:38:00.000Z",
@@ -5889,7 +6165,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 65,
       "securityLevel": "high",
       "securityMatches": [
@@ -6439,6 +6715,38 @@
         "token",
         "credential",
         "Secret"
+      ],
+      "source": "whats-new"
+    },
+    {
+      "id": "40de7cfaf673d5fb",
+      "title": "Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
+      "description": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber through the bedrock-runtime endpoint on Amazon Bedrock in AWS GovCloud (US). Daybreak Red is designed for advanced, authorized tasks such as vulnerability research, exploit reproduction, and mitigation development. For these tasks, a lower refusal threshold, matched by stronger identity verification, monitoring, and access controls, improves the speed and depth of an investigation. Your inference data is not used for model training, and you are not required to opt in to sharing your data wit",
+      "descriptionHtml": "&lt;p&gt;Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber through the bedrock-runtime endpoint on Amazon Bedrock in AWS GovCloud (US).&lt;br&gt; &lt;br&gt; Daybreak Red is designed for advanced, authorized tasks such as vulnerability research, exploit reproduction, and mitigation development. For these tasks, a lower refusal threshold, matched by stronger identity verification, monitoring, and access controls, improves the speed and depth of an investigation. Your inference data is not used for model training, and you are not required to opt in to sharing your data with OpenAI.&lt;br&gt; &lt;br&gt; On the bedrock-runtime endpoint, the model is available through the US Gov Geo cross-Region inference (CRIS) profile. Access to the model requires enrollment in &lt;a href=\"https://openai.com/form/enterprise-trusted-access-for-cyber/\"&gt;Daybreak access&lt;/a&gt; from OpenAI. To enroll, contact OpenAI or reach out to your AWS account team for guidance on eligibility. Once approved, work with your account team to request access on AWS. For regional availability through the bedrock-mantle endpoint and more information, view the&lt;a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-cyber.html\"&gt; documentation.&lt;/a&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/gpt-daybreak-red-runtime-govcloud/",
+      "publishedAt": "2026-11-24T21:27:00.000Z",
+      "updatedAt": "2026-11-24T21:27:00.000Z",
+      "categories": [
+        "Amazon Bedrock",
+        "AWS Govcloud Us"
+      ],
+      "services": [
+        "Bedrock"
+      ],
+      "tags": [
+        "amazon bedrock",
+        "aws govcloud us",
+        "bedrock"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "security",
+        "vulnerability",
+        "monitoring",
+        "access",
+        "identity"
       ],
       "source": "whats-new"
     },
@@ -9370,7 +9678,7 @@
         "security blog",
         "bedrock"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 45,
       "securityLevel": "medium",
       "securityMatches": [],
@@ -10729,6 +11037,53 @@
       "source": "security-blog"
     },
     {
+      "id": "a6218a30eacafb78",
+      "title": "CVE-2026-135614 - Sensitive data redaction bypass in the troubleshooting tool in Amazon ECS MCP Server",
+      "description": "Bulletin ID: 2026-200-AWS Publication Date: 11/24/2026 11:00 AM PST Description: Amazon ECS MCP Server is an open-source Model Context Protocol server that lets AI agents and assistants manage and troubleshoot Amazon ECS workloads using the operator's AWS credentials. We identified CVE-2026-135614, an issue in the troubleshooting tool of the Amazon ECS MCP Server (awslabs.ecs-mcp-server) before 0.1.36. With the sensitive data setting at its default, the troubleshooting tool returned container environment variable values and secret references from ECS task definitions without the redaction the ",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-200-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/24/2026 11:00 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Amazon ECS MCP Server is an open-source Model Context Protocol server that lets AI agents and assistants manage and troubleshoot Amazon ECS workloads using the operator's AWS credentials.&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-135614, an issue in the troubleshooting tool of the Amazon ECS MCP Server (awslabs.ecs-mcp-server) before 0.1.36. With the sensitive data setting at its default, the troubleshooting tool returned container environment variable values and secret references from ECS task definitions without the redaction the setting is intended to apply. This might allow a remote actor who can influence the agent's input, for example through prompt injection, to obtain those values.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; &amp;lt; 0.1.36&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-200-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-200-aws/",
+      "publishedAt": "2026-11-24T19:27:19.000Z",
+      "updatedAt": "2026-11-24T19:27:19.000Z",
+      "categories": [],
+      "services": [
+        "ECS"
+      ],
+      "tags": [
+        "ecs"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "credential",
+        "Secret"
+      ],
+      "source": "security-bulletin"
+    },
+    {
+      "id": "4198133d93817124",
+      "title": "CVE-2026-135414 - Server-side request forgery in snapshot repository registration in Amazon OpenSearch Service",
+      "description": "Bulletin ID: 2026-201-AWS Publication Date: 11/24/2026 11:15 AM PST Description: Amazon OpenSearch Service is a managed service for deploying, operating, and scaling OpenSearch clusters in the AWS Cloud. We identified CVE-2026-135414, an issue in snapshot repository registration in Amazon OpenSearch Service. A user with snapshot management permissions on a domain could set a repository endpoint that caused the domain's service-operated nodes to send requests to network destinations that the user specified. This issue is addressed in service software R20260720. We recommend that customers updat",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-201-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/24/2026 11:15 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Amazon OpenSearch Service is a managed service for deploying, operating, and scaling OpenSearch clusters in the AWS Cloud.&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-135414, an issue in snapshot repository registration in Amazon OpenSearch Service. A user with snapshot management permissions on a domain could set a repository endpoint that caused the domain's service-operated nodes to send requests to network destinations that the user specified. This issue is addressed in service software R20260720. We recommend that customers update their domains to R20260720 or later.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; Amazon OpenSearch Service service software before R20260720&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-201-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-201-aws/",
+      "publishedAt": "2026-11-24T19:27:19.000Z",
+      "updatedAt": "2026-11-24T19:27:19.000Z",
+      "categories": [],
+      "services": [
+        "OpenSearch"
+      ],
+      "tags": [
+        "opensearch"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "permission"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "bf10f01d83195e41",
       "title": "CVE-2026-134066 - Query injection via schema-derived identifiers in Graph Explorer",
       "description": "Bulletin ID: 2026-199-AWS Publication Date: 11/24/2026 10:30 AM PST Description: Graph Explorer is an open-source tool for browsing and searching graph data, which customers self-host against Amazon Neptune or other graph databases. We identified CVE-2026-134066, an issue in the query construction of Graph Explorer before version 3.2.1. Graph Explorer inserted property keys and labels read from the connected graph database into Gremlin, openCypher and SPARQL query text without escaping. A user with write access to the connected graph database could create a crafted property key or label that, ",
@@ -10746,6 +11101,34 @@
         "access"
       ],
       "source": "security-bulletin"
+    },
+    {
+      "id": "ae00d504d79a403a",
+      "title": "AWS Quick adds identity-aware access via 3LO for Snowflake and Databricks structured data sources",
+      "description": "AWS Quick now supports three-legged OAuth (3LO) with end-user permissions for Snowflake and Databricks. When end users in AWS Quick consume Chat, interactive dashboards, or Apps, queries run using their own Snowflake or Databricks identity. Governance policies configured in Snowflake or Databricks Unity Catalog, including applicable row- and column-level controls and access to tables and views, are enforced by the source platform without requiring teams to recreate those policies in Quick. To get started, an administrator adds an OAuth client application in Quick account settings. Data curator",
+      "descriptionHtml": "&lt;p&gt;AWS Quick now supports three-legged OAuth (3LO) with end-user permissions for Snowflake and Databricks.&amp;nbsp;When end users in AWS Quick consume Chat, interactive dashboards, or Apps, queries run using their own Snowflake or Databricks identity. Governance policies configured in Snowflake or Databricks Unity Catalog, including applicable row- and column-level controls and access to tables and views, are enforced by the source platform without requiring teams to recreate those policies in Quick.&lt;/p&gt; \n&lt;p&gt;To get started, an administrator adds an OAuth client application in Quick account settings. Data curators then create a Snowflake or Databricks data source, choose 3LO, and turn on trusted identity propagation so each user's identity is passed to the source. End-user permissions through 3LO are supported only for DirectQuery datasets.&lt;/p&gt; \n&lt;p&gt;This feature is available in Quick regions &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html\"&gt;here&lt;/a&gt;. To learn more, see &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/connecting-to-snowflake.html\"&gt;Using Snowflake with AWS Quick&lt;/a&gt; and &lt;a href=\"https://docs.aws.amazon.com/quick/latest/userguide/catalog-integration-databricks-3lo.html\"&gt;Setting up identity enforcement with Databricks 3LO&lt;/a&gt;.&lt;/p&gt;",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-snowflake-databricks-3lo-end-user-permissions/",
+      "publishedAt": "2026-11-23T17:00:00.000Z",
+      "updatedAt": "2026-11-23T17:00:00.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "Analytics"
+      ],
+      "services": [],
+      "tags": [
+        "artificial intelligence",
+        "analytics"
+      ],
+      "isNew": true,
+      "securityScore": 40,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Config",
+        "permission",
+        "access",
+        "identity"
+      ],
+      "source": "whats-new"
     },
     {
       "id": "fd8898dedddf6c26",
@@ -12125,7 +12508,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 35,
       "securityLevel": "high",
       "securityMatches": [
@@ -12646,6 +13029,23 @@
         "access"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "25382748573c1389",
+      "title": "CVE-2026-136267 - Improper neutralization of special elements used in an OS command in Kiro Web",
+      "description": "Bulletin ID: 2026-202-AWS Publication Date: 11/25/2026 09:00 AM PST Description: Kiro Web is a cloud-hosted, AI-powered integrated development environment where subscribers use AI agents to work on software development tasks in the browser. We are aware of CVE-2026-136267, an issue in Kiro Web where tool-call markup inside content an agent session read, such as a repository file or a web page, could be repeated by certain models and run as a command in the subscriber's hosted development environment without a consent prompt. The issue affected agent sessions using DeepSeek v3.2, GLM-5, MiniMax",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-202-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/25/2026 09:00 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;Kiro Web is a cloud-hosted, AI-powered integrated development environment where subscribers use AI agents to work on software development tasks in the browser.&lt;/p&gt; \n&lt;p&gt;We are aware of CVE-2026-136267, an issue in Kiro Web where tool-call markup inside content an agent session read, such as a repository file or a web page, could be repeated by certain models and run as a command in the subscriber's hosted development environment without a consent prompt. The issue affected agent sessions using DeepSeek v3.2, GLM-5, MiniMax M2.1, MiniMax M2.5, or Qwen3-coder-next from 2026-05-18 through 2026-10-30.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; Kiro Web before 2026-10-30&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-202-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-202-aws/",
+      "publishedAt": "2026-11-25T17:08:36.000Z",
+      "updatedAt": "2026-11-25T17:08:36.000Z",
+      "categories": [],
+      "services": [],
+      "tags": [],
+      "isNew": true,
+      "securityScore": 30,
+      "securityLevel": "high",
+      "securityMatches": [],
+      "source": "security-bulletin"
     },
     {
       "id": "2022ac0ba21f6a1c",
@@ -14545,226 +14945,6 @@
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-020-aws/",
       "publishedAt": "2026-10-19T18:12:55.000Z",
       "updatedAt": "2026-10-19T18:12:55.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "49b34cbfcdb7e60c",
-      "title": "Issues with Amazon Athena ODBC Driver",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-013-aws/",
-      "publishedAt": "2026-10-19T18:12:55.000Z",
-      "updatedAt": "2026-10-19T18:12:55.000Z",
-      "categories": [],
-      "services": [
-        "Athena"
-      ],
-      "tags": [
-        "athena"
-      ],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "a60f75db27a85b81",
-      "title": "Issue with AWS Ops Wheel (CVE-2026-6911 and CVE-2026-6912",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-018-aws/",
-      "publishedAt": "2026-10-19T18:12:55.000Z",
-      "updatedAt": "2026-10-19T18:12:55.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "2192aebc3f05c4ce",
-      "title": "CVE-2026-6437 - Mount Option Injection in Amazon EFS CSI Driver",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-016-aws/",
-      "publishedAt": "2026-10-19T18:12:55.000Z",
-      "updatedAt": "2026-10-19T18:12:55.000Z",
-      "categories": [],
-      "services": [
-        "EFS"
-      ],
-      "tags": [
-        "efs"
-      ],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "dd07367dde48e94b",
-      "title": "CVE-2026-5190 - AWS C Event Stream Streaming Decoder Stack Buffer Overflow",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-011-aws/",
-      "publishedAt": "2026-10-19T18:12:55.000Z",
-      "updatedAt": "2026-10-19T18:12:55.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "1db3d218ac5b206c",
-      "title": "CVE-2026-109587 &amp; CVE-2026-109588 - Issue with FreeRTOS-Kernel",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-138-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-138-aws/",
-      "publishedAt": "2026-10-16T17:37:47.000Z",
-      "updatedAt": "2026-10-16T17:37:47.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "6b255564a9d124f0",
-      "title": "CVE-2026-102551 &amp; CVE-2026-102552 - Issue with FreeRTOS-Plus-TCP",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-139-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-139-aws/",
-      "publishedAt": "2026-10-16T17:37:47.000Z",
-      "updatedAt": "2026-10-16T17:37:47.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "de66877a8ec1db33",
-      "title": "Issue in the Linux kernel virtio-net/TAP networking path affecting KVM-based hypervisors",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-137-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-137-aws/",
-      "publishedAt": "2026-10-15T19:03:20.000Z",
-      "updatedAt": "2026-10-15T19:03:20.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "24f06b65292795af",
-      "title": "CVE-2026-110812 - Deserialization of untrusted data in the Gremlin graph-import path in Amazon Neptune",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-136-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-136-aws/",
-      "publishedAt": "2026-10-15T16:41:28.000Z",
-      "updatedAt": "2026-10-15T16:41:28.000Z",
-      "categories": [],
-      "services": [
-        "Neptune"
-      ],
-      "tags": [
-        "neptune"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "bc78bb6705a8d632",
-      "title": "CVE-2026-110248 - Insertion of sensitive information into log files in Amazon SageMaker Python SDK",
-      "description": "Read this article",
-      "descriptionHtml": "&lt;p&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-134-aws/\"&gt;Read this article&lt;/a&gt;&lt;/p&gt;",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-134-aws/",
-      "publishedAt": "2026-10-14T18:38:55.000Z",
-      "updatedAt": "2026-10-14T18:38:55.000Z",
-      "categories": [],
-      "services": [
-        "SageMaker"
-      ],
-      "tags": [
-        "sagemaker"
-      ],
-      "isNew": false,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "d11fd8e2495ff267",
-      "title": "CVE-2026-15957 - Uncontrolled recursion in smithy-rs generated JSON, CBOR, and XML deserializers allows unauthenticated remote denial of service via recursive shapes",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-061-aws/",
-      "publishedAt": "2026-10-14T18:38:44.000Z",
-      "updatedAt": "2026-10-14T18:38:44.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "28bbe3f7ab0b9162",
-      "title": "CVE-2026-14904 - Improper Link Resolution in Auth.GetUserPrivateKey in AWS Research and Engineering Studio",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-053-aws/",
-      "publishedAt": "2026-10-14T18:38:31.000Z",
-      "updatedAt": "2026-10-14T18:38:31.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "e38c84e2360c006f",
-      "title": "CVE-2026-10740 - Excessive memory allocation in s2n-quic",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-042-aws/",
-      "publishedAt": "2026-10-14T18:38:30.000Z",
-      "updatedAt": "2026-10-14T18:38:30.000Z",
       "categories": [],
       "services": [],
       "tags": [],
