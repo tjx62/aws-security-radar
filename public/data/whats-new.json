@@ -1,7 +1,98 @@
 {
-  "lastUpdated": "2026-11-25T18:29:41.815Z",
+  "lastUpdated": "2026-11-26T18:11:23.028Z",
   "itemCount": 500,
   "items": [
+    {
+      "id": "a9abef4a6b2bb26b",
+      "title": "Secure agentic access to AWS with Enterprise-Managed Authorization",
+      "description": "AWS Sign-In is introducing support for Enterprise-Managed Authorization (EMA) using the Identity Assertion JWT Authorization Grant (ID-JAG), enabling organizations to securely authorize AI agents to access AWS MCP Server through their existing enterprise identity providers (IdPs), such as Okta. With this capability, organizations can centrally manage which applications can access Amazon Web Services (AWS) resources […]",
+      "descriptionHtml": "AWS Sign-In is introducing support for Enterprise-Managed Authorization (EMA) using the Identity Assertion JWT Authorization Grant (ID-JAG), enabling organizations to securely authorize AI agents to access AWS MCP Server through their existing enterprise identity providers (IdPs), such as Okta. With this capability, organizations can centrally manage which applications can access Amazon Web Services (AWS) resources […]",
+      "url": "https://aws.amazon.com/blogs/security/secure-agentic-access-to-aws-with-enterprise-managed-authorization/",
+      "publishedAt": "2026-11-25T21:00:37.000Z",
+      "updatedAt": "2026-11-25T21:00:37.000Z",
+      "categories": [
+        "Artificial Intelligence",
+        "AWS Identity And Access Management (IAM)",
+        "Developer Tools",
+        "Intermediate (200)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "AWS IAM",
+        "Security Blog"
+      ],
+      "services": [
+        "IAM"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "aws identity and access management (iam)",
+        "developer tools",
+        "intermediate (200)",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "aws iam",
+        "security blog",
+        "iam"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "authorization",
+        "Organizations",
+        "access",
+        "identity",
+        "IAM"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "9a2e71f82a7e92a3",
+      "title": "Reduce operational overhead by migrating from AWS CloudHSM to AWS KMS",
+      "description": "AWS Key Management Service (AWS KMS) supports the security certifications, algorithms, and performance that most AWS CloudHSM workloads require. Organizations that migrate from AWS CloudHSM to AWS KMS have significantly reduced costs while eliminating hardware security module (HSM) provisioning, patching, and high-availability management. For a detailed comparison of both services, see AWS KMS or AWS […]",
+      "descriptionHtml": "AWS Key Management Service (AWS KMS) supports the security certifications, algorithms, and performance that most AWS CloudHSM workloads require. Organizations that migrate from AWS CloudHSM to AWS KMS have significantly reduced costs while eliminating hardware security module (HSM) provisioning, patching, and high-availability management. For a detailed comparison of both services, see AWS KMS or AWS […]",
+      "url": "https://aws.amazon.com/blogs/security/reduce-operational-overhead-by-migrating-from-aws-cloudhsm-to-aws-kms/",
+      "publishedAt": "2026-11-25T19:54:52.000Z",
+      "updatedAt": "2026-11-25T19:54:52.000Z",
+      "categories": [
+        "AWS CloudHSM",
+        "AWS Key Management Service",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [
+        "KMS",
+        "CloudHSM"
+      ],
+      "tags": [
+        "aws cloudhsm",
+        "aws key management service",
+        "security",
+        "identity",
+        "& compliance",
+        "security blog",
+        "kms",
+        "cloudhsm"
+      ],
+      "isNew": true,
+      "securityScore": 100,
+      "securityLevel": "critical",
+      "securityMatches": [
+        "CloudHSM",
+        "KMS",
+        "security",
+        "Organizations",
+        "patch",
+        "migrate"
+      ],
+      "source": "security-blog"
+    },
     {
       "id": "462e27eaa513c518",
       "title": "Planning for 99.99 percent availability with the Amazon Cognito Plus feature plan",
@@ -4288,8 +4379,8 @@
     {
       "id": "186773123d8dc0e9",
       "title": "Introducing AWS WAF simplified pricing",
-      "description": "Starting today, AWS WAF pricing is easier to predict. Your bill is now based on three dimensions: the resources you protect, the traffic AWS WAF inspects, and the level of protection you apply to that traffic. Existing AWS WAF customers move to the new pricing on February 1, 2027. Until then, you keep your current […]",
-      "descriptionHtml": "Starting today, AWS WAF pricing is easier to predict. Your bill is now based on three dimensions: the resources you protect, the traffic AWS WAF inspects, and the level of protection you apply to that traffic. Existing AWS WAF customers move to the new pricing on February 1, 2027. Until then, you keep your current […]",
+      "description": "November 25, 2026: We’ve updated this post to clarify the date customers will see changes. AWS WAF pricing is changing to make your bill easier to predict. Starting February 1, 2027, your bill will be based on three dimensions: the resources you protect, the traffic AWS WAF inspects, and the level of protection you apply […]",
+      "descriptionHtml": "November 25, 2026: We’ve updated this post to clarify the date customers will see changes. AWS WAF pricing is changing to make your bill easier to predict. Starting February 1, 2027, your bill will be based on three dimensions: the resources you protect, the traffic AWS WAF inspects, and the level of protection you apply […]",
       "url": "https://aws.amazon.com/blogs/security/introducing-aws-waf-simplified-pricing/",
       "publishedAt": "2026-11-23T20:35:03.000Z",
       "updatedAt": "2026-11-23T20:35:03.000Z",
@@ -5459,6 +5550,36 @@
         "identity"
       ],
       "source": "whats-new"
+    },
+    {
+      "id": "ea2c52f4f810c345",
+      "title": "ICYMI: October 2026 @AWS Security",
+      "description": "Welcome to this month’s AWS Security news! Organizations need current information about AWS Security developments to maintain their cloud security. This monthly digest covers key AWS Security updates. Each month, we compile new announcements, features, and resources to help you improve your security. Based on AWS Security developments, you’ll find expert perspectives in blogs, announcements […]",
+      "descriptionHtml": "Welcome to this month’s AWS Security news! Organizations need current information about AWS Security developments to maintain their cloud security. This monthly digest covers key AWS Security updates. Each month, we compile new announcements, features, and resources to help you improve your security. Based on AWS Security developments, you’ll find expert perspectives in blogs, announcements […]",
+      "url": "https://aws.amazon.com/blogs/security/icymi-october-2026-aws-security/",
+      "publishedAt": "2026-11-25T23:04:26.000Z",
+      "updatedAt": "2026-11-25T23:04:26.000Z",
+      "categories": [
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "security",
+        "identity",
+        "& compliance",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 70,
+      "securityLevel": "high",
+      "securityMatches": [
+        "security",
+        "Organizations"
+      ],
+      "source": "security-blog"
     },
     {
       "id": "c0889f019a085014",
@@ -6719,6 +6840,31 @@
       "source": "whats-new"
     },
     {
+      "id": "1267b389a5c8d966",
+      "title": "CVE-2026-134070 - Improper input sanitization in the AWS Config remediation runbook AWSConfigRemediation-EnableSystemsManagerSessionManagerAuditLogsToS3",
+      "description": "Bulletin ID: 2026-203-AWS Publication Date: 11/25/2026 11:30 AM PST Description: AWS Systems Manager Automation provides AWS-managed runbooks that customers can run directly or through integrations such as AWS Config remediation. Session Manager, a capability of AWS Systems Manager, stores each account's regional session preferences in the SSM-SessionManagerRunShell document. We identified CVE-2026-134070, where improper input validation in the AWS-managed AWS Systems Manager Automation runbook AWSConfigRemediation-EnableSystemsManagerSessionManagerAuditLogsToS3 might allow an authenticated re",
+      "descriptionHtml": "&lt;p&gt;&lt;b&gt;Bulletin ID:&lt;/b&gt; 2026-203-AWS&lt;br&gt; &lt;b&gt;Publication Date:&lt;/b&gt; 11/25/2026 11:30 AM PST&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;&lt;/p&gt; \n&lt;p&gt;AWS Systems Manager Automation provides AWS-managed runbooks that customers can run directly or through integrations such as AWS Config remediation. Session Manager, a capability of AWS Systems Manager, stores each account's regional session preferences in the SSM-SessionManagerRunShell document.&lt;/p&gt; \n&lt;p&gt;We identified CVE-2026-134070, where improper input validation in the AWS-managed AWS Systems Manager Automation runbook AWSConfigRemediation-EnableSystemsManagerSessionManagerAuditLogsToS3 might allow an authenticated remote user who is permitted to run the runbook to set unintended configuration in the account's Regional Session Manager preferences document (SSM-SessionManagerRunShell) via a crafted S3KeyPrefix parameter value. This applies only when that document does not already exist in the Region. The unintended configuration can include arbitrary commands, which then run on managed instances when other users start Session Manager sessions.&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;Impacted versions:&lt;/b&gt; Revisions created before 2026-10-22 (UTC)&lt;/p&gt; \n&lt;p&gt;&lt;b&gt;&lt;a href=\"https://aws.amazon.com/security/security-bulletins/2026-203-aws/\"&gt;Refer to the article&lt;/a&gt; for the most up-to-date and complete information.&lt;/b&gt;&lt;/p&gt;",
+      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-203-aws/",
+      "publishedAt": "2026-11-25T19:41:20.000Z",
+      "updatedAt": "2026-11-25T19:41:20.000Z",
+      "categories": [],
+      "services": [
+        "Config"
+      ],
+      "tags": [
+        "config"
+      ],
+      "isNew": true,
+      "securityScore": 60,
+      "securityLevel": "high",
+      "securityMatches": [
+        "Config",
+        "Systems Manager",
+        "audit"
+      ],
+      "source": "security-bulletin"
+    },
+    {
       "id": "40de7cfaf673d5fb",
       "title": "Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
       "description": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber through the bedrock-runtime endpoint on Amazon Bedrock in AWS GovCloud (US). Daybreak Red is designed for advanced, authorized tasks such as vulnerability research, exploit reproduction, and mitigation development. For these tasks, a lower refusal threshold, matched by stronger identity verification, monitoring, and access controls, improves the speed and depth of an investigation. Your inference data is not used for model training, and you are not required to opt in to sharing your data wit",
@@ -7827,6 +7973,41 @@
       "securityLevel": "high",
       "securityMatches": [
         "security"
+      ],
+      "source": "security-blog"
+    },
+    {
+      "id": "249411813f61e019",
+      "title": "Make post-quantum cryptography updates routine with AWS-LC",
+      "description": "As your organization plans upgrades to post-quantum cryptography (PQC), you should also think about cryptographic agility to more easily update algorithms used to protect your data. Changes to cryptography and related protocols aren’t new, but PQC is accelerating the pace at which organizations must add new algorithms and remove old ones to keep up with […]",
+      "descriptionHtml": "As your organization plans upgrades to post-quantum cryptography (PQC), you should also think about cryptographic agility to more easily update algorithms used to protect your data. Changes to cryptography and related protocols aren’t new, but PQC is accelerating the pace at which organizations must add new algorithms and remove old ones to keep up with […]",
+      "url": "https://aws.amazon.com/blogs/security/make-post-quantum-cryptography-updates-routine-with-aws-lc/",
+      "publishedAt": "2026-11-26T00:15:29.000Z",
+      "updatedAt": "2026-11-26T00:15:29.000Z",
+      "categories": [
+        "Expert (400)",
+        "Security",
+        "Identity",
+        "& Compliance",
+        "Technical How To",
+        "Post Quantum Cryptography",
+        "Security Blog"
+      ],
+      "services": [],
+      "tags": [
+        "expert (400)",
+        "security",
+        "identity",
+        "& compliance",
+        "technical how to",
+        "post quantum cryptography",
+        "security blog"
+      ],
+      "isNew": true,
+      "securityScore": 55,
+      "securityLevel": "medium",
+      "securityMatches": [
+        "Organizations"
       ],
       "source": "security-blog"
     },
@@ -13198,7 +13379,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 30,
       "securityLevel": "high",
       "securityMatches": [],
@@ -14860,91 +15041,6 @@
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-029-aws/",
       "publishedAt": "2026-10-19T18:13:10.000Z",
       "updatedAt": "2026-10-19T18:13:10.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "2b47d6d1ef1cba99",
-      "title": "Ongoing updates on Copy.fail and variants",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
-      "publishedAt": "2026-10-19T18:13:10.000Z",
-      "updatedAt": "2026-10-19T18:13:10.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "ee36c7e09a803f32",
-      "title": "Issue with FreeRTOS-Plus-TCP - MAC Address Validation Bypass and ICMP Echo Reply Integer Underflow",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-021-aws/",
-      "publishedAt": "2026-10-19T18:12:55.000Z",
-      "updatedAt": "2026-10-19T18:12:55.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "fb19190cc1b16aa0",
-      "title": "Issues with AWS Research and Engineering Studio (RES)",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-014-aws/",
-      "publishedAt": "2026-10-19T18:12:55.000Z",
-      "updatedAt": "2026-10-19T18:12:55.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "62f0af1c4fc62a51",
-      "title": "CVE-2026-7424 - Integer Underflow in DHCPv6 Sub-Option Parser in FreeRTOS-Plus-TCP",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-022-aws/",
-      "publishedAt": "2026-10-19T18:12:55.000Z",
-      "updatedAt": "2026-10-19T18:12:55.000Z",
-      "categories": [],
-      "services": [],
-      "tags": [],
-      "isNew": true,
-      "securityScore": 30,
-      "securityLevel": "high",
-      "securityMatches": [],
-      "source": "security-bulletin"
-    },
-    {
-      "id": "875c6264b0cd33e5",
-      "title": "CVE-2026-7191- Arbitrary Code Execution via Sandbox Bypass in QnABot on AWS",
-      "description": "",
-      "descriptionHtml": "",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-020-aws/",
-      "publishedAt": "2026-10-19T18:12:55.000Z",
-      "updatedAt": "2026-10-19T18:12:55.000Z",
       "categories": [],
       "services": [],
       "tags": [],
