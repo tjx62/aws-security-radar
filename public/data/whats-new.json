@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T18:11:23.028Z",
+  "lastUpdated": "2026-11-27T17:54:11.995Z",
   "itemCount": 500,
   "items": [
     {
@@ -479,7 +479,7 @@
         "guardduty",
         "security hub"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 100,
       "securityLevel": "critical",
       "securityMatches": [
@@ -2756,7 +2756,7 @@
         "security blog",
         "waf"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 95,
       "securityLevel": "critical",
       "securityMatches": [
@@ -3275,7 +3275,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 90,
       "securityLevel": "critical",
       "securityMatches": [
@@ -3340,7 +3340,7 @@
       "tags": [
         "s3"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 90,
       "securityLevel": "critical",
       "securityMatches": [
@@ -5643,7 +5643,7 @@
         "& compliance",
         "security blog"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 70,
       "securityLevel": "high",
       "securityMatches": [
@@ -6958,7 +6958,7 @@
         "thought leadership",
         "security blog"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 60,
       "securityLevel": "high",
       "securityMatches": [
@@ -8090,7 +8090,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 55,
       "securityLevel": "medium",
       "securityMatches": [
@@ -9075,7 +9075,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 50,
       "securityLevel": "medium",
       "securityMatches": [
@@ -11341,7 +11341,7 @@
       "categories": [],
       "services": [],
       "tags": [],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 40,
       "securityLevel": "high",
       "securityMatches": [
@@ -12632,7 +12632,7 @@
         "aws cloudformation stacksets",
         "cloudformation"
       ],
-      "isNew": true,
+      "isNew": false,
       "securityScore": 35,
       "securityLevel": "high",
       "securityMatches": [
